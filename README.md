@@ -45,3 +45,8 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 
 ## Project Report Collaboration Insights
+
+- URL del repositorio para el Project Report:
+
+<!-- \-\- Enlace pendiente de agregar por el equipo y capturas sobre el avance en el git hub. \-\- -->
+
