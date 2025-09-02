@@ -59,6 +59,23 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
 
+## Student Outcome
+
+### ABET – EAC - Student Outcome 5
+
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| **Dimensión**                    | **Criterio**                                                                                                             | **Italo Sebastian Verona Flores** | **Integrante 2** | **Integrante 3** | **Integrante 4** | **Integrante 5** |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------|------------------|------------------|------------------|
+| **Liderazgo**                    | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo.                       | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
+| **Ambiente Inclusivo**           | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos crean un entorno de colaboración e inclusivo. | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
+| **Establecimiento de Objetivos** | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos establecen objetivos.                         | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
+| **Planificación de Tareas**      | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos planifican tareas.                            | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
+| **Cumplimiento de Objetivos**    | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos cumplen objetivos.                            | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
+
+
 # **Capítulo I: Introducción**
 
 ## 1.1. Startup Profile
