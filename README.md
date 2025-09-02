@@ -1,26 +1,21 @@
 <div align="center">
 
-![logoUni.png](assets/logoUni.png)
+![UPC-Logo.png](assets/UPC-Logo.png)
 
 # Universidad Peruana de Ciencias Aplicadas
 ## Carrera: Ingeniería de Software
 ## Ciclo: 2025 - 2
 
----
 
 ## Curso: 1ASI0730 - Aplicaciones Web
 ## NRC: 7454
 ## Profesor: Angel Augusto Velasquez Nuñez
-
----
 
 # Informe de Trabajo Final
 ## Startup: Edgerunners
 ## Producto: Smart Stay
 
 </div>
-
----
 
 <div align="center">
 
