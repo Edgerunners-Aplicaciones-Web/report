@@ -61,21 +61,18 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
 ### ABET – EAC - Student Outcome 5
 
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5
 
-| **Dimensión**                    | **Criterio**                                                                                                             | **Italo Sebastian Verona Flores** | **Integrante 2** | **Integrante 3** | **Integrante 4** | **Integrante 5** |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------|------------------|------------------|------------------|
-| **Liderazgo**                    | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo.                       | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
-| **Ambiente Inclusivo**           | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos crean un entorno de colaboración e inclusivo. | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
-| **Establecimiento de Objetivos** | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos establecen objetivos.                         | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
-| **Planificación de Tareas**      | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos planifican tareas.                            | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
-| **Cumplimiento de Objetivos**    | La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos cumplen objetivos.                            | Acción de I1                      | Acción de I2     | Acción de I3     | Acción de I4     | Acción de I5     |
-
-
+| Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                          |
+|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
 # **Capítulo I: Introducción**
 
 ## 1.1. Startup Profile
