@@ -138,7 +138,29 @@ Nuestro servicio de gestión hotelera busca optimizar la experiencia tanto del p
 
 Hemos observado un factor crítico que afecta la eficiencia operativa: la gestión manual de habitaciones y servicios que genera ineficiencias, errores en la disponibilidad y falta de personalización en tiempo real. Actualmente, el personal debe verificar manualmente el estado de las habitaciones, coordinar servicios de limpieza y atender solicitudes de huéspedes sin un sistema centralizado que permita automatización y monitoreo en tiempo real.
 
-### 1.2.2.2. Lean UX Assumptions
+**Business Outcome:**
+
+Objective (O): Mejorar la eficiencia operativa del hotel en el primer ciclo de 4 meses.
+Key Results (KR):
+
+Reducir en 15% el tiempo promedio de check-in y check-out.
+
+Disminuir en 10% los costos de operación relacionados a procesos manuales.
+
+Alcanzar al menos 80% de adopción del sistema por parte del personal administrativo en tareas diarias.
+
+**User Outcome:**
+
+Objective (O): Brindar una experiencia de gestión más rápida y clara para huéspedes y personal.
+Key Results (KR):
+
+Lograr que los huéspedes completen su check-in digital en menos de 3 minutos.
+
+Obtener una calificación de satisfacción de usuarios (NPS o encuesta) de al menos 8/10 en la nueva experiencia de registro.
+
+Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digital sin necesidad de asistencia del personal.
+
+#### 1.2.2.2. Lean UX Assumptions
 
 1. Creo que mis clientes necesitan
 Una solución integral de gestión hotelera que automatice procesos operativos, optimice el uso de recursos y proporcione una experiencia personalizada a los huéspedes mediante tecnología IoT.
@@ -183,10 +205,127 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 
 12. ¿Qué otras suposiciones tenemos que, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?
 
-**Supuestos Críticos de Alto Riesgo:**
-- Los hoteles tienen infraestructura WiFi suficiente para soportar dispositivos IoT
-- Los huéspedes están dispuestos a interactuar con tecnología durante su estancia
-- El personal hotelero puede adaptarse a herramientas digitales sin resistencia significativa
-- Los dispositivos IoT tendrán una vida útil de al menos 3-5 años
-- Las regulaciones de privacidad y seguridad no impedirán la recolección de datos de habitaciones
-- El retorno de inversión será visible en los primeros 6-12 meses de implementación
+    - Los hoteles tienen infraestructura WiFi suficiente para soportar dispositivos IoT
+    - Los huéspedes están dispuestos a interactuar con tecnología durante su estancia
+    - El personal hotelero puede adaptarse a herramientas digitales sin resistencia significativa
+    - Los dispositivos IoT tendrán una vida útil de al menos 3-5 años
+    - Las regulaciones de privacidad y seguridad no impedirán la recolección de datos de habitaciones
+    - El retorno de inversión será visible en los primeros 6-12 meses de implementación
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis 1: Check-in/Check-out Digital**
+**Creemos que** implementar un sistema de check-in y check-out digital automatizado para huéspedes y personal de recepción reducirá en 15% el tiempo promedio de estos procesos.
+**Sabremos que hemos tenido éxito**
+**Cuando veamos** que los huéspedes completan su registro en menos de 3 minutos y el 70% utiliza el sistema digital sin necesidad de asistencia del personal.
+
+**Hypothesis 2: Adopción del Personal Administrativo**
+**Creemos que** proporcionar una plataforma intuitiva de gestión hotelera con capacitación integral para personal administrativo logrará al menos 80% de adopción del sistema en tareas diarias.
+**Sabremos que esto es cierto**
+**Cuando veamos** un uso diario constante del sistema por parte del personal y una reducción del 10% en costos operativos manuales después de 4 meses de implementación.
+
+**Hypothesis 3: Satisfacción del Usuario**
+**Creemos que** ofrecer una experiencia de gestión digital más rápida y clara para huéspedes y personal del hotel mejorará significativamente la satisfacción general.
+**Sabremos que hemos tenido éxito**
+**Cuando veamos** una calificación de satisfacción de al menos 8/10 en encuestas NPS y que el 70% de usuarios recurrentes utilicen las funcionalidades sin asistencia.
+
+**Hypothesis 4: Optimización de Recursos IoT**
+**Creemos que** integrar dispositivos IoT para monitoreo de temperatura, luz y consumo energético para administradores hoteleros optimizará el uso de recursos del hotel.
+**Sabremos que esto es cierto**
+**Cuando veamos** una reducción del 20% en gastos de servicios públicos y reportes detallados de consumo que permitan mejor control de recursos durante el período de 4 meses.
+
+**Hypothesis 5: Personalización de la Experiencia**
+**Creemos que** permitir a los huéspedes controlar directamente el ambiente de su habitación y programar servicios aumentará su satisfacción y consumo de servicios adicionales.
+**Sabremos que hemos tenido éxito**
+**Cuando veamos** un aumento del 25% en la satisfacción del cliente en encuestas post-estadía y un incremento del 15% en pedidos de room service y servicios opcionales.
+
+**Hypothesis 6: Adopción de Hoteles Piloto**
+**Creemos que** ofrecer un modelo de suscripción escalable con implementación gradual para hoteles boutique y pequeños en Lima generará interés y participación en nuestro programa piloto.
+**Sabremos que esto es cierto**
+**Cuando veamos** la participación de al menos 3 hoteles en nuestro piloto universitario con acuerdos firmados de colaboración y confirmación de implementación post-desarrollo.
+
+**Hypothesis 7: Ventaja Competitiva**
+**Creemos que** nuestra integración completa entre gestión hotelera tradicional y tecnología IoT para hoteles que buscan modernización nos dará ventaja sobre sistemas tradicionales.
+**Sabremos que hemos tenido éxito**
+**Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
+
+## 1.3. Segmentos objetivo.
+
+Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
+
+### Segmento Primario: Administradores de Hoteles Boutique y Pequeños en Lima
+
+#### Características Demográficas
+- **Edad**: Entre 35 y 50 años (basado en estudios regionales)
+- **Nivel educativo**: Técnico o universitario en administración hotelera, turismo o áreas afines
+- **Experiencia profesional**: 5-15 años en el sector hotelero, especialmente en hoteles de 3-4 estrellas
+- **Cargo**: Gerentes generales, administradores, directores de operaciones
+
+#### Información del Sector
+- **Número de hoteles**: Más de 300 hoteles pequeños (20-100 habitaciones) en Lima Metropolitana
+- **Categorías**: Principalmente 3-4 estrellas
+- **Ubicación**: Concentrados en Miraflores, San Isidro, Barranco y Centro Histórico
+- **Tipo**: Hoteles boutique e independientes
+
+#### Inversión en Tecnología
+- **Presupuesto anual**: Entre $1,000 y $5,000 USD para sistemas de gestión y automatización
+- **Adopción**: Transición lenta pero creciente hacia sistemas digitales
+- **Apoyo**: Capacitaciones y subsidios tecnológicos disponibles a través de FEDECATUR
+
+#### Desafíos Operativos Identificados
+- Falta de acceso a financiamiento para modernización tecnológica
+- Altos costos operativos por procesos manuales y baja eficiencia
+- Tiempo excesivo dedicado a tareas administrativas (reduce atención al cliente)
+- Impacto del tipo de cambio y estacionalidad que limita inversiones
+- Muchos hoteles pequeños aún operan con procesos manuales en contabilidad, reservas y atención al cliente
+
+---
+
+### Segmento Secundario: Huéspedes de Hoteles
+
+#### Perfil Demográfico
+- **Edad**: Entre 25 y 45 años (alta presencia de millennials y jóvenes profesionales)
+- **Nivel socioeconómico**: Medio-alto a alto, con capacidad de gasto superior al promedio
+- **Procedencia**:
+    - **Internacional**: 40% - turistas de EE.UU., Europa, Chile y Colombia
+    - **Nacional**: 60% - limeños y viajeros de Arequipa y Cusco que buscan experiencias urbanas modernas
+
+#### Comportamiento de Viaje
+- **Frecuencia**: 2-4 viajes al año, combinando ocio y trabajo (bleisure)
+- **Duración promedio**: 2-5 noches en hoteles boutique
+- **Gasto promedio**: $90-180 USD por noche (dependiendo del distrito y categoría)
+
+#### Preferencias Tecnológicas
+- **68%** elige hoteles con buena reputación digital (reseñas, presencia en redes, apps de reserva)
+- **Dispuestos a pagar más** por experiencias digitales como:
+    - Check-in sin contacto
+    - Control de habitación vía app
+    - WiFi de alta velocidad
+    - Smart TV y asistentes virtuales
+
+#### Uso de Tecnología Durante la Estadía
+- **Dispositivo principal**: Smartphones para gestionar toda la estadía
+- **Servicios esperados**:
+    - WiFi gratuito y rápido
+    - Apps del hotel para servicios internos
+    - Integración con WhatsApp o Booking Pulse para atención al cliente
+- **Gestión digital**: Reservas, pagos, mapas, recomendaciones
+
+#### Mercado Hotelero Boutique en Lima
+- **Total de hoteles**: Más de 2,000 hoteles registrados en Lima, con una parte significativa siendo boutique o pequeños
+- **Hoteles destacados**: Pullman Lima Miraflores y Vignette Collection SOUMA (integran tecnología y diseño moderno)
+- **Crecimiento**: Sostenido en el segmento boutique, impulsado por viajeros que valoran experiencias personalizadas y digitales
+- **Ingresos adicionales**: 10-20% del total provienen de servicios digitales (upgrades, experiencias virtuales, tours online) en hoteles bien posicionados
+
+
+### Datos de Sustento Estadístico
+
+#### Oportunidad de Mercado
+- Lima cuenta con más de 300 hoteles pequeños objetivo para Smart Stay
+- El 68% de huéspedes valora la reputación digital del hotel
+- Los ingresos por servicios digitales representan hasta 20% del total en hoteles tecnológicamente avanzados
+- Crecimiento sostenido del segmento boutique impulsado por demanda de experiencias digitales personalizadas
+
+#### Validación del Mercado Objetivo
+
+Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
