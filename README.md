@@ -52,15 +52,21 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 ## Contenido
 
-- [Registro de Versiones del Informe](#-registro-de-versiones-del-informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
     - [ABET – EAC - Student Outcome 5](#abet--eac---student-outcome-5)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
+        - [1.1.1. Descripción de la Startup](#11-startup-profile)
         - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](#12-solution-profile)
         - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+        - [1.2.2. Lean UX Process](#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
 
 ## Student Outcome
 
@@ -145,7 +151,7 @@ Key Results (KR):
 
 Reducir en 15% el tiempo promedio de check-in y check-out.
 
-Disminuir en 10% los costos de operación relacionados a procesos manuales.
+Disminuir en 10% los costos de operación relacionados con procesos manuales.
 
 Alcanzar al menos 80% de adopción del sistema por parte del personal administrativo en tareas diarias.
 
@@ -249,30 +255,32 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Sabremos que hemos tenido éxito**
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
-## 1.3. Segmentos objetivo.
+## 1.3. Segmentos objetivos.
 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
 
-### Segmento Primario: Administradores de Hoteles Boutique y Pequeños en Lima
+**Segmento Primario: Administradores de Hoteles Boutique y Pequeños en Lima**
 
-#### Características Demográficas
+**Características Demográficas:**
+
 - **Edad**: Entre 35 y 50 años (basado en estudios regionales)
 - **Nivel educativo**: Técnico o universitario en administración hotelera, turismo o áreas afines
 - **Experiencia profesional**: 5-15 años en el sector hotelero, especialmente en hoteles de 3-4 estrellas
 - **Cargo**: Gerentes generales, administradores, directores de operaciones
 
-#### Información del Sector
+**Información del Sector:**
+
 - **Número de hoteles**: Más de 300 hoteles pequeños (20-100 habitaciones) en Lima Metropolitana
 - **Categorías**: Principalmente 3-4 estrellas
 - **Ubicación**: Concentrados en Miraflores, San Isidro, Barranco y Centro Histórico
 - **Tipo**: Hoteles boutique e independientes
 
-#### Inversión en Tecnología
+**Inversión en Tecnología**
 - **Presupuesto anual**: Entre $1,000 y $5,000 USD para sistemas de gestión y automatización
 - **Adopción**: Transición lenta pero creciente hacia sistemas digitales
 - **Apoyo**: Capacitaciones y subsidios tecnológicos disponibles a través de FEDECATUR
 
-#### Desafíos Operativos Identificados
+**Desafíos Operativos Identificados**
 - Falta de acceso a financiamiento para modernización tecnológica
 - Altos costos operativos por procesos manuales y baja eficiencia
 - Tiempo excesivo dedicado a tareas administrativas (reduce atención al cliente)
@@ -281,21 +289,21 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 
 ---
 
-### Segmento Secundario: Huéspedes de Hoteles
+**Segmento Secundario: Huéspedes de Hoteles**
 
-#### Perfil Demográfico
+**Perfil Demográfico**
 - **Edad**: Entre 25 y 45 años (alta presencia de millennials y jóvenes profesionales)
 - **Nivel socioeconómico**: Medio-alto a alto, con capacidad de gasto superior al promedio
 - **Procedencia**:
     - **Internacional**: 40% - turistas de EE.UU., Europa, Chile y Colombia
     - **Nacional**: 60% - limeños y viajeros de Arequipa y Cusco que buscan experiencias urbanas modernas
 
-#### Comportamiento de Viaje
+**Comportamiento de Viaje**
 - **Frecuencia**: 2-4 viajes al año, combinando ocio y trabajo (bleisure)
 - **Duración promedio**: 2-5 noches en hoteles boutique
 - **Gasto promedio**: $90-180 USD por noche (dependiendo del distrito y categoría)
 
-#### Preferencias Tecnológicas
+**Preferencias Tecnológicas**
 - **68%** elige hoteles con buena reputación digital (reseñas, presencia en redes, apps de reserva)
 - **Dispuestos a pagar más** por experiencias digitales como:
     - Check-in sin contacto
@@ -303,7 +311,7 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
     - WiFi de alta velocidad
     - Smart TV y asistentes virtuales
 
-#### Uso de Tecnología Durante la Estadía
+**Uso de Tecnología Durante la Estadía**
 - **Dispositivo principal**: Smartphones para gestionar toda la estadía
 - **Servicios esperados**:
     - WiFi gratuito y rápido
@@ -311,21 +319,21 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
     - Integración con WhatsApp o Booking Pulse para atención al cliente
 - **Gestión digital**: Reservas, pagos, mapas, recomendaciones
 
-#### Mercado Hotelero Boutique en Lima
+**Mercado Hotelero Boutique en Lima**
 - **Total de hoteles**: Más de 2,000 hoteles registrados en Lima, con una parte significativa siendo boutique o pequeños
 - **Hoteles destacados**: Pullman Lima Miraflores y Vignette Collection SOUMA (integran tecnología y diseño moderno)
 - **Crecimiento**: Sostenido en el segmento boutique, impulsado por viajeros que valoran experiencias personalizadas y digitales
 - **Ingresos adicionales**: 10-20% del total provienen de servicios digitales (upgrades, experiencias virtuales, tours online) en hoteles bien posicionados
 
 
-### Datos de Sustento Estadístico
+**Datos de Sustento Estadístico**
 
-#### Oportunidad de Mercado
+**Oportunidad de Mercado**
 - Lima cuenta con más de 300 hoteles pequeños objetivo para Smart Stay
 - El 68% de huéspedes valora la reputación digital del hotel
 - Los ingresos por servicios digitales representan hasta 20% del total en hoteles tecnológicamente avanzados
 - Crecimiento sostenido del segmento boutique impulsado por demanda de experiencias digitales personalizadas
 
-#### Validación del Mercado Objetivo
+**Validación del Mercado Objetivo**
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
