@@ -343,3 +343,55 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 **Validación del Mercado Objetivo**
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
+
+# **Capítulo II: Requirements Elicitation & Analysis**
+
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+/////
+### 2.1.2. Estrategias y tácticas frente a competidores.
+Smart Stay, al competir con plataformas globales como Airbnb, Booking.com y Vrbo, debe adoptar estrategias diferenciadas que aprovechen su propuesta de valor (estadías inteligentes y personalizadas en Lima con foco en experiencia tecnológica y cultural) y a la vez mitigar riesgos.
+
+1. Frente a Airbnb
+
+Fortaleza de Airbnb: Gran base de usuarios, reputación internacional, sistema de reseñas consolidado.
+Debilidad: Alta comisión a anfitriones, experiencia poco personalizada en destinos específicos.
+Estrategia Smart Stay:
+    Diferenciación en personalización cultural y local (guías digitales inteligentes, recomendaciones de experiencias auténticas en Lima).
+    Comisiones más bajas para atraer anfitriones y aumentar inventario.
+Tácticas:
+    Lanzar campaña en redes sociales mostrando casos reales de anfitriones que ganan más con Smart Stay.
+    Implementar IA que recomiende experiencias personalizadas.
+
+2. Frente a Booking.com
+
+Fortaleza de Booking: Amplia cobertura global, confianza del consumidor, promociones.
+Debilidad: Interfaz orientada a hoteles tradicionales, poco flexible en experiencias de corto plazo y espacios compartidos.
+Estrategia Smart Stay:
+    Posicionarse como opción más flexible y moderna para viajeros jóvenes y digitales.
+    Enfatizar el concepto de “hogar inteligente” frente a la experiencia hotelera tradicional.
+Tácticas:
+    SEO y SEM enfocados en búsquedas como “alquiler inteligente en Lima”.
+    Alianzas con influencers de turismo digital y nómadas digitales.
+
+3. Frente a Vrbo
+
+Fortaleza de Vrbo: Especialización en casas y estancias familiares.
+Debilidad: Poco atractivo para viajeros solos, grupos pequeños o millennials.
+Estrategia Smart Stay:
+    Capturar el mercado de jóvenes profesionales, parejas y nómadas digitales, desatendidos por Vrbo.
+    Ofrecer opciones flexibles: desde habitaciones privadas inteligentes hasta estadías largas con descuentos.
+Tácticas:
+    Ofrecer descuentos progresivos por estadías largas.
+    Promociones exclusivas para estudiantes internacionales y trabajadores remotos.
+
+4. Estrategias globales (Oportunidades y Amenazas del sector)
+
+Oportunidad: Crecimiento del turismo en Lima y auge del “viaje inteligente”.
+    Táctica: Integración de asistentes virtuales para check-in/check-out autónomo.
+Oportunidad: Usuarios demandan experiencias auténticas, no solo alojamiento.
+    Táctica: Incorporar marketplace de experiencias culturales locales (gastronomía, tours, actividades).
+Amenaza: Competidores globales con más recursos.
+    Táctica: Enfocarse en segmento local nicho (Lima) antes de expandirse a otras ciudades, consolidando reputación.
+Amenaza: Desconfianza inicial al ser nueva marca.
+    Táctica: Estrategias de garantía de confianza: reseñas verificadas, seguro de anfitriones, soporte 24/7.
