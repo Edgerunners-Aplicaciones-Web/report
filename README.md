@@ -255,6 +255,10 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Sabremos que hemos tenido éxito**
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
+#### 1.2.2.4. Lean UX Canvas
+<p align="center">
+    <img src="images/Lean-Ux-Canvaas.png" width="1000">
+</p>
 ## 1.3. Segmentos objetivos.
 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
