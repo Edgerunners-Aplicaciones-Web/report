@@ -257,8 +257,10 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 
 #### 1.2.2.4. Lean UX Canvas
 <p align="center">
-    <img src="images/Lean-Ux-Canvaas.png" width="1000">
+    <img src="images/Lean-Ux-Canvas.png" width="1000">
 </p>
+
+
 ## 1.3. Segmentos objetivos.
 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
