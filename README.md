@@ -66,6 +66,7 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
             - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
             - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvass](#1224-lean-ux-canvass)
     - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
 
 ## Student Outcome
@@ -255,7 +256,7 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Sabremos que hemos tenido éxito**
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
-#### 1.2.2.4. Lean UX CANVAS
+#### 1.2.2.4. Lean UX Canvass
 ![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
 
 ## 1.3. Segmentos objetivos.
