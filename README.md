@@ -66,8 +66,9 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
             - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
             - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvass](#1224-lean-ux-canvass)
     - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-&-analysis)
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -255,6 +256,9 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Sabremos que hemos tenido éxito**
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
+#### 1.2.2.4. Lean UX Canvass
+![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
+
 ## 1.3. Segmentos objetivos.
 
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
@@ -337,3 +341,67 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 **Validación del Mercado Objetivo**
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
+
+
+# **Capítulo II: Requirements Elicitation & Analysis**
+
+## 2.1. Competidores.
+
+El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
+
+
+#### 2.1.1 Análisis Competitivo.
+
+El análisis competitivo permite identificar las fortalezas y debilidades de los principales actores del mercado frente a la propuesta de **Smart Stay**.  
+
+| Competidor              | Fortalezas                                                                 | Debilidades                                                                 | Diferenciación de Smart Stay |
+|--------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------------------|
+| **Oracle Hospitality**  | Reconocimiento global, soluciones completas de gestión hotelera.           | Alto costo, complejidad de implementación, poco flexible para hoteles pequeños. | Plataforma más accesible y enfocada en hoteles boutique. |
+| **Amadeus Hospitality** | Escalabilidad, fuerte presencia en cadenas hoteleras internacionales.      | Costos elevados, lenta implementación, baja personalización.               | Enfoque ágil y flexible para hoteles independientes. |
+| **RoomRaccoon**         | SaaS en la nube, interfaz intuitiva, diseñado para hoteles pequeños.       | Limitada presencia en LATAM, soporte técnico remoto.                       | Presencia local y soporte técnico en español para Lima. |
+| **Smartpricing**        | IA para revenue management y optimización de precios.                      | No cubre operaciones completas ni personalización del huésped.             | Gestión integral + IoT con personalización de la experiencia. |
+| **Startups locales**    | Precios accesibles, soporte en español, integración con canales de reservas. | Funcionalidades limitadas, sin IoT, poco enfoque en experiencia del huésped. | Plataforma integral que combina PMS + IoT + personalización. |
+| **Sistemas manuales**   | Bajo costo inicial, fáciles de usar sin capacitación avanzada.             | Ineficiencia, errores frecuentes, cero automatización.                     | Digitalización total y reducción de costos operativos. |
+
+
+#### 2.1.2  Estrategias y Tácticas frente a Competidores.
+
+Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
+
+#### Estrategias
+
+1. **Diferenciación Tecnológica**: Integrar gestión hotelera con IoT, algo que los competidores actuales no ofrecen de manera completa.
+2. **Enfoque en nicho**: Dirigirse a hoteles boutique y pequeños (20-100 habitaciones), un segmento poco atendido por gigantes como Oracle o Amadeus.
+3. **Modelo de suscripción accesible**: Precios escalables según número de habitaciones, permitiendo competir contra soluciones costosas sin sacrificar funcionalidad.
+4. **Soporte local y en español**: Acompañamiento cercano que mejora la adopción frente a competidores extranjeros.
+5. **Valor medible**: Promesa clara de reducción de costos operativos (10-20%)
+
+#### Tácticas
+
+- **Programa píloto** con hoteles boutique de lima para generar casos de éxito y testimonios.
+- **Alianzas estratégicas** con gremios turísticos (ej. FEDECATUR) para acelerar la adopción.
+- **Capacitación continua** para el personal hotelero, disminuyendo resistencia al cambio.
+- **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tracicionales
+- **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
+- **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
+
+## 2.1. Entrevistas.
+Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
+
+#### 2.1.2  Diseño de entrevistas
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+1. ¿Cómo te llamas y qué cargo ocupas en el hotel?  
+2. ¿En qué distrito o ciudad se encuentra el hotel?  
+3. ¿Cuántas habitaciones y personal gestionan aproximadamente?  
+4. ¿Podrías contarme cómo es un día típico de trabajo administrando el hotel?  
+5. ¿Qué tan seguido deben gestionar procesos como reservas, check-in/check-out o facturación?  
+6. ¿Cómo suelen organizar actualmente la gestión de reservas y pagos?  
+7. ¿Han tenido dificultades con sobrerreservas, disponibilidad de habitaciones o errores de facturación?  
+8. ¿Qué dispositivos usas con mayor frecuencia para gestionar el hotel?  
+9. ¿Qué aplicaciones o sistemas usas actualmente en tu día a día para el manejo del hotel?  
+10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?  
+11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?  
+12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?  
+13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?  
