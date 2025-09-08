@@ -66,8 +66,9 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
             - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
             - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvass](#1224-lean-ux-canvass)
     - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-&-analysis)
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -255,11 +256,8 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Sabremos que hemos tenido éxito**
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
-#### 1.2.2.4. Lean UX Canvas
-<p align="center">
-    <img src="images/Lean-Ux-Canvas.png" width="1000">
-</p>
-
+#### 1.2.2.4. Lean UX Canvass
+![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
 
 ## 1.3. Segmentos objetivos.
 
@@ -344,122 +342,66 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
 
+
 # **Capítulo II: Requirements Elicitation & Analysis**
 
-## 2.1. Competidores
+## 2.1. Competidores.
 
-### 2.1.1. Análisis competitivo
-/////
-### 2.1.2. Estrategias y tácticas frente a competidores.
-Smart Stay, al competir con plataformas globales como Airbnb, Booking.com y Vrbo, debe adoptar estrategias diferenciadas que aprovechen su propuesta de valor (estadías inteligentes y personalizadas en Lima con foco en experiencia tecnológica y cultural) y a la vez mitigar riesgos.
-
-## Frente a Airbnb
-- **Fortaleza de Airbnb:** Gran base de usuarios, reputación internacional, sistema de reseñas consolidado.  
-- **Debilidad:** Alta comisión a anfitriones, experiencia poco personalizada en destinos específicos.  
-- **Estrategia Smart Stay:**  
-  - Diferenciación en personalización cultural y local (guías digitales inteligentes, recomendaciones de experiencias auténticas en Lima).  
-  - Comisiones más bajas para atraer anfitriones y aumentar inventario.  
-- **Tácticas:**  
-  - Lanzar campaña en redes sociales mostrando casos reales de anfitriones que ganan más con Smart Stay.  
-  - Implementar IA que recomiende experiencias personalizadas.  
+El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
 
 
-## Frente a Booking.com
-- **Fortaleza de Booking:** Amplia cobertura global, confianza del consumidor, promociones.  
-- **Debilidad:** Interfaz orientada a hoteles tradicionales, poco flexible en experiencias de corto plazo y espacios compartidos.  
-- **Estrategia Smart Stay:**  
-  - Posicionarse como opción más flexible y moderna para viajeros jóvenes y digitales.  
-  - Enfatizar el concepto de “hogar inteligente” frente a la experiencia hotelera tradicional.  
-- **Tácticas:**  
-  - SEO y SEM enfocados en búsquedas como *“alquiler inteligente en Lima”*.  
-  - Alianzas con influencers de turismo digital y nómadas digitales.  
+#### 2.1.1 Análisis Competitivo.
+
+El análisis competitivo permite identificar las fortalezas y debilidades de los principales actores del mercado frente a la propuesta de **Smart Stay**.  
+
+| Competidor              | Fortalezas                                                                 | Debilidades                                                                 | Diferenciación de Smart Stay |
+|--------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------------------|
+| **Oracle Hospitality**  | Reconocimiento global, soluciones completas de gestión hotelera.           | Alto costo, complejidad de implementación, poco flexible para hoteles pequeños. | Plataforma más accesible y enfocada en hoteles boutique. |
+| **Amadeus Hospitality** | Escalabilidad, fuerte presencia en cadenas hoteleras internacionales.      | Costos elevados, lenta implementación, baja personalización.               | Enfoque ágil y flexible para hoteles independientes. |
+| **RoomRaccoon**         | SaaS en la nube, interfaz intuitiva, diseñado para hoteles pequeños.       | Limitada presencia en LATAM, soporte técnico remoto.                       | Presencia local y soporte técnico en español para Lima. |
+| **Smartpricing**        | IA para revenue management y optimización de precios.                      | No cubre operaciones completas ni personalización del huésped.             | Gestión integral + IoT con personalización de la experiencia. |
+| **Startups locales**    | Precios accesibles, soporte en español, integración con canales de reservas. | Funcionalidades limitadas, sin IoT, poco enfoque en experiencia del huésped. | Plataforma integral que combina PMS + IoT + personalización. |
+| **Sistemas manuales**   | Bajo costo inicial, fáciles de usar sin capacitación avanzada.             | Ineficiencia, errores frecuentes, cero automatización.                     | Digitalización total y reducción de costos operativos. |
 
 
-## Frente a Vrbo
-- **Fortaleza de Vrbo:** Especialización en casas y estancias familiares.  
-- **Debilidad:** Poco atractivo para viajeros solos, grupos pequeños o millennials.  
-- **Estrategia Smart Stay:**  
-  - Capturar el mercado de jóvenes profesionales, parejas y nómadas digitales, desatendidos por Vrbo.  
-  - Ofrecer opciones flexibles: desde habitaciones privadas inteligentes hasta estadías largas con descuentos.  
-- **Tácticas:**  
-  - Ofrecer descuentos progresivos por estadías largas.  
-  - Promociones exclusivas para estudiantes internacionales y trabajadores remotos.  
+#### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
+Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
 
-## Estrategias globales (Oportunidades y Amenazas del sector)
+#### Estrategias
 
-- **Oportunidad:** Crecimiento del turismo en Lima y auge del *“viaje inteligente”*.  
-  - **Táctica:** Integración de asistentes virtuales para check-in/check-out autónomo.  
+1. **Diferenciación Tecnológica**: Integrar gestión hotelera con IoT, algo que los competidores actuales no ofrecen de manera completa.
+2. **Enfoque en nicho**: Dirigirse a hoteles boutique y pequeños (20-100 habitaciones), un segmento poco atendido por gigantes como Oracle o Amadeus.
+3. **Modelo de suscripción accesible**: Precios escalables según número de habitaciones, permitiendo competir contra soluciones costosas sin sacrificar funcionalidad.
+4. **Soporte local y en español**: Acompañamiento cercano que mejora la adopción frente a competidores extranjeros.
+5. **Valor medible**: Promesa clara de reducción de costos operativos (10-20%)
 
-- **Oportunidad:** Usuarios demandan experiencias auténticas, no solo alojamiento.  
-  - **Táctica:** Incorporar marketplace de experiencias culturales locales (gastronomía, tours, actividades).  
+#### Tácticas
 
-- **Amenaza:** Competidores globales con más recursos.  
-  - **Táctica:** Enfocarse en segmento local nicho (Lima) antes de expandirse a otras ciudades, consolidando reputación.  
+- **Programa píloto** con hoteles boutique de lima para generar casos de éxito y testimonios.
+- **Alianzas estratégicas** con gremios turísticos (ej. FEDECATUR) para acelerar la adopción.
+- **Capacitación continua** para el personal hotelero, disminuyendo resistencia al cambio.
+- **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tracicionales
+- **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
+- **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
 
-- **Amenaza:** Desconfianza inicial al ser nueva marca.  
-  - **Táctica:** Estrategias de garantía de confianza: reseñas verificadas, seguro de anfitriones, soporte 24/7.
-    
-## 2.2. Entrevistas
-### 2.2.1. Análisis competitivo
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas.
-### 2.3.2. User Task Matrix.
-### 2.3.3. User Journey Mapping.
-### 2.3.4. Empathy Mapping.
-## 2.4. Big Picture EventStorming.
-## 2.5. Ubiquitous Language
+## 2.1. Entrevistas.
+Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
 
-# **Capítulo III: Requirements Specification**
-## 3.1. User Stories.
-## 3.2. Impact Mapping.
-## 3.3. Product Backlog
+#### 2.1.2  Diseño de entrevistas
 
-# **Capítulo IV: Product Design**
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
-## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines.
-### 4.1.2. Web Style Guidelines.
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
-### 4.3.2. Landing Page Mock-up.
-## 4.4. Web Applications UX/UI Design.
-### 4.4.1. Web Applications Wireframes.
-### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
-### 4.4.3. Web Applications User Flow Diagrams.
-## 4.5. Web Applications Prototyping.
-## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Design-Level EventStorming.
-### 4.6.2. Software Architecture Context Diagram.
-### 4.6.3. Software Architecture Container Diagrams.
-### 4.6.4. Software Architecture Components Diagrams.
-## 4.7. Software Object-Oriented Design.
-### 4.7.1. Class Diagrams.
-## 4.8. Database Design.
-### 4.8.1. Database Diagrams.
-
-# **Capítulo V: Product Implementation, Validation & Deployment**
-## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
-### 5.1.2. Source Code Management.
-### 5.1.3. Source Code Style Guide & Conventions.
-### 5.1.4. Software Deployment Configuration.
-## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.1. Sprint n
-#### 5.2.1.1. Sprint Planning n.
-#### 5.2.1.2. Aspect Leaders and Collaborators.
-#### 5.2.1.3. Sprint Backlog n.
-#### 5.2.1.4. Development Evidence for Sprint Review.
-#### 5.2.1.5. Execution Evidence for Sprint Review.
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+1. ¿Cómo te llamas y qué cargo ocupas en el hotel?  
+2. ¿En qué distrito o ciudad se encuentra el hotel?  
+3. ¿Cuántas habitaciones y personal gestionan aproximadamente?  
+4. ¿Podrías contarme cómo es un día típico de trabajo administrando el hotel?  
+5. ¿Qué tan seguido deben gestionar procesos como reservas, check-in/check-out o facturación?  
+6. ¿Cómo suelen organizar actualmente la gestión de reservas y pagos?  
+7. ¿Han tenido dificultades con sobrerreservas, disponibilidad de habitaciones o errores de facturación?  
+8. ¿Qué dispositivos usas con mayor frecuencia para gestionar el hotel?  
+9. ¿Qué aplicaciones o sistemas usas actualmente en tu día a día para el manejo del hotel?  
+10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?  
+11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?  
+12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?  
+13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?  
