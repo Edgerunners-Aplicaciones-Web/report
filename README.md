@@ -19,14 +19,13 @@
 
 <div align="center">
 
-|   Código   |   Apellidos   |     Nombres     |
-|:----------:|:-------------:|:---------------:|
-| U20221E617 | Verona Flores | Italo Sebastian |
-|            |               |                 |
-|            |               |                 |
-|            |               |                 |
-|            |               |                 |
-
+|   Código   |   Apellidos      |     Nombres     |
+|:----------:|:----------------:|:---------------:|
+| U20221E617 | Verona Flores    | Italo Sebastian |
+| U20231A816 |Valverde Portuguez|  Natalia Ximena |
+|            |                  |                 |
+|            |                  |                 |
+|            |                  |                 |
 
 **Mes y Año:** Septiembre 2025
 
