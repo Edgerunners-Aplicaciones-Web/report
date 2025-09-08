@@ -384,3 +384,24 @@ Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** 
 - **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tracicionales
 - **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
 - **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
+
+## 2.1. Entrevistas.
+Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
+
+#### 2.1.2  Diseño de entrevistas
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+1. ¿Cómo te llamas y qué cargo ocupas en el hotel?  
+2. ¿En qué distrito o ciudad se encuentra el hotel?  
+3. ¿Cuántas habitaciones y personal gestionan aproximadamente?  
+4. ¿Podrías contarme cómo es un día típico de trabajo administrando el hotel?  
+5. ¿Qué tan seguido deben gestionar procesos como reservas, check-in/check-out o facturación?  
+6. ¿Cómo suelen organizar actualmente la gestión de reservas y pagos?  
+7. ¿Han tenido dificultades con sobrerreservas, disponibilidad de habitaciones o errores de facturación?  
+8. ¿Qué dispositivos usas con mayor frecuencia para gestionar el hotel?  
+9. ¿Qué aplicaciones o sistemas usas actualmente en tu día a día para el manejo del hotel?  
+10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?  
+11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?  
+12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?  
+13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?  
