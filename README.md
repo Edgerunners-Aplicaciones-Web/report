@@ -404,4 +404,19 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?  
 11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?  
 12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?  
-13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?  
+13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles
+
+1. ¿Cómo te llamas y con qué frecuencia viajas por turismo o trabajo?
+2. ¿Qué tipo de hotel sueles elegir (boutique, cadena internacional, Airbnb, etc.) y por qué?
+3. ¿Qué valoras más en un hotel: ubicación, precio, comodidad o servicios digitales?
+4. ¿Cómo fue tu última experiencia de check-in y check-out? ¿Qué mejorarías?
+5. ¿Qué tan importante es para ti poder personalizar tu habitación (temperatura, luz, limpieza, room service) desde tu celular u otro dispositivo tecnológico?
+6. ¿Qué servicios digitales utilizas más durante tu estadía en un hotel (WiFi, app del hotel, WhatsApp, smart TV, llaves digitales)?
+7. ¿Has tenido experiencias negativas con la gestión del hotel (esperas largas, problemas con el servicio, falta de personalización)?
+8. ¿Qué opinas de un sistema que te permita hacer check-in sin pasar por recepción y controlar tu habitación desde una app?
+9. ¿Estarías dispuesto a pagar un poco más por un hotel que ofrezca experiencias digitales y personalización avanzada? ¿Cuánto aproximadamente?
+10. ¿Qué tanto influyen las reseñas digitales y la reputación online en tu decisión de reservar un hotel?
+11. Si un hotel ofreciera un servicio totalmente digitalizado, ¿qué expectativa tendrías respecto al trato humano? ¿Lo consideras un valor agregado o no es necesario?
+12. ¿Qué recomendarías para que la experiencia digital en un hotel sea cómoda y no complicada para los huéspedes?
