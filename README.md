@@ -434,10 +434,9 @@ Datos del entrevistado:
 
 **Duración:** 5:34 minutos
 
+**Evidencia:** ![entrevista_alexander](assets/entrevista_alexander.png)
+
 **URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-
-**Evidencia:** ![Lean UX Canvas](imgs/entrevista_alexander.png)
 
 **Resumen de la entrevista**
 
