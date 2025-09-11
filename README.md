@@ -424,6 +424,8 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 **Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
 
+- Entrevista 1
+
 Datos del entrevistado:
 
 **Nombre completo:** Diego Michael Segura Martínez
@@ -434,7 +436,7 @@ Datos del entrevistado:
 
 **Duración:** 5:34 minutos
 
-**Evidencia:** ![entrevista_alexander](assets/entrevista_alexander.png)
+**Evidencia:** ![entrevista_alexander](assets/Chapter-02/entrevista_alexander.png)
 
 **URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -445,7 +447,54 @@ Su principal frustración son las esperas en recepción y la falta de personaliz
 Utiliza principalmente WiFi y Smart TV, pero estaría dispuesto a usar una app centralizada. Confía en las reseñas digitales para tomar decisiones y estaría dispuesto a pagar entre 10% y 15% más por un hotel con experiencias digitales avanzadas.
 Considera que el trato humano sigue siendo un valor agregado, aunque la digitalización es clave. Recomienda que los sistemas sean fáciles de usar y que cada hotel cuente con una página clara con descripción completa y disponibilidad de habitaciones en tiempo real.
 
+- Entrevista 2
+
+**Nombre:** Juan Salcedo  
+**Edad:** 44 años  
+**Distrito:** San Borja
+**Screenshot de cuadro de video:**
+
+![Screenshot](assets/Chapter-02/JuanSalcedo.png)
+
+**Enlace al video en Microsoft Stream:** [Entrevista-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
+**Timing:** 0:07 - 6:18 (6 minutos 11 segundos)
+
 ---
+
+**Perfil y características del entrevistado:**  
+Juan Salcedo, ingeniero de sistemas, 44 años, residente de San Borja. Viaja frecuentemente por **trabajo** (cada 1-2 meses) y prioriza la comodidad y flexibilidad en sus alojamientos. Utiliza principalmente **Airbnb** por su precio accesible y facilidades (cocina, salón, baño privado), y en segundo lugar hoteles cuando no encuentra Airbnb disponibles. Se caracteriza por buscar **autonomía** y servicios digitales eficientes, pero también valora la cercanía a zonas céntricas cuando elige hotel.
+
+**Personalidad e influencias:**  
+Es una persona analítica y pragmática, habituada a la tecnología por su profesión (ingeniero de sistemas). Sus decisiones están fuertemente influenciadas por la **facilidad tecnológica**, la calidad de la conexión Wi-Fi y la reputación online del lugar (reseñas y puntuaciones en plataformas digitales).
+
+**Experiencia y necesidades:**
+- Prefiere la **comodidad** sobre otros factores (importancia de cocina, baño privado y sala en el alojamiento).
+- Considera que los **tiempos estrictos de check-in y check-out** son el principal punto a mejorar tanto en hoteles como en Airbnb.
+- Nunca ha utilizado una habitación realmente “smart” (automatización total controlada desde el móvil) y considera que esta tecnología aún no está difundida localmente, incluso en hoteles de alta gama como el Westin.
+
+**Canales y tecnología:**
+- Utiliza **Wi-Fi** como requisito indispensable para trabajar; sin este servicio no considera el alojamiento.
+- Utiliza ocasionalmente WhatsApp, apps y Smart TV en hoteles, pero da prioridad al Wi-Fi por necesidades laborales.
+- Su navegador principal no fue mencionado, pero muestra total adaptación a cualquier canal digital, siempre que la conexión sea rápida y estable.
+- Accede mediante **laptop y smartphone**.
+
+**Experiencias negativas:**
+- Ha vivido demoras en atención, habitaciones sin la limpieza adecuada y siente que las restricciones horarias afectan su experiencia.
+- Percibe cierta falta de personalización en el servicio tanto en hoteles como en plataformas tipo Airbnb.
+
+**Actitud frente a digitalización y IoT:**
+- Considera útil un sistema de check-in/out digital y control desde app, pero cree que la infraestructura tecnológica para esto (“internet de las cosas”) tardará en llegar al Perú.
+- Personalmente no pagaría mucho más por estas funciones, ya que las asocia a públicos más jóvenes interesados en contenido para redes sociales, no a profesionales.
+- Da mucho peso a la **reputación online** y valora leer reseñas y puntuaciones antes de reservar.
+
+**Preferencias y recomendaciones:**
+- Recomienda mejorar **la velocidad y estabilidad del Wi-Fi** (“fibra óptica”) por encima de cualquier otro servicio digital.
+- Sugiere que la atención siga siendo eficiente, incluso en un entorno digitalizado, para evitar tiempos de espera excesivos y complicaciones para el huésped.
+
+**Conclusión:**  
+Juan representa a un arquetipo de usuario profesional, orientado a la comodidad y autonomía, fuertemente digital pero exigente con los aspectos básicos del hospedaje (internet, limpieza y flexibilidad de horarios). No rechaza la digitalización avanzada, pero espera que no reemplace el trato eficiente y que los servicios estén realmente diseñados para ayudar la productividad y reducir tiempos muertos.
+
+
 
 
 
