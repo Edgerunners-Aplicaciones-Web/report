@@ -444,6 +444,49 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 12. ¿Qué recomendarías para que la experiencia digital en un hotel sea cómoda y no complicada para los huéspedes?
 
 ### 2.2.2. Registro de entrevistas
+**Entrevista - segmento 1: Administradores de Hoteles Boutique y Pequeños
+Datos del entrevistado:
+**Nombre completo:** Adrian Saavedra Angulo 
+
+**Edad:** 34 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 8:07 minutos
+
+**Evidencia:** ![](assets/)
+
+**URL del video:** [https://shorturl.at/7UPcY].(https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+
+**Entrevista - segmento 1: Administradores de Hoteles Boutique y Pequeños
+Datos del entrevistado:
+**Nombre completo:** Monica Hernandez Vela 
+
+**Edad:** 33 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 5:53 minutos
+
+**Evidencia:** ![](assets/)
+
+**URL del video:** [https://shorturl.at/7UPcY].(https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+**Entrevista - segmento 1: Administradores de Hoteles Boutique y Pequeños
+Datos del entrevistado:
+**Nombre completo:** Alejandra Beltrán Diaz
+
+**Edad:** 23 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 4:11 minutos
+
+**Evidencia:** ![](assets/)
+
+**URL del video:** [https://shorturl.at/7UPcY].(https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 **Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
 
