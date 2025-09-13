@@ -686,10 +686,8 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                               |
 | ------------------ | ---------------------------------------------------- |
-| TS01               | Implementar autenticación JWT                        |
-| TS02               | Encriptar contraseñas en base de datos               |
-| TS03               | Validar roles huésped en backend                     |
-| TS04               | Conectar formularios de registro/login con endpoints |
+| TS01               |Conectar formularios de registro/login con validaciones en frontend |
+
 
 **EP02 – Registro y Gestión de Perfil de Anfitrión**
 
@@ -702,9 +700,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                              |
 | ------------------ | --------------------------------------------------- |
-| TS05               | Implementar formulario de registro con validaciones |
-| TS06               | Validar identidad con correo o documento            |
-| TS07               | Conectar gestión de perfil de anfitrión al backend  |
+| TS02               | Validar campos de formulario en frontend (correo, contraseña, documento)|
 
 **EP03 – Gestión de Propiedades**
 
@@ -714,12 +710,6 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | US10          | Subir fotos de la propiedad        |
 | US11          | Editar información de la propiedad |
 | US12          | Eliminar propiedad                 |
-
-| Technical Story ID | Título                               |
-| ------------------ | ------------------------------------ |
-| TS08               | Configurar API para propiedades      |
-| TS09               | Validar carga de imágenes en backend |
-| TS10               | Implementar CRUD de propiedades      |
 
 **EP04 – Búsqueda y Reserva de Estancias**
 
@@ -732,9 +722,8 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                      |
 | ------------------ | ------------------------------------------- |
-| TS11               | API de búsqueda con filtros                 |
-| TS12               | Integración de calendario de disponibilidad |
-| TS13               | Implementar confirmación de reservas        |
+| TS03              | Crear buscador y filtros en frontend.     |
+| TS04               | Simular reservas con estado guardado en frontend |
 
 **EP05 – Pagos y Facturación**
 
@@ -746,9 +735,8 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                                |
 | ------------------ | ----------------------------------------------------- |
-| TS14               | Integrar pasarela de pago (ej. Stripe/PayPal sandbox) |
-| TS15               | Validar transacciones seguras                         |
-| TS16               | API de historial de pagos                             |
+| TS05               | Simular integración de pago |
+
 
 **EP06 – Reseñas y Calificaciones**
 
@@ -760,8 +748,8 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                              |
 | ------------------ | --------------------------------------------------- |
-| TS17               | API para reseñas y calificaciones                   |
-| TS18               | Validar que solo usuarios con reserva puedan opinar |
+| TS06               | Formulario de reseñas conectado a la UI, guardado simulado en frontendFormulario de reseñas conectado a la UI, guardado simulado en frontend  |
+
 
 **EP07 – Soporte y Ayuda**
 
@@ -773,8 +761,8 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                      |
 | ------------------ | ------------------------------------------- |
-| TS19               | API para reportes de problemas              |
-| TS20               | Integrar formulario de contacto con backend |
+| TS07               | Implementar formulario de contacto y sección de preguntas frecuentes |
+
 
 **EP08 – Exploración como Visitante**
 
@@ -786,8 +774,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                             |
 | ------------------ | ---------------------------------- |
-| TS21               | Implementar landing page           |
-| TS22               | Conectar botones de registro/login |
+| TS08               | Implementar landing page con botones hacia login/registro |
 
 ---
 
