@@ -547,11 +547,49 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![user-person1.jpg](assets/userpersonas1.png) |
+![user-person1.jpg](assets/userpersonas1.png) 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-person2.jpg](assets/userpersonas2.png) |
+![user-person2.jpg](assets/userpersonas2.png) 
 
+---
+ 
 ### 2.3.2. User Task Matrix
+
+---
+
+### 2.3.3. User Journey Mapping.
+
+El User Journey Mapping permite visualizar las etapas que recorren los usuarios desde el descubrimiento de la solución hasta la evaluación final de su experiencia. A través de este recurso se identifican los objetivos de los usuarios, los puntos de contacto con el servicio, sus pensamientos, percepciones y oportunidades de mejora en cada fase del proceso.
+
+En el caso de Smart Stay, se elaboraron dos mapas diferenciados según los segmentos objetivos:
+
+- **Segmento 1** : enfocado en la gestión operativa y la centralización de reservas.
+- **Segmento 2** : centrado en la experiencia de estadía y la digitalización de servicios.
+
+Estos recorridos permiten detectar fricciones, validar expectativas y proponer mejoras orientadas a optimizar tanto la gestión hotelera como la satisfacción de los huéspedes.
+
+**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+
+![user-journey-mapping1.jpg](assets/userjourneymapping1.png) 
+
+**Segmento 2 – Huéspedes de Hoteles**
+
+![user-journey-mapping2.jpg](assets/userjourneymapping2.png) 
+
+---
+
+### 2.3.4. Empathy Mapping.
+
+---
+
+## 2.4. Big Picture EventStorming.
+
+---
+
+## 2.5. Ubiquitous Language.
+
+---
+
 
