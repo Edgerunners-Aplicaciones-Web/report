@@ -484,7 +484,7 @@ Datos del entrevistado:
 **Distrito:** San Borja
 
 
-![Screenshot](assets/Chapter-02/JuanSalcedo.png)
+**Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
 **URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
 
@@ -508,7 +508,7 @@ Juan viaja por trabajo cada 1-2 meses y prefiere alojamientos cómodos, autónom
 | Mónica (33)    | 12 hab., 4 personas | Sistema web propio + laptops + WhatsApp | **Dificultad de uso, poco flexible**             | Herramienta que centralice operaciones adaptada a su hotel | Sí, si mejora servicios        |
 | Alejandra (23) | 19 hab., 5 personas | WhatsApp + Excel                        | **Reservas perdidas, falta de control**          | Notificaciones automáticas + simplificación                | Sí, si realmente ahorra tiempo |
 
-Hallazgos clave segmento 1:
+**Hallazgos clave segmento 1:**
 
 - Problemas principales: Los entrevistados enfrentan dificultades recurrentes con la gestión de reservas debido a la ausencia de un sistema centralizado. Entre los problemas más destacados se encuentran la sobreventa de habitaciones, la duplicación de tareas administrativas y la pérdida de información en los registros. Estas situaciones generan ineficiencia, errores en la atención y mayor carga operativa.
 - Solución esperada: Los administradores expresaron la necesidad de implementar una herramienta digital que integre la gestión de reservas con otros procesos internos, tales como la coordinación de limpieza, los servicios adicionales y la generación de notificaciones automáticas. De esta manera, se busca simplificar el trabajo, reducir errores y aumentar la eficiencia operativa.
@@ -525,17 +525,33 @@ Hallazgos clave segmento 1:
 | Juan (44)    | Viaja por trabajo        | Horarios rígidos, Wi-Fi deficiente, falta de limpieza/personalización | Mejor Wi-Fi, atención rápida, flexibilidad                 | No pagaría más |
 
 
-Hallazgos clave segmento 2:
+**Hallazgos clave segmento 2:**
 
 - Problemas principales: Los participantes señalaron como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, la escasa flexibilidad de horarios y, en algunos casos, deficiencias en la conectividad Wi-Fi y en la limpieza.
 - Solución esperada: Se valora la posibilidad de contar con herramientas digitales que permitan realizar check-in y check-out sin esperas, controlar funciones de la habitación desde el dispositivo móvil (iluminación, temperatura, room service), así como garantizar la disponibilidad de información en tiempo real sobre los servicios. En este sentido, la digitalización es vista como un facilitador de la experiencia, siempre que no elimine el valor del trato humano.
 - Disposición de pago: El segmento presenta posiciones diferenciadas. Algunos usuarios jóvenes se mostraron dispuestos a pagar entre un 10% y 15% más por hoteles que ofrezcan experiencias digitales avanzadas, mientras que los viajeros de mayor edad no consideran prioritario este tipo de servicios y prefieren mantener costos contenidos.
 - Perfil digital: Los entrevistados confían en herramientas digitales como el Wi-Fi, la Smart TV y las reseñas en línea para tomar decisiones de hospedaje. Su nivel de madurez tecnológica puede clasificarse como intermedio, con apertura hacia soluciones innovadoras, aunque condicionado por la facilidad de uso y la percepción de valor añadido
 
-Conclusión Integradora
+
+**Conclusión Integradora**
 
 El análisis de ambos segmentos revela que, aunque sus necesidades se orientan a aspectos distintos del servicio, existe un punto común en la demanda de mayor digitalización y centralización de procesos. Para el segmento 1  el reto principal radica en mejorar la gestión operativa mediante sistemas integrados. Para el segmento 2 la prioridad se centra en optimizar la experiencia del usuario a través de herramientas digitales que reduzcan tiempos de espera, ofrezcan personalización y garanticen conectividad.
 
 Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferentes expectativas y niveles de disposición de pago. Este hallazgo subraya la oportunidad de diseñar una plataforma integral que atienda simultáneamente la eficiencia operativa del hotel y la satisfacción del huésped, alineando la modernización de los procesos internos con la mejora de la experiencia de los clientes.
 
+---
+
 ## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+
+**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+
+![user-person1.jpg](assets/userpersonas1.png) |
+
+**Segmento 2 – Huéspedes de Hoteles**
+
+![user-person2.jpg](assets/userpersonas2.png) |
+
+### 2.3.2. User Task Matrix
+
