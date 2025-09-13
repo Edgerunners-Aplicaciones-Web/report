@@ -422,9 +422,26 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 ### 2.2.2. Registro de entrevistas
 
-**Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
-- Entrevista 1
+#### Entrevista 1
+
+---
+
+#### Entrevista 2
+
+---
+
+#### Entrevista 3
+
+---
+
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
+
+---
+
+#### Entrevista 1
 
 Datos del entrevistado:
 
@@ -447,54 +464,78 @@ Su principal frustración son las esperas en recepción y la falta de personaliz
 Utiliza principalmente WiFi y Smart TV, pero estaría dispuesto a usar una app centralizada. Confía en las reseñas digitales para tomar decisiones y estaría dispuesto a pagar entre 10% y 15% más por un hotel con experiencias digitales avanzadas.
 Considera que el trato humano sigue siendo un valor agregado, aunque la digitalización es clave. Recomienda que los sistemas sean fáciles de usar y que cada hotel cuente con una página clara con descripción completa y disponibilidad de habitaciones en tiempo real.
 
-- Entrevista 2
+---
+
+#### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** Juan Salcedo  
+
+**Edad:** 44 años
+
+**Distrito:** San Borja – Lima Metropolitana
+
+**Duración:** 6:11 minutos
+
 
 **Nombre:** Juan Salcedo  
 **Edad:** 44 años  
 **Distrito:** San Borja
-**Screenshot de cuadro de video:**
+
 
 ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**Enlace al video en Microsoft Stream:** [Entrevista-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
-**Timing:** 0:07 - 6:18 (6 minutos 11 segundos)
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
+
+**Resumen de la entrevista**
+
+Juan viaja por trabajo cada 1-2 meses y prefiere alojamientos cómodos, autónomos y con buena conectividad, optando principalmente por Airbnb y, en menor medida, por hoteles. Valora especialmente la ubicación céntrica, el Wi-Fi de calidad y la facilidad tecnológica. Considera que los horarios estrictos de check-in y check-out son una gran limitación, y aunque nunca ha usado una habitación totalmente “smart”, le interesa la idea, aunque cree que aún no está bien implementada en Perú. No pagaría más por funciones digitales avanzadas, ya que las asocia con un público más joven. Usa Wi-Fi como servicio indispensable, junto con laptop y smartphone, y ha tenido experiencias negativas relacionadas con demoras en la atención y falta de limpieza, además de percibir una falta de personalización en el servicio. Recomienda priorizar la mejora del Wi-Fi (fibra óptica) y mantener una atención eficiente, considerando que la digitalización debe complementar, pero no reemplazar, el buen trato humano.
 
 ---
 
-**Perfil y características del entrevistado:**  
-Juan Salcedo, ingeniero de sistemas, 44 años, residente de San Borja. Viaja frecuentemente por **trabajo** (cada 1-2 meses) y prioriza la comodidad y flexibilidad en sus alojamientos. Utiliza principalmente **Airbnb** por su precio accesible y facilidades (cocina, salón, baño privado), y en segundo lugar hoteles cuando no encuentra Airbnb disponibles. Se caracteriza por buscar **autonomía** y servicios digitales eficientes, pero también valora la cercanía a zonas céntricas cuando elige hotel.
+#### Entrevista 3
 
-**Personalidad e influencias:**  
-Es una persona analítica y pragmática, habituada a la tecnología por su profesión (ingeniero de sistemas). Sus decisiones están fuertemente influenciadas por la **facilidad tecnológica**, la calidad de la conexión Wi-Fi y la reputación online del lugar (reseñas y puntuaciones en plataformas digitales).
+---
 
-**Experiencia y necesidades:**
-- Prefiere la **comodidad** sobre otros factores (importancia de cocina, baño privado y sala en el alojamiento).
-- Considera que los **tiempos estrictos de check-in y check-out** son el principal punto a mejorar tanto en hoteles como en Airbnb.
-- Nunca ha utilizado una habitación realmente “smart” (automatización total controlada desde el móvil) y considera que esta tecnología aún no está difundida localmente, incluso en hoteles de alta gama como el Westin.
+### 2.2.2. Análisis de entrevistas
 
-**Canales y tecnología:**
-- Utiliza **Wi-Fi** como requisito indispensable para trabajar; sin este servicio no considera el alojamiento.
-- Utiliza ocasionalmente WhatsApp, apps y Smart TV en hoteles, pero da prioridad al Wi-Fi por necesidades laborales.
-- Su navegador principal no fue mencionado, pero muestra total adaptación a cualquier canal digital, siempre que la conexión sea rápida y estable.
-- Accede mediante **laptop y smartphone**.
+**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-**Experiencias negativas:**
-- Ha vivido demoras en atención, habitaciones sin la limpieza adecuada y siente que las restricciones horarias afectan su experiencia.
-- Percibe cierta falta de personalización en el servicio tanto en hoteles como en plataformas tipo Airbnb.
+| Entrevistado   | Hotel               | Herramientas actuales                   | Dolor principal                                  | Motivación                                                 | Pago por suscripción           |
+| -------------- | ------------------- | --------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------- | ------------------------------ |
+| Adrián (34)    | 12 hab., 6 personas | Sistema propio no sincroniza            | **Sobreventa, errores por actualización manual** | Centralizar gestión + integraciones externas               | Sí, si el costo es razonable   |
+| Mónica (33)    | 12 hab., 4 personas | Sistema web propio + laptops + WhatsApp | **Dificultad de uso, poco flexible**             | Herramienta que centralice operaciones adaptada a su hotel | Sí, si mejora servicios        |
+| Alejandra (23) | 19 hab., 5 personas | WhatsApp + Excel                        | **Reservas perdidas, falta de control**          | Notificaciones automáticas + simplificación                | Sí, si realmente ahorra tiempo |
 
-**Actitud frente a digitalización y IoT:**
-- Considera útil un sistema de check-in/out digital y control desde app, pero cree que la infraestructura tecnológica para esto (“internet de las cosas”) tardará en llegar al Perú.
-- Personalmente no pagaría mucho más por estas funciones, ya que las asocia a públicos más jóvenes interesados en contenido para redes sociales, no a profesionales.
-- Da mucho peso a la **reputación online** y valora leer reseñas y puntuaciones antes de reservar.
+Hallazgos clave segmento 1:
 
-**Preferencias y recomendaciones:**
-- Recomienda mejorar **la velocidad y estabilidad del Wi-Fi** (“fibra óptica”) por encima de cualquier otro servicio digital.
-- Sugiere que la atención siga siendo eficiente, incluso en un entorno digitalizado, para evitar tiempos de espera excesivos y complicaciones para el huésped.
+- Problemas principales: Los entrevistados enfrentan dificultades recurrentes con la gestión de reservas debido a la ausencia de un sistema centralizado. Entre los problemas más destacados se encuentran la sobreventa de habitaciones, la duplicación de tareas administrativas y la pérdida de información en los registros. Estas situaciones generan ineficiencia, errores en la atención y mayor carga operativa.
+- Solución esperada: Los administradores expresaron la necesidad de implementar una herramienta digital que integre la gestión de reservas con otros procesos internos, tales como la coordinación de limpieza, los servicios adicionales y la generación de notificaciones automáticas. De esta manera, se busca simplificar el trabajo, reducir errores y aumentar la eficiencia operativa.
+- Disposición de pago: Existe consenso en la disposición a pagar por una suscripción mensual, siempre que la solución proporcione beneficios tangibles en términos de simplicidad y mejora del control administrativo.
+- Perfil digital: Aunque los establecimientos cuentan con sistemas propios, aún prevalece el uso de herramientas básicas como WhatsApp y Excel para el registro y seguimiento de reservas. Esto revela un nivel bajo de madurez tecnológica, pero acompañado de apertura hacia la adopción de soluciones digitales más sofisticadas.
 
-**Conclusión:**  
-Juan representa a un arquetipo de usuario profesional, orientado a la comodidad y autonomía, fuertemente digital pero exigente con los aspectos básicos del hospedaje (internet, limpieza y flexibilidad de horarios). No rechaza la digitalización avanzada, pero espera que no reemplace el trato eficiente y que los servicios estén realmente diseñados para ayudar la productividad y reducir tiempos muertos.
+---
+
+**Segmento 2 – Huéspedes de Hoteles**
+
+| Entrevistado | Perfil                   | Frustraciones                                                         | Valor esperado                                             | Pago adicional |
+| ------------ | ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------- | -------------- |
+| Diego (25)   | Viaja con pareja/familia | Esperas en recepción, falta de personalización                        | Check-in/out digital, control desde celular, app unificada | Sí, +10%-15%   |
+| Juan (44)    | Viaja por trabajo        | Horarios rígidos, Wi-Fi deficiente, falta de limpieza/personalización | Mejor Wi-Fi, atención rápida, flexibilidad                 | No pagaría más |
 
 
+Hallazgos clave segmento 2:
 
+- Problemas principales: Los participantes señalaron como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, la escasa flexibilidad de horarios y, en algunos casos, deficiencias en la conectividad Wi-Fi y en la limpieza.
+- Solución esperada: Se valora la posibilidad de contar con herramientas digitales que permitan realizar check-in y check-out sin esperas, controlar funciones de la habitación desde el dispositivo móvil (iluminación, temperatura, room service), así como garantizar la disponibilidad de información en tiempo real sobre los servicios. En este sentido, la digitalización es vista como un facilitador de la experiencia, siempre que no elimine el valor del trato humano.
+- Disposición de pago: El segmento presenta posiciones diferenciadas. Algunos usuarios jóvenes se mostraron dispuestos a pagar entre un 10% y 15% más por hoteles que ofrezcan experiencias digitales avanzadas, mientras que los viajeros de mayor edad no consideran prioritario este tipo de servicios y prefieren mantener costos contenidos.
+- Perfil digital: Los entrevistados confían en herramientas digitales como el Wi-Fi, la Smart TV y las reseñas en línea para tomar decisiones de hospedaje. Su nivel de madurez tecnológica puede clasificarse como intermedio, con apertura hacia soluciones innovadoras, aunque condicionado por la facilidad de uso y la percepción de valor añadido
 
+Conclusión Integradora
 
+El análisis de ambos segmentos revela que, aunque sus necesidades se orientan a aspectos distintos del servicio, existe un punto común en la demanda de mayor digitalización y centralización de procesos. Para el segmento 1  el reto principal radica en mejorar la gestión operativa mediante sistemas integrados. Para el segmento 2 la prioridad se centra en optimizar la experiencia del usuario a través de herramientas digitales que reduzcan tiempos de espera, ofrezcan personalización y garanticen conectividad.
+
+Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferentes expectativas y niveles de disposición de pago. Este hallazgo subraya la oportunidad de diseñar una plataforma integral que atienda simultáneamente la eficiencia operativa del hotel y la satisfacción del huésped, alineando la modernización de los procesos internos con la mejora de la experiencia de los clientes.
+
+## 2.3. Needfinding.
