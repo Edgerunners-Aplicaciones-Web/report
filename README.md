@@ -656,5 +656,150 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ---
 
+# **Capítulo III: Requirements Specification**
+
+## 3.1. User Stories.
+
+**Epics**
+
+| EPIC ID | Nombre del Epic                           | Descripción                                                                                                         |
+| ------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| EP01    | Registro y Gestión de Perfil de Huésped   | Como huésped, quiero registrarme, iniciar sesión y gestionar mi perfil de forma segura para acceder a mis reservas. |
+| EP02    | Registro y Gestión de Perfil de Anfitrión | Como anfitrión, quiero registrarme y administrar mi perfil para publicar propiedades y gestionar reservas.          |
+| EP03    | Gestión de Propiedades                    | Como anfitrión, quiero registrar, editar y eliminar propiedades con fotos, precios y descripciones.                 |
+| EP04    | Búsqueda y Reserva de Estancias           | Como huésped, quiero buscar propiedades y realizar reservas fácilmente.                                             |
+| EP05    | Pagos y Facturación                       | Como usuario, quiero pagar de manera segura y consultar mis comprobantes de pago.                                   |
+| EP06    | Reseñas y Calificaciones                  | Como usuario, quiero dejar reseñas y calificaciones después de una estancia.                                        |
+| EP07    | Soporte y Ayuda                           | Como usuario, quiero acceder a soporte técnico y resolver mis dudas.                                                |
+| EP08    | Exploración como Visitante                | Como visitante, quiero conocer las funcionalidades de SmartStay desde la landing page antes de registrarme.         |
+
+**Desarrollo de Epics**
+
+**EP01 – Registro y Gestión de Perfil de Huésped**
+
+| User Story ID | Título                     |
+| ------------- | -------------------------- |
+| US01          | Registro de huésped        |
+| US02          | Inicio de sesión seguro    |
+| US03          | Recuperación de contraseña |
+| US04          | Edición de perfil personal |
+
+| Technical Story ID | Título                                               |
+| ------------------ | ---------------------------------------------------- |
+| TS01               | Implementar autenticación JWT                        |
+| TS02               | Encriptar contraseñas en base de datos               |
+| TS03               | Validar roles huésped en backend                     |
+| TS04               | Conectar formularios de registro/login con endpoints |
+
+**EP02 – Registro y Gestión de Perfil de Anfitrión**
+
+| User Story ID | Título                             |
+| ------------- | ---------------------------------- |
+| US05          | Registro de anfitrión              |
+| US06          | Verificación de identidad básica   |
+| US07          | Configuración de datos de contacto |
+| US08          | Edición de perfil de anfitrión     |
+
+| Technical Story ID | Título                                              |
+| ------------------ | --------------------------------------------------- |
+| TS05               | Implementar formulario de registro con validaciones |
+| TS06               | Validar identidad con correo o documento            |
+| TS07               | Conectar gestión de perfil de anfitrión al backend  |
+
+**EP03 – Gestión de Propiedades**
+
+| User Story ID | Título                             |
+| ------------- | ---------------------------------- |
+| US09          | Registrar nueva propiedad          |
+| US10          | Subir fotos de la propiedad        |
+| US11          | Editar información de la propiedad |
+| US12          | Eliminar propiedad                 |
+
+| Technical Story ID | Título                               |
+| ------------------ | ------------------------------------ |
+| TS08               | Configurar API para propiedades      |
+| TS09               | Validar carga de imágenes en backend |
+| TS10               | Implementar CRUD de propiedades      |
+
+**EP04 – Búsqueda y Reserva de Estancias**
+
+| User Story ID | Título                           |
+| ------------- | -------------------------------- |
+| US13          | Buscar propiedades por ubicación |
+| US14          | Filtrar por precio y fechas      |
+| US15          | Reservar una propiedad           |
+| US16          | Ver historial de reservas        |
+
+| Technical Story ID | Título                                      |
+| ------------------ | ------------------------------------------- |
+| TS11               | API de búsqueda con filtros                 |
+| TS12               | Integración de calendario de disponibilidad |
+| TS13               | Implementar confirmación de reservas        |
+
+**EP05 – Pagos y Facturación**
+
+| User Story ID | Título                        |
+| ------------- | ----------------------------- |
+| US17          | Realizar pago en línea        |
+| US18          | Consultar historial de pagos  |
+| US19          | Descargar comprobante de pago |
+
+| Technical Story ID | Título                                                |
+| ------------------ | ----------------------------------------------------- |
+| TS14               | Integrar pasarela de pago (ej. Stripe/PayPal sandbox) |
+| TS15               | Validar transacciones seguras                         |
+| TS16               | API de historial de pagos                             |
+
+**EP06 – Reseñas y Calificaciones**
+
+| User Story ID | Título                        |
+| ------------- | ----------------------------- |
+| US20          | Dejar reseña de una estancia  |
+| US21          | Calificar anfitrión o huésped |
+| US22          | Ver reseñas de una propiedad  |
+
+| Technical Story ID | Título                                              |
+| ------------------ | --------------------------------------------------- |
+| TS17               | API para reseñas y calificaciones                   |
+| TS18               | Validar que solo usuarios con reserva puedan opinar |
+
+**EP07 – Soporte y Ayuda**
+
+| User Story ID | Título                         |
+| ------------- | ------------------------------ |
+| US23          | Acceder a preguntas frecuentes |
+| US24          | Enviar reporte de problema     |
+| US25          | Contactar con soporte técnico  |
+
+| Technical Story ID | Título                                      |
+| ------------------ | ------------------------------------------- |
+| TS19               | API para reportes de problemas              |
+| TS20               | Integrar formulario de contacto con backend |
+
+**EP08 – Exploración como Visitante**
+
+| User Story ID | Título                                   |
+| ------------- | ---------------------------------------- |
+| US26          | Ver información general sobre SmartStay  |
+| US27          | Conocer beneficios de usar la plataforma |
+| US28          | Acceder fácilmente al registro o login   |
+
+| Technical Story ID | Título                             |
+| ------------------ | ---------------------------------- |
+| TS21               | Implementar landing page           |
+| TS22               | Conectar botones de registro/login |
+
+---
+
+## 3.2. Impact Mapping.
+
+---
+
+## 3.3. Product Backlog.
+
+---
+
+
+
 
 
