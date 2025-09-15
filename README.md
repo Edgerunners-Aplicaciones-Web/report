@@ -658,6 +658,9 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
 
+**Valeria Ríos (Huésped / Viajera):**
+
+![Screenshot](assets/EmpathyMap2.jpg)
 
 ## 2.4. Big Picture EventStorming.
 
