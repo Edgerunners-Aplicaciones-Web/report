@@ -654,7 +654,9 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
----
+###Adrián Ramírez (Administrador de hotel boutique):
+
+![Screenshot](assets/Chapter-02/Empathy_map.jpg)
 
 ## 2.4. Big Picture EventStorming.
 
