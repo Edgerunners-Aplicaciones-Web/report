@@ -608,7 +608,27 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
+La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
+###Adrián Ramírez (Administrador de hotel boutique)
+
+| **Tarea**                           | **Frecuencia** | **Importancia** |
+|-------------------------------------|----------------|-----------------|
+| Gestionar reservas y disponibilidad | Alta           | Alta            |
+| Evitar sobreventas y duplicados     | Alta           | Alta            |
+| Coordinar limpieza y personal       | Media          | Alta            |
+| Revisar y responder solicitudes     | Alta           | Media           |
+| Centralizar operaciones en un sistema único | Media | Alta |
+
 ---
+
+###Valeria Ríos (Huésped)
+
+| **Tarea**                                  | **Frecuencia** | **Importancia** |
+|--------------------------------------------|----------------|-----------------|
+| Hacer check-in/check-out                   | Alta           | Alta            |
+| Acceder a wifi rápido y confiable          | Alta           | Alta            |
+| Personalizar su estadía con servicios digitales | Media      | Alta            |
+| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
