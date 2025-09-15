@@ -610,7 +610,7 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
 
 La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
 
-###Adrián Ramírez (Administrador de hotel boutique)
+**Adrián Ramírez (Administrador de hotel boutique)**
 
 | **Tarea**                           | **Frecuencia** | **Importancia** |
 |-------------------------------------|----------------|-----------------|
@@ -622,7 +622,7 @@ La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que 
 
 ---
 
-###Valeria Ríos (Huésped)
+**Valeria Ríos (Huésped)**
 
 | **Tarea**                                  | **Frecuencia** | **Importancia** |
 |--------------------------------------------|----------------|-----------------|
@@ -654,9 +654,10 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
-###Adrián Ramírez (Administrador de hotel boutique):
+**Adrián Ramírez (Administrador de hotel boutique):**
 
-![Screenshot](assets/Chapter-02/Empathy_map.jpg)
+![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
+
 
 ## 2.4. Big Picture EventStorming.
 
