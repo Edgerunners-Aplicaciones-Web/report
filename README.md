@@ -987,14 +987,41 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+Diagrama de Clases: Componente de Autenticación
 
-![SmartStayClassDiagram.png](assets/Chapter-04/SmartStayClassDiagram.png)
+![AuthComponentClassDiagram.png](assets/Chapter-04/AuthComponentClassDiagram.png)
+
+Este diagrama detalla las clases responsables de la gestión de la identidad y el acceso en el sistema. Incluye la jerarquía de User con sus roles especializados (Guest, Host, HotelStaff), el AuthService que contiene la lógica de negocio para el registro y la autenticación, y la interfaz IUserRepository para la persistencia de datos de usuario.
+
+Diagrama de Clases: Componente de Gestión de Propiedades y Operaciones
+
+![PropertyComponentClassDiagram.png](assets/Chapter-04/PropertyComponentClassDiagram.png)
+
+Este diagrama muestra el diseño de clases para la gestión del inventario y las operaciones del hotel. Incluye las entidades Property y Room, que representan los activos físicos, y el PropertyService que maneja su estado y disponibilidad. Es importante destacar que este componente también actúa como el origen de los comandos de IoT, utilizando la interfaz IIoTCommandPublisher para iniciar acciones en el mundo físico.
+
+Diagrama de Clases: Componente de Gestión de Reservas
+
+![BookingComponentClassDiagram.png](assets/Chapter-04/BookingComponentClassDiagram.png)
+
+Este diagrama presenta el diseño de clases para el componente central de reservas. Muestra las entidades de dominio Booking y Review, y el BookingService que actúa como orquestador. Este servicio interactúa con otros componentes a través de adaptadores (IPropertyServiceAdapter, IBillingServiceAdapter) para verificar disponibilidad y procesar pagos, gestionando así el flujo completo de una reserva.
+
+Diagrama de Clases: Componente de Facturación
+
+![BillingComponentClassDiagram.png](assets/Chapter-04/BillingComponentClassDiagram.png)
+
+Este diagrama ilustra la estructura interna del componente de facturación. Se definen las entidades Payment e Invoice, el servicio BillingService que orquesta el proceso de pago, y los adaptadores (IPaymentGatewayAdapter, IAuthServiceAdapter) que se comunican con sistemas externos y otros componentes internos para garantizar transacciones seguras y autorizadas.
+
+Diagrama de Clases: Componente Gateway IoT
+
+![IoTGatewayComponentClassDiagram.png](assets/Chapter-04/IoTGatewayComponentClassDiagram.png)
+
+Este diagrama detalla la arquitectura interna del componente técnico Gateway IoT. Su diseño se basa en un flujo de procesamiento de mensajes para desacoplar la lógica de negocio del hardware: un MessageListener recibe órdenes, un RulesEngine las interpreta, IDeviceController las especializa, y un ICloudApiClient se comunica con la plataforma externa del fabricante. Este patrón abstrae la complejidad de la integración con dispositivos físicos.
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-![SmartStayDataBase.png](assets/Chapter-04/SmartStayDataBase.png)
+
 
 
 
