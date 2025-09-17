@@ -989,6 +989,51 @@ Objetivo:
 
 ![logo-monocromatico-1.png](assets/logo-monocromatico-1.png)
 ![logo-monocromatico-2.png](assets/logo-monocromatico-2.png)
+
+**Tipografia**
+
+- Fuente principal (Brand & Títulos):
+  Cocomat Pro
+  Uso: Logo, headers, títulos principales en la app/web.
+  Razón: Da un aire moderno y premium, con un estilo limpio que refuerza la identidad de la marca.
+  
+- Fuente secundaria (Texto y párrafos)
+  Open Sans o Lato
+  Uso: Textos descriptivos, botones, menús, correos y cualquier contenido largo.
+  Razón: Son altamente legibles en pantallas, versátiles y complementan la elegancia de Cocomat Pro sin competir con ella.
+  
+-Jerarquía de uso
+1. Títulos (H1, H2): Cocomat Pro Bold.
+2. Subtítulos / énfasis: Cocomat Pro Medium.
+Texto general / párrafos: Open Sans Regular.
+Botones y menús: Open Sans SemiBold.
+
+- Sistema Tipográfico 
+H1 (Títulos principales):
+Cocomat Pro Bold – 32px
+
+H2 (Subtítulos / secciones):
+Cocomat Pro Medium – 24px
+
+H3 (Bloques / cards):
+Cocomat Pro Medium – 20px
+
+Texto cuerpo (párrafos):
+Open Sans Regular – 16px
+
+Texto secundario / notas:
+Open Sans Regular – 14px
+
+Botones primarios:
+Open Sans SemiBold – 16px (MAYÚSCULAS)
+
+**Paleta de colores**
+Espaciado de líneas: 1.5x en párrafos para mayor legibilidad.
+Uso de color:
+-Primario: Azul Marino (#2C3E91) → solidez, profesionalismo.
+-Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
+-Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
+-Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
   
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
