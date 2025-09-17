@@ -967,6 +967,29 @@ Objetivo:
 
 ### 4.1.1. General Style Guidelines
 
+**Branding**
+
+- Logo Rewind: El logo principal de la startup con el que se muestra ante el público.
+
+![logo.png](assets/logo.png)
+  
+- Logo Modo Oscuro: Este logo es creado para contrastar en fondos oscuros, lo cual permite la protección de la vista del usuario y favorece el rendimiento de la batería de su dispositivo.
+
+![logo-modo-oscuro.png](assets/logo-modo-oscuro.png)
+
+- Logo Plus: Es una versión del logo con un color que resalta más elegancia, el cual se usa para los usuarios que opten por usar la suscripción plus del servicio.
+
+![logo-plus.png](assets/logo-plus.png)
+
+- Logo Plus Modo Oscuro: Tiene la misma función que el logo modo oscuro con la diferencia de que sirve para la suscripción plus.
+
+![logo-plus-modo-oscuro.png](assets/logo-plus-modo-oscuro.png)
+  
+- Logos Monocromáticos: Logos con paleta de colores blanco y negro, cuyo uso es exclusivo para impresiones y documentos.
+
+![logo-monocromatico-1.png](assets/logo-monocromatico-1.png)
+![logo-monocromatico-2.png](assets/logo-monocromatico-2.png)
+  
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 
