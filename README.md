@@ -1089,7 +1089,7 @@ Este diagrama ilustra la estructura interna del componente de facturación. Se d
 
 Diagrama de Clases: Componente Gateway IoT
 
-![IoTGatewayComponentClassDiagram.png](assets/Chapter-04/IoTGatewayComponentClassDiagram.png)
+![Iot-Gateway-Component-Class-Diagram.png](assets/Chapter-04/Iot-Gateway-Component-Class-Diagram.png)
 
 Este diagrama detalla la arquitectura interna del componente técnico Gateway IoT. Su diseño se basa en un flujo de procesamiento de mensajes para desacoplar la lógica de negocio del hardware: un MessageListener recibe órdenes, un RulesEngine las interpreta, IDeviceController las especializa, y un ICloudApiClient se comunica con la plataforma externa del fabricante. Este patrón abstrae la complejidad de la integración con dispositivos físicos.
 
