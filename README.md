@@ -992,9 +992,9 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 4.8. Database Design
 
-![SmartStayDataBase.png](assets/Chapter-04/SmartStayDataBase.png)
-
 ### 4.8.1. Database Diagrams
+
+![SmartStayDataBase.png](assets/Chapter-04/SmartStayDataBase.png)
 
 
 
