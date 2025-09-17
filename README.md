@@ -1139,23 +1139,79 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 5.1. Software Configuration Management.
 
----
+La gestión de configuración de software del proyecto se ha implementado siguiendo lineamientos de control de versiones, estandarización de entornos, convenciones de codificación y despliegue automatizado. Este enfoque garantiza la trazabilidad, mantenibilidad y consistencia del sistema en cada una de las fases de desarrollo, pruebas y liberación.
 
 ## 5.1.1. Software Development Environment Configuration.
 
----
+El entorno de desarrollo fue configurado bajo criterios de homogeneidad y soporte multiplataforma, asegurando que todos los integrantes del equipo dispongan de la misma base técnica. Las herramientas y tecnologías empleadas fueron las siguientes:
+
+- IDE: JetBrains IDE  para el desarrollo de frontend y backend.
+
+- Frontend: desarrollado con Vue.js , apoyado por HTML5, CSS3 y JavaScript, además de la librería de componentes PrimeVue bajo lineamientos de Material Design.
+
+- Backend: implementado en ASP.NET Core con C#, siguiendo el estilo arquitectónico RESTful para la exposición de servicios web, bajo principios de Clean Architecture y Domain-Driven Design  para la organización interna del código, garantizando separación de responsabilidades, escalabilidad y alineación con el modelo de negocio.
+
+- Diseño y UX/UI:
+  - UXPressia para User Personas, Empathy Maps, Journey Maps e Impact Maps.
+  - Figma / Adobe XD para Wireframes, Mockups y Prototypes.
+  - LucidChart / Overflow para Wireflows y User Flows.
+  - LucidChart / Miro para EventStorming.
+  - Structurizr para diagramas C4 Model y PlantUML en Diagram-as-Code.
+- Gestión de proyectos: Trello bajo metodología ágil tipo Kanban.
+- Base de datos y arquitectura: diagramada con LucidChart / Vertabelo.
+- Documentación de servicios: OpenAPI Specification vía Swagger.
+
 
 ## 5.1.2. Source Code Management.
 
----
+La gestión del código fuente se realizó utilizando GitHub como repositorio central, bajo la estrategia GitFlow Workflow complementada con Conventional Commits y Semantic Versioning.
+
+- Estructura de ramas:
+
+  - main: rama principal destinada a versiones estables.
+  - develop: rama de integración de nuevas funcionalidades.
+  - feature/chapter-01: ramas específicas para el desarrollo de capítulos I 
+  - feature/chapter-02: ramas específicas para el desarrollo de capítulos II
+  - feature/chapter-03: ramas específicas para el desarrollo de capítulos III
+  - feature/chapter-04: ramas específicas para el desarrollo de capítulos IV 
+  - feature/chapter-05: ramas específicas para el desarrollo de capítulos V
+
+- Política de integración:
+
+  - Cada feature branch se desarrolla de forma aislada.
+  - Se realizan pull requests hacia develop para revisión de código.
+  - Sólo versiones aprobadas y probadas se integran en main para despliegues estables.
+
+- Gestión de tareas vinculada: se empleó Trello y GitHub Issues para trazar el avance del backlog, garantizando la alineación entre planificación y desarrollo.
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
----
+Se aplicaron convenciones de codificación específicas para cada tecnología con el objetivo de asegurar consistencia, legibilidad y mantenibilidad del sistema:
+- Frontend (Vue.js + JavaScript)
+  - Vue Style Guide .
+  - Uso de ESLint y Prettier para estandarización automática del código.
+- HTML/CSS
+  - Google HTML/CSS Style Guide.
+  - W3C JavaScript Style Guide.
+- Backend (C# + ASP.NET Core)
+  - C# Coding Conventions .
+  - ASP.NET Core Engineering Guidelines.
+- Buenas prácticas aplicadas
+  - Nombres significativos para clases, métodos y variables.
+  - Uso de CamelCase y PascalCase según el estándar de cada lenguaje.
+  - Principio DRY (Don’t Repeat Yourself) para evitar duplicación de código.
+  - Comentarios y documentación inline bajo formato XML/Markdown estandarizado.
+  - Uso de Conventional Commits (feat:, fix:, docs:, style:) para control de versiones.
 
 ## 5.1.4. Software Deployment Configuration.
 
----
+El despliegue del software se definió con separación de entornos para pruebas y producción:
+- Frontend: ejecutado en localhost:4200 para desarrollo. Preparado para despliegue en servicios de hosting web
+- Backend: desplegado en la plataforma Render, simulando un servidor en la nube con endpoints REST expuestos públicamente.
+- Configuración de entornos:
+  - Desarrollo: uso de fake backend y JSON Server para pruebas rápidas.
+  - Producción/Testing: servicios en Render para pruebas de integración con datos reales.
+- Política de despliegue: sólo el contenido aprobado en la rama main es utilizado en entornos de despliegue.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
