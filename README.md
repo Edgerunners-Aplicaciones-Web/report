@@ -928,7 +928,44 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 3.3. Product Backlog.
 
----
+| #Orden | ID   | User Story / Technical Story                                             | Story Points |
+| ------ | ---- | ------------------------------------------------------------------------ | ------------ |
+| 01     | US01 | Registro de huésped                                                      | 5            |
+| 02     | US02 | Inicio de sesión seguro                                                  | 5            |
+| 03     | US03 | Recuperación de contraseña                                               | 3            |
+| 04     | US04 | Edición de perfil personal                                               | 3            |
+| 05     | TS01 | Conectar formularios de registro/login con validaciones en frontend      | 8            |
+| 06     | US05 | Registro de anfitrión                                                    | 5            |
+| 07     | US06 | Verificación de identidad básica                                         | 3            |
+| 08     | US07 | Configuración de datos de contacto                                       | 3            |
+| 09     | US08 | Edición de perfil de anfitrión                                           | 3            |
+| 10     | TS02 | Validar campos de formulario en frontend (correo, contraseña, documento) | 8            |
+| 11     | US09 | Registrar nueva propiedad                                                | 5            |
+| 12     | US10 | Subir fotos de la propiedad                                              | 5            |
+| 13     | US11 | Editar información de la propiedad                                       | 3            |
+| 14     | US12 | Eliminar propiedad                                                       | 3            |
+| 15     | US13 | Buscar propiedades por ubicación                                         | 5            |
+| 16     | US14 | Filtrar por precio y fechas                                              | 5            |
+| 17     | US15 | Reservar una propiedad                                                   | 8            |
+| 18     | US16 | Ver historial de reservas                                                | 3            |
+| 19     | TS03 | Crear buscador y filtros en frontend                                     | 8            |
+| 20     | TS04 | Simular reservas con estado guardado en frontend                         | 5            |
+| 21     | US17 | Realizar pago en línea                                                   | 8            |
+| 22     | US18 | Consultar historial de pagos                                             | 3            |
+| 23     | US19 | Descargar comprobante de pago                                            | 3            |
+| 24     | TS05 | Simular integración de pago                                              | 8            |
+| 25     | US20 | Dejar reseña de una estancia                                             | 5            |
+| 26     | US21 | Calificar anfitrión o huésped                                            | 3            |
+| 27     | US22 | Ver reseñas de una propiedad                                             | 3            |
+| 28     | TS06 | Formulario de reseñas conectado a la UI, guardado simulado en frontend   | 5            |
+| 29     | US23 | Acceder a preguntas frecuentes                                           | 3            |
+| 30     | US24 | Enviar reporte de problema                                               | 3            |
+| 31     | US25 | Contactar con soporte técnico                                            | 5            |
+| 32     | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes     | 8            |
+| 33     | US26 | Ver información general sobre SmartStay                                  | 3            |
+| 34     | US27 | Conocer beneficios de usar la plataforma                                 | 3            |
+| 35     | US28 | Acceder fácilmente al registro o login                                   | 5            |
+| 36     | TS08 | Implementar landing page con botones hacia login/registro                | 5            |
 
 
 
