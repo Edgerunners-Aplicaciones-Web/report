@@ -1030,10 +1030,10 @@ Open Sans SemiBold – 16px (MAYÚSCULAS)
 **Paleta de colores**
 Espaciado de líneas: 1.5x en párrafos para mayor legibilidad.
 Uso de color:
--Primario: Azul Marino (#2C3E91) → solidez, profesionalismo.
--Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
--Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
--Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
+- Primario: Azul Marino (#2C3E91) → solidez, profesionalismo.
+- Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
+- Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
+- Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
   
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
