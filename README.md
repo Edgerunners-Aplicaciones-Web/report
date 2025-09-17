@@ -958,7 +958,83 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 4.1. Style Guidelines
 
+Nuestra base es establecer la identidad visual y de diseño de Smart Stay, asegurando coherencia, claridad y usabilidad en todos los puntos de contacto de la marca, tanto en medios digitales como en experiencias del usuario.
+
+Objetivo:
+- Alinear la comunicación visual y de producto con la misión de la startup.
+-	Garantizar una experiencia de usuario clara, accesible y atractiva.
+-	Facilitar la integración de diseño en web y aplicaciones móviles con un lenguaje unificado.
+
 ### 4.1.1. General Style Guidelines
+
+**Branding**
+
+- Logo Rewind: El logo principal de la startup con el que se muestra ante el público.
+
+![logo.png](assets/logo.png)
+  
+- Logo Modo Oscuro: Este logo es creado para contrastar en fondos oscuros, lo cual permite la protección de la vista del usuario y favorece el rendimiento de la batería de su dispositivo.
+
+![logo-modo-oscuro.png](assets/logo-modo-oscuro.png)
+
+- Logo Plus: Es una versión del logo con un color que resalta más elegancia, el cual se usa para los usuarios que opten por usar la suscripción plus del servicio.
+
+![logo-plus.png](assets/logo-plus.png)
+
+- Logo Plus Modo Oscuro: Tiene la misma función que el logo modo oscuro con la diferencia de que sirve para la suscripción plus.
+
+![logo-plus-modo-oscuro.png](assets/logo-plus-modo-oscuro.png)
+  
+- Logos Monocromáticos: Logos con paleta de colores blanco y negro, cuyo uso es exclusivo para impresiones y documentos.
+
+![logo-monocromatico-1.png](assets/logo-monocromatico-1.png)
+![logo-monocromatico-2.png](assets/logo-monocromatico-2.png)
+
+**Tipografia**
+
+- Fuente principal (Brand & Títulos):
+  Cocomat Pro
+  Uso: Logo, headers, títulos principales en la app/web.
+  Razón: Da un aire moderno y premium, con un estilo limpio que refuerza la identidad de la marca.
+  
+- Fuente secundaria (Texto y párrafos)
+  Open Sans o Lato
+  Uso: Textos descriptivos, botones, menús, correos y cualquier contenido largo.
+  Razón: Son altamente legibles en pantallas, versátiles y complementan la elegancia de Cocomat Pro sin competir con ella.
+  
+-Jerarquía de uso
+1. Títulos (H1, H2): Cocomat Pro Bold.
+2. Subtítulos / énfasis: Cocomat Pro Medium.
+Texto general / párrafos: Open Sans Regular.
+Botones y menús: Open Sans SemiBold.
+
+- Sistema Tipográfico 
+H1 (Títulos principales):
+Cocomat Pro Bold – 32px
+
+H2 (Subtítulos / secciones):
+Cocomat Pro Medium – 24px
+
+H3 (Bloques / cards):
+Cocomat Pro Medium – 20px
+
+Texto cuerpo (párrafos):
+Open Sans Regular – 16px
+
+Texto secundario / notas:
+Open Sans Regular – 14px
+
+Botones primarios:
+Open Sans SemiBold – 16px (MAYÚSCULAS)
+
+**Paleta de colores**
+Espaciado de líneas: 1.5x en párrafos para mayor legibilidad.
+Uso de color:
+- Primario: Azul Marino (#2C3E91) → solidez, profesionalismo.
+- Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
+- Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
+- Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
+  
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 
