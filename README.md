@@ -1095,9 +1095,11 @@ Este diagrama detalla la arquitectura interna del componente técnico Gateway Io
 
 ## 4.8. Database Design
 
+
+
 ### 4.8.1. Database Diagrams
 
-
+![database-diagram.png](assets/Chapter-04/database-diagram.png)
 
 
 
