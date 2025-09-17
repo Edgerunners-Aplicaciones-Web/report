@@ -988,7 +988,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 4.7.1. Class Diagrams
 
-![class-diagram.puml](assets/Chapter-04/class-diagram.puml)
+![SmartStayClassDiagram.png](assets/Chapter-04/SmartStayClassDiagram.png)
 
 ## 4.8. Database Design
 
