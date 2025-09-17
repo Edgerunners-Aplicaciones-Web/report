@@ -958,7 +958,14 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 4.1. Style Guidelines
 
+Nuestra base es establecer la identidad visual y de diseño de Smart Stay, asegurando coherencia, claridad y usabilidad en todos los puntos de contacto de la marca, tanto en medios digitales como en experiencias del usuario.
+Objetivo:
+•	Alinear la comunicación visual y de producto con la misión de la startup.
+•	Garantizar una experiencia de usuario clara, accesible y atractiva.
+•	Facilitar la integración de diseño en web y aplicaciones móviles con un lenguaje unificado.
+
 ### 4.1.1. General Style Guidelines
+
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 
