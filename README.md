@@ -1058,9 +1058,13 @@ Uso de color:
 
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram
+![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
 ### 4.6.3. Software Architecture Container Diagrams
+![Containers.jpg](assets/Chapter-04/Containers.jpg)
 ### 4.6.4. Software Architecture Components Diagrams
+![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
 ## 4.7. Software Object-Oriented Design
+![IotGatewayComponets.jpg](assets/Chapter-04/IotGatewayComponets.jpg)
 
 ### 4.7.1. Class Diagrams
 Diagrama de Clases: Componente de Autenticación
