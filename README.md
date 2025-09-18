@@ -1027,6 +1027,8 @@ Open Sans Regular – 14px
 Botones primarios:
 Open Sans SemiBold – 16px (MAYÚSCULAS)
 
+![fuentes-imagen.png](assets/fuentes-imagen.png)
+
 **Paleta de colores**
 Espaciado de líneas: 1.5x en párrafos para mayor legibilidad.
 Uso de color:
