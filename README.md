@@ -1039,6 +1039,11 @@ Uso de color:
 
 ![color-image.png](assets/color-image.png)
 
+**Dimensiones**
+- Cercano y humano: Hablar como si fueras un amigo confiable, sin tecnicismos innecesarios.
+- Claro y directo: Frases cortas, fáciles de entender, sin rodeos.
+- Inspirador: Transmitir seguridad y motivación para que el usuario sienta que tomó la mejor decisión.
+- Profesional pero cálido: Ni demasiado rígido ni demasiado informal.
   
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
