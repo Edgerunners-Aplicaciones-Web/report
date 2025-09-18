@@ -1036,6 +1036,9 @@ Uso de color:
 - Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
 - Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
 - Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
+
+![color-imagen.png](assets/color-imagen.png)
+
   
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
