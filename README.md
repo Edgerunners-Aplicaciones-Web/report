@@ -1037,7 +1037,7 @@ Uso de color:
 - Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
 - Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
 
-![color-imagen.png](assets/color-imagen.png)
+![color-image.png](assets/color-image.png)
 
   
 ### 4.1.2. Web Style Guidelines
