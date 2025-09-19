@@ -1240,7 +1240,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
   - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
-![wprecios.png](assets/wprecios.png)
+![wsprecios.png](assets/wsprecios.png)
 
 **5. Casos de Éxito**
 - **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.  
@@ -1254,14 +1254,14 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Documentos descargables (guías, whitepapers, brochures).  
   - Links de blogs.  
-![wrecursos.png](assets/wrecursos.png)
+![wrecurso.png](assets/wrecurso.png)
 
 **7. Registro**
 - **Propósito:** Permitir que un nuevo usuario cree su cuenta.  
 - **Elementos clave:**  
   - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
   - Botón de registro.  
-![wregistro.png](assets/wregistro.png)
+![wregister.png](assets/wregister.png)
 
 **8. Login**
 - **Propósito:** Acceso de usuarios ya registrados.  
@@ -1332,7 +1332,7 @@ Su propósito es:
   - Formulario minimalista con campos estilizados.  
   - Botón de “Enviar y registrar” resaltado en color primario.  
   - Fondo con imagen ligera para dar contexto al servicio.
-  ![registro.png](assets/registro.png)
+  ![register.png](assets/register.png)
 
 **8. Login**
 - **Cambios respecto al wireframe:**  
