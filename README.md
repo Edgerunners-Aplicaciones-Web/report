@@ -1046,6 +1046,63 @@ Uso de color:
 - Profesional pero cálido: Ni demasiado rígido ni demasiado informal.
   
 ### 4.1.2. Web Style Guidelines
+
+**Páginas principales**
+
+- Home: enfoque en storytelling + CTA (“Probar demo”).
+- Productos: módulos claros (cards azules) con descripciones cortas.
+- Soluciones: bloques con imágenes + botones de acción (descargar brochure).
+- Precios:  tabla comparativa clara (Plan Normal vs Plan Plus).
+![paginas_principales.png](assets/paginas_principales.png)
+
+**Encabezados Hero (Landing)**
+
+- Imagen grande en 16:9 con overlay oscuro: refuerza contraste con texto.
+- Texto principal: H1 32px, Cocomat Pro Bold en blanco.
+- Botón destacado (CTA): Naranja Suave (#E67E22) en mayúsculas.
+![encabezado_hero.png](assets/encabezado_hero.png)
+
+**Cards y Bloques de Contenido**
+
+- Fondo azul marino (#2C3E91), texto blanco.
+- Iconografía minimalista y consistente.
+- Bordes redondeados 12px + sombra suave.
+- Espaciado interno: 24px padding.
+- Uso de grillas para mantener equilibrio visual.
+![bloques.png](assets/bloques.png)
+
+**Tablas Comparativas (Precios)**
+
+- Fondo alternado con colores que definen los planes para mejorar lectura.
+- Encabezados fijos con H2 Medium 24px.
+- Marca de “incluido” en check.
+- Elementos no incluidos  sin check.
+- Botón “Mejorar plan” en naranja como llamada a la acción final.
+![plan.png](assets/plan.png)
+
+**Footer**
+
+- Fondo azul marino sólido.
+- Texto en blanco y gris claro.
+- Columnas organizadas con links en Open Sans 14px.
+- Inclusión de iconos sociales en fila inferior.
+![footer.png](assets/footer.png)
+
+**Uso de Color en Web**
+
+-Azul Marino (#2C3E91) → fondos de bloques, navegación, footer.
+-Naranja Suave (#E67E22) → CTAs principales.
+-Verde Agua (#1ABC9C) → énfasis positivo (checks, beneficios, “incluido”).
+-Beige (#F5F5DC) → fondos neutros para separar secciones.
+
+**Comportamiento UX**
+
+- Hover Cards → elevación (sombra) + cambio leve en tono de fondo.
+- Hover Botones → transición 0.3s de azul → naranja.
+- Scroll suave en anclas de página.
+- Menú sticky superior para navegación rápida.
+  ![final.png](assets/final.png)
+  
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
