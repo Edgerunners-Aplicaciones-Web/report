@@ -1101,7 +1101,7 @@ Uso de color:
 - Hover Botones → transición 0.3s de azul → naranja.
 - Scroll suave en anclas de página.
 - Menú sticky superior para navegación rápida.
-  ![final.png](assets/final.png)
+![final.png](assets/final.png)
   
 ## 4.2. Information Architecture
 
