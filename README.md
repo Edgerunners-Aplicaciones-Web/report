@@ -1296,7 +1296,7 @@ Su propósito es:
   - Iconografía personalizada para los beneficios.  
 ![home.png](assets/home.png)
 
-**2. Productos*
+**2. Productos**
 -**Cambios respecto al wireframe:**  
   - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
   - Inclusión de imágenes ilustrativas.  
