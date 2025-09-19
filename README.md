@@ -1105,6 +1105,88 @@ Uso de color:
   
 ## 4.2. Information Architecture
 
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+-CARRERA: Ingeniería de Software  
+-CURSO: Desarrollo de Aplicaciones Open Source  
+-SECCIÓN: 7454  
+-PROFESORES: Todos  
+-AUDITOR: Nombre del Grupo el cual está encargado de evaluar 
+-CLIENTE(S): Administradores de Hoteles Boutique y Huéspedes de Hoteles  
+-SITE o APP A EVALUAR: Smart Stay
+
+**TAREAS A EVALUAR**
+
+**Segmento Objetivo #1: Administradores de Hoteles Boutique y Pequeños en Lima**  
+- Gestionar reservas: claridad en el calendario y sincronización con canales externos.  
+- Notificaciones automáticas: facilidad para configurar alertas de check-in/check-out y limpieza.  
+- Reportes: acceso rápido a reportes de ocupación y facturación.  
+- Seguridad: control de accesos internos para el personal.  
+
+**Segmento Objetivo #2: Huéspedes de Hoteles**  
+- Realizar check-in/out digital: facilidad, rapidez y disponibilidad desde la app.  
+- Control desde el celular: acceso a funciones de la habitación (llaves digitales, temperatura, Wi-Fi).  
+- Personalización de la estadía: opciones visibles de preferencias (horarios, limpieza, amenities).  
+- Comunicación con el hotel: claridad y rapidez en canales de contacto digital.  
+
+**No incluidas en esta versión de la evaluación:**  
+- Procesos de facturación avanzada.  
+- Integración con marketplaces globales.  
+- Funcionalidades de marketing interno del hotel.  
+
+**ESCALA DE SEVERIDAD** 
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser superado fácilmente. No requiere arreglo inmediato. |
+| **2** | Problema menor: afecta ocasionalmente la experiencia. Resolución de baja prioridad. |
+| **3** | Problema mayor: ocurre frecuentemente y afecta la experiencia de forma significativa. Requiere corrección prioritaria. |
+| **4** | Problema muy grave: impide continuar con la tarea. Requiere corrección inmediata antes del lanzamiento. |
+
+
+**TABLA RESUMEN**  
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|---------------------|-------------------------------|
+| 1 | Reservas no muestran disponibilidad en tiempo real (riesgo de sobreventa). | 3 | Usabilidad: Visibilidad del estado del sistema. |
+| 2 | Notificaciones poco configurables y sin opciones personalizadas. | 2 | Flexibilidad y eficiencia de uso. |
+| 3 | Reportes de ocupación y facturación poco visibles en el dashboard. | 2 | Visibilidad y reconocimiento antes que recuerdo. |
+| 4 | Botón de check-in digital en la app es poco visible en la pantalla de inicio. | 3 | Usabilidad: Visibilidad del estado del sistema. |
+| 5 | El control desde la app (llaves digitales, limpieza) no está claramente explicado. | 2 | Coincidencia entre el sistema y el mundo real. |
+
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**SEGMENTO: Administradores de Hoteles**
+- **Severidad: 3 – Visibilidad del estado del sistema**  
+  - Problema: El calendario de reservas no refleja actualizaciones en tiempo real con plataformas externas.  
+  - Recomendación: Implementar sincronización inmediata con canales externos (Booking, Airbnb, etc.) y estados visuales claros de disponibilidad.  
+
+- **Severidad: 2 – Flexibilidad y eficiencia de uso**  
+  - Problema: Las notificaciones automáticas no permiten personalizar mensajes ni frecuencia.  
+  - Recomendación: Añadir un panel de configuración flexible con plantillas y horarios definidos por el administrador.  
+
+- **Severidad: 2 – Reconocimiento antes que recuerdo**  
+  - Problema: Los reportes se encuentran en un submenú poco visible.  
+  - Recomendación: Colocar accesos rápidos en el dashboard inicial y usar iconografía clara.  
+
+
+**SEGMENTO: Huéspedes de Hoteles**  
+
+- **Severidad: 2 – Coincidencia entre el sistema y el mundo real**  
+  - Problema: El control de la habitación desde la app (llaves digitales, limpieza, Wi-Fi) no cuenta con guías visuales.  
+  - Recomendación: Incluir íconos representativos y tutoriales cortos dentro de la app.  
+
+- **Severidad: 3 – Ayuda y documentación**  
+  - Problema: No existe chat directo con la recepción del hotel; solo un formulario genérico.  
+  - Recomendación: Incorporar mensajería en tiempo real con la recepción.  
+
+- **Severidad: 2 – Accesibilidad universal**  
+  - Problema: Algunos botones presentan bajo contraste en modo claro (ejemplo: naranja sobre beige).  
+  - Recomendación: Ajustar colores con ratio de contraste mínimo 4.5:1 siguiendo WCAG 2.1.  
+
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
