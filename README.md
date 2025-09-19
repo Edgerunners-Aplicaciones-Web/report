@@ -1195,7 +1195,155 @@ Uso de color:
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+
+Los wireframes representan la primera aproximación al diseño de la interfaz de Smart Stay.  
+Se han desarrollado en formato blanco y negro, sin imágenes ni estilos gráficos, para enfocarse únicamente en la estructura, disposición de los elementos y flujo de navegación.  
+
+El objetivo de estos wireframes es:
+- Establecer la arquitectura de información de la plataforma.  
+- Definir la jerarquía de contenidos en cada sección.  
+- Validar la navegación y experiencia de usuario antes de pasar al diseño visual (mockups).  
+
+A continuación, se presenta un resumen de cada una de las secciones.
+
+**1. Home**
+- **Propósito:** Página principal de presentación de Smart Stay.  
+- **Elementos clave:**  
+  - Encabezado con menú de navegación.  
+  - Hero con nombre de la plataforma y botón de llamada a la acción (*CTA: Probar demo*).  
+  - Sección "¿Quiénes somos?" con breve descripción.  
+  - Bloques de beneficios y características principales.  
+  - Footer con enlaces de contacto, políticas y redes sociales.
+![whome.png](assets/whome.png)
+
+
+**2. Productos**
+- **Propósito:** Mostrar los productos y módulos de la plataforma.  
+- **Elementos clave:**  
+  - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.  
+  - Descripción breve de cada módulo.  
+  - Botón de descarga de brochure.
+  ![wproductos.png](assets/wproductos.png)
+
+**3. Soluciones**
+- **Propósito:** Explicar cómo Smart Stay se adapta a diferentes tipos de hoteles.  
+- **Elementos clave:**  
+  - Sección para hoteles boutique.  
+  - Sección para alojamientos alternativos.  
+  - Sección para cadenas hoteleras.  
+  - Botón para descargar información detallada.
+  ![wsoluciones.png](assets/wsoluciones.png)
+
+
+**4. Precios**
+- **Propósito:** Detallar planes y costos de la plataforma.  
+- **Elementos clave:**  
+  - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
+  - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
+![wprecios.png](assets/wprecios.png)
+
+**5. Casos de Éxito**
+- **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.  
+- **Elementos clave:**  
+  - Bloques con testimonios de clientes.  
+  - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
+  ![wreseñas.png](assets/wreseñas.png)  
+
+**6. Recursos**
+- **Propósito:** Repositorio de materiales de apoyo y aprendizaje.  
+- **Elementos clave:**  
+  - Documentos descargables (guías, whitepapers, brochures).  
+  - Links de blogs.  
+![wrecursos.png](assets/wrecursos.png)
+
+**7. Registro**
+- **Propósito:** Permitir que un nuevo usuario cree su cuenta.  
+- **Elementos clave:**  
+  - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
+  - Botón de registro.  
+![wregistro.png](assets/wregistro.png)
+
+**8. Login**
+- **Propósito:** Acceso de usuarios ya registrados.  
+- **Elementos clave:**  
+  - Formulario de inicio de sesión con correo y contraseña.  
+  - Botón de acceso.  
+  - Enlace a recuperación de contraseña y a registro.  
+![wlogin.png](assets/wlogin.png)
+
+Los wireframes definen la base de navegación de Smart Stay, asegurando que cada sección tenga un propósito claro:  
+- **Home:** captar atención y presentar la plataforma.  
+- **Productos, Soluciones, Precios:** comunicar valor y opciones.  
+- **Casos de Éxito, Recursos:** generar confianza y soporte.  
+- **Registro y Login:** habilitar el acceso a la app.  
+
+
 ### 4.3.2. Landing Page Mock-up
+
+Tras la validación de los wireframes, se desarrollaron los mockups de alta fidelidad de Smart Stay.  
+Estos mockups ya incorporan la identidad visual definida (colores, tipografía, logotipo e imágenes), con el objetivo de reflejar la experiencia final que tendrán los usuarios en la plataforma.  
+
+Su propósito es:
+- Validar la usabilidad con un diseño más realista.  
+- Asegurar la coherencia con la guía de estilos definida.  
+- Proyectar cómo se verá cada sección en un entorno final.  
+
+**1. Landing Page**
+- **Cambios respecto al wireframe:**  
+  - Se añadió el logotipo de Smart Stay en el header.  
+  - Paleta de colores aplicada (azul corporativo + tonos complementarios).  
+  - Imagen de fondo en el Hero con llamada a la acción resaltada (“Probar demo”).  
+  - Iconografía personalizada para los beneficios.  
+![home.png](assets/home.png)
+
+**2. Productos*
+-**Cambios respecto al wireframe:**  
+  - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
+  - Inclusión de imágenes ilustrativas.  
+  - Botón de descarga estilizado con colores de la marca.  
+![producto.png](assets/producto.png)
+
+**3. Soluciones**
+- **Cambios respecto al wireframe:**  
+  - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).  
+  - Uso de fotografías representativas de hoteles.  
+  - CTA destacado.
+![soluciones.png](assets/soluciones.png)
+
+**4. Precios**
+- **Cambios respecto al wireframe:**  
+  - Tabla de precios con colores diferenciadores por plan.  
+  - Plan recomendado resaltado con un fondo destacado.  
+  ![precio.png](assets/precio.png)
+
+**5. Casos de Éxito**
+- **Cambios respecto al wireframe:**  
+  - Testimonios acompañados de logos reales de hoteles.  
+![reseña.png](assets/reseña.png)
+
+**6. Recursos**
+- **Cambios respecto al wireframe:**  
+  - Secciones de miniaturas de documentos descargables.  
+  - Secciones de blog con botón de visitar página externa.
+![recursos.png](assets/recursos.png)
+
+**7. Registro**
+- **Cambios respecto al wireframe:**  
+  - Formulario minimalista con campos estilizados.  
+  - Botón de “Enviar y registrar” resaltado en color primario.  
+  - Fondo con imagen ligera para dar contexto al servicio.
+  ![registro.png](assets/registro.png)
+
+**8. Login**
+- **Cambios respecto al wireframe:**  
+  - Formulario ubicado a lateral izquierdo en pantalla con diseño limpio.  
+  - Logo al lado derecho de la pantalla.  
+  - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”.  
+![login.png](assets/login.png)
+
+Los mockups consolidan el diseño visual final de Smart Stay, transformando la estructura básica de los wireframes en interfaces listas para evaluación estética y funcional.  
+
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
