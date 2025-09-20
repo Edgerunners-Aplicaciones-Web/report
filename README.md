@@ -22,9 +22,9 @@
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
-| U20231A816 |Valverde Portuguez| Natalia Ximena  |
-| U20201F051 | Ramos Aguirre    | Aldair Joaquin  |
-|            |                  |                 |
+| U20231A816 |Valverde Portuguez|  Natalia Ximena |
+| U202019498 |Fernandez Garfias |  Alexander Piero|
+| u20191c464 |Saavedra Angulo   |  Jose Jhonatan  |
 |            |                  |                 |
 
 
