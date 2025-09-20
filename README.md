@@ -1188,12 +1188,140 @@ Uso de color:
   - Recomendación: Ajustar colores con ratio de contraste mínimo 4.5:1 siguiendo WCAG 2.1.  
 
 ### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
 
+En el diseño de interfaces digitales centradas en el usuario, el Sistema de Organización es el componente de la arquitectura de información encargado de definir cómo se   agrupan, clasifican y presentan los contenidos dentro de la plataforma. Su objetivo principal es que los usuarios puedan explorar, comprender y acceder a la información de manera rápida e intuitiva, reduciendo la carga cognitiva y mejorando la usabilidad en sus interacciones con el producto.
+
+Para Smart Stay, se ha implementado un sistema de organización híbrido que combina estructuras jerárquicas y funcionales. En la Landing Page, el contenido se distribuye en bloques según su prioridad: primero se destacan las llamadas a la acción principales, como “Probar Demo” y seguidas de la propuesta de valor de la plataforma . El encabezado (header) y pie de página (footer) refuerzan esta jerarquía al agrupar accesos principales y secundarios, permitiendo que los usuarios comprendan rápidamente qué ofrece Smart Stay y cómo navegar por ella, incluso desde dispositivos móviles, aplicando principios de progressive disclosure y adaptabilidad responsiva.
+
+![organizationsystems.png](assets/organizationsystems.png)
+
+### 4.2.2. Labeling Systems
+
+| Etiqueta | Ubicación / Componente | Función |
+|----------|----------------------|---------|
+| Home | Header | Enlace a la Landing Page. Claro y universal. |
+| Services | Header | Información sobre los servicios disponibles (alojamiento, limpieza, extras). Directo y comprensible. |
+| Bookings | Header | Acceso a la sección de reservas. Término estándar y reconocido. |
+| Contact | Header | Formulario de contacto o enlace de correo. Directa y orientada a la acción. |
+| Sign Up | Header (botón) | Registro de nuevos usuarios. Corto, amigable y visualmente destacado. |
+| Login | Header (botón) | Inicio de sesión de usuarios. Palabra ampliamente reconocida. |
+| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo. Imperativo que motiva la interacción. |
+| Benefits | Hero Section / Sección de valor | Destaca las ventajas de la plataforma. Claro y enfocado al usuario. |
+| Testimonials | Sección de valor | Muestra opiniones de usuarios. Genera confianza y credibilidad. |
+| About | Footer / Company | Información institucional sobre Smart Stay. Claro y directo. |
+| Privacy Policy | Footer / Legal | Obligatorio por normativa. Etiqueta reconocida internacionalmente. |
+| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. Estándar legal indispensable. |
+| Social Media | Footer / Navigation | Agrupa enlaces a redes oficiales. Convencional y reconocible globalmente. |
+| Smart Stay | Marca | Nombre distintivo de la plataforma. Funciona como ancla visual y semántica. |
+
+### 4.2.3. SEO Tags and Meta Tags
+
+
+```html
+<!-- Información básica -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Smart Stay: Plataforma para gestionar reservas, servicios y beneficios en hoteles y alojamientos.">
+<meta name="keywords" content="Smart Stay, reservas, alojamiento, hotel, servicios, limpieza, demo, beneficios">
+<meta name="author" content="Smart Stay Team">
+<meta name="robots" content="index, follow">
+
+<!-- Meta tags para redes sociales -->
+<meta property="og:title" content="Smart Stay">
+<meta property="og:description" content="Gestiona reservas y servicios de manera fácil y rápida con Smart Stay.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.smartstay.com">
+<meta property="og:image" content="https://www.smartstay.com/assets/preview.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Smart Stay">
+<meta name="twitter:description" content="Gestiona reservas y servicios de manera fácil y rápida con Smart Stay.">
+<meta name="twitter:image" content="https://www.smartstay.com/assets/preview.png">
+
+<!-- SEO avanzado -->
+<link rel="canonical" href="https://www.smartstay.com">
+<meta name="theme-color" content="#1E90FF">
+<meta name="language" content="en">
+<meta name="distribution" content="global">
+```
+
+Los SEO tags y meta tags son elementos clave dentro de la Landing Page y cualquier página web, porque permiten que los motores de búsqueda comprendan el contenido, mejoren la visibilidad y aumenten la tasa de clics desde resultados de búsqueda. Además, algunas etiquetas influyen directamente en cómo se muestra la página en redes sociales y en navegadores móviles.
+
+**1.Meta Tags principales**
+
+-charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
+-viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+-description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
+-keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
+-author: Indica el autor o equipo responsable del sitio.
+-robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
+
+**2. Meta Tags para redes sociales**
+
+-Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
+-Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
+
+**3. SEO Tags adicionales**
+
+-Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
+-H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
+-Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
+-Canonical URL: Indica la URL principal para evitar contenido duplicado y penalizaciones SEO.
+-Schema.org / JSON-LD: Datos estructurados que ayudan a los motores de búsqueda a mostrar rich snippets (calificaciones, eventos, precios).
+-Language: Define el idioma de la página, útil para SEO internacional.
+-Theme-color: Ajusta el color principal en navegadores móviles, mejorando la experiencia del usuario.
+
+### 4.2.4. Searching Systems
+
+El Searching System de Smart Stay permite a los usuarios localizar información, reservas, servicios o productos de manera rápida y eficiente.
+En la Landing Page, la búsqueda está orientada a descubrir información general sobre la plataforma, con barra de búsqueda, autocompletado y enlaces directos a secciones clave como “Try Demo” o “Benefits”.
+En la Web App, la búsqueda es más funcional y permite filtrar y ordenar datos concretos como huéspedes, reservas y servicios, aplicando autocompletado, filtros dinámicos y persistencia de resultados para mejorar la experiencia del usuario.
+El sistema se diseña siguiendo principios de intuitividad, consistencia, visibilidad y escalabilidad, asegurando que los usuarios siempre encuentren lo que buscan de manera rápida y clara.
+
+| Search Type | Location / Component | Function |
+|------------|--------------------|---------|
+| General Search | Landing Page / Header | Permite buscar información general sobre la plataforma y sus servicios (ej. "services", "demo", "benefits"). Incluye autocompletado y filtros básicos. |
+| Try Demo / Benefits Links | Landing Page / Hero & Value Sections | Funciona como búsqueda indirecta, guiando al usuario hacia contenido relevante sin necesidad de escribir. |
+| Guest / Customer Search | Web App / Guests Section | Permite filtrar por nombre, ID, tipo de habitación o fecha de reserva. Facilita gestión de usuarios. |
+| Bookings Search | Web App / Bookings Section | Filtrado por fechas, estado de reserva (pendiente, confirmada, cancelada) y tipo de servicio. |
+| Services & Products Search | Web App / Services & Products Section | Filtrado por categoría (limpieza, comida, amenities), disponibilidad y precios. |
+| Autocomplete | Web App / All Search Fields | Sugerencias dinámicas mientras se escribe para acelerar la búsqueda y mejorar experiencia de usuario. |
+| Dynamic Filters | Web App / All Search Results | Ajusta los resultados en tiempo real según criterios seleccionados. |
+| Sorting | Web App / All Search Results | Permite ordenar resultados por fecha, nombre, prioridad o relevancia. |
+| Search Persistence | Web App / All Sections | Mantiene los filtros y resultados de búsqueda mientras el usuario navega dentro de la misma sección. |
+
+### 4.2.5. Navigation Systems
+
+**Landing Page Navigation**
+
+| Navigation Item | Location / Component | Function |
+|-----------------|--------------------|---------|
+| Home | Header | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
+| Services | Header | Acceso rápido a la sección de servicios disponibles. |
+| Bookings | Header | Permite al usuario gestionar reservas desde cualquier lugar. |
+| Contact | Header | Enlace al formulario de contacto o correo de soporte. |
+| Sign Up | Header (button) | Registro de nuevos usuarios. Destacado visualmente. |
+| Login | Header (button) | Acceso a la sesión del usuario. Fácil de localizar. |
+| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay. |
+| Benefits | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma. |
+| About | Footer / Company | Información institucional sobre Smart Stay. Acceso desde cualquier sección. |
+| Privacy Policy | Footer / Legal | Enlace obligatorio por normativa legal. |
+| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. |
+| Social Media | Footer / Navigation | Acceso a redes oficiales, visibilidad global. |
+
+**Web App Navigation**
+
+| Navigation Item | Location / Component | Function |
+|-----------------|--------------------|---------|
+| Guests | Sidebar | Sección principal para gestionar huéspedes o clientes. |
+| Bookings | Sidebar | Sección principal para gestionar reservas y su estado. |
+| Services | Sidebar | Sección principal para gestionar servicios disponibles. |
+| Products | Sidebar | Sección para visualizar y administrar productos asociados. |
+| Profile | Top Bar | Acceso a perfil de usuario, configuración y notificaciones. |
+| Notifications | Top Bar | Acceso rápido a alertas y mensajes importantes. |
+| Breadcrumbs | Optional | Indica la ruta de navegación y permite regresar a secciones previas. |
+
+## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
 Los wireframes representan la primera aproximación al diseño de la interfaz de Smart Stay.  
