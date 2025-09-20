@@ -1793,6 +1793,11 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
+
+El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
+En este caso presentaremos el prototipo del app principal que es del modo administrador:
+[https://shorturl.at/7UPcY](https://www.figma.com/proto/RqI67mkRZ1AwuQNTcuGBvA/Sin-t%C3%ADtulo?node-id=48-3793&p=f&t=4u5X36WGvtb7jWe4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
