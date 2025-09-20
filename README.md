@@ -1687,6 +1687,56 @@ Los mockups muestran la interfaz final del administrador de SmartStay, incluyend
 ![mockupadmin2.png](assets/mockupadmin2.png)
 ![mockupadmin3.png](assets/mockupadmin3.png)
 
+**Mockups – Modo Huésped**
+
+Los mockups muestran la interfaz final del usuario huésped en SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual y la experiencia de usuario.
+
+**1. Introducción**
+- Pantalla de bienvenida con **logo y colores corporativos**.  
+- **Imágenes o ilustraciones atractivas** para la experiencia inicial.  
+- Botón destacado para comenzar y acceder a Home.
+
+**2. Home**
+- Panel con **resumen de reservas y notificaciones recientes**.  
+- Cards visuales para acceder a habitaciones, servicios y mapa.  
+- **Botones e iconos claros** para navegación rápida.
+
+**3. Habitación**
+- Tarjetas con fotos de la habitación y detalles (tipo, servicios incluidos, disponibilidad).  
+- Indicadores visuales de estado de limpieza o check-in/check-out.  
+- Botones para solicitar servicio o hacer reservas adicionales.
+
+**4. Servicios**
+- Lista o cards de servicios disponibles (spa, lavandería, comida, etc.) con imágenes.  
+- Indicadores de disponibilidad y precios.  
+- Botones para solicitar o reservar servicios fácilmente.
+
+**5. Mapa**
+- Mapa interactivo con **ubicación del hotel, habitaciones y servicios cercanos**.  
+- Iconos para puntos de interés y rutas dentro del hotel.  
+- Colores y estilo consistente con la identidad visual.
+
+
+**6. Perfil**
+- Información personal del huésped con **foto y datos básicos**.  
+- Botones para editar información o preferencias.  
+- Indicadores de estado de membresía o historial de reservas.
+
+**7. Notificaciones**
+- Lista de notificaciones recientes con **iconos y colores según tipo** (alerta, mensaje, promoción).  
+- Botones para marcar como leído o eliminar.  
+- Diseño consistente con la paleta y tipografía de la app.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockuphuesped1.png](assets/mockuphuesped1.png)
+![mockuphuesped2.png](assets/mockuphuesped2.png)
+
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
