@@ -1280,7 +1280,7 @@ Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios reg
 
 **Evidencia en del avance en trello**
 
-![sprint_trello](imgs/sprint_trello.png)
+![sprint_trello](assets/sprint_trello.png)
 
 Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
 
@@ -1314,7 +1314,7 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 **Evidencia de los commits del landing page**
 
-![commitslanding](imgs/commitslanding.png)
+![commitslanding](assets/commitslanding.png)
 
 ## 5.2.1.4. Deployment Evidence for Sprint Review
 
@@ -1327,11 +1327,11 @@ Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del
 ### Evidencia  
 
 - **Repositorio en GitHub**  
-![Repositorio](imgs/repository.png)  
+![Repositorio](assets/repository.png)  
  
 
 - **Landing Page publicada**  
-![landing_page](imgs/encabezado_hero.png)  
+![landing_page](assets/encabezado_hero.png)  
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
