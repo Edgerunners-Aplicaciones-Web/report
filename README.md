@@ -1351,7 +1351,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   ![home.png](assets/home.png) 
 
 - Barra de navegación y sección principal (*Hero*):  
-  ![navbar](imgs/navbar.png)  
+  ![navbar](assets/navbar.png)  
 
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review  
@@ -1389,9 +1389,9 @@ Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colabo
 
 Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.  
 
-![commits_team1](imgs/commits_team1.png)  
+![commits_team1](assets/commits_team1.png)  
 
-![commits_team2](imgs/commits_team2.png)  
+![commits_team2](assets/commits_team2.png)  
 
 
 
