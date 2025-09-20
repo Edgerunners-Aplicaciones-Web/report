@@ -170,7 +170,11 @@ Entre sus principales características destacan:
 | U20231A816 | Valverde Portuguez| Natalia Ximena |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
 |   |  |   |   |  |  
 |   |  |   |   |  |  
-
+=======
+| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                                                                                                                  |                                              |            |               |                 |                    |
+|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
+|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
+|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 ---
 
 ## 1.2. Solution Profile
@@ -753,7 +757,28 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
+La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
+
+**Adrián Ramírez (Administrador de hotel boutique)**
+
+| **Tarea**                           | **Frecuencia** | **Importancia** |
+|-------------------------------------|----------------|-----------------|
+| Gestionar reservas y disponibilidad | Alta           | Alta            |
+| Evitar sobreventas y duplicados     | Alta           | Alta            |
+| Coordinar limpieza y personal       | Media          | Alta            |
+| Revisar y responder solicitudes     | Alta           | Media           |
+| Centralizar operaciones en un sistema único | Media | Alta |
+
 ---
+
+**Valeria Ríos (Huésped)**
+
+| **Tarea**                                  | **Frecuencia** | **Importancia** |
+|--------------------------------------------|----------------|-----------------|
+| Hacer check-in/check-out                   | Alta           | Alta            |
+| Acceder a wifi rápido y confiable          | Alta           | Alta            |
+| Personalizar su estadía con servicios digitales | Media      | Alta            |
+| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
@@ -778,7 +803,13 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
----
+**Adrián Ramírez (Administrador de hotel boutique):**
+
+![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
+
+**Valeria Ríos (Huésped / Viajera):**
+
+![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
 
 ## 2.4. Big Picture EventStorming.
 
@@ -943,13 +974,109 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | EP02     | Registro y Gestión de Perfil de Anfitrión | US08 | Edición de perfil de anfitrión           | Como anfitrión, quiero editar mi información personal y de negocio para mantenerla actualizada.         | - Escenario 1: Edición correcta <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** modifica su información y guarda, <br> **Entonces** el sistema actualiza los cambios exitosamente.                                                                                                                                                                                                            |
 | EP02     | Registro y Gestión de Perfil de Anfitrión | TS02 | Validar campos de formulario en frontend | Como desarrollador, quiero validar campos de formulario (correo, contraseña, documento) en el frontend. | - Escenario 1: Validación de correo <br> **Dado** que el usuario ingresa un correo inválido, <br> **Cuando** intenta guardar, <br> **Entonces** el sistema muestra un mensaje de error. <br><br> - Escenario 2: Validación de documento <br> **Dado** que el anfitrión sube un archivo no permitido, <br> **Cuando** intenta verificar identidad, <br> **Entonces** el sistema muestra un mensaje de validación. |
 
+**EP03 – Gestión de Propiedades**
+
+| ID Épica | Épica                  | ID   | Título                             | Descripción                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                 |
+| -------- | ---------------------- | ---- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP03     | Gestión de Propiedades | US09 | Registrar nueva propiedad          | Como anfitrión, quiero registrar una nueva propiedad con descripción, precio y ubicación para ofrecerla a los huéspedes. | - Escenario 1: Registro exitoso<br>Dado que el anfitrión accede al formulario de registro de propiedad,<br>Cuando completa todos los campos requeridos y guarda,<br>Entonces el sistema registra la propiedad y la muestra en su lista. |
+| EP03     | Gestión de Propiedades | US10 | Subir fotos de la propiedad        | Como anfitrión, quiero subir fotos de mi propiedad para que los huéspedes tengan una mejor referencia.                   | - Escenario 1: Carga correcta<br>Dado que el anfitrión accede a la opción de subir fotos,<br>Cuando selecciona imágenes válidas,<br>Entonces el sistema guarda y muestra las fotos en la galería de la propiedad.                       |
+| EP03     | Gestión de Propiedades | US11 | Editar información de la propiedad | Como anfitrión, quiero editar los datos de mi propiedad para mantenerlos actualizados.                                   | - Escenario 1: Edición exitosa<br>Dado que el anfitrión accede a una propiedad registrada,<br>Cuando modifica los datos y guarda,<br>Entonces el sistema actualiza la información.                                                      |
+| EP03     | Gestión de Propiedades | US12 | Eliminar propiedad                 | Como anfitrión, quiero eliminar una propiedad registrada para que ya no aparezca disponible.                             | - Escenario 1: Eliminación correcta<br>Dado que el anfitrión accede a su lista de propiedades,<br>Cuando selecciona “Eliminar” en una propiedad,<br>Entonces el sistema la retira de la lista.                                          |
+
+**EP04 – Búsqueda y Reserva de Estancias**
+
+| ID Épica | Épica                           | ID   | Título                               | Descripción                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ------------------------------- | ---- | ------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EP04     | Búsqueda y Reserva de Estancias | US13 | Buscar propiedades por ubicación     | Como huésped, quiero buscar propiedades por ubicación para encontrar opciones cercanas a donde viajo. | - Escenario 1: Búsqueda exitosa<br>Dado que el huésped accede al buscador,<br>Cuando ingresa una ciudad o dirección válida,<br>Entonces el sistema muestra las propiedades disponibles en esa ubicación.                                                                                                                                                                 |
+| EP04     | Búsqueda y Reserva de Estancias | US14 | Filtrar por precio y fechas          | Como huésped, quiero aplicar filtros de precio y fechas para ajustar mi búsqueda.                     | - Escenario 1: Filtro aplicado<br>Dado que el huésped aplica filtros de precio y fechas,<br>Cuando actualiza la búsqueda,<br>Entonces el sistema muestra solo las propiedades que cumplen con esos criterios.                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US15 | Reservar una propiedad               | Como huésped, quiero reservar una propiedad para asegurar mi estancia en las fechas seleccionadas.    | - Escenario 1: Reserva exitosa<br>Dado que el huésped selecciona una propiedad disponible,<br>Cuando confirma la reserva,<br>Entonces el sistema guarda la reserva y muestra la confirmación.                                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US16 | Ver historial de reservas            | Como huésped, quiero ver mi historial de reservas para consultar mis viajes pasados y futuros.        | - Escenario 1: Consulta exitosa<br>Dado que el huésped accede a su perfil,<br>Cuando entra a la sección “Historial de reservas”,<br>Entonces el sistema le muestra sus reservas previas y próximas.                                                                                                                                                                      |
+| EP04     | Búsqueda y Reserva de Estancias | TS03 | Crear buscador y filtros en frontend | Como desarrollador, quiero implementar un buscador con filtros de precio y fecha en el frontend.      | - Escenario 1: Filtros vacíos<br>Dado que el huésped no selecciona filtros,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra todas las propiedades disponibles.<br><br>- Escenario 2: Filtros aplicados<br>Dado que el huésped selecciona filtros válidos,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra solo los resultados que coinciden. |
+| EP04     | Búsqueda y Reserva de Estancias | TS04 | Simular reservas en frontend         | Como desarrollador, quiero simular el guardado de reservas en el frontend para pruebas iniciales.     | - Escenario 1: Simulación exitosa<br>Dado que el huésped confirma una reserva,<br>Cuando la guarda en el frontend,<br>Entonces el sistema muestra la reserva como confirmada en su lista de historial.                                                                                                                                                                   |
+
+**EP05 – Pagos y Facturación**
+
+| ID Épica | Épica               | ID   | Título                        | Descripción                                                                               | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                            |
+| -------- | ------------------- | ---- | ----------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP05     | Pagos y Facturación | US17 | Realizar pago en línea        | Como usuario, quiero realizar un pago en línea para completar mi reserva.                 | - Escenario 1: Pago exitoso<br>**Dado** que el usuario accede al formulario de pago,<br>**Cuando** ingresa datos válidos y confirma,<br>**Entonces** el sistema procesa el pago y muestra confirmación.<br><br>- Escenario 2: Pago rechazado<br>**Dado** que el usuario ingresa datos inválidos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensaje de error. |
+| EP05     | Pagos y Facturación | US18 | Consultar historial de pagos  | Como usuario, quiero consultar mi historial de pagos para revisar mis transacciones.      | - Escenario 1: Ver historial<br>**Dado** que el usuario accede a la sección de pagos,<br>**Cuando** ya realizó transacciones,<br>**Entonces** se listan los pagos realizados.<br><br>- Escenario 2: Sin historial<br>**Dado** que el usuario no tiene pagos,<br>**Cuando** entra a la sección,<br>**Entonces** se muestra el mensaje “No tienes pagos registrados”.                |
+| EP05     | Pagos y Facturación | US19 | Descargar comprobante de pago | Como usuario, quiero descargar un comprobante de pago para tener un respaldo.             | - Escenario 1: Descarga exitosa<br>**Dado** que el usuario está en su historial,<br>**Cuando** selecciona “Descargar”,<br>**Entonces** el sistema genera un PDF con los datos del pago.                                                                                                                                                                                            |
+| EP05     | Pagos y Facturación | TS05 | Simular integración de pago   | Como desarrollador, quiero simular la integración de un servicio de pagos en el frontend. | - Escenario 1: Validación básica<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensajes de validación.<br><br>- Escenario 2: Simulación de respuesta<br>**Dado** que se envía un pago,<br>**Cuando** el sistema recibe la respuesta simulada,<br>**Entonces** guarda el estado como “Aprobado” o “Rechazado”.     |
+
+**EP06 – Reseñas y Calificaciones**
+
+| ID Épica | Épica                    | ID   | Título                            | Descripción                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                |
+| -------- | ------------------------ | ---- | --------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP06     | Reseñas y Calificaciones | US20 | Dejar reseña de una estancia      | Como usuario, quiero dejar una reseña después de mi estancia para compartir mi experiencia.              | - Escenario 1: Reseña enviada<br>**Dado** que el usuario accede al formulario,<br>**Cuando** escribe su reseña y envía,<br>**Entonces** el sistema la guarda y muestra en la lista.<br><br>- Escenario 2: Validación<br>**Dado** que el usuario intenta enviar reseña vacía,<br>**Cuando** presiona guardar,<br>**Entonces** se muestra un mensaje de error.                           |
+| EP06     | Reseñas y Calificaciones | US21 | Calificar anfitrión o huésped     | Como usuario, quiero calificar al anfitrión o huésped para dar retroalimentación.                        | - Escenario 1: Calificación registrada<br>**Dado** que el usuario accede a la sección de calificaciones,<br>**Cuando** selecciona estrellas y guarda,<br>**Entonces** el sistema registra la calificación.                                                                                                                                                                             |
+| EP06     | Reseñas y Calificaciones | US22 | Ver reseñas de una propiedad      | Como huésped, quiero ver reseñas de propiedades para tomar mejores decisiones.                           | - Escenario 1: Reseñas disponibles<br>**Dado** que la propiedad tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el listado.<br><br>- Escenario 2: Sin reseñas<br>**Dado** que la propiedad no tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el mensaje “No hay reseñas disponibles”. |
+| EP06     | Reseñas y Calificaciones | TS06 | Formulario de reseñas en frontend | Como desarrollador, quiero implementar un formulario de reseñas conectado a la UI con guardado simulado. | - Escenario 1: Validación de campos<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta guardar,<br>**Entonces** se muestran mensajes de error.<br><br>- Escenario 2: Guardado simulado<br>**Dado** que el usuario envía una reseña válida,<br>**Cuando** guarda,<br>**Entonces** el sistema la almacena en localstorage o JSON simulado.                             |
+
+**EP07 – Seguridad y Privacidad**
+
+| ID Épica | Épica           | ID   | Título                                                               | Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                |
+| -------- | --------------- | ---- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EP07     | Soporte y Ayuda | US23 | Acceder a preguntas frecuentes                                       | Como usuario, quiero acceder a una sección de preguntas frecuentes para resolver mis dudas comunes. | - Escenario 1: Ver FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** selecciona “Preguntas frecuentes”,<br>**Entonces** el sistema muestra un listado con preguntas y respuestas.                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US24 | Enviar reporte de problema                                           | Como usuario, quiero enviar un reporte de problema para notificar errores en la plataforma.         | - Escenario 1: Enviar reporte<br>**Dado** que el usuario completa el formulario de reporte,<br>**Cuando** hace clic en “Enviar”,<br>**Entonces** el sistema confirma el envío del reporte.                                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US25 | Contactar con soporte técnico                                        | Como usuario, quiero contactar con soporte técnico para recibir asistencia personalizada.           | - Escenario 1: Solicitar contacto<br>**Dado** que el usuario ingresa a la sección de contacto,<br>**Cuando** envía una solicitud,<br>**Entonces** el sistema muestra un mensaje confirmando que será atendido.                                                                                                                                                                                         |
+| EP07     | Soporte y Ayuda | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes | Como desarrollador, quiero implementar un formulario de contacto y sección de FAQs en el frontend.  | - Escenario 1: Validación de formulario<br>**Dado** que el usuario deja campos obligatorios vacíos,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema muestra mensajes de error.<br><br>- Escenario 2: Mostrar FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** abre la pestaña de preguntas frecuentes,<br>**Entonces** se despliega la lista de FAQs. |
+
+
+**EP08 – Exploración como Visitante**
+
+| ID Épica | Épica                      | ID   | Título                                                    | Descripción                                                                                       | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------- | -------------------------- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP08     | Exploración como Visitante | US26 | Ver información general sobre SmartStay                   | Como visitante, quiero ver información general sobre SmartStay para conocer la plataforma.        | - Escenario 1: Información visible<br>**Dado** que el visitante entra al landing page,<br>**Cuando** carga la página,<br>**Entonces** el sistema muestra información general de SmartStay.                                                                                                                                                                                                                        |
+| EP08     | Exploración como Visitante | US27 | Conocer beneficios de usar la plataforma                  | Como visitante, quiero conocer los beneficios de usar la plataforma para evaluar su utilidad.     | - Escenario 1: Ver beneficios<br>**Dado** que el visitante está en el landing,<br>**Cuando** navega hacia la sección de beneficios,<br>**Entonces** el sistema muestra los principales beneficios destacados.                                                                                                                                                                                                     |
+| EP08     | Exploración como Visitante | US28 | Acceder fácilmente al registro o login                    | Como visitante, quiero acceder fácilmente al registro o login para empezar a usar la plataforma.  | - Escenario 1: Acceso desde botones<br>**Dado** que el visitante está en el landing,<br>**Cuando** hace clic en “Registrarse” o “Iniciar sesión”,<br>**Entonces** el sistema lo redirige a la página correspondiente.                                                                                                                                                                                             |
+| EP08     | Exploración como Visitante | TS08 | Implementar landing page con botones hacia login/registro | Como desarrollador, quiero implementar el landing page con botones claros hacia login y registro. | - Escenario 1: Botones funcionales<br>**Dado** que el visitante hace clic en “Registrarse” o “Iniciar sesión”,<br>**Cuando** se procesa la acción,<br>**Entonces** el sistema lo redirige correctamente.<br><br>- Escenario 2: Diseño responsive<br>**Dado** que el visitante accede desde un dispositivo móvil,<br>**Cuando** carga el landing,<br>**Entonces** el contenido se adapta al tamaño de la pantalla. |
 
 
 ## 3.2. Impact Mapping.
 
----
+![ImpactMapping.jpeg](assets/ImpactMapping.jpeg)
 
 ## 3.3. Product Backlog.
+
+| #Orden | ID   | User Story / Technical Story                                             | Story Points |
+| ------ | ---- | ------------------------------------------------------------------------ | ------------ |
+| 01     | US01 | Registro de huésped                                                      | 5            |
+| 02     | US02 | Inicio de sesión seguro                                                  | 5            |
+| 03     | US03 | Recuperación de contraseña                                               | 3            |
+| 04     | US04 | Edición de perfil personal                                               | 3            |
+| 05     | TS01 | Conectar formularios de registro/login con validaciones en frontend      | 8            |
+| 06     | US05 | Registro de anfitrión                                                    | 5            |
+| 07     | US06 | Verificación de identidad básica                                         | 3            |
+| 08     | US07 | Configuración de datos de contacto                                       | 3            |
+| 09     | US08 | Edición de perfil de anfitrión                                           | 3            |
+| 10     | TS02 | Validar campos de formulario en frontend (correo, contraseña, documento) | 8            |
+| 11     | US09 | Registrar nueva propiedad                                                | 5            |
+| 12     | US10 | Subir fotos de la propiedad                                              | 5            |
+| 13     | US11 | Editar información de la propiedad                                       | 3            |
+| 14     | US12 | Eliminar propiedad                                                       | 3            |
+| 15     | US13 | Buscar propiedades por ubicación                                         | 5            |
+| 16     | US14 | Filtrar por precio y fechas                                              | 5            |
+| 17     | US15 | Reservar una propiedad                                                   | 8            |
+| 18     | US16 | Ver historial de reservas                                                | 3            |
+| 19     | TS03 | Crear buscador y filtros en frontend                                     | 8            |
+| 20     | TS04 | Simular reservas con estado guardado en frontend                         | 5            |
+| 21     | US17 | Realizar pago en línea                                                   | 8            |
+| 22     | US18 | Consultar historial de pagos                                             | 3            |
+| 23     | US19 | Descargar comprobante de pago                                            | 3            |
+| 24     | TS05 | Simular integración de pago                                              | 8            |
+| 25     | US20 | Dejar reseña de una estancia                                             | 5            |
+| 26     | US21 | Calificar anfitrión o huésped                                            | 3            |
+| 27     | US22 | Ver reseñas de una propiedad                                             | 3            |
+| 28     | TS06 | Formulario de reseñas conectado a la UI, guardado simulado en frontend   | 5            |
+| 29     | US23 | Acceder a preguntas frecuentes                                           | 3            |
+| 30     | US24 | Enviar reporte de problema                                               | 3            |
+| 31     | US25 | Contactar con soporte técnico                                            | 5            |
+| 32     | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes     | 8            |
+| 33     | US26 | Ver información general sobre SmartStay                                  | 3            |
+| 34     | US27 | Conocer beneficios de usar la plataforma                                 | 3            |
+| 35     | US28 | Acceder fácilmente al registro o login                                   | 5            |
+| 36     | TS08 | Implementar landing page con botones hacia login/registro                | 5            |
+
 
 ---
 
@@ -2178,6 +2305,263 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 
 
 
+![commits_team2](assets/commits_team2.png)  
 
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+# 5.1. Software Configuration Management  
+
+En esta sección el equipo establece las decisiones, herramientas y convenciones que permiten mantener la consistencia durante el ciclo de vida del proyecto. Se incluyen aspectos de configuración del entorno de desarrollo, gestión del código fuente, guías de estilo y configuración de despliegue de la solución.  
+
+---
+
+## 5.1.1. Software Development Environment Configuration  
+
+El entorno de desarrollo del equipo incluye un conjunto de herramientas colaborativas y de programación que soportan las distintas fases del ciclo de vida:  
+
+- **Gestión de proyecto y documentación**  
+  - Trello → gestión de tareas y planificación ágil con tableros Kanban.  
+  - Google Docs → elaboración colaborativa de reportes y entregables.  
+
+- **Diseño y UX/UI**  
+  - Figma / Adobe XD → diseño de wireframes, mockups y prototipos interactivos.  
+  - UXPressia → creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.  
+  - Miro → colaboración visual y soporte para sesiones de ideación y EventStorming.  
+  - Structurizr → modelado de arquitectura mediante el estándar C4 Model y uso de Diagram-as-Code.  
+
+- **Desarrollo de software**  
+  - JetBrains Rider → IDE principal para backend ASP.NET Core con C#.  
+  - JetBrains WebStorm → IDE para frontend con Vue.js.  
+  - Node.js y NPM → gestión de dependencias y ejecución del entorno frontend.  
+  - Vue.js con PrimeVue → framework y librería de componentes UI para el desarrollo del frontend.  
+  - HTML, CSS y JavaScript → construcción de la Landing Page.  
+
+- **Repositorio y control de versiones**  
+  - GitHub → sistema de control de versiones y repositorios centralizados.  
+
+---
+
+## 5.1.2. Source Code Management  
+
+El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
+
+- **Rama principal**: `main` → contiene versiones estables y listas para despliegue.  
+- **Rama de integración**: `develop` → rama base para integración de nuevas funcionalidades.  
+- **Ramas de características (features)**:  
+  - `feature/chapter-01`, `feature/chapter-02`, …, `feature/chapter-05`.  
+  - Cada funcionalidad o capítulo se desarrolla en una rama independiente.  
+
+- **Convenciones de nomenclatura**  
+  - `feature/<nombre>` → nuevas funcionalidades.  
+  - `release/<versión>` → preparación de entregas.  
+  - `hotfix/<incidencia>` → correcciones críticas en producción.  
+
+- **Versionado semántico**  
+  - Se aplica **Semantic Versioning 2.0.0** (ej. `v1.0.0`, `v1.1.0`, `v2.0.0`).  
+
+- **Commits**  
+  - Se siguen las reglas de **Conventional Commits**, garantizando mensajes legibles y consistentes.  
+
+Los repositorios utilizados incluyen:  
+- **Landing Page** → HTML, CSS, JavaScript.  
+- **Web Services** → ASP.NET Core (C#).  
+- **Frontend Web Application** → Vue.js con PrimeVue.  
+
+---
+
+## 5.1.3. Source Code Style Guide & Conventions  
+
+El equipo adopta convenciones estándar y guías de estilo para cada lenguaje:  
+
+- **HTML & CSS**  
+  - [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+
+- **JavaScript (Vue.js)**  
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
+  - [W3C JavaScript Style Guide](https://www.w3.org/wiki/JavaScript_best_practices)  
+  - [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+  - [Vue Style Guide](https://vuejs.org/style-guide/)  
+  - **ESLint y Prettier** → análisis estático y formateo automático.  
+
+- **C# y ASP.NET Core**  
+  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
+  - [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)  
+
+- **Buenas prácticas comunes**  
+  - Nomenclatura en inglés.  
+  - Uso de **CamelCase** para variables y métodos.  
+  - Uso de **PascalCase** para clases y controladores.  
+  - Aplicación del principio **DRY (Don’t Repeat Yourself)** para evitar duplicación de código.  
+  - Escenarios de pruebas escritos siguiendo convenciones de **Gherkin** (Dado-Cuando-Entonces).  
+
+---
+
+## 5.1.4. Software Deployment Configuration  
+
+El despliegue de la solución considera los siguientes aspectos:  
+
+- **Landing Page**  
+  - Desarrollada en HTML, CSS y JavaScript.  
+  - Desplegada en **GitHub Pages** para acceso público.  
+
+- **Backend (Web Services)**  
+  - Implementado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+  - Desplegado en **Render** como servicio cloud.  
+
+- **Frontend Web Application**  
+  - Construida con **Vue.js y PrimeVue**.  
+  - Desplegada en **Render** con configuración continua desde el repositorio de GitHub.  
+
+- **Integración continua / Despliegue continuo (CI/CD)**  
+  - Repositorios conectados a GitHub.  
+  - Despliegue automático en Render al realizar merges en `main`.  
+
+## 5.2. Landing Page, Services & Applications Implementation.
+
+---
+
+## 5.2.1. Sprint 1
+
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+
+## 5.2.1.1. Sprint Planning 1  
+
+| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
+| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
+| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
+| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
+| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
+| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                                    |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas.          |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
+| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                        |
+| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
+
+## 5.2.1.2. Sprint Backlog 1
+
+### Introducción
+El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
+Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios registrados** a través de una experiencia inicial clara e intuitiva.
+
+**Evidencia en del avance en trello**
+
+![sprint_trello](assets/sprint_trello.png)
+
+Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
+
+### Sprint #1 – Sprint Backlog
+
+| Sprint # | User Story ID | User Story Title | Work-Item / Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|----------|---------------|------------------|----------------------|-------------|-------------|--------------------|-------------|--------|
+| 1 | US26 | Ver información general sobre SmartStay | T01 | Diseñar estructura básica de Landing Page | Crear wireframe y mockup de la landing con secciones principales. | 6h | Alexander | Done |
+| 1 | US26 | Ver información general sobre SmartStay | T02 | Implementar contenido introductorio | Redactar y maquetar la sección "¿Qué es SmartStay?". | 4h | Natalia | In Process |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T03 | Crear sección de beneficios | Mostrar ventajas competitivas con íconos y texto. | 5h | Italo | To Review |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T04 | Añadir carrusel de testimonios | Implementar testimonios de usuarios ficticios en frontend. | 4h | Aldair | To Do |
+| 1 | US28 | Acceder fácilmente al registro o login | T05 | Botones de registro/login | Colocar botones visibles y funcionales que redirigen a formularios. | 3h | Alexander | Done |
+| 1 | TS08 | Implementar landing page con botones hacia login/registro | T06 | Conectar landing con rutas de login/registro | Configurar navegación y enlaces en frontend. | 6h | Italo | In Process |
+
+
+## 5.2.1.3. Development Evidence for Sprint Review
+
+### Introducción
+Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
+
+### Commits realizados
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `14ca4e3` | `feat: add initial landing page structure` | Se implementa la estructura base de la landing con secciones vacías. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `27bd9f1` | `feat: add SmartStay introduction section` | Contenido informativo agregado a la landing. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `38cf0d2` | `feat: add benefits section with icons` | Sección de beneficios agregada con maquetado inicial. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `42af2e9` | `feat: add login/register buttons` | Se agregan botones que redirigen a formularios de login y registro. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `59ff1d8` | `chore: fix navigation and styles` | Ajustes en navegación y estilos de la landing. | 15/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | develop | `6af1bc3` | `merge: feature/landing-page into develop` | Se integran cambios de la landing en la rama de desarrollo. | 16/09/2025 |
+
+**Evidencia de los commits del landing page**
+
+![commitslanding](assets/commitslanding.png)
+
+## 5.2.1.4. Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
+
+- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.  
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
+
+### Evidencia  
+
+- **Repositorio en GitHub**  
+![Repositorio](assets/repository.png)  
+ 
+
+- **Landing Page publicada**  
+![landing_page](assets/encabezado_hero.png)  
+
+
+### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
+
+La ejecución se centró en:  
+- Implementar la **estructura básica** de la landing page.  
+- Incluir una **barra de navegación**, sección principal (*Hero*) y enlaces de acceso hacia registro y login.  
+- Aplicar una **paleta de colores sencilla** y un diseño **responsive básico** para visualización en dispositivos móviles y escritorio.  
+- Publicar el proyecto en GitHub Pages, asegurando que esté disponible de manera pública.  
+
+### Evidencia visual  
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:  
+
+- Vista principal de la landing page:  
+  ![home.png](assets/home.png) 
+
+- Barra de navegación y sección principal (*Hero*):  
+  ![navbar](assets/navbar.png)  
+
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+
+En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
+
+El trabajo incluyó la definición de la estructura visual básica, la aplicación de colores corporativos y la integración de secciones clave como la barra de navegación y la sección principal (*Hero*).  
+
+La landing page cumple el rol de **página de presentación inicial** de la plataforma SmartStay, ofreciendo a los usuarios una visión general del proyecto y accesos rápidos al registro o login.  
+
+Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
+
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+
+Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.  
+- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.  
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.  
+
+Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
+
+**Acciones de colaboración destacadas:**  
+- Se utilizó **GitHub** como herramienta central de coordinación y control de versiones.  
+- Uno de los integrantes configuró el repositorio inicial y las ramas de trabajo.  
+- Cada miembro realizó **commits documentados** con los cambios implementados.  
+- Se llevaron a cabo **pull requests** para integrar las contribuciones al repositorio principal.  
+- Se realizaron revisiones de código en equipo para mantener la coherencia visual y funcional de la landing.  
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.  
+
+![commits_team1](assets/commits_team1.png)  
 
 
