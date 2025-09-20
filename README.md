@@ -166,7 +166,7 @@ Entre sus principales características destacan:
 |   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
 |:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
 | U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
-| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/alex-fernandez.jpg) |                                                                                                                                                                  |                                              |            |               |                 |                    |
+| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                                                                                                                  |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
@@ -753,7 +753,28 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
+La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
+
+**Adrián Ramírez (Administrador de hotel boutique)**
+
+| **Tarea**                           | **Frecuencia** | **Importancia** |
+|-------------------------------------|----------------|-----------------|
+| Gestionar reservas y disponibilidad | Alta           | Alta            |
+| Evitar sobreventas y duplicados     | Alta           | Alta            |
+| Coordinar limpieza y personal       | Media          | Alta            |
+| Revisar y responder solicitudes     | Alta           | Media           |
+| Centralizar operaciones en un sistema único | Media | Alta |
+
 ---
+
+**Valeria Ríos (Huésped)**
+
+| **Tarea**                                  | **Frecuencia** | **Importancia** |
+|--------------------------------------------|----------------|-----------------|
+| Hacer check-in/check-out                   | Alta           | Alta            |
+| Acceder a wifi rápido y confiable          | Alta           | Alta            |
+| Personalizar su estadía con servicios digitales | Media      | Alta            |
+| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
@@ -778,7 +799,13 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
----
+**Adrián Ramírez (Administrador de hotel boutique):**
+
+![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
+
+**Valeria Ríos (Huésped / Viajera):**
+
+![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
 
 ## 2.4. Big Picture EventStorming.
 
@@ -943,16 +970,1280 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | EP02     | Registro y Gestión de Perfil de Anfitrión | US08 | Edición de perfil de anfitrión           | Como anfitrión, quiero editar mi información personal y de negocio para mantenerla actualizada.         | - Escenario 1: Edición correcta <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** modifica su información y guarda, <br> **Entonces** el sistema actualiza los cambios exitosamente.                                                                                                                                                                                                            |
 | EP02     | Registro y Gestión de Perfil de Anfitrión | TS02 | Validar campos de formulario en frontend | Como desarrollador, quiero validar campos de formulario (correo, contraseña, documento) en el frontend. | - Escenario 1: Validación de correo <br> **Dado** que el usuario ingresa un correo inválido, <br> **Cuando** intenta guardar, <br> **Entonces** el sistema muestra un mensaje de error. <br><br> - Escenario 2: Validación de documento <br> **Dado** que el anfitrión sube un archivo no permitido, <br> **Cuando** intenta verificar identidad, <br> **Entonces** el sistema muestra un mensaje de validación. |
 
+**EP03 – Gestión de Propiedades**
+
+| ID Épica | Épica                  | ID   | Título                             | Descripción                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                 |
+| -------- | ---------------------- | ---- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP03     | Gestión de Propiedades | US09 | Registrar nueva propiedad          | Como anfitrión, quiero registrar una nueva propiedad con descripción, precio y ubicación para ofrecerla a los huéspedes. | - Escenario 1: Registro exitoso<br>Dado que el anfitrión accede al formulario de registro de propiedad,<br>Cuando completa todos los campos requeridos y guarda,<br>Entonces el sistema registra la propiedad y la muestra en su lista. |
+| EP03     | Gestión de Propiedades | US10 | Subir fotos de la propiedad        | Como anfitrión, quiero subir fotos de mi propiedad para que los huéspedes tengan una mejor referencia.                   | - Escenario 1: Carga correcta<br>Dado que el anfitrión accede a la opción de subir fotos,<br>Cuando selecciona imágenes válidas,<br>Entonces el sistema guarda y muestra las fotos en la galería de la propiedad.                       |
+| EP03     | Gestión de Propiedades | US11 | Editar información de la propiedad | Como anfitrión, quiero editar los datos de mi propiedad para mantenerlos actualizados.                                   | - Escenario 1: Edición exitosa<br>Dado que el anfitrión accede a una propiedad registrada,<br>Cuando modifica los datos y guarda,<br>Entonces el sistema actualiza la información.                                                      |
+| EP03     | Gestión de Propiedades | US12 | Eliminar propiedad                 | Como anfitrión, quiero eliminar una propiedad registrada para que ya no aparezca disponible.                             | - Escenario 1: Eliminación correcta<br>Dado que el anfitrión accede a su lista de propiedades,<br>Cuando selecciona “Eliminar” en una propiedad,<br>Entonces el sistema la retira de la lista.                                          |
+
+**EP04 – Búsqueda y Reserva de Estancias**
+
+| ID Épica | Épica                           | ID   | Título                               | Descripción                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ------------------------------- | ---- | ------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EP04     | Búsqueda y Reserva de Estancias | US13 | Buscar propiedades por ubicación     | Como huésped, quiero buscar propiedades por ubicación para encontrar opciones cercanas a donde viajo. | - Escenario 1: Búsqueda exitosa<br>Dado que el huésped accede al buscador,<br>Cuando ingresa una ciudad o dirección válida,<br>Entonces el sistema muestra las propiedades disponibles en esa ubicación.                                                                                                                                                                 |
+| EP04     | Búsqueda y Reserva de Estancias | US14 | Filtrar por precio y fechas          | Como huésped, quiero aplicar filtros de precio y fechas para ajustar mi búsqueda.                     | - Escenario 1: Filtro aplicado<br>Dado que el huésped aplica filtros de precio y fechas,<br>Cuando actualiza la búsqueda,<br>Entonces el sistema muestra solo las propiedades que cumplen con esos criterios.                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US15 | Reservar una propiedad               | Como huésped, quiero reservar una propiedad para asegurar mi estancia en las fechas seleccionadas.    | - Escenario 1: Reserva exitosa<br>Dado que el huésped selecciona una propiedad disponible,<br>Cuando confirma la reserva,<br>Entonces el sistema guarda la reserva y muestra la confirmación.                                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US16 | Ver historial de reservas            | Como huésped, quiero ver mi historial de reservas para consultar mis viajes pasados y futuros.        | - Escenario 1: Consulta exitosa<br>Dado que el huésped accede a su perfil,<br>Cuando entra a la sección “Historial de reservas”,<br>Entonces el sistema le muestra sus reservas previas y próximas.                                                                                                                                                                      |
+| EP04     | Búsqueda y Reserva de Estancias | TS03 | Crear buscador y filtros en frontend | Como desarrollador, quiero implementar un buscador con filtros de precio y fecha en el frontend.      | - Escenario 1: Filtros vacíos<br>Dado que el huésped no selecciona filtros,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra todas las propiedades disponibles.<br><br>- Escenario 2: Filtros aplicados<br>Dado que el huésped selecciona filtros válidos,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra solo los resultados que coinciden. |
+| EP04     | Búsqueda y Reserva de Estancias | TS04 | Simular reservas en frontend         | Como desarrollador, quiero simular el guardado de reservas en el frontend para pruebas iniciales.     | - Escenario 1: Simulación exitosa<br>Dado que el huésped confirma una reserva,<br>Cuando la guarda en el frontend,<br>Entonces el sistema muestra la reserva como confirmada en su lista de historial.                                                                                                                                                                   |
+
+**EP05 – Pagos y Facturación**
+
+| ID Épica | Épica               | ID   | Título                        | Descripción                                                                               | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                            |
+| -------- | ------------------- | ---- | ----------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP05     | Pagos y Facturación | US17 | Realizar pago en línea        | Como usuario, quiero realizar un pago en línea para completar mi reserva.                 | - Escenario 1: Pago exitoso<br>**Dado** que el usuario accede al formulario de pago,<br>**Cuando** ingresa datos válidos y confirma,<br>**Entonces** el sistema procesa el pago y muestra confirmación.<br><br>- Escenario 2: Pago rechazado<br>**Dado** que el usuario ingresa datos inválidos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensaje de error. |
+| EP05     | Pagos y Facturación | US18 | Consultar historial de pagos  | Como usuario, quiero consultar mi historial de pagos para revisar mis transacciones.      | - Escenario 1: Ver historial<br>**Dado** que el usuario accede a la sección de pagos,<br>**Cuando** ya realizó transacciones,<br>**Entonces** se listan los pagos realizados.<br><br>- Escenario 2: Sin historial<br>**Dado** que el usuario no tiene pagos,<br>**Cuando** entra a la sección,<br>**Entonces** se muestra el mensaje “No tienes pagos registrados”.                |
+| EP05     | Pagos y Facturación | US19 | Descargar comprobante de pago | Como usuario, quiero descargar un comprobante de pago para tener un respaldo.             | - Escenario 1: Descarga exitosa<br>**Dado** que el usuario está en su historial,<br>**Cuando** selecciona “Descargar”,<br>**Entonces** el sistema genera un PDF con los datos del pago.                                                                                                                                                                                            |
+| EP05     | Pagos y Facturación | TS05 | Simular integración de pago   | Como desarrollador, quiero simular la integración de un servicio de pagos en el frontend. | - Escenario 1: Validación básica<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensajes de validación.<br><br>- Escenario 2: Simulación de respuesta<br>**Dado** que se envía un pago,<br>**Cuando** el sistema recibe la respuesta simulada,<br>**Entonces** guarda el estado como “Aprobado” o “Rechazado”.     |
+
+**EP06 – Reseñas y Calificaciones**
+
+| ID Épica | Épica                    | ID   | Título                            | Descripción                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                |
+| -------- | ------------------------ | ---- | --------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP06     | Reseñas y Calificaciones | US20 | Dejar reseña de una estancia      | Como usuario, quiero dejar una reseña después de mi estancia para compartir mi experiencia.              | - Escenario 1: Reseña enviada<br>**Dado** que el usuario accede al formulario,<br>**Cuando** escribe su reseña y envía,<br>**Entonces** el sistema la guarda y muestra en la lista.<br><br>- Escenario 2: Validación<br>**Dado** que el usuario intenta enviar reseña vacía,<br>**Cuando** presiona guardar,<br>**Entonces** se muestra un mensaje de error.                           |
+| EP06     | Reseñas y Calificaciones | US21 | Calificar anfitrión o huésped     | Como usuario, quiero calificar al anfitrión o huésped para dar retroalimentación.                        | - Escenario 1: Calificación registrada<br>**Dado** que el usuario accede a la sección de calificaciones,<br>**Cuando** selecciona estrellas y guarda,<br>**Entonces** el sistema registra la calificación.                                                                                                                                                                             |
+| EP06     | Reseñas y Calificaciones | US22 | Ver reseñas de una propiedad      | Como huésped, quiero ver reseñas de propiedades para tomar mejores decisiones.                           | - Escenario 1: Reseñas disponibles<br>**Dado** que la propiedad tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el listado.<br><br>- Escenario 2: Sin reseñas<br>**Dado** que la propiedad no tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el mensaje “No hay reseñas disponibles”. |
+| EP06     | Reseñas y Calificaciones | TS06 | Formulario de reseñas en frontend | Como desarrollador, quiero implementar un formulario de reseñas conectado a la UI con guardado simulado. | - Escenario 1: Validación de campos<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta guardar,<br>**Entonces** se muestran mensajes de error.<br><br>- Escenario 2: Guardado simulado<br>**Dado** que el usuario envía una reseña válida,<br>**Cuando** guarda,<br>**Entonces** el sistema la almacena en localstorage o JSON simulado.                             |
+
+**EP07 – Seguridad y Privacidad**
+
+| ID Épica | Épica           | ID   | Título                                                               | Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                |
+| -------- | --------------- | ---- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EP07     | Soporte y Ayuda | US23 | Acceder a preguntas frecuentes                                       | Como usuario, quiero acceder a una sección de preguntas frecuentes para resolver mis dudas comunes. | - Escenario 1: Ver FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** selecciona “Preguntas frecuentes”,<br>**Entonces** el sistema muestra un listado con preguntas y respuestas.                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US24 | Enviar reporte de problema                                           | Como usuario, quiero enviar un reporte de problema para notificar errores en la plataforma.         | - Escenario 1: Enviar reporte<br>**Dado** que el usuario completa el formulario de reporte,<br>**Cuando** hace clic en “Enviar”,<br>**Entonces** el sistema confirma el envío del reporte.                                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US25 | Contactar con soporte técnico                                        | Como usuario, quiero contactar con soporte técnico para recibir asistencia personalizada.           | - Escenario 1: Solicitar contacto<br>**Dado** que el usuario ingresa a la sección de contacto,<br>**Cuando** envía una solicitud,<br>**Entonces** el sistema muestra un mensaje confirmando que será atendido.                                                                                                                                                                                         |
+| EP07     | Soporte y Ayuda | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes | Como desarrollador, quiero implementar un formulario de contacto y sección de FAQs en el frontend.  | - Escenario 1: Validación de formulario<br>**Dado** que el usuario deja campos obligatorios vacíos,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema muestra mensajes de error.<br><br>- Escenario 2: Mostrar FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** abre la pestaña de preguntas frecuentes,<br>**Entonces** se despliega la lista de FAQs. |
+
+
+**EP08 – Exploración como Visitante**
+
+| ID Épica | Épica                      | ID   | Título                                                    | Descripción                                                                                       | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------- | -------------------------- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP08     | Exploración como Visitante | US26 | Ver información general sobre SmartStay                   | Como visitante, quiero ver información general sobre SmartStay para conocer la plataforma.        | - Escenario 1: Información visible<br>**Dado** que el visitante entra al landing page,<br>**Cuando** carga la página,<br>**Entonces** el sistema muestra información general de SmartStay.                                                                                                                                                                                                                        |
+| EP08     | Exploración como Visitante | US27 | Conocer beneficios de usar la plataforma                  | Como visitante, quiero conocer los beneficios de usar la plataforma para evaluar su utilidad.     | - Escenario 1: Ver beneficios<br>**Dado** que el visitante está en el landing,<br>**Cuando** navega hacia la sección de beneficios,<br>**Entonces** el sistema muestra los principales beneficios destacados.                                                                                                                                                                                                     |
+| EP08     | Exploración como Visitante | US28 | Acceder fácilmente al registro o login                    | Como visitante, quiero acceder fácilmente al registro o login para empezar a usar la plataforma.  | - Escenario 1: Acceso desde botones<br>**Dado** que el visitante está en el landing,<br>**Cuando** hace clic en “Registrarse” o “Iniciar sesión”,<br>**Entonces** el sistema lo redirige a la página correspondiente.                                                                                                                                                                                             |
+| EP08     | Exploración como Visitante | TS08 | Implementar landing page con botones hacia login/registro | Como desarrollador, quiero implementar el landing page con botones claros hacia login y registro. | - Escenario 1: Botones funcionales<br>**Dado** que el visitante hace clic en “Registrarse” o “Iniciar sesión”,<br>**Cuando** se procesa la acción,<br>**Entonces** el sistema lo redirige correctamente.<br><br>- Escenario 2: Diseño responsive<br>**Dado** que el visitante accede desde un dispositivo móvil,<br>**Cuando** carga el landing,<br>**Entonces** el contenido se adapta al tamaño de la pantalla. |
 
 
 ## 3.2. Impact Mapping.
 
----
+![ImpactMapping.jpeg](assets/ImpactMapping.jpeg)
 
 ## 3.3. Product Backlog.
 
+| #Orden | ID   | User Story / Technical Story                                             | Story Points |
+| ------ | ---- | ------------------------------------------------------------------------ | ------------ |
+| 01     | US01 | Registro de huésped                                                      | 5            |
+| 02     | US02 | Inicio de sesión seguro                                                  | 5            |
+| 03     | US03 | Recuperación de contraseña                                               | 3            |
+| 04     | US04 | Edición de perfil personal                                               | 3            |
+| 05     | TS01 | Conectar formularios de registro/login con validaciones en frontend      | 8            |
+| 06     | US05 | Registro de anfitrión                                                    | 5            |
+| 07     | US06 | Verificación de identidad básica                                         | 3            |
+| 08     | US07 | Configuración de datos de contacto                                       | 3            |
+| 09     | US08 | Edición de perfil de anfitrión                                           | 3            |
+| 10     | TS02 | Validar campos de formulario en frontend (correo, contraseña, documento) | 8            |
+| 11     | US09 | Registrar nueva propiedad                                                | 5            |
+| 12     | US10 | Subir fotos de la propiedad                                              | 5            |
+| 13     | US11 | Editar información de la propiedad                                       | 3            |
+| 14     | US12 | Eliminar propiedad                                                       | 3            |
+| 15     | US13 | Buscar propiedades por ubicación                                         | 5            |
+| 16     | US14 | Filtrar por precio y fechas                                              | 5            |
+| 17     | US15 | Reservar una propiedad                                                   | 8            |
+| 18     | US16 | Ver historial de reservas                                                | 3            |
+| 19     | TS03 | Crear buscador y filtros en frontend                                     | 8            |
+| 20     | TS04 | Simular reservas con estado guardado en frontend                         | 5            |
+| 21     | US17 | Realizar pago en línea                                                   | 8            |
+| 22     | US18 | Consultar historial de pagos                                             | 3            |
+| 23     | US19 | Descargar comprobante de pago                                            | 3            |
+| 24     | TS05 | Simular integración de pago                                              | 8            |
+| 25     | US20 | Dejar reseña de una estancia                                             | 5            |
+| 26     | US21 | Calificar anfitrión o huésped                                            | 3            |
+| 27     | US22 | Ver reseñas de una propiedad                                             | 3            |
+| 28     | TS06 | Formulario de reseñas conectado a la UI, guardado simulado en frontend   | 5            |
+| 29     | US23 | Acceder a preguntas frecuentes                                           | 3            |
+| 30     | US24 | Enviar reporte de problema                                               | 3            |
+| 31     | US25 | Contactar con soporte técnico                                            | 5            |
+| 32     | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes     | 8            |
+| 33     | US26 | Ver información general sobre SmartStay                                  | 3            |
+| 34     | US27 | Conocer beneficios de usar la plataforma                                 | 3            |
+| 35     | US28 | Acceder fácilmente al registro o login                                   | 5            |
+| 36     | TS08 | Implementar landing page con botones hacia login/registro                | 5            |
+
+
+---
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+Nuestra base es establecer la identidad visual y de diseño de Smart Stay, asegurando coherencia, claridad y usabilidad en todos los puntos de contacto de la marca, tanto en medios digitales como en experiencias del usuario.
+
+Objetivo:
+- Alinear la comunicación visual y de producto con la misión de la startup.
+-	Garantizar una experiencia de usuario clara, accesible y atractiva.
+-	Facilitar la integración de diseño en web y aplicaciones móviles con un lenguaje unificado.
+
+### 4.1.1. General Style Guidelines
+
+**Branding**
+
+- Logo Rewind: El logo principal de la startup con el que se muestra ante el público.
+
+![logo.png](assets/logo.png)
+  
+- Logo Modo Oscuro: Este logo es creado para contrastar en fondos oscuros, lo cual permite la protección de la vista del usuario y favorece el rendimiento de la batería de su dispositivo.
+
+![logo-modo-oscuro.png](assets/logo-modo-oscuro.png)
+
+- Logo Plus: Es una versión del logo con un color que resalta más elegancia, el cual se usa para los usuarios que opten por usar la suscripción plus del servicio.
+
+![logo-plus.png](assets/logo-plus.png)
+
+- Logo Plus Modo Oscuro: Tiene la misma función que el logo modo oscuro con la diferencia de que sirve para la suscripción plus.
+
+![logo-plus-modo-oscuro.png](assets/logo-plus-modo-oscuro.png)
+  
+- Logos Monocromáticos: Logos con paleta de colores blanco y negro, cuyo uso es exclusivo para impresiones y documentos.
+
+![logo-monocromatico-1.png](assets/logo-monocromatico-1.png)
+![logo-monocromatico-2.png](assets/logo-monocromatico-2.png)
+
+**Tipografia**
+
+- Fuente principal (Brand & Títulos):
+  Cocomat Pro
+  Uso: Logo, headers, títulos principales en la app/web.
+  Razón: Da un aire moderno y premium, con un estilo limpio que refuerza la identidad de la marca.
+  
+- Fuente secundaria (Texto y párrafos)
+  Open Sans o Lato
+  Uso: Textos descriptivos, botones, menús, correos y cualquier contenido largo.
+  Razón: Son altamente legibles en pantallas, versátiles y complementan la elegancia de Cocomat Pro sin competir con ella.
+  
+-Jerarquía de uso
+1. Títulos (H1, H2): Cocomat Pro Bold.
+2. Subtítulos / énfasis: Cocomat Pro Medium.
+Texto general / párrafos: Open Sans Regular.
+Botones y menús: Open Sans SemiBold.
+
+- Sistema Tipográfico 
+H1 (Títulos principales):
+Cocomat Pro Bold – 32px
+
+H2 (Subtítulos / secciones):
+Cocomat Pro Medium – 24px
+
+H3 (Bloques / cards):
+Cocomat Pro Medium – 20px
+
+Texto cuerpo (párrafos):
+Open Sans Regular – 16px
+
+Texto secundario / notas:
+Open Sans Regular – 14px
+
+Botones primarios:
+Open Sans SemiBold – 16px (MAYÚSCULAS)
+
+![fuentes-imagen.png](assets/fuentes-imagen.png)
+
+**Paleta de colores**
+Espaciado de líneas: 1.5x en párrafos para mayor legibilidad.
+Uso de color:
+- Primario: Azul Marino (#2C3E91) → solidez, profesionalismo.
+- Secundario: Dorado/Naranja Suave (#E67E22) → lujo, calidez.
+- Neutros: Beige (#F5F5DC), Gris medio (#BDC3C7), Blanco (#FFFFFF).
+- Apoyos: Verde agua (#1ABC9C) → frescura, sostenibilidad.
+
+![color-image.png](assets/color-image.png)
+
+**Dimensiones**
+- Cercano y humano: Hablar como si fueras un amigo confiable, sin tecnicismos innecesarios.
+- Claro y directo: Frases cortas, fáciles de entender, sin rodeos.
+- Inspirador: Transmitir seguridad y motivación para que el usuario sienta que tomó la mejor decisión.
+- Profesional pero cálido: Ni demasiado rígido ni demasiado informal.
+  
+### 4.1.2. Web Style Guidelines
+
+**Páginas principales**
+
+- Home: enfoque en storytelling + CTA (“Probar demo”).
+- Productos: módulos claros (cards azules) con descripciones cortas.
+- Soluciones: bloques con imágenes + botones de acción (descargar brochure).
+- Precios:  tabla comparativa clara (Plan Normal vs Plan Plus).
+![paginas_principales.png](assets/paginas_principales.png)
+
+**Encabezados Hero (Landing)**
+
+- Imagen grande en 16:9 con overlay oscuro: refuerza contraste con texto.
+- Texto principal: H1 32px, Cocomat Pro Bold en blanco.
+- Botón destacado (CTA): Naranja Suave (#E67E22) en mayúsculas.
+![encabezado_hero.png](assets/encabezado_hero.png)
+
+**Cards y Bloques de Contenido**
+
+- Fondo azul marino (#2C3E91), texto blanco.
+- Iconografía minimalista y consistente.
+- Bordes redondeados 12px + sombra suave.
+- Espaciado interno: 24px padding.
+- Uso de grillas para mantener equilibrio visual.
+![bloques.png](assets/bloques.png)
+
+**Tablas Comparativas (Precios)**
+
+- Fondo alternado con colores que definen los planes para mejorar lectura.
+- Encabezados fijos con H2 Medium 24px.
+- Marca de “incluido” en check.
+- Elementos no incluidos  sin check.
+- Botón “Mejorar plan” en naranja como llamada a la acción final.
+![plan.png](assets/plan.png)
+
+**Footer**
+
+- Fondo azul marino sólido.
+- Texto en blanco y gris claro.
+- Columnas organizadas con links en Open Sans 14px.
+- Inclusión de iconos sociales en fila inferior.
+![footer.png](assets/footer.png)
+
+**Uso de Color en Web**
+
+-Azul Marino (#2C3E91) → fondos de bloques, navegación, footer.
+-Naranja Suave (#E67E22) → CTAs principales.
+-Verde Agua (#1ABC9C) → énfasis positivo (checks, beneficios, “incluido”).
+-Beige (#F5F5DC) → fondos neutros para separar secciones.
+
+**Comportamiento UX**
+
+- Hover Cards → elevación (sombra) + cambio leve en tono de fondo.
+- Hover Botones → transición 0.3s de azul → naranja.
+- Scroll suave en anclas de página.
+- Menú sticky superior para navegación rápida.
+![final.png](assets/final.png)
+  
+## 4.2. Information Architecture
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+-CARRERA: Ingeniería de Software  
+-CURSO: Desarrollo de Aplicaciones Open Source  
+-SECCIÓN: 7454  
+-PROFESORES: Todos  
+-AUDITOR: Nombre del Grupo el cual está encargado de evaluar 
+-CLIENTE(S): Administradores de Hoteles Boutique y Huéspedes de Hoteles  
+-SITE o APP A EVALUAR: Smart Stay
+
+**TAREAS A EVALUAR**
+
+**Segmento Objetivo #1: Administradores de Hoteles Boutique y Pequeños en Lima**  
+- Gestionar reservas: claridad en el calendario y sincronización con canales externos.  
+- Notificaciones automáticas: facilidad para configurar alertas de check-in/check-out y limpieza.  
+- Reportes: acceso rápido a reportes de ocupación y facturación.  
+- Seguridad: control de accesos internos para el personal.  
+
+**Segmento Objetivo #2: Huéspedes de Hoteles**  
+- Realizar check-in/out digital: facilidad, rapidez y disponibilidad desde la app.  
+- Control desde el celular: acceso a funciones de la habitación (llaves digitales, temperatura, Wi-Fi).  
+- Personalización de la estadía: opciones visibles de preferencias (horarios, limpieza, amenities).  
+- Comunicación con el hotel: claridad y rapidez en canales de contacto digital.  
+
+**No incluidas en esta versión de la evaluación:**  
+- Procesos de facturación avanzada.  
+- Integración con marketplaces globales.  
+- Funcionalidades de marketing interno del hotel.  
+
+**ESCALA DE SEVERIDAD** 
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser superado fácilmente. No requiere arreglo inmediato. |
+| **2** | Problema menor: afecta ocasionalmente la experiencia. Resolución de baja prioridad. |
+| **3** | Problema mayor: ocurre frecuentemente y afecta la experiencia de forma significativa. Requiere corrección prioritaria. |
+| **4** | Problema muy grave: impide continuar con la tarea. Requiere corrección inmediata antes del lanzamiento. |
+
+
+**TABLA RESUMEN**  
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|---------------------|-------------------------------|
+| 1 | Reservas no muestran disponibilidad en tiempo real (riesgo de sobreventa). | 3 | Usabilidad: Visibilidad del estado del sistema. |
+| 2 | Notificaciones poco configurables y sin opciones personalizadas. | 2 | Flexibilidad y eficiencia de uso. |
+| 3 | Reportes de ocupación y facturación poco visibles en el dashboard. | 2 | Visibilidad y reconocimiento antes que recuerdo. |
+| 4 | Botón de check-in digital en la app es poco visible en la pantalla de inicio. | 3 | Usabilidad: Visibilidad del estado del sistema. |
+| 5 | El control desde la app (llaves digitales, limpieza) no está claramente explicado. | 2 | Coincidencia entre el sistema y el mundo real. |
+
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**SEGMENTO: Administradores de Hoteles**
+- **Severidad: 3 – Visibilidad del estado del sistema**  
+  - Problema: El calendario de reservas no refleja actualizaciones en tiempo real con plataformas externas.  
+  - Recomendación: Implementar sincronización inmediata con canales externos (Booking, Airbnb, etc.) y estados visuales claros de disponibilidad.  
+
+- **Severidad: 2 – Flexibilidad y eficiencia de uso**  
+  - Problema: Las notificaciones automáticas no permiten personalizar mensajes ni frecuencia.  
+  - Recomendación: Añadir un panel de configuración flexible con plantillas y horarios definidos por el administrador.  
+
+- **Severidad: 2 – Reconocimiento antes que recuerdo**  
+  - Problema: Los reportes se encuentran en un submenú poco visible.  
+  - Recomendación: Colocar accesos rápidos en el dashboard inicial y usar iconografía clara.  
+
+
+**SEGMENTO: Huéspedes de Hoteles**  
+
+- **Severidad: 2 – Coincidencia entre el sistema y el mundo real**  
+  - Problema: El control de la habitación desde la app (llaves digitales, limpieza, Wi-Fi) no cuenta con guías visuales.  
+  - Recomendación: Incluir íconos representativos y tutoriales cortos dentro de la app.  
+
+- **Severidad: 3 – Ayuda y documentación**  
+  - Problema: No existe chat directo con la recepción del hotel; solo un formulario genérico.  
+  - Recomendación: Incorporar mensajería en tiempo real con la recepción.  
+
+- **Severidad: 2 – Accesibilidad universal**  
+  - Problema: Algunos botones presentan bajo contraste en modo claro (ejemplo: naranja sobre beige).  
+  - Recomendación: Ajustar colores con ratio de contraste mínimo 4.5:1 siguiendo WCAG 2.1.  
+
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+Los wireframes representan la primera aproximación al diseño de la interfaz de Smart Stay.  
+Se han desarrollado en formato blanco y negro, sin imágenes ni estilos gráficos, para enfocarse únicamente en la estructura, disposición de los elementos y flujo de navegación.  
+
+El objetivo de estos wireframes es:
+- Establecer la arquitectura de información de la plataforma.  
+- Definir la jerarquía de contenidos en cada sección.  
+- Validar la navegación y experiencia de usuario antes de pasar al diseño visual (mockups).  
+
+A continuación, se presenta un resumen de cada una de las secciones.
+
+**1. Home**
+- **Propósito:** Página principal de presentación de Smart Stay.  
+- **Elementos clave:**  
+  - Encabezado con menú de navegación.  
+  - Hero con nombre de la plataforma y botón de llamada a la acción (*CTA: Probar demo*).  
+  - Sección "¿Quiénes somos?" con breve descripción.  
+  - Bloques de beneficios y características principales.  
+  - Footer con enlaces de contacto, políticas y redes sociales.
+![whome.png](assets/whome.png)
+
+
+**2. Productos**
+- **Propósito:** Mostrar los productos y módulos de la plataforma.  
+- **Elementos clave:**  
+  - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.  
+  - Descripción breve de cada módulo.  
+  - Botón de descarga de brochure.
+  ![wproductos.png](assets/wproductos.png)
+
+**3. Soluciones**
+- **Propósito:** Explicar cómo Smart Stay se adapta a diferentes tipos de hoteles.  
+- **Elementos clave:**  
+  - Sección para hoteles boutique.  
+  - Sección para alojamientos alternativos.  
+  - Sección para cadenas hoteleras.  
+  - Botón para descargar información detallada.
+  ![wsoluciones.png](assets/wsoluciones.png)
+
+
+**4. Precios**
+- **Propósito:** Detallar planes y costos de la plataforma.  
+- **Elementos clave:**  
+  - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
+  - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
+![wsprecios.png](assets/wsprecios.png)
+
+**5. Casos de Éxito**
+- **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.  
+- **Elementos clave:**  
+  - Bloques con testimonios de clientes.  
+  - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
+  ![wreseñas.png](assets/wreseñas.png)  
+
+**6. Recursos**
+- **Propósito:** Repositorio de materiales de apoyo y aprendizaje.  
+- **Elementos clave:**  
+  - Documentos descargables (guías, whitepapers, brochures).  
+  - Links de blogs.  
+![wrecurso.png](assets/wrecurso.png)
+
+**7. Registro**
+- **Propósito:** Permitir que un nuevo usuario cree su cuenta.  
+- **Elementos clave:**  
+  - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
+  - Botón de registro.  
+![wregister.png](assets/wregister.png)
+
+**8. Login**
+- **Propósito:** Acceso de usuarios ya registrados.  
+- **Elementos clave:**  
+  - Formulario de inicio de sesión con correo y contraseña.  
+  - Botón de acceso.  
+  - Enlace a recuperación de contraseña y a registro.  
+![wlogin.png](assets/wlogin.png)
+
+Los wireframes definen la base de navegación de Smart Stay, asegurando que cada sección tenga un propósito claro:  
+- **Home:** captar atención y presentar la plataforma.  
+- **Productos, Soluciones, Precios:** comunicar valor y opciones.  
+- **Casos de Éxito, Recursos:** generar confianza y soporte.  
+- **Registro y Login:** habilitar el acceso a la app.  
+
+
+### 4.3.2. Landing Page Mock-up
+
+Tras la validación de los wireframes, se desarrollaron los mockups de alta fidelidad de Smart Stay.  
+Estos mockups ya incorporan la identidad visual definida (colores, tipografía, logotipo e imágenes), con el objetivo de reflejar la experiencia final que tendrán los usuarios en la plataforma.  
+
+Su propósito es:
+- Validar la usabilidad con un diseño más realista.  
+- Asegurar la coherencia con la guía de estilos definida.  
+- Proyectar cómo se verá cada sección en un entorno final.  
+
+**1. Landing Page**
+- **Cambios respecto al wireframe:**  
+  - Se añadió el logotipo de Smart Stay en el header.  
+  - Paleta de colores aplicada (azul corporativo + tonos complementarios).  
+  - Imagen de fondo en el Hero con llamada a la acción resaltada (“Probar demo”).  
+  - Iconografía personalizada para los beneficios.  
+![home.png](assets/home.png)
+
+**2. Productos**
+-**Cambios respecto al wireframe:**  
+  - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
+  - Inclusión de imágenes ilustrativas.  
+  - Botón de descarga estilizado con colores de la marca.  
+![producto.png](assets/producto.png)
+
+**3. Soluciones**
+- **Cambios respecto al wireframe:**  
+  - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).  
+  - Uso de fotografías representativas de hoteles.  
+  - CTA destacado.
+![soluciones.png](assets/soluciones.png)
+
+**4. Precios**
+- **Cambios respecto al wireframe:**  
+  - Tabla de precios con colores diferenciadores por plan.  
+  - Plan recomendado resaltado con un fondo destacado.  
+  ![precio.png](assets/precio.png)
+
+**5. Casos de Éxito**
+- **Cambios respecto al wireframe:**  
+  - Testimonios acompañados de logos reales de hoteles.  
+![reseña.png](assets/reseña.png)
+
+**6. Recursos**
+- **Cambios respecto al wireframe:**  
+  - Secciones de miniaturas de documentos descargables.  
+  - Secciones de blog con botón de visitar página externa.
+![recursos.png](assets/recursos.png)
+
+**7. Registro**
+- **Cambios respecto al wireframe:**  
+  - Formulario minimalista con campos estilizados.  
+  - Botón de “Enviar y registrar” resaltado en color primario.  
+  - Fondo con imagen ligera para dar contexto al servicio.
+  ![register.png](assets/register.png)
+
+**8. Login**
+- **Cambios respecto al wireframe:**  
+  - Formulario ubicado a lateral izquierdo en pantalla con diseño limpio.  
+  - Logo al lado derecho de la pantalla.  
+  - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”.  
+![login.png](assets/login.png)
+
+Los mockups consolidan el diseño visual final de Smart Stay, transformando la estructura básica de los wireframes en interfaces listas para evaluación estética y funcional.  
+
+
+## 4.4. Web Applications UX/UI Design
+En esta sección de Web Applications UX/UI Design ya nos enfocamos en el diseño de la interfaz y la experiencia de usuario de nuestro explicativo el cual se menciona e informa en el landing page, cabe resaltar que el el aplicativo es difernte según el rol que forman parte de la solución digital: administrador, staff y huéspedpor lo que su funcionamiento es distinto. Aquí se visualizará el prototipo de cada app y a su vez se presentará en la forma más práctica según su rol, formato desktop para administrados y formato móvil para staff y huésped, aunque los tres cuentan con diseño responsive por lo que se puede usar de cualquier dispositivo móvil.
+
+### 4.4.1. Web Applications Wireframes
+
+**Wireframes – Modo Administrador**
+
+
+Los wireframes del **modo Administrador** representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el administrador.  
+
+A continuación, se presenta un resumen de cada una de las secciones principales del modo Administrador.  
+
+**1. Dashboard**
+**Propósito:** Vista general del estado de la plataforma.  
+**Elementos clave:**  
+- Panel con métricas principales (usuarios activos, reportes recientes, accesos).  
+- Gráficas de estadísticas generales.  
+- Acceso rápido a notificaciones.  
+
+**2. Huéspedes**
+**Propósito:** Control y administración de los perfiles que usan la plataforma.  
+**Elementos clave:**  
+- Lista de usuarios con buscador y filtros.  
+- Botón para agregar, editar o eliminar usuarios.  
+- Tabla con información básica (nombre, correo, rol, estado).  
+
+![wdashboard_huespedes.png](assets/wdashboard_huespedes.png)
+
+**3. Staff**  
+**Propósito:** Definir los niveles de acceso de cada tipo de usuario.  
+**Elementos clave:**  
+- Tabla de roles existentes.  
+- Información y datos del staff con el que trabaja.  
+
+**4. Hoteles y habitaciones**  
+**Propósito:** Gestión de la cadena hotelera administrada en la plataforma.  
+**Elementos clave:**  
+- Lista de hoteles con buscador y filtros (ciudad, estado, categoría).  
+- Detalle del hotel seleccionado (información general, servicios, estadísticas).  
+- Campo para ingresar número de habitación y botón *Ver detalle*.  
+- Vista de detalle de habitación con estado, tipo, huésped actual, check-in/out y acciones rápidas.   
+
+![wstaff_hoteles.png](assets/wstaff_hoteles.png)
+
+**5. Reservas** 
+**Propósito:** Control y gestión de todas las reservas realizadas en los hoteles.  
+**Elementos clave:**  
+- Calendario interactivo para visualizar y administrar reservas por día, semana o mes.  
+- Lista de reservas con buscador y filtros (hotel, fecha, estado).  
+- Detalle de la reserva (huésped, habitación, fechas, monto).  
+- Botones para modificar, confirmar o cancelar reservas.  
+- Indicadores de ocupación y disponibilidad directamente desde el calendario. 
+
+**6. Pagos**  
+**Propósito:** Administración de ingresos y egresos financieros en la plataforma.  
+**Elementos clave:**  
+- Registro de pagos recibidos de huéspedes y clientes.  
+- Registro de egresos: pagos a staff, proveedores y compras de stock.  
+- Tablas y filtros por fecha, hotel, método de pago y categoría.  
+- Reportes de gastos, ingresos y ganancias.  
+- Gráficos comparativos y dashboard financiero.
+  
+![wreservas_gastos.png](assets/wreservas_gastos.png)
+
+**7. Servicios y Productos**  
+**Propósito:** Gestión integral de servicios y dispositivos tecnológicos de Smart Stay.  
+**Elementos clave:**  
+- Tabla general con categorías: limpieza, alimentos, tecnología, amenities.  
+- Columnas: nombre, categoría, estado, stock, ubicación, proveedor.  
+- Filtros por hotel, piso, habitación y categoría.  
+- Vista de detalle de cada producto con historial, estado y mantenimiento.  
+
+**8. Reseñas**  
+**Propósito:** Seguimiento de la experiencia de los huéspedes y tickets de soporte.  
+**Elementos clave:**  
+- Lista de comentarios y calificaciones por hotel y servicio.  
+- Filtros por fecha, hotel, tipo de reseña o ticket.  
+- Vista de detalle con respuesta del staff.  
+- Estadísticas de satisfacción y gráficos de tendencias.  
+- Panel de tickets: abiertos, en proceso, cerrados.  
+![wservicio_producto_reseña.png](assets/wservicio_producto_reseña.png)
+
+**9. Soporte**  
+**Propósito:** Gestión de los tickets creados por los hoteles y usuarios hacia Smart Stay.  
+**Elementos clave:**  
+- Lista de tickets recibidos desde los hoteles o usuarios.  
+- Clasificación por prioridad (alta, media, baja) y estado (pendiente, en proceso, resuelto).  
+- Filtros por hotel, tipo de problema y fecha.  
+- Vista de detalle del ticket con historial de comunicación.  
+- Historial de ticket.
+![wsoporte.png](assets/wsoporte.png)
+
+**Wireframes – Modo Huésped**
+
+Los wireframes del modo Huésped representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación huesped, el cual ellos ingresanpor un codigo qr que el hotel les brinda para de frente acceder al app huesped.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el huésped.  
+
+**1. Pantalla de Bienvenida**
+- Solo es una introducción por lo que aparece el logo y un saludo.
+  
+**2. Inicio**
+**Propósito:** Pantalla principal con acceso a las funciones más utilizadas.  
+**Elementos clave:**  
+- Barra superior con logo y buscador.  
+- Banner de bienvenida.  
+- Acceso rápido a habitaciones, servicios y notificaciones.  
+- Sección de ofertas o promociones destacadas.
+  
+**3. Habitaciones**
+**Propósito:** Explorar y seleccionar opciones de hospedaje.  
+**Elementos clave:**  
+- Información básica (número y estado de habitación).  
+- Controles de ambiente: temperatura, luces, cortinas, TV, música.  
+- Servicios rápidos: limpieza inmediata o programada, amenities, minibar digital.  
+- Botón de asistencia y emergencia.  
+![wapphuesped1.png](assets/wapphuesped1.png)
+
+**4. Servicios**
+**Propósito:** Acceder a servicios adicionales ofrecidos por el hotel.  
+**Elementos clave:**  
+- Categorías de servicios (gimnasio, parking, restaurante, eventos).
+  
+**5. Mapa & Explorar**
+**Propósito:** Orientar al huésped dentro del hotel y ofrecer rutas y descubrimientos locales.  
+**Elementos clave:**  
+- Mapa interactivo del hotel con puntos de interés (piscina, gimnasio, restaurantes, lobby, salones).  
+- Indicación de la ubicación de la habitación del huésped y rutas internas (wayfinding) hacia cualquier punto.  
+- Opciones de búsqueda y filtros (por tipo de servicio, accesibilidad, horarios).  
+  
+**6. Perfil**
+**Propósito:** Gestionar los datos del huésped.  
+**Elementos clave:**  
+- Información personal (nombre, correo, teléfono).  
+- Preferencias de pago y métodos guardados.  
+
+**7. Notificaciones**
+**Propósito:** Informar al huésped sobre novedades y recordatorios.  
+**Elementos clave:**  
+- Lista de notificaciones recientes (confirmaciones de reserva, promociones, mensajes del hotel).  
+- Botón para marcar como leídas o eliminar notificaciones.  
+![wapphuesped2.png](assets/wapphuesped2.png)
+
+**Wireframes – Modo Staff**
+
+Los wireframes del modo Staff representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el personal del hotel.
+
+**1. Introducción**
+**Propósito:** Pantalla inicial de bienvenida y presentación de la app Staff.  
+**Elementos clave:**  
+- Logo.  
+- Breve mensaje de bienvenida.
+
+**2. Login**
+**Propósito:** Autenticar al personal del hotel para acceder a la app.  
+**Elementos clave:**  
+- Campos de correo electrónico y contraseña.  
+- Botón de Iniciar Sesión.  
+- Opción de Recuperar contraseña.  
+
+**3. Home / Dashboard**
+**Propósito:** Pantalla principal con resumen de tareas y registro de horas.  
+**Elementos clave:**  
+- Registro de horas: botones para marcar Entrada, Receso y Salida.  
+- Tabla de historial diario de horas trabajadas.  
+- Lista resumida de tareas del día con estado (pendiente/completado).  
+
+**4. Tareas**
+**Propósito:** Gestionar todas las tareas asignadas al staff.  
+**Elementos clave:**  
+- Lista completa de tareas diarias con habitación, tipo de tarea, piso.  
+- Estado de tarea con emoticonos: ✅ Completado / ❌ Pendiente.     
+![wappstaff1.png](assets/wappstaff1.png)
+
+**5. Servicios / Productos**
+**Propósito:** Registrar entrega de servicios y productos a habitaciones.  
+**Elementos clave:**  
+- Lista de servicios/productos por entregar (Room Service, Mini Bar, Amenities, etc.).  
+- Cantidad y habitación correspondiente.  
+- Estado de entrega con emoticonos: ✅ Entregado / ❌ Pendiente.  
+
+**6. Reservas**
+**Propósito:** Consultar y gestionar reservas asignadas al staff.  
+**Elementos clave:**  
+- Sección de búsqueda de cliente.  
+- Lista de reservas con habitación, huésped, fecha, estado de check-in/check-out.  
+- Semáforo de estados: 🔴 Pendiente / 🟢 Completado.  
+
+**7. Perfil**
+**Propósito:** Gestionar la información personal del staff y las preferencias de la app.  
+**Elementos clave:**  
+- Foto y datos personales (nombre, correo, teléfono).  
+- Cambiar contraseña, editar y cerrar sesión.  
+
+**8. Notificaciones**
+**Propósito:** Informar al staff sobre novedades, cambios de tareas o alertas importantes.  
+**Elementos clave:**  
+- Lista de notificaciones recientes (cambios de turno, emergencias, avisos de tareas).  
+- Botón para marcar como leído o eliminar notificaciones.  
+![wappstaff2.png](assets/wappstaff2.png).
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+**Web Applications Wireflow Diagrams – Modo Administrador**
+
+**Propósito:**  
+Mostrar cómo cada sección del administrador se conecta a través del menú principal.
+![webwireflowadmi.png](assets/webwireflowadmi.png)
+
+**Menú Principal (Administrador)**
+
+Desde cualquier sección, el menú permite acceder a:
+
+1. **Dashboard** – Resumen general de actividad, métricas y gráficos.
+2. **Huéspedes** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
+3. **Staff** – Gestión del personal; roles, turnos y contacto.
+4. **Hoteles / Habitaciones** – Administración de hoteles, habitaciones y disponibilidad.
+5. **Reservas** – Calendario de reservas; agregar, modificar o cancelar reservas.
+6. **Pagos** – Visualización y gestión de transacciones y estados de pago.
+7. **Servicios / Productos** – Gestión de servicios del hotel y productos adicionales.
+8. **Reseñas** – Panel de comentarios de huéspedes con gráficos de satisfacción.
+9. **Soporte / Tickets** – Crear tickets de ayuda y consultar su estado.
+
+**Flujo General (Wireflow)**
+
+- **Dashboard**: centro de información y acceso rápido a todas las secciones.  
+- **Menú Principal**: conecta directamente a las 9 secciones.  
+- Secciones interrelacionadas:  
+  - **Reservas ↔ Pagos ↔ Servicios / Productos**  
+  - **Huéspedes ↔ Reservas ↔ Reseñas**  
+  - **Staff ↔ Hoteles / Habitaciones**  
+- **Soporte / Tickets**: siempre accesible desde cualquier sección para resolver inconveniencias.
+
+**Web Applications Wireflow Diagrams – Modo Huésped**
+
+**Propósito:**  
+Mostrar cómo cada sección de la app para huéspedes se conecta a través del menú principal y elementos persistentes (como el icono de notificaciones).
+
+![webwireflowhuesped.png](assets/webwireflowhuesped.png)
+
+**Secciones Principales**
+
+1. **Introducción** – Pantalla inicial, solo se conecta a **Home**.
+2. **Home** – Vista principal; acceso a todas las secciones mediante el menú.
+3. **Habitación** – Detalles de la habitación asignada o disponible; acceso desde el menú.
+4. **Servicios** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
+5. **Mapa** – Ubicación del hotel, puntos de interés; acceso desde el menú.
+6. **Perfil** – Datos del huésped, preferencias y configuración; acceso desde el menú.
+7. **Notificaciones** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
+
+**Flujo General (Wireflow)**
+
+- **Introducción** → **Home**  
+- **Home** → conecta a **Habitación**, **Servicios**, **Mapa**, **Perfil** mediante el menú principal.  
+- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.  
+
+**Web Applications Wireflow Diagrams – Modo Staff**
+
+**Propósito:**  
+Mostrar cómo cada sección de la app para staff se conecta a través del menú principal y elementos persistentes (como el icono de notificaciones).
+![webwireflowstaff.png](assets/webwireflowstaff.png)
+
+**Secciones Principales**
+
+1. **Introducción** – Pantalla inicial, conecta al **Login**.  
+2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**.  
+3. **Home** – Vista principal; acceso a todas las secciones mediante el menú.  
+4. **Tareas** – Lista y gestión de tareas asignadas; acceso desde el menú.  
+5. **Servicios** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.  
+6. **Reservas** – Visualización de reservas relacionadas con el staff; acceso desde el menú.  
+7. **Perfil** – Datos del staff y configuración personal; acceso desde el menú.  
+8. **Notificaciones** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
+
+**Flujo General (Wireflow)**
+
+- **Introducción** → **Login** → **Home**  
+- Desde **Home** se puede acceder mediante el menú a: **Tareas**, **Servicios**, **Reservas**, **Perfil**  
+- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.
+
+### 4.4.3. Web Applications Mock-ups
+
+**Mockups – Modo Administrador**
+
+Los mockups muestran la interfaz final del administrador de SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual de la plataforma.
+
+**1. Dashboard**
+- Paleta de colores corporativa aplicada a gráficos y métricas.  
+- Gráficos circulares y de barras con animaciones.  
+- Iconos para alertas, reservas y notificaciones.  
+- Ilustraciones o imágenes para resaltar métricas clave.
+
+**2. Huéspedes**
+- Tarjetas visuales para cada huésped con foto, nombre y estado.  
+- Botones coloreados según función (agregar: verde, eliminar: rojo).  
+- Filtros y buscador estilizados con iconos.
+
+**3. Staff**
+- Tabla con fotos de perfil, roles y horarios.  
+- Indicadores de estado con colores o iconos.  
+- Botones consistentes con la paleta de SmartStay.
+
+**4. Hoteles**
+- Cards con imagen del hotel o miniaturas.  
+- Indicadores visuales de ocupación y disponibilidad.  
+- Botones de acción con efectos hover.
+
+**5. Reservas**
+- Calendario visual con colores según estado (confirmada, pendiente, cancelada).  
+- Tarjetas de reserva con foto del huésped y detalles.  
+- Botones destacados para aprobar, modificar o cancelar.
+
+**6. Pagos**
+- Tabla con iconos de métodos de pago (tarjeta, Yape, Plin).  
+- Resaltado de pagos pendientes con color.  
+- Botones para generar facturas con efectos visuales.
+
+**7. Servicios y Productos**
+- Cards o listas con imágenes de productos y servicios.  
+- Indicadores de disponibilidad con colores y símbolos.  
+- Botones con iconos para editar, eliminar o agregar.
+
+**8. Reseñas**
+- Panel con estrellas de puntuación y colores según valoración.  
+- Tarjetas de comentarios con avatar del huésped y fecha.  
+- Gráficos visuales de satisfacción general.
+
+**9. Soporte**
+- Tabla de tickets con colores según estado (pendiente, en proceso, finalizado).  
+- Formulario visual con iconos y campos destacados.  
+- Botones de acción consistentes con la paleta.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú lateral.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockupadmin1.png](assets/mockupadmin1.png)
+![mockupadmin2.png](assets/mockupadmin2.png)
+![mockupadmin3.png](assets/mockupadmin3.png)
+
+**Mockups – Modo Huésped**
+
+Los mockups muestran la interfaz final del usuario huésped en SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual y la experiencia de usuario.
+
+**1. Introducción**
+- Pantalla de bienvenida con **logo y colores corporativos**.  
+- **Imágenes o ilustraciones atractivas** para la experiencia inicial.  
+- Botón destacado para comenzar y acceder a Home.
+
+**2. Home**
+- Panel con **resumen de reservas y notificaciones recientes**.  
+- Cards visuales para acceder a habitaciones, servicios y mapa.  
+- **Botones e iconos claros** para navegación rápida.
+
+**3. Habitación**
+- Tarjetas con fotos de la habitación y detalles (tipo, servicios incluidos, disponibilidad).  
+- Indicadores visuales de estado de limpieza o check-in/check-out.  
+- Botones para solicitar servicio o hacer reservas adicionales.
+
+**4. Servicios**
+- Lista o cards de servicios disponibles (spa, lavandería, comida, etc.) con imágenes.  
+- Indicadores de disponibilidad y precios.  
+- Botones para solicitar o reservar servicios fácilmente.
+
+**5. Mapa**
+- Mapa interactivo con **ubicación del hotel, habitaciones y servicios cercanos**.  
+- Iconos para puntos de interés y rutas dentro del hotel.  
+- Colores y estilo consistente con la identidad visual.
+
+
+**6. Perfil**
+- Información personal del huésped con **foto y datos básicos**.  
+- Botones para editar información o preferencias.  
+- Indicadores de estado de membresía o historial de reservas.
+
+**7. Notificaciones**
+- Lista de notificaciones recientes con **iconos y colores según tipo** (alerta, mensaje, promoción).  
+- Botones para marcar como leído o eliminar.  
+- Diseño consistente con la paleta y tipografía de la app.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockuphuesped1.png](assets/mockuphuesped1.png)
+![mockuphuesped2.png](assets/mockuphuesped2.png)
+
+**Mockups – Modo Staff**
+
+Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual y la experiencia de usuario para el staff.
+
+**1. Introducción**
+- Pantalla de bienvenida con **logo y colores corporativos**.  
+- **Ilustraciones o imágenes** que reflejan la experiencia inicial.  
+- Botón destacado para avanzar al login.
+
+**2. Login**
+- Formulario con **campos destacados** para correo y contraseña.  
+- Botón principal con **color corporativo** para iniciar sesión.  
+- Iconos de seguridad y feedback visual al ingresar datos incorrectos.
+
+**3. Home**
+- Panel con **resumen de tareas, reservas y notificaciones recientes**.  
+- Cards visuales para acceder a tareas, servicios, reservas y perfil.  
+- Botones e iconos claros para navegación rápida.
+
+**4. Tareas**
+- Lista o cards de tareas asignadas con **estado visual** (pendiente, en proceso, finalizado).  
+- Botones para marcar tareas completadas o reasignar.  
+- Indicadores de prioridad con colores y símbolos.
+
+**5. Servicios**
+- Lista de servicios a realizar o supervisar, con **imágenes o iconos representativos**.  
+- Indicadores de estado y disponibilidad.  
+- Botones para actualizar estado o registrar finalización.
+
+**6. Reservas**
+- Calendario visual mostrando reservas asignadas al staff.  
+- Tarjetas de reserva con detalles resumidos y foto del huésped.  
+- Botones para confirmar asistencia o marcar tareas relacionadas a la reserva.
+
+**7. Perfil**
+- Información personal del staff con **foto, rol y datos de contacto**.  
+- Botones para editar información y configurar preferencias.  
+- Indicadores de estado activo/inactivo.
+
+**8. Notificaciones**
+- Lista de notificaciones recientes con **iconos y colores según tipo** (alerta, mensaje, aviso).  
+- Botones para marcar como leído o eliminar.  
+- Diseño consistente con la paleta y tipografía de la app.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockupstaff1.png](assets/mockupstaff1.png)
+![mockupstaff2.png](assets/mockupstaff2.png)
+
+### 4.4.4. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+
+El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
+En este caso presentaremos el prototipo del app principal que es del modo administrador:
+[https://shorturl.at/7UPcY](https://www.figma.com/proto/RqI67mkRZ1AwuQNTcuGBvA/Sin-t%C3%ADtulo?node-id=48-3793&p=f&t=4u5X36WGvtb7jWe4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level EventStorming
+### 4.6.2. Software Architecture Context Diagram
+![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
+### 4.6.3. Software Architecture Container Diagrams
+![Containers.jpg](assets/Chapter-04/Containers.jpg)
+### 4.6.4. Software Architecture Components Diagrams
+![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
+## 4.7. Software Object-Oriented Design
+![IotGatewayComponets.jpg](assets/Chapter-04/IotGatewayComponets.jpg)
+
+### 4.7.1. Class Diagrams
+Diagrama de Clases: Componente de Autenticación
+
+![AuthComponentClassDiagram.png](assets/Chapter-04/AuthComponentClassDiagram.png)
+
+Este diagrama detalla las clases responsables de la gestión de la identidad y el acceso en el sistema. Incluye la jerarquía de User con sus roles especializados (Guest, Host, HotelStaff), el AuthService que contiene la lógica de negocio para el registro y la autenticación, y la interfaz IUserRepository para la persistencia de datos de usuario.
+
+Diagrama de Clases: Componente de Gestión de Propiedades y Operaciones
+
+![PropertyComponentClassDiagram.png](assets/Chapter-04/PropertyComponentClassDiagram.png)
+
+Este diagrama muestra el diseño de clases para la gestión del inventario y las operaciones del hotel. Incluye las entidades Property y Room, que representan los activos físicos, y el PropertyService que maneja su estado y disponibilidad. Es importante destacar que este componente también actúa como el origen de los comandos de IoT, utilizando la interfaz IIoTCommandPublisher para iniciar acciones en el mundo físico.
+
+Diagrama de Clases: Componente de Gestión de Reservas
+
+![BookingComponentClassDiagram.png](assets/Chapter-04/BookingComponentClassDiagram.png)
+
+Este diagrama presenta el diseño de clases para el componente central de reservas. Muestra las entidades de dominio Booking y Review, y el BookingService que actúa como orquestador. Este servicio interactúa con otros componentes a través de adaptadores (IPropertyServiceAdapter, IBillingServiceAdapter) para verificar disponibilidad y procesar pagos, gestionando así el flujo completo de una reserva.
+
+Diagrama de Clases: Componente de Facturación
+
+![BillingComponentClassDiagram.png](assets/Chapter-04/BillingComponentClassDiagram.png)
+
+Este diagrama ilustra la estructura interna del componente de facturación. Se definen las entidades Payment e Invoice, el servicio BillingService que orquesta el proceso de pago, y los adaptadores (IPaymentGatewayAdapter, IAuthServiceAdapter) que se comunican con sistemas externos y otros componentes internos para garantizar transacciones seguras y autorizadas.
+
+Diagrama de Clases: Componente Gateway IoT
+
+![Iot-Gateway-Component-Class-Diagram.png](assets/Chapter-04/Iot-Gateway-Component-Class-Diagram.png)
+
+Este diagrama detalla la arquitectura interna del componente técnico Gateway IoT. Su diseño se basa en un flujo de procesamiento de mensajes para desacoplar la lógica de negocio del hardware: un MessageListener recibe órdenes, un RulesEngine las interpreta, IDeviceController las especializa, y un ICloudApiClient se comunica con la plataforma externa del fabricante. Este patrón abstrae la complejidad de la integración con dispositivos físicos.
+
+## 4.8. Database Design
+
+Las decisiones clave tomadas, basadas directamente en nuestros diagramas de clases:
+
+Traducción de Clases a Tablas: Cada clase de entidad (aquellas que guardan datos, como User, Property, Booking) se convierte en una tabla. Las clases de servicio e interfaces (AuthService, IUserRepository, etc.) no se convierten en tablas porque representan comportamiento, no datos.
+
+Componentes sin Persistencia: Los componentes puramente técnicos como el Gateway IoT (MessageListener, RulesEngine, etc.) manejan datos en tránsito (mensajes, comandos) y no requieren persistencia en la base de datos relacional. Por lo tanto, no tienen tablas asociadas.
+
+Nomenclatura: Se utiliza snake_case (ej: check_in_date) para nombres de tablas y columnas, una convención estándar en bases de datos.
+
+Manejo de Herencia: La jerarquía de User se implementa con la estrategia "Tabla por Subclase" para máxima claridad y normalización.
+
+Tipos de Datos ENUM: Los diferentes estados (BookingStatus, RoomStatus, etc.) se definen como tipos ENUM para garantizar la integridad de los datos.
+
+Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se implementan usando claves foráneas (FOREIGN KEY) con sus respectivas restricciones de multiplicidad (ej: UNIQUE para relaciones uno a uno).
+
+
+
+### 4.8.1. Database Diagrams
+
+![database-diagram.png](assets/Chapter-04/database-diagram.png)
+
 ---
 
 
+# Capítulo V: Product Implementation, Validation & Deployment
+
+# 5.1. Software Configuration Management  
+
+En esta sección el equipo establece las decisiones, herramientas y convenciones que permiten mantener la consistencia durante el ciclo de vida del proyecto. Se incluyen aspectos de configuración del entorno de desarrollo, gestión del código fuente, guías de estilo y configuración de despliegue de la solución.  
+
+---
+
+## 5.1.1. Software Development Environment Configuration  
+
+El entorno de desarrollo del equipo incluye un conjunto de herramientas colaborativas y de programación que soportan las distintas fases del ciclo de vida:  
+
+- **Gestión de proyecto y documentación**  
+  - Trello → gestión de tareas y planificación ágil con tableros Kanban.  
+  - Google Docs → elaboración colaborativa de reportes y entregables.  
+
+- **Diseño y UX/UI**  
+  - Figma / Adobe XD → diseño de wireframes, mockups y prototipos interactivos.  
+  - UXPressia → creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.  
+  - Miro → colaboración visual y soporte para sesiones de ideación y EventStorming.  
+  - Structurizr → modelado de arquitectura mediante el estándar C4 Model y uso de Diagram-as-Code.  
+
+- **Desarrollo de software**  
+  - JetBrains Rider → IDE principal para backend ASP.NET Core con C#.  
+  - JetBrains WebStorm → IDE para frontend con Vue.js.  
+  - Node.js y NPM → gestión de dependencias y ejecución del entorno frontend.  
+  - Vue.js con PrimeVue → framework y librería de componentes UI para el desarrollo del frontend.  
+  - HTML, CSS y JavaScript → construcción de la Landing Page.  
+
+- **Repositorio y control de versiones**  
+  - GitHub → sistema de control de versiones y repositorios centralizados.  
+
+---
+
+## 5.1.2. Source Code Management  
+
+El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
+
+- **Rama principal**: `main` → contiene versiones estables y listas para despliegue.  
+- **Rama de integración**: `develop` → rama base para integración de nuevas funcionalidades.  
+- **Ramas de características (features)**:  
+  - `feature/chapter-01`, `feature/chapter-02`, …, `feature/chapter-05`.  
+  - Cada funcionalidad o capítulo se desarrolla en una rama independiente.  
+
+- **Convenciones de nomenclatura**  
+  - `feature/<nombre>` → nuevas funcionalidades.  
+  - `release/<versión>` → preparación de entregas.  
+  - `hotfix/<incidencia>` → correcciones críticas en producción.  
+
+- **Versionado semántico**  
+  - Se aplica **Semantic Versioning 2.0.0** (ej. `v1.0.0`, `v1.1.0`, `v2.0.0`).  
+
+- **Commits**  
+  - Se siguen las reglas de **Conventional Commits**, garantizando mensajes legibles y consistentes.  
+
+Los repositorios utilizados incluyen:  
+- **Landing Page** → HTML, CSS, JavaScript.  
+- **Web Services** → ASP.NET Core (C#).  
+- **Frontend Web Application** → Vue.js con PrimeVue.  
+
+---
+
+## 5.1.3. Source Code Style Guide & Conventions  
+
+El equipo adopta convenciones estándar y guías de estilo para cada lenguaje:  
+
+- **HTML & CSS**  
+  - [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+
+- **JavaScript (Vue.js)**  
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
+  - [W3C JavaScript Style Guide](https://www.w3.org/wiki/JavaScript_best_practices)  
+  - [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+  - [Vue Style Guide](https://vuejs.org/style-guide/)  
+  - **ESLint y Prettier** → análisis estático y formateo automático.  
+
+- **C# y ASP.NET Core**  
+  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
+  - [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)  
+
+- **Buenas prácticas comunes**  
+  - Nomenclatura en inglés.  
+  - Uso de **CamelCase** para variables y métodos.  
+  - Uso de **PascalCase** para clases y controladores.  
+  - Aplicación del principio **DRY (Don’t Repeat Yourself)** para evitar duplicación de código.  
+  - Escenarios de pruebas escritos siguiendo convenciones de **Gherkin** (Dado-Cuando-Entonces).  
+
+---
+
+## 5.1.4. Software Deployment Configuration  
+
+El despliegue de la solución considera los siguientes aspectos:  
+
+- **Landing Page**  
+  - Desarrollada en HTML, CSS y JavaScript.  
+  - Desplegada en **GitHub Pages** para acceso público.  
+
+- **Backend (Web Services)**  
+  - Implementado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+  - Desplegado en **Render** como servicio cloud.  
+
+- **Frontend Web Application**  
+  - Construida con **Vue.js y PrimeVue**.  
+  - Desplegada en **Render** con configuración continua desde el repositorio de GitHub.  
+
+- **Integración continua / Despliegue continuo (CI/CD)**  
+  - Repositorios conectados a GitHub.  
+  - Despliegue automático en Render al realizar merges en `main`.  
+
+## 5.2. Landing Page, Services & Applications Implementation.
+
+---
+
+## 5.2.1. Sprint 1
+
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+
+## 5.2.1.1. Sprint Planning 1  
+
+| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
+| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
+| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
+| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
+| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
+| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                                    |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas.          |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
+| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                        |
+| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
+
+## 5.2.1.2. Sprint Backlog 1
+
+### Introducción
+El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
+Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios registrados** a través de una experiencia inicial clara e intuitiva.
+
+**Evidencia en del avance en trello**
+
+![sprint_trello](assets/sprint_trello.png)
+
+Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
+
+### Sprint #1 – Sprint Backlog
+
+| Sprint # | User Story ID | User Story Title | Work-Item / Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|----------|---------------|------------------|----------------------|-------------|-------------|--------------------|-------------|--------|
+| 1 | US26 | Ver información general sobre SmartStay | T01 | Diseñar estructura básica de Landing Page | Crear wireframe y mockup de la landing con secciones principales. | 6h | Alexander | Done |
+| 1 | US26 | Ver información general sobre SmartStay | T02 | Implementar contenido introductorio | Redactar y maquetar la sección "¿Qué es SmartStay?". | 4h | Natalia | In Process |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T03 | Crear sección de beneficios | Mostrar ventajas competitivas con íconos y texto. | 5h | Italo | To Review |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T04 | Añadir carrusel de testimonios | Implementar testimonios de usuarios ficticios en frontend. | 4h | Aldair | To Do |
+| 1 | US28 | Acceder fácilmente al registro o login | T05 | Botones de registro/login | Colocar botones visibles y funcionales que redirigen a formularios. | 3h | Alexander | Done |
+| 1 | TS08 | Implementar landing page con botones hacia login/registro | T06 | Conectar landing con rutas de login/registro | Configurar navegación y enlaces en frontend. | 6h | Italo | In Process |
+
+
+## 5.2.1.3. Development Evidence for Sprint Review
+
+### Introducción
+Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
+
+### Commits realizados
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `14ca4e3` | `feat: add initial landing page structure` | Se implementa la estructura base de la landing con secciones vacías. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `27bd9f1` | `feat: add SmartStay introduction section` | Contenido informativo agregado a la landing. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `38cf0d2` | `feat: add benefits section with icons` | Sección de beneficios agregada con maquetado inicial. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `42af2e9` | `feat: add login/register buttons` | Se agregan botones que redirigen a formularios de login y registro. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `59ff1d8` | `chore: fix navigation and styles` | Ajustes en navegación y estilos de la landing. | 15/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | develop | `6af1bc3` | `merge: feature/landing-page into develop` | Se integran cambios de la landing en la rama de desarrollo. | 16/09/2025 |
+
+**Evidencia de los commits del landing page**
+
+![commitslanding](assets/commitslanding.png)
+
+## 5.2.1.4. Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
+
+- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.  
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
+
+### Evidencia  
+
+- **Repositorio en GitHub**  
+![Repositorio](assets/repository.png)  
+ 
+
+- **Landing Page publicada**  
+![landing_page](assets/encabezado_hero.png)  
+
+
+### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
+
+La ejecución se centró en:  
+- Implementar la **estructura básica** de la landing page.  
+- Incluir una **barra de navegación**, sección principal (*Hero*) y enlaces de acceso hacia registro y login.  
+- Aplicar una **paleta de colores sencilla** y un diseño **responsive básico** para visualización en dispositivos móviles y escritorio.  
+- Publicar el proyecto en GitHub Pages, asegurando que esté disponible de manera pública.  
+
+### Evidencia visual  
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:  
+
+- Vista principal de la landing page:  
+  ![home.png](assets/home.png) 
+
+- Barra de navegación y sección principal (*Hero*):  
+  ![navbar](assets/navbar.png)  
+
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+
+En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
+
+El trabajo incluyó la definición de la estructura visual básica, la aplicación de colores corporativos y la integración de secciones clave como la barra de navegación y la sección principal (*Hero*).  
+
+La landing page cumple el rol de **página de presentación inicial** de la plataforma SmartStay, ofreciendo a los usuarios una visión general del proyecto y accesos rápidos al registro o login.  
+
+Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
+
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+
+Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.  
+- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.  
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.  
+
+Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
+
+**Acciones de colaboración destacadas:**  
+- Se utilizó **GitHub** como herramienta central de coordinación y control de versiones.  
+- Uno de los integrantes configuró el repositorio inicial y las ramas de trabajo.  
+- Cada miembro realizó **commits documentados** con los cambios implementados.  
+- Se llevaron a cabo **pull requests** para integrar las contribuciones al repositorio principal.  
+- Se realizaron revisiones de código en equipo para mantener la coherencia visual y funcional de la landing.  
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.  
+
+![commits_team1](assets/commits_team1.png)  
+
+![commits_team2](assets/commits_team2.png)  
 
 
