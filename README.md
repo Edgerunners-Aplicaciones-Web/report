@@ -1684,8 +1684,8 @@ Los mockups muestran la interfaz final del administrador de SmartStay, incluyend
 - Feedback visual en botones e interacciones (hover, clic, activo).
 
 ![mockupadmin1.png](assets/mockupadmin1.png)
-![mockupadmin1.png](assets/mockupadmin2.png)
-![mockupadmin1.png](assets/mockupadmin3.png)
+![mockupadmin2.png](assets/mockupadmin2.png)
+![mockupadmin3.png](assets/mockupadmin3.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
