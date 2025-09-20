@@ -1920,6 +1920,136 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 ![mockupstaff2.png](assets/mockupstaff2.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+**Rol 1:** Administrador del hotel
+
+**Objetivo:** Gestionar todas las áreas del hotel de manera eficiente desde un panel centralizado, incluyendo huéspedes, staff, reservas, pagos, servicios, reseñas y soporte.
+
+**Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
+
+**Happy Paths:**
+1. Acceder al Dashboard → ver métricas → ir a detalles de reservas  
+2. Gestionar Huéspedes → buscar/filtrar → agregar o editar  
+3. Revisar Reservas → filtrar → aprobar/modificar/cancelar  
+4. Gestionar Pagos → ver estado → generar factura/enviar recordatorio  
+5. Responder Tickets de Soporte → seleccionar ticket → responder/cerrar  
+
+**User Flow Diagram:**
+```text
+Login
+  |
+  v
+Dashboard
+  |---> Huéspedes
+  |       |---> Buscar / Filtrar
+  |       |---> Editar / Agregar
+  |
+  |---> Staff
+  |       |---> Buscar / Filtrar
+  |       |---> Editar / Agregar
+  |
+  |---> Hoteles
+  |       |---> Ver detalles / Editar
+  |
+  |---> Reservas
+  |       |---> Filtrar
+  |       |---> Aprobar / Cancelar / Modificar
+  |
+  |---> Pagos
+  |       |---> Ver estado
+  |       |---> Generar factura / Recordatorio
+  |
+  |---> Servicios y Productos
+  |       |---> Ver / Agregar / Editar
+  |
+  |---> Reseñas
+  |       |---> Filtrar / Responder
+  |
+  |---> Soporte
+          |---> Ver tickets
+          |---> Responder / Cerrar
+```
+
+**Rol 2:** Huésped del hotel
+
+**Objetivo:** Permitir al huésped consultar y gestionar su estadía, incluyendo habitaciones, servicios, mapa, perfil y notificaciones.
+**Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
+
+**Happy Paths:**
+
+1. Abrir app → Introducción → Home → ver resumen de reservas
+2. Consultar Habitación → ver fotos y detalles → solicitar servicio
+3. Ver Servicios → seleccionar y reservar servicio
+4. Explorar Mapa → ubicar instalaciones y rutas dentro del hotel
+5. Acceder a Perfil → actualizar datos personales
+6. Revisar Notificaciones → marcar como leído o eliminar
+
+**User Flow Diagram:**
+```text
+Introducción
+  |
+  v
+Home
+  |---> Habitación
+  |       |---> Ver fotos / Detalles
+  |       |---> Solicitar servicio
+  |
+  |---> Servicios
+  |       |---> Ver lista / Cards
+  |       |---> Reservar servicio
+  |
+  |---> Mapa
+  |       |---> Ubicación del hotel
+  |       |---> Rutas e instalaciones
+  |
+  |---> Perfil
+  |       |---> Editar información
+  |
+  |---> Notificaciones
+          |---> Revisar / Marcar / Eliminar
+```
+
+**Rol 3:** Personal del hotel (staff)
+
+**Objetivo:** Permitir al staff gestionar tareas, servicios, reservas y comunicaciones con eficiencia.
+**Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
+
+**Happy Paths:**
+1. Abrir app → Introducción → Login → Home
+2. Consultar Tareas → marcar como completadas o reasignar
+3. Revisar Servicios → actualizar estado de ejecución
+4. Revisar Reservas → confirmar asistencia o registrar tareas relacionadas
+5.Acceder a Perfil → editar información personal
+6. Revisar Notificaciones → marcar como leído o eliminar
+
+**User Flow Diagram:**
+```text
+Introducción
+  |
+  v
+Login
+  |
+  v
+Home
+  |---> Tareas
+  |       |---> Ver lista / Cards
+  |       |---> Marcar completadas / Reasignar
+  |
+  |---> Servicios
+  |       |---> Ver lista / Cards
+  |       |---> Actualizar estado
+  |
+  |---> Reservas
+  |       |---> Ver calendario / Tarjetas
+  |       |---> Confirmar asistencia / Registrar tarea
+  |
+  |---> Perfil
+  |       |---> Editar información
+  |
+  |---> Notificaciones
+          |---> Revisar / Marcar / Eliminar
+```
+
 ## 4.5. Web Applications Prototyping
 
 El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
