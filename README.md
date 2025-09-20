@@ -1,4 +1,4 @@
-<img width="654" height="459" alt="image" src="https://github.com/user-attachments/assets/9a613ed4-5d4c-4245-9159-dfa6b6b337e4" /><img width="654" height="459" alt="image" src="https://github.com/user-attachments/assets/cf2b68da-d6d3-4bba-93ee-90e0a6a7a805" /><img width="1786" height="608" alt="image" src="https://github.com/user-attachments/assets/775d03b5-7095-42cc-8fcd-9e34b020853e" /><img width="1786" height="608" alt="image" src="https://github.com/user-attachments/assets/58a68dfe-2e0c-4bfd-b270-da981480684d" /><div align="center">
+<div align="center">
 
 ![UPC-Logo.png](assets/UPC-Logo.png)
 
