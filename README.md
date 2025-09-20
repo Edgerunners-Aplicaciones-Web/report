@@ -980,7 +980,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 3.2. Impact Mapping.
 
----
+![ImpactMapping.jpeg](assets/ImpactMapping.jpeg)
 
 ## 3.3. Product Backlog.
 
