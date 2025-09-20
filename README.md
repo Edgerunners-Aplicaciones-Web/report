@@ -1487,6 +1487,64 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 - Botón para marcar como leídas o eliminar notificaciones.  
 ![wapphuesped2.png](assets/wapphuesped2.png)
 
+**Wireframes – Modo Staff**
+
+Los wireframes del modo Staff representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el personal del hotel.
+
+**1. Introducción**
+**Propósito:** Pantalla inicial de bienvenida y presentación de la app Staff.  
+**Elementos clave:**  
+- Logo.  
+- Breve mensaje de bienvenida.
+
+**2. Login**
+**Propósito:** Autenticar al personal del hotel para acceder a la app.  
+**Elementos clave:**  
+- Campos de correo electrónico y contraseña.  
+- Botón de Iniciar Sesión.  
+- Opción de Recuperar contraseña.  
+
+**3. Home / Dashboard**
+**Propósito:** Pantalla principal con resumen de tareas y registro de horas.  
+**Elementos clave:**  
+- Registro de horas: botones para marcar Entrada, Receso y Salida.  
+- Tabla de historial diario de horas trabajadas.  
+- Lista resumida de tareas del día con estado (pendiente/completado).  
+
+**4. Tareas**
+**Propósito:** Gestionar todas las tareas asignadas al staff.  
+**Elementos clave:**  
+- Lista completa de tareas diarias con habitación, tipo de tarea, piso.  
+- Estado de tarea con emoticonos: ✅ Completado / ❌ Pendiente.     
+![wappstaff1.png](assets/wappstaff1.png)
+
+**5. Servicios / Productos**
+**Propósito:** Registrar entrega de servicios y productos a habitaciones.  
+**Elementos clave:**  
+- Lista de servicios/productos por entregar (Room Service, Mini Bar, Amenities, etc.).  
+- Cantidad y habitación correspondiente.  
+- Estado de entrega con emoticonos: ✅ Entregado / ❌ Pendiente.  
+
+**6. Reservas**
+**Propósito:** Consultar y gestionar reservas asignadas al staff.  
+**Elementos clave:**  
+- Sección de búsqueda de cliente.  
+- Lista de reservas con habitación, huésped, fecha, estado de check-in/check-out.  
+- Semáforo de estados: 🔴 Pendiente / 🟢 Completado.  
+
+**7. Perfil**
+**Propósito:** Gestionar la información personal del staff y las preferencias de la app.  
+**Elementos clave:**  
+- Foto y datos personales (nombre, correo, teléfono).  
+- Cambiar contraseña, editar y cerrar sesión.  
+
+**8. Notificaciones**
+**Propósito:** Informar al staff sobre novedades, cambios de tareas o alertas importantes.  
+**Elementos clave:**  
+- Lista de notificaciones recientes (cambios de turno, emergencias, avisos de tareas).  
+- Botón para marcar como leído o eliminar notificaciones.  
+![wappstaff2.png](assets/wappstaff2.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
