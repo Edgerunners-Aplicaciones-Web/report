@@ -1137,81 +1137,113 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management.
+# 5.1. Software Configuration Management  
 
-La gestión de configuración de software del proyecto se ha implementado siguiendo lineamientos de control de versiones, estandarización de entornos, convenciones de codificación y despliegue automatizado. Este enfoque garantiza la trazabilidad, mantenibilidad y consistencia del sistema en cada una de las fases de desarrollo, pruebas y liberación.
+En esta sección el equipo establece las decisiones, herramientas y convenciones que permiten mantener la consistencia durante el ciclo de vida del proyecto. Se incluyen aspectos de configuración del entorno de desarrollo, gestión del código fuente, guías de estilo y configuración de despliegue de la solución.  
 
-## 5.1.1. Software Development Environment Configuration.
+---
 
-El entorno de desarrollo fue configurado bajo criterios de homogeneidad y soporte multiplataforma, asegurando que todos los integrantes del equipo dispongan de la misma base técnica. Las herramientas y tecnologías empleadas fueron las siguientes:
+## 5.1.1. Software Development Environment Configuration  
 
-- IDE: JetBrains IDE  para el desarrollo de frontend y backend.
+El entorno de desarrollo del equipo incluye un conjunto de herramientas colaborativas y de programación que soportan las distintas fases del ciclo de vida:  
 
-- Frontend: desarrollado con Vue.js , apoyado por HTML5, CSS3 y JavaScript, además de la librería de componentes PrimeVue bajo lineamientos de Material Design.
+- **Gestión de proyecto y documentación**  
+  - Trello → gestión de tareas y planificación ágil con tableros Kanban.  
+  - Google Docs → elaboración colaborativa de reportes y entregables.  
 
-- Backend: implementado en ASP.NET Core con C#, siguiendo el estilo arquitectónico RESTful para la exposición de servicios web, bajo principios de Clean Architecture y Domain-Driven Design  para la organización interna del código, garantizando separación de responsabilidades, escalabilidad y alineación con el modelo de negocio.
+- **Diseño y UX/UI**  
+  - Figma / Adobe XD → diseño de wireframes, mockups y prototipos interactivos.  
+  - UXPressia → creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.  
+  - Miro → colaboración visual y soporte para sesiones de ideación y EventStorming.  
+  - Structurizr → modelado de arquitectura mediante el estándar C4 Model y uso de Diagram-as-Code.  
 
-- Diseño y UX/UI:
-  - UXPressia para User Personas, Empathy Maps, Journey Maps e Impact Maps.
-  - Figma / Adobe XD para Wireframes, Mockups y Prototypes.
-  - LucidChart / Overflow para Wireflows y User Flows.
-  - LucidChart / Miro para EventStorming.
-  - Structurizr para diagramas C4 Model y PlantUML en Diagram-as-Code.
-- Gestión de proyectos: Trello bajo metodología ágil tipo Kanban.
-- Base de datos y arquitectura: diagramada con LucidChart / Vertabelo.
-- Documentación de servicios: OpenAPI Specification vía Swagger.
+- **Desarrollo de software**  
+  - JetBrains Rider → IDE principal para backend ASP.NET Core con C#.  
+  - JetBrains WebStorm → IDE para frontend con Vue.js.  
+  - Node.js y NPM → gestión de dependencias y ejecución del entorno frontend.  
+  - Vue.js con PrimeVue → framework y librería de componentes UI para el desarrollo del frontend.  
+  - HTML, CSS y JavaScript → construcción de la Landing Page.  
 
+- **Repositorio y control de versiones**  
+  - GitHub → sistema de control de versiones y repositorios centralizados.  
 
-## 5.1.2. Source Code Management.
+---
 
-La gestión del código fuente se realizó utilizando GitHub como repositorio central, bajo la estrategia GitFlow Workflow complementada con Conventional Commits y Semantic Versioning.
+## 5.1.2. Source Code Management  
 
-- Estructura de ramas:
+El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
 
-  - main: rama principal destinada a versiones estables.
-  - develop: rama de integración de nuevas funcionalidades.
-  - feature/chapter-01: ramas específicas para el desarrollo de capítulos I 
-  - feature/chapter-02: ramas específicas para el desarrollo de capítulos II
-  - feature/chapter-03: ramas específicas para el desarrollo de capítulos III
-  - feature/chapter-04: ramas específicas para el desarrollo de capítulos IV 
-  - feature/chapter-05: ramas específicas para el desarrollo de capítulos V
+- **Rama principal**: `main` → contiene versiones estables y listas para despliegue.  
+- **Rama de integración**: `develop` → rama base para integración de nuevas funcionalidades.  
+- **Ramas de características (features)**:  
+  - `feature/chapter-01`, `feature/chapter-02`, …, `feature/chapter-05`.  
+  - Cada funcionalidad o capítulo se desarrolla en una rama independiente.  
 
-- Política de integración:
+- **Convenciones de nomenclatura**  
+  - `feature/<nombre>` → nuevas funcionalidades.  
+  - `release/<versión>` → preparación de entregas.  
+  - `hotfix/<incidencia>` → correcciones críticas en producción.  
 
-  - Cada feature branch se desarrolla de forma aislada.
-  - Se realizan pull requests hacia develop para revisión de código.
-  - Sólo versiones aprobadas y probadas se integran en main para despliegues estables.
+- **Versionado semántico**  
+  - Se aplica **Semantic Versioning 2.0.0** (ej. `v1.0.0`, `v1.1.0`, `v2.0.0`).  
 
-- Gestión de tareas vinculada: se empleó Trello y GitHub Issues para trazar el avance del backlog, garantizando la alineación entre planificación y desarrollo.
+- **Commits**  
+  - Se siguen las reglas de **Conventional Commits**, garantizando mensajes legibles y consistentes.  
 
-## 5.1.3. Source Code Style Guide & Conventions.
+Los repositorios utilizados incluyen:  
+- **Landing Page** → HTML, CSS, JavaScript.  
+- **Web Services** → ASP.NET Core (C#).  
+- **Frontend Web Application** → Vue.js con PrimeVue.  
 
-Se aplicaron convenciones de codificación específicas para cada tecnología con el objetivo de asegurar consistencia, legibilidad y mantenibilidad del sistema:
-- Frontend (Vue.js + JavaScript)
-  - Vue Style Guide .
-  - Uso de ESLint y Prettier para estandarización automática del código.
-- HTML/CSS
-  - Google HTML/CSS Style Guide.
-  - W3C JavaScript Style Guide.
-- Backend (C# + ASP.NET Core)
-  - C# Coding Conventions .
-  - ASP.NET Core Engineering Guidelines.
-- Buenas prácticas aplicadas
-  - Nombres significativos para clases, métodos y variables.
-  - Uso de CamelCase y PascalCase según el estándar de cada lenguaje.
-  - Principio DRY (Don’t Repeat Yourself) para evitar duplicación de código.
-  - Comentarios y documentación inline bajo formato XML/Markdown estandarizado.
-  - Uso de Conventional Commits (feat:, fix:, docs:, style:) para control de versiones.
+---
 
-## 5.1.4. Software Deployment Configuration.
+## 5.1.3. Source Code Style Guide & Conventions  
 
-El despliegue del software se definió con separación de entornos para pruebas y producción:
-- Frontend: ejecutado en localhost:4200 para desarrollo. Preparado para despliegue en servicios de hosting web
-- Backend: desplegado en la plataforma Render, simulando un servidor en la nube con endpoints REST expuestos públicamente.
-- Configuración de entornos:
-  - Desarrollo: uso de fake backend y JSON Server para pruebas rápidas.
-  - Producción/Testing: servicios en Render para pruebas de integración con datos reales.
-- Política de despliegue: sólo el contenido aprobado en la rama main es utilizado en entornos de despliegue.
+El equipo adopta convenciones estándar y guías de estilo para cada lenguaje:  
+
+- **HTML & CSS**  
+  - [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+
+- **JavaScript (Vue.js)**  
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
+  - [W3C JavaScript Style Guide](https://www.w3.org/wiki/JavaScript_best_practices)  
+  - [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+  - [Vue Style Guide](https://vuejs.org/style-guide/)  
+  - **ESLint y Prettier** → análisis estático y formateo automático.  
+
+- **C# y ASP.NET Core**  
+  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
+  - [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)  
+
+- **Buenas prácticas comunes**  
+  - Nomenclatura en inglés.  
+  - Uso de **CamelCase** para variables y métodos.  
+  - Uso de **PascalCase** para clases y controladores.  
+  - Aplicación del principio **DRY (Don’t Repeat Yourself)** para evitar duplicación de código.  
+  - Escenarios de pruebas escritos siguiendo convenciones de **Gherkin** (Dado-Cuando-Entonces).  
+
+---
+
+## 5.1.4. Software Deployment Configuration  
+
+El despliegue de la solución considera los siguientes aspectos:  
+
+- **Landing Page**  
+  - Desarrollada en HTML, CSS y JavaScript.  
+  - Desplegada en **GitHub Pages** para acceso público.  
+
+- **Backend (Web Services)**  
+  - Implementado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+  - Desplegado en **Render** como servicio cloud.  
+
+- **Frontend Web Application**  
+  - Construida con **Vue.js y PrimeVue**.  
+  - Desplegada en **Render** con configuración continua desde el repositorio de GitHub.  
+
+- **Integración continua / Despliegue continuo (CI/CD)**  
+  - Repositorios conectados a GitHub.  
+  - Despliegue automático en Render al realizar merges en `main`.  
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -1219,23 +1251,88 @@ El despliegue del software se definió con separación de entornos para pruebas 
 
 ## 5.2.1. Sprint 1
 
----
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
-### 5.2.1.1. Sprint Planning 1.
 
----
+## 5.2.1.1. Sprint Planning 1  
 
-### 5.2.1.2. Aspect Leaders and Collaborators.
+| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
+| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
+| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
+| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
+| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
+| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                                    |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas.          |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
+| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                        |
+| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
 
----
+## 5.2.1.2. Sprint Backlog 1
 
-### 5.2.1.3. Sprint Backlog 1.
+### Introducción
+El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
+Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios registrados** a través de una experiencia inicial clara e intuitiva.
 
----
+**Evidencia en del avance en trello**
 
-### 5.2.1.4. Development Evidence for Sprint Review.
+![sprint_trello](imgs/sprint_trello.png)
 
----
+Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
+
+### Sprint #1 – Sprint Backlog
+
+| Sprint # | User Story ID | User Story Title | Work-Item / Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|----------|---------------|------------------|----------------------|-------------|-------------|--------------------|-------------|--------|
+| 1 | US26 | Ver información general sobre SmartStay | T01 | Diseñar estructura básica de Landing Page | Crear wireframe y mockup de la landing con secciones principales. | 6h | Alexander | Done |
+| 1 | US26 | Ver información general sobre SmartStay | T02 | Implementar contenido introductorio | Redactar y maquetar la sección "¿Qué es SmartStay?". | 4h | Natalia | In Process |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T03 | Crear sección de beneficios | Mostrar ventajas competitivas con íconos y texto. | 5h | Italo | To Review |
+| 1 | US27 | Conocer beneficios de usar la plataforma | T04 | Añadir carrusel de testimonios | Implementar testimonios de usuarios ficticios en frontend. | 4h | Aldair | To Do |
+| 1 | US28 | Acceder fácilmente al registro o login | T05 | Botones de registro/login | Colocar botones visibles y funcionales que redirigen a formularios. | 3h | Alexander | Done |
+| 1 | TS08 | Implementar landing page con botones hacia login/registro | T06 | Conectar landing con rutas de login/registro | Configurar navegación y enlaces en frontend. | 6h | Italo | In Process |
+
+
+## 5.2.1.3. Development Evidence for Sprint Review
+
+### Introducción
+Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
+
+### Commits realizados
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `14ca4e3` | `feat: add initial landing page structure` | Se implementa la estructura base de la landing con secciones vacías. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `27bd9f1` | `feat: add SmartStay introduction section` | Contenido informativo agregado a la landing. | 13/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `38cf0d2` | `feat: add benefits section with icons` | Sección de beneficios agregada con maquetado inicial. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `42af2e9` | `feat: add login/register buttons` | Se agregan botones que redirigen a formularios de login y registro. | 14/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `59ff1d8` | `chore: fix navigation and styles` | Ajustes en navegación y estilos de la landing. | 15/09/2025 |
+| Edgerunners-Aplicaciones-Web/report | develop | `6af1bc3` | `merge: feature/landing-page into develop` | Se integran cambios de la landing en la rama de desarrollo. | 16/09/2025 |
+
+**Evidencia de los commits del landing page**
+
+![commitslanding](imgs/commitslanding.png)
+
+## 5.2.1.4. Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
+
+- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.  
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
+
+### Evidencia  
+
+- **Repositorio en GitHub**  
+![Repositorio](imgs/repository.png)  
+ 
+
+- **Landing Page publicada**  
+![landing_page](imgs/encabezado_hero.png)  
+
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
