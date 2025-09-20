@@ -1544,7 +1544,7 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 **Elementos clave:**  
 - Lista de notificaciones recientes (cambios de turno, emergencias, avisos de tareas).  
 - Botón para marcar como leído o eliminar notificaciones.  
-![wappstaff2.png](assets/wappstaff2.png)
+![wappstaff2.png](assets/wappstaff2.png).
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1553,6 +1553,7 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 **Propósito:**  
 Mostrar cómo cada sección del administrador se conecta a través del menú principal.
 ![webwireflowadmi.png](assets/webwireflowadmi.png)
+
 **Menú Principal (Administrador)**
 
 Desde cualquier sección, el menú permite acceder a:
