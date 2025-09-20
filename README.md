@@ -1345,8 +1345,53 @@ Los mockups consolidan el diseño visual final de Smart Stay, transformando la e
 
 
 ## 4.4. Web Applications UX/UI Design
+En esta sección de Web Applications UX/UI Design ya nos enfocamos en el diseño de la interfaz y la experiencia de usuario de nuestro explicativo el cual se menciona e informa en el landing page, cabe resaltar que el el aplicativo es difernte según el rol que forman parte de la solución digital: administrador, staff y huéspedpor lo que su funcionamiento es distinto. Aquí se visualizará el prototipo de cada app y a su vez se presentará en la forma más práctica según su rol, formato desktop para administrados y formato móvil para staff y huésped, aunque los tres cuentan con diseño responsive por lo que se puede usar de cualquier dispositivo móvil.
 
 ### 4.4.1. Web Applications Wireframes
+
+**Wireframes – Modo Administrador**
+
+
+Los wireframes del **modo Administrador** representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el administrador.  
+
+El objetivo de estos wireframes es:  
+- Definir el flujo de trabajo del administrador dentro de la plataforma.  
+- Asegurar que las secciones críticas para la gestión estén correctamente estructuradas.  
+- Servir como base para la evolución hacia los mockups de alta fidelidad.  
+
+A continuación, se presenta un resumen de cada una de las secciones principales del modo Administrador.  
+
+**1. Dashboard**
+**Propósito:** Vista general del estado de la plataforma.  
+**Elementos clave:**  
+- Panel con métricas principales (usuarios activos, reportes recientes, accesos).  
+- Gráficas de estadísticas generales.  
+- Acceso rápido a notificaciones.  
+
+---
+
+**2. Huéspedes**
+**Propósito:** Control y administración de los perfiles que usan la plataforma.  
+**Elementos clave:**  
+- Lista de usuarios con buscador y filtros.  
+- Botón para agregar, editar o eliminar usuarios.  
+- Tabla con información básica (nombre, correo, rol, estado).  
+
+---
+
+## 3. Staff  
+**Propósito:** Definir los niveles de acceso de cada tipo de usuario.  
+**Elementos clave:**  
+- Tabla de roles existentes.  
+- Información y datos del staff con el que trabaja.  
+
+---
+
+
+
+Estos wireframes son el primer paso para evolucionar hacia los mockups de alta fidelidad, donde se integrarán colores, tipografías, logos y estilos visuales ya definidos en la guía de estilo.  
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
