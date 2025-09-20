@@ -1577,6 +1577,29 @@ Desde cualquier sección, el menú permite acceder a:
   - **Huéspedes ↔ Reservas ↔ Reseñas**  
   - **Staff ↔ Hoteles / Habitaciones**  
 - **Soporte / Tickets**: siempre accesible desde cualquier sección para resolver inconveniencias.
+
+**Web Applications Wireflow Diagrams – Modo Huésped**
+
+**Propósito:**  
+Mostrar cómo cada sección de la app para huéspedes se conecta a través del menú principal y elementos persistentes (como el icono de notificaciones).
+
+![webwireflowhuesped.png](assets/webwireflowhuesped.png)
+
+**Secciones Principales**
+
+1. **Introducción** – Pantalla inicial, solo se conecta a **Home**.
+2. **Home** – Vista principal; acceso a todas las secciones mediante el menú.
+3. **Habitación** – Detalles de la habitación asignada o disponible; acceso desde el menú.
+4. **Servicios** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
+5. **Mapa** – Ubicación del hotel, puntos de interés; acceso desde el menú.
+6. **Perfil** – Datos del huésped, preferencias y configuración; acceso desde el menú.
+7. **Notificaciones** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
+
+**Flujo General (Wireflow)**
+
+- **Introducción** → **Home**  
+- **Home** → conecta a **Habitación**, **Servicios**, **Mapa**, **Perfil** mediante el menú principal.  
+- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.  
   
 
 ### 4.4.3. Web Applications Mock-ups
