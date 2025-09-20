@@ -144,8 +144,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Natalia Ximena Valverde Portuguez**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Natalia Ximena Valverde Portuguez**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
 # **Capítulo I: Introducción**
 
 ## 1.1. Startup Profile
@@ -166,11 +166,15 @@ Entre sus principales características destacan:
 |   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
 |:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
 | U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
+| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/alex-fernandez.jpg) |                                                                               
+| U20231A816 | Valverde Portuguez| Natalia Ximena |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
+|   |  |   |   |  |  
+|   |  |   |   |  |  
+=======
 | U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                                                                                                                  |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
-
 ---
 
 ## 1.2. Solution Profile
@@ -1076,6 +1080,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ---
 
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
@@ -1310,12 +1315,140 @@ Uso de color:
   - Recomendación: Ajustar colores con ratio de contraste mínimo 4.5:1 siguiendo WCAG 2.1.  
 
 ### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
 
+En el diseño de interfaces digitales centradas en el usuario, el Sistema de Organización es el componente de la arquitectura de información encargado de definir cómo se   agrupan, clasifican y presentan los contenidos dentro de la plataforma. Su objetivo principal es que los usuarios puedan explorar, comprender y acceder a la información de manera rápida e intuitiva, reduciendo la carga cognitiva y mejorando la usabilidad en sus interacciones con el producto.
+
+Para Smart Stay, se ha implementado un sistema de organización híbrido que combina estructuras jerárquicas y funcionales. En la Landing Page, el contenido se distribuye en bloques según su prioridad: primero se destacan las llamadas a la acción principales, como “Probar Demo” y seguidas de la propuesta de valor de la plataforma . El encabezado (header) y pie de página (footer) refuerzan esta jerarquía al agrupar accesos principales y secundarios, permitiendo que los usuarios comprendan rápidamente qué ofrece Smart Stay y cómo navegar por ella, incluso desde dispositivos móviles, aplicando principios de progressive disclosure y adaptabilidad responsiva.
+
+![organizationsystems.png](assets/organizationsystems.png)
+
+### 4.2.2. Labeling Systems
+
+| Etiqueta | Ubicación / Componente | Función |
+|----------|----------------------|---------|
+| Home | Header | Enlace a la Landing Page. Claro y universal. |
+| Services | Header | Información sobre los servicios disponibles (alojamiento, limpieza, extras). Directo y comprensible. |
+| Bookings | Header | Acceso a la sección de reservas. Término estándar y reconocido. |
+| Contact | Header | Formulario de contacto o enlace de correo. Directa y orientada a la acción. |
+| Sign Up | Header (botón) | Registro de nuevos usuarios. Corto, amigable y visualmente destacado. |
+| Login | Header (botón) | Inicio de sesión de usuarios. Palabra ampliamente reconocida. |
+| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo. Imperativo que motiva la interacción. |
+| Benefits | Hero Section / Sección de valor | Destaca las ventajas de la plataforma. Claro y enfocado al usuario. |
+| Testimonials | Sección de valor | Muestra opiniones de usuarios. Genera confianza y credibilidad. |
+| About | Footer / Company | Información institucional sobre Smart Stay. Claro y directo. |
+| Privacy Policy | Footer / Legal | Obligatorio por normativa. Etiqueta reconocida internacionalmente. |
+| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. Estándar legal indispensable. |
+| Social Media | Footer / Navigation | Agrupa enlaces a redes oficiales. Convencional y reconocible globalmente. |
+| Smart Stay | Marca | Nombre distintivo de la plataforma. Funciona como ancla visual y semántica. |
+
+### 4.2.3. SEO Tags and Meta Tags
+
+
+```html
+<!-- Información básica -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Smart Stay: Plataforma para gestionar reservas, servicios y beneficios en hoteles y alojamientos.">
+<meta name="keywords" content="Smart Stay, reservas, alojamiento, hotel, servicios, limpieza, demo, beneficios">
+<meta name="author" content="Smart Stay Team">
+<meta name="robots" content="index, follow">
+
+<!-- Meta tags para redes sociales -->
+<meta property="og:title" content="Smart Stay">
+<meta property="og:description" content="Gestiona reservas y servicios de manera fácil y rápida con Smart Stay.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.smartstay.com">
+<meta property="og:image" content="https://www.smartstay.com/assets/preview.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Smart Stay">
+<meta name="twitter:description" content="Gestiona reservas y servicios de manera fácil y rápida con Smart Stay.">
+<meta name="twitter:image" content="https://www.smartstay.com/assets/preview.png">
+
+<!-- SEO avanzado -->
+<link rel="canonical" href="https://www.smartstay.com">
+<meta name="theme-color" content="#1E90FF">
+<meta name="language" content="en">
+<meta name="distribution" content="global">
+```
+
+Los SEO tags y meta tags son elementos clave dentro de la Landing Page y cualquier página web, porque permiten que los motores de búsqueda comprendan el contenido, mejoren la visibilidad y aumenten la tasa de clics desde resultados de búsqueda. Además, algunas etiquetas influyen directamente en cómo se muestra la página en redes sociales y en navegadores móviles.
+
+**1.Meta Tags principales**
+
+-charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
+-viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+-description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
+-keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
+-author: Indica el autor o equipo responsable del sitio.
+-robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
+
+**2. Meta Tags para redes sociales**
+
+-Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
+-Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
+
+**3. SEO Tags adicionales**
+
+-Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
+-H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
+-Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
+-Canonical URL: Indica la URL principal para evitar contenido duplicado y penalizaciones SEO.
+-Schema.org / JSON-LD: Datos estructurados que ayudan a los motores de búsqueda a mostrar rich snippets (calificaciones, eventos, precios).
+-Language: Define el idioma de la página, útil para SEO internacional.
+-Theme-color: Ajusta el color principal en navegadores móviles, mejorando la experiencia del usuario.
+
+### 4.2.4. Searching Systems
+
+El Searching System de Smart Stay permite a los usuarios localizar información, reservas, servicios o productos de manera rápida y eficiente.
+En la Landing Page, la búsqueda está orientada a descubrir información general sobre la plataforma, con barra de búsqueda, autocompletado y enlaces directos a secciones clave como “Try Demo” o “Benefits”.
+En la Web App, la búsqueda es más funcional y permite filtrar y ordenar datos concretos como huéspedes, reservas y servicios, aplicando autocompletado, filtros dinámicos y persistencia de resultados para mejorar la experiencia del usuario.
+El sistema se diseña siguiendo principios de intuitividad, consistencia, visibilidad y escalabilidad, asegurando que los usuarios siempre encuentren lo que buscan de manera rápida y clara.
+
+| Search Type | Location / Component | Function |
+|------------|--------------------|---------|
+| General Search | Landing Page / Header | Permite buscar información general sobre la plataforma y sus servicios (ej. "services", "demo", "benefits"). Incluye autocompletado y filtros básicos. |
+| Try Demo / Benefits Links | Landing Page / Hero & Value Sections | Funciona como búsqueda indirecta, guiando al usuario hacia contenido relevante sin necesidad de escribir. |
+| Guest / Customer Search | Web App / Guests Section | Permite filtrar por nombre, ID, tipo de habitación o fecha de reserva. Facilita gestión de usuarios. |
+| Bookings Search | Web App / Bookings Section | Filtrado por fechas, estado de reserva (pendiente, confirmada, cancelada) y tipo de servicio. |
+| Services & Products Search | Web App / Services & Products Section | Filtrado por categoría (limpieza, comida, amenities), disponibilidad y precios. |
+| Autocomplete | Web App / All Search Fields | Sugerencias dinámicas mientras se escribe para acelerar la búsqueda y mejorar experiencia de usuario. |
+| Dynamic Filters | Web App / All Search Results | Ajusta los resultados en tiempo real según criterios seleccionados. |
+| Sorting | Web App / All Search Results | Permite ordenar resultados por fecha, nombre, prioridad o relevancia. |
+| Search Persistence | Web App / All Sections | Mantiene los filtros y resultados de búsqueda mientras el usuario navega dentro de la misma sección. |
+
+### 4.2.5. Navigation Systems
+
+**Landing Page Navigation**
+
+| Navigation Item | Location / Component | Function |
+|-----------------|--------------------|---------|
+| Home | Header | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
+| Services | Header | Acceso rápido a la sección de servicios disponibles. |
+| Bookings | Header | Permite al usuario gestionar reservas desde cualquier lugar. |
+| Contact | Header | Enlace al formulario de contacto o correo de soporte. |
+| Sign Up | Header (button) | Registro de nuevos usuarios. Destacado visualmente. |
+| Login | Header (button) | Acceso a la sesión del usuario. Fácil de localizar. |
+| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay. |
+| Benefits | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma. |
+| About | Footer / Company | Información institucional sobre Smart Stay. Acceso desde cualquier sección. |
+| Privacy Policy | Footer / Legal | Enlace obligatorio por normativa legal. |
+| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. |
+| Social Media | Footer / Navigation | Acceso a redes oficiales, visibilidad global. |
+
+**Web App Navigation**
+
+| Navigation Item | Location / Component | Function |
+|-----------------|--------------------|---------|
+| Guests | Sidebar | Sección principal para gestionar huéspedes o clientes. |
+| Bookings | Sidebar | Sección principal para gestionar reservas y su estado. |
+| Services | Sidebar | Sección principal para gestionar servicios disponibles. |
+| Products | Sidebar | Sección para visualizar y administrar productos asociados. |
+| Profile | Top Bar | Acceso a perfil de usuario, configuración y notificaciones. |
+| Notifications | Top Bar | Acceso rápido a alertas y mensajes importantes. |
+| Breadcrumbs | Optional | Indica la ruta de navegación y permite regresar a secciones previas. |
+
+## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
 Los wireframes representan la primera aproximación al diseño de la interfaz de Smart Stay.  
@@ -1914,6 +2047,136 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 ![mockupstaff2.png](assets/mockupstaff2.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+**Rol 1:** Administrador del hotel
+
+**Objetivo:** Gestionar todas las áreas del hotel de manera eficiente desde un panel centralizado, incluyendo huéspedes, staff, reservas, pagos, servicios, reseñas y soporte.
+
+**Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
+
+**Happy Paths:**
+1. Acceder al Dashboard → ver métricas → ir a detalles de reservas  
+2. Gestionar Huéspedes → buscar/filtrar → agregar o editar  
+3. Revisar Reservas → filtrar → aprobar/modificar/cancelar  
+4. Gestionar Pagos → ver estado → generar factura/enviar recordatorio  
+5. Responder Tickets de Soporte → seleccionar ticket → responder/cerrar  
+
+**User Flow Diagram:**
+```text
+Login
+  |
+  v
+Dashboard
+  |---> Huéspedes
+  |       |---> Buscar / Filtrar
+  |       |---> Editar / Agregar
+  |
+  |---> Staff
+  |       |---> Buscar / Filtrar
+  |       |---> Editar / Agregar
+  |
+  |---> Hoteles
+  |       |---> Ver detalles / Editar
+  |
+  |---> Reservas
+  |       |---> Filtrar
+  |       |---> Aprobar / Cancelar / Modificar
+  |
+  |---> Pagos
+  |       |---> Ver estado
+  |       |---> Generar factura / Recordatorio
+  |
+  |---> Servicios y Productos
+  |       |---> Ver / Agregar / Editar
+  |
+  |---> Reseñas
+  |       |---> Filtrar / Responder
+  |
+  |---> Soporte
+          |---> Ver tickets
+          |---> Responder / Cerrar
+```
+
+**Rol 2:** Huésped del hotel
+
+**Objetivo:** Permitir al huésped consultar y gestionar su estadía, incluyendo habitaciones, servicios, mapa, perfil y notificaciones.
+**Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
+
+**Happy Paths:**
+
+1. Abrir app → Introducción → Home → ver resumen de reservas
+2. Consultar Habitación → ver fotos y detalles → solicitar servicio
+3. Ver Servicios → seleccionar y reservar servicio
+4. Explorar Mapa → ubicar instalaciones y rutas dentro del hotel
+5. Acceder a Perfil → actualizar datos personales
+6. Revisar Notificaciones → marcar como leído o eliminar
+
+**User Flow Diagram:**
+```text
+Introducción
+  |
+  v
+Home
+  |---> Habitación
+  |       |---> Ver fotos / Detalles
+  |       |---> Solicitar servicio
+  |
+  |---> Servicios
+  |       |---> Ver lista / Cards
+  |       |---> Reservar servicio
+  |
+  |---> Mapa
+  |       |---> Ubicación del hotel
+  |       |---> Rutas e instalaciones
+  |
+  |---> Perfil
+  |       |---> Editar información
+  |
+  |---> Notificaciones
+          |---> Revisar / Marcar / Eliminar
+```
+
+**Rol 3:** Personal del hotel (staff)
+
+**Objetivo:** Permitir al staff gestionar tareas, servicios, reservas y comunicaciones con eficiencia.
+**Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
+
+**Happy Paths:**
+1. Abrir app → Introducción → Login → Home
+2. Consultar Tareas → marcar como completadas o reasignar
+3. Revisar Servicios → actualizar estado de ejecución
+4. Revisar Reservas → confirmar asistencia o registrar tareas relacionadas
+5.Acceder a Perfil → editar información personal
+6. Revisar Notificaciones → marcar como leído o eliminar
+
+**User Flow Diagram:**
+```text
+Introducción
+  |
+  v
+Login
+  |
+  v
+Home
+  |---> Tareas
+  |       |---> Ver lista / Cards
+  |       |---> Marcar completadas / Reasignar
+  |
+  |---> Servicios
+  |       |---> Ver lista / Cards
+  |       |---> Actualizar estado
+  |
+  |---> Reservas
+  |       |---> Ver calendario / Tarjetas
+  |       |---> Confirmar asistencia / Registrar tarea
+  |
+  |---> Perfil
+  |       |---> Editar información
+  |
+  |---> Notificaciones
+          |---> Revisar / Marcar / Eliminar
+```
+
 ## 4.5. Web Applications Prototyping
 
 El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
@@ -1923,14 +2186,69 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
+link de evidencia [https://miro.com/](https://miro.com/welcomeonboard/aS9pcHRoMThsZldnWTVaamRJS0VIY1QweHpCTWVUMUV2dU1lZGlMZk4xWUVnK3ZnRjZXaGl0MG4yRHRYUlNKendBTFJPeTgzVStobWc1MGxWbk1tbUhkZ0lvNytvYU9KT2p1bGpnYkJLdWp1bm9FVGpqOURORlgvdVZvMGR2c3RBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=521713588523)
+
+
+**Step 1: Unstructured Exploration**
+![EventStorming.jpg](assets/Chapter-04/Step1.jpg)
+
+**Step 2: Timelines**
+![EventStorming.jpg](assets/Chapter-04/Step2.jpg)
+
+**Step 3: Paint Points**
+![EventStorming.jpg](assets/Chapter-04/Step3.jpg)
+
+**Step 4: Pivotal Points**
+![EventStorming.jpg](assets/Chapter-04/Step4.jpg)
+
+**Step 5: Commands**
+![EventStorming.jpg](assets/Chapter-04/Step5.jpg)
+
+**Step 6: Policies**
+![EventStorming.jpg](assets/Chapter-04/Step6.jpg)
+
+**Step 7: Read  Models**
+![EventStorming.jpg](assets/Chapter-04/Step7.jpg)
+
+**Step 8: Aggregats**
+![EventStorming.jpg](assets/Chapter-04/step8.jpg)
+
+**Gestión de Huéspedes**
+![EventStorming.jpg](assets/Chapter-04/GestionHuespedes.jpg)
+
+**Control del ambiente Iot**
+![EventStorming.jpg](assets/Chapter-04/ControlAmbiente.jpg)
+
+**Servicios del huesped**
+![EventStorming.jpg](assets/Chapter-04/ServiciosDeHuesped.jpg)
+
+**Check-out**
+![EventStorming.jpg](assets/Chapter-04/CheckOut.jpg)
+
+**Reportes de consumo y satisfaccion del cliente**
+![EventStorming.jpg](assets/Chapter-04/Reportes.jpg)
+
+
 ### 4.6.2. Software Architecture Context Diagram
+**System Context**
 ![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
+
+
 ### 4.6.3. Software Architecture Container Diagrams
+**Containers**
 ![Containers.jpg](assets/Chapter-04/Containers.jpg)
 ### 4.6.4. Software Architecture Components Diagrams
+
+**Api Components**
 ![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
-## 4.7. Software Object-Oriented Design
+
+
+**IoT Gateway Components**
 ![IotGatewayComponets.jpg](assets/Chapter-04/IotGatewayComponets.jpg)
+
+
+## 4.7. Software Object-Oriented Design
+
 
 ### 4.7.1. Class Diagrams
 Diagrama de Clases: Componente de Autenticación
@@ -1985,7 +2303,9 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 
 ![database-diagram.png](assets/Chapter-04/database-diagram.png)
 
----
+
+
+![commits_team2](assets/commits_team2.png)  
 
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -2243,7 +2563,5 @@ Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colabo
 Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.  
 
 ![commits_team1](assets/commits_team1.png)  
-
-![commits_team2](assets/commits_team2.png)  
 
 
