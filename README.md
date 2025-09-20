@@ -1600,7 +1600,29 @@ Mostrar cómo cada sección de la app para huéspedes se conecta a través del m
 - **Introducción** → **Home**  
 - **Home** → conecta a **Habitación**, **Servicios**, **Mapa**, **Perfil** mediante el menú principal.  
 - **Notificaciones** → accesibles desde cualquier sección a través del icono superior.  
-  
+
+**Web Applications Wireflow Diagrams – Modo Staff**
+
+**Propósito:**  
+Mostrar cómo cada sección de la app para staff se conecta a través del menú principal y elementos persistentes (como el icono de notificaciones).
+![webwireflowstaff.png](assets/webwireflowstaff.png)
+
+**Secciones Principales**
+
+1. **Introducción** – Pantalla inicial, conecta al **Login**.  
+2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**.  
+3. **Home** – Vista principal; acceso a todas las secciones mediante el menú.  
+4. **Tareas** – Lista y gestión de tareas asignadas; acceso desde el menú.  
+5. **Servicios** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.  
+6. **Reservas** – Visualización de reservas relacionadas con el staff; acceso desde el menú.  
+7. **Perfil** – Datos del staff y configuración personal; acceso desde el menú.  
+8. **Notificaciones** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
+
+**Flujo General (Wireflow)**
+
+- **Introducción** → **Login** → **Home**  
+- Desde **Home** se puede acceder mediante el menú a: **Tareas**, **Servicios**, **Reservas**, **Perfil**  
+- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.
 
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
