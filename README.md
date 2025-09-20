@@ -1737,6 +1737,60 @@ Los mockups muestran la interfaz final del usuario huésped en SmartStay, incluy
 ![mockuphuesped1.png](assets/mockuphuesped1.png)
 ![mockuphuesped2.png](assets/mockuphuesped2.png)
 
+**Mockups – Modo Staff**
+
+Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual y la experiencia de usuario para el staff.
+
+**1. Introducción**
+- Pantalla de bienvenida con **logo y colores corporativos**.  
+- **Ilustraciones o imágenes** que reflejan la experiencia inicial.  
+- Botón destacado para avanzar al login.
+
+**2. Login**
+- Formulario con **campos destacados** para correo y contraseña.  
+- Botón principal con **color corporativo** para iniciar sesión.  
+- Iconos de seguridad y feedback visual al ingresar datos incorrectos.
+
+**3. Home**
+- Panel con **resumen de tareas, reservas y notificaciones recientes**.  
+- Cards visuales para acceder a tareas, servicios, reservas y perfil.  
+- Botones e iconos claros para navegación rápida.
+
+**4. Tareas**
+- Lista o cards de tareas asignadas con **estado visual** (pendiente, en proceso, finalizado).  
+- Botones para marcar tareas completadas o reasignar.  
+- Indicadores de prioridad con colores y símbolos.
+
+**5. Servicios**
+- Lista de servicios a realizar o supervisar, con **imágenes o iconos representativos**.  
+- Indicadores de estado y disponibilidad.  
+- Botones para actualizar estado o registrar finalización.
+
+**6. Reservas**
+- Calendario visual mostrando reservas asignadas al staff.  
+- Tarjetas de reserva con detalles resumidos y foto del huésped.  
+- Botones para confirmar asistencia o marcar tareas relacionadas a la reserva.
+
+**7. Perfil**
+- Información personal del staff con **foto, rol y datos de contacto**.  
+- Botones para editar información y configurar preferencias.  
+- Indicadores de estado activo/inactivo.
+
+**8. Notificaciones**
+- Lista de notificaciones recientes con **iconos y colores según tipo** (alerta, mensaje, aviso).  
+- Botones para marcar como leído o eliminar.  
+- Diseño consistente con la paleta y tipografía de la app.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockupstaff1.png](assets/mockupstaff1.png)
+![mockupstaff2.png](assets/mockupstaff2.png)
+
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
