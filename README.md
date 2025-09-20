@@ -1336,18 +1336,62 @@ Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
----
+En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+La ejecución se centró en:  
+- Implementar la **estructura básica** de la landing page.  
+- Incluir una **barra de navegación**, sección principal (*Hero*) y enlaces de acceso hacia registro y login.  
+- Aplicar una **paleta de colores sencilla** y un diseño **responsive básico** para visualización en dispositivos móviles y escritorio.  
+- Publicar el proyecto en GitHub Pages, asegurando que esté disponible de manera pública.  
 
----
+### Evidencia visual  
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:  
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+- Vista principal de la landing page:  
+  ![home.png](assets/home.png) 
 
----
+- Barra de navegación y sección principal (*Hero*):  
+  ![navbar](imgs/navbar.png)  
 
-### 5.2.1.8. Team Collaboration Insights during Sprint.
 
----
+### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+
+En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
+
+El trabajo incluyó la definición de la estructura visual básica, la aplicación de colores corporativos y la integración de secciones clave como la barra de navegación y la sección principal (*Hero*).  
+
+La landing page cumple el rol de **página de presentación inicial** de la plataforma SmartStay, ofreciendo a los usuarios una visión general del proyecto y accesos rápidos al registro o login.  
+
+Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
+
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+
+Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.  
+- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.  
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.  
+
+Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
+
+**Acciones de colaboración destacadas:**  
+- Se utilizó **GitHub** como herramienta central de coordinación y control de versiones.  
+- Uno de los integrantes configuró el repositorio inicial y las ramas de trabajo.  
+- Cada miembro realizó **commits documentados** con los cambios implementados.  
+- Se llevaron a cabo **pull requests** para integrar las contribuciones al repositorio principal.  
+- Se realizaron revisiones de código en equipo para mantener la coherencia visual y funcional de la landing.  
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.  
+
+![commits_team1](imgs/commits_team1.png)  
+
+![commits_team2](imgs/commits_team2.png)  
+
 
 
