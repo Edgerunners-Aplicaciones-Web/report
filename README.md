@@ -663,7 +663,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 ![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
 
 ## 2.4. Big Picture EventStorming.
-
+![Screenshot](assets/Chapter-02/Booking.jpeg)
 ---
 
 ## 2.5. Ubiquitous Language.
