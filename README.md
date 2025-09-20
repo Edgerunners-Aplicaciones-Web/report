@@ -1,4 +1,4 @@
-<div align="center">
+<img width="654" height="459" alt="image" src="https://github.com/user-attachments/assets/9a613ed4-5d4c-4245-9159-dfa6b6b337e4" /><img width="654" height="459" alt="image" src="https://github.com/user-attachments/assets/cf2b68da-d6d3-4bba-93ee-90e0a6a7a805" /><img width="1786" height="608" alt="image" src="https://github.com/user-attachments/assets/775d03b5-7095-42cc-8fcd-9e34b020853e" /><img width="1786" height="608" alt="image" src="https://github.com/user-attachments/assets/58a68dfe-2e0c-4bfd-b270-da981480684d" /><div align="center">
 
 ![UPC-Logo.png](assets/UPC-Logo.png)
 
@@ -1369,8 +1369,6 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Gráficas de estadísticas generales.  
 - Acceso rápido a notificaciones.  
 
----
-
 **2. Huéspedes**
 **Propósito:** Control y administración de los perfiles que usan la plataforma.  
 **Elementos clave:**  
@@ -1378,19 +1376,71 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Botón para agregar, editar o eliminar usuarios.  
 - Tabla con información básica (nombre, correo, rol, estado).  
 
----
+![wdashboard_huespedes.png](assets/wdashboard_huespedes.png)
 
-## 3. Staff  
+**3. Staff**  
 **Propósito:** Definir los niveles de acceso de cada tipo de usuario.  
 **Elementos clave:**  
 - Tabla de roles existentes.  
 - Información y datos del staff con el que trabaja.  
 
----
+**4. Hoteles y habitaciones**  
+**Propósito:** Gestión de la cadena hotelera administrada en la plataforma.  
+**Elementos clave:**  
+- Lista de hoteles con buscador y filtros (ciudad, estado, categoría).  
+- Detalle del hotel seleccionado (información general, servicios, estadísticas).  
+- Campo para ingresar número de habitación y botón *Ver detalle*.  
+- Vista de detalle de habitación con estado, tipo, huésped actual, check-in/out y acciones rápidas.   
 
+![wstaff_hoteles.png](assets/wstaff_hoteles.png)
 
+**5. Reservas** 
+**Propósito:** Control y gestión de todas las reservas realizadas en los hoteles.  
+**Elementos clave:**  
+- Calendario interactivo para visualizar y administrar reservas por día, semana o mes.  
+- Lista de reservas con buscador y filtros (hotel, fecha, estado).  
+- Detalle de la reserva (huésped, habitación, fechas, monto).  
+- Botones para modificar, confirmar o cancelar reservas.  
+- Indicadores de ocupación y disponibilidad directamente desde el calendario. 
 
-Estos wireframes son el primer paso para evolucionar hacia los mockups de alta fidelidad, donde se integrarán colores, tipografías, logos y estilos visuales ya definidos en la guía de estilo.  
+**6. Pagos**  
+**Propósito:** Administración de ingresos y egresos financieros en la plataforma.  
+**Elementos clave:**  
+- Registro de pagos recibidos de huéspedes y clientes.  
+- Registro de egresos: pagos a staff, proveedores y compras de stock.  
+- Tablas y filtros por fecha, hotel, método de pago y categoría.  
+- Reportes de gastos, ingresos y ganancias.  
+- Gráficos comparativos y dashboard financiero.
+  
+![wreservas_gastos.png](assets/wreservas_gastos.png)
+
+**7. Servicios y Productos**  
+**Propósito:** Gestión integral de servicios y dispositivos tecnológicos de Smart Stay.  
+**Elementos clave:**  
+- Tabla general con categorías: limpieza, alimentos, tecnología, amenities.  
+- Columnas: nombre, categoría, estado, stock, ubicación, proveedor.  
+- Filtros por hotel, piso, habitación y categoría.  
+- Vista de detalle de cada producto con historial, estado y mantenimiento.  
+
+**8. Reseñas**  
+**Propósito:** Seguimiento de la experiencia de los huéspedes y tickets de soporte.  
+**Elementos clave:**  
+- Lista de comentarios y calificaciones por hotel y servicio.  
+- Filtros por fecha, hotel, tipo de reseña o ticket.  
+- Vista de detalle con respuesta del staff.  
+- Estadísticas de satisfacción y gráficos de tendencias.  
+- Panel de tickets: abiertos, en proceso, cerrados.  
+![wservicio_producto_reseña.png](assets/wservicio_producto_reseña.png)
+
+**9. Soporte**  
+**Propósito:** Gestión de los tickets creados por los hoteles y usuarios hacia Smart Stay.  
+**Elementos clave:**  
+- Lista de tickets recibidos desde los hoteles o usuarios.  
+- Clasificación por prioridad (alta, media, baja) y estado (pendiente, en proceso, resuelto).  
+- Filtros por hotel, tipo de problema y fecha.  
+- Vista de detalle del ticket con historial de comunicación.  
+- Historial de ticket.
+![wsoporte.png](assets/wsoporte.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
