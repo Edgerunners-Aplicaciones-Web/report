@@ -1625,6 +1625,68 @@ Mostrar cómo cada sección de la app para staff se conecta a través del menú 
 - **Notificaciones** → accesibles desde cualquier sección a través del icono superior.
 
 ### 4.4.3. Web Applications Mock-ups
+
+**Mockups – Modo Administrador**
+
+Los mockups muestran la interfaz final del administrador de SmartStay, incluyendo **colores, tipografía, iconos, imágenes y logos**, reflejando la identidad visual de la plataforma.
+
+**1. Dashboard**
+- Paleta de colores corporativa aplicada a gráficos y métricas.  
+- Gráficos circulares y de barras con animaciones.  
+- Iconos para alertas, reservas y notificaciones.  
+- Ilustraciones o imágenes para resaltar métricas clave.
+
+**2. Huéspedes**
+- Tarjetas visuales para cada huésped con foto, nombre y estado.  
+- Botones coloreados según función (agregar: verde, eliminar: rojo).  
+- Filtros y buscador estilizados con iconos.
+
+**3. Staff**
+- Tabla con fotos de perfil, roles y horarios.  
+- Indicadores de estado con colores o iconos.  
+- Botones consistentes con la paleta de SmartStay.
+
+**4. Hoteles**
+- Cards con imagen del hotel o miniaturas.  
+- Indicadores visuales de ocupación y disponibilidad.  
+- Botones de acción con efectos hover.
+
+**5. Reservas**
+- Calendario visual con colores según estado (confirmada, pendiente, cancelada).  
+- Tarjetas de reserva con foto del huésped y detalles.  
+- Botones destacados para aprobar, modificar o cancelar.
+
+**6. Pagos**
+- Tabla con iconos de métodos de pago (tarjeta, Yape, Plin).  
+- Resaltado de pagos pendientes con color.  
+- Botones para generar facturas con efectos visuales.
+
+**7. Servicios y Productos**
+- Cards o listas con imágenes de productos y servicios.  
+- Indicadores de disponibilidad con colores y símbolos.  
+- Botones con iconos para editar, eliminar o agregar.
+
+**8. Reseñas**
+- Panel con estrellas de puntuación y colores según valoración.  
+- Tarjetas de comentarios con avatar del huésped y fecha.  
+- Gráficos visuales de satisfacción general.
+
+**9. Soporte**
+- Tabla de tickets con colores según estado (pendiente, en proceso, finalizado).  
+- Formulario visual con iconos y campos destacados.  
+- Botones de acción consistentes con la paleta.
+
+**Elementos generales**
+- Logo de SmartStay visible en header o menú lateral.  
+- Paleta de colores corporativa aplicada a fondos, botones y textos.  
+- Tipografía uniforme que diferencia títulos, subtítulos y contenido.  
+- Iconografía consistente para acciones, estados y navegación.  
+- Feedback visual en botones e interacciones (hover, clic, activo).
+
+![mockupadmin1.png](assets/mockupadmin1.png)
+![mockupadmin1.png](assets/mockupadmin2.png)
+![mockupadmin1.png](assets/mockupadmin3.png)
+
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
