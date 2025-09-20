@@ -1355,11 +1355,6 @@ En esta sección de Web Applications UX/UI Design ya nos enfocamos en el diseño
 Los wireframes del **modo Administrador** representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
 Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el administrador.  
 
-El objetivo de estos wireframes es:  
-- Definir el flujo de trabajo del administrador dentro de la plataforma.  
-- Asegurar que las secciones críticas para la gestión estén correctamente estructuradas.  
-- Servir como base para la evolución hacia los mockups de alta fidelidad.  
-
 A continuación, se presenta un resumen de cada una de las secciones principales del modo Administrador.  
 
 **1. Dashboard**
@@ -1441,6 +1436,57 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Vista de detalle del ticket con historial de comunicación.  
 - Historial de ticket.
 ![wsoporte.png](assets/wsoporte.png)
+
+**Wireframes – Modo Huésped**
+
+Los wireframes del modo Huésped representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación huesped, el cual ellos ingresanpor un codigo qr que el hotel les brinda para de frente acceder al app huesped.  
+Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el huésped.  
+
+**1. Pantalla de Bienvenida**
+- Solo es una introducción por lo que aparece el logo y un saludo.
+  
+**2. Inicio**
+**Propósito:** Pantalla principal con acceso a las funciones más utilizadas.  
+**Elementos clave:**  
+- Barra superior con logo y buscador.  
+- Banner de bienvenida.  
+- Acceso rápido a habitaciones, servicios y notificaciones.  
+- Sección de ofertas o promociones destacadas.
+  
+**3. Habitaciones**
+**Propósito:** Explorar y seleccionar opciones de hospedaje.  
+**Elementos clave:**  
+- Información básica (número y estado de habitación).  
+- Controles de ambiente: temperatura, luces, cortinas, TV, música.  
+- Servicios rápidos: limpieza inmediata o programada, amenities, minibar digital.  
+- Botón de asistencia y emergencia.  
+![wapphuesped1.png](assets/wapphuesped1.png)
+
+**4. Servicios**
+**Propósito:** Acceder a servicios adicionales ofrecidos por el hotel.  
+**Elementos clave:**  
+- Categorías de servicios (gimnasio, parking, restaurante, eventos).
+  
+**5. Mapa & Explorar**
+**Propósito:** Orientar al huésped dentro del hotel y ofrecer rutas y descubrimientos locales.  
+**Elementos clave:**  
+- Mapa interactivo del hotel con puntos de interés (piscina, gimnasio, restaurantes, lobby, salones).  
+- Indicación de la ubicación de la habitación del huésped y rutas internas (wayfinding) hacia cualquier punto.  
+- Opciones de búsqueda y filtros (por tipo de servicio, accesibilidad, horarios).  
+  
+**6. Perfil**
+**Propósito:** Gestionar los datos del huésped.  
+**Elementos clave:**  
+- Información personal (nombre, correo, teléfono).  
+- Preferencias de pago y métodos guardados.  
+
+**7. Notificaciones**
+**Propósito:** Informar al huésped sobre novedades y recordatorios.  
+**Elementos clave:**  
+- Lista de notificaciones recientes (confirmaciones de reserva, promociones, mensajes del hotel).  
+- Botón para marcar como leídas o eliminar notificaciones.  
+![wapphuesped2.png](assets/wapphuesped2.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
