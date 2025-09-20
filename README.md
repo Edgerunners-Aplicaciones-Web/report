@@ -22,8 +22,8 @@
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
-| U20231A816 |Valverde Portuguez|  Natalia Ximena |
-|            |                  |                 |
+| U20231A816 |Valverde Portuguez| Natalia Ximena  |
+| U20201F051 | Ramos Aguirre    | Aldair Joaquin  |
 |            |                  |                 |
 |            |                  |                 |
 
