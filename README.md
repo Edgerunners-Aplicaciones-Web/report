@@ -1547,6 +1547,37 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 ![wappstaff2.png](assets/wappstaff2.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+**Web Applications Wireflow Diagrams – Modo Administrador**
+
+**Propósito:**  
+Mostrar cómo cada sección del administrador se conecta a través del menú principal.
+![webwireflowadmi.png](assets/webwireflowadmi.png)
+**Menú Principal (Administrador)**
+
+Desde cualquier sección, el menú permite acceder a:
+
+1. **Dashboard** – Resumen general de actividad, métricas y gráficos.
+2. **Huéspedes** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
+3. **Staff** – Gestión del personal; roles, turnos y contacto.
+4. **Hoteles / Habitaciones** – Administración de hoteles, habitaciones y disponibilidad.
+5. **Reservas** – Calendario de reservas; agregar, modificar o cancelar reservas.
+6. **Pagos** – Visualización y gestión de transacciones y estados de pago.
+7. **Servicios / Productos** – Gestión de servicios del hotel y productos adicionales.
+8. **Reseñas** – Panel de comentarios de huéspedes con gráficos de satisfacción.
+9. **Soporte / Tickets** – Crear tickets de ayuda y consultar su estado.
+
+**Flujo General (Wireflow)**
+
+- **Dashboard**: centro de información y acceso rápido a todas las secciones.  
+- **Menú Principal**: conecta directamente a las 9 secciones.  
+- Secciones interrelacionadas:  
+  - **Reservas ↔ Pagos ↔ Servicios / Productos**  
+  - **Huéspedes ↔ Reservas ↔ Reseñas**  
+  - **Staff ↔ Hoteles / Habitaciones**  
+- **Soporte / Tickets**: siempre accesible desde cualquier sección para resolver inconveniencias.
+  
+
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
