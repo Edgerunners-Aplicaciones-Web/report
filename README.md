@@ -1086,7 +1086,7 @@ Para Smart Stay, el Impact Mapping se estructura considerando:
 ---
 
 
-# Capítulo IV: Product Design
+# **Capítulo IV: Product Design**
 
 ## 4.1. Style Guidelines
 
@@ -1379,25 +1379,25 @@ Para Smart Stay, se ha implementado un sistema de organización híbrido que com
 
 Los SEO tags y meta tags son elementos clave dentro de la Landing Page y cualquier página web, porque permiten que los motores de búsqueda comprendan el contenido, mejoren la visibilidad y aumenten la tasa de clics desde resultados de búsqueda. Además, algunas etiquetas influyen directamente en cómo se muestra la página en redes sociales y en navegadores móviles.
 
-**1.Meta Tags principales**
+**1. Meta Tags principales**
 
--charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
--viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
--description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
--keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
--author: Indica el autor o equipo responsable del sitio.
--robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
+- charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
+- viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+- description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
+- keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
+- author: Indica el autor o equipo responsable del sitio.
+- robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
 
 **2. Meta Tags para redes sociales**
 
--Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
--Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
+- Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
+- Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
 
 **3. SEO Tags adicionales**
 
--Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
--H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
--Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
+- Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
+- H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
+- Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
 -Canonical URL: Indica la URL principal para evitar contenido duplicado y penalizaciones SEO.
 -Schema.org / JSON-LD: Datos estructurados que ayudan a los motores de búsqueda a mostrar rich snippets (calificaciones, eventos, precios).
 -Language: Define el idioma de la página, útil para SEO internacional.
@@ -2313,7 +2313,7 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ![commits_team2](assets/commits_team2.png)  
 
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
 # 5.1. Software Configuration Management  
 
