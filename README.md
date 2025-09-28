@@ -2666,8 +2666,4 @@ El desarrollo del proyecto Smart Stay ha demostrado ser una solución integral y
 - **Documentación**: Markdown, GitHub Pages
 - **Análisis**: Herramientas de mapeo de usuarios y procesos de negocio
 
----
-
-*Documento finalizado el 30 de septiembre de 2025*  
-*Startup Edgerunners - Universidad Peruana de Ciencias Aplicadas*
 
