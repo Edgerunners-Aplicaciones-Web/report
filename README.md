@@ -40,15 +40,43 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 | Versión |   Fecha    |                 Autor                 |                 Descripción de los Cambios                  |
 |:-------:|:----------:|:-------------------------------------:|:-----------------------------------------------------------:|
-|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) |                                                             |
+|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) | Estructuración inicial del proyecto y coordinación del equipo |
 |   1.0   | 01/09/2025 |     Italo Sebastian Verona Flores     | Creación del documento inicial del Informe de Trabajo Final |
+|   1.1   | 15/09/2025 |    Natalia Ximena Valverde Portuguez  | Desarrollo de wireframes, mockups y guías de estilo visual |
+|   1.2   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
+|   1.3   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
+|   2.0   | 30/09/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
 
 
 ## Project Report Collaboration Insights
 
-- URL del repositorio para el Project Report:
+- **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
 
-<!-- \-\- Enlace pendiente de agregar por el equipo y capturas sobre el avance en el git hub. \-\- -->
+### Colaboración y Evidencia de Trabajo en Equipo
+
+El desarrollo del presente informe de trabajo final se realizó de manera colaborativa utilizando las herramientas de control de versiones de GitHub. A continuación se presenta la evidencia de la participación y contribuciones de cada miembro del equipo:
+
+#### Análisis de Commits por Colaborador
+
+El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
+
+![Colaboración del Equipo](assets/commits_team1.png)
+
+#### Distribución de Contribuciones
+
+La colaboración se distribuyó de la siguiente manera:
+
+- **Gestión del repositorio y estructura inicial:** Configuración de la estructura base del documento
+- **Desarrollo de contenido por capítulos:** Cada miembro contribuyó con secciones específicas según su área de especialización
+- **Revisión y refinamiento:** Proceso iterativo de mejora del contenido mediante pull requests y revisiones colaborativas
+- **Integración final:** Consolidación de todas las contribuciones en el documento final
+
+#### Metodología de Trabajo Colaborativo
+
+- **Control de versiones:** Uso de Git para el seguimiento de cambios y colaboración
+- **Revisiones de contenido:** Implementación de pull requests para la validación del contenido
+- **Documentación continua:** Actualización incremental del informe durante todo el ciclo del proyecto
+- **Coordinación de equipo:** Reuniones regulares para alinear el progreso y resolver conflictos
 
 ## Contenido
 
@@ -131,6 +159,9 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía y Referencias](#bibliografía-y-referencias)
 
 ## Student Outcome
 
@@ -2569,5 +2600,74 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ![commits_team1](assets/commits_team1.png)  
 
+---
 
+# **Conclusiones y Recomendaciones**
+
+## Conclusiones del Proyecto
+
+El desarrollo del proyecto Smart Stay ha demostrado ser una solución integral y viable para la optimización de la gestión hotelera mediante tecnologías web modernas. Las principales conclusiones obtenidas son:
+
+### Aspectos Técnicos
+- **Arquitectura robusta**: La implementación del modelo C4 proporcionó una base sólida para el diseño arquitectónico, facilitando la comprensión y el desarrollo del sistema.
+- **Diseño centrado en el usuario**: Los wireframes, mockups y prototipos desarrollados garantizan una experiencia de usuario intuitiva y eficiente.
+- **Tecnologías apropiadas**: La selección de tecnologías (HTML, CSS, JavaScript, bases de datos relacionales) resulta adecuada para los objetivos del proyecto.
+
+### Aspectos Metodológicos
+- **Lean UX efectivo**: La aplicación del proceso Lean UX permitió validar hipótesis y enfocar el desarrollo en las necesidades reales de los usuarios.
+- **Trabajo colaborativo exitoso**: La distribución de responsabilidades y el uso de herramientas de control de versiones facilitó un desarrollo ordenado y eficiente.
+- **Documentación completa**: El informe generado proporciona una base sólida para futuras iteraciones y mantenimiento del sistema.
+
+### Impacto del Producto
+- **Solución de problemas reales**: Smart Stay aborda necesidades identificadas en el sector hotelero, desde la gestión administrativa hasta la experiencia del huésped.
+- **Escalabilidad**: El diseño permite futuras expansiones y mejoras funcionales.
+- **Viabilidad comercial**: El análisis competitivo y de mercado confirma el potencial comercial de la solución.
+
+## Recomendaciones para Futuras Iteraciones
+
+### Desarrollo Técnico
+1. **Implementación del backend**: Desarrollar la API REST y los servicios necesarios para soportar todas las funcionalidades planificadas.
+2. **Seguridad**: Implementar mecanismos robustos de autenticación y autorización.
+3. **Optimización**: Realizar pruebas de rendimiento y optimizar la experiencia de usuario en diferentes dispositivos.
+
+### Aspectos de Negocio
+1. **Validación con usuarios reales**: Realizar pruebas con hoteles piloto para validar la propuesta de valor.
+2. **Modelo de negocio**: Definir estrategias de monetización y planes de precios competitivos.
+3. **Marketing digital**: Desarrollar estrategias de posicionamiento y captación de clientes.
+
+### Mejoras Funcionales
+1. **Funcionalidades avanzadas**: Implementar características como análisis predictivo, integración con IoT y automatización inteligente.
+2. **Aplicación móvil**: Desarrollar versiones nativas para iOS y Android.
+3. **Integraciones**: Conectar con sistemas externos como PMS, canales de distribución y pasarelas de pago.
+
+---
+
+# **Bibliografía y Referencias**
+
+## Referencias Técnicas
+- Fowler, M. (2018). *Patterns of Enterprise Application Architecture*. Addison-Wesley Professional.
+- Brown, S. (2018). *Software Architecture for Developers - Volume 1: Technical leadership and the balance with agility*. Leanpub.
+- Nielsen, J. (2020). *Usability Engineering*. Morgan Kaufmann.
+
+## Metodologías y Frameworks
+- Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing Great Products with Agile Teams*. O'Reilly Media.
+- Cohn, M. (2020). *User Stories Applied: For Agile Software Development*. Addison-Wesley Professional.
+- Vernon, V. (2016). *Domain-Driven Design Distilled*. Addison-Wesley Professional.
+
+## Fuentes de Investigación
+- Encuestas y entrevistas realizadas a potenciales usuarios del sistema hotelero
+- Análisis competitivo de plataformas similares en el mercado
+- Documentación técnica de tecnologías web modernas
+- Estadísticas del sector hotelero y turístico
+
+## Herramientas Utilizadas
+- **Diseño**: Figma, Miro, Lucidchart
+- **Desarrollo**: Visual Studio Code, Git, GitHub
+- **Documentación**: Markdown, GitHub Pages
+- **Análisis**: Herramientas de mapeo de usuarios y procesos de negocio
+
+---
+
+*Documento finalizado el 30 de septiembre de 2025*  
+*Startup Edgerunners - Universidad Peruana de Ciencias Aplicadas*
 
