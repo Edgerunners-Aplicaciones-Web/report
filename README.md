@@ -22,10 +22,10 @@
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
-| U20231A816 |Valverde Portuguez|  Natalia Ximena |
-| U202019498 |Fernandez Garfias |  Alexander Piero|
-| u20191c464 |Saavedra Angulo   |  Jose Jhonatan  |
-| U20201F051 | Ramos Aguirre  |   Aldair Joaquin |
+| U20231A816 | Valverde Portuguez| Natalia Ximena |
+| U202019498 | Fernandez Garfias | Alexander Piero |
+| u20191c464 | Saavedra Angulo   | Jose Jhonatan  |
+| U20201F051 | Ramos Aguirre    | Aldair Joaquin |
 
 
 **Mes y Año:** Septiembre 2025
@@ -167,8 +167,8 @@ Entre sus principales características destacan:
 |   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
 |:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
 | U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
-| U20231A816 | Valverde Portuguez| Natalia Ximena |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
-| U20191C464 | Saavedra Angulo  | Jose Jhonatan   |Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computacion y el programar se me hace divertido, tengo habilidades en programacion en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos..| ![saavedra.jpg](assets/saavedra.jpg)                                             
+| U20231A816 | Valverde Portuguez| Natalia Ximena | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
+| U20191C464 | Saavedra Angulo  | Jose Jhonatan   | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computación y el programar se me hace divertido, tengo habilidades en programación en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos. | ![saavedra.jpg](assets/saavedra.jpg)                                             
 |  U20201F051 |      Ramos Aguirre   |   Aldair Joaquin     |    Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.    |   ![aldair-ramos.jpg](assets/FotoAldair.jpg) |
 | U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                               
 
@@ -413,7 +413,7 @@ Esta información proporciona una base sólida para validar que existe un mercad
 
 ## 2.1. Competidores.
 
-El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
+El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tradicionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
 
 
 #### 2.1.1 Análisis Competitivo.
@@ -469,14 +469,14 @@ Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** 
 - **Programa píloto** con hoteles boutique de lima para generar casos de éxito y testimonios.
 - **Alianzas estratégicas** con gremios turísticos (ej. FEDECATUR) para acelerar la adopción.
 - **Capacitación continua** para el personal hotelero, disminuyendo resistencia al cambio.
-- **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tracicionales
+- **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tradicionales
 - **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
-- **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
+- **Atención postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
 
-## 2.1. Entrevistas.
+## 2.2. Entrevistas.
 Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
 
-#### 2.1.2  Diseño de entrevistas
+#### 2.2.1. Diseño de entrevistas
 
 ### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
@@ -533,7 +533,7 @@ Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 pe
 Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
 
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+**URL del video:** [Entrevista Adrián Saavedra](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
 
 ---
 
@@ -551,7 +551,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![monica entrevistada](assets/monica_entrevistada.jpg)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Entrevista Mónica Hernández](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -574,7 +574,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista alejandra](assets/alejandra_entrevistada.jpg)
 
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Entrevista Alejandra Beltrán](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -601,7 +601,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_alexander](assets/Chapter-02/entrevista_alexander.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Entrevista Diego Segura](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -632,7 +632,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
+**URL del video:** [Entrevista Juan Salcedo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
 
 **Resumen de la entrevista**
 
@@ -667,7 +667,7 @@ Entre los problemas que ha tenido destacan las largas esperas en recepción y la
 Las reseñas digitales influyen en un 70% en su decisión de reserva. Para él, el trato humano sigue siendo un valor agregado incluso en un hotel digitalizado, y recomienda que la experiencia digital se concentre en una app única, sencilla y con asistencia rápida.
 
 ---
-## Entrevista 4
+#### Entrevista 4
 
 Datos del entrevistado:
 
@@ -688,14 +688,12 @@ Datos del entrevistado:
 **Resumen de la entrevista**
 
 Joaquín viaja por turismo una vez al año y suele elegir hoteles sencillos o Airbnb por ser accesibles y prácticos, aunque también considera los boutique si el precio es conveniente. Lo que más valora es el precio y la comodidad, seguido de la ubicación.
-Su última experiencia de check-in fue lenta, mientras que el check-out resultó rápido, por lo que cree que ambos procesos deberían digitalizarse. No considera esencial la personalización de la habitación, pero sí cómodo poder controlar luz
-y temperatura desde el celular. Durante sus estadías utiliza principalmente el WiFi y la smart TV, y le gustaría contar con llaves digitales. Entre los problemas que ha tenido destacan las largas esperas en recepción y la falta de coordinación
-en la limpieza. Considera muy práctico un sistema de check-in digital y control de la habitación mediante una app, y estaría dispuesto a pagar entre 5% y 10% más por ello siempre que mejore la experiencia. Las reseñas digitales influyen en un 70% en su decisión de reserva. Para él, el trato humano sigue siendo un valor agregado incluso en un hotel digitalizado, y recomienda que la experiencia digital se concentre en una app única, sencilla y con asistenciarápida.
+Su última experiencia de check-in fue lenta, mientras que el check-out resultó rápido, por lo que cree que ambos procesos deberían digitalizarse. No considera esencial la personalización de la habitación, pero sí cómodo poder controlar luz y temperatura desde el celular. Durante sus estadías utiliza principalmente el WiFi y la smart TV, y le gustaría contar con llaves digitales. Entre los problemas que ha tenido destacan las largas esperas en recepción y la falta de coordinación en la limpieza. Considera muy práctico un sistema de check-in digital y control de la habitación mediante una app, y estaría dispuesto a pagar entre 5% y 10% más por ello siempre que mejore la experiencia. Las reseñas digitales influyen en un 70% en su decisión de reserva. Para él, el trato humano sigue siendo un valor agregado incluso en un hotel digitalizado, y recomienda que la experiencia digital se concentre en una app única, sencilla y con asistencia rápida.
 
 
 ---
 
-### 2.2.2. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
@@ -923,7 +921,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                              |
 | ------------------ | --------------------------------------------------- |
-| TS06               | Formulario de reseñas conectado a la UI, guardado simulado en frontendFormulario de reseñas conectado a la UI, guardado simulado en frontend  |
+| TS06               | Formulario de reseñas conectado a la UI, guardado simulado en frontend |
 
 
 **EP07 – Soporte y Ayuda**
@@ -1033,6 +1031,14 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ## 3.2. Impact Mapping.
 
+El Impact Mapping es una técnica de planificación estratégica que conecta los objetivos de negocio con las funcionalidades del producto, ayudando a visualizar cómo las características específicas del sistema contribuyen al logro de metas organizacionales.
+
+Para Smart Stay, el Impact Mapping se estructura considerando:
+- **¿Por qué?** Los objetivos de negocio que queremos alcanzar
+- **¿Quién?** Los actores que pueden generar el impacto deseado  
+- **¿Cómo?** Los comportamientos que estos actores deben adoptar
+- **¿Qué?** Las funcionalidades que facilitarán estos comportamientos
+
 ![ImpactMapping.jpeg](assets/ImpactMapping.jpeg)
 
 ## 3.3. Product Backlog.
@@ -1080,7 +1086,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 ---
 
 
-# Capítulo IV: Product Design
+# **Capítulo IV: Product Design**
 
 ## 4.1. Style Guidelines
 
@@ -1095,7 +1101,7 @@ Objetivo:
 
 **Branding**
 
-- Logo Rewind: El logo principal de la startup con el que se muestra ante el público.
+- Logo Smart Stay: El logo principal de la startup con el que se muestra ante el público.
 
 ![logo.png](assets/logo.png)
   
@@ -1116,7 +1122,7 @@ Objetivo:
 ![logo-monocromatico-1.png](assets/logo-monocromatico-1.png)
 ![logo-monocromatico-2.png](assets/logo-monocromatico-2.png)
 
-**Tipografia**
+**Tipografía**
 
 - Fuente principal (Brand & Títulos):
   Cocomat Pro
@@ -1128,11 +1134,11 @@ Objetivo:
   Uso: Textos descriptivos, botones, menús, correos y cualquier contenido largo.
   Razón: Son altamente legibles en pantallas, versátiles y complementan la elegancia de Cocomat Pro sin competir con ella.
   
--Jerarquía de uso
+- Jerarquía de uso
 1. Títulos (H1, H2): Cocomat Pro Bold.
 2. Subtítulos / énfasis: Cocomat Pro Medium.
-Texto general / párrafos: Open Sans Regular.
-Botones y menús: Open Sans SemiBold.
+3. Texto general / párrafos: Open Sans Regular.
+4. Botones y menús: Open Sans SemiBold.
 
 - Sistema Tipográfico 
 H1 (Títulos principales):
@@ -1216,10 +1222,10 @@ Uso de color:
 
 **Uso de Color en Web**
 
--Azul Marino (#2C3E91) → fondos de bloques, navegación, footer.
--Naranja Suave (#E67E22) → CTAs principales.
+- Azul Marino (#2C3E91) → fondos de bloques, navegación, footer.
+- Naranja Suave (#E67E22) → CTAs principales.
 -Verde Agua (#1ABC9C) → énfasis positivo (checks, beneficios, “incluido”).
--Beige (#F5F5DC) → fondos neutros para separar secciones.
+- Beige (#F5F5DC) → fondos neutros para separar secciones.
 
 **Comportamiento UX**
 
@@ -1235,13 +1241,13 @@ Uso de color:
 
 **Usability – Inclusive Design – Information Architecture**
 
--CARRERA: Ingeniería de Software  
--CURSO: Desarrollo de Aplicaciones Open Source  
--SECCIÓN: 7454  
--PROFESORES: Todos  
--AUDITOR: Nombre del Grupo el cual está encargado de evaluar 
--CLIENTE(S): Administradores de Hoteles Boutique y Huéspedes de Hoteles  
--SITE o APP A EVALUAR: Smart Stay
+- CARRERA: Ingeniería de Software  
+- CURSO: Aplicaciones Web  
+- SECCIÓN: 7454  
+- PROFESOR: Angel Augusto Velasquez Nuñez  
+- AUDITOR: Equipo Smart Stay  
+- CLIENTE(S): Administradores de Hoteles Boutique y Huéspedes de Hoteles  
+- SITE o APP A EVALUAR: Smart Stay
 
 **TAREAS A EVALUAR**
 
@@ -1373,25 +1379,25 @@ Para Smart Stay, se ha implementado un sistema de organización híbrido que com
 
 Los SEO tags y meta tags son elementos clave dentro de la Landing Page y cualquier página web, porque permiten que los motores de búsqueda comprendan el contenido, mejoren la visibilidad y aumenten la tasa de clics desde resultados de búsqueda. Además, algunas etiquetas influyen directamente en cómo se muestra la página en redes sociales y en navegadores móviles.
 
-**1.Meta Tags principales**
+**1. Meta Tags principales**
 
--charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
--viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
--description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
--keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
--author: Indica el autor o equipo responsable del sitio.
--robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
+- charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
+- viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+- description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
+- keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
+- author: Indica el autor o equipo responsable del sitio.
+- robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
 
 **2. Meta Tags para redes sociales**
 
--Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
--Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
+- Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
+- Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
 
 **3. SEO Tags adicionales**
 
--Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
--H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
--Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
+- Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
+- H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
+- Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
 -Canonical URL: Indica la URL principal para evitar contenido duplicado y penalizaciones SEO.
 -Schema.org / JSON-LD: Datos estructurados que ayudan a los motores de búsqueda a mostrar rich snippets (calificaciones, eventos, precios).
 -Language: Define el idioma de la página, útil para SEO internacional.
@@ -2307,7 +2313,7 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ![commits_team2](assets/commits_team2.png)  
 
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
 # 5.1. Software Configuration Management  
 
