@@ -442,67 +442,352 @@ Esta información proporciona una base sólida para validar que existe un mercad
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
-## 2.1. Competidores.
+## 2.1. Competidores
 
-El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tradicionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
+<div style="margin: 20px 0;">
+En esta sección se realiza la identificación y descripción de los principales competidores directos con modelos de negocio basados en productos digitales similares, o en su defecto competidores indirectos con ofertas parcialmente similares.
+</div>
 
+<div style="margin: 20px 0;">
+<h3>Principales Competidores Identificados:</h3>
+<ul>
+<li><strong>Oracle Hospitality:</strong> Solución global líder para gestión hotelera de grandes cadenas</li>
+<li><strong>Amadeus Hospitality:</strong> Plataforma internacional con fuerte presencia en hoteles corporativos</li>  
+<li><strong>Cloudbeds:</strong> Sistema de gestión hotelera en la nube para hoteles pequeños y medianos</li>
+</ul>
+</div>
 
-#### 2.1.1 Análisis Competitivo.
+### 2.1.1. Análisis competitivo
 
-El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
+<div style="margin: 20px 0;">
+En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos.
+</div>
 
----
+<div style="margin: 20px 0;">
+<h4>Competitive Analysis Landscape</h4>
+</div>
 
-### Matriz comparativa de competidores
+<div style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 5px; padding: 15px; margin: 20px 0;">
+<strong>¿Por qué llevar a cabo este análisis?</strong><br>
+<p>Conocer las fortalezas, debilidades y estrategias de los competidores nos permite identificar oportunidades de diferenciación y posicionamiento estratégico para Smart Stay en el mercado de gestión hotelera, especialmente en el segmento de hoteles boutique y medianos en LATAM.</p>
+</div>
 
-| **Perfil** | **Smart Stay** | **Oracle Hospitality** | **Amadeus Hospitality** | **Mapache de la Habitación** | **Precios Inteligentes** | **Locales de Startups** | **Manuales de sistemas** |
-|------------|----------------|-------------------------|--------------------------|------------------------------|--------------------------|--------------------------|---------------------------|
-| **Overview** | Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped. | Soluciones globales y completas para gestión de grandes cadenas hoteleras. | Amplia escalabilidad y fuerte presencia internacional en hoteles de cadena. | SaaS en la nube, intuitivo, orientado a hoteles pequeños. | Especializado en revenue management mediante IA. | Plataformas económicas de gestión con soporte en español. | Sistemas tradicionales manuales o básicos de baja tecnología. |
-| **Ventaja competitiva / Valor al cliente** | Accesibilidad, personalización de la experiencia, integración IoT. | Reconocimiento global, soluciones integrales para grandes cadenas. | Escalabilidad para cadenas internacionales. | Facilidad de uso y simplicidad para hoteles pequeños. | Optimización avanzada de precios con IA. | Precios bajos, integración básica con canales de reserva. | Costo bajo y simplicidad. |
-| **Mercado objetivo** | Hoteles boutique, medianos y en crecimiento en LATAM. | Grandes cadenas hoteleras globales. | Cadenas internacionales y corporativos. | Hoteles pequeños y en crecimiento. | Cadenas y hoteles con enfoque en maximizar ingresos. | Pequeños hoteles y emprendimientos locales. | Hoteles pequeños con recursos limitados. |
-| **Estrategias de marketing** | Enfoque local (LATAM), diferenciación por IoT y experiencia del huésped. | Branding global y posicionamiento corporativo. | Alianzas estratégicas con cadenas internacionales. | Estrategia digital enfocada en facilidad de uso. | Marketing basado en innovación tecnológica (IA). | Propuesta de accesibilidad y soporte local. | Costos bajos y adopción por necesidad. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background-color: #343a40; color: white;">
+<th style="border: 1px solid #ddd; padding: 12px; text-align: left;"></th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: center;">
+<div><strong>Smart Stay</strong></div>
+<div style="margin-top: 5px;"><img src="assets/logo.png" alt="Smart Stay Logo" style="max-width: 50px; height: auto;"></div>
+</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: center;">
+<div><strong>Oracle Hospitality</strong></div>
+<div style="margin-top: 5px;">🏢</div>
+</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: center;">
+<div><strong>Amadeus Hospitality</strong></div>
+<div style="margin-top: 5px;">🌐</div>
+</th>
+<th style="border: 1px solid #ddd; padding: 12px; text-align: center;">
+<div><strong>Cloudbeds</strong></div>
+<div style="margin-top: 5px;">☁️</div>
+</th>
+</tr>
+</thead>
+<tbody>
 
----
+<tr style="background-color: #f8f9fa;">
+<td colspan="5" style="border: 1px solid #ddd; padding: 12px; font-weight: bold; background-color: #e9ecef;">PERFIL</td>
+</tr>
 
-### Perfil de negocio  
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Overview</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Líder mundial en soluciones empresariales para grandes cadenas hoteleras con funcionalidades completas de gestión.</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Plataforma global especializada en distribución y gestión hotelera para cadenas internacionales.</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Sistema de gestión hotelera en la nube diseñado para hoteles independientes y pequeñas cadenas.</td>
+</tr>
 
-| **Dimensión** | **Smart Stay** | **Competidores** |
-|---------------|----------------|------------------|
-| **Productos & Servicios** | PMS + IoT + personalización de huésped. | Gestión hotelera tradicional, revenue management, SaaS simples o manuales. |
-| **Precios & Costos** | Accesibles y escalables. | Desde muy elevados (Oracle, Amadeus) hasta muy bajos (manuales/startups). |
-| **Canales de distribución** | Web, móvil, soporte local en español. | Globales (Oracle/Amadeus), digitales limitados (otros SaaS), presenciales (manuales). |
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Ventaja competitiva</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Integración IoT + personalización + enfoque local LATAM</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Reconocimiento global + soluciones empresariales robustas</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Red global de distribución + integración con aerolíneas</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Facilidad de uso + precios accesibles + soporte multiidioma</td>
+</tr>
 
----
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">¿Qué valor ofrece a los clientes?</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Experiencia personalizada del huésped, automatización IoT, gestión integral accesible</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Gestión empresarial completa, escalabilidad, integración con sistemas corporativos</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Distribución global, gestión de inventario, conectividad con canales internacionales</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Simplicidad de uso, implementación rápida, gestión unificada de reservas</td>
+</tr>
 
-### Análisis SWOT comparativo  
+<tr style="background-color: #f8f9fa;">
+<td colspan="5" style="border: 1px solid #ddd; padding: 12px; font-weight: bold; background-color: #e9ecef;">PERFIL DE MARKETING</td>
+</tr>
 
-| | **Smart Stay** | **Competidores** |
-|---|---------------|------------------|
-| **Fortalezas** | Enfoque local, personalización, IoT, integración completa. | Reconocimiento global (Oracle, Amadeus), IA especializada (Precios Inteligentes), simplicidad (Mapache). |
-| **Debilidades** | Menor reconocimiento global, menor penetración inicial. | Altos costos, baja personalización, falta de soporte local o limitaciones funcionales. |
-| **Oportunidades** | Creciente digitalización en LATAM, demanda de soluciones accesibles. | Expansión en mercados emergentes. |
-| **Amenazas** | Entrada de grandes jugadores al mercado LATAM, cambios tecnológicos rápidos. | Innovación constante de startups locales. |
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Mercado objetivo</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Hoteles boutique y medianos (20-100 habitaciones) en LATAM</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Grandes cadenas hoteleras internacionales y resorts</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Cadenas hoteleras corporativas y hoteles de lujo</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Hoteles independientes y pequeñas cadenas (5-200 habitaciones)</td>
+</tr>
 
-#### 2.1.2  Estrategias y Tácticas frente a Competidores.
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Estrategias de marketing</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Marketing local, diferenciación por IoT, casos de éxito en boutique hotels</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Branding corporativo global, presencia en ferias internacionales</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Alianzas estratégicas con aerolíneas, marketing B2B corporativo</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Marketing digital, webinars, contenido educativo, pricing competitivo</td>
+</tr>
 
-Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
+<tr style="background-color: #f8f9fa;">
+<td colspan="5" style="border: 1px solid #ddd; padding: 12px; font-weight: bold; background-color: #e9ecef;">PERFIL DE PRODUCTO</td>
+</tr>
 
-#### Estrategias
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Productos & Servicios</td>
+<td style="border: 1px solid #ddd; padding: 12px;">PMS + IoT + personalización + gestión de staff + analytics</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Suite completa PMS, CRM, revenue management, reporting empresarial</td>
+<td style="border: 1px solid #ddd; padding: 12px;">PMS, channel manager, distribution, revenue optimization</td>
+<td style="border: 1px solid #ddd; padding: 12px;">PMS, channel manager, booking engine, payment processing</td>
+</tr>
 
-1. **Diferenciación Tecnológica**: Integrar gestión hotelera con IoT, algo que los competidores actuales no ofrecen de manera completa.
-2. **Enfoque en nicho**: Dirigirse a hoteles boutique y pequeños (20-100 habitaciones), un segmento poco atendido por gigantes como Oracle o Amadeus.
-3. **Modelo de suscripción accesible**: Precios escalables según número de habitaciones, permitiendo competir contra soluciones costosas sin sacrificar funcionalidad.
-4. **Soporte local y en español**: Acompañamiento cercano que mejora la adopción frente a competidores extranjeros.
-5. **Valor medible**: Promesa clara de reducción de costos operativos (10-20%)
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Precios & Costos</td>
+<td style="border: 1px solid #ddd; padding: 12px;">$50-150/mes por hotel (escalable por habitaciones)</td>
+<td style="border: 1px solid #ddd; padding: 12px;">$15,000-50,000+ implementación + $500-2000/mes</td>
+<td style="border: 1px solid #ddd; padding: 12px;">$10,000-30,000+ implementación + $300-1500/mes</td>
+<td style="border: 1px solid #ddd; padding: 12px;">$99-799/mes dependiendo del número de habitaciones</td>
+</tr>
 
-#### Tácticas
+<tr>
+<td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Canales de distribución (Web y/o Móvil)</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Web app, móvil nativo, soporte local presencial</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Web platform, implementación on-premise/cloud</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Web platform, integraciones API, soporte global</td>
+<td style="border: 1px solid #ddd; padding: 12px;">Web app, móvil, marketplace integrations</td>
+</tr>
 
-- **Programa píloto** con hoteles boutique de lima para generar casos de éxito y testimonios.
-- **Alianzas estratégicas** con gremios turísticos (ej. FEDECATUR) para acelerar la adopción.
-- **Capacitación continua** para el personal hotelero, disminuyendo resistencia al cambio.
-- **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tradicionales
-- **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
-- **Atención postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
+</tbody>
+</table>
+
+### Análisis SWOT
+
+<div style="margin: 20px 0;">
+<p>Se realiza el análisis SWOT para la startup y sus competidores. Las fortalezas deberían apoyar las oportunidades y contribuir a lo que se define como posible ventaja competitiva.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+<h4 style="text-align: center; color: #007bff; margin-bottom: 15px;">Smart Stay</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #d4edda; font-weight: bold;">Fortalezas</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f8d7da; font-weight: bold;">Debilidades</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Integración única de IoT<br>
+• Enfoque en mercado LATAM<br>
+• Personalización avanzada<br>
+• Precios accesibles<br>
+• Soporte local en español
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Marca nueva sin reconocimiento<br>
+• Recursos limitados para marketing<br>
+• Equipo pequeño<br>
+• Sin casos de éxito previos
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #fff3cd; font-weight: bold;">Oportunidades</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f1f3f4; font-weight: bold;">Amenazas</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Crecimiento del turismo en LATAM<br>
+• Digitalización acelerada post-COVID<br>
+• Demanda de soluciones accesibles<br>
+• Mercado boutique desatendido
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Entrada de gigantes tech al mercado<br>
+• Competidores con más recursos<br>
+• Cambios regulatorios<br>
+• Crisis económicas regionales
+</td>
+</tr>
+</table>
+</div>
+
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+<h4 style="text-align: center; color: #dc3545; margin-bottom: 15px;">Oracle Hospitality</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #d4edda; font-weight: bold;">Fortalezas</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f8d7da; font-weight: bold;">Debilidades</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Líder mundial reconocido<br>
+• Recursos financieros enormes<br>
+• Suite completa de productos<br>
+• Experiencia en grandes cadenas<br>
+• Soporte técnico global
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Costos muy elevados<br>
+• Complejidad de implementación<br>
+• Enfoque solo en grandes clientes<br>
+• Personalización limitada<br>
+• Soporte local deficiente
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #fff3cd; font-weight: bold;">Oportunidades</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f1f3f4; font-weight: bold;">Amenazas</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Expansión a mercados emergentes<br>
+• Adquisición de startups innovadoras<br>
+• Desarrollo de soluciones IoT<br>
+• Partnerships con tech companies
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Startups ágiles e innovadoras<br>
+• Cambio hacia soluciones más simples<br>
+• Competencia de proveedores cloud<br>
+• Regulaciones de privacidad
+</td>
+</tr>
+</table>
+</div>
+
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+<h4 style="text-align: center; color: #28a745; margin-bottom: 15px;">Amadeus Hospitality</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #d4edda; font-weight: bold;">Fortalezas</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f8d7da; font-weight: bold;">Debilidades</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Red global de distribución<br>
+• Integración con aerolíneas<br>
+• Presencia internacional fuerte<br>
+• Tecnología de distribución avanzada<br>
+• Experiencia en travel tech
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Enfoque limitado en hoteles pequeños<br>
+• Complejidad de integración<br>
+• Costos de implementación altos<br>
+• Interfaz poco intuitiva<br>
+• Dependencia del sector aéreo
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #fff3cd; font-weight: bold;">Oportunidades</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f1f3f4; font-weight: bold;">Amenazas</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Crecimiento del turismo global<br>
+• Expansión en mercados asiáticos<br>
+• Desarrollo de soluciones móviles<br>
+• Alianzas con OTAs
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Disruptores en distribución<br>
+• Competencia de Google/Meta<br>
+• Crisis en sector aéreo<br>
+• Nuevas tecnologías emergentes
+</td>
+</tr>
+</table>
+</div>
+
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+<h4 style="text-align: center; color: #6f42c1; margin-bottom: 15px;">Cloudbeds</h4>
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #d4edda; font-weight: bold;">Fortalezas</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f8d7da; font-weight: bold;">Debilidades</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Interfaz intuitiva y fácil de usar<br>
+• Precios competitivos<br>
+• Implementación rápida<br>
+• Soporte multiidioma<br>
+• Enfoque en hoteles independientes
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Funcionalidades limitadas<br>
+• Sin integración IoT<br>
+• Soporte técnico básico<br>
+• Personalización limitada<br>
+• Dependencia de integraciones terceros
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #fff3cd; font-weight: bold;">Oportunidades</td>
+<td style="border: 1px solid #ddd; padding: 10px; background-color: #f1f3f4; font-weight: bold;">Amenazas</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Crecimiento de hoteles independientes<br>
+• Mercados emergentes<br>
+• Desarrollo de funcionalidades avanzadas<br>
+• Partnerships con proveedores tech
+</td>
+<td style="border: 1px solid #ddd; padding: 10px; vertical-align: top;">
+• Competidores con más funcionalidades<br>
+• Gigantes tech entrando al mercado<br>
+• Startups más innovadoras<br>
+• Cambios en preferencias de usuarios
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+<div style="margin: 20px 0;">
+<p>Para posicionarse de manera efectiva frente a los competidores, <strong>Smart Stay</strong> implementará las siguientes estrategias:</p>
+</div>
+
+<div style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; margin: 20px 0;">
+<h4 style="color: #007bff;">Estrategias</h4>
+<ol>
+<li><strong>Diferenciación Tecnológica:</strong> Integrar gestión hotelera con IoT, algo que los competidores actuales no ofrecen de manera completa.</li>
+<li><strong>Enfoque en nicho:</strong> Dirigirse a hoteles boutique y pequeños (20-100 habitaciones), un segmento poco atendido por gigantes como Oracle o Amadeus.</li>
+<li><strong>Modelo de suscripción accesible:</strong> Precios escalables según número de habitaciones, permitiendo competir contra soluciones costosas sin sacrificar funcionalidad.</li>
+<li><strong>Soporte local y en español:</strong> Acompañamiento cercano que mejora la adopción frente a competidores extranjeros.</li>
+<li><strong>Valor medible:</strong> Promesa clara de reducción de costos operativos (10-20%)</li>
+</ol>
+</div>
+
+<div style="background-color: #e8f5e8; border-left: 4px solid #28a745; padding: 15px; margin: 20px 0;">
+<h4 style="color: #28a745;">Tácticas</h4>
+<ul>
+<li><strong>Programa píloto</strong> con hoteles boutique de Lima para generar casos de éxito y testimonios.</li>
+<li><strong>Alianzas estratégicas</strong> con gremios turísticos (ej. FEDECATUR) para acelerar la adopción.</li>
+<li><strong>Capacitación continua</strong> para el personal hotelero, disminuyendo resistencia al cambio.</li>
+<li><strong>Marketing digital enfocado en ROI:</strong> Mostrar comparativas de costos y beneficios frente a sistemas tradicionales</li>
+<li><strong>Integraciones rápidas</strong> con PMS existentes para facilitar la migración y reducir fricciones.</li>
+<li><strong>Atención postventa 24/7</strong> como ventaja competitiva sobre startups con soporte limitado.</li>
+</ul>
+</div> 
 
 ## 2.2. Entrevistas.
 Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
