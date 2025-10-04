@@ -53,6 +53,7 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 - **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web
 - **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
 - **URL del repositorio de la landing page del proyecto:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+- **URL del repositorio del frontend del proyecto:** <!--TODO: AGREGAR EL URL-->
 
 ### Colaboración y Evidencia de Trabajo en Equipo
 
@@ -64,6 +65,7 @@ El trabajo en el repositorio del informe demuestra la participación activa de t
 
 <img src="assets/commits_team1.png" alt="Colaboración del Equipo" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
 <img src="assets/chapter-01/Insights%20landing.png" alt="Insights landing.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
+
 
 #### Distribución de Contribuciones
 
@@ -249,24 +251,23 @@ Hemos observado un factor crítico que afecta la eficiencia operativa: la gesti�
 **Business Outcome:**
 
 Objective (O): Mejorar la eficiencia operativa del hotel en el primer ciclo de 4 meses.
+
 Key Results (KR):
 
-Reducir en 15% el tiempo promedio de check-in y check-out.
+- Reducir en 15% el tiempo promedio de check-in y check-out.
 
-Disminuir en 10% los costos de operación relacionados con procesos manuales.
+- Disminuir en 10% los costos de operación relacionados con procesos manuales.
 
-Alcanzar al menos 80% de adopción del sistema por parte del personal administrativo en tareas diarias.
+- Alcanzar al menos 80% de adopción del sistema por parte del personal administrativo en tareas diarias.
 
 **User Outcome:**
 
 Objective (O): Brindar una experiencia de gestión más rápida y clara para huéspedes y personal.
+
 Key Results (KR):
-
-Lograr que los huéspedes completen su check-in digital en menos de 3 minutos.
-
-Obtener una calificación de satisfacción de usuarios (NPS o encuesta) de al menos 8/10 en la nueva experiencia de registro.
-
-Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digital sin necesidad de asistencia del personal.
+- Lograr que los huéspedes completen su check-in digital en menos de 3 minutos.
+- Obtener una calificación de satisfacción de usuarios (NPS o encuesta) de al menos 8/10 en la nueva experiencia de registro.
+- Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digital sin necesidad de asistencia del personal.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -321,41 +322,54 @@ Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digita
     - El retorno de inversión será visible en los primeros 6-12 meses de implementación
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+<div>
+    <p><strong>Hypothesis 1: Digital Check-in/Check-out</strong></p>
+    <p><strong>We believe that</strong> implementing an automated digital check-in and check-out system for guests and reception staff will reduce the average time for these processes by 15%.</p>
+    <p><strong>We will know we are successful</strong></p>
+    <p><strong>When we see</strong> that guests complete their registration in less than 3 minutes and 70% use the digital system without needing staff assistance.</p>
+</div>
 
-**Hypothesis 1: Check-in/Check-out Digital**
-**Creemos que** implementar un sistema de check-in y check-out digital automatizado para huéspedes y personal de recepción reducirá en 15% el tiempo promedio de estos procesos.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** que los huéspedes completan su registro en menos de 3 minutos y el 70% utiliza el sistema digital sin necesidad de asistencia del personal.
+<div>
+    <p><strong>Hypothesis 2: Administrative Staff Adoption</strong></p>
+    <p><strong>We believe that</strong> providing an intuitive hotel management platform with comprehensive training for administrative staff will achieve at least 80% adoption of the system for daily tasks.</p>
+    <p><strong>We will know this is true</strong></p>
+    <p><strong>When we see</strong> consistent daily use of the system by staff and a 10% reduction in manual operational costs after 4 months of implementation.</p>
+</div>
 
-**Hypothesis 2: Adopción del Personal Administrativo**
-**Creemos que** proporcionar una plataforma intuitiva de gestión hotelera con capacitación integral para personal administrativo logrará al menos 80% de adopción del sistema en tareas diarias.
-**Sabremos que esto es cierto**
-**Cuando veamos** un uso diario constante del sistema por parte del personal y una reducción del 10% en costos operativos manuales después de 4 meses de implementación.
+<div>
+    <p><strong>Hypothesis 3: User Satisfaction</strong></p>
+    <p><strong>We believe that</strong> offering a faster and clearer digital management experience for guests and hotel staff will significantly improve overall satisfaction.</p>
+    <p><strong>We will know we are successful</strong></p>
+    <p><strong>When we see</strong> a satisfaction score of at least 8/10 in NPS surveys and that 70% of returning users use the features without assistance.</p>
+</div>
 
-**Hypothesis 3: Satisfacción del Usuario**
-**Creemos que** ofrecer una experiencia de gestión digital más rápida y clara para huéspedes y personal del hotel mejorará significativamente la satisfacción general.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** una calificación de satisfacción de al menos 8/10 en encuestas NPS y que el 70% de usuarios recurrentes utilicen las funcionalidades sin asistencia.
+<div>
+    <p><strong>Hypothesis 4: IoT Resource Optimization</strong></p>
+    <p><strong>We believe that</strong> integrating IoT devices for monitoring temperature, light, and energy consumption for hotel administrators will optimize the hotel's resource usage.</p>
+    <p><strong>We will know this is true</strong></p>
+    <p><strong>When we see</strong> a 20% reduction in utility expenses and detailed consumption reports that allow for better resource control during the 4-month period.</p>
+</div>
 
-**Hypothesis 4: Optimización de Recursos IoT**
-**Creemos que** integrar dispositivos IoT para monitoreo de temperatura, luz y consumo energético para administradores hoteleros optimizará el uso de recursos del hotel.
-**Sabremos que esto es cierto**
-**Cuando veamos** una reducción del 20% en gastos de servicios públicos y reportes detallados de consumo que permitan mejor control de recursos durante el período de 4 meses.
+<div>
+    <p><strong>Hypothesis 5: Experience Personalization</strong></p>
+    <p><strong>We believe that</strong> allowing guests to directly control their room's environment and schedule services will increase their satisfaction and consumption of additional services.</p>
+    <p><strong>We will know we are successful</strong></p>
+    <p><strong>When we see</strong> a 25% increase in customer satisfaction in post-stay surveys and a 15% increase in room service and optional service orders.</p>
+</div>
 
-**Hypothesis 5: Personalización de la Experiencia**
-**Creemos que** permitir a los huéspedes controlar directamente el ambiente de su habitación y programar servicios aumentará su satisfacción y consumo de servicios adicionales.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** un aumento del 25% en la satisfacción del cliente en encuestas post-estadía y un incremento del 15% en pedidos de room service y servicios opcionales.
+<div>
+    <p><strong>Hypothesis 6: Pilot Hotel Adoption</strong></p>
+    <p><strong>We believe that</strong> offering a scalable subscription model with gradual implementation for boutique and small hotels in Lima will generate interest and participation in our pilot program.</p>
+    <p><strong>We will know this is true</strong></p>
+    <p><strong>When we see</strong> the participation of at least 3 hotels in our university pilot with signed collaboration agreements and confirmation of post-development implementation.</p>
+</div>
 
-**Hypothesis 6: Adopción de Hoteles Piloto**
-**Creemos que** ofrecer un modelo de suscripción escalable con implementación gradual para hoteles boutique y pequeños en Lima generará interés y participación en nuestro programa piloto.
-**Sabremos que esto es cierto**
-**Cuando veamos** la participación de al menos 3 hoteles en nuestro piloto universitario con acuerdos firmados de colaboración y confirmación de implementación post-desarrollo.
-
-**Hypothesis 7: Ventaja Competitiva**
-**Creemos que** nuestra integración completa entre gestión hotelera tradicional y tecnología IoT para hoteles que buscan modernización nos dará ventaja sobre sistemas tradicionales.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
+<div>
+    <p><strong>Hypothesis 7: Competitive Advantage</strong></p>
+    <p><strong>We believe that</strong> our complete integration between traditional hotel management and IoT technology for hotels that seek modernization will give us an advantage over traditional systems.</p>
+    <p><strong>We will know we are successful</strong></p>
+    <p><strong>When we see</strong> that the pilot hotels report specific operational improvements and express a preference for our solution versus alternatives like Oracle Hospitality or manual management.</p>
+</div>
 
 #### 1.2.2.4. Lean UX Canvass
 
