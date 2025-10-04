@@ -22,10 +22,10 @@
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
-| U20231A816 |Valverde Portuguez|  Natalia Ximena |
-| U202019498 |Fernandez Garfias |  Alexander Piero|
-| u20191c464 |Saavedra Angulo   |  Jose Jhonatan  |
-|            |                  |                 |
+| U20231A816 | Valverde Portuguez| Natalia Ximena |
+| U202019498 | Fernandez Garfias | Alexander Piero |
+| u20191c464 | Saavedra Angulo   | Jose Jhonatan  |
+| U20201F051 | Ramos Aguirre    | Aldair Joaquin |
 
 
 **Mes y Año:** Septiembre 2025
@@ -40,97 +40,130 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 | Versión |   Fecha    |                 Autor                 |                 Descripción de los Cambios                  |
 |:-------:|:----------:|:-------------------------------------:|:-----------------------------------------------------------:|
-|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) |                                                             |
+|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) | Estructuración inicial del proyecto y coordinación del equipo |
 |   1.0   | 01/09/2025 |     Italo Sebastian Verona Flores     | Creación del documento inicial del Informe de Trabajo Final |
+|   1.1   | 15/09/2025 |    Natalia Ximena Valverde Portuguez  | Desarrollo de wireframes, mockups y guías de estilo visual |
+|   1.2   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
+|   1.3   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
+|   2.0   | 30/09/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
 
 
 ## Project Report Collaboration Insights
 
-- URL del repositorio para el Project Report:
+- **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/report
+- **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
+- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/report
 
-<!-- \-\- Enlace pendiente de agregar por el equipo y capturas sobre el avance en el git hub. \-\- -->
+### Colaboración y Evidencia de Trabajo en Equipo
+
+El desarrollo del presente informe de trabajo final se realizó de manera colaborativa utilizando las herramientas de control de versiones de GitHub. A continuación se presenta la evidencia de la participación y contribuciones de cada miembro del equipo:
+
+#### Análisis de Commits por Colaborador
+
+El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
+
+![Colaboración del Equipo](assets/commits_team1.png)
+
+#### Distribución de Contribuciones
+
+La colaboración se distribuyó de la siguiente manera:
+
+- **Gestión del repositorio y estructura inicial:** Configuración de la estructura base del documento
+- **Desarrollo de contenido por capítulos:** Cada miembro contribuyó con secciones específicas según su área de especialización
+- **Revisión y refinamiento:** Proceso iterativo de mejora del contenido mediante pull requests y revisiones colaborativas
+- **Integración final:** Consolidación de todas las contribuciones en el documento final
+
+#### Metodología de Trabajo Colaborativo
+
+- **Control de versiones:** Uso de Git para el seguimiento de cambios y colaboración
+- **Revisiones de contenido:** Implementación de pull requests para la validación del contenido
+- **Documentación continua:** Actualización incremental del informe durante todo el ciclo del proyecto
+- **Coordinación de equipo:** Reuniones regulares para alinear el progreso y resolver conflictos
 
 ## Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.1. Startup Profile](#11-startup-profile)
+        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+        - [1.2.2. Lean UX Process](#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+    - [2.1. Competidores](#21-competidores)
+        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+        - [2.3.1. User Personas](#231-user-personas)
+        - [2.3.2. User Task Matrix](#232-user-task-matrix)
+        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
 
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+        - [4.2.1. Organization Systems](#421-organization-systems)
+        - [4.2.2. Labeling Systems](#422-labeling-systems)
+        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+        - [4.2.4. Searching Systems](#424-searching-systems)
+        - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+        - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.8. Database Design](#48-database-design)
+        - [4.8.1. Database Diagrams](#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint n](#521-sprint-n)
-      - [5.2.1. Sprint Planning n](#5211-sprint-planning-n)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+        - [5.1.2. Source Code Management](#512-source-code-management)
+        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+        - [5.2.1. Sprint n](#521-sprint-n)
+            - [5.2.1. Sprint Planning n](#5211-sprint-planning-n)
+            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía y Referencias](#bibliografía-y-referencias)
 
 ## Student Outcome
 
@@ -138,7 +171,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 ### ABET – EAC - Student Outcome 5
 
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5
 
@@ -167,18 +200,12 @@ Entre sus principales características destacan:
 |   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
 |:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
 | U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
+| U20231A816 | Valverde Portuguez| Natalia Ximena | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
+| U20191C464 | Saavedra Angulo  | Jose Jhonatan   | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computación y el programar se me hace divertido, tengo habilidades en programación en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos. | ![saavedra.jpg](assets/saavedra.jpg)                                             
+|  U20201F051 |      Ramos Aguirre   |   Aldair Joaquin     |    Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.    |   ![aldair-ramos.jpg](assets/FotoAldair.jpg) |
+| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                               
 
-| U20231A816 | Valverde Portuguez| Natalia Ximena |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
-| U20191C464 | Saavedra Angulo  | Jose Jhonatan   |Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computacion y el programar se me hace divertido, tengo habilidades en programacion en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos..| ![saavedra.jpg](assets/saavedra.jpg)                                             
-|  U20201F051 |      Ramos Aguirre   |   Aldair Joaquin     |    Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.                                |    ![aldair-ramos.jpg](assets/FotoAldair.jpg)                                           |            |               |                 |                    |
 
-| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/alex-fernandez.jpg) |                                                                               
-
-|   |  |   |   |  |  
-|   |  |   |   |  |  
-
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
----
 
 ## 1.2. Solution Profile
 
@@ -240,38 +267,38 @@ Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digita
 #### 1.2.2.2. Lean UX Assumptions
 
 1. Creo que mis clientes necesitan
-Una solución integral de gestión hotelera que automatice procesos operativos, optimice el uso de recursos y proporcione una experiencia personalizada a los huéspedes mediante tecnología IoT.
+   Una solución integral de gestión hotelera que automatice procesos operativos, optimice el uso de recursos y proporcione una experiencia personalizada a los huéspedes mediante tecnología IoT.
 
 2. Estas necesidades se pueden resolver con
-Una plataforma web SaaS integrada con dispositivos IoT que permita el monitoreo en tiempo real de habitaciones, automatización de servicios hoteleros y control personalizado del ambiente por parte de los huéspedes.
+   Una plataforma web SaaS integrada con dispositivos IoT que permita el monitoreo en tiempo real de habitaciones, automatización de servicios hoteleros y control personalizado del ambiente por parte de los huéspedes.
 
 3. Mis clientes iniciales son (o serán)
-Hoteles boutique y de lujo (3-5 estrellas) de 50-200 habitaciones ubicados en zonas turísticas de Lima Metropolitana, seguidos por cadenas hoteleras medianas y hoteles de negocios.
+   Hoteles boutique y de lujo (3-5 estrellas) de 50-200 habitaciones ubicados en zonas turísticas de Lima Metropolitana, seguidos por cadenas hoteleras medianas y hoteles de negocios.
 
 4. El valor #1 que un cliente quiere de mi servicio es
-Optimización operativa que reduzca costos y mejore la eficiencia del personal, junto con una experiencia diferenciada para huéspedes que aumente la satisfacción y calificaciones del hotel.
+   Optimización operativa que reduzca costos y mejore la eficiencia del personal, junto con una experiencia diferenciada para huéspedes que aumente la satisfacción y calificaciones del hotel.
 
 5. El cliente también puede obtener estos beneficios adicionales
-   - Reducción del 20-30% en costos de servicios públicos
-   - Dashboards analíticos para toma de decisiones basada en datos
-   - Integración con sistemas de gestión hotelera existentes
-   - Reportes automatizados de ocupación y rendimiento
-   - Marketing personalizado basado en preferencias de huéspedes
- 
+    - Reducción del 20-30% en costos de servicios públicos
+    - Dashboards analíticos para toma de decisiones basada en datos
+    - Integración con sistemas de gestión hotelera existentes
+    - Reportes automatizados de ocupación y rendimiento
+    - Marketing personalizado basado en preferencias de huéspedes
+
 6. Voy a adquirir la mayoría de mis clientes a través de
-Marketing directo a hoteles, participación en ferias de turismo y hospitalidad, partnerships con proveedores de sistemas hoteleros existentes, y referencias de clientes satisfechos.
+   Marketing directo a hoteles, participación en ferias de turismo y hospitalidad, partnerships con proveedores de sistemas hoteleros existentes, y referencias de clientes satisfechos.
 
 7. Haré dinero a través de
-Modelo de suscripción mensual escalonado según el número de habitaciones del hotel, más tarifas de instalación inicial de dispositivos IoT y servicios de consultoría para implementación.
+   Modelo de suscripción mensual escalonado según el número de habitaciones del hotel, más tarifas de instalación inicial de dispositivos IoT y servicios de consultoría para implementación.
 
 8. Mi competencia principal en el mercado será
-Sistemas de gestión hotelera tradicionales como Oracle Hospitality, Amadeus, y startups de hoteltech como Smartpricing y RoomRaccoon, así como proveedores de soluciones IoT para hospitalidad.
+   Sistemas de gestión hotelera tradicionales como Oracle Hospitality, Amadeus, y startups de hoteltech como Smartpricing y RoomRaccoon, así como proveedores de soluciones IoT para hospitalidad.
 
 9. Los venceremos debido a
-Nuestra integración completa entre gestión hotelera y tecnología IoT, enfoque específico en personalización del huésped, interface intuitiva, y capacidad de generar ROI medible a través de optimización de recursos.
+   Nuestra integración completa entre gestión hotelera y tecnología IoT, enfoque específico en personalización del huésped, interface intuitiva, y capacidad de generar ROI medible a través de optimización de recursos.
 
 10. Mi mayor riesgo de producto es
-La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectividad o confiabilidad de dispositivos IoT, y los altos costos iniciales de implementación que pueden desalentar a hoteles pequeños.
+    La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectividad o confiabilidad de dispositivos IoT, y los altos costos iniciales de implementación que pueden desalentar a hoteles pequeños.
 
 11. Resolveremos esto a través de
     - Programa piloto con descuentos para early adopters
@@ -327,6 +354,8 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
 #### 1.2.2.4. Lean UX Canvass
+
+**Evidencia:** [Ver presentación en Miro](https://miro.com/app/board/uXjVJMbuCUA=/?share_link_id=248616386994)
 ![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
 
 ## 1.3. Segmentos objetivos.
@@ -411,7 +440,6 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 **Validación del Mercado Objetivo**
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
-
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
