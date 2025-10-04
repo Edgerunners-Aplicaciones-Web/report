@@ -369,8 +369,7 @@ Key Results (KR):
 
 #### 1.2.2.4. Lean UX Canvass
 
-**Evidencia:** [Ver presentación en Miro](https://miro.com/app/board/uXjVJMbuCUA=/?share_link_id=248616386994)
-![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
+**Evidencia:** ![LEAN UX CANVAS](assets/chapter-01/LEAN-UX-CANVAS.png)
 
 ## 1.3. Segmentos objetivos.
 
