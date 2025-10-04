@@ -367,7 +367,7 @@ Key Results (KR):
     <p><strong>When we see</strong> that the pilot hotels report specific operational improvements and express a preference for our solution versus alternatives like Oracle Hospitality or manual management.</p>
 </div>
 
-#### 1.2.2.4. Lean UX Canvass
+#### 1.2.2.4. Lean UX Canvas
 
 **Evidencia:**
 
