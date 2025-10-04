@@ -62,7 +62,8 @@ El desarrollo del presente informe de trabajo final se realizó de manera colabo
 
 El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
 
-![Colaboración del Equipo](assets/commits_team1.png)
+<img src="assets/commits_team1.png" alt="Colaboración del Equipo" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
+<img src="assets/chapter-01/Insights%20landing.png" alt="Insights landing.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
 
 #### Distribución de Contribuciones
 
