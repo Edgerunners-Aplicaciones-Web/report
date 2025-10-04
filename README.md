@@ -23,9 +23,10 @@
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
 | U20231A816 |Valverde Portuguez|  Natalia Ximena |
+| U202019498 |Fernandez Garfias |  Alexander Piero |
 |            |                  |                 |
 |            |                  |                 |
-|            |                  |                 |
+
 
 **Mes y Año:** Septiembre 2025
 
@@ -51,23 +52,22 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 ## Contenido
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-    - [ABET – EAC - Student Outcome 5](#abet--eac---student-outcome-5)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#11-startup-profile)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvass](#1224-lean-ux-canvass)
-    - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-&-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -82,286 +82,49 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Italo Sebastian Verona Flores**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 2**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 3**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 4**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas)<br><br>**Integrante 5**<br>*TB1*<br>Colocar que hiciste en la TB1 (Acciones realizadas) | *TB1*<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1]<br>• [Colocar conclusiones del equipo para TB1] |
-# **Capítulo I: Introducción**
-
-## 1.1. Startup Profile
-
-La startup **Smart Stay** surge con el objetivo de transformar la gestión hotelera mediante el uso de tecnologías digitales e Internet of Things (IoT). Su propuesta busca integrar en una sola plataforma la administración de huéspedes, habitaciones y servicios, permitiendo al hotel optimizar recursos y, al mismo tiempo, ofrecer experiencias personalizadas a los clientes.
-
-Entre sus principales características destacan:
-
-- Registro automático de huéspedes mediante sistemas digitales.
-- Identificación de habitaciones ocupadas, libres o en mantenimiento.
-- Monitoreo de temperatura, iluminación y consumo energético.
-- Integración con dispositivos IoT para controlar persianas, temperatura del agua y otros aspectos del confort del huésped.
-- Personalización de servicios, como programación de limpieza, room service o entrega de comidas en horarios flexibles.
-
-
-### 1.1.2. Perfiles de integrantes del equipo
-
-|   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
-|:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
-| U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
-
----
-
-## 1.2. Solution Profile
-
-### 1.2.1. Antecedentes y problemática
-
-### **Who? (¿Quiénes?)**
-El problema afecta principalmente a los administradores y personal operativo de hoteles, así como a los huéspedes que buscan una experiencia personalizada y eficiente. El personal del hotel debe gestionar manualmente múltiples aspectos como registro de huéspedes, control de habitaciones, servicios de limpieza y gestión de inventarios.
-
-### **What? (¿Qué?)**
-El problema central es la falta de automatización y digitalización en la gestión hotelera integral. Esto incluye la gestión manual de reservas, control ineficiente de habitaciones, falta de personalización en la experiencia del huésped, y monitoreo deficiente de recursos y servicios del hotel.
-
-### **Where? (¿Dónde?)**
-La problemática se presenta en todas las áreas del hotel: recepción, habitaciones, áreas de servicio, cocina, limpieza, y en la gestión administrativa. También afecta la experiencia del huésped dentro de su habitación y en su interacción con los servicios del hotel.
-
-### **When? (¿Cuándo?)**
-Ocurre durante las 24 horas del día, los 7 días de la semana, especialmente durante las horas pico de check-in/check-out, temporadas altas, y cuando hay múltiples solicitudes simultáneas de servicios por parte de los huéspedes.
-
-### **Why? (¿Por qué?)**
-El problema existe debido a la dependencia de sistemas tradicionales de gestión hotelera que no están integrados, la falta de automatización en el control de habitaciones y servicios, y la ausencia de tecnología IoT que permita el monitoreo en tiempo real y la personalización de la experiencia del huésped.
-
-### **How? (¿Cómo?)**
-El personal debe realizar múltiples tareas manuales como verificar disponibilidad de habitaciones, coordinar servicios de limpieza, gestionar pedidos de room service, controlar inventarios, y atender solicitudes de huéspedes sin un sistema centralizado. Los huéspedes no pueden personalizar su estancia de manera autónoma y deben depender del personal para ajustes básicos.
-
-### **How Much? (¿Cuánto?)**
-La ineficiencia operativa puede representar pérdidas de 15-20% en productividad del personal, incremento en costos operativos por uso ineficiente de recursos (energía, agua, suministros), y una disminución en la satisfacción del cliente que puede afectar las reseñas y la ocupación futura. El costo de oportunidad incluye la pérdida de huéspedes que buscan experiencias más modernas y personalizadas.
-
-### 1.2.2 Lean UX Process
-
-#### 1.2.1.1 Lean UX Problem Statements.
-
-**Problem Statement: Gestión Manual de Habitaciones**
-
-Nuestro servicio de gestión hotelera busca optimizar la experiencia tanto del personal del hotel como de los huéspedes a través de una plataforma integrada que conecte todos los aspectos operativos del hotel. A través de nuestro servicio, los administradores hoteleros pueden gestionar eficientemente las habitaciones, servicios y recursos del hotel mientras los huéspedes pueden personalizar su experiencia de estancia.
-
-Hemos observado un factor crítico que afecta la eficiencia operativa: la gestión manual de habitaciones y servicios que genera ineficiencias, errores en la disponibilidad y falta de personalización en tiempo real. Actualmente, el personal debe verificar manualmente el estado de las habitaciones, coordinar servicios de limpieza y atender solicitudes de huéspedes sin un sistema centralizado que permita automatización y monitoreo en tiempo real.
-
-**Business Outcome:**
-
-Objective (O): Mejorar la eficiencia operativa del hotel en el primer ciclo de 4 meses.
-Key Results (KR):
-
-Reducir en 15% el tiempo promedio de check-in y check-out.
-
-Disminuir en 10% los costos de operación relacionados con procesos manuales.
-
-Alcanzar al menos 80% de adopción del sistema por parte del personal administrativo en tareas diarias.
-
-**User Outcome:**
-
-Objective (O): Brindar una experiencia de gestión más rápida y clara para huéspedes y personal.
-Key Results (KR):
-
-Lograr que los huéspedes completen su check-in digital en menos de 3 minutos.
-
-Obtener una calificación de satisfacción de usuarios (NPS o encuesta) de al menos 8/10 en la nueva experiencia de registro.
-
-Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digital sin necesidad de asistencia del personal.
-
-#### 1.2.2.2. Lean UX Assumptions
-
-1. Creo que mis clientes necesitan
-Una solución integral de gestión hotelera que automatice procesos operativos, optimice el uso de recursos y proporcione una experiencia personalizada a los huéspedes mediante tecnología IoT.
-
-2. Estas necesidades se pueden resolver con
-Una plataforma web SaaS integrada con dispositivos IoT que permita el monitoreo en tiempo real de habitaciones, automatización de servicios hoteleros y control personalizado del ambiente por parte de los huéspedes.
-
-3. Mis clientes iniciales son (o serán)
-Hoteles boutique y de lujo (3-5 estrellas) de 50-200 habitaciones ubicados en zonas turísticas de Lima Metropolitana, seguidos por cadenas hoteleras medianas y hoteles de negocios.
-
-4. El valor #1 que un cliente quiere de mi servicio es
-Optimización operativa que reduzca costos y mejore la eficiencia del personal, junto con una experiencia diferenciada para huéspedes que aumente la satisfacción y calificaciones del hotel.
-
-5. El cliente también puede obtener estos beneficios adicionales
-   - Reducción del 20-30% en costos de servicios públicos
-   - Dashboards analíticos para toma de decisiones basada en datos
-   - Integración con sistemas de gestión hotelera existentes
-   - Reportes automatizados de ocupación y rendimiento
-   - Marketing personalizado basado en preferencias de huéspedes
- 
-6. Voy a adquirir la mayoría de mis clientes a través de
-Marketing directo a hoteles, participación en ferias de turismo y hospitalidad, partnerships con proveedores de sistemas hoteleros existentes, y referencias de clientes satisfechos.
-
-7. Haré dinero a través de
-Modelo de suscripción mensual escalonado según el número de habitaciones del hotel, más tarifas de instalación inicial de dispositivos IoT y servicios de consultoría para implementación.
-
-8. Mi competencia principal en el mercado será
-Sistemas de gestión hotelera tradicionales como Oracle Hospitality, Amadeus, y startups de hoteltech como Smartpricing y RoomRaccoon, así como proveedores de soluciones IoT para hospitalidad.
-
-9. Los venceremos debido a
-Nuestra integración completa entre gestión hotelera y tecnología IoT, enfoque específico en personalización del huésped, interface intuitiva, y capacidad de generar ROI medible a través de optimización de recursos.
-
-10. Mi mayor riesgo de producto es
-La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectividad o confiabilidad de dispositivos IoT, y los altos costos iniciales de implementación que pueden desalentar a hoteles pequeños.
-
-11. Resolveremos esto a través de
-    - Programa piloto con descuentos para early adopters
-    - Soporte técnico 24/7 durante implementación
-    - Garantías de tiempo de actividad y planes de contingencia
-    - Modelos de financiamiento flexibles
-    - Capacitación integral para personal hotelero
-
-12. ¿Qué otras suposiciones tenemos que, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?
-
-    - Los hoteles tienen infraestructura WiFi suficiente para soportar dispositivos IoT
-    - Los huéspedes están dispuestos a interactuar con tecnología durante su estancia
-    - El personal hotelero puede adaptarse a herramientas digitales sin resistencia significativa
-    - Los dispositivos IoT tendrán una vida útil de al menos 3-5 años
-    - Las regulaciones de privacidad y seguridad no impedirán la recolección de datos de habitaciones
-    - El retorno de inversión será visible en los primeros 6-12 meses de implementación
-
-#### 1.2.2.3. Lean UX Hypothesis Statements
-
-**Hypothesis 1: Check-in/Check-out Digital**
-**Creemos que** implementar un sistema de check-in y check-out digital automatizado para huéspedes y personal de recepción reducirá en 15% el tiempo promedio de estos procesos.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** que los huéspedes completan su registro en menos de 3 minutos y el 70% utiliza el sistema digital sin necesidad de asistencia del personal.
-
-**Hypothesis 2: Adopción del Personal Administrativo**
-**Creemos que** proporcionar una plataforma intuitiva de gestión hotelera con capacitación integral para personal administrativo logrará al menos 80% de adopción del sistema en tareas diarias.
-**Sabremos que esto es cierto**
-**Cuando veamos** un uso diario constante del sistema por parte del personal y una reducción del 10% en costos operativos manuales después de 4 meses de implementación.
-
-**Hypothesis 3: Satisfacción del Usuario**
-**Creemos que** ofrecer una experiencia de gestión digital más rápida y clara para huéspedes y personal del hotel mejorará significativamente la satisfacción general.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** una calificación de satisfacción de al menos 8/10 en encuestas NPS y que el 70% de usuarios recurrentes utilicen las funcionalidades sin asistencia.
-
-**Hypothesis 4: Optimización de Recursos IoT**
-**Creemos que** integrar dispositivos IoT para monitoreo de temperatura, luz y consumo energético para administradores hoteleros optimizará el uso de recursos del hotel.
-**Sabremos que esto es cierto**
-**Cuando veamos** una reducción del 20% en gastos de servicios públicos y reportes detallados de consumo que permitan mejor control de recursos durante el período de 4 meses.
-
-**Hypothesis 5: Personalización de la Experiencia**
-**Creemos que** permitir a los huéspedes controlar directamente el ambiente de su habitación y programar servicios aumentará su satisfacción y consumo de servicios adicionales.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** un aumento del 25% en la satisfacción del cliente en encuestas post-estadía y un incremento del 15% en pedidos de room service y servicios opcionales.
-
-**Hypothesis 6: Adopción de Hoteles Piloto**
-**Creemos que** ofrecer un modelo de suscripción escalable con implementación gradual para hoteles boutique y pequeños en Lima generará interés y participación en nuestro programa piloto.
-**Sabremos que esto es cierto**
-**Cuando veamos** la participación de al menos 3 hoteles en nuestro piloto universitario con acuerdos firmados de colaboración y confirmación de implementación post-desarrollo.
-
-**Hypothesis 7: Ventaja Competitiva**
-**Creemos que** nuestra integración completa entre gestión hotelera tradicional y tecnología IoT para hoteles que buscan modernización nos dará ventaja sobre sistemas tradicionales.
-**Sabremos que hemos tenido éxito**
-**Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
-
-#### 1.2.2.4. Lean UX Canvass
-![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
-
-## 1.3. Segmentos objetivos.
-
-Esta sección incluye la descripción de los segmentos asociados al dominio del problema de gestión hotelera manual e ineficiente, incluyendo características demográficas e información estadística de sustento.
-
-**Segmento Primario: Administradores de Hoteles Boutique y Pequeños en Lima**
-
-**Características Demográficas:**
-
-- **Edad**: Entre 35 y 50 años (basado en estudios regionales)
-- **Nivel educativo**: Técnico o universitario en administración hotelera, turismo o áreas afines
-- **Experiencia profesional**: 5-15 años en el sector hotelero, especialmente en hoteles de 3-4 estrellas
-- **Cargo**: Gerentes generales, administradores, directores de operaciones
-
-**Información del Sector:**
-
-- **Número de hoteles**: Más de 300 hoteles pequeños (20-100 habitaciones) en Lima Metropolitana
-- **Categorías**: Principalmente 3-4 estrellas
-- **Ubicación**: Concentrados en Miraflores, San Isidro, Barranco y Centro Histórico
-- **Tipo**: Hoteles boutique e independientes
-
-**Inversión en Tecnología**
-- **Presupuesto anual**: Entre $1,000 y $5,000 USD para sistemas de gestión y automatización
-- **Adopción**: Transición lenta pero creciente hacia sistemas digitales
-- **Apoyo**: Capacitaciones y subsidios tecnológicos disponibles a través de FEDECATUR
-
-**Desafíos Operativos Identificados**
-- Falta de acceso a financiamiento para modernización tecnológica
-- Altos costos operativos por procesos manuales y baja eficiencia
-- Tiempo excesivo dedicado a tareas administrativas (reduce atención al cliente)
-- Impacto del tipo de cambio y estacionalidad que limita inversiones
-- Muchos hoteles pequeños aún operan con procesos manuales en contabilidad, reservas y atención al cliente
-
----
-
-**Segmento Secundario: Huéspedes de Hoteles**
-
-**Perfil Demográfico**
-- **Edad**: Entre 25 y 45 años (alta presencia de millennials y jóvenes profesionales)
-- **Nivel socioeconómico**: Medio-alto a alto, con capacidad de gasto superior al promedio
-- **Procedencia**:
-    - **Internacional**: 40% - turistas de EE.UU., Europa, Chile y Colombia
-    - **Nacional**: 60% - limeños y viajeros de Arequipa y Cusco que buscan experiencias urbanas modernas
-
-**Comportamiento de Viaje**
-- **Frecuencia**: 2-4 viajes al año, combinando ocio y trabajo (bleisure)
-- **Duración promedio**: 2-5 noches en hoteles boutique
-- **Gasto promedio**: $90-180 USD por noche (dependiendo del distrito y categoría)
-
-**Preferencias Tecnológicas**
-- **68%** elige hoteles con buena reputación digital (reseñas, presencia en redes, apps de reserva)
-- **Dispuestos a pagar más** por experiencias digitales como:
-    - Check-in sin contacto
-    - Control de habitación vía app
-    - WiFi de alta velocidad
-    - Smart TV y asistentes virtuales
-
-**Uso de Tecnología Durante la Estadía**
-- **Dispositivo principal**: Smartphones para gestionar toda la estadía
-- **Servicios esperados**:
-    - WiFi gratuito y rápido
-    - Apps del hotel para servicios internos
-    - Integración con WhatsApp o Booking Pulse para atención al cliente
-- **Gestión digital**: Reservas, pagos, mapas, recomendaciones
-
-**Mercado Hotelero Boutique en Lima**
-- **Total de hoteles**: Más de 2,000 hoteles registrados en Lima, con una parte significativa siendo boutique o pequeños
-- **Hoteles destacados**: Pullman Lima Miraflores y Vignette Collection SOUMA (integran tecnología y diseño moderno)
-- **Crecimiento**: Sostenido en el segmento boutique, impulsado por viajeros que valoran experiencias personalizadas y digitales
-- **Ingresos adicionales**: 10-20% del total provienen de servicios digitales (upgrades, experiencias virtuales, tours online) en hoteles bien posicionados
-
-
-**Datos de Sustento Estadístico**
-
-**Oportunidad de Mercado**
-- Lima cuenta con más de 300 hoteles pequeños objetivo para Smart Stay
-- El 68% de huéspedes valora la reputación digital del hotel
-- Los ingresos por servicios digitales representan hasta 20% del total en hoteles tecnológicamente avanzados
-- Crecimiento sostenido del segmento boutique impulsado por demanda de experiencias digitales personalizadas
-
-**Validación del Mercado Objetivo**
-
-Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
 
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
 ## 2.1. Competidores.
 
-El mercado de soluciones para gestión hotelera en Lima y a nivel global presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
-
+El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
 
 #### 2.1.1 Análisis Competitivo.
 
-El análisis competitivo permite identificar las fortalezas y debilidades de los principales actores del mercado frente a la propuesta de **Smart Stay**.  
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
 
-| Competidor              | Fortalezas                                                                 | Debilidades                                                                 | Diferenciación de Smart Stay |
-|--------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------------------|
-| **Oracle Hospitality**  | Reconocimiento global, soluciones completas de gestión hotelera.           | Alto costo, complejidad de implementación, poco flexible para hoteles pequeños. | Plataforma más accesible y enfocada en hoteles boutique. |
-| **Amadeus Hospitality** | Escalabilidad, fuerte presencia en cadenas hoteleras internacionales.      | Costos elevados, lenta implementación, baja personalización.               | Enfoque ágil y flexible para hoteles independientes. |
-| **RoomRaccoon**         | SaaS en la nube, interfaz intuitiva, diseñado para hoteles pequeños.       | Limitada presencia en LATAM, soporte técnico remoto.                       | Presencia local y soporte técnico en español para Lima. |
-| **Smartpricing**        | IA para revenue management y optimización de precios.                      | No cubre operaciones completas ni personalización del huésped.             | Gestión integral + IoT con personalización de la experiencia. |
-| **Startups locales**    | Precios accesibles, soporte en español, integración con canales de reservas. | Funcionalidades limitadas, sin IoT, poco enfoque en experiencia del huésped. | Plataforma integral que combina PMS + IoT + personalización. |
-| **Sistemas manuales**   | Bajo costo inicial, fáciles de usar sin capacitación avanzada.             | Ineficiencia, errores frecuentes, cero automatización.                     | Digitalización total y reducción de costos operativos. |
+---
 
+### Matriz comparativa de competidores
+
+| **Perfil** | **Smart Stay** | **Oracle Hospitality** | **Amadeus Hospitality** | **Mapache de la Habitación** | **Precios Inteligentes** | **Locales de Startups** | **Manuales de sistemas** |
+|------------|----------------|-------------------------|--------------------------|------------------------------|--------------------------|--------------------------|---------------------------|
+| **Overview** | Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped. | Soluciones globales y completas para gestión de grandes cadenas hoteleras. | Amplia escalabilidad y fuerte presencia internacional en hoteles de cadena. | SaaS en la nube, intuitivo, orientado a hoteles pequeños. | Especializado en revenue management mediante IA. | Plataformas económicas de gestión con soporte en español. | Sistemas tradicionales manuales o básicos de baja tecnología. |
+| **Ventaja competitiva / Valor al cliente** | Accesibilidad, personalización de la experiencia, integración IoT. | Reconocimiento global, soluciones integrales para grandes cadenas. | Escalabilidad para cadenas internacionales. | Facilidad de uso y simplicidad para hoteles pequeños. | Optimización avanzada de precios con IA. | Precios bajos, integración básica con canales de reserva. | Costo bajo y simplicidad. |
+| **Mercado objetivo** | Hoteles boutique, medianos y en crecimiento en LATAM. | Grandes cadenas hoteleras globales. | Cadenas internacionales y corporativos. | Hoteles pequeños y en crecimiento. | Cadenas y hoteles con enfoque en maximizar ingresos. | Pequeños hoteles y emprendimientos locales. | Hoteles pequeños con recursos limitados. |
+| **Estrategias de marketing** | Enfoque local (LATAM), diferenciación por IoT y experiencia del huésped. | Branding global y posicionamiento corporativo. | Alianzas estratégicas con cadenas internacionales. | Estrategia digital enfocada en facilidad de uso. | Marketing basado en innovación tecnológica (IA). | Propuesta de accesibilidad y soporte local. | Costos bajos y adopción por necesidad. |
+
+---
+
+### Perfil de negocio  
+
+| **Dimensión** | **Smart Stay** | **Competidores** |
+|---------------|----------------|------------------|
+| **Productos & Servicios** | PMS + IoT + personalización de huésped. | Gestión hotelera tradicional, revenue management, SaaS simples o manuales. |
+| **Precios & Costos** | Accesibles y escalables. | Desde muy elevados (Oracle, Amadeus) hasta muy bajos (manuales/startups). |
+| **Canales de distribución** | Web, móvil, soporte local en español. | Globales (Oracle/Amadeus), digitales limitados (otros SaaS), presenciales (manuales). |
+
+---
+
+### Análisis SWOT comparativo  
+
+| | **Smart Stay** | **Competidores** |
+|---|---------------|------------------|
+| **Fortalezas** | Enfoque local, personalización, IoT, integración completa. | Reconocimiento global (Oracle, Amadeus), IA especializada (Precios Inteligentes), simplicidad (Mapache). |
+| **Debilidades** | Menor reconocimiento global, menor penetración inicial. | Altos costos, baja personalización, falta de soporte local o limitaciones funcionales. |
+| **Oportunidades** | Creciente digitalización en LATAM, demanda de soluciones accesibles. | Expansión en mercados emergentes. |
+| **Amenazas** | Entrada de grandes jugadores al mercado LATAM, cambios tecnológicos rápidos. | Innovación constante de startups locales. |
 
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
@@ -426,16 +189,73 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 #### Entrevista 1
 
+Datos del entrevistado:
+
+**Nombre completo:** Adrian Saavedra Angulo 
+
+**Edad:** 34 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 8:07 minutos
+
+**Evidencia:** ![adrian entrevistado](assets/adrian_entrevistado.jpg)
+
+**Resumen de la entrevista**
+
+Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 personas. Su rutina diaria incluye revisar reservas, coordinar limpieza, organizar recojos y responder a nuevas solicitudes. Los procesos de reservas y facturación son constantes por el alto movimiento del negocio.
+Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
+
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+
 ---
 
 #### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** Monica Hernandez Vela 
+
+**Edad:** 33 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 5:53 minutos
+
+**Evidencia:** ![monica entrevistada](assets/monica_entrevistada.jpg)
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+
+Mónica administra un hotel de 12 habitaciones en Tarapoto con un equipo de 4 personas. Su rutina diaria incluye organizar los desayunos, coordinar la limpieza, asignar habitaciones, atender a los turistas y revisar constantemente las reservas. Utiliza un sistema propio a través de la página web del hotel, gestionado principalmente desde laptops y computadoras, y se comunica con su personal mediante WhatsApp.
+Ha tenido dificultades con el uso del sistema actual y señala que le motivaría adoptar una herramienta digital que centralice la gestión de reservas y operaciones, siempre que pueda adaptarse a las características de su hotel. Considera razonable pagar una suscripción mensual si contribuye a mejorar los servicios del establecimiento.
 
 ---
 
 #### Entrevista 3
 
----
+Datos del entrevistado:
+**Nombre completo:** Alejandra Beltrán Diaz
 
+**Edad:** 23 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 4:11 minutos
+
+**Evidencia:** ![entrevista alejandra](assets/alejandra_entrevistada.jpg)
+
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+
+Valeria Alejandra administra un hotel de 19 habitaciones junto a un equipo de 5 personas. Su día típico comienza organizando al personal de limpieza, revisando las reservas recibidas por WhatsApp y luego trasladándolas a un archivo Excel para llevar el control. Su principal herramienta es este archivo, aunque reconoce que no siempre guarda correctamente la información, lo que ha ocasionado problemas con reservas perdidas.
+También ha tenido experiencias negativas con WhatsApp, ya que a veces resulta difícil ubicar las reservas registradas en la aplicación. Para ella, un sistema ideal de gestión debería incluir notificaciones automáticas que recuerden las reservas del día. Valeria considera que pagar una suscripción mensual sería una buena opción si la herramienta realmente simplifica las labores administrativas del hotel.
+
+---
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
 
@@ -574,15 +394,17 @@ en la limpieza. Considera muy práctico un sistema de check-in digital y control
 | ------------ | ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------- | -------------- |
 | Diego (25)   | Viaja con pareja/familia | Esperas en recepción, falta de personalización                        | Check-in/out digital, control desde celular, app unificada | Sí, +10%-15%   |
 | Juan (44)    | Viaja por trabajo        | Horarios rígidos, Wi-Fi deficiente, falta de limpieza/personalización | Mejor Wi-Fi, atención rápida, flexibilidad                 | No pagaría más |
+| Tadeo (22)   | Viaja por turismo anual  | Esperas en recepción, falta de coordinación en limpieza               | Check-in digital, control desde app, llaves digitales      | Sí, hasta +5%  |
+| Joaquín (21) | Viaja por turismo anual  | Largas esperas, limpieza deficiente                                   | Check-in digital, control desde app, llaves digitales      | Sí, +5% a +10% |
+
 
 
 **Hallazgos clave segmento 2:**
 
-- Problemas principales: Los participantes señalaron como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, la escasa flexibilidad de horarios y, en algunos casos, deficiencias en la conectividad Wi-Fi y en la limpieza.
-- Solución esperada: Se valora la posibilidad de contar con herramientas digitales que permitan realizar check-in y check-out sin esperas, controlar funciones de la habitación desde el dispositivo móvil (iluminación, temperatura, room service), así como garantizar la disponibilidad de información en tiempo real sobre los servicios. En este sentido, la digitalización es vista como un facilitador de la experiencia, siempre que no elimine el valor del trato humano.
-- Disposición de pago: El segmento presenta posiciones diferenciadas. Algunos usuarios jóvenes se mostraron dispuestos a pagar entre un 10% y 15% más por hoteles que ofrezcan experiencias digitales avanzadas, mientras que los viajeros de mayor edad no consideran prioritario este tipo de servicios y prefieren mantener costos contenidos.
-- Perfil digital: Los entrevistados confían en herramientas digitales como el Wi-Fi, la Smart TV y las reseñas en línea para tomar decisiones de hospedaje. Su nivel de madurez tecnológica puede clasificarse como intermedio, con apertura hacia soluciones innovadoras, aunque condicionado por la facilidad de uso y la percepción de valor añadido
-
+- Problemas principales: Los participantes identifican como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, los horarios inflexibles, problemas de limpieza y deficiencias en la conectividad Wi-Fi. Estas situaciones afectan tanto a viajeros frecuentes como a los que viajan por turismo ocasional.
+- Solución esperada: Existe una fuerte preferencia por herramientas digitales que faciliten el check-in/check-out sin contacto, el control de funciones de la habitación desde el celular (como iluminación, temperatura y llaves digitales), y la disponibilidad de una app única para centralizar todos los servicios. Aunque la personalización total no es vista como esencial por todos, sí se espera comodidad y eficiencia.
+- Disposición de pago: Los usuarios más jóvenes muestran disposición a pagar entre un 5% y 15% más por experiencias digitales que realmente mejoren su estadía. Por otro lado, los viajeros mayores, como profesionales en viaje de trabajo, priorizan la funcionalidad y el costo, y no están dispuestos a pagar más por servicios digitales avanzados.
+- Perfil digital: El nivel de madurez tecnológica del segmento puede clasificarse como intermedio a alto. Todos los entrevistados utilizan Wi-Fi, Smart TV y reseñas digitales como parte clave de su experiencia de hospedaje. Existe apertura hacia la innovación, siempre que esta sea fácil de usar y aporte valor real a la experiencia del huésped.
 
 **Conclusión Integradora**
 
@@ -608,28 +430,7 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
-La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
-
-**Adrián Ramírez (Administrador de hotel boutique)**
-
-| **Tarea**                           | **Frecuencia** | **Importancia** |
-|-------------------------------------|----------------|-----------------|
-| Gestionar reservas y disponibilidad | Alta           | Alta            |
-| Evitar sobreventas y duplicados     | Alta           | Alta            |
-| Coordinar limpieza y personal       | Media          | Alta            |
-| Revisar y responder solicitudes     | Alta           | Media           |
-| Centralizar operaciones en un sistema único | Media | Alta |
-
 ---
-
-**Valeria Ríos (Huésped)**
-
-| **Tarea**                                  | **Frecuencia** | **Importancia** |
-|--------------------------------------------|----------------|-----------------|
-| Hacer check-in/check-out                   | Alta           | Alta            |
-| Acceder a wifi rápido y confiable          | Alta           | Alta            |
-| Personalizar su estadía con servicios digitales | Media      | Alta            |
-| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
@@ -654,16 +455,10 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
-**Adrián Ramírez (Administrador de hotel boutique):**
-
-![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
-
-**Valeria Ríos (Huésped / Viajera):**
-
-![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
+---
 
 ## 2.4. Big Picture EventStorming.
-![Screenshot](assets/Chapter-02/Booking.jpeg)
+
 ---
 
 ## 2.5. Ubiquitous Language.
@@ -682,6 +477,4 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | Guest Feedback               | Retroalimentación del huésped      | Opiniones y calificaciones que los huéspedes comparten sobre su estadía, utilizadas para mejorar los servicios.                                     |
 
 ---
-
-
 
