@@ -50,7 +50,9 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 ## Project Report Collaboration Insights
 
+- **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/report
 - **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
+- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/report
 
 ### Colaboración y Evidencia de Trabajo en Equipo
 
