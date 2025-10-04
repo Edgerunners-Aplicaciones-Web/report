@@ -167,10 +167,6 @@ La colaboración se distribuyó de la siguiente manera:
 
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía y Referencias](#bibliografía-y-referencias)
-
-- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-- [Bibliografía y Referencias](#bibliografía-y-referencias)
-
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
