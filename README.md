@@ -192,7 +192,7 @@ El análisis competitivo permite identificar las fortalezas, debilidades y estra
   <tr>
 <th colspan="2">Competidores</th>
 <th>Smart Stay<br>
-<img src="assets/UPC-Logo.png" alt="Smart Stay Logo" width="60">
+<img src="assets/Chapter-02/logo.png" alt="Smart Stay Logo" width="60">
 </th>
 <th>
 Oracle Hospitality<br>
@@ -204,11 +204,9 @@ Room Raccoon<br>
 </th>
 <th>
 Sistemas Manuales<br>
-<img src="assets/Chapter-02/manual-system.png" alt="Sistemas Manuales Logo" width="60">
+<img src="assets/Chapter-02/Sistemas-Manuales.jpg" alt="Sistemas Manuales Logo" width="60">
 </th>
 
-    
-    <th><br>(Sistemas Manuales)</th>
   </tr>
 
   <tr>
