@@ -295,25 +295,6 @@ Sistemas Manuales<br>
   </tr>
 </table>
 
-### Perfil de negocio  
-
-| **Dimensión** | **Smart Stay** | **Competidores** |
-|---------------|----------------|------------------|
-| **Productos & Servicios** | PMS + IoT + personalización de huésped. | Gestión hotelera tradicional, revenue management, SaaS simples o manuales. |
-| **Precios & Costos** | Accesibles y escalables. | Desde muy elevados (Oracle, Amadeus) hasta muy bajos (manuales/startups). |
-| **Canales de distribución** | Web, móvil, soporte local en español. | Globales (Oracle/Amadeus), digitales limitados (otros SaaS), presenciales (manuales). |
-
----
-
-### Análisis SWOT comparativo  
-
-| | **Smart Stay** | **Competidores** |
-|---|---------------|------------------|
-| **Fortalezas** | Enfoque local, personalización, IoT, integración completa. | Reconocimiento global (Oracle, Amadeus), IA especializada (Precios Inteligentes), simplicidad (Mapache). |
-| **Debilidades** | Menor reconocimiento global, menor penetración inicial. | Altos costos, baja personalización, falta de soporte local o limitaciones funcionales. |
-| **Oportunidades** | Creciente digitalización en LATAM, demanda de soluciones accesibles. | Expansión en mercados emergentes. |
-| **Amenazas** | Entrada de grandes jugadores al mercado LATAM, cambios tecnológicos rápidos. | Innovación constante de startups locales. |
-
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
 Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
