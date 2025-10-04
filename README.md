@@ -370,6 +370,7 @@ Key Results (KR):
 #### 1.2.2.4. Lean UX Canvass
 
 **Evidencia:**
+
 <img src="assets/chapter-01/LEAN-UX-CANVAS.png" alt="LEAN UX CANVAS" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
 
 ## 1.3. Segmentos objetivos.
