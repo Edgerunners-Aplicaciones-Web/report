@@ -23,9 +23,10 @@
 |:----------:|:----------------:|:---------------:|
 | U20221E617 | Verona Flores    | Italo Sebastian |
 | U20231A816 |Valverde Portuguez|  Natalia Ximena |
+| U202019498 |Fernandez Garfias |  Alexander Piero |
 |            |                  |                 |
 |            |                  |                 |
-|            |                  |                 |
+
 
 **Mes y Año:** Septiembre 2025
 
@@ -51,23 +52,86 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 ## Contenido
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-    - [ABET – EAC - Student Outcome 5](#abet--eac---student-outcome-5)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#11-startup-profile)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvass](#1224-lean-ux-canvass)
-    - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-&-analysis)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint n](#521-sprint-n)
+      - [5.2.1. Sprint Planning n](#5211-sprint-planning-n)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -102,7 +166,7 @@ Entre sus principales características destacan:
 |   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
 |:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
 | U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
-|            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
+| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/alex-fernandez.jpg) |                                                                                                                                                                  |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
 |            |               |                 |                                                                                                                                                                                                                                                                                                                                                                       |                                              |            |               |                 |                    |
@@ -256,6 +320,8 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
 #### 1.2.2.4. Lean UX Canvass
+
+**Evidencia:** [Ver presentación en Miro](https://miro.com/app/board/uXjVJMbuCUA=/?share_link_id=248616386994)
 ![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
 
 ## 1.3. Segmentos objetivos.
@@ -351,17 +417,39 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel global present
 
 #### 2.1.1 Análisis Competitivo.
 
-El análisis competitivo permite identificar las fortalezas y debilidades de los principales actores del mercado frente a la propuesta de **Smart Stay**.  
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
 
-| Competidor              | Fortalezas                                                                 | Debilidades                                                                 | Diferenciación de Smart Stay |
-|--------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------------------|
-| **Oracle Hospitality**  | Reconocimiento global, soluciones completas de gestión hotelera.           | Alto costo, complejidad de implementación, poco flexible para hoteles pequeños. | Plataforma más accesible y enfocada en hoteles boutique. |
-| **Amadeus Hospitality** | Escalabilidad, fuerte presencia en cadenas hoteleras internacionales.      | Costos elevados, lenta implementación, baja personalización.               | Enfoque ágil y flexible para hoteles independientes. |
-| **RoomRaccoon**         | SaaS en la nube, interfaz intuitiva, diseñado para hoteles pequeños.       | Limitada presencia en LATAM, soporte técnico remoto.                       | Presencia local y soporte técnico en español para Lima. |
-| **Smartpricing**        | IA para revenue management y optimización de precios.                      | No cubre operaciones completas ni personalización del huésped.             | Gestión integral + IoT con personalización de la experiencia. |
-| **Startups locales**    | Precios accesibles, soporte en español, integración con canales de reservas. | Funcionalidades limitadas, sin IoT, poco enfoque en experiencia del huésped. | Plataforma integral que combina PMS + IoT + personalización. |
-| **Sistemas manuales**   | Bajo costo inicial, fáciles de usar sin capacitación avanzada.             | Ineficiencia, errores frecuentes, cero automatización.                     | Digitalización total y reducción de costos operativos. |
+---
 
+### Matriz comparativa de competidores
+
+| **Perfil** | **Smart Stay** | **Oracle Hospitality** | **Amadeus Hospitality** | **Mapache de la Habitación** | **Precios Inteligentes** | **Locales de Startups** | **Manuales de sistemas** |
+|------------|----------------|-------------------------|--------------------------|------------------------------|--------------------------|--------------------------|---------------------------|
+| **Overview** | Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped. | Soluciones globales y completas para gestión de grandes cadenas hoteleras. | Amplia escalabilidad y fuerte presencia internacional en hoteles de cadena. | SaaS en la nube, intuitivo, orientado a hoteles pequeños. | Especializado en revenue management mediante IA. | Plataformas económicas de gestión con soporte en español. | Sistemas tradicionales manuales o básicos de baja tecnología. |
+| **Ventaja competitiva / Valor al cliente** | Accesibilidad, personalización de la experiencia, integración IoT. | Reconocimiento global, soluciones integrales para grandes cadenas. | Escalabilidad para cadenas internacionales. | Facilidad de uso y simplicidad para hoteles pequeños. | Optimización avanzada de precios con IA. | Precios bajos, integración básica con canales de reserva. | Costo bajo y simplicidad. |
+| **Mercado objetivo** | Hoteles boutique, medianos y en crecimiento en LATAM. | Grandes cadenas hoteleras globales. | Cadenas internacionales y corporativos. | Hoteles pequeños y en crecimiento. | Cadenas y hoteles con enfoque en maximizar ingresos. | Pequeños hoteles y emprendimientos locales. | Hoteles pequeños con recursos limitados. |
+| **Estrategias de marketing** | Enfoque local (LATAM), diferenciación por IoT y experiencia del huésped. | Branding global y posicionamiento corporativo. | Alianzas estratégicas con cadenas internacionales. | Estrategia digital enfocada en facilidad de uso. | Marketing basado en innovación tecnológica (IA). | Propuesta de accesibilidad y soporte local. | Costos bajos y adopción por necesidad. |
+
+---
+
+### Perfil de negocio  
+
+| **Dimensión** | **Smart Stay** | **Competidores** |
+|---------------|----------------|------------------|
+| **Productos & Servicios** | PMS + IoT + personalización de huésped. | Gestión hotelera tradicional, revenue management, SaaS simples o manuales. |
+| **Precios & Costos** | Accesibles y escalables. | Desde muy elevados (Oracle, Amadeus) hasta muy bajos (manuales/startups). |
+| **Canales de distribución** | Web, móvil, soporte local en español. | Globales (Oracle/Amadeus), digitales limitados (otros SaaS), presenciales (manuales). |
+
+---
+
+### Análisis SWOT comparativo  
+
+| | **Smart Stay** | **Competidores** |
+|---|---------------|------------------|
+| **Fortalezas** | Enfoque local, personalización, IoT, integración completa. | Reconocimiento global (Oracle, Amadeus), IA especializada (Precios Inteligentes), simplicidad (Mapache). |
+| **Debilidades** | Menor reconocimiento global, menor penetración inicial. | Altos costos, baja personalización, falta de soporte local o limitaciones funcionales. |
+| **Oportunidades** | Creciente digitalización en LATAM, demanda de soluciones accesibles. | Expansión en mercados emergentes. |
+| **Amenazas** | Entrada de grandes jugadores al mercado LATAM, cambios tecnológicos rápidos. | Innovación constante de startups locales. |
 
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
@@ -426,16 +514,73 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 #### Entrevista 1
 
+Datos del entrevistado:
+
+**Nombre completo:** Adrian Saavedra Angulo 
+
+**Edad:** 34 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 8:07 minutos
+
+**Evidencia:** ![adrian entrevistado](assets/adrian_entrevistado.jpg)
+
+**Resumen de la entrevista**
+
+Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 personas. Su rutina diaria incluye revisar reservas, coordinar limpieza, organizar recojos y responder a nuevas solicitudes. Los procesos de reservas y facturación son constantes por el alto movimiento del negocio.
+Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
+
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+
 ---
 
 #### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** Monica Hernandez Vela 
+
+**Edad:** 33 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 5:53 minutos
+
+**Evidencia:** ![monica entrevistada](assets/monica_entrevistada.jpg)
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+
+Mónica administra un hotel de 12 habitaciones en Tarapoto con un equipo de 4 personas. Su rutina diaria incluye organizar los desayunos, coordinar la limpieza, asignar habitaciones, atender a los turistas y revisar constantemente las reservas. Utiliza un sistema propio a través de la página web del hotel, gestionado principalmente desde laptops y computadoras, y se comunica con su personal mediante WhatsApp.
+Ha tenido dificultades con el uso del sistema actual y señala que le motivaría adoptar una herramienta digital que centralice la gestión de reservas y operaciones, siempre que pueda adaptarse a las características de su hotel. Considera razonable pagar una suscripción mensual si contribuye a mejorar los servicios del establecimiento.
 
 ---
 
 #### Entrevista 3
 
----
+Datos del entrevistado:
+**Nombre completo:** Alejandra Beltrán Diaz
 
+**Edad:** 23 años
+
+**Ciudad:** Tarapoto 
+
+**Duración:** 4:11 minutos
+
+**Evidencia:** ![entrevista alejandra](assets/alejandra_entrevistada.jpg)
+
+
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+
+Valeria Alejandra administra un hotel de 19 habitaciones junto a un equipo de 5 personas. Su día típico comienza organizando al personal de limpieza, revisando las reservas recibidas por WhatsApp y luego trasladándolas a un archivo Excel para llevar el control. Su principal herramienta es este archivo, aunque reconoce que no siempre guarda correctamente la información, lo que ha ocasionado problemas con reservas perdidas.
+También ha tenido experiencias negativas con WhatsApp, ya que a veces resulta difícil ubicar las reservas registradas en la aplicación. Para ella, un sistema ideal de gestión debería incluir notificaciones automáticas que recuerden las reservas del día. Valeria considera que pagar una suscripción mensual sería una buena opción si la herramienta realmente simplifica las labores administrativas del hotel.
+
+---
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
 
@@ -574,15 +719,17 @@ en la limpieza. Considera muy práctico un sistema de check-in digital y control
 | ------------ | ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------- | -------------- |
 | Diego (25)   | Viaja con pareja/familia | Esperas en recepción, falta de personalización                        | Check-in/out digital, control desde celular, app unificada | Sí, +10%-15%   |
 | Juan (44)    | Viaja por trabajo        | Horarios rígidos, Wi-Fi deficiente, falta de limpieza/personalización | Mejor Wi-Fi, atención rápida, flexibilidad                 | No pagaría más |
+| Tadeo (22)   | Viaja por turismo anual  | Esperas en recepción, falta de coordinación en limpieza               | Check-in digital, control desde app, llaves digitales      | Sí, hasta +5%  |
+| Joaquín (21) | Viaja por turismo anual  | Largas esperas, limpieza deficiente                                   | Check-in digital, control desde app, llaves digitales      | Sí, +5% a +10% |
+
 
 
 **Hallazgos clave segmento 2:**
 
-- Problemas principales: Los participantes señalaron como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, la escasa flexibilidad de horarios y, en algunos casos, deficiencias en la conectividad Wi-Fi y en la limpieza.
-- Solución esperada: Se valora la posibilidad de contar con herramientas digitales que permitan realizar check-in y check-out sin esperas, controlar funciones de la habitación desde el dispositivo móvil (iluminación, temperatura, room service), así como garantizar la disponibilidad de información en tiempo real sobre los servicios. En este sentido, la digitalización es vista como un facilitador de la experiencia, siempre que no elimine el valor del trato humano.
-- Disposición de pago: El segmento presenta posiciones diferenciadas. Algunos usuarios jóvenes se mostraron dispuestos a pagar entre un 10% y 15% más por hoteles que ofrezcan experiencias digitales avanzadas, mientras que los viajeros de mayor edad no consideran prioritario este tipo de servicios y prefieren mantener costos contenidos.
-- Perfil digital: Los entrevistados confían en herramientas digitales como el Wi-Fi, la Smart TV y las reseñas en línea para tomar decisiones de hospedaje. Su nivel de madurez tecnológica puede clasificarse como intermedio, con apertura hacia soluciones innovadoras, aunque condicionado por la facilidad de uso y la percepción de valor añadido
-
+- Problemas principales: Los participantes identifican como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, los horarios inflexibles, problemas de limpieza y deficiencias en la conectividad Wi-Fi. Estas situaciones afectan tanto a viajeros frecuentes como a los que viajan por turismo ocasional.
+- Solución esperada: Existe una fuerte preferencia por herramientas digitales que faciliten el check-in/check-out sin contacto, el control de funciones de la habitación desde el celular (como iluminación, temperatura y llaves digitales), y la disponibilidad de una app única para centralizar todos los servicios. Aunque la personalización total no es vista como esencial por todos, sí se espera comodidad y eficiencia.
+- Disposición de pago: Los usuarios más jóvenes muestran disposición a pagar entre un 5% y 15% más por experiencias digitales que realmente mejoren su estadía. Por otro lado, los viajeros mayores, como profesionales en viaje de trabajo, priorizan la funcionalidad y el costo, y no están dispuestos a pagar más por servicios digitales avanzados.
+- Perfil digital: El nivel de madurez tecnológica del segmento puede clasificarse como intermedio a alto. Todos los entrevistados utilizan Wi-Fi, Smart TV y reseñas digitales como parte clave de su experiencia de hospedaje. Existe apertura hacia la innovación, siempre que esta sea fácil de usar y aporte valor real a la experiencia del huésped.
 
 **Conclusión Integradora**
 
@@ -608,28 +755,7 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
-La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
-
-**Adrián Ramírez (Administrador de hotel boutique)**
-
-| **Tarea**                           | **Frecuencia** | **Importancia** |
-|-------------------------------------|----------------|-----------------|
-| Gestionar reservas y disponibilidad | Alta           | Alta            |
-| Evitar sobreventas y duplicados     | Alta           | Alta            |
-| Coordinar limpieza y personal       | Media          | Alta            |
-| Revisar y responder solicitudes     | Alta           | Media           |
-| Centralizar operaciones en un sistema único | Media | Alta |
-
 ---
-
-**Valeria Ríos (Huésped)**
-
-| **Tarea**                                  | **Frecuencia** | **Importancia** |
-|--------------------------------------------|----------------|-----------------|
-| Hacer check-in/check-out                   | Alta           | Alta            |
-| Acceder a wifi rápido y confiable          | Alta           | Alta            |
-| Personalizar su estadía con servicios digitales | Media      | Alta            |
-| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
@@ -654,16 +780,10 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
-**Adrián Ramírez (Administrador de hotel boutique):**
-
-![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
-
-**Valeria Ríos (Huésped / Viajera):**
-
-![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
+---
 
 ## 2.4. Big Picture EventStorming.
-![Screenshot](assets/Chapter-02/Booking.jpeg)
+
 ---
 
 ## 2.5. Ubiquitous Language.
@@ -682,6 +802,159 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | Guest Feedback               | Retroalimentación del huésped      | Opiniones y calificaciones que los huéspedes comparten sobre su estadía, utilizadas para mejorar los servicios.                                     |
 
 ---
+
+# **Capítulo III: Requirements Specification**
+
+## 3.1. User Stories.
+
+**Epics**
+
+| EPIC ID | Nombre del Epic                           | Descripción                                                                                                         |
+| ------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| EP01    | Registro y Gestión de Perfil de Huésped   | Como huésped, quiero registrarme, iniciar sesión y gestionar mi perfil de forma segura para acceder a mis reservas. |
+| EP02    | Registro y Gestión de Perfil de Anfitrión | Como anfitrión, quiero registrarme y administrar mi perfil para publicar propiedades y gestionar reservas.          |
+| EP03    | Gestión de Propiedades                    | Como anfitrión, quiero registrar, editar y eliminar propiedades con fotos, precios y descripciones.                 |
+| EP04    | Búsqueda y Reserva de Estancias           | Como huésped, quiero buscar propiedades y realizar reservas fácilmente.                                             |
+| EP05    | Pagos y Facturación                       | Como usuario, quiero pagar de manera segura y consultar mis comprobantes de pago.                                   |
+| EP06    | Reseñas y Calificaciones                  | Como usuario, quiero dejar reseñas y calificaciones después de una estancia.                                        |
+| EP07    | Soporte y Ayuda                           | Como usuario, quiero acceder a soporte técnico y resolver mis dudas.                                                |
+| EP08    | Exploración como Visitante                | Como visitante, quiero conocer las funcionalidades de SmartStay desde la landing page antes de registrarme.         |
+
+**Desarrollo de Epics**
+
+**EP01 – Registro y Gestión de Perfil de Huésped**
+
+| User Story ID | Título                     |
+| ------------- | -------------------------- |
+| US01          | Registro de huésped        |
+| US02          | Inicio de sesión seguro    |
+| US03          | Recuperación de contraseña |
+| US04          | Edición de perfil personal |
+
+| Technical Story ID | Título                                               |
+| ------------------ | ---------------------------------------------------- |
+| TS01               |Conectar formularios de registro/login con validaciones en frontend |
+
+
+**EP02 – Registro y Gestión de Perfil de Anfitrión**
+
+| User Story ID | Título                             |
+| ------------- | ---------------------------------- |
+| US05          | Registro de anfitrión              |
+| US06          | Verificación de identidad básica   |
+| US07          | Configuración de datos de contacto |
+| US08          | Edición de perfil de anfitrión     |
+
+| Technical Story ID | Título                                              |
+| ------------------ | --------------------------------------------------- |
+| TS02               | Validar campos de formulario en frontend (correo, contraseña, documento)|
+
+**EP03 – Gestión de Propiedades**
+
+| User Story ID | Título                             |
+| ------------- | ---------------------------------- |
+| US09          | Registrar nueva propiedad          |
+| US10          | Subir fotos de la propiedad        |
+| US11          | Editar información de la propiedad |
+| US12          | Eliminar propiedad                 |
+
+**EP04 – Búsqueda y Reserva de Estancias**
+
+| User Story ID | Título                           |
+| ------------- | -------------------------------- |
+| US13          | Buscar propiedades por ubicación |
+| US14          | Filtrar por precio y fechas      |
+| US15          | Reservar una propiedad           |
+| US16          | Ver historial de reservas        |
+
+| Technical Story ID | Título                                      |
+| ------------------ | ------------------------------------------- |
+| TS03              | Crear buscador y filtros en frontend.     |
+| TS04               | Simular reservas con estado guardado en frontend |
+
+**EP05 – Pagos y Facturación**
+
+| User Story ID | Título                        |
+| ------------- | ----------------------------- |
+| US17          | Realizar pago en línea        |
+| US18          | Consultar historial de pagos  |
+| US19          | Descargar comprobante de pago |
+
+| Technical Story ID | Título                                                |
+| ------------------ | ----------------------------------------------------- |
+| TS05               | Simular integración de pago |
+
+
+**EP06 – Reseñas y Calificaciones**
+
+| User Story ID | Título                        |
+| ------------- | ----------------------------- |
+| US20          | Dejar reseña de una estancia  |
+| US21          | Calificar anfitrión o huésped |
+| US22          | Ver reseñas de una propiedad  |
+
+| Technical Story ID | Título                                              |
+| ------------------ | --------------------------------------------------- |
+| TS06               | Formulario de reseñas conectado a la UI, guardado simulado en frontendFormulario de reseñas conectado a la UI, guardado simulado en frontend  |
+
+
+**EP07 – Soporte y Ayuda**
+
+| User Story ID | Título                         |
+| ------------- | ------------------------------ |
+| US23          | Acceder a preguntas frecuentes |
+| US24          | Enviar reporte de problema     |
+| US25          | Contactar con soporte técnico  |
+
+| Technical Story ID | Título                                      |
+| ------------------ | ------------------------------------------- |
+| TS07               | Implementar formulario de contacto y sección de preguntas frecuentes |
+
+
+**EP08 – Exploración como Visitante**
+
+| User Story ID | Título                                   |
+| ------------- | ---------------------------------------- |
+| US26          | Ver información general sobre SmartStay  |
+| US27          | Conocer beneficios de usar la plataforma |
+| US28          | Acceder fácilmente al registro o login   |
+
+| Technical Story ID | Título                             |
+| ------------------ | ---------------------------------- |
+| TS08               | Implementar landing page con botones hacia login/registro |
+
+---
+
+**EP01 – Registro y Autenticación**
+
+| ID Épica | Épica                                   | ID   | Título                               | Descripción                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                    |
+| -------- | --------------------------------------- | ---- | ------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP01     | Registro y Gestión de Perfil de Huésped | US01 | Registro de huésped                  | Como huésped, quiero registrarme en la plataforma para crear mi cuenta.          | - Escenario 1: Registro exitoso <br> **Dado** que el usuario accede al formulario de registro, <br> **Cuando** completa los campos requeridos y presiona “Crear cuenta”, <br> **Entonces** el sistema registra al usuario y muestra un mensaje de bienvenida.                                                                                                              |
+| EP01     | Registro y Gestión de Perfil de Huésped | US02 | Inicio de sesión seguro              | Como huésped registrado, quiero iniciar sesión para acceder a mis funciones.     | - Escenario 1: Inicio exitoso <br> **Dado** que el usuario ya está registrado, <br> **Cuando** ingresa credenciales válidas, <br> **Entonces** accede al panel. <br><br> - Escenario 2: Inicio fallido <br> **Dado** que el usuario ingresa credenciales incorrectas, <br> **Cuando** presiona “Iniciar sesión”, <br> **Entonces** el sistema muestra un mensaje de error. |
+| EP01     | Registro y Gestión de Perfil de Huésped | US03 | Recuperación de contraseña           | Como huésped, quiero recuperar mi contraseña para poder acceder si la olvido.    | - Escenario 1: Recuperación exitosa <br> **Dado** que el usuario olvidó su contraseña, <br> **Cuando** solicita la recuperación ingresando su correo, <br> **Entonces** el sistema envía un enlace de restablecimiento.                                                                                                                                                    |
+| EP01     | Registro y Gestión de Perfil de Huésped | US04 | Edición de perfil personal           | Como huésped, quiero editar mi información personal para mantenerla actualizada. | - Escenario 1: Edición de perfil <br> **Dado** que el usuario está logueado, <br> **Cuando** modifica sus datos personales y guarda, <br> **Entonces** el sistema actualiza la información correctamente.                                                                                                                                                                  |
+| EP01     | Registro y Gestión de Perfil de Huésped | TS01 | Validaciones frontend registro/login | Como desarrollador, quiero validar formularios en frontend para evitar errores.  | - Escenario 1: Validación de campos vacíos <br> **Dado** que el usuario deja campos en blanco, <br> **Cuando** intenta registrarse, <br> **Entonces** el sistema muestra mensajes de validación.   | |
+
+**EP02 – Búsqueda y Reserva de Propiedades**
+
+| ID Épica | Épica                                     | ID   | Título                                   | Descripción                                                                                             | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------- | ----------------------------------------- | ---- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US05 | Registro de anfitrión                    | Como anfitrión, quiero registrarme en la plataforma para publicar mis propiedades.                      | - Escenario 1: Registro exitoso <br> **Dado** que el usuario accede al formulario de registro de anfitrión, <br> **Cuando** completa los campos requeridos y presiona “Crear cuenta”, <br> **Entonces** el sistema registra al anfitrión y muestra un mensaje de bienvenida.                                                                                                                                     |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US06 | Verificación de identidad básica         | Como anfitrión, quiero verificar mi identidad de manera sencilla para dar confianza a los huéspedes.    | - Escenario 1: Verificación cargada <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** sube un documento válido de identificación, <br> **Entonces** el sistema guarda el estado de verificación como “En revisión”.                                                                                                                                                                             |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US07 | Configuración de datos de contacto       | Como anfitrión, quiero configurar mis datos de contacto para que los huéspedes puedan comunicarse.      | - Escenario 1: Configuración exitosa <br> **Dado** que el anfitrión edita su sección de contacto, <br> **Cuando** guarda número de teléfono o correo, <br> **Entonces** el sistema actualiza los datos correctamente.                                                                                                                                                                                            |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US08 | Edición de perfil de anfitrión           | Como anfitrión, quiero editar mi información personal y de negocio para mantenerla actualizada.         | - Escenario 1: Edición correcta <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** modifica su información y guarda, <br> **Entonces** el sistema actualiza los cambios exitosamente.                                                                                                                                                                                                            |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | TS02 | Validar campos de formulario en frontend | Como desarrollador, quiero validar campos de formulario (correo, contraseña, documento) en el frontend. | - Escenario 1: Validación de correo <br> **Dado** que el usuario ingresa un correo inválido, <br> **Cuando** intenta guardar, <br> **Entonces** el sistema muestra un mensaje de error. <br><br> - Escenario 2: Validación de documento <br> **Dado** que el anfitrión sube un archivo no permitido, <br> **Cuando** intenta verificar identidad, <br> **Entonces** el sistema muestra un mensaje de validación. |
+
+
+
+## 3.2. Impact Mapping.
+
+---
+
+## 3.3. Product Backlog.
+
+---
+
 
 
 
