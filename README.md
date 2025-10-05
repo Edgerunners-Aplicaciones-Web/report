@@ -638,11 +638,11 @@ Esta tendencia refleja datos globales donde las reseñas en línea han reemplaza
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![user-person1.jpg](assets/userpersonas1.png) 
+![user-person1.jpg](assets/Chapter-02/UserPerson1.png) 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-person2.jpg](assets/userpersonas2.png) 
+![user-person2.jpg](assets/Chapter-02/UserPerson2.png) 
 
 ---
  
@@ -663,7 +663,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![user-journey-mapping1.jpg](assets/userjourneymapping1.png) 
+![user-journey-mapping1.jpg](assets/Chapter-02/Customerjourneymap1.png) 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
