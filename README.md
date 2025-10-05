@@ -673,6 +673,14 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
+**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap1.png) 
+
+**Segmento 2 – Huéspedes de Hoteles**
+
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap2_(2).png) 
+
 ---
 
 ## 2.4. Big Picture EventStorming.
