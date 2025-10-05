@@ -663,11 +663,11 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![user-journey-mapping1.jpg](assets/Chapter-02/Customerjourneymap1.png) 
+![user-journey-mapping1.jpg](assets/Chapter-02/Userjourneymap1.png) 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-journey-mapping2.jpg](assets/userjourneymapping2.png) 
+![user-journey-mapping2.jpg](assets/Chapter-02/Userjourneymap2.png) 
 
 ---
 
