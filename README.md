@@ -1420,8 +1420,6 @@ Tipos de Datos ENUM: Los diferentes estados (BookingStatus, RoomStatus, etc.) se
 
 Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se implementan usando claves foráneas (FOREIGN KEY) con sus respectivas restricciones de multiplicidad (ej: UNIQUE para relaciones uno a uno).
 
-
-
 ### 4.8.1. Database Diagrams
 
 ![Edgerunners-Aplicaciones-Web_Physical_Export.png](assets/Chapter-04/Edgerunners-Aplicaciones-Web_Physical_Export.png)
