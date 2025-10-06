@@ -3,7 +3,7 @@
 skinparam classAttributeIconSize 0
 skinparam roundcorner 10
 
-package "Componente de Gestión de Reservas" {
+package "Booking Management Component" {
 
     class BookingService {
         - bookingRepository: IBookingRepository

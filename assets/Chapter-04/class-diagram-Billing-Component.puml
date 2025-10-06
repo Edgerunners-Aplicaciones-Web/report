@@ -3,7 +3,7 @@
 skinparam classAttributeIconSize 0
 skinparam roundcorner 10
 
-package "Componente de Facturación" {
+package "Billing Component" {
 
     class BillingService {
         - paymentRepository: IPaymentRepository
