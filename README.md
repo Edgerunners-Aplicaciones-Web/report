@@ -1356,24 +1356,22 @@ link de evidencia [https://miro.com/](https://miro.com/welcomeonboard/aS9pcHRoMT
 
 ### 4.6.2. Software Architecture Context Diagram
 **System Context**
-![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
+![SystemContext.png](assets/Chapter-04/SystemContext.png)
 
 
 ### 4.6.3. Software Architecture Container Diagrams
 **Containers**
-![Containers.jpg](assets/Chapter-04/Containers.jpg)
+![Containers.png](assets/Chapter-04/Containers.png)
 ### 4.6.4. Software Architecture Components Diagrams
 
 **Api Components**
-![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
+![Apicomponents.png](assets/Chapter-04/Apicomponents.png)
 
 
 **IoT Gateway Components**
-![IotGatewayComponets.jpg](assets/Chapter-04/IotGatewayComponets.jpg)
-
+![IotGatewayComponets.png](assets/Chapter-04/IotGatewayComponets.png)
 
 ## 4.7. Software Object-Oriented Design
-
 
 ### 4.7.1. Class Diagrams
 Diagrama de Clases: Componente de Autenticación
@@ -1427,11 +1425,6 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ### 4.8.1. Database Diagrams
 
 ![database-diagram.png](assets/Chapter-04/database-diagram.png)
-
-
-
-![commits_team2](assets/commits_team2.png)  
-
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
