@@ -670,6 +670,149 @@ Esta tendencia refleja datos globales donde las reseñas en línea han reemplaza
  
 ### 2.3.2. User Task Matrix
 
+En esta sección se presenta el User Task Matrix, construido a partir de los dos segmentos objetivo identificados y su contexto operativo y tecnológico en Lima. Las tareas se derivan de entrevistas, análisis del sector y patrones de uso digital. Cada tarea se evaluó por Frecuencia (Baja/Media/Alta) e Importancia (Baja/Media/Alta) para cada segmento.
+
+<table>
+  <tr>
+    <th rowspan="2">Tarea / Task</th>
+    <th colspan="2">Administradores</th>
+    <th colspan="2">Huéspedes</th>
+  </tr>
+  <tr>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <td>Centralizar reservas en un único sistema</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Evitar sobreventa por falta de sincronización</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Gestionar check-in/check-out (automatizado o rápido)</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear ocupación, tarifas y disponibilidad</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Generar reportes de operación y KPIs</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Gestionar pagos y facturación digital</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar housekeeping y mantenimiento</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Capacitar al equipo en nuevas herramientas</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Controlar costos operativos y presupuesto TI</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Integrar canales (OTAs, WhatsApp, Booking)</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar reseñas y reputación digital</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Personalizar comunicación y upselling</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Realizar reservas y pagos desde el móvil</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Realizar check-in sin contacto</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Control de habitación vía app (WiFi/TV/servicios)</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Solicitar servicios internos por app/chat</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Consultar mapas, recomendaciones y beneficios</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Evaluar y dejar reseñas post-estadía</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+
 ---
 
 ### 2.3.3. User Journey Mapping.
