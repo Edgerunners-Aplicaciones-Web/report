@@ -670,7 +670,11 @@ Esta tendencia refleja datos globales donde las reseñas en línea han reemplaza
  
 ### 2.3.2. User Task Matrix
 
-En esta sección se presenta el User Task Matrix, construido a partir de los dos segmentos objetivo identificados y su contexto operativo y tecnológico en Lima. Las tareas se derivan de entrevistas, análisis del sector y patrones de uso digital. Cada tarea se evaluó por Frecuencia (Baja/Media/Alta) e Importancia (Baja/Media/Alta) para cada segmento.
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona realizan para cumplir sus objetivos en la gestión hotelera y la experiencia de estadía. Las tareas descritas existen independientemente de cualquier solución de software. Se consideran dos segmentos con sus respectivos User Persona:
+
+Administradores de Hoteles Boutique y Pequeños en Lima (User Persona: Administrador)
+
+Huéspedes de Hoteles Boutique (User Persona: Huésped)
 
 <table>
   <tr>
@@ -812,6 +816,37 @@ En esta sección se presenta el User Task Matrix, construido a partir de los dos
   </tr>
 </table>
 
+**Análisis:**
+
+**Tareas de mayor frecuencia e importancia compartidas:**
+
+Gestionar check-in/check-out con mínimo tiempo: Alta/Alta en ambos perfiles. Es el punto de mayor fricción para huéspedes y de mayor impacto operativo para administradores.
+
+Gestionar y responder reseñas: Importancia Alta en ambos; para huéspedes es frecuente, y para administradores es clave por reputación e ingresos.
+
+**Tareas críticas para Administradores:**
+
+Centralizar y actualizar reservas; Monitorear ocupación/tarifas; Evitar sobreventa; Integrar canales; Pagos/facturación. Todas con Importancia Alta y Frecuencia de Media a Alta.
+
+**Control de costos y presupuesto TI:**
+
+Importancia Alta (impacto financiero), Frecuencia Media (ciclos presupuestales).
+
+**Tareas críticas para Huéspedes:**
+
+Reservar y pagar desde smartphone, check-in sin contacto, solicitar servicios por app/chat, reputación digital: Importancia Alta; muchas con Frecuencia Alta por preferencia mobile-first.
+
+**Controlar habitación vía app y consultar recomendaciones:** 
+
+Importancia de Media a Alta, mejoran experiencia y satisfacción.
+
+**Diferencias clave:**
+
+Administradores priorizan coordinación operativa y control financiero; Huéspedes priorizan rapidez, autonomía digital y conveniencia móvil.
+
+**Coincidencias:**
+
+Ambos valoran procesos rápidos en front desk y una reputación digital sólida (reseñas), alineándose con las tendencias de adopción tecnológica y expectativa de autoservicio.
 
 ---
 
