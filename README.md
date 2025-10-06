@@ -1081,42 +1081,417 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## 3.3. Product Backlog.
 
-| #Orden | ID   | User Story / Technical Story                                             | Story Points |
-| ------ | ---- | ------------------------------------------------------------------------ | ------------ |
-| 01     | US01 | Registro de huésped                                                      | 5            |
-| 02     | US02 | Inicio de sesión seguro                                                  | 5            |
-| 03     | US03 | Recuperación de contraseña                                               | 3            |
-| 04     | US04 | Edición de perfil personal                                               | 3            |
-| 05     | TS01 | Conectar formularios de registro/login con validaciones en frontend      | 8            |
-| 06     | US05 | Registro de anfitrión                                                    | 5            |
-| 07     | US06 | Verificación de identidad básica                                         | 3            |
-| 08     | US07 | Configuración de datos de contacto                                       | 3            |
-| 09     | US08 | Edición de perfil de anfitrión                                           | 3            |
-| 10     | TS02 | Validar campos de formulario en frontend (correo, contraseña, documento) | 8            |
-| 11     | US09 | Registrar nueva propiedad                                                | 5            |
-| 12     | US10 | Subir fotos de la propiedad                                              | 5            |
-| 13     | US11 | Editar información de la propiedad                                       | 3            |
-| 14     | US12 | Eliminar propiedad                                                       | 3            |
-| 15     | US13 | Buscar propiedades por ubicación                                         | 5            |
-| 16     | US14 | Filtrar por precio y fechas                                              | 5            |
-| 17     | US15 | Reservar una propiedad                                                   | 8            |
-| 18     | US16 | Ver historial de reservas                                                | 3            |
-| 19     | TS03 | Crear buscador y filtros en frontend                                     | 8            |
-| 20     | TS04 | Simular reservas con estado guardado en frontend                         | 5            |
-| 21     | US17 | Realizar pago en línea                                                   | 8            |
-| 22     | US18 | Consultar historial de pagos                                             | 3            |
-| 23     | US19 | Descargar comprobante de pago                                            | 3            |
-| 24     | TS05 | Simular integración de pago                                              | 8            |
-| 25     | US20 | Dejar reseña de una estancia                                             | 5            |
-| 26     | US21 | Calificar anfitrión o huésped                                            | 3            |
-| 27     | US22 | Ver reseñas de una propiedad                                             | 3            |
-| 28     | TS06 | Formulario de reseñas conectado a la UI, guardado simulado en frontend   | 5            |
-| 29     | US23 | Acceder a preguntas frecuentes                                           | 3            |
-| 30     | US24 | Enviar reporte de problema                                               | 3            |
-| 31     | US25 | Contactar con soporte técnico                                            | 5            |
-| 32     | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes     | 8            |
-| 33     | US26 | Ver información general sobre SmartStay                                  | 3            |
-| 34     | US27 | Conocer beneficios de usar la plataforma                                 | 3            |
-| 35     | US28 | Acceder fácilmente al registro o login                                   | 5            |
-| 36     | TS08 | Implementar landing page con botones hacia login/registro                | 5            |
-
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th>#</th>
+      <th>Order</th>
+      <th>User Story Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>US-24</td>
+      <td>Segmented landing page</td>
+      <td><strong>As</strong> a visitor, <strong>I want</strong> to find specific information according to my profile (hotel administrator or guest) <strong>to</strong> understand Smart Stay's value.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+      <td>US-25</td>
+      <td>ROI simulator for hotels</td>
+      <td><strong>As</strong> a visiting hotel administrator, <strong>I want</strong> to use a simulator to estimate the return on investment I would get with Smart Stay <strong>to</strong> make informed decisions.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+      <td>US-27</td>
+      <td>Demo request and commercial contact</td>
+      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to request a demonstration and contact the sales team easily and quickly <strong>to</strong> explore Smart Stay solutions.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>US-26</td>
+      <td>Success stories and testimonials</td>
+      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to see real success stories from hotels using Smart Stay <strong>to</strong> validate solution effectiveness.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>US-28</td>
+      <td>Corporate information and values</td>
+      <td><strong>As</strong> a visitor, <strong>I want</strong> to know Smart Stay's mission, vision and values <strong>to</strong> understand the company's philosophy.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+      <td>US-05</td>
+      <td>Administrator dashboard</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel with key information <strong>to</strong> manage my hotel efficiently.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>7</td>
+      <td>US-07</td>
+      <td>Centralized reservation management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all reservations in one place <strong>to</strong> avoid overbooking and optimize occupancy.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>8</td>
+      <td>US-08</td>
+      <td>Automated digital check-in</td>
+      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> check-in to be performed digitally in less than 3 minutes <strong>to</strong> improve experience.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>9</td>
+      <td>US-09</td>
+      <td>Digital check-out and billing</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to perform digital check-out and receive my invoice automatically <strong>to</strong> expedite my departure.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10</td>
+      <td>US-06</td>
+      <td>Room and status management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all room statuses <strong>to</strong> optimize daily operations.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11</td>
+      <td>US-20</td>
+      <td>OTA and booking channel integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate my inventory with Booking.com, Expedia and other OTAs <strong>to</strong> maximize occupancy and avoid overbooking.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>12</td>
+      <td>US-01</td>
+      <td>User registration with validation</td>
+      <td><strong>As</strong> a new user, <strong>I want</strong> to register in Smart Stay by validating my email <strong>to</strong> access functionalities according to my role.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>13</td>
+      <td>US-02</td>
+      <td>Secure login</td>
+      <td><strong>As</strong> a registered user, <strong>I want</strong> to login securely <strong>to</strong> access my personalized dashboard according to my role.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>14</td>
+      <td>US-11</td>
+      <td>IoT environmental control from mobile app</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to control temperature, lighting and other environmental aspects from my smartphone <strong>to</strong> personalize my experience.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>15</td>
+      <td>US-12</td>
+      <td>Service requests from app</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to request room service, additional cleaning and other services from my smartphone <strong>to</strong> access services conveniently.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>16</td>
+      <td>US-23</td>
+      <td>Digital payment processing</td>
+      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> to process payments securely and efficiently through multiple payment methods <strong>to</strong> ensure smooth transactions.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>17</td>
+      <td>US-10</td>
+      <td>Staff task assignment and tracking</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to assign tasks to staff and track their progress <strong>to</strong> optimize operations.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>18</td>
+      <td>US-16</td>
+      <td>Analytics dashboard and operational KPIs</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to visualize key metrics and KPIs <strong>to</strong> make informed decisions about hotel operations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>19</td>
+      <td>US-34</td>
+      <td>Mobile push notification system</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to receive push notifications on my smartphone about my request and service status <strong>to</strong> stay informed.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>20</td>
+      <td>US-35</td>
+      <td>Automatic staff notifications</td>
+      <td><strong>As</strong> hotel staff, <strong>I want</strong> to receive automatic notifications about assigned tasks and important operational changes <strong>to</strong> respond promptly.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>21</td>
+      <td>US-21</td>
+      <td>WhatsApp Business integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to use WhatsApp Business for direct guest communication and pre/post-stay query management <strong>to</strong> improve customer service.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>22</td>
+      <td>US-13</td>
+      <td>Digital guest-staff communication</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to communicate with hotel staff digitally <strong>to</strong> resolve questions and requests quickly.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>23</td>
+      <td>US-22</td>
+      <td>Digital reputation management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage Google, TripAdvisor and OTA reviews from one place <strong>to</strong> maintain good online reputation.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>24</td>
+      <td>US-17</td>
+      <td>Financial and occupancy reports</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to generate financial and occupancy reports <strong>to</strong> support management analysis and decision making.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>25</td>
+      <td>US-19</td>
+      <td>IoT energy consumption monitoring</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to monitor energy consumption of rooms and common areas <strong>to</strong> optimize operational costs.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>26</td>
+      <td>US-14</td>
+      <td>Experience personalization based on preferences</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> the system to learn my preferences <strong>to</strong> offer personalized experiences and services.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>27</td>
+      <td>US-15</td>
+      <td>Post-stay evaluation and feedback</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to evaluate my experience and leave feedback <strong>to</strong> help the hotel improve its services.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>28</td>
+      <td>US-18</td>
+      <td>Guest satisfaction analysis</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze guest satisfaction <strong>to</strong> identify improvement areas and maintain service quality.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>29</td>
+      <td>US-29</td>
+      <td>RESTful API for room management</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to access RESTful endpoints <strong>to</strong> integrate Smart Stay with external hotel management systems.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>30</td>
+      <td>US-30</td>
+      <td>API for IoT device control</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> endpoints to control room IoT devices <strong>to</strong> enable integration with external applications.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>31</td>
+      <td>US-31</td>
+      <td>API authentication and authorization</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> a secure authentication system <strong>to</strong> access Smart Stay API endpoints safely.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>32</td>
+      <td>US-32</td>
+      <td>Interactive API documentation</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to access complete and interactive documentation <strong>to</strong> easily integrate with Smart Stay API.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>33</td>
+      <td>US-33</td>
+      <td>Webhooks for real-time events</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to configure webhooks <strong>to</strong> receive automatic notifications when important Smart Stay events occur.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>34</td>
+      <td>US-03</td>
+      <td>Profile and role management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage users, assign roles and permissions <strong>to</strong> control access to different functionalities.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>35</td>
+      <td>US-04</td>
+      <td>Password recovery</td>
+      <td><strong>As</strong> a user, <strong>I want</strong> to recover my password via email <strong>to</strong> regain access to my account.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>36</td>
+      <td>US-36</td>
+      <td>Automated email marketing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to send automated personalized emails to guests at different stages <strong>to</strong> enhance customer experience.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>37</td>
+      <td>US-37</td>
+      <td>Intelligent alerts and escalation</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to receive intelligent alerts about operational problems with automatic escalation <strong>to</strong> ensure quick resolution.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>38</td>
+      <td>US-38</td>
+      <td>Unified communication panel</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel to manage all communications <strong>to</strong> streamline guest interaction management.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>39</td>
+      <td>US-39</td>
+      <td>Native mobile app for staff</td>
+      <td><strong>As</strong> hotel staff, <strong>I want</strong> a dedicated mobile app to manage my tasks and communication <strong>to</strong> work efficiently while on the move.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>40</td>
+      <td>US-42</td>
+      <td>Multi-hotel configuration for chains</td>
+      <td><strong>As</strong> a hotel chain administrator, <strong>I want</strong> to manage multiple properties from a master account <strong>to</strong> centralize operations with independent configurations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>41</td>
+      <td>US-43</td>
+      <td>Integration with existing PMS systems</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with my current PMS system <strong>to</strong> migrate gradually without interrupting operations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>42</td>
+      <td>US-44</td>
+      <td>Brand customization per hotel</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to customize interface and communications with my hotel's brand <strong>to</strong> maintain visual consistency.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>43</td>
+      <td>US-45</td>
+      <td>Integrated loyalty program</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage a loyalty program for recurring guests <strong>to</strong> provide automatic benefits and increase retention.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>44</td>
+      <td>US-46</td>
+      <td>Event and conference management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage special events and conferences <strong>to</strong> provide specific group functionalities.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>45</td>
+      <td>US-47</td>
+      <td>IoT predictive maintenance</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> the IoT system to predict maintenance needs <strong>to</strong> optimize equipment performance and reduce downtime.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>46</td>
+      <td>US-48</td>
+      <td>Competition analysis and dynamic pricing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze competitor prices and adjust my rates automatically <strong>to</strong> optimize revenue.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>47</td>
+      <td>US-49</td>
+      <td>Automated compliance and auditing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> the system to generate automatic compliance reports <strong>to</strong> facilitate regulatory audits.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>48</td>
+      <td>US-50</td>
+      <td>Security system integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with hotel security systems <strong>to</strong> provide automated access management.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>49</td>
+      <td>US-40</td>
+      <td>Data backup and recovery</td>
+      <td><strong>As</strong> a technical administrator, <strong>I want</strong> the system to have automatic backup and disaster recovery <strong>to</strong> guarantee operational continuity.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>50</td>
+      <td>US-41</td>
+      <td>System monitoring and logs</td>
+      <td><strong>As</strong> a technical administrator, <strong>I want</strong> to monitor system performance and access detailed logs <strong>to</strong> support troubleshooting activities.</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
