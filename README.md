@@ -877,6 +877,52 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 ## 2.4. Big Picture EventStorming.
 
+**Legend of terminologies:**
+
+![terminology.jpg](assets/Chapter-02/terminology.png) 
+
+**Step 1: Unstructured Exploration:**
+
+![step1.jpg](assets/Chapter-02/step1.png) 
+
+**Step 2: Timelines:**
+
+![step2.jpg](assets/Chapter-02/step2.png) 
+
+**Step 3: Paint Points:**
+
+![step3.jpg](assets/Chapter-02/step3.png) 
+
+**Step 4: Pivotal Points:**
+
+![step4.jpg](assets/Chapter-02/step4.png) 
+
+**Step 5: Commands:**
+
+![step5.jpg](assets/Chapter-02/step5.png) 
+
+**Step 6: Policies:**
+
+![step6.jpg](assets/Chapter-02/step6.png) 
+
+**Step 7: Read models:**
+
+![step7.jpg](assets/Chapter-02/step7.png) 
+
+**Step 8: External Systems:**
+
+![step8.jpg](assets/Chapter-02/step8.png) 
+
+**Step 9: Aggregates:**
+
+![step9.jpg](assets/Chapter-02/step9.png) 
+
+**Step 10: Bounded Contexts:**
+
+![step10.jpg](assets/Chapter-02/step10.png) 
+
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://miro.com/app/board/uXjVJ9iB8iU=/?share_link_id=650007847940)
+
 ---
 
 ## 2.5. Ubiquitous Language.
