@@ -842,12 +842,12 @@ En el caso de Smart Stay, se elaboraron dos mapas diferenciados según los segme
 Estos recorridos permiten detectar fricciones, validar expectativas y proponer mejoras orientadas a optimizar tanto la gestión hotelera como la satisfacción de los huéspedes.
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+![user-journey-mapping2.jpg](assets/Chapter-02/Userjourneymap2.png) 
 
-![user-journey-mapping1.jpg](assets/Chapter-02/Userjourneymap1.png) 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-journey-mapping2.jpg](assets/Chapter-02/Userjourneymap2.png) 
+![user-journey-mapping1.jpg](assets/Chapter-02/Userjourneymap1.png) 
 
 ---
 
