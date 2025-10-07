@@ -1082,6 +1082,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ![ImpactMapping.jpeg](assets/ImpactmapValeria2.png)
 
+
+![ImpactMapping.jpeg](assets/ImpactmapAdrianMartinez.png)
+
+
 ## 3.3. Product Backlog.
 
 <table border="1" cellpadding="8" cellspacing="0">
