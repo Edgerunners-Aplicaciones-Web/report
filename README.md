@@ -1311,47 +1311,51 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
-link de evidencia [https://miro.com/](https://miro.com/welcomeonboard/aS9pcHRoMThsZldnWTVaamRJS0VIY1QweHpCTWVUMUV2dU1lZGlMZk4xWUVnK3ZnRjZXaGl0MG4yRHRYUlNKendBTFJPeTgzVStobWc1MGxWbk1tbUhkZ0lvNytvYU9KT2p1bGpnYkJLdWp1bm9FVGpqOURORlgvdVZvMGR2c3RBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=521713588523)
+**Legend of terminologies:**
 
+![terminology.jpg](assets/Chapter-04/terminology.png) 
 
-**Step 1: Unstructured Exploration**
-![EventStorming.jpg](assets/Chapter-04/Step1.jpg)
+**Step 1: Unstructured Exploration:**
 
-**Step 2: Timelines**
-![EventStorming.jpg](assets/Chapter-04/Step2.jpg)
+![step1.jpg](assets/Chapter-04/step1.png) 
 
-**Step 3: Paint Points**
-![EventStorming.jpg](assets/Chapter-04/Step3.jpg)
+**Step 2: Timelines:**
 
-**Step 4: Pivotal Points**
-![EventStorming.jpg](assets/Chapter-04/Step4.jpg)
+![step2.jpg](assets/Chapter-04/step2.png) 
 
-**Step 5: Commands**
-![EventStorming.jpg](assets/Chapter-04/Step5.jpg)
+**Step 3: Paint Points:**
 
-**Step 6: Policies**
-![EventStorming.jpg](assets/Chapter-04/Step6.jpg)
+![step3.jpg](assets/Chapter-04/step3.png) 
 
-**Step 7: Read  Models**
-![EventStorming.jpg](assets/Chapter-04/Step7.jpg)
+**Step 4: Pivotal Points:**
 
-**Step 8: Aggregats**
-![EventStorming.jpg](assets/Chapter-04/step8.jpg)
+![step4.jpg](assets/Chapter-04/step4.png) 
 
-**Gestión de Huéspedes**
-![EventStorming.jpg](assets/Chapter-04/GestionHuespedes.jpg)
+**Step 5: Commands:**
 
-**Control del ambiente Iot**
-![EventStorming.jpg](assets/Chapter-04/ControlAmbiente.jpg)
+![step5.jpg](assets/Chapter-04/step5.png) 
 
-**Servicios del huesped**
-![EventStorming.jpg](assets/Chapter-04/ServiciosDeHuesped.jpg)
+**Step 6: Policies:**
 
-**Check-out**
-![EventStorming.jpg](assets/Chapter-04/CheckOut.jpg)
+![step6.jpg](assets/Chapter-04/step6.png) 
 
-**Reportes de consumo y satisfaccion del cliente**
-![EventStorming.jpg](assets/Chapter-04/Reportes.jpg)
+**Step 7: Read models:**
+
+![step7.jpg](assets/Chapter-04/step7.png) 
+
+**Step 8: External Systems:**
+
+![step8.jpg](assets/Chapter-04/step8.png) 
+
+**Step 9: Aggregates:**
+
+![step9.jpg](assets/Chapter-04/step9.png) 
+
+**Step 10: Bounded Contexts:**
+
+![step10.jpg](assets/Chapter-04/step10.png) 
+
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://miro.com/app/board/uXjVJ9iB8iU=/?share_link_id=650007847940)
 
 
 ### 4.6.2. Software Architecture Context Diagram
