@@ -878,27 +878,27 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 ## 2.4. Big Picture EventStorming.
 
 **Legend of terminologies:**
-![terminology.jpg](assets/Chapter-02/Treminologia.png) 
+![terminology.jpg](assets/Chapter-02/Treminologia.jpg) 
 
 **Chaotic Exploration:**
 
-![step1.jpg](assets/Chapter-02/chaoticexploration.png) 
+![step1.jpg](assets/Chapter-02/chaoticexploration.jpg) 
 
 **Timeline:**
 
-![step2.jpg](assets/Chapter-02/Timeline.png)
+![step2.jpg](assets/Chapter-02/Timeline.jpg)
 
 **People & Systems:**
 
-![step3.jpg](assets/Chapter-02/PeopleSystems.png)
+![step3.jpg](assets/Chapter-02/PeopleSystems.jpg)
 
 **Problems & Opportunities:**
 
-![step4.jpg](assets/Chapter-02/ProblemsOpportunities.png)
+![step4.jpg](assets/Chapter-02/ProblemsOpportunities.jpg)
 
 **Prioritization:**
 
-![step5.jpg](assets/Chapter-02/Prioritization.png)
+![step5.jpg](assets/Chapter-02/Prioritization.jpg)
 
 
 
