@@ -499,7 +499,7 @@ La landing page de SmartStay incluye los siguientes SEO/meta tags: charset, view
 **Tittle**
 
 ```html
-<title>Tu título de landing page</title>
+<title>SmartStay</title>
 ```
 
 - Es el texto que aparece en la pestaña del navegador.
@@ -508,7 +508,7 @@ La landing page de SmartStay incluye los siguientes SEO/meta tags: charset, view
 **Meta description**
 
 ```html
-<meta name="description" content="Breve descripción de tu landing page">
+<meta name="description" content="Smart Stay integra tecnología IoT e inteligencia artificial para optimizar la gestión hotelera. Descubre la revolución en hospitalidad inteligente.">
 ```
 
 - Ayuda a los buscadores a mostrar un resumen en los resultados de búsqueda.
@@ -517,17 +517,21 @@ La landing page de SmartStay incluye los siguientes SEO/meta tags: charset, view
 **Meta keywords**
 
 ```html
-<meta name="keywords" content="palabra1, palabra2, palabra3">
+<meta name="keywords" content="Smart Stay, hotel management, IoT, AI, hospitality, smart hotels">
 ```
 
 - Hoy en día ya no tiene mucho peso para SEO, pero algunas personas aún la incluyen.
 
-**Favicon**
+**Author y Favicon**
 
 ```html
-<link rel="icon" href="favicon.ico">
+<meta name="author" content="Smart Stay Team">
+```
+```html
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 ```
 
+- Indica el autor o responsable del desarrollo del sitio. Ayuda a la identificación del creador del contenido.
 - Icono de la pestaña del navegador.
 - No impacta SEO, pero sí la experiencia de usuario.
 
