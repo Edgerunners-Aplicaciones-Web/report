@@ -950,25 +950,24 @@ Mostrar cómo cada sección del administrador se conecta a través del menú pri
 
 Desde cualquier sección, el menú permite acceder a:
 
-1. **Dashboard** – Resumen general de actividad, métricas y gráficos.
-2. **Huéspedes** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
-3. **Staff** – Gestión del personal; roles, turnos y contacto.
-4. **Hoteles / Habitaciones** – Administración de hoteles, habitaciones y disponibilidad.
-5. **Reservas** – Calendario de reservas; agregar, modificar o cancelar reservas.
-6. **Pagos** – Visualización y gestión de transacciones y estados de pago.
-7. **Servicios / Productos** – Gestión de servicios del hotel y productos adicionales.
-8. **Reseñas** – Panel de comentarios de huéspedes con gráficos de satisfacción.
-9. **Soporte / Tickets** – Crear tickets de ayuda y consultar su estado.
+1.**Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
+2. **Dashboard** – Resumen general de actividad, métricas y gráficos.
+3. **Guests** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
+4. **Staff** – Gestión del personal; roles, turnos y contacto.
+5. **Hotels / Rooms** – Administración de hoteles, habitaciones y disponibilidad.
+6. **Booking** – Calendario de reservas; agregar, modificar o cancelar reservas.
+7. **Payments** – Visualización y gestión de transacciones y estados de pago.
+8. **Services / Productos** – Gestión de servicios del hotel y productos adicionales.
+9. **Reviews** – Panel de comentarios de huéspedes con gráficos de satisfacción.
+10. **Support / Tickets** – Crear tickets de ayuda y consultar su estado.
 
 **Flujo General (Wireflow)**
 
-- **Dashboard**: centro de información y acceso rápido a todas las secciones.  
-- **Menú Principal**: conecta directamente a las 9 secciones.  
+- **Dashboard**: centro de información y acceso rápido a secciones principales por botones. En los gráficos de ganancia y pérdidas el botón "See Reviews" te deriva **Reviews** y en los gráficos porcentual de habitaciones ocupadas el botón "check Booking" te deriva a **Booking**.
+- **Menú Bar**: conecta directamente a las 9 secciones.  
 - Secciones interrelacionadas:  
-  - **Reservas ↔ Pagos ↔ Servicios / Productos**  
-  - **Huéspedes ↔ Reservas ↔ Reseñas**  
-  - **Staff ↔ Hoteles / Habitaciones**  
-- **Soporte / Tickets**: siempre accesible desde cualquier sección para resolver inconveniencias.
+  - **Staff, Guests, Hotels** se conecta con **Reviews** ya que allí se derivan los comentarios sobre el staff huésped y el hotel.
+  - **Booking** se relaciona con **Guests** para ver los clientes de cada reserva hecha.  
 
 **Web Applications Wireflow Diagrams – Modo Huésped**
 
@@ -979,19 +978,19 @@ Mostrar cómo cada sección de la app para huéspedes se conecta a través del m
 
 **Secciones Principales**
 
-1. **Introducción** – Pantalla inicial, solo se conecta a **Home**.
+1. **Intro** – Pantalla inicial, solo se conecta a **Home**.
 2. **Home** – Vista principal; acceso a todas las secciones mediante el menú.
-3. **Habitación** – Detalles de la habitación asignada o disponible; acceso desde el menú.
-4. **Servicios** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
-5. **Mapa** – Ubicación del hotel, puntos de interés; acceso desde el menú.
-6. **Perfil** – Datos del huésped, preferencias y configuración; acceso desde el menú.
-7. **Notificaciones** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
+3. **Rooms** – Detalles de la habitación asignada o disponible; acceso desde el menú.
+4. **Services** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
+5. **Map** – Ubicación del hotel, puntos de interés; acceso desde el menú.
+6. **Profile** – Datos del huésped, preferencias y configuración; acceso desde el menú.
+7. **Notifications** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
 
 **Flujo General (Wireflow)**
 
-- **Introducción** → **Home**  
-- **Home** → conecta a **Habitación**, **Servicios**, **Mapa**, **Perfil** mediante el menú principal.  
-- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.  
+- **Intro** → **Home**  
+- **Home** → conecta a **Rooms**, **Services**, **Map**, **Profile** mediante el menú principal.  
+- **Notifications** → accesibles desde cualquier sección a través del icono superior.  
 
 **Web Applications Wireflow Diagrams – Modo Staff**
 
@@ -1001,20 +1000,20 @@ Mostrar cómo cada sección de la app para staff se conecta a través del menú 
 
 **Secciones Principales**
 
-1. **Introducción** – Pantalla inicial, conecta al **Login**.  
-2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**.  
+1. **Intro** – Pantalla inicial, conecta al **Login**.  
+2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**. Para ellos siempre es necesario que hagan login por el uso continuo del app a diferencia del huésped que solo tienen acceso durante su estadía.
 3. **Home** – Vista principal; acceso a todas las secciones mediante el menú.  
-4. **Tareas** – Lista y gestión de tareas asignadas; acceso desde el menú.  
-5. **Servicios** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.  
-6. **Reservas** – Visualización de reservas relacionadas con el staff; acceso desde el menú.  
-7. **Perfil** – Datos del staff y configuración personal; acceso desde el menú.  
-8. **Notificaciones** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
+4. **Tasks** – Lista y gestión de tareas asignadas; acceso desde el menú.  
+5. **Services** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.  
+6. **Booking** – Visualización de reservas relacionadas con el staff; acceso desde el menú.  
+7. **Profile** – Datos del staff y configuración personal; acceso desde el menú.  
+8. **Notifications** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
 
 **Flujo General (Wireflow)**
 
-- **Introducción** → **Login** → **Home**  
-- Desde **Home** se puede acceder mediante el menú a: **Tareas**, **Servicios**, **Reservas**, **Perfil**  
-- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.
+- **Intro** → **Login** → **Home**  
+- Desde **Home** se puede acceder mediante el menú a: **Tasks**, **Services**, **Booking**, **Profile**  
+- **Notifications** → accesibles desde cualquier sección a través del icono superior.
 
 ### 4.4.3. Web Applications Mock-ups
 
