@@ -687,38 +687,38 @@ Su propósito es:
   - Iconografía personalizada para los beneficios.  
 ![home.png](assets/home.png)
 
-**2. Productos**
+**2. Product**
 -**Cambios respecto al wireframe:**  
   - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
   - Inclusión de imágenes ilustrativas.  
   - Botón de descarga estilizado con colores de la marca.  
 ![producto.png](assets/producto.png)
 
-**3. Soluciones**
+**3. Solutions**
 - **Cambios respecto al wireframe:**  
   - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).  
   - Uso de fotografías representativas de hoteles.  
   - CTA destacado.
 ![soluciones.png](assets/soluciones.png)
 
-**4. Precios**
+**4. Prices**
 - **Cambios respecto al wireframe:**  
   - Tabla de precios con colores diferenciadores por plan.  
   - Plan recomendado resaltado con un fondo destacado.  
   ![precio.png](assets/precio.png)
 
-**5. Casos de Éxito**
+**5. Success Stories**
 - **Cambios respecto al wireframe:**  
   - Testimonios acompañados de logos reales de hoteles.  
 ![reseña.png](assets/reseña.png)
 
-**6. Recursos**
+**6. Resources**
 - **Cambios respecto al wireframe:**  
   - Secciones de miniaturas de documentos descargables.  
   - Secciones de blog con botón de visitar página externa.
 ![recursos.png](assets/recursos.png)
 
-**7. Registro**
+**7. Register**
 - **Cambios respecto al wireframe:**  
   - Formulario minimalista con campos estilizados.  
   - Botón de “Enviar y registrar” resaltado en color primario.  
