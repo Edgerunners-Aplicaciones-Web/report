@@ -710,7 +710,7 @@ Su propósito es:
 **5. Success Stories**
 - **Cambios respecto al wireframe:**  
   - Testimonios acompañados de logos reales de hoteles.  
-![reseña.png](assets/reseña.png)
+![reseña.png](assets/reseña.png)
 
 **6. Resources**
 - **Cambios respecto al wireframe:**  
