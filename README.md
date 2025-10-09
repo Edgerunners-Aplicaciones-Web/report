@@ -608,8 +608,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
   - Footer con enlaces de contacto, políticas y redes sociales.
 ![whome.png](assets/whome.png)
 
-
-**2. Productos**
+**2. Products**
 - **Propósito:** Mostrar los productos y módulos de la plataforma.  
 - **Elementos clave:**  
   - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.  
@@ -617,7 +616,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
   - Botón de descarga de brochure.
   ![wproductos.png](assets/wproductos.png)
 
-**3. Soluciones**
+**3. Solutions**
 - **Propósito:** Explicar cómo Smart Stay se adapta a diferentes tipos de hoteles.  
 - **Elementos clave:**  
   - Sección para hoteles boutique.  
@@ -627,28 +626,28 @@ A continuación, se presenta un resumen de cada una de las secciones.
   ![wsoluciones.png](assets/wsoluciones.png)
 
 
-**4. Precios**
+**4. Prices**
 - **Propósito:** Detallar planes y costos de la plataforma.  
 - **Elementos clave:**  
   - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
   - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
 ![wsprecios.png](assets/wsprecios.png)
 
-**5. Casos de Éxito**
+**5. Success Stories**
 - **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.  
 - **Elementos clave:**  
   - Bloques con testimonios de clientes.  
   - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
   ![wreseñas.png](assets/wreseñas.png)  
 
-**6. Recursos**
+**6. Resources**
 - **Propósito:** Repositorio de materiales de apoyo y aprendizaje.  
 - **Elementos clave:**  
   - Documentos descargables (guías, whitepapers, brochures).  
   - Links de blogs.  
 ![wrecurso.png](assets/wrecurso.png)
 
-**7. Registro**
+**7. Register**
 - **Propósito:** Permitir que un nuevo usuario cree su cuenta.  
 - **Elementos clave:**  
   - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
