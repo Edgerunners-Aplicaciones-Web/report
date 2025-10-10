@@ -178,10 +178,10 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5
 
-| Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | Italo Sebastian Verona Flores TB1 <ul><li>Lideré la definición de la arquitectura de software del proyecto 'Smart Stay', utilizando el modelo C4 para establecer los diagramas de Contexto, Contenedores y Componentes.</li><li>Dirigí el diseño de la base de datos, solicitando y validando los esquemas en SQL y DBML para asegurar la correcta persistencia de los datos según los Bounded Contexts definidos.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Lideré el área de diseño de experiencia de usuario (UX), elaborando los wireframes y mockups de alta fidelidad que sirvieron como guía visual para todo el proyecto.</li><li>Dirigí la creación de la guía de estilos visuales de "Smart Stay", definiendo la paleta de colores, tipografía y branding para asegurar una identidad de marca coherente y profesional.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Tomé el liderazgo en el desarrollo front-end, traduciendo los mockups y guías de estilo en un prototipo funcional utilizando HTML, Tailwind CSS y JavaScript.</li><li>Dirigí la implementación técnica de la arquitectura de página única estática (SPA), asegurando que la navegación entre vistas fuera fluida y eficiente.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Lideré la fase de análisis de requerimientos del proyecto, siendo responsable de la creación y redacción del Product Backlog, incluyendo todas las Épicas y User Stories.</li><li>Guié la alineación del producto con las necesidades del negocio mediante la elaboración del Lean UX Canvas, asegurando que cada funcionalidad tuviera un propósito claro.</li></ul> Aldair Joaquin Ramos Aguirre TB1  <ul><li> Dirigí la definición Big Picture EventStorming para descubrir eventos de negocio y flujos principales. </li> <li>  Dirigí la definición mediante Impact Mapping para identificar objetivos, actores, impactos y entregables clave, estableciendo así una base estratégica que respaldó el diseño de la arquitectura de software del proyecto 'Smart Stay'.                          | *TB1*<br> <li>El liderazgo del equipo se manifestó de forma conjunta al distribuir responsabilidades clave (arquitectura, diseño de base de datos, UI/UX) entre los miembros, permitiendo que cada uno guiara su área de especialización y contribuyera a una visión técnica coherente y unificada del producto.</li><li>Las decisiones de diseño cruciales, como la adopción del modelo C4 para la arquitectura y la separación funcional de roles de usuario, se tomaron de manera consensuada, discutiendo y evaluando colectivamente las mejores alternativas para la robustez y escalabilidad del sistema.</li><li>El equipo demostró un liderazgo proactivo al guiar el proyecto a través de un proceso iterativo de refinamiento, transformando los conceptos iniciales en un conjunto de artefactos de diseño detallados y un prototipo funcional.</li>                                                                                           |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Italo Sebastian Verona Flores TB1 <ul><li>Establecí los objetivos para cada artefacto de diseño, planificando la secuencia de trabajo desde los diagramas de alto nivel (C4) hasta la implementación del front-end.</li><li>Fomenté un entorno de colaboración al proporcionar retroalimentación específica y constructiva sobre cada entregable, permitiendo la mejora continua del producto final.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Creé un entorno colaborativo al proporcionar los artefactos visuales (mockups) que sirvieron como un "lenguaje común" para alinear el trabajo de arquitectura y desarrollo.</li><li>Establecí las metas de diseño visual y de usabilidad, planificando las tareas de creación de componentes gráficos y asegurando el cumplimiento de los objetivos estéticos del proyecto.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Colaboré estrechamente con el área de diseño para planificar las tareas de maquetación, asegurando que la implementación técnica fuera fiel a la visión UX/UI.</li><li>Cumplí el objetivo de entregar una landing page interactiva y funcional, implementando características complejas como el selector de idioma y la navegación entre vistas.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Establecí las metas funcionales del producto a través de User Stories claras y bien definidas, lo que permitió al equipo planificar sus tareas de desarrollo de manera efectiva.</li><li>Creé un puente de colaboración entre la visión de negocio y el equipo técnico, asegurando que los entregables cumplieran con los objetivos planteados en la fase de análisis.</li></ul> Aldair Joaquin Ramos Aguirre TB1 <ul><li>Conduje una sesión de Big Picture EventStorming, mapeando eventos de negocio y flujos esenciales para obtener una visión integral de los procesos del proyecto.</li><li>Lideré el uso de Impact Mapping para definir metas, actores, resultados esperados y entregables, sentando las bases estratégicas.</li></ul>    | *TB1*<br> <li>Se fomentó un entorno altamente colaborativo utilizando los artefactos de diseño (diagramas C4, mockups, guías de estilo) como un lenguaje común, lo que facilitó la integración del trabajo individual y aseguró que todos los miembros compartieran la misma visión del producto final.</li><li>El equipo estableció y siguió un plan de trabajo estructurado, definiendo metas claras para cada fase del proyecto: desde el análisis de requerimientos y el diseño arquitectónico de alto nivel, hasta el modelado detallado de la base de datos y la implementación del prototipo.</li><li>Se cumplió con el objetivo principal del TB1 al entregar un producto cohesivo y funcional, que incluye una arquitectura de software documentada, un esquema de base de datos normalizado y una landing page estática e interactiva, demostrando la capacidad del equipo para planificar y ejecutar tareas complejas de manera efectiva.</li> |
+| Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | Italo Sebastian Verona Flores TB1 <ul><li>Lideré la definición de la arquitectura de software del proyecto 'Smart Stay', utilizando el modelo C4 para establecer los diagramas de Contexto, Contenedores y Componentes.</li><li>Dirigí el diseño de la base de datos, solicitando y validando los esquemas en SQL y DBML para asegurar la correcta persistencia de los datos según los Bounded Contexts definidos.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Lideré el área de diseño de experiencia de usuario (UX), elaborando los wireframes y mockups de alta fidelidad que sirvieron como guía visual para todo el proyecto.</li><li>Dirigí la creación de la guía de estilos visuales de "Smart Stay", definiendo la paleta de colores, tipografía y branding para asegurar una identidad de marca coherente y profesional.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Tomé el liderazgo en el desarrollo front-end, traduciendo los mockups y guías de estilo en un prototipo funcional utilizando HTML, Tailwind CSS y JavaScript.</li><li>Dirigí la implementación técnica de la arquitectura de página única estática (SPA), asegurando que la navegación entre vistas fuera fluida y eficiente.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Lideré la fase de análisis de requerimientos del proyecto, siendo responsable de la creación y redacción del Product Backlog, incluyendo todas las Épicas y User Stories.</li><li>Guié la alineación del producto con las necesidades del negocio mediante la elaboración del Lean UX Canvas, asegurando que cada funcionalidad tuviera un propósito claro.</li></ul> Aldair Joaquin Ramos Aguirre TB1  <ul><li> Dirigí la definición Big Picture EventStorming para descubrir eventos de negocio y flujos principales. </li> <li>  Dirigí la definición mediante Impact Mapping para identificar objetivos, actores, impactos y entregables clave, estableciendo así una base estratégica que respaldó el diseño de la arquitectura de software del proyecto 'Smart Stay'. | *TB1*<br> <li>El liderazgo del equipo se manifestó de forma conjunta al distribuir responsabilidades clave (arquitectura, diseño de base de datos, UI/UX) entre los miembros, permitiendo que cada uno guiara su área de especialización y contribuyera a una visión técnica coherente y unificada del producto.</li><li>Las decisiones de diseño cruciales, como la adopción del modelo C4 para la arquitectura y la separación funcional de roles de usuario, se tomaron de manera consensuada, discutiendo y evaluando colectivamente las mejores alternativas para la robustez y escalabilidad del sistema.</li><li>El equipo demostró un liderazgo proactivo al guiar el proyecto a través de un proceso iterativo de refinamiento, transformando los conceptos iniciales en un conjunto de artefactos de diseño detallados y un prototipo funcional.</li>                                                                                           |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Italo Sebastian Verona Flores TB1 <ul><li>Establecí los objetivos para cada artefacto de diseño, planificando la secuencia de trabajo desde los diagramas de alto nivel (C4) hasta la implementación del front-end.</li><li>Fomenté un entorno de colaboración al proporcionar retroalimentación específica y constructiva sobre cada entregable, permitiendo la mejora continua del producto final.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Creé un entorno colaborativo al proporcionar los artefactos visuales (mockups) que sirvieron como un "lenguaje común" para alinear el trabajo de arquitectura y desarrollo.</li><li>Establecí las metas de diseño visual y de usabilidad, planificando las tareas de creación de componentes gráficos y asegurando el cumplimiento de los objetivos estéticos del proyecto.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Colaboré estrechamente con el área de diseño para planificar las tareas de maquetación, asegurando que la implementación técnica fuera fiel a la visión UX/UI.</li><li>Cumplí el objetivo de entregar una landing page interactiva y funcional, implementando características complejas como el selector de idioma y la navegación entre vistas.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Establecí las metas funcionales del producto a través de User Stories claras y bien definidas, lo que permitió al equipo planificar sus tareas de desarrollo de manera efectiva.</li><li>Creé un puente de colaboración entre la visión de negocio y el equipo técnico, asegurando que los entregables cumplieran con los objetivos planteados en la fase de análisis.</li></ul> Aldair Joaquin Ramos Aguirre TB1 <ul><li>Conduje una sesión de Big Picture EventStorming, mapeando eventos de negocio y flujos esenciales para obtener una visión integral de los procesos del proyecto.</li><li>Lideré el uso de Impact Mapping para definir metas, actores, resultados esperados y entregables, sentando las bases estratégicas.</li></ul>                   | *TB1*<br> <li>Se fomentó un entorno altamente colaborativo utilizando los artefactos de diseño (diagramas C4, mockups, guías de estilo) como un lenguaje común, lo que facilitó la integración del trabajo individual y aseguró que todos los miembros compartieran la misma visión del producto final.</li><li>El equipo estableció y siguió un plan de trabajo estructurado, definiendo metas claras para cada fase del proyecto: desde el análisis de requerimientos y el diseño arquitectónico de alto nivel, hasta el modelado detallado de la base de datos y la implementación del prototipo.</li><li>Se cumplió con el objetivo principal del TB1 al entregar un producto cohesivo y funcional, que incluye una arquitectura de software documentada, un esquema de base de datos normalizado y una landing page estática e interactiva, demostrando la capacidad del equipo para planificar y ejecutar tareas complejas de manera efectiva.</li> |
 
 # **Capítulo I: Introducción**
 
@@ -200,13 +200,13 @@ Entre sus principales características destacan:
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|   Código   |   Apellidos   |     Nombres     |                                                                                                                                                                    Perfil Académico y Profesional                                                                                                                                                                     | Perfil                                       |
-|:----------:|:-------------:|:---------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|----------------------------------------------|
-| U20221E617 | Verona Flores | Italo Sebastian | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. | ![italo-verona.jpg](assets/italo-verona.jpg) |
-| U20231A816 | Valverde Portuguez| Natalia Ximena | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto. |![natalia-valverde.png](assets/natalia-valverde.png) |  
-| U20191C464 | Saavedra Angulo  | Jose Jhonatan   | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computación y el programar se me hace divertido, tengo habilidades en programación en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos. | ![saavedra.jpg](assets/saavedra.jpg)                                             
-|  U20201F051 |      Ramos Aguirre   |   Aldair Joaquin     |    Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.    |   ![aldair-ramos.jpg](assets/FotoAldair.jpg) |
-| U202019498 | Fernández Garfias | Alexander Piero | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo. |![alex-fernandez.jpg](assets/foto_alexander.jpeg) |                                                                               
+|   Código   |     Apellidos      |     Nombres     |                                                                                                                                                                         Perfil Académico y Profesional                                                                                                                                                                          | Perfil                                               |
+|:----------:|:------------------:|:---------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|------------------------------------------------------|
+| U20221E617 |   Verona Flores    | Italo Sebastian |      Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos.      | ![italo-verona.jpg](assets/italo-verona.jpg)         |
+| U20231A816 | Valverde Portuguez | Natalia Ximena  |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.  | ![natalia-valverde.png](assets/natalia-valverde.png) |  
+| U20191C464 |  Saavedra Angulo   |  Jose Jhonatan  | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computación y el programar se me hace divertido, tengo habilidades en programación en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos. | ![saavedra.jpg](assets/saavedra.jpg)                 |
+| U20201F051 |   Ramos Aguirre    | Aldair Joaquin  |                                                           Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.                                                           | ![aldair-ramos.jpg](assets/FotoAldair.jpg)           |
+| U202019498 | Fernández Garfias  | Alexander Piero |                  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo.                   | ![alex-fernandez.jpg](assets/foto_alexander.jpeg)    |                                                                               
 
 ## 1.2. Solution Profile
 
@@ -1208,7 +1208,7 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 ## 2.5. Ubiquitous Language.
 
 | **Término en Inglés**        | **Término en Español**             | **Definición**                                                                                                                                      |
-| ---------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hotel Administrator          | Administrador del hotel            | Usuario encargado de la gestión operativa del hotel. Supervisa reservas, limpieza, facturación y coordinación con el personal.                      |
 | Reservation Management       | Gestión de reservas                | Proceso centralizado de registro, confirmación, modificación y cancelación de reservas en tiempo real.                                              |
 | Overbooking                  | Sobreventa                         | Situación en la que el hotel vende más habitaciones de las disponibles debido a la falta de sincronización en los sistemas de reserva.              |
@@ -2708,23 +2708,23 @@ Uso de color:
 
 **ESCALA DE SEVERIDAD**
 
-| Nivel | Descripción |
-|-------|-------------|
-| **1** | Problema superficial: puede ser superado fácilmente. No requiere arreglo inmediato. |
-| **2** | Problema menor: afecta ocasionalmente la experiencia. Resolución de baja prioridad. |
+| Nivel | Descripción                                                                                                            |
+|-------|------------------------------------------------------------------------------------------------------------------------|
+| **1** | Problema superficial: puede ser superado fácilmente. No requiere arreglo inmediato.                                    |
+| **2** | Problema menor: afecta ocasionalmente la experiencia. Resolución de baja prioridad.                                    |
 | **3** | Problema mayor: ocurre frecuentemente y afecta la experiencia de forma significativa. Requiere corrección prioritaria. |
-| **4** | Problema muy grave: impide continuar con la tarea. Requiere corrección inmediata antes del lanzamiento. |
+| **4** | Problema muy grave: impide continuar con la tarea. Requiere corrección inmediata antes del lanzamiento.                |
 
 
 **TABLA RESUMEN**
 
-| # | Problema | Escala de severidad | Heurística/Principio violado |
-|---|----------|---------------------|-------------------------------|
-| 1 | Reservas no muestran disponibilidad en tiempo real (riesgo de sobreventa). | 3 | Usabilidad: Visibilidad del estado del sistema. |
-| 2 | Notificaciones poco configurables y sin opciones personalizadas. | 2 | Flexibilidad y eficiencia de uso. |
-| 3 | Reportes de ocupación y facturación poco visibles en el dashboard. | 2 | Visibilidad y reconocimiento antes que recuerdo. |
-| 4 | Botón de check-in digital en la app es poco visible en la pantalla de inicio. | 3 | Usabilidad: Visibilidad del estado del sistema. |
-| 5 | El control desde la app (llaves digitales, limpieza) no está claramente explicado. | 2 | Coincidencia entre el sistema y el mundo real. |
+| # | Problema                                                                           | Escala de severidad | Heurística/Principio violado                     |
+|---|------------------------------------------------------------------------------------|---------------------|--------------------------------------------------|
+| 1 | Reservas no muestran disponibilidad en tiempo real (riesgo de sobreventa).         | 3                   | Usabilidad: Visibilidad del estado del sistema.  |
+| 2 | Notificaciones poco configurables y sin opciones personalizadas.                   | 2                   | Flexibilidad y eficiencia de uso.                |
+| 3 | Reportes de ocupación y facturación poco visibles en el dashboard.                 | 2                   | Visibilidad y reconocimiento antes que recuerdo. |
+| 4 | Botón de check-in digital en la app es poco visible en la pantalla de inicio.      | 3                   | Usabilidad: Visibilidad del estado del sistema.  |
+| 5 | El control desde la app (llaves digitales, limpieza) no está claramente explicado. | 2                   | Coincidencia entre el sistema y el mundo real.   |
 
 
 **DESCRIPCIÓN DE PROBLEMAS**
@@ -2775,22 +2775,22 @@ En Application Wen, el contenido se distribuye en bloques según su prioridad: p
 
 ### 4.2.2. Labeling Systems
 
-| Etiqueta | Ubicación / Componente | Función |
-|----------|----------------------|---------|
-| Home | Header | Enlace a la Landing Page. Claro y universal. |
-| Services | Header | Información sobre los servicios disponibles (alojamiento, limpieza, extras). Directo y comprensible. |
-| Bookings | Header | Acceso a la sección de reservas. Término estándar y reconocido. |
-| Contact | Header | Formulario de contacto o enlace de correo. Directa y orientada a la acción. |
-| Sign Up | Header (botón) | Registro de nuevos usuarios. Corto, amigable y visualmente destacado. |
-| Login | Header (botón) | Inicio de sesión de usuarios. Palabra ampliamente reconocida. |
-| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo. Imperativo que motiva la interacción. |
-| Benefits | Hero Section / Sección de valor | Destaca las ventajas de la plataforma. Claro y enfocado al usuario. |
-| Testimonials | Sección de valor | Muestra opiniones de usuarios. Genera confianza y credibilidad. |
-| About | Footer / Company | Información institucional sobre Smart Stay. Claro y directo. |
-| Privacy Policy | Footer / Legal | Obligatorio por normativa. Etiqueta reconocida internacionalmente. |
-| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. Estándar legal indispensable. |
-| Social Media | Footer / Navigation | Agrupa enlaces a redes oficiales. Convencional y reconocible globalmente. |
-| Smart Stay | Marca | Nombre distintivo de la plataforma. Funciona como ancla visual y semántica. |
+| Etiqueta           | Ubicación / Componente          | Función                                                                                              |
+|--------------------|---------------------------------|------------------------------------------------------------------------------------------------------|
+| Home               | Header                          | Enlace a la Landing Page. Claro y universal.                                                         |
+| Services           | Header                          | Información sobre los servicios disponibles (alojamiento, limpieza, extras). Directo y comprensible. |
+| Bookings           | Header                          | Acceso a la sección de reservas. Término estándar y reconocido.                                      |
+| Contact            | Header                          | Formulario de contacto o enlace de correo. Directa y orientada a la acción.                          |
+| Sign Up            | Header (botón)                  | Registro de nuevos usuarios. Corto, amigable y visualmente destacado.                                |
+| Login              | Header (botón)                  | Inicio de sesión de usuarios. Palabra ampliamente reconocida.                                        |
+| Try Demo           | Hero Section (CTA principal)    | Llamada a la acción principal para probar la demo. Imperativo que motiva la interacción.             |
+| Benefits           | Hero Section / Sección de valor | Destaca las ventajas de la plataforma. Claro y enfocado al usuario.                                  |
+| Testimonials       | Sección de valor                | Muestra opiniones de usuarios. Genera confianza y credibilidad.                                      |
+| About              | Footer / Company                | Información institucional sobre Smart Stay. Claro y directo.                                         |
+| Privacy Policy     | Footer / Legal                  | Obligatorio por normativa. Etiqueta reconocida internacionalmente.                                   |
+| Terms & Conditions | Footer / Legal                  | Complementa la política de privacidad. Estándar legal indispensable.                                 |
+| Social Media       | Footer / Navigation             | Agrupa enlaces a redes oficiales. Convencional y reconocible globalmente.                            |
+| Smart Stay         | Marca                           | Nombre distintivo de la plataforma. Funciona como ancla visual y semántica.                          |
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -2869,48 +2869,48 @@ En la Landing Page, la búsqueda está orientada a descubrir información genera
 En la Web App, la búsqueda es más funcional y permite filtrar y ordenar datos concretos como huéspedes, reservas y servicios, aplicando autocompletado, filtros dinámicos y persistencia de resultados para mejorar la experiencia del usuario.
 El sistema se diseña siguiendo principios de intuitividad, consistencia, visibilidad y escalabilidad, asegurando que los usuarios siempre encuentren lo que buscan de manera rápida y clara.
 
-| Search Type | Location / Component | Function |
-|------------|--------------------|---------|
-| General Search | Landing Page / Header | Permite buscar información general sobre la plataforma y sus servicios (ej. "services", "demo", "benefits"). Incluye autocompletado y filtros básicos. |
-| Try Demo / Benefits Links | Landing Page / Hero & Value Sections | Funciona como búsqueda indirecta, guiando al usuario hacia contenido relevante sin necesidad de escribir. |
-| Guest / Customer Search | Web App / Guests Section | Permite filtrar por nombre, ID, tipo de habitación o fecha de reserva. Facilita gestión de usuarios. |
-| Bookings Search | Web App / Bookings Section | Filtrado por fechas, estado de reserva (pendiente, confirmada, cancelada) y tipo de servicio. |
-| Services & Products Search | Web App / Services & Products Section | Filtrado por categoría (limpieza, comida, amenities), disponibilidad y precios. |
-| Autocomplete | Web App / All Search Fields | Sugerencias dinámicas mientras se escribe para acelerar la búsqueda y mejorar experiencia de usuario. |
-| Dynamic Filters | Web App / All Search Results | Ajusta los resultados en tiempo real según criterios seleccionados. |
-| Sorting | Web App / All Search Results | Permite ordenar resultados por fecha, nombre, prioridad o relevancia. |
-| Search Persistence | Web App / All Sections | Mantiene los filtros y resultados de búsqueda mientras el usuario navega dentro de la misma sección. |
+| Search Type                | Location / Component                  | Function                                                                                                                                               |
+|----------------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| General Search             | Landing Page / Header                 | Permite buscar información general sobre la plataforma y sus servicios (ej. "services", "demo", "benefits"). Incluye autocompletado y filtros básicos. |
+| Try Demo / Benefits Links  | Landing Page / Hero & Value Sections  | Funciona como búsqueda indirecta, guiando al usuario hacia contenido relevante sin necesidad de escribir.                                              |
+| Guest / Customer Search    | Web App / Guests Section              | Permite filtrar por nombre, ID, tipo de habitación o fecha de reserva. Facilita gestión de usuarios.                                                   |
+| Bookings Search            | Web App / Bookings Section            | Filtrado por fechas, estado de reserva (pendiente, confirmada, cancelada) y tipo de servicio.                                                          |
+| Services & Products Search | Web App / Services & Products Section | Filtrado por categoría (limpieza, comida, amenities), disponibilidad y precios.                                                                        |
+| Autocomplete               | Web App / All Search Fields           | Sugerencias dinámicas mientras se escribe para acelerar la búsqueda y mejorar experiencia de usuario.                                                  |
+| Dynamic Filters            | Web App / All Search Results          | Ajusta los resultados en tiempo real según criterios seleccionados.                                                                                    |
+| Sorting                    | Web App / All Search Results          | Permite ordenar resultados por fecha, nombre, prioridad o relevancia.                                                                                  |
+| Search Persistence         | Web App / All Sections                | Mantiene los filtros y resultados de búsqueda mientras el usuario navega dentro de la misma sección.                                                   |
 
 ### 4.2.5. Navigation Systems
 
 **Landing Page Navigation**
 
-| Navigation Item | Location / Component | Function |
-|-----------------|--------------------|---------|
-| Home | Header | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
-| Services | Header | Acceso rápido a la sección de servicios disponibles. |
-| Bookings | Header | Permite al usuario gestionar reservas desde cualquier lugar. |
-| Contact | Header | Enlace al formulario de contacto o correo de soporte. |
-| Sign Up | Header (button) | Registro de nuevos usuarios. Destacado visualmente. |
-| Login | Header (button) | Acceso a la sesión del usuario. Fácil de localizar. |
-| Try Demo | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay. |
-| Benefits | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma. |
-| About | Footer / Company | Información institucional sobre Smart Stay. Acceso desde cualquier sección. |
-| Privacy Policy | Footer / Legal | Enlace obligatorio por normativa legal. |
-| Terms & Conditions | Footer / Legal | Complementa la política de privacidad. |
-| Social Media | Footer / Navigation | Acceso a redes oficiales, visibilidad global. |
+| Navigation Item    | Location / Component         | Function                                                                      |
+|--------------------|------------------------------|-------------------------------------------------------------------------------|
+| Home               | Header                       | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
+| Services           | Header                       | Acceso rápido a la sección de servicios disponibles.                          |
+| Bookings           | Header                       | Permite al usuario gestionar reservas desde cualquier lugar.                  |
+| Contact            | Header                       | Enlace al formulario de contacto o correo de soporte.                         |
+| Sign Up            | Header (button)              | Registro de nuevos usuarios. Destacado visualmente.                           |
+| Login              | Header (button)              | Acceso a la sesión del usuario. Fácil de localizar.                           |
+| Try Demo           | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay.              |
+| Benefits           | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma.                   |
+| About              | Footer / Company             | Información institucional sobre Smart Stay. Acceso desde cualquier sección.   |
+| Privacy Policy     | Footer / Legal               | Enlace obligatorio por normativa legal.                                       |
+| Terms & Conditions | Footer / Legal               | Complementa la política de privacidad.                                        |
+| Social Media       | Footer / Navigation          | Acceso a redes oficiales, visibilidad global.                                 |
 
 **Web App Navigation**
 
-| Navigation Item | Location / Component | Function |
-|-----------------|--------------------|---------|
-| Guests | Sidebar | Sección principal para gestionar huéspedes o clientes. |
-| Bookings | Sidebar | Sección principal para gestionar reservas y su estado. |
-| Services | Sidebar | Sección principal para gestionar servicios disponibles. |
-| Products | Sidebar | Sección para visualizar y administrar productos asociados. |
-| Profile | Top Bar | Acceso a perfil de usuario, configuración y notificaciones. |
-| Notifications | Top Bar | Acceso rápido a alertas y mensajes importantes. |
-| Breadcrumbs | Optional | Indica la ruta de navegación y permite regresar a secciones previas. |
+| Navigation Item | Location / Component | Function                                                             |
+|-----------------|----------------------|----------------------------------------------------------------------|
+| Guests          | Sidebar              | Sección principal para gestionar huéspedes o clientes.               |
+| Bookings        | Sidebar              | Sección principal para gestionar reservas y su estado.               |
+| Services        | Sidebar              | Sección principal para gestionar servicios disponibles.              |
+| Products        | Sidebar              | Sección para visualizar y administrar productos asociados.           |
+| Profile         | Top Bar              | Acceso a perfil de usuario, configuración y notificaciones.          |
+| Notifications   | Top Bar              | Acceso rápido a alertas y mensajes importantes.                      |
+| Breadcrumbs     | Optional             | Indica la ruta de navegación y permite regresar a secciones previas. |
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
@@ -3687,24 +3687,609 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ![Edgerunners-Aplicaciones-Web_Physical_Export.png](assets/Chapter-04/Edgerunners-Aplicaciones-Web_Physical_Export.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
 
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint n
-#### 5.2.1.1. Sprint Planning n
-#### 5.2.1.2. Aspect Leaders and Collaborators
-#### 5.2.1.3. Sprint Backlog n
-#### 5.2.1.4. Development Evidence for Sprint Review
-#### 5.2.1.5. Execution Evidence for Sprint Review
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+# 5.1. Software Configuration Management
+
+En esta sección el equipo establece las decisiones, herramientas y convenciones que permiten mantener la consistencia durante el ciclo de vida del proyecto. Se incluyen aspectos de configuración del entorno de desarrollo, gestión del código fuente, guías de estilo y configuración de despliegue de la solución.
+
+---
+
+## 5.1.1. Software Development Environment Configuration
+
+
+### Project Management
+Para la gestión del proyecto se emplearon diversas herramientas de comunicación, planificación y control de versiones. Se creó una organización en GitHub para centralizar el repositorio del código fuente y coordinar el trabajo colaborativo del equipo. La comunicación interna se realizó mediante Discord y WhatsApp, mientras que la planificación ágil de tareas se gestionó a través de Trello.
+
+- **Organización del trabajo:** GitHub
+- **Reuniones:** Discord
+- **Comunicación:** WhatsApp
+- **Planificación y asignación de tareas:** Trello
+
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)  
+-**Discord:** [Discord](https://discord.com/)  
+-**Trello:** [Trello](https://trello.com/)
+
+
+### Requirement Management
+Para la fase de levantamiento y priorización de requisitos, se implementaron herramientas que facilitaron la recolección, análisis y documentación de información. Trello fue empleado para la gestión visual de tareas mediante tableros personalizados.  
+Además, se utilizó **UXPressia** para el desarrollo de *User Personas*, *Empathy Maps*, *Journey Maps* y *Lean UX Canvas*, mientras que **Miro** sirvió para construir los escenarios *As-Is* y *To-Be* de los procesos del sistema.
+
+**Enlaces**  
+-**Trello:** [Trello](https://trello.com/)  
+-**UXPressia:** [UXPressia](https://uxpressia.com/)  
+-**Miro:** [Miro](https://miro.com/es/)
+
+
+
+### Product UX/UI Design
+Durante el diseño de la experiencia e interfaz de usuario, el equipo utilizó **Figma** para crear *wireframes*, *mockups* y *prototipos interactivos*, lo cual permitió validar las propuestas de diseño antes de su implementación final.  
+Asimismo, se aplicaron principios de usabilidad y diseño centrado en el usuario para garantizar una navegación fluida y consistente.
+
+**Enlaces**  
+-**Figma:** [Figma](https://www.figma.com/)
+
+
+
+### Software Development
+Para el desarrollo de la aplicación se utilizaron distintas herramientas y entornos de programación.  
+El *backend* fue implementado con **ASP.NET Core (C#)** empleando el IDE **JetBrains Rider**, mientras que el *frontend* se desarrolló con **Vue.js** en **JetBrains WebStorm**, apoyándose en **Node.js** y **NPM** para la gestión de dependencias.  
+Adicionalmente, se emplearon **HTML**, **CSS** y **JavaScript** para la construcción de la *Landing Page*.  
+La instalación y mantenimiento de las IDEs se realizó mediante **JetBrains ToolBox**.
+
+**Enlaces**  
+-**JetBrains ToolBox:** [JetBrains ToolBox](https://www.jetbrains.com/toolbox-app/)  
+-**Rider:** [JetBrains Rider](https://www.jetbrains.com/rider/)  
+-**Webstorm:** [JetBrains WebStorm](https://www.jetbrains.com/webstorm/)  
+-**Node.js:** [Node.js](https://nodejs.org/)  
+-**Vue.js:** [Vue.js](https://vuejs.org/)  
+-**PrimeVue:** [PrimeVue](https://primevue.org/)  
+-**Visual Studio Code:** [Visual Studio Code](https://code.visualstudio.com/)
+
+
+### Software Documentation
+Para la documentación técnica y la gestión del repositorio, se utilizó **GitHub** siguiendo la metodología de trabajo **GitHub Flow**.  
+Esta estrategia permitió un control de versiones eficiente mediante el uso de ramas específicas para cada funcionalidad o corrección.  
+Toda la documentación se redactó en formato **Markdown (.md)**, debido a su legibilidad, simplicidad y compatibilidad con GitHub.
+
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)
+
+### Software Deployment
+El despliegue de la *Landing Page* se realizó mediante **GitHub Pages**, una herramienta ideal para la publicación de sitios web estáticos directamente desde el repositorio del proyecto.
+
+**Enlaces**  
+-**GitHub Pages:**  [GitHub Pages](https://pages.github.com/)
+
+-----
+## 5.1.2. Source Code Management
+
+El sistema de control de versiones utilizado para el desarrollo del proyecto es **GitHub**, implementando un flujo de trabajo basado en **GitFlow**, el cual permite mantener un proceso de desarrollo estructurado, ordenado y colaborativo.
+
+### Modelo de ramas Git Flow
+El modelo de ramas adoptado se basa en **GitFlow**, estableciendo una organización clara del código fuente para facilitar la integración de nuevas funcionalidades y el control de versiones.
+
+- **main:** rama principal donde se encuentra el código estable y listo para despliegue.
+- **develop:** rama base para la integración y prueba de nuevas funcionalidades antes de su paso a producción.
+- **feature/:** ramas destinadas al desarrollo de nuevas características o capítulos del proyecto.
+
+**Ramas de características existentes:**
+- `feature/chapter-01`
+- `feature/chapter-02`
+- `feature/chapter-03`
+- `feature/chapter-04`
+- `feature/chapter-05`
+
+Cada funcionalidad o capítulo se desarrolla en una rama independiente y, una vez completada, se fusiona con la rama *develop*.
+
+### Convenciones de nomenclatura
+Para mantener coherencia en la gestión del código, se emplean las siguientes convenciones de nombres de ramas:
+
+- `feature/<nombre>`: nuevas funcionalidades o módulos.
+- `release/<versión>`: preparación de entregas o versiones estables.
+- `hotfix/<incidencia>`: correcciones críticas en producción.
+
+### Versionado semántico (Semantic Versioning)
+El proyecto aplica **Semantic Versioning 2.0.0**, un estándar que define un esquema de control de versiones mediante el formato **MAJOR.MINOR.PATCH**, asegurando claridad en los cambios de versión.
+
+**Ejemplos:**
+- `v1.0.0`: versión estable inicial.
+- `v1.1.0`: incorporación de nuevas funcionalidades.
+- `v2.0.0`: cambios mayores o incompatibles con versiones anteriores.
+
+### Convención de mensajes de commits
+Se siguen las reglas de **Conventional Commits**, garantizando mensajes de confirmación legibles, consistentes y estandarizados.  
+Esto permite mantener una trazabilidad clara de los cambios realizados en el repositorio.
+
+**Ejemplos de commits:**
+- `feat: agregar nuevo sistema de login`
+- `fix: corregir validación en formulario de registro`
+- `docs: actualizar README con instrucciones de despliegue`
+
+### Repositorios del proyecto
+El proyecto está organizado dentro de una **organización en GitHub**, donde cada módulo cuenta con su propio repositorio según su propósito y tecnología.
+
+- **Landing Page:** desarrollada con *HTML*, *CSS* y *JavaScript*.
+- **Web Services:** implementado con *ASP.NET Core (C#)*.
+- **Frontend Web Application:** construida con *Vue.js* y *PrimeVue*.
+
+
+
+### Flujo de trabajo de GitFlow
+El flujo de trabajo del proyecto se basa en el modelo **“A Successful Git Branching Model”**, el cual organiza el proceso de desarrollo mediante ramas específicas para cada funcionalidad o corrección.  
+Este enfoque permite un control de versiones ordenado y un desarrollo paralelo seguro.
+
+### Estructura de branches (Ramas)
+
+**Master branch (Rama principal):**  
+Es la rama principal del proyecto, donde se almacena el código estable y listo para producción.  
+Solo se integran cambios que hayan sido probados y validados previamente en las ramas de desarrollo (*develop*) y funcionalidad (*feature/*).  
+Esta rama representa el estado más confiable del proyecto.
+
+**Develop branch (Rama de desarrollo):**  
+Actúa como un espacio de integración para el trabajo en equipo.  
+Aquí se combinan, prueban y ajustan las nuevas funcionalidades antes de ser fusionadas con la rama principal (*main*).  
+Su propósito es garantizar que el código integrado sea funcional y estable antes del despliegue.
+
+**Feature branches (Ramas de funcionalidad):**  
+Cada nueva funcionalidad o tarea específica se desarrolla en su propia rama independiente.  
+Una vez completada y verificada, se integra nuevamente en la rama de desarrollo (*develop*).  
+Las ramas de funcionalidad siguen un esquema de nombres descriptivos, como por ejemplo:
+- `feature/chapter-01`
+- `feature/chapter-02`
+- `feature/chapter-03`
+- `feature/chapter-04`
+- `feature/chapter-05`
+
+
+---
+
+## 5.1.3. Source Code Style Guide & Conventions
+
+El equipo adopta **convenciones de nomenclatura y guías de estilo estandarizadas** para mantener la coherencia, legibilidad y escalabilidad del código fuente a lo largo del proyecto.  
+Todas las variables, funciones, clases y archivos se nombran en **inglés**, siguiendo las convenciones propias de cada lenguaje y marco de trabajo.
+
+
+### HTML / CSS
+Se siguen las recomendaciones de las guías de estilo oficiales:
+
+- [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+**Convenciones aplicadas:**
+- Uso de etiquetas **semánticas** para mejorar la estructura, accesibilidad y SEO del sitio.
+- Clases CSS escritas en **kebab-case**, por ejemplo: `.main-header`, `.card-title`.
+- Identificadores claros, descriptivos y consistentes.
+- Organización modular del código mediante hojas de estilo separadas por componente o sección.
+
+**Etiquetas utilizadas en la estructura de la Landing Page:**
+- `<header>`: Contiene el contenido introductorio del sitio y el logotipo principal.
+- `<nav>`: Define las secciones dedicadas a la navegación dentro del sitio.
+- `<div>`: Permite agrupar elementos y aplicar estilos específicos por secciones.
+- `<img>`: Inserta imágenes optimizadas para mejorar la presentación visual.
+- `<ul>`: Define listas desordenadas, empleadas en el menú de navegación.
+- `<li>`: Representa los elementos de cada lista, utilizados en menús y secciones del blog.
+- `<a>`: Crea hipervínculos que permiten desplazarse por las secciones del sitio.
+- `<p>`: Define párrafos de texto para el contenido informativo.
+- `<button>`: Declara botones interactivos que permiten ejecutar acciones específicas.
+- `<h1>` – `<h4>`: Representan los distintos niveles de encabezados del sitio, donde `<h1>` es el nivel principal.
+
+### JavaScript (Vue.js)
+
+Se aplican las siguientes guías y herramientas de estilo:
+
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- [W3C JavaScript Best Practices](https://www.w3.org/wiki/JavaScript_best_practices)
+- [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Vue Style Guide](https://vuejs.org/style-guide/)
+
+**Prácticas adoptadas:**
+- Código escrito en **ES6+**, priorizando claridad y modularidad.
+- Uso de **CamelCase** para variables y funciones.
+- Componentes de Vue nombrados en **PascalCase**.
+- Implementación de **ESLint** y **Prettier** para análisis estático y formateo automático del código.
+- Uso del principio **DRY (Don’t Repeat Yourself)** para evitar duplicaciones.
+
+
+### C# y ASP.NET Core
+Las convenciones del código backend siguen los lineamientos de Microsoft:
+
+- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)
+
+**Convenciones aplicadas:**
+- Uso de **PascalCase** para clases, interfaces y métodos públicos.
+- Uso de **camelCase** para variables locales y parámetros.
+- Organización del código en **namespaces** coherentes con la arquitectura del proyecto.
+- Comentarios XML para documentación interna de métodos y controladores.
+- Pruebas unitarias y escenarios escritos siguiendo la convención **Gherkin (Given-When-Then)**.
+
+### Buenas prácticas comunes
+En todo el código del proyecto se aplican principios de ingeniería de software orientados a la calidad y mantenibilidad:
+
+- Nomenclatura en inglés.
+- Principio **DRY (Don’t Repeat Yourself)**: evitar duplicación de código.
+- Principio **KISS (Keep It Simple, Stupid)**: priorizar soluciones simples y claras.
+- Código documentado y con convenciones homogéneas entre frontend y backend.
+- Control de formato automatizado mediante *linters* y *formatters* en cada entorno de desarrollo.
+---
+
+## 5.1.4. Software Deployment Configuration
+
+El despliegue de la solución considera los siguientes aspectos generales, los cuales garantizan la disponibilidad y correcta operación de los distintos componentes del sistema:
+
+
+### Landing Page Deployment
+La **Landing Page** fue desarrollada utilizando **HTML**, **CSS** y **JavaScript**, y se encuentra desplegada públicamente a través de **GitHub Pages**.  
+Para su publicación, se cumplieron los siguientes pasos:
+
+1. **Preparación del entorno:**  
+   Se creó un repositorio dentro de la organización en **GitHub**, destinado a alojar los archivos de la Landing Page.
+
+2. **Estructura de archivos:**  
+   Los archivos principales se encuentran en la raíz del repositorio, siguiendo las convenciones de nombres:
+    - `index.html` → página principal.
+    - `styles.css` → hoja de estilos principal.
+    - `script.js` → scripts principales.
+    - `languages.js` → archivo para gestionar los textos en distintos idiomas (español e inglés).
+    - Carpeta `assets/images/` → para las imágenes utilizadas en el sitio.
+
+3. **Configuración en GitHub Pages:**
+    - Se accedió a **Settings > Pages** dentro del repositorio.
+    - Se seleccionó la rama **main** como fuente de publicación.
+    - Se configuró la carpeta raíz (`/`) como directorio base.
+    - Una vez completado el proceso, GitHub generó automáticamente la URL pública de la Landing Page.
+
+Además, se implementó un archivo `languages.js` que contiene los textos en español e inglés.  
+Este archivo es consumido por el script `main.js`, permitiendo el cambio de idioma dinámico en la interfaz.
+
+
+### Backend (Web Services)
+El **backend** fue desarrollado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+Su despliegue se realizó en la plataforma **Render**, configurada como un servicio *cloud* para ejecutar la API de forma continua.  
+Esto permite mantener el servicio activo, escalable y sincronizado con el repositorio de GitHub.
+
+
+### Frontend Web Application
+La **aplicación web frontend** fue construida con **Vue.js** y **PrimeVue**, integrando una interfaz moderna e interactiva.  
+El despliegue se llevó a cabo en **Render**, aprovechando su integración con GitHub para habilitar un flujo de despliegue automático.  
+Cada actualización en la rama `main` desencadena una nueva versión publicada en producción.
+
+
+### Integración Continua / Despliegue Continuo (CI/CD)
+El proyecto implementa un flujo automatizado de **Integración Continua y Despliegue Continuo (CI/CD)**, con el objetivo de mantener la coherencia entre los entornos de desarrollo y producción.
+
+- Todos los repositorios están conectados directamente a **GitHub**.
+- **Render** ejecuta el despliegue automático al detectarse *merges* en la rama `main`.
+- Este proceso garantiza una actualización constante de los servicios y minimiza la intervención manual en las publicaciones.
+
+### Github Pages:
+![Github Pages](assets/githubpages.jpg)
+
+**La URL que nos entrega Github Pages para acceder a la landing page es la siguiente:**  
+[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
+
+---
+
+## 5.2. Landing Page, Services & Applications Implementation.
+
+![Landing_Page](assets/Landingimage.jpeg)
+
+---
+
+## 5.2.1. Sprint 1
+
+A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+
+## 5.2.1.1. Sprint Planning 1
+
+
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                      |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                              |
+| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                    |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                             |
+| **Location**                           | Modalidad remota mediante **Discord**                                                                                                                                                                                                                         |
+| **Prepared By**                        | Equipo **SmartStay**                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan                                                                                                                     |
+| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                               |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas. |
+| **Sprint Goal & User Stories**         | —                                                                                                                                                                                                                                                             |
+| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                  |
+| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                             |
+| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                             |
+
+
+
+## 5.2.1.2. Deployment Evidence for Sprint Review
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318)         | L                                                  | C                                                                         | C                                                     | C                                   |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)           | C                                                  | L                                                                         | C                                                     | C                                   |
+| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C                                                  | C                                                                         | L                                                     | C                                   |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)               | C                                                  | C                                                                         | C                                                     | L                                   |
+| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)           | C                                                  | C                                                                         | C                                                     | L                                   |
+
+---
+
+## 5.2.1.3. Sprint Backlog 1
+
+### Introducción
+El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
+Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios registrados** a través de una experiencia inicial clara e intuitiva.
+
+**Evidencia en del avance en trello**
+
+![sprint_trello](assets/trello.jpg)
+
+Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
+
+### Sprint #1 – Sprint Backlog
+
+
+| **Sprint #** | **User Story**                           | **Work-Item/Task** | **Id**                                     | **Title**                                                                                                    | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|------------------------------------------|--------------------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------|------------------------|-----------------|------------|
+| Sprint 1     | US-24 – Segmented landing page           | UT-01              | Diseñar estructura visual                  | Crear la estructura general de la Landing Page con secciones diferenciadas para administradores y huéspedes. | 6               | Alexander              | Done            |
+| Sprint 1     | US-24 – Segmented landing page           | UT-02              | Maquetar Landing Page                      | Implementar el diseño HTML y CSS del prototipo base.                                                         | 5               | Italo                  | In Process      |
+| Sprint 1     | US-24 – Segmented landing page           | UT-03              | Navegación y enlaces internos              | Configurar navegación entre secciones con enlaces y smooth scroll.                                           | 3               | Jose                   | Done            |
+| Sprint 1     | US-26 – Success stories and testimonials | UT-04              | Crear sección de testimonios               | Diseñar carrusel con testimonios de usuarios y animaciones simples.                                          | 4               | Aldair                 | To Review       |
+| Sprint 1     | US-27 – Demo request and contact         | UT-05              | Formulario de contacto                     | Implementar formulario con validación y diseño responsive.                                                   | 4               | Natalia                | Done            |
+| Sprint 1     | US-28 – Corporate information            | UT-06              | Redactar misión, visión y valores          | Escribir texto institucional coherente con la marca Smart Stay.                                              | 3               | Natalia                | Done            |
+| Sprint 1     | US-28 – Corporate information            | UT-07              | Implementar sección “About Us”             | Maquetar la sección con texto e imagen representativa.                                                       | 4               | Alexander              | To Do           |
+| Sprint 1     | US-24 – Segmented landing page           | UT-08              | Añadir botones CTA (Login, Registro, Demo) | Colocar botones visibles con enlaces a las rutas de autenticación.                                           | 3               | Jose                   | Done            |
+| Sprint 1     | US-26 – Success stories and testimonials | UT-09              | Ajustar animaciones y transiciones         | Aplicar efectos de entrada y desplazamiento fluido en los testimonios.                                       | 4               | Aldair                 | In Process      |
+
+
+## 5.2.1.4. Development Evidence for Sprint Review
+
+### Introducción
+Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
+
+### Commits realizados
+
+| Repository                          | Branch               | Commit Id | Commit Message                             | Commit Message Body                                                  | Committed on (Date) |
+|-------------------------------------|----------------------|-----------|--------------------------------------------|----------------------------------------------------------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `14ca4e3` | `feat: add initial landing page structure` | Se implementa la estructura base de la landing con secciones vacías. | 13/09/2025          |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `27bd9f1` | `feat: add SmartStay introduction section` | Contenido informativo agregado a la landing.                         | 13/09/2025          |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `38cf0d2` | `feat: add benefits section with icons`    | Sección de beneficios agregada con maquetado inicial.                | 14/09/2025          |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `42af2e9` | `feat: add login/register buttons`         | Se agregan botones que redirigen a formularios de login y registro.  | 14/09/2025          |
+| Edgerunners-Aplicaciones-Web/report | feature/landing-page | `59ff1d8` | `chore: fix navigation and styles`         | Ajustes en navegación y estilos de la landing.                       | 15/09/2025          |
+| Edgerunners-Aplicaciones-Web/report | develop              | `6af1bc3` | `merge: feature/landing-page into develop` | Se integran cambios de la landing en la rama de desarrollo.          | 16/09/2025          |
+
+**Evidencia de los commits del landing page**
+
+![commitslanding](assets/commitslanding.png)
+
+## 5.2.1.5. Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.
+
+- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).
+- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.
+
+### Evidencia
+
+- **Repositorio en GitHub**  
+  ![Repositorio](assets/repository.png)
+
+
+- **Landing Page publicada**  
+  ![landing_page](assets/encabezado_hero.png)
+
+
+### 5.2.1.6. Execution Evidence for Sprint Review.
+
+En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.
+
+La ejecución se centró en:
+- Implementar la **estructura básica** de la landing page.
+- Incluir una **barra de navegación**, sección principal (*Hero*) y enlaces de acceso hacia registro y login.
+- Aplicar una **paleta de colores sencilla** y un diseño **responsive básico** para visualización en dispositivos móviles y escritorio.
+- Publicar el proyecto en GitHub Pages, asegurando que esté disponible de manera pública.
+
+### Evidencia visual
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- Vista principal de la landing page:  
+  ![home.png](assets/home.png)
+
+- Barra de navegación y sección principal (*Hero*):  
+  ![navbar](assets/navbar.png)
+
+
+### 5.2.1.7. Services Documentation Evidence for Sprint Review
+
+En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.
+
+El trabajo incluyó la definición de la estructura visual básica, la aplicación de colores corporativos y la integración de secciones clave como la barra de navegación y la sección principal (*Hero*).
+
+La landing page cumple el rol de **página de presentación inicial** de la plataforma SmartStay, ofreciendo a los usuarios una visión general del proyecto y accesos rápidos al registro o login.
+
+Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.
+
+
+### 5.2.1.8. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizaron los siguientes procesos de despliegue:
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.
+- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.
+
+Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.
+
+
+### 5.2.1.9. Team Collaboration Insights during Sprint
+
+Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.
+
+**Acciones de colaboración destacadas:**
+- Se utilizó **GitHub** como herramienta central de coordinación y control de versiones.
+- Uno de los integrantes configuró el repositorio inicial y las ramas de trabajo.
+- Cada miembro realizó **commits documentados** con los cambios implementados.
+- Se llevaron a cabo **pull requests** para integrar las contribuciones al repositorio principal.
+- Se realizaron revisiones de código en equipo para mantener la coherencia visual y funcional de la landing.
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
+
+![commits_team1](assets/commits_team1.png)
+
+![commits_team2](assets/commits_team2.png)
+
+
+
+## 5.2.2 Sprint 2
+
+---
+
+
+## 5.2.2.1 Sprint Planning 2
+
+
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                                                                                                                                                                                                                                                                                                                                           |
+| **Date**                               | 2025-10-01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                               | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                           | Modalidad remota mediante **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                        | Equipo **SmartStay**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Attendees (to planning meeting)**    | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint n – 1 Review Summary**        | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint.                                                                                                                                                                                                                                                                                                                  |
+| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto.                                                                                                                                                                                |
+| **Sprint Goal & User Stories**         | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint n Goal**                      | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
+| **Sprint n Velocity**                  | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sum of Story Points**                | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+---
+
+## 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante este primer Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318)         | L                                                  | C                                                                         | C                                                     | C                                   |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)           | C                                                  | L                                                                         | C                                                     | C                                   |
+| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C                                                  | C                                                                         | L                                                     | C                                   |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)               | C                                                  | C                                                                         | C                                                     | L                                   |
+| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)           | C                                                  | C                                                                         | C                                                     | L                                   |
+
+---
+
+## 5.2.2.3. Sprint Backlog 2.
+
+
+![sprint_trello](assets/trello2.jpg)
+
+| **Sprint #** | **User Story**                           | **Work-Item/Task** | **Id**                             | **Title**                                                              | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|------------------------------------------|--------------------|------------------------------------|------------------------------------------------------------------------|-----------------|------------------------|-----------------|------------|
+| Sprint 2     | US-24 – Segmented landing page           | UT-10              | Optimizar diseño visual            | Mejorar la coherencia de colores, tipografía y elementos gráficos.     | 5               | Natalia                | Done            |
+| Sprint 2     | US-24 – Segmented landing page           | UT-11              | Optimizar SEO y rendimiento        | Implementar buenas prácticas de SEO y reducir tiempos de carga.        | 6               | Italo                  | In Process      |
+| Sprint 2     | US-25 – ROI simulator for hotels         | UT-12              | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos.       | 6               | Alexander              | To Do           |
+| Sprint 2     | US-25 – ROI simulator for hotels         | UT-13              | Implementar lógica de cálculo      | Programar la función que calcula el ROI dinámicamente.                 | 7               | Jose                   | In Process      |
+| Sprint 2     | US-27 – Demo request and contact         | UT-14              | Integrar formulario con backend    | Conectar formulario de contacto con API simulada de registro de leads. | 5               | Aldair                 | To Review       |
+| Sprint 2     | US-24 – Segmented landing page           | UT-15              | Implementar sistema multilenguaje  | Agregar soporte para inglés/español y detección automática.            | 6               | Italo                  | In Process      |
+| Sprint 2     | US-24 – Segmented landing page           | UT-16              | Pruebas de responsividad           | Realizar pruebas en diferentes navegadores y dispositivos.             | 5               | Natalia                | Done            |
+| Sprint 2     | US-26 – Success stories and testimonials | UT-17              | Agregar métricas en testimonios    | Mostrar porcentajes de mejora o impacto en casos de éxito.             | 4               | Jose                   | To Do           |
+| Sprint 2     | US-28 – Corporate information            | UT-18              | Sección de equipo y liderazgo      | Agregar datos e imágenes de los integrantes principales.               | 4               | Aldair                 | To Review       |
+| Sprint 2     | US-24 – Segmented landing page           | UT-19              | Desplegar nueva versión pública    | Publicar versión optimizada y completamente funcional del sitio.       | 3               | Italo                  | Done            |
+
+---
+## 5.2.2.4. Development Evidence for Sprint Review
+
+En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+
+---
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+landing Page
+
+Esta es la sección inicial, donde está el header.
+
+![Landing1](assets/landing1.jpeg)
+
+Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+
+![Landing2](assets/landing2.jpeg)
+
+Esta sección describe las soluciones de acorde al tipo de propiedad.
+![Landing3](assets/landing3.jpeg)
+
+Tenemos en esta sección acerca de precios por el servicio.
+
+![Landing4](assets/landing4.jpeg)
+
+Aquí se puede observar la sección de reseñas.
+
+![Landing5](assets/landing5.jpeg)
+
+
+Frontend
+
+En esta sección se puede ver las habitaciones disponibles.
+
+![Front1](assets/front1.jpeg)
+
+
+En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
+
+![Front2](assets/front2.jpeg)
+
+En esta sección se puede ver el panel del administrador.
+
+![Front3](assets/front3.jpeg)
+
+En esta sección se puede ver el panel del administrador se puede ver un dashboard con las habitaciones.
+
+![Front4](assets/fron4.jpeg)
+
+
+---
+## 5.2.2.6. Execution Evidence for Sprint Review
+
+No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+---
+## 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint hemos desplegado el frontend.
+
+![beeceptor](assets/beeceptor.jpeg)
+
+![beeceptor](assets/beeceptor2.jpeg)
+
+
+Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece servicios backend listos.
+
+![firebase](assets/firebase1.jpeg)
+
+---
+## 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
 
 
 # Conclusiones y Recomendaciones
 
+- El desarrollo del proyecto SMART STAY, permitió aplicar de manera integral los conocimientos adquiridos para el landing page y aplicación web en el curso de Desarrollo de Aplicaciones web.
+
+- A través de la identificación de problemas relacionados con LA GESTIÓN HOTELERA POR PARTE DE LOS DISTINTOS USUARIOS, se diseñó una solución INTELIGENTE basada en SERVICIOS DE ADMINISTRACIÓN DE RESERVAS Y PRODUCTOS TECNOLÓGICOS QUE SE IMPLEMENTAN EN HOTELES Y RESORTS PARA FACILITAR LA GESTIÓN Y USO DE HERRAMIENTAS POR PARTE DEL USUARIO FINAL MEJORANDO SU EXPERIENCIA DE USUARIO .
+
+- Durante el proceso se implementaron metodologías ágiles que AYUDARON EN la priorización de tareas.
+
+- La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguran la ENTREGA DE UN BUEN producto. Se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.
+
+- SMART STAY representa un avance hacia soluciones innovadoras para el sector HOTELERO.
+
 # Bibliografía y Referencias
+
+- MEJORAR MANEJO DEL TIEMPO PORQUE DEBIDO A LAS FALLAS DEL PRIMER AVANCE ABARCÓ MUCHO TIEMPO LA CORRECCIÓN DE ESTAS, DIFICULTANDO UN AVANCE MÁS PROLIJO Y UNA ENTREGA MÁS PUDIENTE DEL PROYECTO.
+
+- SI BIEN SE CORRIGIÓ LOS ERRORES COMETIDOS EN EL ANTERIOR AVANCE, SE DEBE CONTAR CON SEGUNDAS OPCIONES, RESPUESTAS O SOLUCIONES ANTE POSIBLES INCIDENTES E INCONVENIENTES QUE SE PRESENTAN POR PARTE DE ALGÚN INTEGRANTE PARA SABER CÓMO MANEJARLO Y NO ESTAR A LA ESPERA DE UNA RESPUESTA TARDÍA.
+
+- SEGUIR PRACTICANDO CON MÁS FRECUENCIA LA RESOLUCIÓN DE PROYECTOS Y AVERIGUAR NUEVAS HERRAMIENTAS U EXTENSIONES QUE FACILITEN EN EL DESARROLLO DEL CÓDIGO PARA NO ENTREGAR ALGO BÁSICO, SINO CADA VEZ MEJORAR MÁS EN LA CALIDAD DE ENTREGA DEL PRODUCTO FINAL.
