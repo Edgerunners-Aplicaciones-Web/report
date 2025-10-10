@@ -2219,9 +2219,6 @@ Para su publicación, se cumplieron los siguientes pasos:
    - Se configuró la carpeta raíz (`/`) como directorio base.  
    - Una vez completado el proceso, GitHub generó automáticamente la URL pública de la Landing Page.
 
-**URL del despliegue:**  
-[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
-
 Además, se implementó un archivo `languages.js` que contiene los textos en español e inglés.  
 Este archivo es consumido por el script `main.js`, permitiendo el cambio de idioma dinámico en la interfaz.
 
@@ -2245,6 +2242,11 @@ El proyecto implementa un flujo automatizado de **Integración Continua y Despli
 - **Render** ejecuta el despliegue automático al detectarse *merges* en la rama `main`.  
 - Este proceso garantiza una actualización constante de los servicios y minimiza la intervención manual en las publicaciones.
 
+### Github Pages: 
+![Github Pages](assets/githubpages.jpg)
+
+**URL del despliegue:**  
+[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
 
 ---
 
