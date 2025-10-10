@@ -2263,21 +2263,22 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 ## 5.2.1.1. Sprint Planning 1  
 
-| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
-| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
-| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                         |
-| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                  |
-| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
-| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
-| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
-| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                                    |
-| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas.          |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
-| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                        |
-| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
-| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
+
+| **Sprint #** | Sprint 1 |
+|------------|-----------------|
+| **Sprint Planning Background** | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page. |
+| **Date** | 2025-09-16 |
+| **Time** | 05:00 PM (GMT -5) |
+| **Location** | Modalidad remota mediante **Discord** |
+| **Prepared By** | Equipo **SmartStay** |
+| **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
+| **Sprint n – 1 Review Summary** | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas. |
+| **Sprint Goal & User Stories** | — |
+| **Sprint n Goal** | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución. |
+| **Sprint n Velocity** | 2 |
+| **Sum of Story Points** | 2 |
+
 
 
 ## 5.2.1.2. Deployment Evidence for Sprint Review
@@ -2427,21 +2428,20 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 ## 5.2.2.1 Sprint Planning 2
 
 
-| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
-| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
-| **Date**                               | 2025-10-01                                                                                                                                                                                                                                                         |
-| **Time**                               | 07:00 PM                                                                                                                                                                                                                                                   |
-| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
-| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
-| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
-| **Sprint n – 1 Review Summary**        | Durante el primer Sprint desarrollamos la estructura base de Smart Stay y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque detectamos un problema con la configuración del idioma, que será corregido en el siguiente Sprint.                                                                                                                                                                   |
-| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de Smart Stay y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto.         |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
-| **Sprint n Goal**                      | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de Smart Stay como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable.                                                                                       |
-| **Sprint n Velocity**                  | 15                                                                                                                                                                                                                                                                |
-| **Sum of Story Points**                | 18                                                                                                                                                                                                                                                                 |
+| **Sprint #** | Sprint 1 |
+|------------|-----------------|
+| **Sprint Planning Background** | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page. |
+| **Date** | 2025-10-01 |
+| **Time** | 07:00 PM |
+| **Location** | Modalidad remota mediante **Discord** |
+| **Prepared By** | Equipo **SmartStay** |
+| **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
+| **Sprint n – 1 Review Summary** | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint. |
+| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto. |
+| **Sprint Goal & User Stories** | — |
+| **Sprint n Goal** | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
+| **Sprint n Velocity** | 15 |
+| **Sum of Story Points** | 18 |
 
 
 ---
