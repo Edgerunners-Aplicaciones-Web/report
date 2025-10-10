@@ -159,15 +159,15 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel nacional prese
 
 #### 2.1.1 Análisis Competitivo.
 
-El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.
 
 ### Matriz comparativa de competidores
 
 <table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
-    <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
-  </tr>
+ <tr>
+  <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+  <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
+ </tr>
 
 <tr>
 <th colspan="2">Competidores</th>
@@ -188,94 +188,91 @@ Sistemas Manuales<br>
 </th>
 
 </tr>
-
 <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
-    <td><b>Overview</b></td>
-    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
-    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
-    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
-    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
-  </tr>
-  <tr>
-    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
-    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
-    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
-    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
-    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
-  </tr>
-
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
+    <td><b>Overview</b></td>
+    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
+    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
+    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
+    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
+</tr>
 <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
-    <td><b>Mercado objetivo</b></td>
-    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
-    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
-    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
-    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Estrategias de marketing</b></td>
-    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
-    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
-    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
-    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
-  </tr>
-
+    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
+    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
+    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
+    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
+    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
+</tr>
 <tr>
-    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
-    <td><b>Productos & Servicios</b></td>
-    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
-    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
-    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
-    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
-  </tr>
-  <tr>
-    <td><b>Precios & Costos</b></td>
-    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
-    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
-    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
-    <td>Gratuito o el costo de una licencia de Office.</td>
-  </tr>
-  <tr>
-    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
-    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
-    <td>Aplicación web (Cloud) para el personal del hotel.</td>
-    <td>Plataforma web (Cloud).</td>
-    <td>Offline.</td>
-  </tr>
-
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
+    <td><b>Mercado objetivo</b></td>
+    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
+    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
+    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
+    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
+</tr>
 <tr>
-    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
-    <td><b>Fortalezas</b></td>
-    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
-    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
-    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
-    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
-  </tr>
-  <tr>
-    <td><b>Debilidades</b></td>
-    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
-    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
-    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
-    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
-  </tr>
-  <tr>
-    <td><b>Oportunidades</b></td>
-    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
-    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
-    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
-    <td>Ninguna. Es el punto de partida para la digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Amenazas</b></td>
-    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
-    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
-    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
-    <td>Cualquier software básico representa una amenaza existencial.</td>
-  </tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
+    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
+    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
+    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
+</tr>
+<tr>
+    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
+    <td><b>Productos & Servicios</b></td>
+    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
+    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
+    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
+    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
+</tr>
+<tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
+    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
+    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
+    <td>Gratuito o el costo de una licencia de Office.</td>
+</tr>
+<tr>
+    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
+    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
+    <td>Aplicación web (Cloud) para el personal del hotel.</td>
+    <td>Plataforma web (Cloud).</td>
+    <td>Offline.</td>
+</tr>
+<tr>
+    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
+    <td><b>Fortalezas</b></td>
+    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
+    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
+    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
+    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
+</tr>
+<tr>
+    <td><b>Debilidades</b></td>
+    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
+    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
+    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
+    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
+</tr>
+<tr>
+    <td><b>Oportunidades</b></td>
+    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
+    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
+    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
+    <td>Ninguna. Es el punto de partida para la digitalización.</td>
+</tr>
+<tr>
+    <td><b>Amenazas</b></td>
+    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
+    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
+    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
+    <td>Cualquier software básico representa una amenaza existencial.</td>
+</tr>
 </table>
 
-#### 2.1.2  Estrategias y Tácticas frente a Competidores.
+
+#### 2.1.2 Estrategias y Tácticas frente a Competidores.
 
 Para posicionarse de manera efectiva frente a los competidores, **Smart Stay** implementará las siguientes estrategias:
 
@@ -897,7 +894,6 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 **Prioritization:**
 
 ![step5.jpg](assets/Chapter-02/Prioritization.jpg)
-
 
 ---
 
