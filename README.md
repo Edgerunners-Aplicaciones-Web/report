@@ -2537,6 +2537,16 @@ En esta sección se puede ver el panel del administrador se puede ver un dashboa
 No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
 ---
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint hemos desplegado el frontend.
+
+![beeceptor](assets/beeceptor.jpeg)
+
+![beeceptor](assets/beeceptor2.jpeg)
+
+
+
+
 ---
 ## 5.2.2.8. Team Collaboration Insights during Sprint
 
