@@ -2545,7 +2545,9 @@ Durante este Sprint hemos desplegado el frontend.
 ![beeceptor](assets/beeceptor2.jpeg)
 
 
+Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece servicios backend listos.
 
+![firebase](assets/firebase1.jpeg)
 
 ---
 ## 5.2.2.8. Team Collaboration Insights during Sprint
