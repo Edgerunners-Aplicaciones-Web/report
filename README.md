@@ -2064,17 +2064,17 @@ Cada funcionalidad o capítulo se desarrolla en una rama independiente y, una ve
 ### Convenciones de nomenclatura
 Para mantener coherencia en la gestión del código, se emplean las siguientes convenciones de nombres de ramas:
 
-- `feature/<nombre>` → nuevas funcionalidades o módulos.  
-- `release/<versión>` → preparación de entregas o versiones estables.  
-- `hotfix/<incidencia>` → correcciones críticas en producción.
+- `feature/<nombre>`: nuevas funcionalidades o módulos.  
+- `release/<versión>`: preparación de entregas o versiones estables.  
+- `hotfix/<incidencia>`: correcciones críticas en producción.
 
 ### Versionado semántico (Semantic Versioning)
 El proyecto aplica **Semantic Versioning 2.0.0**, un estándar que define un esquema de control de versiones mediante el formato **MAJOR.MINOR.PATCH**, asegurando claridad en los cambios de versión.
 
 **Ejemplos:**
-- `v1.0.0` → versión estable inicial.  
-- `v1.1.0` → incorporación de nuevas funcionalidades.  
-- `v2.0.0` → cambios mayores o incompatibles con versiones anteriores.
+- `v1.0.0`: versión estable inicial.  
+- `v1.1.0`: incorporación de nuevas funcionalidades.  
+- `v2.0.0`: cambios mayores o incompatibles con versiones anteriores.
 
 ### Convención de mensajes de commits
 Se siguen las reglas de **Conventional Commits**, garantizando mensajes de confirmación legibles, consistentes y estandarizados.  
@@ -2125,51 +2125,128 @@ Las ramas de funcionalidad siguen un esquema de nombres descriptivos, como por e
 
 ## 5.1.3. Source Code Style Guide & Conventions  
 
-El equipo adopta convenciones estándar y guías de estilo para cada lenguaje:  
+El equipo adopta **convenciones de nomenclatura y guías de estilo estandarizadas** para mantener la coherencia, legibilidad y escalabilidad del código fuente a lo largo del proyecto.  
+Todas las variables, funciones, clases y archivos se nombran en **inglés**, siguiendo las convenciones propias de cada lenguaje y marco de trabajo.
 
-- **HTML & CSS**  
-  - [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
 
-- **JavaScript (Vue.js)**  
-  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
-  - [W3C JavaScript Style Guide](https://www.w3.org/wiki/JavaScript_best_practices)  
-  - [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-  - [Vue Style Guide](https://vuejs.org/style-guide/)  
-  - **ESLint y Prettier** → análisis estático y formateo automático.  
+### HTML / CSS
+Se siguen las recomendaciones de las guías de estilo oficiales:
 
-- **C# y ASP.NET Core**  
-  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
-  - [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)  
+- [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-- **Buenas prácticas comunes**  
-  - Nomenclatura en inglés.  
-  - Uso de **CamelCase** para variables y métodos.  
-  - Uso de **PascalCase** para clases y controladores.  
-  - Aplicación del principio **DRY (Don’t Repeat Yourself)** para evitar duplicación de código.  
-  - Escenarios de pruebas escritos siguiendo convenciones de **Gherkin** (Dado-Cuando-Entonces).  
+**Convenciones aplicadas:**
+- Uso de etiquetas **semánticas** para mejorar la estructura, accesibilidad y SEO del sitio.  
+- Clases CSS escritas en **kebab-case**, por ejemplo: `.main-header`, `.card-title`.  
+- Identificadores claros, descriptivos y consistentes.  
+- Organización modular del código mediante hojas de estilo separadas por componente o sección.
 
+**Etiquetas utilizadas en la estructura de la Landing Page:**
+- `<header>`: Contiene el contenido introductorio del sitio y el logotipo principal.  
+- `<nav>`: Define las secciones dedicadas a la navegación dentro del sitio.  
+- `<div>`: Permite agrupar elementos y aplicar estilos específicos por secciones.  
+- `<img>`: Inserta imágenes optimizadas para mejorar la presentación visual.  
+- `<ul>`: Define listas desordenadas, empleadas en el menú de navegación.  
+- `<li>`: Representa los elementos de cada lista, utilizados en menús y secciones del blog.  
+- `<a>`: Crea hipervínculos que permiten desplazarse por las secciones del sitio.  
+- `<p>`: Define párrafos de texto para el contenido informativo.  
+- `<button>`: Declara botones interactivos que permiten ejecutar acciones específicas.  
+- `<h1>` – `<h4>`: Representan los distintos niveles de encabezados del sitio, donde `<h1>` es el nivel principal.
+
+### JavaScript (Vue.js)
+
+Se aplican las siguientes guías y herramientas de estilo:
+
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
+- [W3C JavaScript Best Practices](https://www.w3.org/wiki/JavaScript_best_practices)  
+- [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+- [Vue Style Guide](https://vuejs.org/style-guide/)  
+
+**Prácticas adoptadas:**
+- Código escrito en **ES6+**, priorizando claridad y modularidad.  
+- Uso de **CamelCase** para variables y funciones.  
+- Componentes de Vue nombrados en **PascalCase**.  
+- Implementación de **ESLint** y **Prettier** para análisis estático y formateo automático del código.  
+- Uso del principio **DRY (Don’t Repeat Yourself)** para evitar duplicaciones.
+
+
+### C# y ASP.NET Core
+Las convenciones del código backend siguen los lineamientos de Microsoft:
+
+- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
+- [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)
+
+**Convenciones aplicadas:**
+- Uso de **PascalCase** para clases, interfaces y métodos públicos.  
+- Uso de **camelCase** para variables locales y parámetros.  
+- Organización del código en **namespaces** coherentes con la arquitectura del proyecto.  
+- Comentarios XML para documentación interna de métodos y controladores.  
+- Pruebas unitarias y escenarios escritos siguiendo la convención **Gherkin (Given-When-Then)**.
+
+### Buenas prácticas comunes
+En todo el código del proyecto se aplican principios de ingeniería de software orientados a la calidad y mantenibilidad:
+
+- Nomenclatura en inglés.  
+- Principio **DRY (Don’t Repeat Yourself)**: evitar duplicación de código.  
+- Principio **KISS (Keep It Simple, Stupid)**: priorizar soluciones simples y claras.  
+- Código documentado y con convenciones homogéneas entre frontend y backend.  
+- Control de formato automatizado mediante *linters* y *formatters* en cada entorno de desarrollo.
 ---
 
-## 5.1.4. Software Deployment Configuration  
+## 5.1.4. Software Deployment Configuration
 
-El despliegue de la solución considera los siguientes aspectos:  
+El despliegue de la solución considera los siguientes aspectos generales, los cuales garantizan la disponibilidad y correcta operación de los distintos componentes del sistema:
 
-- **Landing Page**  
-  - Desarrollada en HTML, CSS y JavaScript.  
-  - Desplegada en **GitHub Pages** para acceso público.  
 
-- **Backend (Web Services)**  
-  - Implementado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
-  - Desplegado en **Render** como servicio cloud.  
+### Landing Page Deployment
+La **Landing Page** fue desarrollada utilizando **HTML**, **CSS** y **JavaScript**, y se encuentra desplegada públicamente a través de **GitHub Pages**.  
+Para su publicación, se cumplieron los siguientes pasos:
 
-- **Frontend Web Application**  
-  - Construida con **Vue.js y PrimeVue**.  
-  - Desplegada en **Render** con configuración continua desde el repositorio de GitHub.  
+1. **Preparación del entorno:**  
+   Se creó un repositorio dentro de la organización en **GitHub**, destinado a alojar los archivos de la Landing Page.
 
-- **Integración continua / Despliegue continuo (CI/CD)**  
-  - Repositorios conectados a GitHub.  
-  - Despliegue automático en Render al realizar merges en `main`.  
+2. **Estructura de archivos:**  
+   Los archivos principales se encuentran en la raíz del repositorio, siguiendo las convenciones de nombres:  
+   - `index.html` → página principal.  
+   - `styles.css` → hoja de estilos principal.  
+   - `script.js` → scripts principales.  
+   - `languages.js` → archivo para gestionar los textos en distintos idiomas (español e inglés).  
+   - Carpeta `assets/images/` → para las imágenes utilizadas en el sitio.  
+
+3. **Configuración en GitHub Pages:**  
+   - Se accedió a **Settings > Pages** dentro del repositorio.  
+   - Se seleccionó la rama **main** como fuente de publicación.  
+   - Se configuró la carpeta raíz (`/`) como directorio base.  
+   - Una vez completado el proceso, GitHub generó automáticamente la URL pública de la Landing Page.
+
+**URL del despliegue:**  
+[https://Smart-Stay-aplicaciones-web.github.io/Landing-Page/]()
+
+Además, se implementó un archivo `languages.js` que contiene los textos en español e inglés.  
+Este archivo es consumido por el script `main.js`, permitiendo el cambio de idioma dinámico en la interfaz.
+
+
+### Backend (Web Services)
+El **backend** fue desarrollado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+Su despliegue se realizó en la plataforma **Render**, configurada como un servicio *cloud* para ejecutar la API de forma continua.  
+Esto permite mantener el servicio activo, escalable y sincronizado con el repositorio de GitHub.
+
+
+### Frontend Web Application
+La **aplicación web frontend** fue construida con **Vue.js** y **PrimeVue**, integrando una interfaz moderna e interactiva.  
+El despliegue se llevó a cabo en **Render**, aprovechando su integración con GitHub para habilitar un flujo de despliegue automático.  
+Cada actualización en la rama `main` desencadena una nueva versión publicada en producción.
+
+
+### Integración Continua / Despliegue Continuo (CI/CD)
+El proyecto implementa un flujo automatizado de **Integración Continua y Despliegue Continuo (CI/CD)**, con el objetivo de mantener la coherencia entre los entornos de desarrollo y producción.
+
+- Todos los repositorios están conectados directamente a **GitHub**.  
+- **Render** ejecuta el despliegue automático al detectarse *merges* en la rama `main`.  
+- Este proceso garantiza una actualización constante de los servicios y minimiza la intervención manual en las publicaciones.
+
+
+---
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
