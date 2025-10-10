@@ -3,7 +3,7 @@
 skinparam classAttributeIconSize 0
 skinparam roundcorner 10
 
-package "Componente Gateway IoT" {
+package "IoT Gateway Component" {
 
     class MessageListener {
         - rulesEngine: RulesEngine
