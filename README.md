@@ -2356,107 +2356,284 @@ En esta sección el equipo establece las decisiones, herramientas y convenciones
 
 ## 5.1.1. Software Development Environment Configuration  
 
-El entorno de desarrollo del equipo incluye un conjunto de herramientas colaborativas y de programación que soportan las distintas fases del ciclo de vida:  
 
-- **Gestión de proyecto y documentación**  
-  - Trello → gestión de tareas y planificación ágil con tableros Kanban.  
-  - Google Docs → elaboración colaborativa de reportes y entregables.  
+### Project Management
+Para la gestión del proyecto se emplearon diversas herramientas de comunicación, planificación y control de versiones. Se creó una organización en GitHub para centralizar el repositorio del código fuente y coordinar el trabajo colaborativo del equipo. La comunicación interna se realizó mediante Discord y WhatsApp, mientras que la planificación ágil de tareas se gestionó a través de Trello.
 
-- **Diseño y UX/UI**  
-  - Figma / Adobe XD → diseño de wireframes, mockups y prototipos interactivos.  
-  - UXPressia → creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.  
-  - Miro → colaboración visual y soporte para sesiones de ideación y EventStorming.  
-  - Structurizr → modelado de arquitectura mediante el estándar C4 Model y uso de Diagram-as-Code.  
+- **Organización del trabajo:** GitHub  
+- **Reuniones:** Discord  
+- **Comunicación:** WhatsApp  
+- **Planificación y asignación de tareas:** Trello  
 
-- **Desarrollo de software**  
-  - JetBrains Rider → IDE principal para backend ASP.NET Core con C#.  
-  - JetBrains WebStorm → IDE para frontend con Vue.js.  
-  - Node.js y NPM → gestión de dependencias y ejecución del entorno frontend.  
-  - Vue.js con PrimeVue → framework y librería de componentes UI para el desarrollo del frontend.  
-  - HTML, CSS y JavaScript → construcción de la Landing Page.  
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)  
+-**Discord:** [Discord](https://discord.com/)  
+-**Trello:** [Trello](https://trello.com/)
 
-- **Repositorio y control de versiones**  
-  - GitHub → sistema de control de versiones y repositorios centralizados.  
 
----
+### Requirement Management
+Para la fase de levantamiento y priorización de requisitos, se implementaron herramientas que facilitaron la recolección, análisis y documentación de información. Trello fue empleado para la gestión visual de tareas mediante tableros personalizados.  
+Además, se utilizó **UXPressia** para el desarrollo de *User Personas*, *Empathy Maps*, *Journey Maps* y *Lean UX Canvas*, mientras que **Miro** sirvió para construir los escenarios *As-Is* y *To-Be* de los procesos del sistema.
 
+**Enlaces**  
+-**Trello:** [Trello](https://trello.com/)  
+-**UXPressia:** [UXPressia](https://uxpressia.com/)  
+-**Miro:** [Miro](https://miro.com/es/)
+
+
+
+### Product UX/UI Design
+Durante el diseño de la experiencia e interfaz de usuario, el equipo utilizó **Figma** para crear *wireframes*, *mockups* y *prototipos interactivos*, lo cual permitió validar las propuestas de diseño antes de su implementación final.  
+Asimismo, se aplicaron principios de usabilidad y diseño centrado en el usuario para garantizar una navegación fluida y consistente.
+
+**Enlaces**  
+-**Figma:** [Figma](https://www.figma.com/)
+
+
+
+### Software Development
+Para el desarrollo de la aplicación se utilizaron distintas herramientas y entornos de programación.  
+El *backend* fue implementado con **ASP.NET Core (C#)** empleando el IDE **JetBrains Rider**, mientras que el *frontend* se desarrolló con **Vue.js** en **JetBrains WebStorm**, apoyándose en **Node.js** y **NPM** para la gestión de dependencias.  
+Adicionalmente, se emplearon **HTML**, **CSS** y **JavaScript** para la construcción de la *Landing Page*.  
+La instalación y mantenimiento de las IDEs se realizó mediante **JetBrains ToolBox**.
+
+**Enlaces**  
+-**JetBrains ToolBox:** [JetBrains ToolBox](https://www.jetbrains.com/toolbox-app/)  
+-**Rider:** [JetBrains Rider](https://www.jetbrains.com/rider/)  
+-**Webstorm:** [JetBrains WebStorm](https://www.jetbrains.com/webstorm/)  
+-**Node.js:** [Node.js](https://nodejs.org/)  
+-**Vue.js:** [Vue.js](https://vuejs.org/)  
+-**PrimeVue:** [PrimeVue](https://primevue.org/)  
+-**Visual Studio Code:** [Visual Studio Code](https://code.visualstudio.com/)
+
+
+### Software Documentation
+Para la documentación técnica y la gestión del repositorio, se utilizó **GitHub** siguiendo la metodología de trabajo **GitHub Flow**.  
+Esta estrategia permitió un control de versiones eficiente mediante el uso de ramas específicas para cada funcionalidad o corrección.  
+Toda la documentación se redactó en formato **Markdown (.md)**, debido a su legibilidad, simplicidad y compatibilidad con GitHub.
+
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)
+
+### Software Deployment
+El despliegue de la *Landing Page* se realizó mediante **GitHub Pages**, una herramienta ideal para la publicación de sitios web estáticos directamente desde el repositorio del proyecto.
+
+**Enlaces**  
+-**GitHub Pages:**  [GitHub Pages](https://pages.github.com/)
+
+-----
 ## 5.1.2. Source Code Management  
 
-El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
+El sistema de control de versiones utilizado para el desarrollo del proyecto es **GitHub**, implementando un flujo de trabajo basado en **GitFlow**, el cual permite mantener un proceso de desarrollo estructurado, ordenado y colaborativo.
 
-- **Rama principal**: `main` → contiene versiones estables y listas para despliegue.  
-- **Rama de integración**: `develop` → rama base para integración de nuevas funcionalidades.  
-- **Ramas de características (features)**:  
-  - `feature/chapter-01`, `feature/chapter-02`, …, `feature/chapter-05`.  
-  - Cada funcionalidad o capítulo se desarrolla en una rama independiente.  
+### Modelo de ramas Git Flow
+El modelo de ramas adoptado se basa en **GitFlow**, estableciendo una organización clara del código fuente para facilitar la integración de nuevas funcionalidades y el control de versiones.
 
-- **Convenciones de nomenclatura**  
-  - `feature/<nombre>` → nuevas funcionalidades.  
-  - `release/<versión>` → preparación de entregas.  
-  - `hotfix/<incidencia>` → correcciones críticas en producción.  
+- **main:** rama principal donde se encuentra el código estable y listo para despliegue.  
+- **develop:** rama base para la integración y prueba de nuevas funcionalidades antes de su paso a producción.  
+- **feature/:** ramas destinadas al desarrollo de nuevas características o capítulos del proyecto.
 
-- **Versionado semántico**  
-  - Se aplica **Semantic Versioning 2.0.0** (ej. `v1.0.0`, `v1.1.0`, `v2.0.0`).  
+**Ramas de características existentes:**
+- `feature/chapter-01`  
+- `feature/chapter-02`  
+- `feature/chapter-03`  
+- `feature/chapter-04`  
+- `feature/chapter-05`
+  
+Cada funcionalidad o capítulo se desarrolla en una rama independiente y, una vez completada, se fusiona con la rama *develop*.
 
-- **Commits**  
-  - Se siguen las reglas de **Conventional Commits**, garantizando mensajes legibles y consistentes.  
+### Convenciones de nomenclatura
+Para mantener coherencia en la gestión del código, se emplean las siguientes convenciones de nombres de ramas:
 
-Los repositorios utilizados incluyen:  
-- **Landing Page** → HTML, CSS, JavaScript.  
-- **Web Services** → ASP.NET Core (C#).  
-- **Frontend Web Application** → Vue.js con PrimeVue.  
+- `feature/<nombre>`: nuevas funcionalidades o módulos.  
+- `release/<versión>`: preparación de entregas o versiones estables.  
+- `hotfix/<incidencia>`: correcciones críticas en producción.
+
+### Versionado semántico (Semantic Versioning)
+El proyecto aplica **Semantic Versioning 2.0.0**, un estándar que define un esquema de control de versiones mediante el formato **MAJOR.MINOR.PATCH**, asegurando claridad en los cambios de versión.
+
+**Ejemplos:**
+- `v1.0.0`: versión estable inicial.  
+- `v1.1.0`: incorporación de nuevas funcionalidades.  
+- `v2.0.0`: cambios mayores o incompatibles con versiones anteriores.
+
+### Convención de mensajes de commits
+Se siguen las reglas de **Conventional Commits**, garantizando mensajes de confirmación legibles, consistentes y estandarizados.  
+Esto permite mantener una trazabilidad clara de los cambios realizados en el repositorio.
+
+**Ejemplos de commits:**
+- `feat: agregar nuevo sistema de login`  
+- `fix: corregir validación en formulario de registro`  
+- `docs: actualizar README con instrucciones de despliegue`
+
+### Repositorios del proyecto
+El proyecto está organizado dentro de una **organización en GitHub**, donde cada módulo cuenta con su propio repositorio según su propósito y tecnología.
+
+- **Landing Page:** desarrollada con *HTML*, *CSS* y *JavaScript*.  
+- **Web Services:** implementado con *ASP.NET Core (C#)*.  
+- **Frontend Web Application:** construida con *Vue.js* y *PrimeVue*.
+
+
+
+### Flujo de trabajo de GitFlow
+El flujo de trabajo del proyecto se basa en el modelo **“A Successful Git Branching Model”**, el cual organiza el proceso de desarrollo mediante ramas específicas para cada funcionalidad o corrección.  
+Este enfoque permite un control de versiones ordenado y un desarrollo paralelo seguro.
+
+### Estructura de branches (Ramas)
+
+**Master branch (Rama principal):**  
+Es la rama principal del proyecto, donde se almacena el código estable y listo para producción.  
+Solo se integran cambios que hayan sido probados y validados previamente en las ramas de desarrollo (*develop*) y funcionalidad (*feature/*).  
+Esta rama representa el estado más confiable del proyecto.
+
+**Develop branch (Rama de desarrollo):**  
+Actúa como un espacio de integración para el trabajo en equipo.  
+Aquí se combinan, prueban y ajustan las nuevas funcionalidades antes de ser fusionadas con la rama principal (*main*).  
+Su propósito es garantizar que el código integrado sea funcional y estable antes del despliegue.
+
+**Feature branches (Ramas de funcionalidad):**  
+Cada nueva funcionalidad o tarea específica se desarrolla en su propia rama independiente.  
+Una vez completada y verificada, se integra nuevamente en la rama de desarrollo (*develop*).  
+Las ramas de funcionalidad siguen un esquema de nombres descriptivos, como por ejemplo:  
+- `feature/chapter-01`  
+- `feature/chapter-02`  
+- `feature/chapter-03`  
+- `feature/chapter-04`  
+- `feature/chapter-05`
+
 
 ---
 
 ## 5.1.3. Source Code Style Guide & Conventions  
 
-El equipo adopta convenciones estándar y guías de estilo para cada lenguaje:  
+El equipo adopta **convenciones de nomenclatura y guías de estilo estandarizadas** para mantener la coherencia, legibilidad y escalabilidad del código fuente a lo largo del proyecto.  
+Todas las variables, funciones, clases y archivos se nombran en **inglés**, siguiendo las convenciones propias de cada lenguaje y marco de trabajo.
 
-- **HTML & CSS**  
-  - [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
 
-- **JavaScript (Vue.js)**  
-  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
-  - [W3C JavaScript Style Guide](https://www.w3.org/wiki/JavaScript_best_practices)  
-  - [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-  - [Vue Style Guide](https://vuejs.org/style-guide/)  
-  - **ESLint y Prettier** → análisis estático y formateo automático.  
+### HTML / CSS
+Se siguen las recomendaciones de las guías de estilo oficiales:
 
-- **C# y ASP.NET Core**  
-  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
-  - [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)  
+- [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-- **Buenas prácticas comunes**  
-  - Nomenclatura en inglés.  
-  - Uso de **CamelCase** para variables y métodos.  
-  - Uso de **PascalCase** para clases y controladores.  
-  - Aplicación del principio **DRY (Don’t Repeat Yourself)** para evitar duplicación de código.  
-  - Escenarios de pruebas escritos siguiendo convenciones de **Gherkin** (Dado-Cuando-Entonces).  
+**Convenciones aplicadas:**
+- Uso de etiquetas **semánticas** para mejorar la estructura, accesibilidad y SEO del sitio.  
+- Clases CSS escritas en **kebab-case**, por ejemplo: `.main-header`, `.card-title`.  
+- Identificadores claros, descriptivos y consistentes.  
+- Organización modular del código mediante hojas de estilo separadas por componente o sección.
+
+**Etiquetas utilizadas en la estructura de la Landing Page:**
+- `<header>`: Contiene el contenido introductorio del sitio y el logotipo principal.  
+- `<nav>`: Define las secciones dedicadas a la navegación dentro del sitio.  
+- `<div>`: Permite agrupar elementos y aplicar estilos específicos por secciones.  
+- `<img>`: Inserta imágenes optimizadas para mejorar la presentación visual.  
+- `<ul>`: Define listas desordenadas, empleadas en el menú de navegación.  
+- `<li>`: Representa los elementos de cada lista, utilizados en menús y secciones del blog.  
+- `<a>`: Crea hipervínculos que permiten desplazarse por las secciones del sitio.  
+- `<p>`: Define párrafos de texto para el contenido informativo.  
+- `<button>`: Declara botones interactivos que permiten ejecutar acciones específicas.  
+- `<h1>` – `<h4>`: Representan los distintos niveles de encabezados del sitio, donde `<h1>` es el nivel principal.
+
+### JavaScript (Vue.js)
+
+Se aplican las siguientes guías y herramientas de estilo:
+
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)  
+- [W3C JavaScript Best Practices](https://www.w3.org/wiki/JavaScript_best_practices)  
+- [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+- [Vue Style Guide](https://vuejs.org/style-guide/)  
+
+**Prácticas adoptadas:**
+- Código escrito en **ES6+**, priorizando claridad y modularidad.  
+- Uso de **CamelCase** para variables y funciones.  
+- Componentes de Vue nombrados en **PascalCase**.  
+- Implementación de **ESLint** y **Prettier** para análisis estático y formateo automático del código.  
+- Uso del principio **DRY (Don’t Repeat Yourself)** para evitar duplicaciones.
+
+
+### C# y ASP.NET Core
+Las convenciones del código backend siguen los lineamientos de Microsoft:
+
+- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)  
+- [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)
+
+**Convenciones aplicadas:**
+- Uso de **PascalCase** para clases, interfaces y métodos públicos.  
+- Uso de **camelCase** para variables locales y parámetros.  
+- Organización del código en **namespaces** coherentes con la arquitectura del proyecto.  
+- Comentarios XML para documentación interna de métodos y controladores.  
+- Pruebas unitarias y escenarios escritos siguiendo la convención **Gherkin (Given-When-Then)**.
+
+### Buenas prácticas comunes
+En todo el código del proyecto se aplican principios de ingeniería de software orientados a la calidad y mantenibilidad:
+
+- Nomenclatura en inglés.  
+- Principio **DRY (Don’t Repeat Yourself)**: evitar duplicación de código.  
+- Principio **KISS (Keep It Simple, Stupid)**: priorizar soluciones simples y claras.  
+- Código documentado y con convenciones homogéneas entre frontend y backend.  
+- Control de formato automatizado mediante *linters* y *formatters* en cada entorno de desarrollo.
+---
+
+## 5.1.4. Software Deployment Configuration
+
+El despliegue de la solución considera los siguientes aspectos generales, los cuales garantizan la disponibilidad y correcta operación de los distintos componentes del sistema:
+
+
+### Landing Page Deployment
+La **Landing Page** fue desarrollada utilizando **HTML**, **CSS** y **JavaScript**, y se encuentra desplegada públicamente a través de **GitHub Pages**.  
+Para su publicación, se cumplieron los siguientes pasos:
+
+1. **Preparación del entorno:**  
+   Se creó un repositorio dentro de la organización en **GitHub**, destinado a alojar los archivos de la Landing Page.
+
+2. **Estructura de archivos:**  
+   Los archivos principales se encuentran en la raíz del repositorio, siguiendo las convenciones de nombres:  
+   - `index.html` → página principal.  
+   - `styles.css` → hoja de estilos principal.  
+   - `script.js` → scripts principales.  
+   - `languages.js` → archivo para gestionar los textos en distintos idiomas (español e inglés).  
+   - Carpeta `assets/images/` → para las imágenes utilizadas en el sitio.  
+
+3. **Configuración en GitHub Pages:**  
+   - Se accedió a **Settings > Pages** dentro del repositorio.  
+   - Se seleccionó la rama **main** como fuente de publicación.  
+   - Se configuró la carpeta raíz (`/`) como directorio base.  
+   - Una vez completado el proceso, GitHub generó automáticamente la URL pública de la Landing Page.
+
+Además, se implementó un archivo `languages.js` que contiene los textos en español e inglés.  
+Este archivo es consumido por el script `main.js`, permitiendo el cambio de idioma dinámico en la interfaz.
+
+
+### Backend (Web Services)
+El **backend** fue desarrollado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
+Su despliegue se realizó en la plataforma **Render**, configurada como un servicio *cloud* para ejecutar la API de forma continua.  
+Esto permite mantener el servicio activo, escalable y sincronizado con el repositorio de GitHub.
+
+
+### Frontend Web Application
+La **aplicación web frontend** fue construida con **Vue.js** y **PrimeVue**, integrando una interfaz moderna e interactiva.  
+El despliegue se llevó a cabo en **Render**, aprovechando su integración con GitHub para habilitar un flujo de despliegue automático.  
+Cada actualización en la rama `main` desencadena una nueva versión publicada en producción.
+
+
+### Integración Continua / Despliegue Continuo (CI/CD)
+El proyecto implementa un flujo automatizado de **Integración Continua y Despliegue Continuo (CI/CD)**, con el objetivo de mantener la coherencia entre los entornos de desarrollo y producción.
+
+- Todos los repositorios están conectados directamente a **GitHub**.  
+- **Render** ejecuta el despliegue automático al detectarse *merges* en la rama `main`.  
+- Este proceso garantiza una actualización constante de los servicios y minimiza la intervención manual en las publicaciones.
+
+### Github Pages: 
+![Github Pages](assets/githubpages.jpg)
+
+**La URL que nos entrega Github Pages para acceder a la landing page es la siguiente:**  
+[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
 
 ---
 
-## 5.1.4. Software Deployment Configuration  
-
-El despliegue de la solución considera los siguientes aspectos:  
-
-- **Landing Page**  
-  - Desarrollada en HTML, CSS y JavaScript.  
-  - Desplegada en **GitHub Pages** para acceso público.  
-
-- **Backend (Web Services)**  
-  - Implementado en **ASP.NET Core con C#**, siguiendo el estilo arquitectónico **RESTful**.  
-  - Desplegado en **Render** como servicio cloud.  
-
-- **Frontend Web Application**  
-  - Construida con **Vue.js y PrimeVue**.  
-  - Desplegada en **Render** con configuración continua desde el repositorio de GitHub.  
-
-- **Integración continua / Despliegue continuo (CI/CD)**  
-  - Repositorios conectados a GitHub.  
-  - Despliegue automático en Render al realizar merges en `main`.  
-
 ## 5.2. Landing Page, Services & Applications Implementation.
+
+![Landing_Page](assets/Landingimage.jpeg)
 
 ---
 
@@ -2467,23 +2644,37 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 ## 5.2.1.1. Sprint Planning 1  
 
-| Campo                                  | Descripción                                                                                                                                                                                                                                                        |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                           |
-| **Sprint Planning Background**         | Reunión inicial de planificación del proyecto SmartStay, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                       |
-| **Date**                               | 2025-09-16                                                                                                                                                                                                                                                         |
-| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                  |
-| **Location**                           | Modalidad remota mediante Discord                                                                                                                                                                                                                                  |
-| **Prepared By**                        | Equipo SmartStay                                                                                                                                                                                                                                                   |
-| **Attendees (to planning meeting)**    | Verona Flores Italo Sebastian / Valverde Portuguez Natalia Ximena / Fernandez Garfias Alexander Piero / Saavedra Angulo Jose Jhonatan                                                                                                                               |
-| **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                                    |
-| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas.          |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                    |
-| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                        |
-| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
-| **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
 
-## 5.2.1.2. Sprint Backlog 1
+| **Sprint #** | Sprint 1 |
+|------------|-----------------|
+| **Sprint Planning Background** | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page. |
+| **Date** | 2025-09-16 |
+| **Time** | 05:00 PM (GMT -5) |
+| **Location** | Modalidad remota mediante **Discord** |
+| **Prepared By** | Equipo **SmartStay** |
+| **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
+| **Sprint n – 1 Review Summary** | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas. |
+| **Sprint Goal & User Stories** | — |
+| **Sprint n Goal** | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución. |
+| **Sprint n Velocity** | 2 |
+| **Sum of Story Points** | 2 |
+
+
+
+## 5.2.1.2. Deployment Evidence for Sprint Review
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|------------------------------------------|----------------------|------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------|
+| **Verona Flores, Italo Sebastián** | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
+| **Valverde Portuguez, Natalia Ximena** | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
+| **Fernandez Garfias, Alexander Piero** | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Saavedra Angulo, Jose Jhonatan** | [@ElrichMasNa](https://github.com/ElrichMasNa) | C | C | C | L |
+| **Ramos Aguirre, Aldair Joaquin** | [@AldairRamos13](https://github.com/AldairRamos13) | C | C | C | L |
+
+---
+
+## 5.2.1.3. Sprint Backlog 1
 
 ### Introducción
 El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
@@ -2491,23 +2682,27 @@ Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios reg
 
 **Evidencia en del avance en trello**
 
-![sprint_trello](assets/sprint_trello.png)
+![sprint_trello](assets/trello.jpg)
 
 Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
 
 ### Sprint #1 – Sprint Backlog
 
-| Sprint # | User Story ID | User Story Title | Work-Item / Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|----------|---------------|------------------|----------------------|-------------|-------------|--------------------|-------------|--------|
-| 1 | US26 | Ver información general sobre SmartStay | T01 | Diseñar estructura básica de Landing Page | Crear wireframe y mockup de la landing con secciones principales. | 6h | Alexander | Done |
-| 1 | US26 | Ver información general sobre SmartStay | T02 | Implementar contenido introductorio | Redactar y maquetar la sección "¿Qué es SmartStay?". | 4h | Natalia | In Process |
-| 1 | US27 | Conocer beneficios de usar la plataforma | T03 | Crear sección de beneficios | Mostrar ventajas competitivas con íconos y texto. | 5h | Italo | To Review |
-| 1 | US27 | Conocer beneficios de usar la plataforma | T04 | Añadir carrusel de testimonios | Implementar testimonios de usuarios ficticios en frontend. | 4h | Aldair | To Do |
-| 1 | US28 | Acceder fácilmente al registro o login | T05 | Botones de registro/login | Colocar botones visibles y funcionales que redirigen a formularios. | 3h | Alexander | Done |
-| 1 | TS08 | Implementar landing page con botones hacia login/registro | T06 | Conectar landing con rutas de login/registro | Configurar navegación y enlaces en frontend. | 6h | Italo | In Process |
+
+| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
+| Sprint 1 | US-24 – Segmented landing page | UT-01 | Diseñar estructura visual | Crear la estructura general de la Landing Page con secciones diferenciadas para administradores y huéspedes. | 6 | Alexander | Done |
+| Sprint 1 | US-24 – Segmented landing page | UT-02 | Maquetar Landing Page | Implementar el diseño HTML y CSS del prototipo base. | 5 | Italo | In Process |
+| Sprint 1 | US-24 – Segmented landing page | UT-03 | Navegación y enlaces internos | Configurar navegación entre secciones con enlaces y smooth scroll. | 3 | Jose | Done |
+| Sprint 1 | US-26 – Success stories and testimonials | UT-04 | Crear sección de testimonios | Diseñar carrusel con testimonios de usuarios y animaciones simples. | 4 | Aldair | To Review |
+| Sprint 1 | US-27 – Demo request and contact | UT-05 | Formulario de contacto | Implementar formulario con validación y diseño responsive. | 4 | Natalia | Done |
+| Sprint 1 | US-28 – Corporate information | UT-06 | Redactar misión, visión y valores | Escribir texto institucional coherente con la marca Smart Stay. | 3 | Natalia | Done |
+| Sprint 1 | US-28 – Corporate information | UT-07 | Implementar sección “About Us” | Maquetar la sección con texto e imagen representativa. | 4 | Alexander | To Do |
+| Sprint 1 | US-24 – Segmented landing page | UT-08 | Añadir botones CTA (Login, Registro, Demo) | Colocar botones visibles con enlaces a las rutas de autenticación. | 3 | Jose | Done |
+| Sprint 1 | US-26 – Success stories and testimonials | UT-09 | Ajustar animaciones y transiciones | Aplicar efectos de entrada y desplazamiento fluido en los testimonios. | 4 | Aldair | In Process |
 
 
-## 5.2.1.3. Development Evidence for Sprint Review
+## 5.2.1.4. Development Evidence for Sprint Review
 
 ### Introducción
 Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
@@ -2527,7 +2722,7 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 ![commitslanding](assets/commitslanding.png)
 
-## 5.2.1.4. Deployment Evidence for Sprint Review
+## 5.2.1.5. Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
 
@@ -2545,7 +2740,7 @@ Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del
 ![landing_page](assets/encabezado_hero.png)  
 
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+### 5.2.1.6. Execution Evidence for Sprint Review.
 
 En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
 
@@ -2565,7 +2760,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   ![navbar](assets/navbar.png)  
 
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+### 5.2.1.7. Services Documentation Evidence for Sprint Review  
 
 En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
 
@@ -2576,7 +2771,7 @@ La landing page cumple el rol de **página de presentación inicial** de la plat
 Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
 
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+### 5.2.1.8. Software Deployment Evidence for Sprint Review  
 
 Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
 
@@ -2587,7 +2782,7 @@ Durante este Sprint, se realizaron los siguientes procesos de despliegue:
 Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
 
 
-### 5.2.1.8. Team Collaboration Insights during Sprint  
+### 5.2.1.9. Team Collaboration Insights during Sprint  
 
 Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
 
@@ -2669,3 +2864,140 @@ El desarrollo del proyecto Smart Stay ha demostrado ser una solución integral y
 - **Análisis**: Herramientas de mapeo de usuarios y procesos de negocio
 
 
+## 5.2.2 Sprint 2
+
+---
+
+
+## 5.2.2.1 Sprint Planning 2
+
+
+| **Sprint #** | Sprint 1 |
+|------------|-----------------|
+| **Sprint Planning Background** | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page. |
+| **Date** | 2025-10-01 |
+| **Time** | 07:00 PM |
+| **Location** | Modalidad remota mediante **Discord** |
+| **Prepared By** | Equipo **SmartStay** |
+| **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
+| **Sprint n – 1 Review Summary** | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint. |
+| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto. |
+| **Sprint Goal & User Stories** | — |
+| **Sprint n Goal** | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
+| **Sprint n Velocity** | 15 |
+| **Sum of Story Points** | 18 |
+
+
+---
+
+## 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante este primer Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|---------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
+| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)| C | C | C | L |
+| **Ramos Aguirre, Aldair Joaquin**      | [@AldairRamos13](https://github.com/AldairRamos13)| C | C | C | L |
+
+---
+
+## 5.2.2.3. Sprint Backlog 2. 
+
+
+![sprint_trello](assets/trello2.jpg)
+
+| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
+| Sprint 2 | US-24 – Segmented landing page | UT-10 | Optimizar diseño visual | Mejorar la coherencia de colores, tipografía y elementos gráficos. | 5 | Natalia | Done |
+| Sprint 2 | US-24 – Segmented landing page | UT-11 | Optimizar SEO y rendimiento | Implementar buenas prácticas de SEO y reducir tiempos de carga. | 6 | Italo | In Process |
+| Sprint 2 | US-25 – ROI simulator for hotels | UT-12 | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos. | 6 | Alexander | To Do |
+| Sprint 2 | US-25 – ROI simulator for hotels | UT-13 | Implementar lógica de cálculo | Programar la función que calcula el ROI dinámicamente. | 7 | Jose | In Process |
+| Sprint 2 | US-27 – Demo request and contact | UT-14 | Integrar formulario con backend | Conectar formulario de contacto con API simulada de registro de leads. | 5 | Aldair | To Review |
+| Sprint 2 | US-24 – Segmented landing page | UT-15 | Implementar sistema multilenguaje | Agregar soporte para inglés/español y detección automática. | 6 | Italo | In Process |
+| Sprint 2 | US-24 – Segmented landing page | UT-16 | Pruebas de responsividad | Realizar pruebas en diferentes navegadores y dispositivos. | 5 | Natalia | Done |
+| Sprint 2 | US-26 – Success stories and testimonials | UT-17 | Agregar métricas en testimonios | Mostrar porcentajes de mejora o impacto en casos de éxito. | 4 | Jose | To Do |
+| Sprint 2 | US-28 – Corporate information | UT-18 | Sección de equipo y liderazgo | Agregar datos e imágenes de los integrantes principales. | 4 | Aldair | To Review |
+| Sprint 2 | US-24 – Segmented landing page | UT-19 | Desplegar nueva versión pública | Publicar versión optimizada y completamente funcional del sitio. | 3 | Italo | Done |
+
+---
+## 5.2.2.4. Development Evidence for Sprint Review 
+
+En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+
+---
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+landing Page 
+
+Esta es la sección inicial, donde está el header.
+
+![Landing1](assets/landing1.jpeg)
+
+Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+
+![Landing2](assets/landing2.jpeg)
+
+Esta sección describe las soluciones de acorde al tipo de propiedad.
+![Landing3](assets/landing3.jpeg)
+
+Tenemos en esta sección acerca de precios por el servicio.
+
+![Landing4](assets/landing4.jpeg)
+
+Aquí se puede observar la sección de reseñas.
+
+![Landing5](assets/landing5.jpeg)
+
+
+Frontend
+
+En esta sección se puede ver las habitaciones disponibles.
+
+![Front1](assets/front1.jpeg)
+
+
+En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
+
+![Front2](assets/front2.jpeg)
+
+En esta sección se puede ver el panel del administrador.
+
+![Front3](assets/front3.jpeg)
+
+En esta sección se puede ver el panel del administrador se puede ver un dashboard con las habitaciones.
+
+![Front4](assets/fron4.jpeg)
+
+
+
+
+---
+## 5.2.2.6. Execution Evidence for Sprint Review
+
+No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+---
+## 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint hemos desplegado el frontend.
+
+![beeceptor](assets/beeceptor.jpeg)
+
+![beeceptor](assets/beeceptor2.jpeg)
+
+
+Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece servicios backend listos.
+
+![firebase](assets/firebase1.jpeg)
+
+---
+## 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
+
+## LandingPage 
+
+## Frontend
