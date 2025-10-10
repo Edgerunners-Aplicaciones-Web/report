@@ -1,9 +1,9 @@
 ﻿@startuml PropertyComponentClassDiagram
-' Estilo
+' Style
 skinparam classAttributeIconSize 0
 skinparam roundcorner 10
 
-package "Componente de Propiedades y Operaciones" {
+package "Properties & Operations Component" {
 
     class PropertyService {
         - propertyRepository: IPropertyRepository
@@ -21,7 +21,7 @@ package "Componente de Propiedades y Operaciones" {
         + updateRoom(room: Room): void
     }
 
-    ' --- Entidades de Dominio ---
+    ' --- Domain Entities ---
     class Property {
         - id: string
         - hostId: string
@@ -44,18 +44,18 @@ package "Componente de Propiedades y Operaciones" {
         OUT_OF_SERVICE
     }
 
-    ' --- Interfaz para comunicarse con el Gateway IoT ---
+    ' --- Interface for communicating with the IoT Gateway ---
     interface IIoTCommandPublisher {
         + publish(command: IoTCommand): void
     }
 
     note right of IIoTCommandPublisher
-      Abstracción para enviar un mensaje
-      a una cola (ej: AMQP/MQTT) que
-      el Gateway IoT escuchará.
+      Abstraction for sending a message
+      to a queue (e.g., AMQP/MQTT) that
+      the IoT Gateway will listen to.
     end note
 
-    ' --- Relaciones ---
+    ' --- Relationships ---
     PropertyService "1" -> "1" IPropertyRepository : uses
     PropertyService "1" --> "1" IIoTCommandPublisher : uses
     Property "1" *-- "1..*" Room : contains
