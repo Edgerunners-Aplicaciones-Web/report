@@ -2448,10 +2448,6 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ## 5.2.2.2. Aspect Leaders and Collaborators
 
----
-
-## Sprint 1 – Aspect Leaders and Collaborators
-
 Durante este primer Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
 Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
 
