@@ -2220,7 +2220,7 @@ Para su publicación, se cumplieron los siguientes pasos:
    - Una vez completado el proceso, GitHub generó automáticamente la URL pública de la Landing Page.
 
 **URL del despliegue:**  
-[https://Smart-Stay-aplicaciones-web.github.io/Landing-Page/]()
+[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
 
 Además, se implementó un archivo `languages.js` que contiene los textos en español e inglés.  
 Este archivo es consumido por el script `main.js`, permitiendo el cambio de idioma dinámico en la interfaz.
