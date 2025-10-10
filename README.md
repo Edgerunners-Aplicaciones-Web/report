@@ -749,13 +749,15 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 A continuación, se presenta un resumen de cada una de las secciones principales del modo Administrador.  
 
 **1. Dashboard**
+
 **Propósito:** Vista general del estado de la plataforma.  
 **Elementos clave:**  
 - Panel con métricas principales (usuarios activos, reportes recientes, accesos).  
 - Gráficas de estadísticas generales.  
 - Acceso rápido a notificaciones.  
 
-**2. Huéspedes**
+**2. Guests**
+
 **Propósito:** Control y administración de los perfiles que usan la plataforma.  
 **Elementos clave:**  
 - Lista de usuarios con buscador y filtros.  
@@ -765,12 +767,13 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 ![wdashboard_huespedes.png](assets/wdashboard_huespedes.png)
 
 **3. Staff**  
+
 **Propósito:** Definir los niveles de acceso de cada tipo de usuario.  
 **Elementos clave:**  
 - Tabla de roles existentes.  
 - Información y datos del staff con el que trabaja.  
 
-**4. Hoteles y habitaciones**  
+**4. Hotels and rooms**  
 **Propósito:** Gestión de la cadena hotelera administrada en la plataforma.  
 **Elementos clave:**  
 - Lista de hoteles con buscador y filtros (ciudad, estado, categoría).  
@@ -780,7 +783,8 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 
 ![wstaff_hoteles.png](assets/wstaff_hoteles.png)
 
-**5. Reservas** 
+**5. Booking** 
+
 **Propósito:** Control y gestión de todas las reservas realizadas en los hoteles.  
 **Elementos clave:**  
 - Calendario interactivo para visualizar y administrar reservas por día, semana o mes.  
@@ -789,7 +793,8 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Botones para modificar, confirmar o cancelar reservas.  
 - Indicadores de ocupación y disponibilidad directamente desde el calendario. 
 
-**6. Pagos**  
+**6. Payments**  
+
 **Propósito:** Administración de ingresos y egresos financieros en la plataforma.  
 **Elementos clave:**  
 - Registro de pagos recibidos de huéspedes y clientes.  
@@ -800,7 +805,8 @@ A continuación, se presenta un resumen de cada una de las secciones principales
   
 ![wreservas_gastos.png](assets/wreservas_gastos.png)
 
-**7. Servicios y Productos**  
+**7. Sevices and Products** 
+
 **Propósito:** Gestión integral de servicios y dispositivos tecnológicos de Smart Stay.  
 **Elementos clave:**  
 - Tabla general con categorías: limpieza, alimentos, tecnología, amenities.  
@@ -808,7 +814,8 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Filtros por hotel, piso, habitación y categoría.  
 - Vista de detalle de cada producto con historial, estado y mantenimiento.  
 
-**8. Reseñas**  
+**8. Reviews**  
+
 **Propósito:** Seguimiento de la experiencia de los huéspedes y tickets de soporte.  
 **Elementos clave:**  
 - Lista de comentarios y calificaciones por hotel y servicio.  
@@ -818,7 +825,8 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 - Panel de tickets: abiertos, en proceso, cerrados.  
 ![wservicio_producto_reseña.png](assets/wservicio_producto_reseña.png)
 
-**9. Soporte**  
+**9. Support**  
+
 **Propósito:** Gestión de los tickets creados por los hoteles y usuarios hacia Smart Stay.  
 **Elementos clave:**  
 - Lista de tickets recibidos desde los hoteles o usuarios.  
@@ -833,10 +841,11 @@ A continuación, se presenta un resumen de cada una de las secciones principales
 Los wireframes del modo Huésped representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación huesped, el cual ellos ingresanpor un codigo qr que el hotel les brinda para de frente acceder al app huesped.  
 Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el huésped.  
 
-**1. Pantalla de Bienvenida**
+**1. Welcome View**
+
 - Solo es una introducción por lo que aparece el logo y un saludo.
   
-**2. Inicio**
+**2. Home**
 **Propósito:** Pantalla principal con acceso a las funciones más utilizadas.  
 **Elementos clave:**  
 - Barra superior con logo y buscador.  
@@ -844,7 +853,7 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 - Acceso rápido a habitaciones, servicios y notificaciones.  
 - Sección de ofertas o promociones destacadas.
   
-**3. Habitaciones**
+**3. Rooms**
 **Propósito:** Explorar y seleccionar opciones de hospedaje.  
 **Elementos clave:**  
 - Información básica (número y estado de habitación).  
@@ -853,25 +862,25 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 - Botón de asistencia y emergencia.  
 ![wapphuesped1.png](assets/wapphuesped1.png)
 
-**4. Servicios**
+**4. Services**
 **Propósito:** Acceder a servicios adicionales ofrecidos por el hotel.  
 **Elementos clave:**  
 - Categorías de servicios (gimnasio, parking, restaurante, eventos).
   
-**5. Mapa & Explorar**
+**5. Map**
 **Propósito:** Orientar al huésped dentro del hotel y ofrecer rutas y descubrimientos locales.  
 **Elementos clave:**  
 - Mapa interactivo del hotel con puntos de interés (piscina, gimnasio, restaurantes, lobby, salones).  
 - Indicación de la ubicación de la habitación del huésped y rutas internas (wayfinding) hacia cualquier punto.  
 - Opciones de búsqueda y filtros (por tipo de servicio, accesibilidad, horarios).  
   
-**6. Perfil**
+**6. Profile**
 **Propósito:** Gestionar los datos del huésped.  
 **Elementos clave:**  
 - Información personal (nombre, correo, teléfono).  
 - Preferencias de pago y métodos guardados.  
 
-**7. Notificaciones**
+**7. Notifications**
 **Propósito:** Informar al huésped sobre novedades y recordatorios.  
 **Elementos clave:**  
 - Lista de notificaciones recientes (confirmaciones de reserva, promociones, mensajes del hotel).  
@@ -883,7 +892,7 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 Los wireframes del modo Staff representan la primera aproximación al diseño de la interfaz de esta vista de la aplicación.  
 Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, con el objetivo de centrarse en la estructura, navegación y jerarquía de la información que manejará el personal del hotel.
 
-**1. Introducción**
+**1. Introduction**
 **Propósito:** Pantalla inicial de bienvenida y presentación de la app Staff.  
 **Elementos clave:**  
 - Logo.  
@@ -903,34 +912,34 @@ Se han elaborado en formato blanco y negro, sin imágenes ni estilos gráficos, 
 - Tabla de historial diario de horas trabajadas.  
 - Lista resumida de tareas del día con estado (pendiente/completado).  
 
-**4. Tareas**
+**4. Tasks**
 **Propósito:** Gestionar todas las tareas asignadas al staff.  
 **Elementos clave:**  
 - Lista completa de tareas diarias con habitación, tipo de tarea, piso.  
 - Estado de tarea con emoticonos: ✅ Completado / ❌ Pendiente.     
 ![wappstaff1.png](assets/wappstaff1.png)
 
-**5. Servicios / Productos**
+**5. Services / Products**
 **Propósito:** Registrar entrega de servicios y productos a habitaciones.  
 **Elementos clave:**  
 - Lista de servicios/productos por entregar (Room Service, Mini Bar, Amenities, etc.).  
 - Cantidad y habitación correspondiente.  
 - Estado de entrega con emoticonos: ✅ Entregado / ❌ Pendiente.  
 
-**6. Reservas**
+**6. Booking**
 **Propósito:** Consultar y gestionar reservas asignadas al staff.  
 **Elementos clave:**  
 - Sección de búsqueda de cliente.  
 - Lista de reservas con habitación, huésped, fecha, estado de check-in/check-out.  
 - Semáforo de estados: 🔴 Pendiente / 🟢 Completado.  
 
-**7. Perfil**
+**7. Profile**
 **Propósito:** Gestionar la información personal del staff y las preferencias de la app.  
 **Elementos clave:**  
 - Foto y datos personales (nombre, correo, teléfono).  
 - Cambiar contraseña, editar y cerrar sesión.  
 
-**8. Notificaciones**
+**8. Notifications**
 **Propósito:** Informar al staff sobre novedades, cambios de tareas o alertas importantes.  
 **Elementos clave:**  
 - Lista de notificaciones recientes (cambios de turno, emergencias, avisos de tareas).  
