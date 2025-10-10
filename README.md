@@ -4286,10 +4286,21 @@ Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay
 
 - SMART STAY representa un avance hacia soluciones innovadoras para el sector HOTELERO.
 
-# Bibliografía y Referencias
 
 - MEJORAR MANEJO DEL TIEMPO PORQUE DEBIDO A LAS FALLAS DEL PRIMER AVANCE ABARCÓ MUCHO TIEMPO LA CORRECCIÓN DE ESTAS, DIFICULTANDO UN AVANCE MÁS PROLIJO Y UNA ENTREGA MÁS PUDIENTE DEL PROYECTO.
 
 - SI BIEN SE CORRIGIÓ LOS ERRORES COMETIDOS EN EL ANTERIOR AVANCE, SE DEBE CONTAR CON SEGUNDAS OPCIONES, RESPUESTAS O SOLUCIONES ANTE POSIBLES INCIDENTES E INCONVENIENTES QUE SE PRESENTAN POR PARTE DE ALGÚN INTEGRANTE PARA SABER CÓMO MANEJARLO Y NO ESTAR A LA ESPERA DE UNA RESPUESTA TARDÍA.
 
 - SEGUIR PRACTICANDO CON MÁS FRECUENCIA LA RESOLUCIÓN DE PROYECTOS Y AVERIGUAR NUEVAS HERRAMIENTAS U EXTENSIONES QUE FACILITEN EN EL DESARROLLO DEL CÓDIGO PARA NO ENTREGAR ALGO BÁSICO, SINO CADA VEZ MEJORAR MÁS EN LA CALIDAD DE ENTREGA DEL PRODUCTO FINAL.
+
+# Bibliografía y Referencias
+
+Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience (Cap. 3). O’Reilly Media.
+
+Cohn, M. (s.f.). User Stories Articles. Mountain Goat Software Blog. Recuperado de https://www.mountaingoatsoftware.com/blog
+
+Fowler, M. (s.f.). Domain-Driven Architecture Diagrams. Recuperado de https://martinfowler.com
+
+Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+
+Cagan, M. (2011). Seriously, What’s Your (Startup’s) Problem?.https://svpg.com
