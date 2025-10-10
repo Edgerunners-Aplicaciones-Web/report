@@ -2291,14 +2291,18 @@ Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, propor
 
 ### Sprint #1 – Sprint Backlog
 
-| Sprint # | User Story ID | User Story Title | Work-Item / Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|----------|---------------|------------------|----------------------|-------------|-------------|--------------------|-------------|--------|
-| 1 | US26 | Ver información general sobre SmartStay | T01 | Diseñar estructura básica de Landing Page | Crear wireframe y mockup de la landing con secciones principales. | 6h | Alexander | Done |
-| 1 | US26 | Ver información general sobre SmartStay | T02 | Implementar contenido introductorio | Redactar y maquetar la sección "¿Qué es SmartStay?". | 4h | Natalia | In Process |
-| 1 | US27 | Conocer beneficios de usar la plataforma | T03 | Crear sección de beneficios | Mostrar ventajas competitivas con íconos y texto. | 5h | Italo | To Review |
-| 1 | US27 | Conocer beneficios de usar la plataforma | T04 | Añadir carrusel de testimonios | Implementar testimonios de usuarios ficticios en frontend. | 4h | Aldair | To Do |
-| 1 | US28 | Acceder fácilmente al registro o login | T05 | Botones de registro/login | Colocar botones visibles y funcionales que redirigen a formularios. | 3h | Alexander | Done |
-| 1 | TS08 | Implementar landing page con botones hacia login/registro | T06 | Conectar landing con rutas de login/registro | Configurar navegación y enlaces en frontend. | 6h | Italo | In Process |
+
+| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
+| Sprint 1 | US-24 – Segmented landing page | UT-01 | Diseñar estructura visual | Crear la estructura general de la Landing Page con secciones diferenciadas para administradores y huéspedes. | 6 | Alexander | Done |
+| Sprint 1 | US-24 – Segmented landing page | UT-02 | Maquetar Landing Page | Implementar el diseño HTML y CSS del prototipo base. | 5 | Italo | In Process |
+| Sprint 1 | US-24 – Segmented landing page | UT-03 | Navegación y enlaces internos | Configurar navegación entre secciones con enlaces y smooth scroll. | 3 | Jose | Done |
+| Sprint 1 | US-26 – Success stories and testimonials | UT-04 | Crear sección de testimonios | Diseñar carrusel con testimonios de usuarios y animaciones simples. | 4 | Aldair | To Review |
+| Sprint 1 | US-27 – Demo request and contact | UT-05 | Formulario de contacto | Implementar formulario con validación y diseño responsive. | 4 | Natalia | Done |
+| Sprint 1 | US-28 – Corporate information | UT-06 | Redactar misión, visión y valores | Escribir texto institucional coherente con la marca Smart Stay. | 3 | Natalia | Done |
+| Sprint 1 | US-28 – Corporate information | UT-07 | Implementar sección “About Us” | Maquetar la sección con texto e imagen representativa. | 4 | Alexander | To Do |
+| Sprint 1 | US-24 – Segmented landing page | UT-08 | Añadir botones CTA (Login, Registro, Demo) | Colocar botones visibles con enlaces a las rutas de autenticación. | 3 | Jose | Done |
+| Sprint 1 | US-26 – Success stories and testimonials | UT-09 | Ajustar animaciones y transiciones | Aplicar efectos de entrada y desplazamiento fluido en los testimonios. | 4 | Aldair | In Process |
 
 
 ## 5.2.1.3. Development Evidence for Sprint Review
@@ -2444,3 +2448,17 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 
 ## 5.2.2.3. Sprint Backlog 2. 
+
+
+| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
+| Sprint 2 | US-24 – Segmented landing page | UT-10 | Optimizar diseño visual | Mejorar la coherencia de colores, tipografía y elementos gráficos. | 5 | Natalia | Done |
+| Sprint 2 | US-24 – Segmented landing page | UT-11 | Optimizar SEO y rendimiento | Implementar buenas prácticas de SEO y reducir tiempos de carga. | 6 | Italo | In Process |
+| Sprint 2 | US-25 – ROI simulator for hotels | UT-12 | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos. | 6 | Alexander | To Do |
+| Sprint 2 | US-25 – ROI simulator for hotels | UT-13 | Implementar lógica de cálculo | Programar la función que calcula el ROI dinámicamente. | 7 | Jose | In Process |
+| Sprint 2 | US-27 – Demo request and contact | UT-14 | Integrar formulario con backend | Conectar formulario de contacto con API simulada de registro de leads. | 5 | Aldair | To Review |
+| Sprint 2 | US-24 – Segmented landing page | UT-15 | Implementar sistema multilenguaje | Agregar soporte para inglés/español y detección automática. | 6 | Italo | In Process |
+| Sprint 2 | US-24 – Segmented landing page | UT-16 | Pruebas de responsividad | Realizar pruebas en diferentes navegadores y dispositivos. | 5 | Natalia | Done |
+| Sprint 2 | US-26 – Success stories and testimonials | UT-17 | Agregar métricas en testimonios | Mostrar porcentajes de mejora o impacto en casos de éxito. | 4 | Jose | To Do |
+| Sprint 2 | US-28 – Corporate information | UT-18 | Sección de equipo y liderazgo | Agregar datos e imágenes de los integrantes principales. | 4 | Aldair | To Review |
+| Sprint 2 | US-24 – Segmented landing page | UT-19 | Desplegar nueva versión pública | Publicar versión optimizada y completamente funcional del sitio. | 3 | Italo | Done |
