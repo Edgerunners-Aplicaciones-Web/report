@@ -2043,29 +2043,83 @@ El despliegue de la *Landing Page* se realizó mediante **GitHub Pages**, una he
 -----
 ## 5.1.2. Source Code Management  
 
-El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
+El sistema de control de versiones utilizado para el desarrollo del proyecto es **GitHub**, implementando un flujo de trabajo basado en **GitFlow**, el cual permite mantener un proceso de desarrollo estructurado, ordenado y colaborativo.
 
-- **Rama principal**: `main` → contiene versiones estables y listas para despliegue.  
-- **Rama de integración**: `develop` → rama base para integración de nuevas funcionalidades.  
-- **Ramas de características (features)**:  
-  - `feature/chapter-01`, `feature/chapter-02`, …, `feature/chapter-05`.  
-  - Cada funcionalidad o capítulo se desarrolla en una rama independiente.  
+### Modelo de ramas Git Flow
+El modelo de ramas adoptado se basa en **GitFlow**, estableciendo una organización clara del código fuente para facilitar la integración de nuevas funcionalidades y el control de versiones.
 
-- **Convenciones de nomenclatura**  
-  - `feature/<nombre>` → nuevas funcionalidades.  
-  - `release/<versión>` → preparación de entregas.  
-  - `hotfix/<incidencia>` → correcciones críticas en producción.  
+- **main:** rama principal donde se encuentra el código estable y listo para despliegue.  
+- **develop:** rama base para la integración y prueba de nuevas funcionalidades antes de su paso a producción.  
+- **feature/:** ramas destinadas al desarrollo de nuevas características o capítulos del proyecto.
 
-- **Versionado semántico**  
-  - Se aplica **Semantic Versioning 2.0.0** (ej. `v1.0.0`, `v1.1.0`, `v2.0.0`).  
+**Ramas de características existentes:**
+- `feature/chapter-01`  
+- `feature/chapter-02`  
+- `feature/chapter-03`  
+- `feature/chapter-04`  
+- `feature/chapter-05`
+  
+Cada funcionalidad o capítulo se desarrolla en una rama independiente y, una vez completada, se fusiona con la rama *develop*.
 
-- **Commits**  
-  - Se siguen las reglas de **Conventional Commits**, garantizando mensajes legibles y consistentes.  
+### Convenciones de nomenclatura
+Para mantener coherencia en la gestión del código, se emplean las siguientes convenciones de nombres de ramas:
 
-Los repositorios utilizados incluyen:  
-- **Landing Page** → HTML, CSS, JavaScript.  
-- **Web Services** → ASP.NET Core (C#).  
-- **Frontend Web Application** → Vue.js con PrimeVue.  
+- `feature/<nombre>` → nuevas funcionalidades o módulos.  
+- `release/<versión>` → preparación de entregas o versiones estables.  
+- `hotfix/<incidencia>` → correcciones críticas en producción.
+
+### Versionado semántico (Semantic Versioning)
+El proyecto aplica **Semantic Versioning 2.0.0**, un estándar que define un esquema de control de versiones mediante el formato **MAJOR.MINOR.PATCH**, asegurando claridad en los cambios de versión.
+
+**Ejemplos:**
+- `v1.0.0` → versión estable inicial.  
+- `v1.1.0` → incorporación de nuevas funcionalidades.  
+- `v2.0.0` → cambios mayores o incompatibles con versiones anteriores.
+
+### Convención de mensajes de commits
+Se siguen las reglas de **Conventional Commits**, garantizando mensajes de confirmación legibles, consistentes y estandarizados.  
+Esto permite mantener una trazabilidad clara de los cambios realizados en el repositorio.
+
+**Ejemplos de commits:**
+- `feat: agregar nuevo sistema de login`  
+- `fix: corregir validación en formulario de registro`  
+- `docs: actualizar README con instrucciones de despliegue`
+
+### Repositorios del proyecto
+El proyecto está organizado dentro de una **organización en GitHub**, donde cada módulo cuenta con su propio repositorio según su propósito y tecnología.
+
+- **Landing Page:** desarrollada con *HTML*, *CSS* y *JavaScript*.  
+- **Web Services:** implementado con *ASP.NET Core (C#)*.  
+- **Frontend Web Application:** construida con *Vue.js* y *PrimeVue*.
+
+
+
+### Flujo de trabajo de GitFlow
+El flujo de trabajo del proyecto se basa en el modelo **“A Successful Git Branching Model”**, el cual organiza el proceso de desarrollo mediante ramas específicas para cada funcionalidad o corrección.  
+Este enfoque permite un control de versiones ordenado y un desarrollo paralelo seguro.
+
+### Estructura de branches (Ramas)
+
+**Master branch (Rama principal):**  
+Es la rama principal del proyecto, donde se almacena el código estable y listo para producción.  
+Solo se integran cambios que hayan sido probados y validados previamente en las ramas de desarrollo (*develop*) y funcionalidad (*feature/*).  
+Esta rama representa el estado más confiable del proyecto.
+
+**Develop branch (Rama de desarrollo):**  
+Actúa como un espacio de integración para el trabajo en equipo.  
+Aquí se combinan, prueban y ajustan las nuevas funcionalidades antes de ser fusionadas con la rama principal (*main*).  
+Su propósito es garantizar que el código integrado sea funcional y estable antes del despliegue.
+
+**Feature branches (Ramas de funcionalidad):**  
+Cada nueva funcionalidad o tarea específica se desarrolla en su propia rama independiente.  
+Una vez completada y verificada, se integra nuevamente en la rama de desarrollo (*develop*).  
+Las ramas de funcionalidad siguen un esquema de nombres descriptivos, como por ejemplo:  
+- `feature/chapter-01`  
+- `feature/chapter-02`  
+- `feature/chapter-03`  
+- `feature/chapter-04`  
+- `feature/chapter-05`
+
 
 ---
 
