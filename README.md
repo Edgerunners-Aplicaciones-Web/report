@@ -2287,7 +2287,7 @@ Este Sprint está enfocado en **atraer visitantes y convertirlos en usuarios reg
 
 **Evidencia en del avance en trello**
 
-![sprint_trello](assets/sprint_trello.png)
+![sprint_trello](assets/trello.jpg)
 
 Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, proporcionando a los visitantes un primer acercamiento a las **funcionalidades**, **beneficios**, **testimonios** y **información general** de la aplicación.
 
@@ -2451,6 +2451,8 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ## 5.2.2.3. Sprint Backlog 2. 
 
+
+![sprint_trello](assets/trello2.jpg)
 
 | **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
