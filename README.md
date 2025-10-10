@@ -159,17 +159,17 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel nacional prese
 
 #### 2.1.1 Análisis Competitivo.
 
-El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
 
 ### Matriz comparativa de competidores
 
 <table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
-    <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
-  </tr>
+  <tr>
+    <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
+  </tr>
 
-  <tr>
+<tr>
 <th colspan="2">Competidores</th>
 <th>Smart Stay<br>
 <img src="assets/Chapter-02/logo.png" alt="Smart Stay Logo" width="60">
@@ -187,97 +187,97 @@ Sistemas Manuales<br>
 <img src="assets/Chapter-02/Sistemas-Manuales.jpg" alt="Sistemas Manuales Logo" width="60">
 </th>
 
-  </tr>
+</tr>
 
-  <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
-    <td><b>Overview</b></td>
-    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
-    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
-    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
-    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
-  </tr>
-  <tr>
-    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
-    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
-    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
-    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
-    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
-  </tr>
+<tr>
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
+    <td><b>Overview</b></td>
+    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
+    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
+    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
+    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
+    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
+    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
+    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
+    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
+  </tr>
 
-  <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
-    <td><b>Mercado objetivo</b></td>
-    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
-    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
-    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
-    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Estrategias de marketing</b></td>
-    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
-    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
-    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
-    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
-  </tr>
+<tr>
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
+    <td><b>Mercado objetivo</b></td>
+    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
+    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
+    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
+    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
+    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
+    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
+    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
+  </tr>
 
-  <tr>
-    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
-    <td><b>Productos & Servicios</b></td>
-    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
-    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
-    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
-    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
-  </tr>
-  <tr>
-    <td><b>Precios & Costos</b></td>
-    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
-    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
-    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
-    <td>Gratuito o el costo de una licencia de Office.</td>
-  </tr>
-  <tr>
-    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
-    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
-    <td>Aplicación web (Cloud) para el personal del hotel.</td>
-    <td>Plataforma web (Cloud).</td>
-    <td>Offline.</td>
-  </tr>
+<tr>
+    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
+    <td><b>Productos & Servicios</b></td>
+    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
+    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
+    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
+    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
+  </tr>
+  <tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
+    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
+    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
+    <td>Gratuito o el costo de una licencia de Office.</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
+    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
+    <td>Aplicación web (Cloud) para el personal del hotel.</td>
+    <td>Plataforma web (Cloud).</td>
+    <td>Offline.</td>
+  </tr>
 
-  <tr>
-    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
-    <td><b>Fortalezas</b></td>
-    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
-    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
-    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
-    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
-  </tr>
-  <tr>
-    <td><b>Debilidades</b></td>
-    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
-    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
-    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
-    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
-  </tr>
-  <tr>
-    <td><b>Oportunidades</b></td>
-    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
-    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
-    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
-    <td>Ninguna. Es el punto de partida para la digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Amenazas</b></td>
-    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
-    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
-    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
-    <td>Cualquier software básico representa una amenaza existencial.</td>
-  </tr>
+<tr>
+    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
+    <td><b>Fortalezas</b></td>
+    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
+    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
+    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
+    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
+    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
+    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
+    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
+    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
+    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
+    <td>Ninguna. Es el punto de partida para la digitalización.</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
+    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
+    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
+    <td>Cualquier software básico representa una amenaza existencial.</td>
+  </tr>
 </table>
 
-#### 2.1.2  Estrategias y Tácticas frente a Competidores.
+#### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
-Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
+Para posicionarse de manera efectiva frente a los competidores, **Smart Stay** implementará las siguientes estrategias:
 
 #### Estrategias
 
@@ -294,27 +294,27 @@ Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** 
 - **Capacitación continua** para el personal hotelero, disminuyendo resistencia al cambio.
 - **Marketing digital enfocado en ROI**: Mostrar comparativas de costos y beneficios frente a sistemas tracicionales
 - **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
-- **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
+- **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado.
 
-## 2.1. Entrevistas.
+## 2.2. Entrevistas.
 Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
 
-#### 2.1.2  Diseño de entrevistas
+#### 2.2.1 Diseño de entrevistas
 
 ### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
-1. ¿Cómo te llamas y qué cargo ocupas en el hotel?  
-2. ¿En qué distrito o ciudad se encuentra el hotel?  
-3. ¿Cuántas habitaciones y personal gestionan aproximadamente?  
-4. ¿Podrías contarme cómo es un día típico de trabajo administrando el hotel?  
-5. ¿Qué tan seguido deben gestionar procesos como reservas, check-in/check-out o facturación?  
-6. ¿Cómo suelen organizar actualmente la gestión de reservas y pagos?  
-7. ¿Han tenido dificultades con sobrerreservas, disponibilidad de habitaciones o errores de facturación?  
-8. ¿Qué dispositivos usas con mayor frecuencia para gestionar el hotel?  
-9. ¿Qué aplicaciones o sistemas usas actualmente en tu día a día para el manejo del hotel?  
-10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?  
-11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?  
-12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?  
+1. ¿Cómo te llamas y qué cargo ocupas en el hotel?
+2. ¿En qué distrito o ciudad se encuentra el hotel?
+3. ¿Cuántas habitaciones y personal gestionan aproximadamente?
+4. ¿Podrías contarme cómo es un día típico de trabajo administrando el hotel?
+5. ¿Qué tan seguido deben gestionar procesos como reservas, check-in/check-out o facturación?
+6. ¿Cómo suelen organizar actualmente la gestión de reservas y pagos?
+7. ¿Han tenido dificultades con sobrerreservas, disponibilidad de habitaciones o errores de facturación?
+8. ¿Qué dispositivos usas con mayor frecuencia para gestionar el hotel?
+9. ¿Qué aplicaciones o sistemas usas actualmente en tu día a día para el manejo del hotel?
+10. ¿Has tenido alguna dificultad o experiencia negativa al usarlas?
+11. ¿Qué te motivaría a adoptar una nueva herramienta digital para centralizar reservas, pagos y tareas del personal?
+12. Si una herramienta digital lograra optimizar tus operaciones y reducir tus costos, ¿cómo valorarías invertir en una suscripción mensual para acceder a ella?
 13. ¿Cuáles son tus principales preocupaciones respecto a la gestión del hotel?
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles
@@ -332,7 +332,7 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 11. Si un hotel ofreciera un servicio totalmente digitalizado, ¿qué expectativa tendrías respecto al trato humano? ¿Lo consideras un valor agregado o no es necesario?
 12. ¿Qué recomendarías para que la experiencia digital en un hotel sea cómoda y no complicada para los huéspedes?
 
-### 2.2.2. Registro de entrevistas
+#### 2.2.2. Registro de entrevistas
 
 ### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
@@ -340,11 +340,11 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 Datos del entrevistado:
 
-**Nombre completo:** Adrian Saavedra Angulo 
+**Nombre completo:** Adrian Saavedra Angulo
 
 **Edad:** 34 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 8:07 minutos
 
@@ -364,11 +364,11 @@ Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque 
 
 Datos del entrevistado:
 
-**Nombre completo:** Monica Hernandez Vela 
+**Nombre completo:** Monica Hernandez Vela
 
 **Edad:** 33 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 5:53 minutos
 
@@ -390,7 +390,7 @@ Datos del entrevistado:
 
 **Edad:** 23 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 4:11 minutos
 
@@ -438,7 +438,7 @@ Considera que el trato humano sigue siendo un valor agregado, aunque la digitali
 
 Datos del entrevistado:
 
-**Nombre completo:** Juan Salcedo  
+**Nombre completo:** Juan Salcedo
 
 **Edad:** 44 años
 
@@ -447,14 +447,14 @@ Datos del entrevistado:
 **Duración:** 6:11 minutos
 
 
-**Nombre:** Juan Salcedo  
-**Edad:** 44 años  
+**Nombre:** Juan Salcedo
+**Edad:** 44 años
 **Distrito:** San Borja
 
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)
 
 **Resumen de la entrevista**
 
@@ -466,7 +466,7 @@ Juan viaja por trabajo cada 1-2 meses y prefiere alojamientos cómodos, autónom
 
 Datos del entrevistado:
 
-**Nombre completo:** Tadeo Loja Beloglio 
+**Nombre completo:** Tadeo Loja Beloglio
 
 **Edad:** 22 años
 
@@ -489,7 +489,7 @@ Entre los problemas que ha tenido destacan las largas esperas en recepción y la
 Las reseñas digitales influyen en un 70% en su decisión de reserva. Para él, el trato humano sigue siendo un valor agregado incluso en un hotel digitalizado, y recomienda que la experiencia digital se concentre en una app única, sencilla y con asistencia rápida.
 
 ---
-## Entrevista 4
+#### Entrevista 4
 
 Datos del entrevistado:
 
@@ -505,7 +505,7 @@ Datos del entrevistado:
 
 
 
-**Enlace al video en Microsoft Stream:** [Entrevista-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EfHhd4ZVeqNEuji_fhRH2HABSjkFsOZnYobTIIqx-BN9nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eCsesR)  
+**Enlace al video en Microsoft Stream:** [Entrevista-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EfHhd4ZVeqNEuji_fhRH2HABSjkFsOZnYobTIIqx-BN9nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eCsesR)
 
 **Resumen de la entrevista**
 
@@ -517,7 +517,7 @@ en la limpieza. Considera muy práctico un sistema de check-in digital y control
 
 ---
 
-### 2.2.2. Análisis de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 En esta sección se presenta un análisis detallado por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, necesarios para la construcción de los arquetipos. La información se basa en las entrevistas registradas y sus respectivos resúmenes, respaldada por fuentes académicas y de la industria.
 
@@ -526,7 +526,7 @@ En esta sección se presenta un análisis detallado por cada segmento objetivo, 
 **Características Demográficas**
 
 **Perfil de Edad y Ubicación**
-Los administradores entrevistados presentan una edad promedio de **30.0 años**, con un rango que va desde los 23 hasta los 34 años. 
+Los administradores entrevistados presentan una edad promedio de **30.0 años**, con un rango que va desde los 23 hasta los 34 años.
 ![Perfil de edad de administradores — boxplot](assets/Chapter-02/S1_01_perfil_edad_boxplot.png)
 El **100%** de los entrevistados se ubican en Tarapoto, lo que indica una concentración geográfica específica en esta región turística del Perú. Este hallazgo se alinea con las tendencias nacionales, ya que según *Statista Market Forecast (2025)*, Peru ha experimentado un crecimiento significativo en el mercado hotelero, posicionándose como un actor clave en la industria hotelera latinoamericana.
 ![Concentración geográfica: 100% en Tarapoto](assets/Chapter-02/S1_02_concentracion_tarapoto.png)
@@ -640,14 +640,14 @@ Esta tendencia refleja datos globales donde las reseñas en línea han reemplaza
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![user-person1.jpg](assets/Chapter-02/UserPerson1.png) 
+![user-person1.jpg](assets/Chapter-02/UserPerson1.png)
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-person2.jpg](assets/Chapter-02/UserPerson2.png) 
+![user-person2.jpg](assets/Chapter-02/UserPerson2.png)
 
 ---
- 
+
 ### 2.3.2. User Task Matrix
 
 En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona realizan para cumplir sus objetivos en la gestión hotelera y la experiencia de estadía. Las tareas descritas existen independientemente de cualquier solución de software. Se consideran dos segmentos con sus respectivos User Persona:
@@ -676,13 +676,6 @@ Huéspedes de Hoteles Boutique (User Persona: Huésped)
     <td>Alta</td>
   </tr>
   <tr>
-    <td>Evitar sobreventa por falta de sincronización</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
     <td>Gestionar check-in/check-out (automatizado o rápido)</td>
     <td>Alta</td>
     <td>Alta</td>
@@ -697,39 +690,11 @@ Huéspedes de Hoteles Boutique (User Persona: Huésped)
     <td>Media</td>
   </tr>
   <tr>
-    <td>Generar reportes de operación y KPIs</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
     <td>Gestionar pagos y facturación digital</td>
     <td>Media</td>
     <td>Alta</td>
     <td>Media</td>
     <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Coordinar housekeeping y mantenimiento</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Capacitar al equipo en nuevas herramientas</td>
-    <td>Baja</td>
-    <td>Media</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Controlar costos operativos y presupuesto TI</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
   </tr>
   <tr>
     <td>Integrar canales (OTAs, WhatsApp, Booking)</td>
@@ -746,11 +711,46 @@ Huéspedes de Hoteles Boutique (User Persona: Huésped)
     <td>Alta</td>
   </tr>
   <tr>
+    <td>Evitar sobreventa por falta de sincronización</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Generar reportes de operación y KPIs</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Coordinar housekeeping y mantenimiento</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Controlar costos operativos y presupuesto TI</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
     <td>Personalizar comunicación y upselling</td>
     <td>Media</td>
     <td>Media</td>
     <td>Media</td>
     <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Capacitar al equipo en nuevas herramientas</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Media</td>
   </tr>
   <tr>
     <td>Realizar reservas y pagos desde el móvil</td>
@@ -767,17 +767,17 @@ Huéspedes de Hoteles Boutique (User Persona: Huésped)
     <td>Alta</td>
   </tr>
   <tr>
-    <td>Control de habitación vía app (WiFi/TV/servicios)</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
     <td>Solicitar servicios internos por app/chat</td>
     <td>—</td>
     <td>—</td>
     <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Control de habitación vía app (WiFi/TV/servicios)</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
     <td>Alta</td>
   </tr>
   <tr>
@@ -816,7 +816,7 @@ Importancia Alta (impacto financiero), Frecuencia Media (ciclos presupuestales).
 
 Reservar y pagar desde smartphone, check-in sin contacto, solicitar servicios por app/chat, reputación digital: Importancia Alta; muchas con Frecuencia Alta por preferencia mobile-first.
 
-**Controlar habitación vía app y consultar recomendaciones:** 
+**Controlar habitación vía app y consultar recomendaciones:**
 
 Importancia de Media a Alta, mejoran experiencia y satisfacción.
 
@@ -842,12 +842,12 @@ En el caso de Smart Stay, se elaboraron dos mapas diferenciados según los segme
 Estos recorridos permiten detectar fricciones, validar expectativas y proponer mejoras orientadas a optimizar tanto la gestión hotelera como la satisfacción de los huéspedes.
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
-![user-journey-mapping2.jpg](assets/Chapter-02/Userjourneymap2.png) 
+![user-journey-mapping2.jpg](assets/Chapter-02/Userjourneymap2.png)
 
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![user-journey-mapping1.jpg](assets/Chapter-02/Userjourneymap1.png) 
+![user-journey-mapping1.jpg](assets/Chapter-02/Userjourneymap1.png)
 
 ---
 
@@ -867,11 +867,11 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 **Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
 
-![empathy-map-2.jpg](assets/Chapter-02/Empathymap1.png) 
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap1.png)
 
 **Segmento 2 – Huéspedes de Hoteles**
 
-![empathy-map-2.jpg](assets/Chapter-02/Empathymap2_(2).png) 
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap2_(2).png)
 
 ---
 
@@ -880,7 +880,7 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 **Chaotic Exploration:**
 
-![step1.jpg](assets/Chapter-02/chaoticexploration.jpg) 
+![step1.jpg](assets/Chapter-02/chaoticexploration.jpg)
 
 **Timeline:**
 
@@ -899,23 +899,21 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 ![step5.jpg](assets/Chapter-02/Prioritization.jpg)
 
 
-
 ---
 
 ## 2.5. Ubiquitous Language.
 
 | **Término en Inglés**        | **Término en Español**             | **Definición**                                                                                                                                      |
-| ---------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hotel Administrator          | Administrador del hotel            | Usuario encargado de la gestión operativa del hotel. Supervisa reservas, limpieza, facturación y coordinación con el personal.                      |
-| Reservation Management       | Gestión de reservas                | Proceso centralizado de registro, confirmación, modificación y cancelación de reservas en tiempo real.                                              |
-| Overbooking                  | Sobreventa                         | Situación en la que el hotel vende más habitaciones de las disponibles debido a la falta de sincronización en los sistemas de reserva.              |
-| Housekeeping Schedule        | Programación de limpieza           | Organización de tareas de limpieza y mantenimiento de habitaciones, coordinadas desde el sistema de gestión.                                        |
+|------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Digital Check-In / Check-Out | Registro digital de entrada/salida | Funcionalidad que permite al huésped ingresar o salir del hotel sin necesidad de hacer filas en recepción, a través de una aplicación o portal web. |
-| Guest Profile                | Perfil del huésped                 | Información digital del cliente que incluye preferencias, historial de estadías y solicitudes especiales.                                           |
-| Smart Room Control           | Control inteligente de habitación  | Función que permite al huésped manejar servicios como iluminación, temperatura o room service desde su dispositivo móvil.                           |
-| Real-Time Notification       | Notificación en tiempo real        | Alerta automática que informa sobre nuevas reservas, cambios en disponibilidad o solicitudes de huéspedes.                                          |
 | Financial Report             | Reporte financiero                 | Documento digital generado por el sistema que resume ingresos, gastos y métricas clave para evaluar la rentabilidad del hotel.                      |
 | Guest Feedback               | Retroalimentación del huésped      | Opiniones y calificaciones que los huéspedes comparten sobre su estadía, utilizadas para mejorar los servicios.                                     |
+| Guest Profile                | Perfil del huésped                 | Información digital del cliente que incluye preferencias, historial de estadías y solicitudes especiales.                                           |
+| Hotel Administrator          | Administrador del hotel            | Usuario encargado de la gestión operativa del hotel. Supervisa reservas, limpieza, facturación y coordinación con el personal.                      |
+| Housekeeping Schedule        | Programación de limpieza           | Organización de tareas de limpieza y mantenimiento de habitaciones, coordinadas desde el sistema de gestión.                                        |
+| Overbooking                  | Sobreventa                         | Situación en la que el hotel vende más habitaciones de las disponibles debido a la falta de sincronización en los sistemas de reserva.              |
+| Real-Time Notification       | Notificación en tiempo real        | Alerta automática que informa sobre nuevas reservas, cambios en disponibilidad o solicitudes de huéspedes.                                          |
+| Reservation Management       | Gestión de reservas                | Proceso centralizado de registro, confirmación, modificación y cancelación de reservas en tiempo real.                                              |
+| Smart Room Control           | Control inteligente de habitación  | Función que permite al huésped manejar servicios como iluminación, temperatura o room service desde su dispositivo móvil.                           |
 
 ---
-
