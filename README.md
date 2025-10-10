@@ -1975,30 +1975,72 @@ En esta sección el equipo establece las decisiones, herramientas y convenciones
 
 ## 5.1.1. Software Development Environment Configuration  
 
-El entorno de desarrollo del equipo incluye un conjunto de herramientas colaborativas y de programación que soportan las distintas fases del ciclo de vida:  
 
-- **Gestión de proyecto y documentación**  
-  - Trello → gestión de tareas y planificación ágil con tableros Kanban.  
-  - Google Docs → elaboración colaborativa de reportes y entregables.  
+### Project Management
+Para la gestión del proyecto se emplearon diversas herramientas de comunicación, planificación y control de versiones. Se creó una organización en GitHub para centralizar el repositorio del código fuente y coordinar el trabajo colaborativo del equipo. La comunicación interna se realizó mediante Discord y WhatsApp, mientras que la planificación ágil de tareas se gestionó a través de Trello.
 
-- **Diseño y UX/UI**  
-  - Figma / Adobe XD → diseño de wireframes, mockups y prototipos interactivos.  
-  - UXPressia → creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.  
-  - Miro → colaboración visual y soporte para sesiones de ideación y EventStorming.  
-  - Structurizr → modelado de arquitectura mediante el estándar C4 Model y uso de Diagram-as-Code.  
+- **Organización del trabajo:** GitHub  
+- **Reuniones:** Discord  
+- **Comunicación:** WhatsApp  
+- **Planificación y asignación de tareas:** Trello  
 
-- **Desarrollo de software**  
-  - JetBrains Rider → IDE principal para backend ASP.NET Core con C#.  
-  - JetBrains WebStorm → IDE para frontend con Vue.js.  
-  - Node.js y NPM → gestión de dependencias y ejecución del entorno frontend.  
-  - Vue.js con PrimeVue → framework y librería de componentes UI para el desarrollo del frontend.  
-  - HTML, CSS y JavaScript → construcción de la Landing Page.  
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)  
+-**Discord:** [Discord](https://discord.com/)  
+-**Trello:** [Trello](https://trello.com/)
 
-- **Repositorio y control de versiones**  
-  - GitHub → sistema de control de versiones y repositorios centralizados.  
 
----
+### Requirement Management
+Para la fase de levantamiento y priorización de requisitos, se implementaron herramientas que facilitaron la recolección, análisis y documentación de información. Trello fue empleado para la gestión visual de tareas mediante tableros personalizados.  
+Además, se utilizó **UXPressia** para el desarrollo de *User Personas*, *Empathy Maps*, *Journey Maps* y *Lean UX Canvas*, mientras que **Miro** sirvió para construir los escenarios *As-Is* y *To-Be* de los procesos del sistema.
 
+**Enlaces**  
+-**Trello:** [Trello](https://trello.com/)  
+-**UXPressia:** [UXPressia](https://uxpressia.com/)  
+-**Miro:** [Miro](https://miro.com/es/)
+
+
+
+### Product UX/UI Design
+Durante el diseño de la experiencia e interfaz de usuario, el equipo utilizó **Figma** para crear *wireframes*, *mockups* y *prototipos interactivos*, lo cual permitió validar las propuestas de diseño antes de su implementación final.  
+Asimismo, se aplicaron principios de usabilidad y diseño centrado en el usuario para garantizar una navegación fluida y consistente.
+
+**Enlaces**  
+-**Figma:** [Figma](https://www.figma.com/)
+
+
+
+### Software Development
+Para el desarrollo de la aplicación se utilizaron distintas herramientas y entornos de programación.  
+El *backend* fue implementado con **ASP.NET Core (C#)** empleando el IDE **JetBrains Rider**, mientras que el *frontend* se desarrolló con **Vue.js** en **JetBrains WebStorm**, apoyándose en **Node.js** y **NPM** para la gestión de dependencias.  
+Adicionalmente, se emplearon **HTML**, **CSS** y **JavaScript** para la construcción de la *Landing Page*.  
+La instalación y mantenimiento de las IDEs se realizó mediante **JetBrains ToolBox**.
+
+**Enlaces**  
+-**JetBrains ToolBox:** [JetBrains ToolBox](https://www.jetbrains.com/toolbox-app/)  
+-**Rider:** [JetBrains Rider](https://www.jetbrains.com/rider/)  
+-**Webstorm:** [JetBrains WebStorm](https://www.jetbrains.com/webstorm/)  
+-**Node.js:** [Node.js](https://nodejs.org/)  
+-**Vue.js:** [Vue.js](https://vuejs.org/)  
+-**PrimeVue:** [PrimeVue](https://primevue.org/)  
+-**Visual Studio Code:** [Visual Studio Code](https://code.visualstudio.com/)
+
+
+### Software Documentation
+Para la documentación técnica y la gestión del repositorio, se utilizó **GitHub** siguiendo la metodología de trabajo **GitHub Flow**.  
+Esta estrategia permitió un control de versiones eficiente mediante el uso de ramas específicas para cada funcionalidad o corrección.  
+Toda la documentación se redactó en formato **Markdown (.md)**, debido a su legibilidad, simplicidad y compatibilidad con GitHub.
+
+**Enlaces**  
+-**GitHub:** [GitHub](https://github.com/)
+
+### Software Deployment
+El despliegue de la *Landing Page* se realizó mediante **GitHub Pages**, una herramienta ideal para la publicación de sitios web estáticos directamente desde el repositorio del proyecto.
+
+**Enlaces**  
+-**GitHub Pages:**  [GitHub Pages](https://pages.github.com/)
+
+-----
 ## 5.1.2. Source Code Management  
 
 El sistema de control de versiones utilizado es **GitHub**, con un workflow basado en **GitFlow**:  
