@@ -2245,7 +2245,7 @@ El proyecto implementa un flujo automatizado de **Integración Continua y Despli
 ### Github Pages: 
 ![Github Pages](assets/githubpages.jpg)
 
-**URL del despliegue:**  
+**La URL que nos entrega Github Pages para acceder a la landing page es la siguiente:**  
 [https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
 
 ---
