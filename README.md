@@ -2478,6 +2478,29 @@ En este segundo Sprint hemos realizado la implementación de nuestra Single Page
 ---
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
+landing Page 
+
+Esta es la sección inicial, donde está el header.
+
+![Landing1](assets/landing1.jpeg)
+
+Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+
+![Landing2](assets/landing2.jpeg)
+
+Esta sección describe las soluciones de acorde al tipo de propiedad.
+![Landing3](assets/landing3.jpeg)
+
+Tenemos en esta sección acerca de precios por el servicio.
+
+![Landing4](assets/landing4.jpeg)
+
+Aquí se puede observar la sección de reseñas.
+
+![Landing5](assets/landing5.jpeg)
+
+
+
 
 ---
 ## 5.2.2.6. Execution Evidence for Sprint Review
