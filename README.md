@@ -2431,9 +2431,11 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 | **Sum of Story Points**                | 18                                                                                                                                                                                                                                                                 |
 
 
-
+---
 
 ## 5.2.2.2. Aspect Leaders and Collaborators
+
+---
 
 ## Sprint 1 – Aspect Leaders and Collaborators
 
@@ -2448,6 +2450,7 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)| C | C | C | L |
 | **Ramos Aguirre, Aldair Joaquin**      | [@AldairRamos13](https://github.com/AldairRamos13)| C | C | C | L |
 
+---
 
 ## 5.2.2.3. Sprint Backlog 2. 
 
@@ -2466,3 +2469,27 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | Sprint 2 | US-26 – Success stories and testimonials | UT-17 | Agregar métricas en testimonios | Mostrar porcentajes de mejora o impacto en casos de éxito. | 4 | Jose | To Do |
 | Sprint 2 | US-28 – Corporate information | UT-18 | Sección de equipo y liderazgo | Agregar datos e imágenes de los integrantes principales. | 4 | Aldair | To Review |
 | Sprint 2 | US-24 – Segmented landing page | UT-19 | Desplegar nueva versión pública | Publicar versión optimizada y completamente funcional del sitio. | 3 | Italo | Done |
+
+---
+## 5.2.2.4. Development Evidence for Sprint Review 
+
+En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+
+---
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+
+---
+## 5.2.2.6. Execution Evidence for Sprint Review
+
+No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+---
+## 5.2.2.7. Software Deployment Evidence for Sprint Review
+---
+## 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
+
+## LandingPage 
+
+## Frontend
