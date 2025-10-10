@@ -2279,7 +2279,20 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 | **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                  |
 | **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                  |
 
-## 5.2.1.2. Sprint Backlog 1
+
+## 5.2.1.2. Deployment Evidence for Sprint Review
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|------------------------------------------|----------------------|------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------|
+| **Verona Flores, Italo Sebastián** | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
+| **Valverde Portuguez, Natalia Ximena** | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
+| **Fernandez Garfias, Alexander Piero** | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Saavedra Angulo, Jose Jhonatan** | [@ElrichMasNa](https://github.com/ElrichMasNa) | C | C | C | L |
+| **Ramos Aguirre, Aldair Joaquin** | [@AldairRamos13](https://github.com/AldairRamos13) | C | C | C | L |
+
+---
+
+## 5.2.1.3. Sprint Backlog 1
 
 ### Introducción
 El objetivo principal del Sprint 1 es implementar la **Landing Page (EP08)** que permita a los visitantes explorar las funcionalidades básicas de SmartStay, conocer sus beneficios y acceder fácilmente al registro o login.  
@@ -2307,7 +2320,7 @@ Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, propor
 | Sprint 1 | US-26 – Success stories and testimonials | UT-09 | Ajustar animaciones y transiciones | Aplicar efectos de entrada y desplazamiento fluido en los testimonios. | 4 | Aldair | In Process |
 
 
-## 5.2.1.3. Development Evidence for Sprint Review
+## 5.2.1.4. Development Evidence for Sprint Review
 
 ### Introducción
 Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se desarrollaron las secciones de información general, beneficios de la plataforma y botones de acceso a login/registro. La mayor parte del trabajo se centró en la **estructura base, navegación y maquetación inicial**.
@@ -2327,7 +2340,7 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 ![commitslanding](assets/commitslanding.png)
 
-## 5.2.1.4. Deployment Evidence for Sprint Review
+## 5.2.1.5. Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
 
@@ -2345,7 +2358,7 @@ Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del
 ![landing_page](assets/encabezado_hero.png)  
 
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+### 5.2.1.6. Execution Evidence for Sprint Review.
 
 En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
 
@@ -2365,7 +2378,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   ![navbar](assets/navbar.png)  
 
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+### 5.2.1.7. Services Documentation Evidence for Sprint Review  
 
 En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
 
@@ -2376,7 +2389,7 @@ La landing page cumple el rol de **página de presentación inicial** de la plat
 Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
 
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+### 5.2.1.8. Software Deployment Evidence for Sprint Review  
 
 Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
 
@@ -2387,7 +2400,7 @@ Durante este Sprint, se realizaron los siguientes procesos de despliegue:
 Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
 
 
-### 5.2.1.8. Team Collaboration Insights during Sprint  
+### 5.2.1.9. Team Collaboration Insights during Sprint  
 
 Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
 
