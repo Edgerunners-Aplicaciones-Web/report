@@ -2509,6 +2509,26 @@ Aquí se puede observar la sección de reseñas.
 ![Landing5](assets/landing5.jpeg)
 
 
+Frontend
+
+En esta sección se puede ver las habitaciones disponibles.
+
+![Front1](assets/front1.jpeg)
+
+
+En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
+
+![Front2](assets/front2.jpeg)
+
+En esta sección se puede ver el panel del administrador.
+
+![Front3](assets/front3.jpeg)
+
+En esta sección se puede ver el panel del administrador se puede ver un dashboard con las habitaciones.
+
+![Front4](assets/fron4.jpeg)
+
+
 
 
 ---
