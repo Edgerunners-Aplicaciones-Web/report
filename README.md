@@ -2252,6 +2252,8 @@ El proyecto implementa un flujo automatizado de **Integración Continua y Despli
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
+![Landing_Page](assets/Landingimage.jpeg)
+
 ---
 
 ## 5.2.1. Sprint 1
