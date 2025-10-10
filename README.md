@@ -459,13 +459,13 @@ Esta información proporciona una base sólida para validar que existe un mercad
   
 ## 2.1. Competidores.
 
-El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores:
+El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales, sistemas tracionales de gestión y, en menor medida, plataformas integradas con IoT. Se identificaron los principales competidores.
 
 #### 2.1.1 Análisis Competitivo.
 
 El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.  
 
-### Matriz comparativa de competidores
+**Matriz comparativa de competidores**
 
 <table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse: collapse;">
   <tr>
@@ -581,7 +581,7 @@ Sistemas Manuales<br>
 
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
-Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** implementará las siguientes estrategias: 
+Para posicionarse de manera efectiva frente a los competidores, **Smart Stay** implementará las siguientes estrategias: 
 
 #### Estrategias
 
@@ -600,11 +600,11 @@ Para posicionarse de manera efectiva frente a los competidores,  **Smart Stay** 
 - **Integraciones rápidas** con PMS existentes para facilitar la migración y reduccir fricciones.
 - **Atencion postventa 24/7** como ventaja competitiva sobre startups con soporte limitado. 
 
-## 2.1. Entrevistas.
+## 2.2. Entrevistas.
   
 Con el objetivo de profundizar en las necesidades y expectativas de los segmentos objetivos, se realizaron entrevistas semiestructuradas a administradores de hoteles boutique y a huéspedes. Esta información cualitativa sirvió como base para identificar problemáticas actuales y orientar la definición de requisitos del sistema.
 
-#### 2.1.2  Diseño de entrevistas
+#### 2.2.1  Diseño de entrevistas
 
 ### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
 
@@ -822,7 +822,7 @@ en la limpieza. Considera muy práctico un sistema de check-in digital y control
 
 ---
 
-### 2.2.2. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 En esta sección se presenta un análisis detallado por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, necesarios para la construcción de los arquetipos. La información se basa en las entrevistas registradas y sus respectivos resúmenes, respaldada por fuentes académicas y de la industria.
 
@@ -1202,8 +1202,6 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 **Prioritization:**
 
 ![step5.jpg](assets/Chapter-02/Prioritization.jpg)
-
-
 
 ---
 
