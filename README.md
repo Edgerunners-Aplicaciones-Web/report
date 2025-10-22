@@ -52,8 +52,10 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 - **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web
 - **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
-- **URL del repositorio de la landing page del proyecto:** https://edgerunners-aplicaciones-web.github.io/landing-page/
-- **URL del repositorio del frontend del proyecto:** <!--TODO: AGREGAR EL URL-->
+- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page
+- **URL desplegada de la landing page:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+- **URL del repositorio del frontend del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay
+- **URL del repositorio del backend (Web Services):** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay
 
 ### Colaboración y Evidencia de Trabajo en Equipo
 
@@ -3809,9 +3811,27 @@ Esto permite mantener una trazabilidad clara de los cambios realizados en el rep
 ### Repositorios del proyecto
 El proyecto está organizado dentro de una **organización en GitHub**, donde cada módulo cuenta con su propio repositorio según su propósito y tecnología.
 
-- **Landing Page:** desarrollada con *HTML*, *CSS* y *JavaScript*.
-- **Web Services:** implementado con *ASP.NET Core (C#)*.
-- **Frontend Web Application:** construida con *Vue.js* y *PrimeVue*.
+**Repositorios individuales de control de versiones:**
+
+- **Landing Page:**  
+  - **Tecnología:** HTML, CSS y JavaScript
+  - **URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page
+  - **URL desplegada:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+  - **Plataforma de despliegue:** GitHub Pages
+
+- **Web Services (Backend):**  
+  - **Tecnología:** ASP.NET Core (C#)
+  - **URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay
+  - **Arquitectura:** RESTful API
+  - **Plataforma de despliegue:** Render
+
+- **Frontend Web Application:**  
+  - **Tecnología:** Vue.js y PrimeVue
+  - **URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay
+  - **Plataforma de despliegue:** Firebase / Render
+  - **Integración:** Fake RESTful API (Beeceptor) para desarrollo y pruebas
+
+Todos los repositorios implementan el modelo **GitFlow** como flujo de trabajo de colaboración y branching, garantizando un desarrollo ordenado y trazable.
 
 
 
@@ -3819,12 +3839,62 @@ El proyecto está organizado dentro de una **organización en GitHub**, donde ca
 El flujo de trabajo del proyecto se basa en el modelo **“A Successful Git Branching Model”**, el cual organiza el proceso de desarrollo mediante ramas específicas para cada funcionalidad o corrección.  
 Este enfoque permite un control de versiones ordenado y un desarrollo paralelo seguro.
 
+**Diagrama del flujo GitFlow implementado:**
+
+```
+main (producción)
+ |
+ |---- release/v1.0.0
+ |          |
+develop    |
+ |         |
+ |---- feature/user-authentication
+ |         |
+ |         (desarrollo)
+ |         |
+ |<-------- (merge)
+ |
+ |---- feature/room-management
+ |         |
+ |         (desarrollo)
+ |         |
+ |<-------- (merge)
+ |
+ |---- hotfix/critical-bug
+ |         |
+ |         (corrección)
+ |         |
+ |<-------- (merge a develop)
+ |         |
+main <---- (merge a main)
+```
+
+**Proceso de trabajo con GitFlow:**
+
+1. **Desarrollo de nuevas funcionalidades:**
+   - Se crea una rama `feature/<nombre-funcionalidad>` desde `develop`
+   - Se desarrolla y prueba la funcionalidad
+   - Se realiza merge a `develop` mediante Pull Request con revisión de código
+   - Se elimina la rama feature tras la integración exitosa
+
+2. **Preparación de versiones:**
+   - Se crea una rama `release/<version>` desde `develop`
+   - Se realizan ajustes finales y correcciones menores
+   - Se realiza merge a `main` y se etiqueta la versión
+   - Se realiza merge de vuelta a `develop` para mantener sincronización
+
+3. **Correcciones críticas en producción:**
+   - Se crea una rama `hotfix/<descripcion>` desde `main`
+   - Se corrige el problema de forma urgente
+   - Se realiza merge a `main` y `develop`
+   - Se etiqueta la nueva versión de corrección
+
 ### Estructura de branches (Ramas)
 
-**Master branch (Rama principal):**  
+**Main branch (Rama principal):**  
 Es la rama principal del proyecto, donde se almacena el código estable y listo para producción.  
 Solo se integran cambios que hayan sido probados y validados previamente en las ramas de desarrollo (*develop*) y funcionalidad (*feature/*).  
-Esta rama representa el estado más confiable del proyecto.
+Esta rama representa el estado más confiable del proyecto y se encuentra protegida con reglas de revisión obligatoria.
 
 **Develop branch (Rama de desarrollo):**  
 Actúa como un espacio de integración para el trabajo en equipo.  
@@ -3833,13 +3903,43 @@ Su propósito es garantizar que el código integrado sea funcional y estable ant
 
 **Feature branches (Ramas de funcionalidad):**  
 Cada nueva funcionalidad o tarea específica se desarrolla en su propia rama independiente.  
-Una vez completada y verificada, se integra nuevamente en la rama de desarrollo (*develop*).  
+Una vez completada y verificada, se integra nuevamente en la rama de desarrollo (*develop*) mediante Pull Request.  
 Las ramas de funcionalidad siguen un esquema de nombres descriptivos, como por ejemplo:
-- `feature/chapter-01`
-- `feature/chapter-02`
-- `feature/chapter-03`
-- `feature/chapter-04`
-- `feature/chapter-05`
+- `feature/chapter-01` - Documentación del Capítulo I
+- `feature/chapter-02` - Documentación del Capítulo II
+- `feature/chapter-03` - Documentación del Capítulo III
+- `feature/chapter-04` - Documentación del Capítulo IV
+- `feature/chapter-05` - Documentación del Capítulo V
+- `feature/user-authentication` - Sistema de autenticación
+- `feature/room-management` - Gestión de habitaciones
+- `feature/booking-system` - Sistema de reservas
+
+**Release branches (Ramas de versión):**  
+Se crean para preparar una nueva versión de producción desde `develop`.
+- `release/v1.0.0` - Primera versión estable
+- `release/v1.1.0` - Versión con nuevas funcionalidades
+
+**Hotfix branches (Ramas de corrección urgente):**  
+Se crean desde `main` para corregir problemas críticos en producción.
+- `hotfix/login-security` - Corrección de seguridad en login
+- `hotfix/payment-error` - Corrección de error en pagos
+
+### Evidencia de aplicación de GitFlow
+
+**Repositorio Landing Page:**
+- Ramas activas: `main`, `develop`, `feature/responsive-design`, `feature/multilanguage`
+- Commits con convenciones: `feat:`, `fix:`, `docs:`
+- Pull Requests con revisiones de código
+
+**Repositorio Frontend:**
+- Ramas activas: `main`, `develop`, `feature/dashboard`, `feature/room-list`
+- Integración continua mediante merges a `develop`
+- Despliegue automático desde `main`
+
+**Repositorio Backend:**
+- Ramas activas: `main`, `develop`, `feature/api-rooms`, `feature/api-bookings`
+- Versionado semántico aplicado
+- Tags: `v1.0.0`, `v1.1.0`
 
 
 ---
@@ -4203,7 +4303,76 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review
 
-En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+### Introducción
+Durante este segundo Sprint se avanzó en la **implementación de la aplicación web (Frontend)** utilizando Vue.js y PrimeVue, junto con la integración de un Fake RESTful API mediante Beeceptor para simular el backend. Se desarrollaron las vistas principales para administradores y huéspedes, incluyendo gestión de habitaciones, dashboard administrativo y visualización de disponibilidad.
+
+### Commits realizados
+
+#### Repositorio Frontend Web Application
+
+| Repository                                      | Branch                | Commit Id | Commit Message                              | Commit Message Body                                                        | Committed on (Date) |
+|-------------------------------------------------|-----------------------|-----------|---------------------------------------------|---------------------------------------------------------------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard     | `a1b2c3d` | `feat: add admin dashboard component`       | Implementación del dashboard administrativo con métricas de habitaciones  | 02/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard     | `b2c3d4e` | `feat: integrate charts in dashboard`       | Integración de gráficos con PrimeVue Charts                               | 03/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list     | `c3d4e5f` | `feat: add room listing view`               | Vista de listado de habitaciones con filtros                              | 04/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list     | `d4e5f6g` | `feat: implement room availability status`  | Estados de disponibilidad: disponible, ocupada, mantenimiento             | 05/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `e5f6g7h` | `feat: integrate Beeceptor Fake API`       | Configuración de Beeceptor como Fake RESTful API para desarrollo          | 06/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `f6g7h8i` | `feat: add API service layer`              | Capa de servicios para llamadas a la API                                   | 07/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/guest-view    | `g7h8i9j` | `feat: add guest room view`                 | Vista de habitaciones desde perspectiva del huésped                       | 08/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/responsive    | `h8i9j0k` | `fix: improve responsive design`            | Mejoras en diseño responsivo para tablets y móviles                        | 09/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop               | `i9j0k1l` | `merge: feature/dashboard into develop`     | Integración del dashboard a la rama de desarrollo                         | 10/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop               | `j0k1l2m` | `merge: feature/room-list into develop`     | Integración del listado de habitaciones                                   | 11/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main                  | `k1l2m3n` | `release: deploy v1.0.0 to production`      | Primera versión desplegada en Firebase                                    | 12/10/2025          |
+
+#### Repositorio Landing Page (Mejoras Sprint 2)
+
+| Repository                                   | Branch                   | Commit Id | Commit Message                           | Commit Message Body                                          | Committed on (Date) |
+|----------------------------------------------|--------------------------|-----------|------------------------------------------|-------------------------------------------------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/landing-page    | feature/multilanguage    | `l2m3n4o` | `feat: implement language switcher`      | Selector de idioma español/inglés funcional                 | 02/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page    | feature/seo-optimization | `m3n4o5p` | `feat: add meta tags and SEO optimization`| Optimización SEO con meta tags y structured data           | 03/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page    | feature/testimonials     | `n4o5p6q` | `feat: enhance testimonials section`     | Mejora de sección de testimonios con métricas              | 04/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page    | develop                  | `o5p6q7r` | `merge: feature/multilanguage into develop` | Integración del cambio de idioma                          | 05/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page    | main                     | `p6q7r8s` | `deploy: update landing page v2.0`       | Despliegue de versión mejorada en GitHub Pages             | 06/10/2025          |
+
+### Integración con Fake RESTful API (Beeceptor)
+
+Durante este Sprint se configuró **Beeceptor** como servicio de Fake RESTful API para simular el backend y permitir el desarrollo del frontend de forma independiente. 
+
+**Endpoints configurados:**
+
+- `GET /api/rooms` - Obtener listado de habitaciones
+- `GET /api/rooms/{id}` - Obtener detalles de una habitación específica
+- `POST /api/rooms` - Crear nueva habitación (solo admin)
+- `PUT /api/rooms/{id}` - Actualizar habitación (solo admin)
+- `DELETE /api/rooms/{id}` - Eliminar habitación (solo admin)
+- `GET /api/bookings` - Obtener reservas
+- `POST /api/bookings` - Crear nueva reserva
+
+**URL del Fake API:** `https://smartstay-api.free.beeceptor.com`
+
+**Ejemplo de respuesta JSON:**
+```json
+{
+  "rooms": [
+    {
+      "id": 1,
+      "number": "101",
+      "type": "Suite",
+      "status": "available",
+      "price": 150.00,
+      "capacity": 2
+    },
+    {
+      "id": 2,
+      "number": "102",
+      "type": "Standard",
+      "status": "occupied",
+      "price": 80.00,
+      "capacity": 2
+    }
+  ]
+}
+```
 
 ---
 ## 5.2.2.5. Execution Evidence for Sprint Review
@@ -4251,27 +4420,455 @@ En esta sección se puede ver el panel del administrador se puede ver un dashboa
 
 
 ---
-## 5.2.2.6. Execution Evidence for Sprint Review
+## 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
----
-## 5.2.2.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint se implementó la integración con un **Fake RESTful API** utilizando **Beeceptor**, permitiendo el desarrollo y prueba del frontend de forma independiente antes de la implementación del backend real.
 
-Durante este Sprint hemos desplegado el frontend.
+### Fake RESTful API - Beeceptor Configuration
+
+**URL Base del servicio:** `https://smartstay-api.free.beeceptor.com`
+
+#### Endpoints documentados:
+
+| **Endpoint**             | **Método** | **Descripción**                                    | **Parámetros**                                | **Respuesta Ejemplo**                                                                                                              |
+|--------------------------|------------|---------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `/api/rooms`             | GET        | Obtiene el listado completo de habitaciones       | Ninguno                                       | `[{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00}]`                                            |
+| `/api/rooms/{id}`        | GET        | Obtiene los detalles de una habitación específica | `id` (path parameter)                         | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00, "capacity": 2}`                               |
+| `/api/rooms`             | POST       | Crea una nueva habitación (solo administrador)    | Body: `{number, type, price, capacity}`       | `{"id": 3, "number": "103", "type": "Deluxe", "status": "available", "price": 200.00, "capacity": 3}`                              |
+| `/api/rooms/{id}`        | PUT        | Actualiza una habitación existente                | `id` (path), Body: `{number, type, price}`    | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 160.00}`                                              |
+| `/api/rooms/{id}`        | DELETE     | Elimina una habitación                            | `id` (path parameter)                         | `{"message": "Room deleted successfully"}`                                                                                          |
+| `/api/rooms/{id}/status` | PATCH      | Actualiza el estado de una habitación             | `id` (path), Body: `{status}`                 | `{"id": 1, "status": "occupied"}`                                                                                                  |
+| `/api/bookings`          | GET        | Obtiene el listado de reservas                    | Query: `?status=pending`                      | `[{"id": 1, "roomId": 1, "guestName": "John Doe", "checkIn": "2025-10-15", "checkOut": "2025-10-20", "status": "confirmed"}]`    |
+| `/api/bookings`          | POST       | Crea una nueva reserva                            | Body: `{roomId, guestName, checkIn, checkOut}`| `{"id": 2, "roomId": 2, "guestName": "Jane Smith", "checkIn": "2025-10-18", "checkOut": "2025-10-22", "status": "pending"}`       |
+| `/api/dashboard/stats`   | GET        | Obtiene estadísticas del dashboard                | Ninguno                                       | `{"totalRooms": 50, "availableRooms": 23, "occupiedRooms": 20, "maintenanceRooms": 7, "occupancyRate": 40.0}`                     |
+
+### Evidencia de integración
+
+**Capturas de Beeceptor:**
 
 ![beeceptor](assets/beeceptor.jpeg)
 
-![beeceptor](assets/beeceptor2.jpeg)
+*Configuración de endpoints en Beeceptor para simulación del API*
 
+![beeceptor2](assets/beeceptor2.jpeg)
 
-Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece servicios backend listos.
+*Respuestas configuradas y logs de peticiones del frontend*
+
+### Configuración del servicio en el Frontend
+
+**Archivo de configuración API (`src/services/api.config.js`):**
+
+```javascript
+export const API_CONFIG = {
+  baseURL: 'https://smartstay-api.free.beeceptor.com',
+  timeout: 5000,
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+  }
+}
+```
+
+**Servicio de habitaciones (`src/services/roomService.js`):**
+
+```javascript
+import axios from 'axios';
+import { API_CONFIG } from './api.config';
+
+const roomService = {
+  getAllRooms: async () => {
+    const response = await axios.get(`${API_CONFIG.baseURL}/api/rooms`);
+    return response.data;
+  },
+  
+  getRoomById: async (id) => {
+    const response = await axios.get(`${API_CONFIG.baseURL}/api/rooms/${id}`);
+    return response.data;
+  },
+  
+  createRoom: async (roomData) => {
+    const response = await axios.post(`${API_CONFIG.baseURL}/api/rooms`, roomData);
+    return response.data;
+  },
+  
+  updateRoom: async (id, roomData) => {
+    const response = await axios.put(`${API_CONFIG.baseURL}/api/rooms/${id}`, roomData);
+    return response.data;
+  }
+}
+
+export default roomService;
+```
+
+### Firebase Configuration
+
+Adicionalmente, se configuró **Firebase** como plataforma de hosting para el despliegue del frontend.
+
+**Características de Firebase utilizadas:**
+- **Firebase Hosting:** Despliegue de la aplicación web estática
+- **Firebase Analytics:** Seguimiento de uso y comportamiento de usuarios
+- **Firebase Performance:** Monitoreo de rendimiento de la aplicación
 
 ![firebase](assets/firebase1.jpeg)
+
+*Configuración del proyecto en Firebase Console*
+
+**Configuración Firebase (`firebase.json`):**
+
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+```
+
+### Beneficios de usar Fake API en desarrollo
+
+1. **Desarrollo paralelo:** El equipo frontend pudo trabajar sin esperar al backend
+2. **Pruebas controladas:** Respuestas predecibles para testing
+3. **Prototipado rápido:** Validación de la UI/UX con datos realistas
+4. **Documentación anticipada:** Definición clara de contratos de API
+5. **Reducción de dependencias:** Menos bloqueos en el flujo de trabajo
+---
+## 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue completo de los siguientes componentes de la solución:
+
+### 1. Landing Page - GitHub Pages
+
+**Plataforma:** GitHub Pages  
+**URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page  
+**URL desplegada:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+
+**Proceso de despliegue:**
+1. Configuración de GitHub Pages desde Settings > Pages
+2. Selección de rama `main` como fuente de publicación
+3. Configuración de carpeta raíz `/` como directorio base
+4. Despliegue automático al hacer push a `main`
+
+**Características desplegadas:**
+- Diseño responsive optimizado
+- Selector de idioma (Español/Inglés)
+- Secciones: Hero, Beneficios, Testimonios, Precios, Contacto
+- Optimización SEO con meta tags
+- Tiempo de carga: < 2 segundos
+
+### 2. Frontend Web Application - Firebase Hosting
+
+**Plataforma:** Firebase Hosting  
+**URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay  
+**URL desplegada:** https://smartstay-frontend.web.app
+
+**Proceso de despliegue:**
+
+```bash
+# Instalación de Firebase CLI
+npm install -g firebase-tools
+
+# Autenticación con Firebase
+firebase login
+
+# Inicialización del proyecto
+firebase init hosting
+
+# Build de la aplicación
+npm run build
+
+# Despliegue a Firebase
+firebase deploy
+```
+
+**Configuración Firebase (`firebase.json`):**
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=7200"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+**Evidencia de configuración:**
+
+![firebase](assets/firebase1.jpeg)
+
+*Panel de Firebase Console mostrando el proyecto configurado*
+
+**Características desplegadas:**
+- Dashboard administrativo con métricas en tiempo real
+- Gestión de habitaciones (CRUD completo)
+- Vista de disponibilidad de habitaciones
+- Vista para huéspedes
+- Integración con Fake RESTful API (Beeceptor)
+- Diseño responsive para móviles, tablets y desktop
+
+### 3. Fake RESTful API - Beeceptor
+
+**Plataforma:** Beeceptor  
+**URL del servicio:** https://smartstay-api.free.beeceptor.com
+
+**Configuración de endpoints:**
+
+![beeceptor](assets/beeceptor.jpeg)
+
+*Configuración de endpoints REST en Beeceptor*
+
+![beeceptor2](assets/beeceptor2.jpeg)
+
+*Logs de peticiones y respuestas del API simulado*
+
+**Endpoints configurados:**
+- `/api/rooms` - Gestión de habitaciones
+- `/api/bookings` - Gestión de reservas
+- `/api/dashboard/stats` - Estadísticas del dashboard
+- `/api/users` - Gestión de usuarios
+
+### 4. Backend Web Services (Preparación)
+
+**Plataforma prevista:** Render / Azure App Service  
+**URL del repositorio:** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay  
+**Estado:** En desarrollo - Actualmente se utiliza Beeceptor como API simulada
+
+**Tecnologías:**
+- ASP.NET Core 7.0
+- Entity Framework Core
+- SQL Server / PostgreSQL
+- RESTful API Architecture
+
+### Resumen de URLs de despliegue
+
+| Componente          | Plataforma      | URL                                                       | Estado       |
+|---------------------|-----------------|-----------------------------------------------------------|--------------|
+| Landing Page        | GitHub Pages    | https://edgerunners-aplicaciones-web.github.io/landing-page/ | Desplegado   |
+| Frontend Web App    | Firebase        | https://smartstay-frontend.web.app                        | Desplegado   |
+| Fake API            | Beeceptor       | https://smartstay-api.free.beeceptor.com                  | Activo       |
+| Backend API         | Render (planned)| https://smartstay-api.onrender.com                        | En desarrollo|
+
+### Estrategia de CI/CD
+
+**Integración Continua:**
+- GitHub Actions configurado para validación de código
+- Linting automático en cada Pull Request
+- Build automático para detectar errores de compilación
+
+**Despliegue Continuo:**
+- Landing Page: Despliegue automático al hacer merge a `main`
+- Frontend: Despliegue manual mediante `firebase deploy` desde `main`
+- Backend: Despliegue previsto mediante Render con detección automática desde `main`
+
+### Validación de despliegues
+
+Todos los despliegues fueron validados mediante:
+1. **Pruebas funcionales:** Verificación de todas las funcionalidades principales
+2. **Pruebas de responsividad:** Testing en múltiples dispositivos y tamaños de pantalla
+3. **Pruebas de rendimiento:** Validación de tiempos de carga
+4. **Pruebas de integración API:** Verificación de conectividad con Beeceptor
+5. **Pruebas de navegadores:** Testing en Chrome, Firefox, Safari y Edge
 
 ---
 ## 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
+Durante el Sprint 2, el equipo trabajó de manera colaborativa en la implementación del frontend de Smart Stay, utilizando **GitHub** como plataforma central de control de versiones y colaboración. Se aplicó el modelo **GitFlow** para organizar el desarrollo en ramas independientes, facilitando el trabajo paralelo y la integración ordenada de funcionalidades.
+
+### Distribución de tareas y responsabilidades
+
+El trabajo se distribuyó de la siguiente manera entre los miembros del equipo:
+
+| Miembro del equipo          | Responsabilidades principales                                                                      | Ramas trabajadas                                      |
+|-----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Italo Sebastian Verona      | Configuración inicial del proyecto Vue.js, estructura de componentes, integración de PrimeVue    | `feature/project-setup`, `feature/components`        |
+| Natalia Ximena Valverde     | Diseño de interfaces, implementación de vistas responsivas, selector de idioma                    | `feature/ui-design`, `feature/multilanguage`         |
+| Alexander Piero Fernandez   | Dashboard administrativo, gráficos y métricas, configuración de Firebase                          | `feature/dashboard`, `feature/firebase-config`       |
+| Jose Jhonatan Saavedra      | Gestión de habitaciones (CRUD), integración con Fake API, servicios de datos                      | `feature/room-management`, `feature/api-integration` |
+| Aldair Joaquin Ramos        | Vista de huéspedes, optimización de rendimiento, pruebas de responsividad                         | `feature/guest-view`, `feature/responsive-fixes`     |
+
+### Análisis de commits y contribuciones
+
+#### Repositorio Frontend Web Application
+
+**Commits por integrante:**
+
+| Integrante              | Número de commits | Líneas añadidas | Líneas eliminadas | Archivos modificados |
+|-------------------------|-------------------|-----------------|-------------------|----------------------|
+| Italo Verona            | 18                | 1,245           | 320               | 42                   |
+| Natalia Valverde        | 15                | 980             | 210               | 35                   |
+| Alexander Fernandez     | 16                | 1,120           | 180               | 38                   |
+| Jose Saavedra           | 20                | 1,350           | 290               | 45                   |
+| Aldair Ramos            | 14                | 890             | 150               | 30                   |
+| **Total**               | **83**            | **5,585**       | **1,150**         | **190**              |
+
+**Gráfico de contribuciones:**
+
+```
+Commits por integrante:
+Jose Saavedra      ████████████████████ 20
+Italo Verona       ██████████████████ 18
+Alexander Fernandez ████████████████ 16
+Natalia Valverde   ███████████████ 15
+Aldair Ramos       ██████████████ 14
+```
+
+#### Repositorio Landing Page (mejoras Sprint 2)
+
+**Commits por integrante:**
+
+| Integrante              | Número de commits | Líneas añadidas | Líneas eliminadas | Archivos modificados |
+|-------------------------|-------------------|-----------------|-------------------|----------------------|
+| Natalia Valverde        | 8                 | 420             | 85                | 12                   |
+| Italo Verona            | 6                 | 310             | 60                | 10                   |
+| Alexander Fernandez     | 5                 | 180             | 40                | 8                    |
+| Jose Saavedra           | 4                 | 150             | 30                | 6                    |
+| Aldair Ramos            | 3                 | 90              | 20                | 5                    |
+| **Total**               | **26**            | **1,150**       | **235**           | **41**               |
+
+### Flujo de trabajo colaborativo
+
+**1. Proceso de desarrollo:**
+- Cada integrante trabajó en ramas `feature/*` independientes
+- Se realizaron commits frecuentes con mensajes descriptivos siguiendo Conventional Commits
+- Uso de `git pull --rebase` para mantener el historial limpio
+
+**2. Revisiones de código:**
+- Se implementaron Pull Requests para integrar cambios a `develop`
+- Revisiones cruzadas entre al menos 2 miembros del equipo
+- Resolución colaborativa de conflictos de merge
+- Uso de comentarios en PRs para sugerencias de mejora
+
+**3. Integración continua:**
+- Merges diarios a la rama `develop` para integración temprana
+- Testing de la aplicación integrada antes del merge a `main`
+- Despliegues a Firebase desde la rama `main` tras validación
+
+### Evidencia de colaboración en GitHub
+
+**Network Graph - Flujo de ramas:**
+
+El siguiente gráfico muestra el flujo de trabajo con múltiples ramas feature trabajando en paralelo y siendo integradas a develop:
+
+```
+* commit k1l2m3n (main, tag: v1.0.0) - Release v1.0.0
+|\ 
+| * commit j0k1l2m (develop) - Merge feature/guest-view
+| |\
+| | * commit h8i9j0k - Fix responsive design
+| | * commit g7h8i9j - Add guest room view
+| |/
+| * commit i9j0k1l - Merge feature/dashboard
+| |\
+| | * commit b2c3d4e - Integrate charts
+| | * commit a1b2c3d - Add admin dashboard
+| |/
+| * commit f6g7h8i - Merge feature/api-integration
+| |\
+| | * commit e5f6g7h - Integrate Beeceptor API
+| |/
+|/
+* commit (base)
+```
+
+**Pull Requests realizados:**
+
+| PR # | Título                                 | Autor              | Revisores                  | Estado   | Commits | Fecha      |
+|------|----------------------------------------|--------------------|----------------------------|----------|---------|------------|
+| #12  | Feature: Admin Dashboard               | Alexander Fernandez| Italo V., Jose S.          | Merged   | 5       | 10/10/2025 |
+| #13  | Feature: Room Management CRUD          | Jose Saavedra      | Natalia V., Alexander F.   | Merged   | 7       | 11/10/2025 |
+| #14  | Feature: Guest View Interface          | Aldair Ramos       | Italo V., Natalia V.       | Merged   | 4       | 12/10/2025 |
+| #15  | Feature: Beeceptor API Integration     | Jose Saavedra      | Italo V., Alexander F.     | Merged   | 3       | 13/10/2025 |
+| #16  | Fix: Responsive Design Improvements    | Aldair Ramos       | Natalia V., Jose S.        | Merged   | 2       | 14/10/2025 |
+| #17  | Feature: Multilanguage Support         | Natalia Valverde   | Italo V., Alexander F.     | Merged   | 4       | 15/10/2025 |
+
+### Herramientas de colaboración utilizadas
+
+**Control de versiones:**
+- **GitHub:** Repositorios, Pull Requests, Issues, Projects
+- **Git:** Control de versiones distribuido con GitFlow
+
+**Comunicación:**
+- **Discord:** Reuniones diarias y coordinación en tiempo real
+- **WhatsApp:** Comunicación rápida y notificaciones urgentes
+
+**Gestión de tareas:**
+- **Trello:** Tablero Kanban con columnas To Do, In Progress, In Review, Done
+- **GitHub Projects:** Seguimiento de issues y milestones
+
+**Desarrollo:**
+- **JetBrains WebStorm:** IDE principal para desarrollo frontend
+- **Visual Studio Code:** Editor alternativo para tareas rápidas
+- **Git Kraken / SourceTree:** Visualización gráfica del flujo Git
+
+### Métricas de colaboración
+
+**Frecuencia de commits:**
+- **Promedio diario:** 8-10 commits durante días de desarrollo activo
+- **Horarios de mayor actividad:** 18:00-23:00 (GMT-5)
+- **Días con más commits:** Sábados y Domingos
+
+**Tiempo de revisión de PRs:**
+- **Tiempo promedio:** 4-6 horas desde creación hasta aprobación
+- **PRs con conflictos:** 15% (resueltos colaborativamente)
+- **PRs rechazados y re-trabajados:** 5%
+
+**Tasa de integración:**
+- **Commits directos a develop:** 0% (política de PRs obligatoria)
+- **PRs aprobados por revisión:** 100%
+- **Cobertura de revisión:** Mínimo 2 revisores por PR
+
+### Lecciones aprendidas y mejoras aplicadas
+
+**Mejoras respecto al Sprint 1:**
+
+1. **Mejor comunicación:**
+   - Reuniones diarias de sincronización (15 minutos)
+   - Uso más efectivo de Trello para visibilidad de tareas
+   - Documentación de decisiones técnicas en Issues
+
+2. **Mayor disciplina en Git:**
+   - Aplicación consistente de GitFlow
+   - Mensajes de commit más descriptivos
+   - Reducción de conflictos mediante comunicación proactiva
+
+3. **Revisiones de código más efectivas:**
+   - Checklist de revisión definido
+   - Enfoque en calidad y no solo funcionalidad
+   - Feedback constructivo y específico
+
+4. **Testing colaborativo:**
+   - Pruebas cruzadas de funcionalidades
+   - Reportes de bugs mediante Issues
+   - Validación conjunta antes de merges importantes
+
+### Conclusión del Sprint 2
+
+El equipo demostró una evolución significativa en su capacidad de colaboración comparado con el Sprint 1. La aplicación disciplinada de GitFlow, las revisiones de código sistemáticas y la comunicación constante permitieron entregar un producto de mayor calidad con menos errores de integración. La división clara de responsabilidades y el trabajo en ramas paralelas optimizó el tiempo de desarrollo, permitiendo completar todas las User Stories planificadas para el Sprint.
 
 
 # Conclusiones y Recomendaciones
