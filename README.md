@@ -4359,18 +4359,18 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ![sprint_trello](assets/trello2.jpg)
 
-| **Sprint #** | **User Story**                           | **Work-Item/Task** | **Id**                             | **Title**                                                              | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|------------------------------------------|--------------------|------------------------------------|------------------------------------------------------------------------|-----------------|------------------------|-----------------|------------|
-| Sprint 2     | US-24 – Segmented landing page           | UT-10              | Optimizar diseño visual            | Mejorar la coherencia de colores, tipografía y elementos gráficos.     | 5               | Natalia                | Done            |
-| Sprint 2     | US-24 – Segmented landing page           | UT-11              | Optimizar SEO y rendimiento        | Implementar buenas prácticas de SEO y reducir tiempos de carga.        | 6               | Italo                  | In Process      |
-| Sprint 2     | US-25 – ROI simulator for hotels         | UT-12              | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos.       | 6               | Alexander              | To Do           |
-| Sprint 2     | US-25 – ROI simulator for hotels         | UT-13              | Implementar lógica de cálculo      | Programar la función que calcula el ROI dinámicamente.                 | 7               | Jose                   | In Process      |
-| Sprint 2     | US-27 – Demo request and contact         | UT-14              | Integrar formulario con backend    | Conectar formulario de contacto con API simulada de registro de leads. | 5               | Aldair                 | To Review       |
-| Sprint 2     | US-24 – Segmented landing page           | UT-15              | Implementar sistema multilenguaje  | Agregar soporte para inglés/español y detección automática.            | 6               | Italo                  | In Process      |
-| Sprint 2     | US-24 – Segmented landing page           | UT-16              | Pruebas de responsividad           | Realizar pruebas en diferentes navegadores y dispositivos.             | 5               | Natalia                | Done            |
-| Sprint 2     | US-26 – Success stories and testimonials | UT-17              | Agregar métricas en testimonios    | Mostrar porcentajes de mejora o impacto en casos de éxito.             | 4               | Jose                   | To Do           |
-| Sprint 2     | US-28 – Corporate information            | UT-18              | Sección de equipo y liderazgo      | Agregar datos e imágenes de los integrantes principales.               | 4               | Aldair                 | To Review       |
-| Sprint 2     | US-24 – Segmented landing page           | UT-19              | Desplegar nueva versión pública    | Publicar versión optimizada y completamente funcional del sitio.       | 3               | Italo                  | Done            |
+| Sprint # | User Story                               | Work-Item/Task | Id                                 | Title                                                                  | Description | Estimation (Hours) | Assigned To | Status |
+|----------|------------------------------------------|----------------|------------------------------------|------------------------------------------------------------------------|-------------|--------------------|-------------|--------|
+| Sprint 2 | US-24 – Segmented landing page           | UT-10          | Optimizar diseño visual            | Mejorar la coherencia de colores, tipografía y elementos gráficos.     | 5           | Natalia            | Done        |
+| Sprint 2 | US-24 – Segmented landing page           | UT-11          | Optimizar SEO y rendimiento        | Implementar buenas prácticas de SEO y reducir tiempos de carga.        | 6           | Italo              | In Process  |
+| Sprint 2 | US-25 – ROI simulator for hotels         | UT-12          | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos.       | 6           | Alexander          | To Do       |
+| Sprint 2 | US-25 – ROI simulator for hotels         | UT-13          | Implementar lógica de cálculo      | Programar la función que calcula el ROI dinámicamente.                 | 7           | Jose               | In Process  |
+| Sprint 2 | US-27 – Demo request and contact         | UT-14          | Integrar formulario con backend    | Conectar formulario de contacto con API simulada de registro de leads. | 5           | Aldair             | To Review   |
+| Sprint 2 | US-24 – Segmented landing page           | UT-15          | Implementar sistema multilenguaje  | Agregar soporte para inglés/español y detección automática.            | 6           | Italo              | In Process  |
+| Sprint 2 | US-24 – Segmented landing page           | UT-16          | Pruebas de responsividad           | Realizar pruebas en diferentes navegadores y dispositivos.             | 5           | Natalia            | Done        |
+| Sprint 2 | US-26 – Success stories and testimonials | UT-17          | Agregar métricas en testimonios    | Mostrar porcentajes de mejora o impacto en casos de éxito.             | 4           | Jose               | To Do       |
+| Sprint 2 | US-28 – Corporate information            | UT-18          | Sección de equipo y liderazgo      | Agregar datos e imágenes de los integrantes principales.               | 4           | Aldair             | To Review   |
+| Sprint 2 | US-24 – Segmented landing page           | UT-19          | Desplegar nueva versión pública    | Publicar versión optimizada y completamente funcional del sitio.       | 4           | Italo              | Done        |
 
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review
@@ -4382,29 +4382,29 @@ Durante este segundo Sprint se avanzó en la **implementación de la aplicación
 
 #### Repositorio Frontend Web Application
 
-| Repository                                      | Branch                | Commit Id | Commit Message                              | Commit Message Body                                                        | Committed on (Date) |
-|-------------------------------------------------|-----------------------|-----------|---------------------------------------------|---------------------------------------------------------------------------|---------------------|
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard     | `a1b2c3d` | `feat: add admin dashboard component`       | Implementación del dashboard administrativo con métricas de habitaciones  | 02/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard     | `b2c3d4e` | `feat: integrate charts in dashboard`       | Integración de gráficos con PrimeVue Charts                               | 03/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list     | `c3d4e5f` | `feat: add room listing view`               | Vista de listado de habitaciones con filtros                              | 04/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list     | `d4e5f6g` | `feat: implement room availability status`  | Estados de disponibilidad: disponible, ocupada, mantenimiento             | 05/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `e5f6g7h` | `feat: integrate Beeceptor Fake API`       | Configuración de Beeceptor como Fake RESTful API para desarrollo          | 06/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `f6g7h8i` | `feat: add API service layer`              | Capa de servicios para llamadas a la API                                   | 07/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/guest-view    | `g7h8i9j` | `feat: add guest room view`                 | Vista de habitaciones desde perspectiva del huésped                       | 08/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/responsive    | `h8i9j0k` | `fix: improve responsive design`            | Mejoras en diseño responsivo para tablets y móviles                        | 09/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop               | `i9j0k1l` | `merge: feature/dashboard into develop`     | Integración del dashboard a la rama de desarrollo                         | 10/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop               | `j0k1l2m` | `merge: feature/room-list into develop`     | Integración del listado de habitaciones                                   | 11/10/2025          |
-| Edgerunners-Aplicaciones-Web/frontend-smartstay | main                  | `k1l2m3n` | `release: deploy v1.0.0 to production`      | Primera versión desplegada en Firebase                                    | 12/10/2025          |
+| Repository                                      | Branch                  | Commit Id | Commit Message                             | Commit Message Body                                                      | Committed on (Date) |
+|-------------------------------------------------|-------------------------|-----------|--------------------------------------------|--------------------------------------------------------------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard       | `a1b2c3d` | `feat: add admin dashboard component`      | Implementación del dashboard administrativo con métricas de habitaciones | 02/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/dashboard       | `b2c3d4e` | `feat: integrate charts in dashboard`      | Integración de gráficos con PrimeVue Charts                              | 03/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list       | `c3d4e5f` | `feat: add room listing view`              | Vista de listado de habitaciones con filtros                             | 04/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/room-list       | `d4e5f6g` | `feat: implement room availability status` | Estados de disponibilidad: disponible, ocupada, mantenimiento            | 05/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `e5f6g7h` | `feat: integrate Beeceptor Fake API`       | Configuración de Beeceptor como Fake RESTful API para desarrollo         | 06/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/api-integration | `f6g7h8i` | `feat: add API service layer`              | Capa de servicios para llamadas a la API                                 | 07/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/guest-view      | `g7h8i9j` | `feat: add guest room view`                | Vista de habitaciones desde perspectiva del huésped                      | 08/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/responsive      | `h8i9j0k` | `fix: improve responsive design`           | Mejoras en diseño responsivo para tablets y móviles                      | 09/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop                 | `i9j0k1l` | `merge: feature/dashboard into develop`    | Integración del dashboard a la rama de desarrollo                        | 10/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | develop                 | `j0k1l2m` | `merge: feature/room-list into develop`    | Integración del listado de habitaciones                                  | 11/10/2025          |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main                    | `k1l2m3n` | `release: deploy v1.0.0 to production`     | Primera versión desplegada en Firebase                                   | 12/10/2025          |
 
 #### Repositorio Landing Page (Mejoras Sprint 2)
 
-| Repository                                   | Branch                   | Commit Id | Commit Message                           | Commit Message Body                                          | Committed on (Date) |
-|----------------------------------------------|--------------------------|-----------|------------------------------------------|-------------------------------------------------------------|---------------------|
-| Edgerunners-Aplicaciones-Web/landing-page    | feature/multilanguage    | `l2m3n4o` | `feat: implement language switcher`      | Selector de idioma español/inglés funcional                 | 02/10/2025          |
-| Edgerunners-Aplicaciones-Web/landing-page    | feature/seo-optimization | `m3n4o5p` | `feat: add meta tags and SEO optimization`| Optimización SEO con meta tags y structured data           | 03/10/2025          |
-| Edgerunners-Aplicaciones-Web/landing-page    | feature/testimonials     | `n4o5p6q` | `feat: enhance testimonials section`     | Mejora de sección de testimonios con métricas              | 04/10/2025          |
-| Edgerunners-Aplicaciones-Web/landing-page    | develop                  | `o5p6q7r` | `merge: feature/multilanguage into develop` | Integración del cambio de idioma                          | 05/10/2025          |
-| Edgerunners-Aplicaciones-Web/landing-page    | main                     | `p6q7r8s` | `deploy: update landing page v2.0`       | Despliegue de versión mejorada en GitHub Pages             | 06/10/2025          |
+| Repository                                | Branch                   | Commit Id | Commit Message                              | Commit Message Body                              | Committed on (Date) |
+|-------------------------------------------|--------------------------|-----------|---------------------------------------------|--------------------------------------------------|---------------------|
+| Edgerunners-Aplicaciones-Web/landing-page | feature/multilanguage    | `l2m3n4o` | `feat: implement language switcher`         | Selector de idioma español/inglés funcional      | 02/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page | feature/seo-optimization | `m3n4o5p` | `feat: add meta tags and SEO optimization`  | Optimización SEO con meta tags y structured data | 03/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page | feature/testimonials     | `n4o5p6q` | `feat: enhance testimonials section`        | Mejora de sección de testimonios con métricas    | 04/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page | develop                  | `o5p6q7r` | `merge: feature/multilanguage into develop` | Integración del cambio de idioma                 | 05/10/2025          |
+| Edgerunners-Aplicaciones-Web/landing-page | main                     | `p6q7r8s` | `deploy: update landing page v2.0`          | Despliegue de versión mejorada en GitHub Pages   | 06/10/2025          |
 
 ### Integración con Fake RESTful API (Beeceptor)
 
@@ -4502,17 +4502,17 @@ Durante este Sprint se implementó la integración con un **Fake RESTful API** u
 
 #### Endpoints documentados:
 
-| **Endpoint**             | **Método** | **Descripción**                                    | **Parámetros**                                | **Respuesta Ejemplo**                                                                                                              |
-|--------------------------|------------|---------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| `/api/rooms`             | GET        | Obtiene el listado completo de habitaciones       | Ninguno                                       | `[{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00}]`                                            |
-| `/api/rooms/{id}`        | GET        | Obtiene los detalles de una habitación específica | `id` (path parameter)                         | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00, "capacity": 2}`                               |
-| `/api/rooms`             | POST       | Crea una nueva habitación (solo administrador)    | Body: `{number, type, price, capacity}`       | `{"id": 3, "number": "103", "type": "Deluxe", "status": "available", "price": 200.00, "capacity": 3}`                              |
-| `/api/rooms/{id}`        | PUT        | Actualiza una habitación existente                | `id` (path), Body: `{number, type, price}`    | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 160.00}`                                              |
-| `/api/rooms/{id}`        | DELETE     | Elimina una habitación                            | `id` (path parameter)                         | `{"message": "Room deleted successfully"}`                                                                                          |
-| `/api/rooms/{id}/status` | PATCH      | Actualiza el estado de una habitación             | `id` (path), Body: `{status}`                 | `{"id": 1, "status": "occupied"}`                                                                                                  |
-| `/api/bookings`          | GET        | Obtiene el listado de reservas                    | Query: `?status=pending`                      | `[{"id": 1, "roomId": 1, "guestName": "John Doe", "checkIn": "2025-10-15", "checkOut": "2025-10-20", "status": "confirmed"}]`    |
-| `/api/bookings`          | POST       | Crea una nueva reserva                            | Body: `{roomId, guestName, checkIn, checkOut}`| `{"id": 2, "roomId": 2, "guestName": "Jane Smith", "checkIn": "2025-10-18", "checkOut": "2025-10-22", "status": "pending"}`       |
-| `/api/dashboard/stats`   | GET        | Obtiene estadísticas del dashboard                | Ninguno                                       | `{"totalRooms": 50, "availableRooms": 23, "occupiedRooms": 20, "maintenanceRooms": 7, "occupancyRate": 40.0}`                     |
+| **Endpoint**             | **Método** | **Descripción**                                   | **Parámetros**                                 | **Respuesta Ejemplo**                                                                                                         |
+|--------------------------|------------|---------------------------------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| `/api/rooms`             | GET        | Obtiene el listado completo de habitaciones       | Ninguno                                        | `[{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00}]`                                       |
+| `/api/rooms/{id}`        | GET        | Obtiene los detalles de una habitación específica | `id` (path parameter)                          | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 150.00, "capacity": 2}`                          |
+| `/api/rooms`             | POST       | Crea una nueva habitación (solo administrador)    | Body: `{number, type, price, capacity}`        | `{"id": 3, "number": "103", "type": "Deluxe", "status": "available", "price": 200.00, "capacity": 3}`                         |
+| `/api/rooms/{id}`        | PUT        | Actualiza una habitación existente                | `id` (path), Body: `{number, type, price}`     | `{"id": 1, "number": "101", "type": "Suite", "status": "available", "price": 160.00}`                                         |
+| `/api/rooms/{id}`        | DELETE     | Elimina una habitación                            | `id` (path parameter)                          | `{"message": "Room deleted successfully"}`                                                                                    |
+| `/api/rooms/{id}/status` | PATCH      | Actualiza el estado de una habitación             | `id` (path), Body: `{status}`                  | `{"id": 1, "status": "occupied"}`                                                                                             |
+| `/api/bookings`          | GET        | Obtiene el listado de reservas                    | Query: `?status=pending`                       | `[{"id": 1, "roomId": 1, "guestName": "John Doe", "checkIn": "2025-10-15", "checkOut": "2025-10-20", "status": "confirmed"}]` |
+| `/api/bookings`          | POST       | Crea una nueva reserva                            | Body: `{roomId, guestName, checkIn, checkOut}` | `{"id": 2, "roomId": 2, "guestName": "Jane Smith", "checkIn": "2025-10-18", "checkOut": "2025-10-22", "status": "pending"}`   |
+| `/api/dashboard/stats`   | GET        | Obtiene estadísticas del dashboard                | Ninguno                                        | `{"totalRooms": 50, "availableRooms": 23, "occupiedRooms": 20, "maintenanceRooms": 7, "occupancyRate": 40.0}`                 |
 
 ### Evidencia de integración
 
@@ -4775,13 +4775,13 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa en la implementac
 
 El trabajo se distribuyó de la siguiente manera entre los miembros del equipo:
 
-| Miembro del equipo          | Responsabilidades principales                                                                      | Ramas trabajadas                                      |
-|-----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| Italo Sebastian Verona      | Configuración inicial del proyecto Vue.js, estructura de componentes, integración de PrimeVue    | `feature/project-setup`, `feature/components`        |
-| Natalia Ximena Valverde     | Diseño de interfaces, implementación de vistas responsivas, selector de idioma                    | `feature/ui-design`, `feature/multilanguage`         |
-| Alexander Piero Fernandez   | Dashboard administrativo, gráficos y métricas, configuración de Firebase                          | `feature/dashboard`, `feature/firebase-config`       |
-| Jose Jhonatan Saavedra      | Gestión de habitaciones (CRUD), integración con Fake API, servicios de datos                      | `feature/room-management`, `feature/api-integration` |
-| Aldair Joaquin Ramos        | Vista de huéspedes, optimización de rendimiento, pruebas de responsividad                         | `feature/guest-view`, `feature/responsive-fixes`     |
+| Miembro del equipo        | Responsabilidades principales                                                                 | Ramas trabajadas                                     |
+|---------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Italo Sebastian Verona    | Configuración inicial del proyecto Vue.js, estructura de componentes, integración de PrimeVue | `feature/project-setup`, `feature/components`        |
+| Natalia Ximena Valverde   | Diseño de interfaces, implementación de vistas responsivas, selector de idioma                | `feature/ui-design`, `feature/multilanguage`         |
+| Alexander Piero Fernandez | Dashboard administrativo, gráficos y métricas, configuración de Firebase                      | `feature/dashboard`, `feature/firebase-config`       |
+| Jose Jhonatan Saavedra    | Gestión de habitaciones (CRUD), integración con Fake API, servicios de datos                  | `feature/room-management`, `feature/api-integration` |
+| Aldair Joaquin Ramos      | Vista de huéspedes, optimización de rendimiento, pruebas de responsividad                     | `feature/guest-view`, `feature/responsive-fixes`     |
 
 ### Análisis de commits y contribuciones
 
@@ -4969,13 +4969,13 @@ El equipo de Smart Stay ha demostrado un compromiso constante con la mejora cont
 
 **Comparativa de métricas:**
 
-| Métrica | Sprint 1 | Sprint 2 | Mejora |
-|---------|----------|----------|--------|
-| Tiempo de carga | 3.2s | 1.8s | 44% más rápido |
-| Lighthouse Performance | 72 | 91 | +19 puntos |
-| Lighthouse SEO | 68 | 95 | +27 puntos |
-| Responsive breakpoints | 2 | 5 | +150% |
-| Idiomas soportados | 1 (español) | 2 (esp/eng) | 100% incremento |
+| Métrica                | Sprint 1    | Sprint 2    | Mejora          |
+|------------------------|-------------|-------------|-----------------|
+| Tiempo de carga        | 3.2s        | 1.8s        | 44% más rápido  |
+| Lighthouse Performance | 72          | 91          | +19 puntos      |
+| Lighthouse SEO         | 68          | 95          | +27 puntos      |
+| Responsive breakpoints | 2           | 5           | +150%           |
+| Idiomas soportados     | 1 (español) | 2 (esp/eng) | 100% incremento |
 
 #### Mejoras en el Frontend Web Application
 
@@ -5003,56 +5003,56 @@ El equipo de Smart Stay ha demostrado un compromiso constante con la mejora cont
 
 **Comparativa de procesos Sprint 1 vs Sprint 2:**
 
-| Proceso | Sprint 1 | Sprint 2 | Mejora aplicada |
-|---------|----------|----------|-----------------|
-| **Commits diarios** | 3-4 | 8-10 | Mayor frecuencia de integración |
-| **Tiempo de PR review** | 12-24 horas | 4-6 horas | Revisiones más ágiles |
-| **Cobertura de revisión** | 1 revisor | 2 revisores mínimo | Mayor calidad de código |
-| **Uso de Trello** | Básico | Completo con estimaciones | Mejor seguimiento |
-| **Reuniones de sincronización** | Semanales | Diarias (15 min) | Mejor comunicación |
-| **Documentación técnica** | Mínima | Completa con ejemplos | Facilita onboarding |
+| Proceso                         | Sprint 1    | Sprint 2                  | Mejora aplicada                 |
+|---------------------------------|-------------|---------------------------|---------------------------------|
+| **Commits diarios**             | 3-4         | 8-10                      | Mayor frecuencia de integración |
+| **Tiempo de PR review**         | 12-24 horas | 4-6 horas                 | Revisiones más ágiles           |
+| **Cobertura de revisión**       | 1 revisor   | 2 revisores mínimo        | Mayor calidad de código         |
+| **Uso de Trello**               | Básico      | Completo con estimaciones | Mejor seguimiento               |
+| **Reuniones de sincronización** | Semanales   | Diarias (15 min)          | Mejor comunicación              |
+| **Documentación técnica**       | Mínima      | Completa con ejemplos     | Facilita onboarding             |
 
 ### 5.3.2. Aplicación de feedback y observaciones
 
 **Feedback recibido tras Sprint 1:**
 
 1. **"Falta especificación completa de GitFlow"**
-   - ✅ Acción tomada: Agregado diagrama de flujo, proceso detallado y evidencia de aplicación
-   - 📍 Ubicación: Sección 5.1.2 Source Code Management
-   - 📅 Implementado: Sprint 2
+   -  Acción tomada: Agregado diagrama de flujo, proceso detallado y evidencia de aplicación
+   -  Ubicación: Sección 5.1.2 Source Code Management
+   -  Implementado: Sprint 2
 
 2. **"No se evidencia integración con Fake API"**
-   - ✅ Acción tomada: Configuración de Beeceptor, documentación completa de endpoints
-   - 📍 Ubicación: Sección 5.2.2.4 y 5.2.2.6
-   - 📅 Implementado: Sprint 2
+   -  Acción tomada: Configuración de Beeceptor, documentación completa de endpoints
+   -  Ubicación: Sección 5.2.2.4 y 5.2.2.6
+   -  Implementado: Sprint 2
 
 3. **"URLs de repositorios incompletas"**
-   - ✅ Acción tomada: Agregadas todas las URLs de repositorios y despliegues
-   - 📍 Ubicación: Project Report Collaboration Insights, Sección 5.1.2
-   - 📅 Implementado: Sprint 2
+   -  Acción tomada: Agregadas todas las URLs de repositorios y despliegues
+   -  Ubicación: Project Report Collaboration Insights, Sección 5.1.2
+   -  Implementado: Sprint 2
 
 4. **"Evidencia de colaboración insuficiente"**
-   - ✅ Acción tomada: Sección completa con métricas, gráficos, análisis de PRs
-   - 📍 Ubicación: Sección 5.2.2.8
-   - 📅 Implementado: Sprint 2
+   -  Acción tomada: Sección completa con métricas, gráficos, análisis de PRs
+   -  Ubicación: Sección 5.2.2.8
+   -  Implementado: Sprint 2
 
 5. **"Engineering Tasks sin estimaciones en horas"**
-   - ✅ Acción tomada: Todas las tasks estimadas en rango 3-7 horas
-   - 📍 Ubicación: Sprint Backlog 1 y 2
-   - 📅 Implementado: Sprint 1 y 2
+   -  Acción tomada: Todas las tasks estimadas en rango 3-7 horas
+   -  Ubicación: Sprint Backlog 1 y 2
+   -  Implementado: Sprint 1 y 2
 
 ### 5.3.3. Evolución de la calidad del código
 
 **Métricas de calidad implementadas:**
 
-| Indicador | Sprint 1 | Sprint 2 | Objetivo Sprint 3 |
-|-----------|----------|----------|-------------------|
-| ESLint warnings | 45 | 8 | 0 |
-| Console.log en producción | 12 | 0 | 0 |
-| Componentes sin PropTypes | 18 | 3 | 0 |
-| Funciones > 50 líneas | 8 | 2 | 0 |
-| Comentarios en código | 15% | 35% | 50% |
-| Cobertura de tests | 0% | 25% | 60% |
+| Indicador                 | Sprint 1 | Sprint 2 | Objetivo Sprint 3 |
+|---------------------------|----------|----------|-------------------|
+| ESLint warnings           | 45       | 8        | 0                 |
+| Console.log en producción | 12       | 0        | 0                 |
+| Componentes sin PropTypes | 18       | 3        | 0                 |
+| Funciones > 50 líneas     | 8        | 2        | 0                 |
+| Comentarios en código     | 15%      | 35%      | 50%               |
+| Cobertura de tests        | 0%       | 25%      | 60%               |
 
 **Herramientas de calidad agregadas:**
 
@@ -5250,12 +5250,18 @@ La combinación de tecnologías modernas (Vue.js, ASP.NET Core, IoT), metodolog�
 
 # Bibliografía y Referencias
 
-Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience (Cap. 3). O’Reilly Media.
+Cagan, M. (2011). Seriously, What’s Your (Startup’s) Problem?. https://svpg.com
 
-Cohn, M. (s.f.). User Stories Articles. Mountain Goat Software Blog. Recuperado de https://www.mountaingoatsoftware.com/blog
+Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
 
-Fowler, M. (s.f.). Domain-Driven Architecture Diagrams. Recuperado de https://martinfowler.com
+Cohn, M. (2005). Agile Estimating and Planning. Prentice Hall.
+
+Cohn, M. (n.d.). User Stories Articles. Mountain Goat Software Blog. https://www.mountaingoatsoftware.com/blog
 
 Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
 
-Cagan, M. (2011). Seriously, What’s Your (Startup’s) Problem?.https://svpg.com
+Fowler, M. (n.d.). Domain-Driven Architecture Diagrams. https://martinfowler.com
+
+Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience. In J. Gothelf & J. Seiden (Eds.), Lean UX (pp. 35–55). O’Reilly Media.
+
+Ries, E. (2011). The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Business.
