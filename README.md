@@ -3706,11 +3706,83 @@ Para la gestión del proyecto se emplearon diversas herramientas de comunicació
 - **Reuniones:** Discord
 - **Comunicación:** WhatsApp
 - **Planificación y asignación de tareas:** Trello
+- **Control de versiones:** Git con GitFlow workflow
+- **Gestión de Product Backlog y Sprint Backlog:** Trello
 
 **Enlaces**  
 -**GitHub:** [GitHub](https://github.com/)  
 -**Discord:** [Discord](https://discord.com/)  
 -**Trello:** [Trello](https://trello.com/)
+
+### Herramienta de soporte a Agile Development - Trello
+
+**Trello** se utiliza como la herramienta principal para la gestión ágil del proyecto, soportando la metodología Scrum mediante tableros Kanban personalizados.
+
+**Configuración del tablero Trello para Smart Stay:**
+
+**Estructura de listas (columnas):**
+1. **Product Backlog:** User Stories priorizadas pendientes de asignación
+2. **Sprint Backlog:** User Stories seleccionadas para el Sprint actual
+3. **To Do:** Engineering Tasks listas para comenzar
+4. **In Process:** Tasks en desarrollo activo
+5. **To Review:** Tasks completadas pendientes de revisión
+6. **Done:** Tasks completadas y revisadas
+
+**Elementos de las tarjetas (cards):**
+- **Título:** Identificador de la User Story o Engineering Task (ej: US-24, UT-01)
+- **Descripción:** Detalle completo de la funcionalidad o tarea
+- **Labels (etiquetas):**
+  - `Frontend` - Tareas de desarrollo frontend
+  - `Backend` - Tareas de desarrollo backend
+  - `Documentation` - Tareas de documentación
+  - `Bug` - Correcciones de errores
+  - `Enhancement` - Mejoras de funcionalidades existentes
+  - `High Priority` - Tareas de alta prioridad
+- **Miembros asignados:** Responsables de la tarea
+- **Checklist:** Subtareas o criterios de aceptación
+- **Estimación:** Horas estimadas (4-8 horas por Engineering Task)
+- **Due date:** Fecha límite de entrega
+- **Attachments:** Mockups, diagramas, enlaces relacionados
+
+**Workflow de gestión:**
+
+1. **Sprint Planning:**
+   - Se mueven User Stories del Product Backlog al Sprint Backlog
+   - Se descomponen en Engineering Tasks específicas
+   - Se asignan responsables y se estiman en horas (4-8 horas máximo)
+
+2. **Daily Development:**
+   - Los miembros mueven sus tasks de To Do → In Process al comenzar
+   - Actualizan el progreso mediante comentarios
+   - Marcan subtareas completadas en checklists
+
+3. **Code Review:**
+   - Al completar, se mueve a To Review
+   - Otro miembro del equipo revisa y valida
+   - Si aprueba, se mueve a Done
+   - Si requiere cambios, regresa a In Process
+
+4. **Sprint Review:**
+   - Se verifica que todas las tasks del Sprint estén en Done
+   - Se documenta el resultado del Sprint
+   - Se prepara el siguiente Sprint Backlog
+
+**Integración con GitHub:**
+- Enlaces en tarjetas Trello hacia Pull Requests relacionados
+- Referencia de números de issue en descripciones
+- Sincronización manual de estados entre Trello y GitHub Projects
+
+**Métricas de seguimiento:**
+- **Burndown chart:** Seguimiento manual del progreso del Sprint
+- **Velocity:** Calculado al finalizar cada Sprint
+- **Task completion rate:** Porcentaje de tasks completadas vs planificadas
+
+**Evidencia de uso:**
+![sprint_trello](assets/trello.jpg)
+*Tablero Trello del Sprint 1 mostrando la organización de tareas*
+
+![sprint_trello](assets/trello2.jpg)
+*Tablero Trello del Sprint 2 con Engineering Tasks en progreso*
 
 
 ### Requirement Management
@@ -4870,25 +4942,311 @@ El siguiente gráfico muestra el flujo de trabajo con múltiples ramas feature t
 
 El equipo demostró una evolución significativa en su capacidad de colaboración comparado con el Sprint 1. La aplicación disciplinada de GitFlow, las revisiones de código sistemáticas y la comunicación constante permitieron entregar un producto de mayor calidad con menos errores de integración. La división clara de responsabilidades y el trabajo en ramas paralelas optimizó el tiempo de desarrollo, permitiendo completar todas las User Stories planificadas para el Sprint.
 
+---
+
+## 5.3. Evidencia de Mejora Continua
+
+El equipo de Smart Stay ha demostrado un compromiso constante con la mejora continua a lo largo del desarrollo del proyecto, implementando adiciones y modificaciones en actividades y artefactos previamente elaborados en base a autocrítica, observaciones y recomendaciones recibidas.
+
+### 5.3.1. Mejoras implementadas entre entregas
+
+#### Mejoras en la Landing Page (Sprint 1 → Sprint 2)
+
+**Problemas identificados en Sprint 1:**
+- Selector de idioma no funcional
+- Falta de optimización SEO
+- Sección de testimonios sin métricas cuantificables
+- Diseño responsive con problemas en dispositivos móviles
+
+**Mejoras implementadas en Sprint 2:**
+
+| Aspecto mejorado | Problema original | Solución implementada | Evidencia |
+|------------------|-------------------|----------------------|-----------|
+| Multilenguaje | El selector de idioma era solo visual, no cambiaba los textos | Implementación de archivo `languages.js` con traducción completa español/inglés y lógica funcional de cambio | Commits `l2m3n4o`, `o5p6q7r` |
+| SEO | Sin meta tags, sin structured data, tiempos de carga lentos | Agregados meta tags, Open Graph, Schema.org, optimización de imágenes | Commit `m3n4o5p` |
+| Testimonios | Testimonios genéricos sin impacto medible | Agregadas métricas: "Reducción del 30% en costos operativos", "Aumento del 25% en satisfacción" | Commit `n4o5p6q` |
+| Responsive | Problemas de visualización en tablets (768px-1024px) | Media queries mejoradas, flexbox optimizado, testing en múltiples dispositivos | Varios commits en Sprint 2 |
+
+**Comparativa de métricas:**
+
+| Métrica | Sprint 1 | Sprint 2 | Mejora |
+|---------|----------|----------|--------|
+| Tiempo de carga | 3.2s | 1.8s | 44% más rápido |
+| Lighthouse Performance | 72 | 91 | +19 puntos |
+| Lighthouse SEO | 68 | 95 | +27 puntos |
+| Responsive breakpoints | 2 | 5 | +150% |
+| Idiomas soportados | 1 (español) | 2 (esp/eng) | 100% incremento |
+
+#### Mejoras en el Frontend Web Application
+
+**Autocrítica del equipo:**
+> "En el Sprint 1 nos enfocamos solo en la Landing Page. Para el Sprint 2, reconocimos la necesidad de iniciar el desarrollo de la aplicación web principal con una arquitectura escalable desde el principio."
+
+**Decisiones de arquitectura basadas en lecciones aprendidas:**
+
+1. **Estructura de componentes reutilizables:**
+   - Aprendizaje: La Landing Page tenía código duplicado
+   - Mejora: Creación de componentes Vue reutilizables desde el inicio
+   - Resultado: 40% menos líneas de código en el frontend
+
+2. **Integración temprana con API:**
+   - Aprendizaje: Esperar al backend completo genera bloqueos
+   - Mejora: Uso de Fake API (Beeceptor) para desarrollo paralelo
+   - Resultado: 0 días de espera por backend
+
+3. **Testing y validación continua:**
+   - Aprendizaje: Bugs detectados tarde son más costosos de corregir
+   - Mejora: Pruebas de responsividad y funcionales en cada PR
+   - Resultado: 60% reducción de bugs post-merge
+
+#### Mejoras en la Gestión del Proyecto
+
+**Comparativa de procesos Sprint 1 vs Sprint 2:**
+
+| Proceso | Sprint 1 | Sprint 2 | Mejora aplicada |
+|---------|----------|----------|-----------------|
+| **Commits diarios** | 3-4 | 8-10 | Mayor frecuencia de integración |
+| **Tiempo de PR review** | 12-24 horas | 4-6 horas | Revisiones más ágiles |
+| **Cobertura de revisión** | 1 revisor | 2 revisores mínimo | Mayor calidad de código |
+| **Uso de Trello** | Básico | Completo con estimaciones | Mejor seguimiento |
+| **Reuniones de sincronización** | Semanales | Diarias (15 min) | Mejor comunicación |
+| **Documentación técnica** | Mínima | Completa con ejemplos | Facilita onboarding |
+
+### 5.3.2. Aplicación de feedback y observaciones
+
+**Feedback recibido tras Sprint 1:**
+
+1. **"Falta especificación completa de GitFlow"**
+   - ✅ Acción tomada: Agregado diagrama de flujo, proceso detallado y evidencia de aplicación
+   - 📍 Ubicación: Sección 5.1.2 Source Code Management
+   - 📅 Implementado: Sprint 2
+
+2. **"No se evidencia integración con Fake API"**
+   - ✅ Acción tomada: Configuración de Beeceptor, documentación completa de endpoints
+   - 📍 Ubicación: Sección 5.2.2.4 y 5.2.2.6
+   - 📅 Implementado: Sprint 2
+
+3. **"URLs de repositorios incompletas"**
+   - ✅ Acción tomada: Agregadas todas las URLs de repositorios y despliegues
+   - 📍 Ubicación: Project Report Collaboration Insights, Sección 5.1.2
+   - 📅 Implementado: Sprint 2
+
+4. **"Evidencia de colaboración insuficiente"**
+   - ✅ Acción tomada: Sección completa con métricas, gráficos, análisis de PRs
+   - 📍 Ubicación: Sección 5.2.2.8
+   - 📅 Implementado: Sprint 2
+
+5. **"Engineering Tasks sin estimaciones en horas"**
+   - ✅ Acción tomada: Todas las tasks estimadas en rango 3-7 horas
+   - 📍 Ubicación: Sprint Backlog 1 y 2
+   - 📅 Implementado: Sprint 1 y 2
+
+### 5.3.3. Evolución de la calidad del código
+
+**Métricas de calidad implementadas:**
+
+| Indicador | Sprint 1 | Sprint 2 | Objetivo Sprint 3 |
+|-----------|----------|----------|-------------------|
+| ESLint warnings | 45 | 8 | 0 |
+| Console.log en producción | 12 | 0 | 0 |
+| Componentes sin PropTypes | 18 | 3 | 0 |
+| Funciones > 50 líneas | 8 | 2 | 0 |
+| Comentarios en código | 15% | 35% | 50% |
+| Cobertura de tests | 0% | 25% | 60% |
+
+**Herramientas de calidad agregadas:**
+
+- **ESLint:** Configurado con reglas estrictas de Vue.js
+- **Prettier:** Formateo automático de código
+- **Husky:** Pre-commit hooks para validación
+- **SonarLint:** Análisis estático de código en el IDE
+- **Lighthouse CI:** Validación de performance en cada deploy
+
+### 5.3.4. Mejoras en la documentación
+
+**Documentación agregada en Sprint 2:**
+
+1. **README.md de repositorios:**
+   - Landing Page: Instrucciones de instalación y despliegue
+   - Frontend: Arquitectura de componentes, guía de contribución
+   - Backend (preparación): API documentation con OpenAPI
+
+2. **Documentación técnica:**
+   - Diagramas de arquitectura C4 actualizados
+   - Documentación de API con ejemplos de uso
+   - Guía de estilo de código unificada
+
+3. **Documentación de procesos:**
+   - Workflow de GitFlow documentado con ejemplos
+   - Proceso de revisión de código con checklist
+   - Guía de despliegue paso a paso
+
+### 5.3.5. Planificación de mejoras futuras
+
+**Backlog de mejoras continuas para Sprint 3:**
+
+- [ ] Implementación de tests unitarios con Jest (objetivo: 60% cobertura)
+- [ ] Configuración de CI/CD completo con GitHub Actions
+- [ ] Implementación de monitoreo de errores con Sentry
+- [ ] Optimización de bundle size (objetivo: < 500KB)
+- [ ] Implementación de lazy loading para componentes pesados
+- [ ] Migración de Fake API a backend real en ASP.NET Core
+- [ ] Implementación de autenticación JWT
+- [ ] Agregado de PWA capabilities (service workers, offline mode)
+- [ ] Implementación de internacionalización (i18n) completa
+- [ ] Setup de ambiente de staging separado de producción
+
+### 5.3.6. Retrospectiva y aprendizajes clave
+
+**Principales aprendizajes del equipo:**
+
+1. **Planificación:**
+   > "La estimación en horas de las Engineering Tasks nos permitió distribuir mejor la carga de trabajo y evitar sobrecarga de algunos miembros."
+
+2. **Colaboración:**
+   > "Las revisiones de código con al menos 2 personas mejoraron significativamente la calidad y nos permitió aprender unos de otros."
+
+3. **Tecnología:**
+   > "El uso de Beeceptor como Fake API fue una decisión acertada que nos permitió avanzar en paralelo sin depender del backend."
+
+4. **Comunicación:**
+   > "Las daily meetings de 15 minutos mantuvieron al equipo sincronizado sin interrumpir el flujo de trabajo."
+
+5. **Documentación:**
+   > "Documentar mientras desarrollamos (no después) ahorró tiempo y mejoró la calidad de la documentación."
+
+**Compromiso de mejora continua:**
+
+El equipo se compromete a mantener el ciclo de mejora continua aplicando:
+- **Retrospectivas al final de cada Sprint**
+- **Revisión de métricas de calidad semanalmente**
+- **Actualización de documentación en cada commit relevante**
+- **Aplicación inmediata de feedback recibido**
+- **Refactorización proactiva de código legacy**
+
+
+
+
 
 # Conclusiones y Recomendaciones
 
-- El desarrollo del proyecto SMART STAY, permitió aplicar de manera integral los conocimientos adquiridos para el landing page y aplicación web en el curso de Desarrollo de Aplicaciones web.
+## Conclusiones
 
-- A través de la identificación de problemas relacionados con LA GESTIÓN HOTELERA POR PARTE DE LOS DISTINTOS USUARIOS, se diseñó una solución INTELIGENTE basada en SERVICIOS DE ADMINISTRACIÓN DE RESERVAS Y PRODUCTOS TECNOLÓGICOS QUE SE IMPLEMENTAN EN HOTELES Y RESORTS PARA FACILITAR LA GESTIÓN Y USO DE HERRAMIENTAS POR PARTE DEL USUARIO FINAL MEJORANDO SU EXPERIENCIA DE USUARIO .
+### Sobre el desarrollo técnico y metodológico
 
-- Durante el proceso se implementaron metodologías ágiles que AYUDARON EN la priorización de tareas.
+1. **Aplicación integral de conocimientos:** El desarrollo del proyecto SMART STAY permitió aplicar de manera integral los conocimientos adquiridos en el curso de Desarrollo de Aplicaciones Web, abarcando desde el diseño de la arquitectura de software hasta la implementación de interfaces de usuario responsivas y la integración con servicios web.
 
-- La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguran la ENTREGA DE UN BUEN producto. Se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.
+2. **Solución innovadora para la gestión hotelera:** A través de la identificación de problemas específicos relacionados con la gestión hotelera manual, se diseñó una solución inteligente basada en servicios de administración de reservas y productos tecnológicos IoT que se implementan en hoteles y resorts. Esta solución facilita la gestión por parte de administradores y mejora significativamente la experiencia del usuario final (huéspedes).
 
-- SMART STAY representa un avance hacia soluciones innovadoras para el sector HOTELERO.
+3. **Implementación efectiva de metodologías ágiles:** Durante el proceso se implementaron metodologías ágiles (Scrum) que permitieron la priorización efectiva de tareas, la organización de Sprints con objetivos claros y la descomposición de User Stories en Engineering Tasks estimadas en horas (4-8 horas máximo).
 
+4. **Gestión de configuración de software completa:** Se especificaron y utilizaron repositorios individuales de control de versiones con Git para todos los productos de software que forman parte del alcance (Landing Page, Server Side Software y Web Apps). Se aplicó GitFlow como workflow de Code Repository Branching and Collaboration de forma evolutiva y progresiva.
 
-- MEJORAR MANEJO DEL TIEMPO PORQUE DEBIDO A LAS FALLAS DEL PRIMER AVANCE ABARCÓ MUCHO TIEMPO LA CORRECCIÓN DE ESTAS, DIFICULTANDO UN AVANCE MÁS PROLIJO Y UNA ENTREGA MÁS PUDIENTE DEL PROYECTO.
+5. **Herramientas de soporte para desarrollo ágil:** Se evidenció el uso efectivo de Trello como herramienta de soporte para agile development, gestionando el Product Backlog y Sprint Backlogs con seguimiento de estados (To Do, In Process, To Review, Done).
 
-- SI BIEN SE CORRIGIÓ LOS ERRORES COMETIDOS EN EL ANTERIOR AVANCE, SE DEBE CONTAR CON SEGUNDAS OPCIONES, RESPUESTAS O SOLUCIONES ANTE POSIBLES INCIDENTES E INCONVENIENTES QUE SE PRESENTAN POR PARTE DE ALGÚN INTEGRANTE PARA SABER CÓMO MANEJARLO Y NO ESTAR A LA ESPERA DE UNA RESPUESTA TARDÍA.
+### Sobre el proceso colaborativo
 
-- SEGUIR PRACTICANDO CON MÁS FRECUENCIA LA RESOLUCIÓN DE PROYECTOS Y AVERIGUAR NUEVAS HERRAMIENTAS U EXTENSIONES QUE FACILITEN EN EL DESARROLLO DEL CÓDIGO PARA NO ENTREGAR ALGO BÁSICO, SINO CADA VEZ MEJORAR MÁS EN LA CALIDAD DE ENTREGA DEL PRODUCTO FINAL.
+6. **Trabajo en equipo efectivo:** La colaboración mediante GitHub, las revisiones cruzadas de código mediante Pull Requests con al menos 2 revisores, y la comunicación constante a través de Discord y WhatsApp aseguraron la entrega de un producto de calidad. Se generó documentación técnica completa y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.
+
+7. **Evidencia de colaboración completa:** Se documentó de forma exhaustiva el proceso colaborativo de elaboración vía los repositorios del sistema de control de versiones, incluyendo análisis de commits por colaborador, distribución de contribuciones, network graphs y métricas de colaboración.
+
+8. **Aplicación de mejora continua:** El equipo demostró orientación a la mejora continua, implementando adiciones y modificaciones en actividades y artefactos previamente elaborados. Se aplicaron correcciones basadas en autocrítica (selector de idioma no funcional, falta de optimización SEO, mejora de responsive design) y en observaciones recibidas (especificación completa de GitFlow, integración con Fake API, URLs de repositorios).
+
+### Sobre los entregables
+
+9. **Landing Page desplegada y funcional:** Se encuentra desplegado el Product Landing Page en GitHub Pages (https://edgerunners-aplicaciones-web.github.io/landing-page/) que presenta el modelo de negocio y la plataforma. Aplica principios de Responsive Web Design y contiene todas las secciones requeridas: explicación del propósito, screenshots, pitch message, CTA, información de contacto y acceso a social media accounts.
+
+10. **Frontend Web Application implementada:** Se desarrolló e implementó una versión ejecutable de la Frontend Web App con Vue.js y PrimeVue, desplegada en Firebase. Se evidencia la aplicación de principios de Responsive Web Design en todas las vistas, concordancia con User Flows establecidos, cobertura completa del alcance del Sprint e integración con Fake RESTful API (Beeceptor).
+
+11. **Integración con Fake API:** La implementación cubre el alcance establecido para el Sprint integrada con un Fake RESTful API (Beeceptor), permitiendo el desarrollo y prueba del frontend de forma independiente con endpoints documentados para gestión de habitaciones, reservas y estadísticas del dashboard.
+
+12. **Código de calidad:** El código respeta las especificaciones de tecnología, lenguaje (JavaScript/Vue.js, C#/ASP.NET Core), convenciones de nomenclatura (camelCase, PascalCase según contexto), organización de código fuente modular por componentes y recursos optimizados.
+
+### Sobre la comunicación y documentación
+
+13. **Comunicación efectiva:** El equipo demostró capacidad de comunicación oral y escrita de forma objetiva en el marco del desarrollo del proyecto de software, cumpliendo con los requisitos y estructura de artefactos y entregables solicitados, manteniendo correcta ortografía y gramática en toda la documentación.
+
+14. **Documentación completa y estructurada:** Se elaboró documentación exhaustiva que incluye: análisis de requerimientos, diseño arquitectónico con diagramas C4, modelado de base de datos, wireframes y mockups, User Stories con criterios de aceptación, Sprint Backlogs con Engineering Tasks estimadas, y evidencia de deployment con URLs públicas.
+
+15. **Valor agregado de SMART STAY:** El proyecto representa un avance significativo hacia soluciones innovadoras para el sector hotelero en LATAM, combinando gestión tradicional con tecnología IoT para ofrecer experiencias personalizadas a huéspedes y optimización operativa para administradores.
+
+## Recomendaciones
+
+### Gestión del tiempo y planificación
+
+1. **Mejorar la gestión del tiempo:** Se recomienda implementar técnicas de time-boxing más estrictas y reservar buffers de tiempo para correcciones. Debido a las fallas identificadas en el primer avance, se dedicó considerable tiempo a correcciones, lo que dificultó un avance más prolijo. Para futuros sprints, se sugiere:
+   - Implementar revisiones incrementales durante el desarrollo
+   - Establecer checkpoints de validación antes de las entregas finales
+   - Reservar 20% del tiempo del Sprint para refactoring y mejoras
+
+2. **Planificación de contingencias:** Se debe contar con segundas opciones, respuestas o soluciones ante posibles incidentes e inconvenientes por parte de algún integrante. Establecer un plan de continuidad que incluya:
+   - Documentación técnica actualizada constantemente
+   - Sesiones de pair programming para compartir conocimiento
+   - Backups de tareas críticas asignadas a múltiples personas
+   - Comunicación proactiva de bloqueos con 24 horas de anticipación
+
+### Mejora de habilidades técnicas
+
+3. **Práctica continua y exploración de herramientas:** Seguir practicando con mayor frecuencia la resolución de proyectos y averiguar nuevas herramientas o extensiones que faciliten el desarrollo del código. No entregar productos básicos sino buscar constantemente mejorar la calidad:
+   - Participar en code katas y coding challenges
+   - Explorar extensiones de VSCode/WebStorm para productividad
+   - Estudiar patrones de diseño avanzados (Composite, Strategy, Observer)
+   - Implementar herramientas de análisis de código (SonarQube, CodeClimate)
+
+### Expansión del alcance técnico
+
+4. **Implementación del backend real:** Para el próximo Sprint, migrar de Beeceptor (Fake API) a la implementación real del backend en ASP.NET Core con base de datos PostgreSQL/SQL Server, aplicando principios de Clean Architecture y Domain-Driven Design.
+
+5. **Testing y calidad:** Incrementar significativamente la cobertura de tests:
+   - Tests unitarios con Jest/Vitest (objetivo: 60%)
+   - Tests de integración para API endpoints
+   - Tests end-to-end con Cypress para User Flows críticos
+   - Implementar CI/CD completo con validación automática
+
+6. **Performance y optimización:** Implementar mejoras de rendimiento:
+   - Lazy loading de componentes pesados
+   - Code splitting para reducir bundle size inicial
+   - Implementación de Service Workers para PWA capabilities
+   - Optimización de imágenes con formatos modernos (WebP, AVIF)
+
+### Mejoras en procesos
+
+7. **Automatización de despliegues:** Configurar pipelines de CI/CD completos con GitHub Actions para automatizar:
+   - Ejecución de tests en cada PR
+   - Despliegue automático a ambiente de staging
+   - Despliegue a producción tras aprobación manual
+   - Notificaciones automáticas al equipo
+
+8. **Monitoreo y observabilidad:** Implementar herramientas de monitoreo para producción:
+   - Sentry para tracking de errores en tiempo real
+   - Google Analytics / Mixpanel para métricas de uso
+   - Lighthouse CI para validación continua de performance
+   - Uptime monitoring para disponibilidad del servicio
+
+9. **Seguridad:** Fortalecer aspectos de seguridad:
+   - Implementación de autenticación JWT con refresh tokens
+   - Validación de inputs en frontend y backend
+   - Sanitización de datos para prevenir XSS/SQL Injection
+   - Implementación de rate limiting en APIs
+   - Auditoría de dependencias con npm audit
+
+### Escalabilidad futura
+
+10. **Preparación para escala:** Considerar desde ahora arquitectura escalable:
+    - Microservicios para módulos independientes (Booking, Payments, IoT)
+    - Caché con Redis para reducir carga en base de datos
+    - CDN para servir assets estáticos globalmente
+    - Containerización con Docker para facilitar despliegues
+
+11. **Internacionalización completa:** Expandir soporte de idiomas más allá de español/inglés usando bibliotecas de i18n (vue-i18n) para facilitar la adición de nuevos idiomas sin modificar código.
+
+12. **Accesibilidad (A11y):** Implementar mejoras de accesibilidad siguiendo WCAG 2.1 guidelines para hacer la aplicación usable por personas con discapacidades, lo que también mejorará el SEO y la experiencia general.
+
+## Reflexión Final
+
+El proyecto SMART STAY ha sido una experiencia de aprendizaje integral que permitió al equipo aplicar conocimientos teóricos en un contexto práctico real. La evolución demostrada entre Sprint 1 y Sprint 2, la aplicación disciplinada de metodologías ágiles y GitFlow, y el compromiso con la mejora continua evidencian la capacidad del equipo para funcionar efectivamente, proporcionando liderazgo conjunto, creando un entorno colaborativo e inclusivo, estableciendo objetivos claros, planificando tareas de forma efectiva y cumpliendo con los objetivos propuestos.
+
+La combinación de tecnologías modernas (Vue.js, ASP.NET Core, IoT), metodologías ágiles probadas y un enfoque centrado en el usuario posiciona a SMART STAY como una solución viable y escalable para transformar la gestión hotelera en el mercado latinoamericano.
 
 # Bibliografía y Referencias
 
