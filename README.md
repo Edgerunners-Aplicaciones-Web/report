@@ -1269,7 +1269,7 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
 
 **Happy Paths:**
-![happypathstaff.png](assets/happypathstaff.png)
+![happypathstaff.png](assets/Chapter-04/taskhapylogin.png)
 **Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
 
 **Unhappy Paths:**
