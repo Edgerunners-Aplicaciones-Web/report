@@ -2422,7 +2422,7 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ## 5.2.2 Sprint 2
 
----
+A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplicación web, trabajando con una estructura basada en Domain-Driven Design (DDD). Nos organizamos utilizando bounded contexts clave que permiten una mejor gestión y uso eficiente de las herramientas de diseño de productos.
 
 
 ## 5.2.2.1 Sprint Planning 2
@@ -2484,7 +2484,8 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
 
----
+FALTA
+
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
 landing Page 
@@ -2528,8 +2529,7 @@ En esta sección se puede ver el panel del administrador se puede ver un dashboa
 
 ![Front4](assets/fron4.jpeg)
 
-
-
+ARREGLAR
 
 ---
 ## 5.2.2.6. Execution Evidence for Sprint Review
@@ -2554,6 +2554,19 @@ Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece
 
 Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
 
+FALTA 
+---
+## 5.2.3. Sprint 3
+
+
+## 5.2.3.1. Spring Planning 3.
+## 5.2.3.2. Aspect Leaders and Collaborators.
+## 5.2.3.3. Sprint Backlog 3.
+## 5.2.3.4. Development Evidence for Sprint Review.
+## 5.2.3.5. Execution Evidence for Sprint Review.
+## 5.2.3.6. Services Documentation Evidence for Sprint Review.
+## 5.2.3.7. Software Deployment Evidence for Sprint Review.
+## 5.2.3.8. Team Collaboration Insights during Sprint.
 ## LandingPage 
 
 ## Frontend
