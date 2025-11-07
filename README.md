@@ -2428,7 +2428,7 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 ## 5.2.2.1 Sprint Planning 2
 
 
-| **Sprint #** | Sprint 1 |
+| **Sprint #** | Sprint 2 |
 |------------|-----------------|
 | **Sprint Planning Background** | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page. |
 | **Date** | 2025-10-01 |
@@ -2466,18 +2466,18 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ![sprint_trello](assets/trello2.jpg)
 
-| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **Sprint #** | **User Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
-| Sprint 2 | US-24 – Segmented landing page | UT-10 | Optimizar diseño visual | Mejorar la coherencia de colores, tipografía y elementos gráficos. | 5 | Natalia | Done |
-| Sprint 2 | US-24 – Segmented landing page | UT-11 | Optimizar SEO y rendimiento | Implementar buenas prácticas de SEO y reducir tiempos de carga. | 6 | Italo | In Process |
-| Sprint 2 | US-25 – ROI simulator for hotels | UT-12 | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos. | 6 | Alexander | To Do |
-| Sprint 2 | US-25 – ROI simulator for hotels | UT-13 | Implementar lógica de cálculo | Programar la función que calcula el ROI dinámicamente. | 7 | Jose | In Process |
-| Sprint 2 | US-27 – Demo request and contact | UT-14 | Integrar formulario con backend | Conectar formulario de contacto con API simulada de registro de leads. | 5 | Aldair | To Review |
-| Sprint 2 | US-24 – Segmented landing page | UT-15 | Implementar sistema multilenguaje | Agregar soporte para inglés/español y detección automática. | 6 | Italo | In Process |
-| Sprint 2 | US-24 – Segmented landing page | UT-16 | Pruebas de responsividad | Realizar pruebas en diferentes navegadores y dispositivos. | 5 | Natalia | Done |
-| Sprint 2 | US-26 – Success stories and testimonials | UT-17 | Agregar métricas en testimonios | Mostrar porcentajes de mejora o impacto en casos de éxito. | 4 | Jose | To Do |
-| Sprint 2 | US-28 – Corporate information | UT-18 | Sección de equipo y liderazgo | Agregar datos e imágenes de los integrantes principales. | 4 | Aldair | To Review |
-| Sprint 2 | US-24 – Segmented landing page | UT-19 | Desplegar nueva versión pública | Publicar versión optimizada y completamente funcional del sitio. | 3 | Italo | Done |
+| Sprint 2 | US-24 | Segmented landing page | UT-10 | Optimize visual design | Improve color coherence, typography, and graphic elements. | 5 | Natalia | Done |
+| Sprint 2 | US-24 | Segmented landing page | UT-11 | Optimize SEO and performance | Implement SEO best practices and reduce load times. | 6 | Italo | In Process |
+| Sprint 2 | US-25 | ROI simulator for hotels | UT-12 | Design ROI simulator interface | Create mockup and structure for interactive simulator fields. | 6 | Alexander | To Do |
+| Sprint 2 | US-25 | ROI simulator for hotels | UT-13 | Implement calculation logic | Program function to dynamically calculate ROI. | 7 | Jose | In Process |
+| Sprint 2 | US-27 | Demo request and contact | UT-14 | Integrate form with backend| Connect contact form with simulated lead registration API. | 5 | Aldair | To Review |
+| Sprint 2 | US-24 | Segmented landing page | UT-15 | Implement multilingual system | Add support for English/Spanish and automatic detection. | 6 | Italo | In Process |
+| Sprint 2 | US-24 | Segmented landing page | UT-16 | Responsiveness testing | Conduct tests across different browsers and devices. | 5 | Natalia | Done |
+| Sprint 2 | US-26 | Success stories and testimonials | UT-17 |Add metrics to testimonials | Show improvement percentages or impact in success stories. | 4 | Jose | To Do |
+| Sprint 2 | US-28 | Corporate information | UT-18 |Team and leadership section| Add data and images of key team members. | 4 | Aldair | To Review |
+| Sprint 2 | US-24 | Segmented landing page | UT-19 | Deploy new public version | Publish optimized and fully functional site version. | 3 | Italo | Done |
 
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review 
