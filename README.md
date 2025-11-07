@@ -2308,17 +2308,17 @@ Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, propor
 ### Sprint #1 – Sprint Backlog
 
 
-| **Sprint #** | **User Story** | **Work-Item/Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **Sprint #** | **User Story Id ** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
-| Sprint 1 | US-24 – Segmented landing page | UT-01 | Diseñar estructura visual | Crear la estructura general de la Landing Page con secciones diferenciadas para administradores y huéspedes. | 6 | Alexander | Done |
-| Sprint 1 | US-24 – Segmented landing page | UT-02 | Maquetar Landing Page | Implementar el diseño HTML y CSS del prototipo base. | 5 | Italo | In Process |
-| Sprint 1 | US-24 – Segmented landing page | UT-03 | Navegación y enlaces internos | Configurar navegación entre secciones con enlaces y smooth scroll. | 3 | Jose | Done |
-| Sprint 1 | US-26 – Success stories and testimonials | UT-04 | Crear sección de testimonios | Diseñar carrusel con testimonios de usuarios y animaciones simples. | 4 | Aldair | To Review |
-| Sprint 1 | US-27 – Demo request and contact | UT-05 | Formulario de contacto | Implementar formulario con validación y diseño responsive. | 4 | Natalia | Done |
-| Sprint 1 | US-28 – Corporate information | UT-06 | Redactar misión, visión y valores | Escribir texto institucional coherente con la marca Smart Stay. | 3 | Natalia | Done |
-| Sprint 1 | US-28 – Corporate information | UT-07 | Implementar sección “About Us” | Maquetar la sección con texto e imagen representativa. | 4 | Alexander | To Do |
-| Sprint 1 | US-24 – Segmented landing page | UT-08 | Añadir botones CTA (Login, Registro, Demo) | Colocar botones visibles con enlaces a las rutas de autenticación. | 3 | Jose | Done |
-| Sprint 1 | US-26 – Success stories and testimonials | UT-09 | Ajustar animaciones y transiciones | Aplicar efectos de entrada y desplazamiento fluido en los testimonios. | 4 | Aldair | In Process |
+| Sprint 1 | US-24 | Segmented landing page | UT-01 | Design visual structure | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6 | Alexander | Done |
+| Sprint 1 | US-24 | Segmented landing page | UT-02 | Layout Landing Page | Implement the HTML and CSS design of the base prototype. | 5 | Italo | In Process |
+| Sprint 1 | US-24 | Segmented landing page | UT-03 | Navigation and internal links | Configure navigation between sections with links and smooth scrolling.| 3 | Jose | Done |
+| Sprint 1 | US-26 | Success stories and testimonials | UT-04 | Create testimonials section | Design carousel with user testimonials and simple animations. | 4 | Aldair | To Review |
+| Sprint 1 | US-27 | Demo request and contact | UT-05 | Contact form | Implement form with validation and responsive design. | 4 | Natalia | Done |
+| Sprint 1 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
+| Sprint 1 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
+| Sprint 1 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
+| Sprint 1 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
 
 
 ## 5.2.1.4. Development Evidence for Sprint Review
