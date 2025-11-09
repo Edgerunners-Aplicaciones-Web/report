@@ -2275,15 +2275,15 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 | **Sprint n – 1 Review Summary** | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior. |
 | **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas. |
 | **Sprint Goal & User Stories** | — |
-| **Sprint n Goal** | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución. |
-| **Sprint n Velocity** | 2 |
+| **Sprint 1 Goal** | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución. |
+| **Sprint 1 Velocity** | 2 |
 | **Sum of Story Points** | 2 |
 
 
 
 ## 5.2.1.2. Deployment Evidence for Sprint Review
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Estructura base del proyecto (HTML/CSS)** | **Diseño visual y maquetación web (Landing Page)** | **Integración de componentes visuales** | **Revisión y control de versiones** |
 |------------------------------------------|----------------------|------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------|
 | **Verona Flores, Italo Sebastián** | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
 | **Valverde Portuguez, Natalia Ximena** | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
@@ -2436,11 +2436,11 @@ A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplic
 | **Location** | Modalidad remota mediante **Discord** |
 | **Prepared By** | Equipo **SmartStay** |
 | **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
-| **Sprint n – 1 Review Summary** | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint. |
-| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto. |
+| **Sprint 2 – 1 Review Summary** | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint. |
+| **Sprint 2 – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto. |
 | **Sprint Goal & User Stories** | — |
-| **Sprint n Goal** | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
-| **Sprint n Velocity** | 15 |
+| **Sprint 2 Goal** | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
+| **Sprint 2 Velocity** | 15 |
 | **Sum of Story Points** | 18 |
 
 
@@ -2448,10 +2448,10 @@ A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplic
 
 ## 5.2.2.2. Aspect Leaders and Collaborators
 
-Durante este primer Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
 Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
 |-----------------------------------------|---------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
 | **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
 | **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
@@ -2482,7 +2482,7 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review 
 
-En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+En este segundo Sprint hemos realizado la implementación de nuestra Single Page Application. En la siguiente tabla se muestran los commits realizados.
 
 FALTA
 
@@ -2558,9 +2558,41 @@ FALTA
 ---
 ## 5.2.3. Sprint 3
 
-
+En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creación del backend con sus respectivas tareas (Work Items). Aquí también trabajamos con los mismos bounded context y estructura planteada en el anterior sprint, pero con el fin de crear su respectivo API RESTful.
+---
 ## 5.2.3.1. Spring Planning 3.
+
+| **Sprint #** | Sprint 3|
+|------------|-----------------|
+| **Sprint Planning Background** | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Web Service (Backend). En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. |
+| **Date** | 2025-10-22 |
+| **Time** | 07:00 PM |
+| **Location** | Modalidad remota mediante **Discord** |
+| **Prepared By** | Equipo **SmartStay** |
+| **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
+| **Sprint 3 – 2 Review Summary** | En el Sprint 2, logramos culminar el desarrollo del frontend de SmartStay, incluyendo la implementación de la interfaz principal, la navegación y la optimización visual. El resultado fue  funcional, aunque se identificaron pequeñas incidencias con la estructura de los boundedcontext, el diseño de interfaz y el rendimiento que deberán ser ajustadas más adelante. |
+| **Sprint 3 – 2 Retrospective Summary** | Durante el Sprint 2, el equipo trabajó de forma colaborativa y cumplió con los objetivos propuestos. Sin embargo, se evidenció la necesidad de una mejor coordinación en la gestión de versiones y documentación del código. Se acordó reforzar el control de tiempo en las tareas dadas a los integrantes. |
+| **Sprint Goal & User Stories** | — |
+| **Sprint 3 Goal** | El objetivo de este Sprint es desarrollar el Web Service (Backend) de SmartStay, implementando los módulos base que gestionan usuarios, alojamientos, reservas, reseñas y pagos. Se configurará la conexión con la base de datos, los endpoints principales y la autenticación. El cumplimiento se confirmará cuando el backend esté funcional y permita la interacción con datos reales desde las APIs REST. |
+| **Sprint 3 Velocity** | 18 |
+| **Sum of Story Points** | 20 |
+
+---
+
 ## 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Web Service (Backend) de SmartStay, creando la estructura base de la API RESTful y los módulos correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
+Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y Colaboración (LACX), donde se definen los roles de Líder (L) y Colaborador (C) según los principales aspectos del Sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Implementación de la API RESTful (Endpoints principales)** | **Integración de módulos por bounded context** | **Configuración y conexión con la Base de Datos** | **Gestión de autenticación y seguridad** |
+|-----------------------------------------|---------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
+| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)| C | C | C | L |
+
+---
+
 ## 5.2.3.3. Sprint Backlog 3.
 ## 5.2.3.4. Development Evidence for Sprint Review.
 ## 5.2.3.5. Execution Evidence for Sprint Review.
