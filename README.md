@@ -2594,6 +2594,28 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 ---
 
 ## 5.2.3.3. Sprint Backlog 3.
+
+| **Sprint #** | **User Story Id ** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
+| Sprint 3 | US-01 | User registration with validation | UT-20 | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3 | Alexander | Done |
+| Sprint 3 | US-02 | Secure login | UT-21 | Login Implementation | Develop login endpoint using JWT for authentication and secure sessions. | 3 | Italo | In Process |
+| Sprint 3 | US-03 | Profile and role management | UT-22 | Profile API Creation | Build endpoints for viewing and updating user profiles.| 5 | Jose | Done |
+| Sprint 3 | US-03 | Profile and role management | UT-23 | Role-Based Access Control | Implement middleware to manage role permissions (admin, host, guest).| 5 | Italo | Done |
+| Sprint 3 | US-04 | Password recovery | UT-24 | Password Reset Service | Develop a token-based password recovery system with email verification. | 4 | Natalia | Done |
+| Sprint 3 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
+| Sprint 3 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
+| Sprint 3 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
+| Sprint 3 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
+| Sprint 3 | US-24 | Segmented landing page | UT-01 | Design visual structure | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6 | Alexander | Done |
+| Sprint 3 | US-24 | Segmented landing page | UT-02 | Layout Landing Page | Implement the HTML and CSS design of the base prototype. | 5 | Italo | In Process |
+| Sprint 3 | US-24 | Segmented landing page | UT-03 | Navigation and internal links | Configure navigation between sections with links and smooth scrolling.| 3 | Jose | Done |
+| Sprint 3 | US-26 | Success stories and testimonials | UT-04 | Create testimonials section | Design carousel with user testimonials and simple animations. | 4 | Aldair | To Review |
+| Sprint 3 | US-27 | Demo request and contact | UT-05 | Contact form | Implement form with validation and responsive design. | 4 | Natalia | Done |
+| Sprint 3 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
+| Sprint 3 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
+| Sprint 3 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
+| Sprint 3 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
+
 ## 5.2.3.4. Development Evidence for Sprint Review.
 ## 5.2.3.5. Execution Evidence for Sprint Review.
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
