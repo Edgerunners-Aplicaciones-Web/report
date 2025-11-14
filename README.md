@@ -2512,24 +2512,34 @@ Aquí se puede observar la sección de reseñas.
 
 Frontend
 
-En esta sección se puede ver las habitaciones disponibles.
+En esta sección se puede ver el panel del administrador.
 
-![Front1](assets/front1.jpeg)
-
+![Panel](assets/Panel.jpg)
 
 En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
 
-![Front2](assets/front2.jpeg)
+![manageRooms](assets/manageRooms.jpg)
 
-En esta sección se puede ver el panel del administrador.
+En esta sección se puede ver el panel de administracion del persona.
 
-![Front3](assets/front3.jpeg)
+![manageStaf](assets/manageStaf.jpg)
 
-En esta sección se puede ver el panel del administrador se puede ver un dashboard con las habitaciones.
+En esta sección se puede ver el panel del Personal.
 
-![Front4](assets/fron4.jpeg)
+![panelStaf](assets/panelStaf.jpg)
 
-ARREGLAR
+En esta sección se puede ver el panel del Huesped.
+
+![panelguest](assets/panelguest.jpg)
+
+En esta sección se puede ver el panel de las habitaciones disponibles desde la perspectiva del Huesped.
+
+![viewrooms](assets/viewrooms.jpg)
+
+En esta sección se puede ver las reservas hechas del Huesped.
+
+![viewrooms](assets/viewReservas.jpg)
+
 
 ---
 ## 5.2.2.6. Execution Evidence for Sprint Review
