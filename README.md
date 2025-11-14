@@ -2355,12 +2355,6 @@ La ejecución se centró en:
 ### Evidencia visual  
 A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:  
 
-- Vista principal de la landing page:  
-  ![home.png](assets/home.png) 
-
-- Barra de navegación y sección principal (*Hero*):  
-  ![navbar](assets/navbar.png)
-
 - Esta es la sección inicial, donde está el header.
 
   ![Landing1](assets/landing1.jpeg)
@@ -2403,11 +2397,11 @@ Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo e
 
 ### Evidencia  
 
-- **Repositorio en GitHub**  
+- **Creación de Repositorio en GitHub**  
 ![Repositorio](assets/repository.png)  
  
-- **Landing Page publicada**  
-![landing_page](assets/encabezado_hero.png)  
+- **Configuración de GitHub Pages**
+(FALTA IMÁGENES DE ESTO)
 
 ---
 
@@ -2505,10 +2499,7 @@ En este segundo Sprint hemos realizado la implementación de nuestra Single Page
 
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
-
-
-
-Frontend
+Aquí veremos la versión de la aplicación web. Esto fue realizado mediante WebStorm y su complemento de git, con esto cada integrante pudo realizar cambios y versiones en sus ramas para luego mandarlas a la rama principal y no tener ningún inconveniente. A continuación se mostrarán las evidencias de ejecución.
 
 En esta sección se puede ver el panel del administrador.
 
@@ -2540,9 +2531,9 @@ En esta sección se puede ver las reservas hechas del Huesped.
 
 
 ---
-## 5.2.2.6. Execution Evidence for Sprint Review
+## 5.2.2.6. Service Documentation Evidence for Sprint Review. 
 
-No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+(FALTA, AQUI COLOCAMOS ENDPOINTS)
 
 ---
 
@@ -2638,9 +2629,20 @@ En este tercer sprint nos enfocamos en realizar la implementación del WebServic
 
 ## 5.2.3.5. Execution Evidence for Sprint Review.
 
+(FALTA)
+
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+(FALTA)
+
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+(FALTA) 
+
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
+
+ (FALTA)
+ 
 ## 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de Entrevistas. 
@@ -2810,6 +2812,7 @@ Datos del entrevistado:
 
 
 ## 5.3.3. Evaluaciones según heurísticas. 
+
 ## 5.4. Video About-the-Product. 
 ## LandingPage 
 
