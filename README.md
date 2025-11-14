@@ -2631,6 +2631,176 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
+## 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de Entrevistas. 
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+1. ¿Qué impresión te dejó la herramienta después de ver la demostración?
+2. ¿La interfaz y la organización de la información te parecieron claras y fáciles de seguir?
+3. ¿Qué partes del sistema te parecieron más útiles para tu hotel?
+4. ¿Hay alguna función que no te parezca relevante para tu operación diaria?
+5.Si implementaras esta herramienta, ¿qué procesos crees que mejorarían más? (reservas, pagos, personal, disponibilidad, reportes…)
+6. ¿Cómo encajaría esta aplicación con la forma en la que actualmente gestionas el hotel?
+7.¿Crees que tu equipo podría adaptarse fácilmente al uso de esta herramienta?
+8. En tu experiencia, ¿ves que esta app podría ayudar a evitar problemas como sobrerreservas, errores de disponibilidad o fallas en la facturación?
+9. ¿Qué cosa en la app mejorarías para que se ajuste mejor a tu hotel?
+10. ¿Qué te haría dudar en implementar una herramienta como esta? (costos, capacitación, tiempo, desconfianza, resistencia del personal, etc.)
+11. Basado en lo que viste, ¿pagarías una suscripción mensual por este sistema?
+12. ¿Qué rango de precio te parecería razonable para un hotel de tu tamaño?
+13.Si pudieras pedir una mejora o nueva función antes de usar esta app en tu hotel, ¿cuál sería?
+14. ¿Te gustaría probar una versión piloto en tu hotel cuando esté lista?
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles
+
+1. ¿Qué impresión general te dejó la aplicación después de la demostración?
+2. ¿La interfaz se te hizo intuitiva y fácil de entender?
+3. ¿Qué parte te pareció más útil?
+4. ¿Hay alguna función que no te parezca necesaria para ti como huésped?
+5. ¿Sientes que este sistema haría más cómoda tu estadía en comparación con un hotel tradicional?
+6. ¿Qué te sorprendió o llamó más la atención de manera positiva?
+7. ¿Hay algo que te generaría desconfianza al usar este tipo de sistema?
+8. ¿Preferirías interacción humana en algún punto, aunque exista el sistema digital?
+9. Si dos hoteles ofrecieran lo mismo, pero uno tuviera esta experiencia digital, ¿cuál elegirías?
+10. ¿Pagarías un poco más por la experiencia digital? ¿Cuánto aproximadamente?
+11. ¿Qué agregarías o cambiarías para que la experiencia del huésped sea más cómoda?
+12. ¿Qué parte de la demostración te pareció menos clara o más débil?
+
+---
+
+## 5.3.2. Registro de Entrevistas. 
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+#### Entrevista 1
+
+Datos del entrevistado:
+
+**Nombre completo:**  
+
+**Edad:** 
+
+**Ciudad:** 
+
+**Duración:** 
+
+**Evidencia:** 
+
+**Resumen de la entrevista**
+
+**URL del video:** 
+
+---
+
+#### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** 
+
+**Edad:** 
+
+**Ciudad:** 
+
+**Duración:** 
+
+**Evidencia:** 
+
+**URL del video:** 
+
+**Resumen de la entrevista**
+
+---
+
+#### Entrevista 3
+
+Datos del entrevistado:
+**Nombre completo:** 
+
+**Edad:** 
+
+**Ciudad:** 
+
+**Duración:** 
+
+**Evidencia:** 
+
+**URL del video:** 
+
+**Resumen de la entrevista**
+
+---
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
+
+---
+
+#### Entrevista 1
+
+Datos del entrevistado:
+
+**Nombre completo:** Vanessa Choy Robles
+
+**Edad:** 25 años
+
+**Distrito:** Jesus María – Lima Metropolitana
+
+**Duración:** 
+
+**Evidencia:** ![entrevista_vanessa](assets/Chapter-05/entrevista_vanessa.png)
+
+**URL del video:** 
+
+**Resumen de la entrevista**
+
+La usuaria tuvo una impresión muy positiva de la aplicación, resaltando que es clara, sencilla e intuitiva. Consideró útiles los filtros para elegir habitaciones y mencionó que, aunque la app tiene lo esencial, sería útil agregar servicios del hotel. Percibe que la experiencia digital haría su estadía más cómoda y valora especialmente la simplicidad de la interfaz, aunque le preocupa que puedan ocurrir fallos al procesar reservas o pagos. Prefiere interacción humana solo en casos específicos y estaría dispuesta a pagar unos 25 soles más por esta experiencia. Como mejoras, sugiere incluir check-in y check-out digitales y aclarar mejor la parte de pagos, que fue lo menos comprendido durante la demostración.
+
+---
+
+#### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:**   
+
+**Edad:** 
+
+**Distrito:** 
+
+**Duración:** 
+
+**Evidencia:** 
+
+**URL del video:** 
+
+**Resumen de la entrevista**
+
+---
+
+#### Entrevista 3
+
+Datos del entrevistado:
+
+**Nombre completo:** 
+
+**Edad:** 
+
+**Distrito:**
+
+**Duración:** 
+
+**Evidencia:** 
+
+**URL del video:** 
+
+**Resumen de la entrevista**
+
+---
+
+
+## 5.3.3. Evaluaciones según heurísticas. 
+## 5.4. Video About-the-Product. 
 ## LandingPage 
 
 ## Frontend
