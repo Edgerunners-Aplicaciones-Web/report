@@ -2341,25 +2341,8 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 ![commitslanding](assets/commitslanding.png)
 
-## 5.2.1.5. Deployment Evidence for Sprint Review
 
-Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.  
-
-- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
-- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.  
-- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
-
-### Evidencia  
-
-- **Repositorio en GitHub**  
-![Repositorio](assets/repository.png)  
- 
-
-- **Landing Page publicada**  
-![landing_page](assets/encabezado_hero.png)  
-
-
-### 5.2.1.6. Execution Evidence for Sprint Review.
+### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.  
 
@@ -2376,10 +2359,29 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   ![home.png](assets/home.png) 
 
 - Barra de navegación y sección principal (*Hero*):  
-  ![navbar](assets/navbar.png)  
+  ![navbar](assets/navbar.png)
+
+- Esta es la sección inicial, donde está el header.
+
+  ![Landing1](assets/landing1.jpeg)
+
+- Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+
+  ![Landing2](assets/landing2.jpeg)
+
+- Esta sección describe las soluciones de acorde al tipo de propiedad.
+  ![Landing3](assets/landing3.jpeg)
+
+-Tenemos en esta sección acerca de precios por el servicio.
+
+  ![Landing4](assets/landing4.jpeg)
+
+-Aquí se puede observar la sección de reseñas.
+
+  ![Landing5](assets/landing5.jpeg)
 
 
-### 5.2.1.7. Services Documentation Evidence for Sprint Review  
+### 5.2.1.6. Services Documentation Evidence for Sprint Review  
 
 En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.  
 
@@ -2390,18 +2392,26 @@ La landing page cumple el rol de **página de presentación inicial** de la plat
 Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.  
 
 
-### 5.2.1.8. Software Deployment Evidence for Sprint Review  
+### 5.2.1.7. Software Deployment Evidence for Sprint Review  
 
-Durante este Sprint, se realizaron los siguientes procesos de despliegue:  
-
-- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.  
-- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.  
-- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.  
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.
+- **Repositorio en GitHub**: Se creó y configuró el repositorio oficial específico para el landing page, facilitando la colaboración del equipo. [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública, configurando la rama `main` como fuente de publicación. 
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
 
 Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
 
+### Evidencia  
 
-### 5.2.1.9. Team Collaboration Insights during Sprint  
+- **Repositorio en GitHub**  
+![Repositorio](assets/repository.png)  
+ 
+- **Landing Page publicada**  
+![landing_page](assets/encabezado_hero.png)  
+
+---
+
+### 5.2.1.8. Team Collaboration Insights during Sprint  
 
 Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.  
 
@@ -2418,7 +2428,7 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ![commits_team2](assets/commits_team2.png)  
 
-
+---
 
 ## 5.2.2 Sprint 2
 
@@ -2484,30 +2494,18 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 En este segundo Sprint hemos realizado la implementación de nuestra Single Page Application. En la siguiente tabla se muestran los commits realizados.
 
-FALTA
+### Commits realizados
+
+(FALTA TABLA DE COMMITS)
+
+**Evidencia de los commits del FrontEnd**
+(FALTA FOTO DE COMMITS DE FRONTEND)
+
+---
 
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
-landing Page 
 
-Esta es la sección inicial, donde está el header.
-
-![Landing1](assets/landing1.jpeg)
-
-Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
-
-![Landing2](assets/landing2.jpeg)
-
-Esta sección describe las soluciones de acorde al tipo de propiedad.
-![Landing3](assets/landing3.jpeg)
-
-Tenemos en esta sección acerca de precios por el servicio.
-
-![Landing4](assets/landing4.jpeg)
-
-Aquí se puede observar la sección de reseñas.
-
-![Landing5](assets/landing5.jpeg)
 
 
 Frontend
@@ -2566,7 +2564,7 @@ Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece
 
 Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
 
-FALTA 
+(FALTA) 
 ---
 ## 5.2.3. Sprint 3
 
@@ -2628,8 +2626,18 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 | Sprint 3 | US-40 | Data backup and recovery | UT-36 | Backup and Restore System | Implement scheduled backup tasks and recovery scripts for the database. | 3 | Jose | Done |
 | Sprint 3 | US-41 | System monitoring and logs | UT-37 | Logging Dashboard Setup | Configure centralized logging and create admin endpoint for viewing logs.| 4 | Italo | In Process |
 
+---
+
 ## 5.2.3.4. Development Evidence for Sprint Review.
+
+En este tercer sprint nos enfocamos en realizar la implementación del WebService BACKEND. En la siguiente tabla se muestran los commits realizados.
+
+(FALTA)
+
+---
+
 ## 5.2.3.5. Execution Evidence for Sprint Review.
+
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
