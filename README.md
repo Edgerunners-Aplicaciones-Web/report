@@ -2545,7 +2545,9 @@ En esta sección se puede ver las reservas hechas del Huesped.
 ## 5.2.2.6. Execution Evidence for Sprint Review
 
 No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+
 ---
+
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint hemos desplegado el frontend.
@@ -2612,19 +2614,19 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 | Sprint 3 | US-03 | Profile and role management | UT-22 | Profile API Creation | Build endpoints for viewing and updating user profiles.| 5 | Jose | Done |
 | Sprint 3 | US-03 | Profile and role management | UT-23 | Role-Based Access Control | Implement middleware to manage role permissions (admin, host, guest).| 5 | Italo | Done |
 | Sprint 3 | US-04 | Password recovery | UT-24 | Password Reset Service | Develop a token-based password recovery system with email verification. | 4 | Natalia | Done |
-| Sprint 3 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
-| Sprint 3 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
-| Sprint 3 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
-| Sprint 3 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
-| Sprint 3 | US-24 | Segmented landing page | UT-01 | Design visual structure | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6 | Alexander | Done |
-| Sprint 3 | US-24 | Segmented landing page | UT-02 | Layout Landing Page | Implement the HTML and CSS design of the base prototype. | 5 | Italo | In Process |
-| Sprint 3 | US-24 | Segmented landing page | UT-03 | Navigation and internal links | Configure navigation between sections with links and smooth scrolling.| 3 | Jose | Done |
-| Sprint 3 | US-26 | Success stories and testimonials | UT-04 | Create testimonials section | Design carousel with user testimonials and simple animations. | 4 | Aldair | To Review |
-| Sprint 3 | US-27 | Demo request and contact | UT-05 | Contact form | Implement form with validation and responsive design. | 4 | Natalia | Done |
-| Sprint 3 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
-| Sprint 3 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
-| Sprint 3 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
-| Sprint 3 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
+| Sprint 3 | US-06 | Room and status management | UT-25 | Room CRUD Implementation | Create endpoints to add, update, and delete rooms.| 3 | Natalia | Done |
+| Sprint 3 | US-06 | Room and status management | UT-26 | Availability Logic | Implement room status updates (available, booked, maintenance). | 4 | Alexander | To Do |
+| Sprint 3 | US-07 | Centralized reservation management | UT-27 | Booking CRUD Service: | Implement booking endpoints for creation, update, and cancellation. | 3 | Jose | Done |
+| Sprint 3 | US-07 | Centralized reservation management | UT-28 | Database Linking | Connect booking data to users and rooms with proper relationships.| 4 | Italo | In Process |
+| Sprint 3 | US-09 | Digital check-out and billing | UT-29 | Digital Billing API | Implement endpoint for generating invoices after checkout. | 6 | Alexander | Done |
+| Sprint 3 | US-23 | Digital payment processing | UT-30 | Payment Gateway Simulation | Create secure endpoint that simulates real payment processing. | 5 | Italo | In Process |
+| Sprint 3 | US-23 | Digital payment processing | UT-31 | Transaction Logging | Store payment data and status in database with timestamp. | 3 | Jose | Done |
+| Sprint 3 | US-29 | RESTful API for room management | UT-32 | API Endpoint Design | Develop RESTful endpoints for external integration of room data. | 4 | Alexander | To Review |
+| Sprint 3 | US-29 | RESTful API for room management | UT-33 | Swagger Integration | Document all endpoints using Swagger/OpenAPI. | 4 | Natalia | Done |
+| Sprint 3 | US-31 | API authentication and authorization | UT-34 | Auth Middleware Setup | Configure authentication and authorization middleware for all routes. | 3 | Natalia | Done |
+| Sprint 3 | US-32 | Interactive API documentation | UT-35 | Swagger UI Configuration | Integrate Swagger UI to allow live endpoint testing and auto documentation. | 4 | Alexander | To Do |
+| Sprint 3 | US-40 | Data backup and recovery | UT-36 | Backup and Restore System | Implement scheduled backup tasks and recovery scripts for the database. | 3 | Jose | Done |
+| Sprint 3 | US-41 | System monitoring and logs | UT-37 | Logging Dashboard Setup | Configure centralized logging and create admin endpoint for viewing logs.| 4 | Italo | In Process |
 
 ## 5.2.3.4. Development Evidence for Sprint Review.
 ## 5.2.3.5. Execution Evidence for Sprint Review.
