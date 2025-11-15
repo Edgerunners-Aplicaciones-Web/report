@@ -2573,7 +2573,31 @@ Y aquí verás el perfil del staff.
 ---
 ## 5.2.2.6. Service Documentation Evidence for Sprint Review. 
 
-(FALTA, AQUI COLOCAMOS ENDPOINTS)
+En este Sprint aún no se desarrolla el backend real de SmartStay; sin embargo, para avanzar con la funcionalidad del sistema, se implementaron rutas de frontend completamente operativas y conectadas a una API simulada (mock data).
+Estas rutas representan las vistas principales del sistema para los perfiles Admin, Guest y Staff, y permitieron validar los flujos clave con datos falsos.
+
+La documentación siguiente recoge las “acciones simuladas” disponibles en el sistema, incluyendo navegación, carga de datos de ejemplo, formularios y operaciones emuladas. Esto sirve como base para la posterior implementación de Web Services reales.
+
+| Endpoint / Ruta | Acción Implementada (Simulada) | Método HTTP Simulado | Sintaxis / Llamada | Parámetros | Ejemplo de Response (Mock) | URL |
+|------------------|-------------------------------|-----------------------|---------------------|------------|------------------------------|------|
+| /login | Inicio de sesión del usuario | POST (simulado) | /login | Body: email, password | { "status":"success","role":"admin" } | https://smartstay-3cffc.web.app/login |
+| /register | Registrar nuevo usuario | POST (simulado) | /register | Body: name, email, password | { "id": 4, "name": "Ana" } | https://smartstay-3cffc.web.app/register |
+| /admin/dashboard | Mostrar dashboard admin | GET | /admin/dashboard | — | { "welcome":"Admin Panel" } | https://smartstay-3cffc.web.app/admin/dashboard |
+| /admin/auth/users | Ver lista de staff | GET | /admin/auth/users | Query: ?role=staff | [ { "id":1,"name":"Juan"} ] | https://smartstay-3cffc.web.app/admin/auth/users |
+| /admin/auth/users/edit/:id | Editar usuario staff | PUT (simulado) | /admin/auth/users/edit/{id} | Path: id | { "message":"User updated" } | https://smartstay-3cffc.web.app/admin/auth/users/edit/2 |
+| /admin/auth/users/add | Crear usuario del staff | POST (simulado) | /admin/auth/users/add | Body: name, role | { "id":6, "name":"Sofía" } | https://smartstay-3cffc.web.app/admin/auth/users/add |
+| /admin/property/rooms | Ver habitaciones | GET | /admin/property/rooms | Query: ?status=available | [{"id":10, "type":"Doble"}] | https://smartstay-3cffc.web.app/admin/property/rooms |
+| /admin/profile | Ver perfil admin | GET | /admin/profile | — | { "id":1,"name":"Admin" } | https://smartstay-3cffc.web.app/admin/profile |
+| /guest/dashboard | Dashboard huésped | GET | /guest/dashboard | — | { "welcome":"Guest Dashboard" } | https://smartstay-3cffc.web.app/guest/dashboard |
+| /guest/properties | Ver propiedades | GET | /guest/properties | Query: ?city=Lima | [{"id":101,"name":"SmartStay Miraflores"}] | https://smartstay-3cffc.web.app/guest/properties |
+| /guest/property/:id | Ver detalle de propiedad | GET | /guest/property/{id} | Path: id | { "id":101,"rooms":32 } | https://smartstay-3cffc.web.app/guest/property/101 |
+| /guest/book/:propertyId/:roomId | Iniciar reserva simulada | POST (simulado) | /guest/book/{propertyId}/{roomId} | Path: propertyId, roomId | { "bookingId":201,"status":"confirmed" } | https://smartstay-3cffc.web.app/guest/book/101/201 |
+| /guest/bookings | Ver reservas del huésped | GET | /guest/bookings | Query: ?status=completed | [{"id":201,"status":"confirmed"}] | https://smartstay-3cffc.web.app/guest/bookings |
+| /guest/rooms | Ver lista de habitaciones | GET | /guest/rooms | Query: ?capacity=2 | [{"id":31,"capacity":2}] | https://smartstay-3cffc.web.app/guest/rooms |
+| /staff/dashboard | Dashboard del staff | GET | /staff/dashboard | — | { "welcome":"Staff Dashboard" } | https://smartstay-3cffc.web.app/staff/dashboard |
+| /staff/property/tasks | Ver/gestionar tareas | GET / POST (simulado) | /staff/property/tasks | Body (POST): task, roomId | [{"task":"Clean Room 12"}] | https://smartstay-3cffc.web.app/staff/property/tasks |
+| /staff/property/cleaning | Ver habitaciones asignadas | GET | /staff/property/cleaning | — | [{"roomId":23,"status":"pending"}] | https://smartstay-3cffc.web.app/staff/property/cleaning |
+| /staff/profile | Ver perfil staff | GET | /staff/profile | — | { "id":3,"name":"Rosa Staff" } | https://smartstay-3cffc.web.app/staff/profile |
 
 ---
 
