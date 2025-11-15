@@ -2689,19 +2689,24 @@ En este tercer sprint nos enfocamos en realizar la implementación del WebServic
 
 Datos del entrevistado:
 
-**Nombre completo:**  
+**Nombre completo:**  Alejandra Beltrán Diaz
 
-**Edad:** 
+**Edad:** 23 años
 
-**Ciudad:** 
+**Ciudad:** Tarapoto
 
-**Duración:** 
+**Duración:** 7:35 minutos
 
-**Evidencia:** 
-
-**Resumen de la entrevista**
+**Evidencia:** ![entrevista alejandra](assets/alejandraentrevisa.jpg)
 
 **URL del video:** 
+
+[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAWKRdlP0wrTrxrWyH1YpxUAQgX4tukkfWsGlrNkWzDV7g?e=mV81At&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Resumen de la entrevista** 
+
+El entrevistado considera que la aplicación es práctica, clara y fácil de usar. Sugiere agregar más detalles del huésped, como el estado completo de pagos, y la posibilidad de ver reservas pasadas y futuras. Cree que, con esas funciones, la implementaría sin dudas. Está dispuesto a pagar hasta 120 soles mensuales y usaría la herramienta con gusto una vez esté completa.
+
+
 
 ---
 
@@ -2709,19 +2714,21 @@ Datos del entrevistado:
 
 Datos del entrevistado:
 
-**Nombre completo:** 
+**Nombre completo:** Adrian Nicholaiv Saavedra Angulo 
 
-**Edad:** 
+**Edad:** 34
 
-**Ciudad:** 
+**Ciudad:** Tarapoto
 
-**Duración:** 
+**Duración:**  8:37 minutos
 
-**Evidencia:** 
+**Evidencia:** ![entrevista Adrian](assets/adrianentrevista.jpg)
 
 **URL del video:** 
+[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAjqYO1yBXEQLgqecYAWIroAdXaCEo-q3_ooN9jxKAo1nI?e=LV5AoW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
+Adrián considera que la aplicación es práctica y fácil de usar, y cree que su equipo podría adaptarse sin problema. Sugiere añadir información detallada del huésped, como estado de pago, monto pendiente, historial de reservas, preferencias alimenticias o restricciones. Ve importante poder consultar todas las reservas, pasadas y futuras. Está dispuesto a pagar hasta 100 soles, aunque tendría dudas si el precio fuera elevado. Una vez terminada la herramienta con estas funciones, afirma que la usaría sin dudar.
 
 ---
 
