@@ -835,7 +835,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                               |
 | ------------------ | ---------------------------------------------------- |
-| TS01               |Conectar formularios de registro/login con validaciones en frontend |
+| TS01               | Registro de usuario a través de la API |
 
 
 **EP02 – Registro y Gestión de Perfil de Anfitrión**
@@ -849,7 +849,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                              |
 | ------------------ | --------------------------------------------------- |
-| TS02               | Validar campos de formulario en frontend (correo, contraseña, documento)|
+| TS02               | Inicio de sesión a través de la API |
 
 **EP03 – Gestión de Propiedades**
 
@@ -859,6 +859,13 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | US10          | Subir fotos de la propiedad        |
 | US11          | Editar información de la propiedad |
 | US12          | Eliminar propiedad                 |
+
+| Technical Story ID | Título                             |
+| ------------------ | ---------------------------------- |
+| TS09              | Crear habitación a través de la API |
+| TS10              | Obtener habitación por ID a través de la API |
+| TS17              | Obtener todas las habitaciones a través de la API |
+| TS18              | Obtener tipo de habitación por ID a través de la API |
 
 **EP04 – Búsqueda y Reserva de Estancias**
 
@@ -871,8 +878,11 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                      |
 | ------------------ | ------------------------------------------- |
-| TS03              | Crear buscador y filtros en frontend.     |
-| TS04               | Simular reservas con estado guardado en frontend |
+| TS11              | Crear reserva a través de la API |
+| TS12              | Obtener reserva por ID a través de la API |
+| TS13              | Confirmar reserva a través de la API |
+| TS19              | Obtener todas las reservas a través de la API |
+| TS20              | Cancelar reserva a través de la API |
 
 **EP05 – Pagos y Facturación**
 
@@ -884,7 +894,11 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                                                |
 | ------------------ | ----------------------------------------------------- |
-| TS05               | Simular integración de pago |
+| TS14               | Crear pago a través de la API |
+| TS15               | Procesar pago a través de la API |
+| TS16               | Obtener pagos por reserva a través de la API |
+| TS21               | Obtener pago por ID a través de la API |
+| TS22               | Obtener todos los pagos a través de la API |
 
 
 **EP06 – Reseñas y Calificaciones**
@@ -908,9 +922,6 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 | US24          | Enviar reporte de problema     |
 | US25          | Contactar con soporte técnico  |
 
-| Technical Story ID | Título                                      |
-| ------------------ | ------------------------------------------- |
-| TS07               | Implementar formulario de contacto y sección de preguntas frecuentes |
 
 
 **EP08 – Exploración como Visitante**
@@ -923,7 +934,7 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | Technical Story ID | Título                             |
 | ------------------ | ---------------------------------- |
-| TS08               | Implementar landing page con botones hacia login/registro |
+| TS08               | Implementar landing page con navegación hacia login/registro |
 
 ---
 
@@ -931,78 +942,87 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 | ID Épica | Épica                                   | ID   | Título                               | Descripción                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                    |
 | -------- | --------------------------------------- | ---- | ------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP01     | Registro y Gestión de Perfil de Huésped | US01 | Registro de huésped                  | Como huésped, quiero registrarme en la plataforma para crear mi cuenta.          | - Escenario 1: Registro exitoso <br> **Dado** que el usuario accede al formulario de registro, <br> **Cuando** completa los campos requeridos y presiona “Crear cuenta”, <br> **Entonces** el sistema registra al usuario y muestra un mensaje de bienvenida.                                                                                                              |
-| EP01     | Registro y Gestión de Perfil de Huésped | US02 | Inicio de sesión seguro              | Como huésped registrado, quiero iniciar sesión para acceder a mis funciones.     | - Escenario 1: Inicio exitoso <br> **Dado** que el usuario ya está registrado, <br> **Cuando** ingresa credenciales válidas, <br> **Entonces** accede al panel. <br><br> - Escenario 2: Inicio fallido <br> **Dado** que el usuario ingresa credenciales incorrectas, <br> **Cuando** presiona “Iniciar sesión”, <br> **Entonces** el sistema muestra un mensaje de error. |
-| EP01     | Registro y Gestión de Perfil de Huésped | US03 | Recuperación de contraseña           | Como huésped, quiero recuperar mi contraseña para poder acceder si la olvido.    | - Escenario 1: Recuperación exitosa <br> **Dado** que el usuario olvidó su contraseña, <br> **Cuando** solicita la recuperación ingresando su correo, <br> **Entonces** el sistema envía un enlace de restablecimiento.                                                                                                                                                    |
-| EP01     | Registro y Gestión de Perfil de Huésped | US04 | Edición de perfil personal           | Como huésped, quiero editar mi información personal para mantenerla actualizada. | - Escenario 1: Edición de perfil <br> **Dado** que el usuario está logueado, <br> **Cuando** modifica sus datos personales y guarda, <br> **Entonces** el sistema actualiza la información correctamente.                                                                                                                                                                  |
-| EP01     | Registro y Gestión de Perfil de Huésped | TS01 | Validaciones frontend registro/login | Como desarrollador, quiero validar formularios en frontend para evitar errores.  | - Escenario 1: Validación de campos vacíos <br> **Dado** que el usuario deja campos en blanco, <br> **Cuando** intenta registrarse, <br> **Entonces** el sistema muestra mensajes de validación.   | |
+| EP01     | Registro y Gestión de Perfil de Huésped | US01 | Registro de huésped                  | Como huésped, quiero registrarme en la plataforma para crear mi cuenta.          | - Escenario 1: Registro exitoso <br> **Dado** que el usuario completa el formulario de registro con datos válidos, <br> **Cuando** envía la solicitud de registro, <br> **Entonces** el sistema registra al usuario y confirma la creación de la cuenta.                                                                                                              |
+| EP01     | Registro y Gestión de Perfil de Huésped | US02 | Inicio de sesión seguro              | Como huésped registrado, quiero iniciar sesión para acceder a mis funciones.     | - Escenario 1: Inicio exitoso <br> **Dado** que el usuario ya está registrado, <br> **Cuando** envía credenciales válidas, <br> **Entonces** el sistema autentica al usuario y le permite acceder a sus funciones. <br><br> - Escenario 2: Inicio fallido <br> **Dado** que el usuario envía credenciales incorrectas, <br> **Cuando** intenta iniciar sesión, <br> **Entonces** el sistema rechaza la autenticación y notifica el error. |
+| EP01     | Registro y Gestión de Perfil de Huésped | US03 | Recuperación de contraseña           | Como huésped, quiero recuperar mi contraseña para poder acceder si la olvido.    | - Escenario 1: Recuperación exitosa <br> **Dado** que el usuario olvidó su contraseña, <br> **Cuando** solicita la recuperación proporcionando su correo electrónico, <br> **Entonces** el sistema procesa la solicitud y envía un enlace de restablecimiento al correo registrado.                                                                                                                                                    |
+| EP01     | Registro y Gestión de Perfil de Huésped | US04 | Edición de perfil personal           | Como huésped, quiero editar mi información personal para mantenerla actualizada. | - Escenario 1: Edición de perfil <br> **Dado** que el usuario está autenticado, <br> **Cuando** modifica sus datos personales y envía la actualización, <br> **Entonces** el sistema actualiza la información del perfil correctamente.                                                                                                                                                                  |
+| EP01     | Registro y Gestión de Perfil de Huésped | TS01 | Registro de usuario a través de la API | Como desarrollador frontend, quiero registrar usuarios a través de la API para implementar el flujo de registro en la interfaz. | - Escenario 1: Registro exitoso <br> **Dado** que se recibe una petición POST a `/api/v1/authentication/sign-up` con atributos: Username, Password, Email, Role, <br> **Cuando** la API valida y persiste el usuario, <br> **Entonces** la API responde `200 OK` y retorna el usuario creado con sus atributos (id, username, email, role). <br><br> - Escenario 2: Error de validación <br> **Dado** que se recibe una petición POST a `/api/v1/authentication/sign-up` con atributos faltantes o inválidos, <br> **Cuando** la API rechaza la petición por validación, <br> **Entonces** la API responde `400 Bad Request` y retorna un payload de error describiendo los problemas de validación. |
 
 **EP02 – Búsqueda y Reserva de Propiedades**
 
 | ID Épica | Épica                                     | ID   | Título                                   | Descripción                                                                                             | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                          |
 | -------- | ----------------------------------------- | ---- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP02     | Registro y Gestión de Perfil de Anfitrión | US05 | Registro de anfitrión                    | Como anfitrión, quiero registrarme en la plataforma para publicar mis propiedades.                      | - Escenario 1: Registro exitoso <br> **Dado** que el usuario accede al formulario de registro de anfitrión, <br> **Cuando** completa los campos requeridos y presiona “Crear cuenta”, <br> **Entonces** el sistema registra al anfitrión y muestra un mensaje de bienvenida.                                                                                                                                     |
-| EP02     | Registro y Gestión de Perfil de Anfitrión | US06 | Verificación de identidad básica         | Como anfitrión, quiero verificar mi identidad de manera sencilla para dar confianza a los huéspedes.    | - Escenario 1: Verificación cargada <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** sube un documento válido de identificación, <br> **Entonces** el sistema guarda el estado de verificación como “En revisión”.                                                                                                                                                                             |
-| EP02     | Registro y Gestión de Perfil de Anfitrión | US07 | Configuración de datos de contacto       | Como anfitrión, quiero configurar mis datos de contacto para que los huéspedes puedan comunicarse.      | - Escenario 1: Configuración exitosa <br> **Dado** que el anfitrión edita su sección de contacto, <br> **Cuando** guarda número de teléfono o correo, <br> **Entonces** el sistema actualiza los datos correctamente.                                                                                                                                                                                            |
-| EP02     | Registro y Gestión de Perfil de Anfitrión | US08 | Edición de perfil de anfitrión           | Como anfitrión, quiero editar mi información personal y de negocio para mantenerla actualizada.         | - Escenario 1: Edición correcta <br> **Dado** que el anfitrión accede a su perfil, <br> **Cuando** modifica su información y guarda, <br> **Entonces** el sistema actualiza los cambios exitosamente.                                                                                                                                                                                                            |
-| EP02     | Registro y Gestión de Perfil de Anfitrión | TS02 | Validar campos de formulario en frontend | Como desarrollador, quiero validar campos de formulario (correo, contraseña, documento) en el frontend. | - Escenario 1: Validación de correo <br> **Dado** que el usuario ingresa un correo inválido, <br> **Cuando** intenta guardar, <br> **Entonces** el sistema muestra un mensaje de error. <br><br> - Escenario 2: Validación de documento <br> **Dado** que el anfitrión sube un archivo no permitido, <br> **Cuando** intenta verificar identidad, <br> **Entonces** el sistema muestra un mensaje de validación. |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US05 | Registro de anfitrión                    | Como anfitrión, quiero registrarme en la plataforma para publicar mis propiedades.                      | - Escenario 1: Registro exitoso <br> **Dado** que el usuario completa el formulario de registro de anfitrión con datos válidos, <br> **Cuando** envía la solicitud de registro, <br> **Entonces** el sistema registra al anfitrión y confirma la creación de la cuenta.                                                                                                                                     |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US06 | Verificación de identidad básica         | Como anfitrión, quiero verificar mi identidad de manera sencilla para dar confianza a los huéspedes.    | - Escenario 1: Verificación cargada <br> **Dado** que el anfitrión está autenticado, <br> **Cuando** envía un documento válido de identificación, <br> **Entonces** el sistema procesa el documento y actualiza el estado de verificación como "En revisión".                                                                                                                                                                             |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US07 | Configuración de datos de contacto       | Como anfitrión, quiero configurar mis datos de contacto para que los huéspedes puedan comunicarse.      | - Escenario 1: Configuración exitosa <br> **Dado** que el anfitrión está autenticado, <br> **Cuando** envía datos de contacto actualizados (teléfono o correo), <br> **Entonces** el sistema actualiza los datos de contacto correctamente.                                                                                                                                                                                            |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | US08 | Edición de perfil de anfitrión           | Como anfitrión, quiero editar mi información personal y de negocio para mantenerla actualizada.         | - Escenario 1: Edición correcta <br> **Dado** que el anfitrión está autenticado, <br> **Cuando** envía información actualizada de su perfil, <br> **Entonces** el sistema actualiza los cambios exitosamente.                                                                                                                                                                                                            |
+| EP02     | Registro y Gestión de Perfil de Anfitrión | TS02 | Inicio de sesión a través de la API | Como desarrollador frontend, quiero autenticar usuarios a través de la API para implementar el flujo de inicio de sesión. | - Escenario 1: Autenticación exitosa <br> **Dado** que se recibe una petición POST a `/api/v1/authentication/sign-in` con atributos: Username, Password, <br> **Cuando** las credenciales son válidas, <br> **Entonces** la API responde `200 OK` y retorna `AuthenticatedUserResource` (información del usuario y token JWT). <br><br> - Escenario 2: Credenciales inválidas <br> **Dado** que se recibe una petición POST a `/api/v1/authentication/sign-in` con credenciales incorrectas, <br> **Cuando** la API valida las credenciales, <br> **Entonces** la API responde `401 Unauthorized` o `404 Not Found` con un payload de error. |
 
 **EP03 – Gestión de Propiedades**
 
 | ID Épica | Épica                  | ID   | Título                             | Descripción                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                 |
 | -------- | ---------------------- | ---- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP03     | Gestión de Propiedades | US09 | Registrar nueva propiedad          | Como anfitrión, quiero registrar una nueva propiedad con descripción, precio y ubicación para ofrecerla a los huéspedes. | - Escenario 1: Registro exitoso<br>Dado que el anfitrión accede al formulario de registro de propiedad,<br>Cuando completa todos los campos requeridos y guarda,<br>Entonces el sistema registra la propiedad y la muestra en su lista. |
-| EP03     | Gestión de Propiedades | US10 | Subir fotos de la propiedad        | Como anfitrión, quiero subir fotos de mi propiedad para que los huéspedes tengan una mejor referencia.                   | - Escenario 1: Carga correcta<br>Dado que el anfitrión accede a la opción de subir fotos,<br>Cuando selecciona imágenes válidas,<br>Entonces el sistema guarda y muestra las fotos en la galería de la propiedad.                       |
-| EP03     | Gestión de Propiedades | US11 | Editar información de la propiedad | Como anfitrión, quiero editar los datos de mi propiedad para mantenerlos actualizados.                                   | - Escenario 1: Edición exitosa<br>Dado que el anfitrión accede a una propiedad registrada,<br>Cuando modifica los datos y guarda,<br>Entonces el sistema actualiza la información.                                                      |
-| EP03     | Gestión de Propiedades | US12 | Eliminar propiedad                 | Como anfitrión, quiero eliminar una propiedad registrada para que ya no aparezca disponible.                             | - Escenario 1: Eliminación correcta<br>Dado que el anfitrión accede a su lista de propiedades,<br>Cuando selecciona “Eliminar” en una propiedad,<br>Entonces el sistema la retira de la lista.                                          |
+| EP03     | Gestión de Propiedades | US09 | Registrar nueva propiedad          | Como anfitrión, quiero registrar una nueva propiedad con descripción, precio y ubicación para ofrecerla a los huéspedes. | - Escenario 1: Registro exitoso<br>**Dado** que el anfitrión está autenticado,<br>**Cuando** envía los datos completos de la propiedad (descripción, precio, ubicación),<br>**Entonces** el sistema registra la propiedad y la incluye en su lista de propiedades. |
+| EP03     | Gestión de Propiedades | US10 | Subir fotos de la propiedad        | Como anfitrión, quiero subir fotos de mi propiedad para que los huéspedes tengan una mejor referencia.                   | - Escenario 1: Carga correcta<br>**Dado** que el anfitrión tiene una propiedad registrada,<br>**Cuando** envía imágenes válidas para la propiedad,<br>**Entonces** el sistema procesa y almacena las fotos asociándolas a la propiedad.                       |
+| EP03     | Gestión de Propiedades | US11 | Editar información de la propiedad | Como anfitrión, quiero editar los datos de mi propiedad para mantenerlos actualizados.                                   | - Escenario 1: Edición exitosa<br>**Dado** que el anfitrión tiene una propiedad registrada,<br>**Cuando** envía datos actualizados de la propiedad,<br>**Entonces** el sistema actualiza la información de la propiedad correctamente.                                                      |
+| EP03     | Gestión de Propiedades | US12 | Eliminar propiedad                 | Como anfitrión, quiero eliminar una propiedad registrada para que ya no aparezca disponible.                             | - Escenario 1: Eliminación correcta<br>**Dado** que el anfitrión tiene una propiedad registrada,<br>**Cuando** solicita la eliminación de la propiedad,<br>**Entonces** el sistema elimina la propiedad y la retira de su lista.                                          |
+| EP03     | Gestión de Propiedades | TS09 | Crear habitación a través de la API | Como desarrollador frontend, quiero crear habitaciones a través de la API para implementar el flujo de registro de habitaciones. | - Escenario 1: Creación exitosa<br>**Dado** que se recibe una petición POST a `/api/v1/rooms` con atributos: RoomTypeId, Number, Status, <br>**Cuando** la API valida y persiste la habitación,<br>**Entonces** la API responde `201 Created` y retorna la habitación creada con sus atributos (id, roomTypeId, number, status).<br><br>- Escenario 2: Error de validación<br>**Dado** que se recibe una petición POST a `/api/v1/rooms` con atributos faltantes o inválidos,<br>**Cuando** la API rechaza la petición por validación,<br>**Entonces** la API responde `400 Bad Request` y retorna un payload de error. |
+| EP03     | Gestión de Propiedades | TS10 | Obtener habitación por ID a través de la API | Como desarrollador frontend, quiero obtener una habitación por ID para implementar la vista de detalle de habitación. | - Escenario 1: Habitación encontrada<br>**Dado** que se recibe una petición GET a `/api/v1/rooms/{roomId}`,<br>**Cuando** la API encuentra la habitación,<br>**Entonces** la API responde `200 OK` y retorna `RoomResource` con los datos de la habitación.<br><br>- Escenario 2: Habitación no encontrada<br>**Dado** que se recibe una petición GET a `/api/v1/rooms/{roomId}` para un ID inexistente,<br>**Cuando** la API no encuentra la habitación,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
+| EP03     | Gestión de Propiedades | TS17 | Obtener todas las habitaciones a través de la API | Como desarrollador frontend, quiero obtener todas las habitaciones para implementar la lista de habitaciones. | - Escenario 1: Lista exitosa<br>**Dado** que se recibe una petición GET a `/api/v1/rooms`,<br>**Cuando** la API retorna habitaciones,<br>**Entonces** la API responde `200 OK` con un array de `RoomResource` items.<br><br>- Escenario 2: Lista vacía<br>**Dado** que se recibe una petición GET a `/api/v1/rooms` cuando no hay habitaciones,<br>**Cuando** la API no encuentra habitaciones,<br>**Entonces** la API responde `200 OK` con un array vacío. |
+| EP03     | Gestión de Propiedades | TS18 | Obtener tipo de habitación por ID a través de la API | Como desarrollador frontend, quiero obtener un tipo de habitación por ID para mostrar información del tipo. | - Escenario 1: Tipo encontrado<br>**Dado** que se recibe una petición GET a `/api/v1/room-types/{roomTypeId}`,<br>**Cuando** la API encuentra el tipo de habitación,<br>**Entonces** la API responde `200 OK` y retorna `RoomTypeResource` con los datos del tipo.<br><br>- Escenario 2: Tipo no encontrado<br>**Dado** que se recibe una petición GET a `/api/v1/room-types/{roomTypeId}` para un ID inexistente,<br>**Cuando** la API no encuentra el tipo,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
 
 **EP04 – Búsqueda y Reserva de Estancias**
 
 | ID Épica | Épica                           | ID   | Título                               | Descripción                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                  |
 | -------- | ------------------------------- | ---- | ------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| EP04     | Búsqueda y Reserva de Estancias | US13 | Buscar propiedades por ubicación     | Como huésped, quiero buscar propiedades por ubicación para encontrar opciones cercanas a donde viajo. | - Escenario 1: Búsqueda exitosa<br>Dado que el huésped accede al buscador,<br>Cuando ingresa una ciudad o dirección válida,<br>Entonces el sistema muestra las propiedades disponibles en esa ubicación.                                                                                                                                                                 |
-| EP04     | Búsqueda y Reserva de Estancias | US14 | Filtrar por precio y fechas          | Como huésped, quiero aplicar filtros de precio y fechas para ajustar mi búsqueda.                     | - Escenario 1: Filtro aplicado<br>Dado que el huésped aplica filtros de precio y fechas,<br>Cuando actualiza la búsqueda,<br>Entonces el sistema muestra solo las propiedades que cumplen con esos criterios.                                                                                                                                                            |
-| EP04     | Búsqueda y Reserva de Estancias | US15 | Reservar una propiedad               | Como huésped, quiero reservar una propiedad para asegurar mi estancia en las fechas seleccionadas.    | - Escenario 1: Reserva exitosa<br>Dado que el huésped selecciona una propiedad disponible,<br>Cuando confirma la reserva,<br>Entonces el sistema guarda la reserva y muestra la confirmación.                                                                                                                                                                            |
-| EP04     | Búsqueda y Reserva de Estancias | US16 | Ver historial de reservas            | Como huésped, quiero ver mi historial de reservas para consultar mis viajes pasados y futuros.        | - Escenario 1: Consulta exitosa<br>Dado que el huésped accede a su perfil,<br>Cuando entra a la sección “Historial de reservas”,<br>Entonces el sistema le muestra sus reservas previas y próximas.                                                                                                                                                                      |
-| EP04     | Búsqueda y Reserva de Estancias | TS03 | Crear buscador y filtros en frontend | Como desarrollador, quiero implementar un buscador con filtros de precio y fecha en el frontend.      | - Escenario 1: Filtros vacíos<br>Dado que el huésped no selecciona filtros,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra todas las propiedades disponibles.<br><br>- Escenario 2: Filtros aplicados<br>Dado que el huésped selecciona filtros válidos,<br>Cuando ejecuta la búsqueda,<br>Entonces el sistema muestra solo los resultados que coinciden. |
-| EP04     | Búsqueda y Reserva de Estancias | TS04 | Simular reservas en frontend         | Como desarrollador, quiero simular el guardado de reservas en el frontend para pruebas iniciales.     | - Escenario 1: Simulación exitosa<br>Dado que el huésped confirma una reserva,<br>Cuando la guarda en el frontend,<br>Entonces el sistema muestra la reserva como confirmada en su lista de historial.                                                                                                                                                                   |
+| EP04     | Búsqueda y Reserva de Estancias | US13 | Buscar propiedades por ubicación     | Como huésped, quiero buscar propiedades por ubicación para encontrar opciones cercanas a donde viajo. | - Escenario 1: Búsqueda exitosa<br>**Dado** que el huésped proporciona una ciudad o dirección válida,<br>**Cuando** envía la solicitud de búsqueda,<br>**Entonces** el sistema retorna las propiedades disponibles en esa ubicación.                                                                                                                                                                 |
+| EP04     | Búsqueda y Reserva de Estancias | US14 | Filtrar por precio y fechas          | Como huésped, quiero aplicar filtros de precio y fechas para ajustar mi búsqueda.                     | - Escenario 1: Filtro aplicado<br>**Dado** que el huésped envía criterios de filtrado (precio y fechas),<br>**Cuando** solicita la búsqueda con filtros,<br>**Entonces** el sistema retorna solo las propiedades que cumplen con esos criterios.                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US15 | Reservar una propiedad               | Como huésped, quiero reservar una propiedad para asegurar mi estancia en las fechas seleccionadas.    | - Escenario 1: Reserva exitosa<br>**Dado** que el huésped selecciona una propiedad disponible,<br>**Cuando** envía la solicitud de reserva con fechas válidas,<br>**Entonces** el sistema procesa y confirma la reserva.                                                                                                                                                                            |
+| EP04     | Búsqueda y Reserva de Estancias | US16 | Ver historial de reservas            | Como huésped, quiero ver mi historial de reservas para consultar mis viajes pasados y futuros.        | - Escenario 1: Consulta exitosa<br>**Dado** que el huésped está autenticado,<br>**Cuando** solicita su historial de reservas,<br>**Entonces** el sistema retorna sus reservas previas y próximas.                                                                                                                                                                      |
+| EP04     | Búsqueda y Reserva de Estancias | TS11 | Crear reserva a través de la API | Como desarrollador frontend, quiero crear reservas a través de la API para implementar el flujo de reservación. | - Escenario 1: Creación exitosa<br>**Dado** que se recibe una petición POST a `/api/v1/bookings` con atributos: RoomId, GuestId, CheckInDate, CheckOutDate, <br>**Cuando** la API valida y persiste la reserva,<br>**Entonces** la API responde `201 Created` y retorna la reserva creada con sus atributos (id, roomId, guestId, checkInDate, checkOutDate, status).<br><br>- Escenario 2: Error de validación<br>**Dado** que se recibe una petición POST a `/api/v1/bookings` con atributos faltantes o fechas inválidas,<br>**Cuando** la API rechaza la petición por validación,<br>**Entonces** la API responde `400 Bad Request` y retorna un payload de error.<br><br>- Escenario 3: Habitación no disponible<br>**Dado** que se recibe una petición POST a `/api/v1/bookings` para una habitación no disponible en las fechas solicitadas,<br>**Cuando** la API verifica la disponibilidad,<br>**Entonces** la API responde `409 Conflict` y retorna un payload de error indicando conflicto de disponibilidad. |
+| EP04     | Búsqueda y Reserva de Estancias | TS12 | Obtener reserva por ID a través de la API | Como desarrollador frontend, quiero obtener una reserva por ID para implementar la vista de detalle de reserva. | - Escenario 1: Reserva encontrada<br>**Dado** que se recibe una petición GET a `/api/v1/bookings/{bookingId}`,<br>**Cuando** la API encuentra la reserva,<br>**Entonces** la API responde `200 OK` y retorna `BookingResource` con los datos de la reserva.<br><br>- Escenario 2: Reserva no encontrada<br>**Dado** que se recibe una petición GET a `/api/v1/bookings/{bookingId}` para un ID inexistente,<br>**Cuando** la API no encuentra la reserva,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
+| EP04     | Búsqueda y Reserva de Estancias | TS13 | Confirmar reserva a través de la API | Como desarrollador frontend, quiero confirmar reservas a través de la API para implementar el flujo de confirmación. | - Escenario 1: Confirmación exitosa<br>**Dado** que se recibe una petición POST a `/api/v1/bookings/{bookingId}/confirm`,<br>**Cuando** la API procesa la confirmación,<br>**Entonces** la API responde `200 OK` y retorna la reserva actualizada con status "Confirmed".<br><br>- Escenario 2: Reserva no encontrada<br>**Dado** que se recibe una petición POST a `/api/v1/bookings/{bookingId}/confirm` para un ID inexistente,<br>**Cuando** la API no encuentra la reserva,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
+| EP04     | Búsqueda y Reserva de Estancias | TS19 | Obtener todas las reservas a través de la API | Como desarrollador frontend, quiero obtener todas las reservas para implementar la lista de reservas. | - Escenario 1: Lista exitosa<br>**Dado** que se recibe una petición GET a `/api/v1/bookings`,<br>**Cuando** la API retorna reservas,<br>**Entonces** la API responde `200 OK` con un array de `BookingResource` items.<br><br>- Escenario 2: Lista vacía<br>**Dado** que se recibe una petición GET a `/api/v1/bookings` cuando no hay reservas,<br>**Cuando** la API no encuentra reservas,<br>**Entonces** la API responde `200 OK` con un array vacío. |
+| EP04     | Búsqueda y Reserva de Estancias | TS20 | Cancelar reserva a través de la API | Como desarrollador frontend, quiero cancelar reservas a través de la API para implementar el flujo de cancelación. | - Escenario 1: Cancelación exitosa<br>**Dado** que se recibe una petición POST a `/api/v1/bookings/{bookingId}/cancel`,<br>**Cuando** la API procesa la cancelación,<br>**Entonces** la API responde `200 OK` y retorna la reserva actualizada con status "Cancelled".<br><br>- Escenario 2: Reserva no encontrada<br>**Dado** que se recibe una petición POST a `/api/v1/bookings/{bookingId}/cancel` para un ID inexistente,<br>**Cuando** la API no encuentra la reserva,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
 
 **EP05 – Pagos y Facturación**
 
 | ID Épica | Épica               | ID   | Título                        | Descripción                                                                               | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                            |
 | -------- | ------------------- | ---- | ----------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP05     | Pagos y Facturación | US17 | Realizar pago en línea        | Como usuario, quiero realizar un pago en línea para completar mi reserva.                 | - Escenario 1: Pago exitoso<br>**Dado** que el usuario accede al formulario de pago,<br>**Cuando** ingresa datos válidos y confirma,<br>**Entonces** el sistema procesa el pago y muestra confirmación.<br><br>- Escenario 2: Pago rechazado<br>**Dado** que el usuario ingresa datos inválidos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensaje de error. |
-| EP05     | Pagos y Facturación | US18 | Consultar historial de pagos  | Como usuario, quiero consultar mi historial de pagos para revisar mis transacciones.      | - Escenario 1: Ver historial<br>**Dado** que el usuario accede a la sección de pagos,<br>**Cuando** ya realizó transacciones,<br>**Entonces** se listan los pagos realizados.<br><br>- Escenario 2: Sin historial<br>**Dado** que el usuario no tiene pagos,<br>**Cuando** entra a la sección,<br>**Entonces** se muestra el mensaje “No tienes pagos registrados”.                |
-| EP05     | Pagos y Facturación | US19 | Descargar comprobante de pago | Como usuario, quiero descargar un comprobante de pago para tener un respaldo.             | - Escenario 1: Descarga exitosa<br>**Dado** que el usuario está en su historial,<br>**Cuando** selecciona “Descargar”,<br>**Entonces** el sistema genera un PDF con los datos del pago.                                                                                                                                                                                            |
-| EP05     | Pagos y Facturación | TS05 | Simular integración de pago   | Como desarrollador, quiero simular la integración de un servicio de pagos en el frontend. | - Escenario 1: Validación básica<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta pagar,<br>**Entonces** el sistema muestra mensajes de validación.<br><br>- Escenario 2: Simulación de respuesta<br>**Dado** que se envía un pago,<br>**Cuando** el sistema recibe la respuesta simulada,<br>**Entonces** guarda el estado como “Aprobado” o “Rechazado”.     |
+| EP05     | Pagos y Facturación | US17 | Realizar pago en línea        | Como usuario, quiero realizar un pago en línea para completar mi reserva.                 | - Escenario 1: Pago exitoso<br>**Dado** que el usuario tiene una reserva pendiente de pago,<br>**Cuando** envía los datos de pago válidos,<br>**Entonces** el sistema procesa el pago y confirma la transacción.<br><br>- Escenario 2: Pago rechazado<br>**Dado** que el usuario envía datos de pago inválidos,<br>**Cuando** intenta procesar el pago,<br>**Entonces** el sistema rechaza la transacción y notifica el error. |
+| EP05     | Pagos y Facturación | US18 | Consultar historial de pagos  | Como usuario, quiero consultar mi historial de pagos para revisar mis transacciones.      | - Escenario 1: Ver historial<br>**Dado** que el usuario está autenticado y tiene transacciones realizadas,<br>**Cuando** solicita su historial de pagos,<br>**Entonces** el sistema retorna la lista de pagos realizados.<br><br>- Escenario 2: Sin historial<br>**Dado** que el usuario no tiene pagos registrados,<br>**Cuando** solicita su historial de pagos,<br>**Entonces** el sistema retorna una lista vacía.                |
+| EP05     | Pagos y Facturación | US19 | Descargar comprobante de pago | Como usuario, quiero descargar un comprobante de pago para tener un respaldo.             | - Escenario 1: Descarga exitosa<br>**Dado** que el usuario tiene un pago registrado,<br>**Cuando** solicita el comprobante de pago,<br>**Entonces** el sistema genera y proporciona un documento con los datos del pago.                                                                                                                                                                                            |
+| EP05     | Pagos y Facturación | TS14 | Crear pago a través de la API | Como desarrollador frontend, quiero crear pagos a través de la API para implementar el flujo de procesamiento de pagos. | - Escenario 1: Creación exitosa<br>**Dado** que se recibe una petición POST a `/api/v1/payments` con atributos: BookingId, Amount, PaymentMethod, <br>**Cuando** la API valida y persiste el pago,<br>**Entonces** la API responde `201 Created` y retorna el pago creado con sus atributos (id, bookingId, amount, status, paymentMethod).<br><br>- Escenario 2: Error de validación<br>**Dado** que se recibe una petición POST a `/api/v1/payments` con atributos faltantes o inválidos,<br>**Cuando** la API rechaza la petición por validación,<br>**Entonces** la API responde `400 Bad Request` y retorna un payload de error. |
+| EP05     | Pagos y Facturación | TS15 | Procesar pago a través de la API | Como desarrollador frontend, quiero procesar pagos a través de la API para completar transacciones. | - Escenario 1: Procesamiento exitoso<br>**Dado** que se recibe una petición POST a `/api/v1/payments/{paymentId}/process`,<br>**Cuando** la API procesa el pago exitosamente,<br>**Entonces** la API responde `200 OK` y retorna el pago actualizado con status "Completed".<br><br>- Escenario 2: Procesamiento fallido<br>**Dado** que se recibe una petición POST a `/api/v1/payments/{paymentId}/process`,<br>**Cuando** el procesamiento del pago falla,<br>**Entonces** la API responde `200 OK` y retorna el pago actualizado con status "Failed". |
+| EP05     | Pagos y Facturación | TS16 | Obtener pagos por reserva a través de la API | Como desarrollador frontend, quiero obtener los pagos asociados a una reserva para mostrar el historial de pagos. | - Escenario 1: Pagos encontrados<br>**Dado** que se recibe una petición GET a `/api/v1/payments/booking/{bookingId}`,<br>**Cuando** la API encuentra pagos asociados a la reserva,<br>**Entonces** la API responde `200 OK` y retorna un array de `PaymentResource` con los pagos de la reserva.<br><br>- Escenario 2: Sin pagos<br>**Dado** que se recibe una petición GET a `/api/v1/payments/booking/{bookingId}` para una reserva sin pagos,<br>**Cuando** la API no encuentra pagos,<br>**Entonces** la API responde `200 OK` con un array vacío.     |
+| EP05     | Pagos y Facturación | TS21 | Obtener pago por ID a través de la API | Como desarrollador frontend, quiero obtener un pago por ID para implementar la vista de detalle de pago. | - Escenario 1: Pago encontrado<br>**Dado** que se recibe una petición GET a `/api/v1/payments/{paymentId}`,<br>**Cuando** la API encuentra el pago,<br>**Entonces** la API responde `200 OK` y retorna `PaymentResource` con los datos del pago.<br><br>- Escenario 2: Pago no encontrado<br>**Dado** que se recibe una petición GET a `/api/v1/payments/{paymentId}` para un ID inexistente,<br>**Cuando** la API no encuentra el pago,<br>**Entonces** la API responde `404 Not Found` y retorna un payload de error. |
+| EP05     | Pagos y Facturación | TS22 | Obtener todos los pagos a través de la API | Como desarrollador frontend, quiero obtener todos los pagos para implementar la lista de pagos. | - Escenario 1: Lista exitosa<br>**Dado** que se recibe una petición GET a `/api/v1/payments`,<br>**Cuando** la API retorna pagos,<br>**Entonces** la API responde `200 OK` con un array de `PaymentResource` items.<br><br>- Escenario 2: Lista vacía<br>**Dado** que se recibe una petición GET a `/api/v1/payments` cuando no hay pagos,<br>**Cuando** la API no encuentra pagos,<br>**Entonces** la API responde `200 OK` con un array vacío. |
 
 **EP06 – Reseñas y Calificaciones**
 
 | ID Épica | Épica                    | ID   | Título                            | Descripción                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                |
 | -------- | ------------------------ | ---- | --------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP06     | Reseñas y Calificaciones | US20 | Dejar reseña de una estancia      | Como usuario, quiero dejar una reseña después de mi estancia para compartir mi experiencia.              | - Escenario 1: Reseña enviada<br>**Dado** que el usuario accede al formulario,<br>**Cuando** escribe su reseña y envía,<br>**Entonces** el sistema la guarda y muestra en la lista.<br><br>- Escenario 2: Validación<br>**Dado** que el usuario intenta enviar reseña vacía,<br>**Cuando** presiona guardar,<br>**Entonces** se muestra un mensaje de error.                           |
-| EP06     | Reseñas y Calificaciones | US21 | Calificar anfitrión o huésped     | Como usuario, quiero calificar al anfitrión o huésped para dar retroalimentación.                        | - Escenario 1: Calificación registrada<br>**Dado** que el usuario accede a la sección de calificaciones,<br>**Cuando** selecciona estrellas y guarda,<br>**Entonces** el sistema registra la calificación.                                                                                                                                                                             |
-| EP06     | Reseñas y Calificaciones | US22 | Ver reseñas de una propiedad      | Como huésped, quiero ver reseñas de propiedades para tomar mejores decisiones.                           | - Escenario 1: Reseñas disponibles<br>**Dado** que la propiedad tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el listado.<br><br>- Escenario 2: Sin reseñas<br>**Dado** que la propiedad no tiene reseñas,<br>**Cuando** el huésped accede a la sección,<br>**Entonces** el sistema muestra el mensaje “No hay reseñas disponibles”. |
-| EP06     | Reseñas y Calificaciones | TS06 | Formulario de reseñas en frontend | Como desarrollador, quiero implementar un formulario de reseñas conectado a la UI con guardado simulado. | - Escenario 1: Validación de campos<br>**Dado** que el usuario deja campos vacíos,<br>**Cuando** intenta guardar,<br>**Entonces** se muestran mensajes de error.<br><br>- Escenario 2: Guardado simulado<br>**Dado** que el usuario envía una reseña válida,<br>**Cuando** guarda,<br>**Entonces** el sistema la almacena en localstorage o JSON simulado.                             |
+| EP06     | Reseñas y Calificaciones | US20 | Dejar reseña de una estancia      | Como usuario, quiero dejar una reseña después de mi estancia para compartir mi experiencia.              | - Escenario 1: Reseña enviada<br>**Dado** que el usuario completó una estancia,<br>**Cuando** envía una reseña con contenido válido,<br>**Entonces** el sistema procesa y guarda la reseña asociándola a la estancia.<br><br>- Escenario 2: Validación<br>**Dado** que el usuario intenta enviar una reseña vacía,<br>**Cuando** envía la solicitud,<br>**Entonces** el sistema rechaza la solicitud y notifica el error de validación.                           |
+| EP06     | Reseñas y Calificaciones | US21 | Calificar anfitrión o huésped     | Como usuario, quiero calificar al anfitrión o huésped para dar retroalimentación.                        | - Escenario 1: Calificación registrada<br>**Dado** que el usuario completó una interacción,<br>**Cuando** envía una calificación con puntuación válida,<br>**Entonces** el sistema registra la calificación y actualiza el perfil del calificado.                                                                                                                                                                             |
+| EP06     | Reseñas y Calificaciones | US22 | Ver reseñas de una propiedad      | Como huésped, quiero ver reseñas de propiedades para tomar mejores decisiones.                           | - Escenario 1: Reseñas disponibles<br>**Dado** que una propiedad tiene reseñas registradas,<br>**Cuando** el huésped solicita las reseñas de la propiedad,<br>**Entonces** el sistema retorna el listado de reseñas.<br><br>- Escenario 2: Sin reseñas<br>**Dado** que una propiedad no tiene reseñas,<br>**Cuando** el huésped solicita las reseñas,<br>**Entonces** el sistema retorna una lista vacía. |
 
 **EP07 – Seguridad y Privacidad**
 
 | ID Épica | Épica           | ID   | Título                                                               | Descripción                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                |
 | -------- | --------------- | ---- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| EP07     | Soporte y Ayuda | US23 | Acceder a preguntas frecuentes                                       | Como usuario, quiero acceder a una sección de preguntas frecuentes para resolver mis dudas comunes. | - Escenario 1: Ver FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** selecciona “Preguntas frecuentes”,<br>**Entonces** el sistema muestra un listado con preguntas y respuestas.                                                                                                                                                                                             |
-| EP07     | Soporte y Ayuda | US24 | Enviar reporte de problema                                           | Como usuario, quiero enviar un reporte de problema para notificar errores en la plataforma.         | - Escenario 1: Enviar reporte<br>**Dado** que el usuario completa el formulario de reporte,<br>**Cuando** hace clic en “Enviar”,<br>**Entonces** el sistema confirma el envío del reporte.                                                                                                                                                                                                             |
-| EP07     | Soporte y Ayuda | US25 | Contactar con soporte técnico                                        | Como usuario, quiero contactar con soporte técnico para recibir asistencia personalizada.           | - Escenario 1: Solicitar contacto<br>**Dado** que el usuario ingresa a la sección de contacto,<br>**Cuando** envía una solicitud,<br>**Entonces** el sistema muestra un mensaje confirmando que será atendido.                                                                                                                                                                                         |
-| EP07     | Soporte y Ayuda | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes | Como desarrollador, quiero implementar un formulario de contacto y sección de FAQs en el frontend.  | - Escenario 1: Validación de formulario<br>**Dado** que el usuario deja campos obligatorios vacíos,<br>**Cuando** intenta enviar el formulario,<br>**Entonces** el sistema muestra mensajes de error.<br><br>- Escenario 2: Mostrar FAQs<br>**Dado** que el usuario entra a la sección de Ayuda,<br>**Cuando** abre la pestaña de preguntas frecuentes,<br>**Entonces** se despliega la lista de FAQs. |
+| EP07     | Soporte y Ayuda | US23 | Acceder a preguntas frecuentes                                       | Como usuario, quiero acceder a una sección de preguntas frecuentes para resolver mis dudas comunes. | - Escenario 1: Ver FAQs<br>**Dado** que el usuario solicita las preguntas frecuentes,<br>**Cuando** el sistema procesa la solicitud,<br>**Entonces** el sistema retorna un listado con preguntas y respuestas.                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US24 | Enviar reporte de problema                                           | Como usuario, quiero enviar un reporte de problema para notificar errores en la plataforma.         | - Escenario 1: Enviar reporte<br>**Dado** que el usuario completa el formulario de reporte con datos válidos,<br>**Cuando** envía el reporte,<br>**Entonces** el sistema procesa y confirma la recepción del reporte.                                                                                                                                                                                                             |
+| EP07     | Soporte y Ayuda | US25 | Contactar con soporte técnico                                        | Como usuario, quiero contactar con soporte técnico para recibir asistencia personalizada.           | - Escenario 1: Solicitar contacto<br>**Dado** que el usuario envía una solicitud de contacto con datos válidos,<br>**Cuando** el sistema procesa la solicitud,<br>**Entonces** el sistema confirma que la solicitud será atendida.                                                                                                                                                                                         |
 
 
 **EP08 – Exploración como Visitante**
 
 | ID Épica | Épica                      | ID   | Título                                                    | Descripción                                                                                       | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------- | -------------------------- | ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP08     | Exploración como Visitante | US26 | Ver información general sobre SmartStay                   | Como visitante, quiero ver información general sobre SmartStay para conocer la plataforma.        | - Escenario 1: Información visible<br>**Dado** que el visitante entra al landing page,<br>**Cuando** carga la página,<br>**Entonces** el sistema muestra información general de SmartStay.                                                                                                                                                                                                                        |
-| EP08     | Exploración como Visitante | US27 | Conocer beneficios de usar la plataforma                  | Como visitante, quiero conocer los beneficios de usar la plataforma para evaluar su utilidad.     | - Escenario 1: Ver beneficios<br>**Dado** que el visitante está en el landing,<br>**Cuando** navega hacia la sección de beneficios,<br>**Entonces** el sistema muestra los principales beneficios destacados.                                                                                                                                                                                                     |
-| EP08     | Exploración como Visitante | US28 | Acceder fácilmente al registro o login                    | Como visitante, quiero acceder fácilmente al registro o login para empezar a usar la plataforma.  | - Escenario 1: Acceso desde botones<br>**Dado** que el visitante está en el landing,<br>**Cuando** hace clic en “Registrarse” o “Iniciar sesión”,<br>**Entonces** el sistema lo redirige a la página correspondiente.                                                                                                                                                                                             |
-| EP08     | Exploración como Visitante | TS08 | Implementar landing page con botones hacia login/registro | Como desarrollador, quiero implementar el landing page con botones claros hacia login y registro. | - Escenario 1: Botones funcionales<br>**Dado** que el visitante hace clic en “Registrarse” o “Iniciar sesión”,<br>**Cuando** se procesa la acción,<br>**Entonces** el sistema lo redirige correctamente.<br><br>- Escenario 2: Diseño responsive<br>**Dado** que el visitante accede desde un dispositivo móvil,<br>**Cuando** carga el landing,<br>**Entonces** el contenido se adapta al tamaño de la pantalla. |
+| EP08     | Exploración como Visitante | US26 | Ver información general sobre SmartStay                   | Como visitante, quiero ver información general sobre SmartStay para conocer la plataforma.        | - Escenario 1: Información visible<br>**Dado** que el visitante accede al landing page,<br>**Cuando** la página se carga,<br>**Entonces** el sistema muestra información general de SmartStay.                                                                                                                                                                                                                        |
+| EP08     | Exploración como Visitante | US27 | Conocer beneficios de usar la plataforma                  | Como visitante, quiero conocer los beneficios de usar la plataforma para evaluar su utilidad.     | - Escenario 1: Ver beneficios<br>**Dado** que el visitante accede al landing page,<br>**Cuando** navega por la sección de beneficios,<br>**Entonces** el sistema muestra los principales beneficios destacados de la plataforma.                                                                                                                                                                                                     |
+| EP08     | Exploración como Visitante | US28 | Acceder fácilmente al registro o login                    | Como visitante, quiero acceder fácilmente al registro o login para empezar a usar la plataforma.  | - Escenario 1: Acceso a registro/login<br>**Dado** que el visitante está en el landing page,<br>**Cuando** solicita acceso a registro o login,<br>**Entonces** el sistema proporciona acceso a las páginas correspondientes.                                                                                                                                                                                             |
+| EP08     | Exploración como Visitante | TS08 | Implementar landing page con navegación hacia login/registro | Como desarrollador, quiero implementar el landing page con navegación clara hacia login y registro. | - Escenario 1: Navegación funcional<br>**Dado** que el visitante solicita acceso a registro o login desde el landing,<br>**Cuando** el sistema procesa la solicitud,<br>**Entonces** el sistema redirige correctamente a la página correspondiente.<br><br>- Escenario 2: Diseño responsive<br>**Dado** que el visitante accede desde un dispositivo móvil,<br>**Cuando** el landing se carga,<br>**Entonces** el contenido se adapta al tamaño del dispositivo. |
 
 
 ## 3.2. Impact Mapping.
@@ -2287,7 +2307,7 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 |------------------------------------------|----------------------|------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------|
 | **Verona Flores, Italo Sebastián** | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
 | **Valverde Portuguez, Natalia Ximena** | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
-| **Fernandez Garfias, Alexander Piero** | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Fernandez Garfias, Alexander Piero** | [@shiloox](https://github.com/shiloox) | C | C | L | C |
 | **Saavedra Angulo, Jose Jhonatan** | [@ElrichMasNa](https://github.com/ElrichMasNa) | C | C | C | L |
 | **Ramos Aguirre, Aldair Joaquin** | [@AldairRamos13](https://github.com/AldairRamos13) | C | C | C | L |
 
@@ -2637,22 +2657,23 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 ---
 ## 5.2.3. Sprint 3
 
-En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creación del backend con sus respectivas tareas (Work Items). Aquí también trabajamos con los mismos bounded context y estructura planteada en el anterior sprint, pero con el fin de crear su respectivo API RESTful.
----
+En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creación del backend con sus respectivas tareas. Aquí también trabajamos con los mismos bounded contexts y estructura planteada en el anterior sprint, pero con el fin de crear su respectivo API RESTful.
+
+
 ## 5.2.3.1. Spring Planning 3.
 
 | **Sprint #** | Sprint 3|
 |------------|-----------------|
-| **Sprint Planning Background** | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Web Service (Backend). En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. |
+| **Sprint Planning Background** | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Web Service (Backend). En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. Además, se acordó mejorar la calidad de las User Stories y Technical Stories del proyecto, corrigiendo referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos y códigos HTTP. |
 | **Date** | 2025-10-22 |
 | **Time** | 07:00 PM |
 | **Location** | Modalidad remota mediante **Discord** |
 | **Prepared By** | Equipo **SmartStay** |
 | **Attendees (to planning meeting)** | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan |
-| **Sprint 3 – 2 Review Summary** | En el Sprint 2, logramos culminar el desarrollo del frontend de SmartStay, incluyendo la implementación de la interfaz principal, la navegación y la optimización visual. El resultado fue  funcional, aunque se identificaron pequeñas incidencias con la estructura de los boundedcontext, el diseño de interfaz y el rendimiento que deberán ser ajustadas más adelante. |
+| **Sprint 3 – 2 Review Summary** | En el Sprint 2, logramos culminar el desarrollo del frontend de SmartStay, incluyendo la implementación de la interfaz principal, la navegación y la optimización visual. El resultado fue funcional, aunque se identificaron pequeñas incidencias con la estructura de los bounded contexts, el diseño de interfaz y el rendimiento que deberán ser ajustadas más adelante. |
 | **Sprint 3 – 2 Retrospective Summary** | Durante el Sprint 2, el equipo trabajó de forma colaborativa y cumplió con los objetivos propuestos. Sin embargo, se evidenció la necesidad de una mejor coordinación en la gestión de versiones y documentación del código. Se acordó reforzar el control de tiempo en las tareas dadas a los integrantes. |
 | **Sprint Goal & User Stories** | — |
-| **Sprint 3 Goal** | El objetivo de este Sprint es desarrollar el Web Service (Backend) de SmartStay, implementando los módulos base que gestionan usuarios, alojamientos, reservas, reseñas y pagos. Se configurará la conexión con la base de datos, los endpoints principales y la autenticación. El cumplimiento se confirmará cuando el backend esté funcional y permita la interacción con datos reales desde las APIs REST. |
+| **Sprint 3 Goal** | **Nuestro enfoque está en** implementar los bounded contexts core del negocio (Accommodations, Bookings y Payments) a través de una API RESTful, mejorando la calidad de las User Stories y Technical Stories del proyecto, y proporcionando documentación interactiva de la API. **Creemos que esto proporciona** funcionalidad backend robusta y escalable a los desarrolladores frontend, mejor especificación de requisitos a los stakeholders, y una base sólida para la integración de servicios a los administradores de hoteles. **Esto se confirmará cuando** los desarrolladores frontend puedan consumir los endpoints de Accommodations, Bookings y Payments a través de la API desplegada, las User Stories y Technical Stories cumplan con los estándares de calidad establecidos (formato Gherkin, sin referencias a UI, con endpoints específicos), y la documentación Swagger esté disponible y funcional para pruebas de integración. |
 | **Sprint 3 Velocity** | 18 |
 | **Sum of Story Points** | 20 |
 
@@ -2660,14 +2681,14 @@ En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creaci�
 
 ## 5.2.3.2. Aspect Leaders and Collaborators.
 
-Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Web Service (Backend) de SmartStay, creando la estructura base de la API RESTful y los módulos correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
+Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Web Service (Backend) de SmartStay, creando la estructura base de la API RESTful y los bounded contexts correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
 Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y Colaboración (LACX), donde se definen los roles de Líder (L) y Colaborador (C) según los principales aspectos del Sprint.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Implementación de la API RESTful (Endpoints principales)** | **Integración de módulos por bounded context** | **Configuración y conexión con la Base de Datos** | **Gestión de autenticación y seguridad** |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Implementación de la API RESTful (Endpoints principales)** | **Integración de bounded contexts** | **Configuración y conexión con la Base de Datos** | **Gestión de autenticación y seguridad** |
 |-----------------------------------------|---------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
 | **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L | C | C | C |
 | **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15) | C | L | C | C |
-| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C | C | L | C |
+| **Fernandez Garfias, Alexander Piero**  | [@shiloox](https://github.com/shiloox) | C | C | L | C |
 | **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)| C | C | C | L |
 
 ---
@@ -2701,9 +2722,22 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 
 ## 5.2.3.4. Development Evidence for Sprint Review.
 
-En este tercer sprint nos enfocamos en realizar la implementación del WebService BACKEND. En la siguiente tabla se muestran los commits realizados.
+En este tercer sprint nos enfocamos en realizar la implementación del WebService BACKEND. Además, como parte del trabajo de desarrollo, se mejoraron las User Stories y Technical Stories del proyecto para cumplir con los estándares de calidad establecidos, eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST.
 
-(FALTA capturas de commits q salga los nombres de todos)
+### Commits realizados
+
+
+### Backend
+
+![GitHubRepository1](assets/GitHubRepository1.png)
+
+### Report
+
+![GitHubRepository2](assets/GitHubRepository2.png)
+
+### Front-end
+
+![GitHubRepository3](assets/GitHubRepository3.png)
 
 ---
 
@@ -2721,7 +2755,7 @@ La ejecución se centró en:
 
 ### Bounded Contexts del Sistema
 
-Nuestro sistema está diseñado con **5 bounded contexts**:
+Nuestro sistema está diseñado con **5 bounded contexts** :
 
 1. **Accommodations** - Gestión de habitaciones y tipos de habitación
 2. **Bookings** - Gestión de reservas
@@ -2729,13 +2763,13 @@ Nuestro sistema está diseñado con **5 bounded contexts**:
 4. **IAM** - Identity and Access Management 
 5. **Profile** - Gestión de perfiles de usuario 
 
-En esta entrega, nos enfocamos en los **3 bounded contexts ** (Accommodations, Bookings y Payments), ya que representan la lógica de negocio fundamental del sistema de gestión hotelera.
+En este **Sprint 3**, nos enfocamos en implementar los **3 bounded contexts core del negocio** (Accommodations, Bookings y Payments), ya que representan la lógica de negocio fundamental del sistema de gestión hotelera. Los bounded contexts de **IAM** y **Profile** se implementarán en el **Sprint 4**, ya que no representan lógica de negocio core y pueden desarrollarse posteriormente sin afectar el funcionamiento principal del sistema.
 
-### Módulos desarrollados
+### Bounded contexts desarrollados
 
-#### 1. MÓDULO DE ALOJAMIENTOS (ACCOMMODATIONS)
+#### 1. BOUNDED CONTEXT DE ALOJAMIENTOS (ACCOMMODATIONS)
 
-Este módulo gestiona las habitaciones y tipos de habitación del sistema:
+Este bounded context gestiona las habitaciones y tipos de habitación del sistema:
 
 - **RoomsController**: Endpoints para gestionar habitaciones
   - `GET /api/v1/rooms/{roomId}` - Obtener habitación por ID
@@ -2748,9 +2782,9 @@ Este módulo gestiona las habitaciones y tipos de habitación del sistema:
   - `POST /api/v1/room-types` - Crear nuevo tipo de habitación
   - `GET /api/v1/room-types` - Obtener todos los tipos de habitación
 
-#### 2. MÓDULO DE RESERVAS (BOOKINGS)
+#### 2. BOUNDED CONTEXT DE RESERVAS (BOOKINGS)
 
-Este módulo gestiona las reservas de habitaciones:
+Este bounded context gestiona las reservas de habitaciones:
 
 - **BookingsController**: Endpoints para gestionar reservas
   - `GET /api/v1/bookings/{bookingId}` - Obtener reserva por ID
@@ -2760,9 +2794,9 @@ Este módulo gestiona las reservas de habitaciones:
   - `POST /api/v1/bookings/{bookingId}/confirm` - Confirmar una reserva
   - `POST /api/v1/bookings/{bookingId}/cancel` - Cancelar una reserva
 
-#### 3. MÓDULO DE PAGOS (PAYMENTS)
+#### 3. BOUNDED CONTEXT DE PAGOS (PAYMENTS)
 
-Este módulo gestiona los pagos asociados a las reservas:
+Este bounded context gestiona los pagos asociados a las reservas:
 
 - **PaymentsController**: Endpoints para gestionar pagos
   - `GET /api/v1/payments/{paymentId}` - Obtener pago por ID
@@ -2777,7 +2811,7 @@ Este módulo gestiona los pagos asociados a las reservas:
 - Arquitectura basada en **Domain-Driven Design (DDD)** con bounded contexts
 - **Entity Framework Core** para persistencia de datos con MySQL
 - **Swagger/OpenAPI** para documentación interactiva de la API
-- **API REST** con endpoints organizados por módulos
+- **API REST** con endpoints organizados por bounded contexts
 
 ### Evidencia visual
 
@@ -2785,25 +2819,25 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 - **Swagger UI - Documentación de la API**
 
-  Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por módulos (Accommodations, Bookings, Payments).
+  Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por bounded contexts (Accommodations, Bookings, Payments).
 
   ![SwaggerUI](assets/SwaggerUI.png)
 
 - **Swagger - Endpoints de Accommodations**
 
-  Vista detallada de los endpoints del módulo de habitaciones, mostrando los métodos HTTP disponibles y sus parámetros.
+  Vista detallada de los endpoints del bounded context de Accommodations, mostrando los métodos HTTP disponibles y sus parámetros.
 
   ![SwaggerRooms](assets/SwaggerRooms.png)
 
 - **Swagger - Endpoints de Bookings**
 
-  Vista detallada de los endpoints del módulo de reservas, incluyendo operaciones de creación, consulta, confirmación y cancelación.
+  Vista detallada de los endpoints del bounded context de Bookings, incluyendo operaciones de creación, consulta, confirmación y cancelación.
 
   ![SwaggerBookings](assets/SwaggerBookings.png)
 
 - **Swagger - Endpoints de Payments**
 
-  Vista detallada de los endpoints del módulo de pagos, mostrando las operaciones para gestionar el ciclo de vida de los pagos.
+  Vista detallada de los endpoints del bounded context de Payments, mostrando las operaciones para gestionar el ciclo de vida de los pagos.
 
   ![SwaggerPayments](assets/SwaggerPayments.png)
 
@@ -2821,7 +2855,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 - **Estructura del proyecto **
 
-  Vista de la estructura de carpetas del proyecto, mostrando la organización modular por bounded contexts (Accommodations, Bookings, Payments).
+  Vista de la estructura de carpetas del proyecto, mostrando la organización por bounded contexts (Accommodations, Bookings, Payments).
 
   ![ProjectStructure](assets/ProjectStructure.png)
 
@@ -2833,34 +2867,126 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-(FALTA en proceso por nat)
+En este **Sprint 3**, el equipo implementó la documentación completa de la **API REST de SmartStay** utilizando **Swagger/OpenAPI**. Esta documentación interactiva permite a los desarrolladores y usuarios del sistema entender, probar y consumir los endpoints de manera eficiente.
+
+### Documentación con Swagger/OpenAPI
+
+La documentación de la API se generó  utilizando **Swagger UI**, que proporciona una interfaz web interactiva para explorar y probar todos los endpoints disponibles. Esta herramienta es esencial para:
+
+- **Documentación automática**: Genera documentación actualizada automáticamente basada en los atributos y comentarios del código.
+- **Pruebas interactivas**: Permite probar los endpoints directamente desde el navegador sin necesidad de herramientas externas como Postman.
+- **Validación de esquemas**: Muestra los modelos de datos, tipos de parámetros y respuestas esperadas para cada endpoint.
+- **Integración con frontend**: Facilita la integración del frontend al proporcionar especificaciones OpenAPI que pueden ser consumidas por herramientas de generación de código.
+
+### Bounded contexts documentados
+
+La documentación cubre los siguientes bounded contexts y sus respectivos endpoints:
+
+1. **Accommodations (Alojamientos)**
+   - Endpoints para gestión de habitaciones (`/api/v1/rooms`)
+   - Endpoints para gestión de tipos de habitación (`/api/v1/room-types`)
+   - Operaciones CRUD completas con ejemplos de request y response
+
+2. **Bookings (Reservas)**
+   - Endpoints para creación y gestión de reservas (`/api/v1/bookings`)
+   - Operaciones de confirmación y cancelación de reservas
+   - Consultas de reservas por usuario o habitación
+
+3. **Payments (Pagos)**
+   - Endpoints para procesamiento de pagos (`/api/v1/payments`)
+   - Consulta de transacciones y estados de pago
+   - Integración con simuladores de pasarelas de pago
+
+### Características de la documentación
+
+- **Especificación OpenAPI 3.0**: Cumple con el estándar OpenAPI para máxima compatibilidad.
+- **Ejemplos de uso**: Cada endpoint incluye ejemplos de requests y responses.
+- **Autenticación documentada**: Se documentan los métodos de autenticación requeridos para endpoints protegidos.
+- **Códigos de estado HTTP**: Se especifican todos los códigos de respuesta posibles (200, 201, 400, 401, 404, 500, etc.).
+- **Modelos de datos**: Se documentan todos los DTOs (Data Transfer Objects) utilizados en las peticiones y respuestas.
+
 
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-(FALTA capturas cuando lo deployan como lo hicieron) 
+Durante este Sprint 3, el equipo desplegó el **Backend API REST de SmartStay**. El despliegue se realizó utilizando la plataforma **Render**, que permite ejecutar servicios web de forma continua y escalable.
+
+### Herramientas y plataformas utilizadas
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente del backend.
+- **GitHub**: Se creó y configuró el repositorio oficial para el backend, facilitando la colaboración del equipo y el seguimiento de los cambios realizados en los bounded contexts (Accommodations, Bookings, Payments).
+- **Render**: Plataforma de hosting en la nube utilizada para desplegar la API REST, permitiendo que el servicio esté disponible de forma continua y accesible para el frontend y otros clientes.
+- **MySQL**: Base de datos relacional configurada y conectada mediante Entity Framework Core para la persistencia de datos.
+- **Swagger/OpenAPI**: Documentación interactiva de la API desplegada junto con el servicio, permitiendo probar los endpoints directamente desde el navegador.
+
+### Proceso de despliegue
+
+El despliegue del backend siguió los siguientes pasos:
+
+1. **Preparación del entorno:**
+   - Se estableció la conexión a la base de datos MySQL mediante Entity Framework Core.
+   - Se configuró Swagger para la documentación automática de la API.
+   - Se prepararon los archivos de configuración necesarios para el despliegue en Render.
+
+2. **Configuración en Render:**
+   - Se conectó el repositorio de GitHub con Render para habilitar despliegue automático.
+   - Se configuró el servicio como un **Web Service**
+   - Se establecieron las **variables de entorno** necesarias
+ 
+3. **Integración Continua:**
+   - Cada *commit* y *merge* en la rama principal del repositorio desencadena automáticamente un nuevo despliegue en Render.
+   - Este flujo garantiza que la versión en producción esté siempre actualizada con los últimos cambios del equipo.
+
+4. **Verificación del despliegue:**
+   - Se validó que todos los endpoints de los bounded contexts (Accommodations, Bookings, Payments) estén disponibles y funcionando correctamente.
+   - Se verificó el acceso a la documentación Swagger para facilitar las pruebas y la integración con el frontend.
+
+Este flujo aseguró que el backend desarrollado estuviera disponible para todo el equipo, permitiendo realizar pruebas de integración con el frontend y validar el funcionamiento de la API en un entorno de producción simulado.
+
+### Evidencia del despliegue
+
+![render](assets/render1.png)
+
+![render](assets/render2.png)
+
+- **URL pública del servicio desplegado en Render:** `https://[//PEGAR AQUI EL DESPLEGUE//].onrender.com`
+
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
-Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, además de realizar la corrección del código del frontend y la actualización de partes del reporte que requerían mejoras. El uso de GitHub permitió mantener una organización clara del flujo de trabajo, facilitando el seguimiento de los aportes individuales y asegurando que las mejoras se integraran de manera ordenada.  
-Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión más estable del backend, optimizar el frontend y fortalecer la calidad general del documento del proyecto.
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, implementando la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el código del frontend, actualizaciones en partes del reporte que requerían mejoras, y se mejoró significativamente la calidad de las User Stories y Technical Stories del proyecto.
+
+Las mejoras en las historias incluyeron la eliminación de referencias a elementos de UI (como "hace clic", "botones", "pantallas"), la reescritura de las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos (`/api/v1/...`), códigos HTTP (200, 201, 400, 404, etc.) y estructura Given-When-Then apropiada. También se agregaron nuevas Technical Stories para los bounded contexts implementados (Accommodations, Bookings y Payments), siguiendo el formato del ejemplo proporcionado por el profesor.
+
+El uso de GitHub permitió mantener una organización clara del flujo de trabajo, facilitando el seguimiento de los aportes individuales y asegurando que las mejoras se integraran de manera ordenada.
+
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión más estable del backend con los bounded contexts de Accommodations, Bookings y Payments, optimizar el frontend, mejorar la calidad de las historias de usuario y técnicas, y fortalecer la calidad general del documento del proyecto.
 
 ### Acciones de colaboración destacadas
 
 - Se utilizó **GitHub** como herramienta central para coordinar el trabajo del equipo, gestionar versiones y mantener un registro ordenado de los avances realizados.
 - Un integrante del equipo reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y para la corrección del frontend.
-- Cada miembro realizó commits documentados, detallando la implementación de funcionalidades en el backend, las mejoras en el frontend y las correcciones aplicadas al reporte.
-- Se realizaron pull requests para integrar los cambios en la rama principal, manteniendo un flujo de integración seguro y evitando conflictos.
-- Se llevaron a cabo revisiones de código en equipo para:
-  - Validar la lógica implementada en el backend.
+- Cada miembro realizó **commits documentados**, detallando la implementación de funcionalidades en el backend (endpoints, bounded contexts, configuración de base de datos), las mejoras en el frontend y las correcciones aplicadas al reporte.
+- Se realizó una **revisión y mejora completa de las User Stories y Technical Stories** del proyecto, eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST, cumpliendo con los estándares de calidad establecidos por el profesor.
+- Se realizaron **pull requests** para integrar los cambios en la rama principal, manteniendo un flujo de integración seguro y evitando conflictos.
+- Se llevaron a cabo **revisiones de código** en equipo para:
+  - Validar la lógica implementada en el backend y la correcta separación de bounded contexts.
+  - Verificar la implementación de Entity Framework Core y la configuración de MySQL.
   - Asegurar la corrección del código del frontend en aspectos de diseño, idioma y navegación.
   - Verificar que las modificaciones al reporte cumplieran con la estructura y coherencia solicitadas.
+- Se utilizó **Trello** para la gestión visual de tareas y seguimiento del Sprint Backlog, facilitando la coordinación entre los miembros del equipo.
 - A pesar de las limitaciones por tiempo y experiencia, la comunicación constante permitió resolver problemas, ajustar entregables y mantener un avance estable del proyecto.
 
-Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible, preparando el sistema para futuras expansiones.
 
-![comits](assets/comits.jpeg)
+### Evidencia de colaboración
 
-![comits](assets/comits2.jpg)
+**Commits realizados durante el Sprint 3:**
+
+![comits](assets/GitHubRepository1.png)
+
+![comits](assets/GitHubRepository2.png)
+
+![comits](assets/GitHubRepository3.png)
 
 ## 5.3. Validation Interviews.
 
@@ -2951,24 +3077,6 @@ Adrián considera que la aplicación es práctica y fácil de usar, y cree que s
 
 ---
 
-#### Entrevista 3
-
-Datos del entrevistado:
-**Nombre completo:** 
-
-**Edad:** 
-
-**Ciudad:** 
-
-**Duración:** 
-
-**Evidencia:** 
-
-**URL del video:** 
-
-**Resumen de la entrevista**
-
----
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
 
@@ -2996,50 +3104,11 @@ La usuaria tuvo una impresión muy positiva de la aplicación, resaltando que es
 
 ---
 
-#### Entrevista 2
-
-Datos del entrevistado:
-
-**Nombre completo:**   
-
-**Edad:** 
-
-**Distrito:** 
-
-**Duración:** 
-
-**Evidencia:** 
-
-**URL del video:** 
-
-**Resumen de la entrevista**
-
----
-
-#### Entrevista 3
-
-Datos del entrevistado:
-
-**Nombre completo:** 
-
-**Edad:** 
-
-**Distrito:**
-
-**Duración:** 
-
-**Evidencia:** 
-
-**URL del video:** 
-
-**Resumen de la entrevista**
-
----
-
 
 ## 5.3.3. Evaluaciones según heurísticas. 
 
 ## 5.4. Video About-the-Product. 
+
 ## LandingPage 
 
 ## Frontend
