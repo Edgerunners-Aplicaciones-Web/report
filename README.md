@@ -2833,7 +2833,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_vanessa](assets/Chapter-05/entrevista_vanessa.png)
 
-**URL del video:** 
+**URL del video:** [https://shorturl.at/7UPcY](https://drive.google.com/file/d/1whr93eI_f3YJgqxVULE7BqRw50qBHzoJ/view?usp=sharing)
 
 **Resumen de la entrevista**
 
