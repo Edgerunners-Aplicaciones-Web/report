@@ -2704,9 +2704,129 @@ En este tercer sprint nos enfocamos en realizar la implementación del WebServic
 
 ---
 
-## 5.2.3.5. Execution Evidence for Sprint Review.
+## 5.2.3.5. Execution Evidence for Sprint Review
 
-(FALTA capturas de backend)
+En este **Sprint 3**, el entregable principal fue el **Backend API REST de SmartStay**, desarrollado con **.NET 9.0** siguiendo los principios de **Domain-Driven Design (DDD)**.
+
+La ejecución se centró en:
+
+- Implementar una **API REST** siguiendo la arquitectura DDD con separación en bounded contexts.
+- Desarrollar los **bounded contexts core del negocio**: Accommodations (Alojamientos), Bookings (Reservas) y Payments (Pagos).
+- Configurar **Entity Framework Core** para persistencia con base de datos MySQL.
+- Implementar **Swagger/OpenAPI** para documentación interactiva de la API.
+- Priorizar la **lógica de negocio core** necesaria para el funcionamiento principal del sistema.
+
+### Bounded Contexts del Sistema
+
+Nuestro sistema está diseñado con **5 bounded contexts**:
+
+1. **Accommodations** - Gestión de habitaciones y tipos de habitación
+2. **Bookings** - Gestión de reservas
+3. **Payments** - Gestión de pagos
+4. **IAM** - Identity and Access Management 
+5. **Profile** - Gestión de perfiles de usuario 
+
+En esta entrega, nos enfocamos en los **3 bounded contexts ** (Accommodations, Bookings y Payments), ya que representan la lógica de negocio fundamental del sistema de gestión hotelera.
+
+### Módulos desarrollados
+
+#### 1. MÓDULO DE ALOJAMIENTOS (ACCOMMODATIONS)
+
+Este módulo gestiona las habitaciones y tipos de habitación del sistema:
+
+- **RoomsController**: Endpoints para gestionar habitaciones
+  - `GET /api/v1/rooms/{roomId}` - Obtener habitación por ID
+  - `POST /api/v1/rooms` - Crear nueva habitación
+  - `GET /api/v1/rooms` - Obtener todas las habitaciones
+  - `GET /api/v1/rooms/type/{roomTypeId}` - Obtener habitaciones por tipo
+
+- **RoomTypesController**: Endpoints para gestionar tipos de habitación
+  - `GET /api/v1/room-types/{roomTypeId}` - Obtener tipo de habitación por ID
+  - `POST /api/v1/room-types` - Crear nuevo tipo de habitación
+  - `GET /api/v1/room-types` - Obtener todos los tipos de habitación
+
+#### 2. MÓDULO DE RESERVAS (BOOKINGS)
+
+Este módulo gestiona las reservas de habitaciones:
+
+- **BookingsController**: Endpoints para gestionar reservas
+  - `GET /api/v1/bookings/{bookingId}` - Obtener reserva por ID
+  - `POST /api/v1/bookings` - Crear nueva reserva
+  - `GET /api/v1/bookings` - Obtener todas las reservas
+  - `GET /api/v1/bookings/room/{roomId}` - Obtener reservas por habitación
+  - `POST /api/v1/bookings/{bookingId}/confirm` - Confirmar una reserva
+  - `POST /api/v1/bookings/{bookingId}/cancel` - Cancelar una reserva
+
+#### 3. MÓDULO DE PAGOS (PAYMENTS)
+
+Este módulo gestiona los pagos asociados a las reservas:
+
+- **PaymentsController**: Endpoints para gestionar pagos
+  - `GET /api/v1/payments/{paymentId}` - Obtener pago por ID
+  - `POST /api/v1/payments` - Crear nuevo pago
+  - `GET /api/v1/payments` - Obtener todos los pagos
+  - `GET /api/v1/payments/booking/{bookingId}` - Obtener pagos por reserva
+  - `POST /api/v1/payments/{paymentId}/process` - Procesar un pago
+  - `POST /api/v1/payments/{paymentId}/fail` - Marcar un pago como fallido
+
+### Características técnicas implementadas
+
+- Arquitectura basada en **Domain-Driven Design (DDD)** con bounded contexts
+- **Entity Framework Core** para persistencia de datos con MySQL
+- **Swagger/OpenAPI** para documentación interactiva de la API
+- **API REST** con endpoints organizados por módulos
+
+### Evidencia visual
+
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- **Swagger UI - Documentación de la API**
+
+  Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por módulos (Accommodations, Bookings, Payments).
+
+  ![SwaggerUI](assets/SwaggerUI.png)
+
+- **Swagger - Endpoints de Accommodations**
+
+  Vista detallada de los endpoints del módulo de habitaciones, mostrando los métodos HTTP disponibles y sus parámetros.
+
+  ![SwaggerRooms](assets/SwaggerRooms.png)
+
+- **Swagger - Endpoints de Bookings**
+
+  Vista detallada de los endpoints del módulo de reservas, incluyendo operaciones de creación, consulta, confirmación y cancelación.
+
+  ![SwaggerBookings](assets/SwaggerBookings.png)
+
+- **Swagger - Endpoints de Payments**
+
+  Vista detallada de los endpoints del módulo de pagos, mostrando las operaciones para gestionar el ciclo de vida de los pagos.
+
+  ![SwaggerPayments](assets/SwaggerPayments.png)
+
+- **Ejemplo de respuesta - Obtener habitación por ID**
+
+  Respuesta JSON al consultar una habitación específica, mostrando la estructura de datos retornada por la API.
+
+  ![APIResponseRoom](assets/APIResponseRoom.png)
+
+- **Ejemplo de creación - Crear nueva reserva**
+
+  Petición POST para crear una nueva reserva, mostrando el cuerpo de la solicitud y la respuesta con el recurso creado.
+
+  ![APICreateBooking](assets/APICreateBooking.png)
+
+- **Estructura del proyecto **
+
+  Vista de la estructura de carpetas del proyecto, mostrando la organización modular por bounded contexts (Accommodations, Bookings, Payments).
+
+  ![ProjectStructure](assets/ProjectStructure.png)
+
+- **Configuración de base de datos**
+
+  Vista de la configuración de Entity Framework Core y la cadena de conexión a MySQL, mostrando cómo se configuró la persistencia de datos.
+
+  ![DatabaseConfig](assets/DatabaseConfig.png)
 
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
