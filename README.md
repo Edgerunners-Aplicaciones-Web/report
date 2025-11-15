@@ -2630,9 +2630,9 @@ Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay
 
 Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
 
-![comits](assets/comits.jpeg)
+![comits](assets/comits3.jpeg)
 
-![comits](assets/comits2.jpg)
+![comits](assets/comits4.jpeg)
 
 ---
 ## 5.2.3. Sprint 3
@@ -2841,8 +2841,27 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
- (FALTA captura)
- 
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, además de realizar la corrección del código del frontend y la actualización de partes del reporte que requerían mejoras. El uso de GitHub permitió mantener una organización clara del flujo de trabajo, facilitando el seguimiento de los aportes individuales y asegurando que las mejoras se integraran de manera ordenada.  
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión más estable del backend, optimizar el frontend y fortalecer la calidad general del documento del proyecto.
+
+### Acciones de colaboración destacadas
+
+- Se utilizó **GitHub** como herramienta central para coordinar el trabajo del equipo, gestionar versiones y mantener un registro ordenado de los avances realizados.
+- Un integrante del equipo reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y para la corrección del frontend.
+- Cada miembro realizó commits documentados, detallando la implementación de funcionalidades en el backend, las mejoras en el frontend y las correcciones aplicadas al reporte.
+- Se realizaron pull requests para integrar los cambios en la rama principal, manteniendo un flujo de integración seguro y evitando conflictos.
+- Se llevaron a cabo revisiones de código en equipo para:
+  - Validar la lógica implementada en el backend.
+  - Asegurar la corrección del código del frontend en aspectos de diseño, idioma y navegación.
+  - Verificar que las modificaciones al reporte cumplieran con la estructura y coherencia solicitadas.
+- A pesar de las limitaciones por tiempo y experiencia, la comunicación constante permitió resolver problemas, ajustar entregables y mantener un avance estable del proyecto.
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
+
+![comits](assets/comits.jpeg)
+
+![comits](assets/comits2.jpg)
+
 ## 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de Entrevistas. 
