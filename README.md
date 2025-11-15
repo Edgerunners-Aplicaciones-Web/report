@@ -2671,6 +2671,8 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 
 ## 5.2.3.3. Sprint Backlog 3.
 
+![sprint_trello](assets/SprintBacklog3.png)
+
 | **Sprint #** | **User Story Id ** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
 | Sprint 3 | US-01 | User registration with validation | UT-20 | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3 | Alexander | Done |
@@ -2698,25 +2700,25 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 
 En este tercer sprint nos enfocamos en realizar la implementación del WebService BACKEND. En la siguiente tabla se muestran los commits realizados.
 
-(FALTA)
+(FALTA capturas de commits q salga los nombres de todos)
 
 ---
 
 ## 5.2.3.5. Execution Evidence for Sprint Review.
 
-(FALTA)
+(FALTA capturas de backend)
 
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-(FALTA)
+(FALTA en proceso por nat)
 
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-(FALTA) 
+(FALTA capturas cuando lo deployan como lo hicieron) 
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
- (FALTA)
+ (FALTA captura)
  
 ## 5.3. Validation Interviews.
 
