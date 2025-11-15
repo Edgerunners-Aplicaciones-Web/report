@@ -2829,9 +2829,9 @@ Datos del entrevistado:
 
 **Distrito:** Jesus María – Lima Metropolitana
 
-**Duración:** 
+**Duración:** 04:05 minutos
 
-**Evidencia:** ![entrevista_vanessa](assets/Chapter-05/entrevista_vanessa.png)
+**Evidencia:** ![entrevista_vanessa](assets/entrevista_vanessa.png)
 
 **URL del video:** [https://shorturl.at/7UPcY](https://drive.google.com/file/d/1whr93eI_f3YJgqxVULE7BqRw50qBHzoJ/view?usp=sharing)
 
