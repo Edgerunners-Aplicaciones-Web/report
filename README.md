@@ -2501,33 +2501,73 @@ En este segundo Sprint hemos realizado la implementación de nuestra Single Page
 
 Aquí veremos la versión de la aplicación web. Esto fue realizado mediante WebStorm y su complemento de git, con esto cada integrante pudo realizar cambios y versiones en sus ramas para luego mandarlas a la rama principal y no tener ningún inconveniente. A continuación se mostrarán las evidencias de ejecución.
 
-En esta sección se puede ver el panel del administrador.
+- LOGIN Y REGISTER
 
-![Panel](assets/Panel.jpg)
+Primero en esta vista podemos ver el Login de la app, con su respectivo formulario donde se coloca el email, contraseña y rol. También un vínculo para redirigir a register, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
+![LoginApp](assets/LoginApp.jpg)
 
-![manageRooms](assets/manageRooms.jpg)
+En esta sección se puede ver la vista de register, con su repectivo formulario para crear una cuenta y en el rol que desees. También tiene un vínculo para redirigir a login, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-En esta sección se puede ver el panel de administracion del persona.
+![RegisterApp](assets/RegisterApp.jpg)
 
-![manageStaf](assets/manageStaf.jpg)
+- VISTA COMO ADMINISTRADOR (ADMINISTRATOR)
 
-En esta sección se puede ver el panel del Personal.
+En esta sección se puede ver el dashboard de administrador de la persona. Puede apreciar datos como Rooms Found, Registered Staff, Bookings(Today) y Occupance Rate. También tienes el menú con sus dos funciones principales que te redirigen a una vista diferente Manage Staff y Manage Rooms.
 
-![panelStaf](assets/panelStaf.jpg)
+![AdminDashboard](assets/AdminDashboard.jpg)
 
-En esta sección se puede ver el panel del Huesped.
+Aquí vemos la vista de Manage Staff. Puedes editar y eliminar la información de cada personal que se haya registrado. También puedes agregar un nuevo personal.
 
-![panelguest](assets/panelguest.jpg)
+![ManageStaff](assets/ManageStaff.jpg)
 
-En esta sección se puede ver el panel de las habitaciones disponibles desde la perspectiva del Huesped.
+Aquí vemos la vista de Manage Rooms. Puedes editar y eliminar la información de cada habitación de un respectivo hotel que se haya registrado. También puedes agregar una nueva habitación.
 
-![viewrooms](assets/viewrooms.jpg)
+![ManageRoom](assets/ManageRoom.jpg)
+![ManageRoomEdit](assets/ManageRoomEdit.jpg)
 
-En esta sección se puede ver las reservas hechas del Huesped.
 
-![viewrooms](assets/viewReservas.jpg)
+También en el dashboard de admin puedes acceder a ver tu perfil.
+
+![AdminProfile](assets/AdminProfile.jpg)
+
+- VISTA COMO HUÉSPED (GUEST)
+
+En esta sección se puede ver el dashboard de huésped de la persona. Puede apreciar datos como Upcoming Bookings, Active Services, Recommendation donde puedes dejar tus reseñas y Recent Properties. También tienes el menú con sus tres funciones principales que te redirigen a una vista diferente View Properties, Manage Bookings y View Rooms.
+
+![GuestDashboard](assets/GuestDashboard.jpg)
+
+Aquí vemos la vista de View Properties. Puedes buscar información de los hoteles, tienes el buscador para buscar para palabra clave y haces click en Ver Hotel y lo ves más a detalle.
+
+![ViewProperties](assets/ViewProperties.jpg)
+![ViewPropertiesExample](assets/ViewPropertiesExample.jpg)
+
+Si presionas reservar te lleva a una vista donde seleccionas las fechas y reservas.
+![ViewPropertiesExampleBook](assets/ViewPropertiesExampleBook.jpg)
+
+Aquí vemos la vista de View Rooms y puedes usar filtros por hotel, tipo y precio.
+
+![ViewRooms](assets/ViewRooms.jpg)
+
+Y aquí donde dejamos las reseñas.
+![Review](assets/Review.jpg)
+
+- VISTA COMO STAFF
+  
+En esta sección se puede ver el dashboard de staff de la persona. Puede apreciar datos como Performance Statistics, Pending Tasks, Assigned Rooms y Quick Actions para reportar problemas o pedir requerimientos. También tienes el menú lateral con Manage Tasks, Assigned Rooms de nuevo y Profile.
+
+![StaffDashboard](assets/StaffDashboard.jpg)
+
+Aquí vemos la vista de Manage Tasks donde puedes editar, eliminar y agregar un nuevo task. Los ves por filtros de estados.
+
+![ManageTasks](assets/ManageTasks.jpg)
+
+Aquí vemos la vista de Assigned Rooms. Puedes buscar los cuartos asignados y marcas sus estados si está ocupada, en mantenimiento, entre otras. Puedes ver la cantidad de cuartos por tipo de estado y tarea.
+
+![AssignedRooms](assets/AssignedRooms.jpg)
+
+Y aquí verás el perfil del staff.
+![StaffProfile](assets/StaffProfile.jpg)
 
 
 ---
