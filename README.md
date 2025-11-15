@@ -2505,69 +2505,69 @@ Aquí veremos la versión de la aplicación web. Esto fue realizado mediante Web
 
 Primero en esta vista podemos ver el Login de la app, con su respectivo formulario donde se coloca el email, contraseña y rol. También un vínculo para redirigir a register, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-![LoginApp](assets/LoginApp.jpg)
+![LoginApp](assets/LoginApp.png)
 
 En esta sección se puede ver la vista de register, con su repectivo formulario para crear una cuenta y en el rol que desees. También tiene un vínculo para redirigir a login, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-![RegisterApp](assets/RegisterApp.jpg)
+![RegisterApp](assets/RegisterApp.png)
 
 - VISTA COMO ADMINISTRADOR (ADMINISTRATOR)
 
 En esta sección se puede ver el dashboard de administrador de la persona. Puede apreciar datos como Rooms Found, Registered Staff, Bookings(Today) y Occupance Rate. También tienes el menú con sus dos funciones principales que te redirigen a una vista diferente Manage Staff y Manage Rooms.
 
-![AdminDashboard](assets/AdminDashboard.jpg)
+![AdminDashboard](assets/AdminDashboard.png)
 
 Aquí vemos la vista de Manage Staff. Puedes editar y eliminar la información de cada personal que se haya registrado. También puedes agregar un nuevo personal.
 
-![ManageStaff](assets/ManageStaff.jpg)
+![ManageStaff](assets/ManageStaff.png)
 
 Aquí vemos la vista de Manage Rooms. Puedes editar y eliminar la información de cada habitación de un respectivo hotel que se haya registrado. También puedes agregar una nueva habitación.
 
-![ManageRoom](assets/ManageRoom.jpg)
-![ManageRoomEdit](assets/ManageRoomEdit.jpg)
+![ManageRoom](assets/ManageRoom.png)
+![ManageRoomEdit](assets/ManageRoomEdit.png)
 
 
 También en el dashboard de admin puedes acceder a ver tu perfil.
 
-![AdminProfile](assets/AdminProfile.jpg)
+![AdminProfile](assets/AdminProfile.png)
 
 - VISTA COMO HUÉSPED (GUEST)
 
 En esta sección se puede ver el dashboard de huésped de la persona. Puede apreciar datos como Upcoming Bookings, Active Services, Recommendation donde puedes dejar tus reseñas y Recent Properties. También tienes el menú con sus tres funciones principales que te redirigen a una vista diferente View Properties, Manage Bookings y View Rooms.
 
-![GuestDashboard](assets/GuestDashboard.jpg)
+![GuestDashboard](assets/GuestDashboard.png)
 
 Aquí vemos la vista de View Properties. Puedes buscar información de los hoteles, tienes el buscador para buscar para palabra clave y haces click en Ver Hotel y lo ves más a detalle.
 
-![ViewProperties](assets/ViewProperties.jpg)
-![ViewPropertiesExample](assets/ViewPropertiesExample.jpg)
+![ViewProperties](assets/ViewProperties.png)
+![ViewPropertiesExample](assets/ViewPropertiesExample.png)
 
 Si presionas reservar te lleva a una vista donde seleccionas las fechas y reservas.
-![ViewPropertiesExampleBook](assets/ViewPropertiesExampleBook.jpg)
+![ViewPropertiesExampleBook](assets/ViewPropertiesExampleBook.png)
 
 Aquí vemos la vista de View Rooms y puedes usar filtros por hotel, tipo y precio.
 
-![ViewRooms](assets/ViewRooms.jpg)
+![ViewRooms](assets/ViewRooms.png)
 
 Y aquí donde dejamos las reseñas.
-![Review](assets/Review.jpg)
+![Review](assets/Review.png)
 
 - VISTA COMO STAFF
   
 En esta sección se puede ver el dashboard de staff de la persona. Puede apreciar datos como Performance Statistics, Pending Tasks, Assigned Rooms y Quick Actions para reportar problemas o pedir requerimientos. También tienes el menú lateral con Manage Tasks, Assigned Rooms de nuevo y Profile.
 
-![StaffDashboard](assets/StaffDashboard.jpg)
+![StaffDashboard](assets/StaffDashboard.png)
 
 Aquí vemos la vista de Manage Tasks donde puedes editar, eliminar y agregar un nuevo task. Los ves por filtros de estados.
 
-![ManageTasks](assets/ManageTasks.jpg)
+![ManageTasks](assets/ManageTasks.png)
 
 Aquí vemos la vista de Assigned Rooms. Puedes buscar los cuartos asignados y marcas sus estados si está ocupada, en mantenimiento, entre otras. Puedes ver la cantidad de cuartos por tipo de estado y tarea.
 
-![AssignedRooms](assets/AssignedRooms.jpg)
+![AssignedRooms](assets/AssignedRooms.png)
 
 Y aquí verás el perfil del staff.
-![StaffProfile](assets/StaffProfile.jpg)
+![StaffProfile](assets/StaffProfile.png)
 
 
 ---
