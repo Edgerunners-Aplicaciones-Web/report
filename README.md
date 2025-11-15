@@ -2630,6 +2630,9 @@ Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay
 
 Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
 
+![comits](assets/}comits.jpg)
+
+![comits](assets/}comits2.jpg)
 
 ---
 ## 5.2.3. Sprint 3
