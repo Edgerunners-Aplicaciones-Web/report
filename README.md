@@ -3985,12 +3985,17 @@ Este flujo aseguró que el backend desarrollado estuviera disponible para todo e
 
 ### Evidencia del despliegue
 
-![render](assets/render1.png)
+![render-2.png](assets/render-2.png)
 
-![render](assets/render2.png)
+![render.png](assets/render.png)
 
-- **URL pública del servicio desplegado en Render:** `https://[//PEGAR AQUI EL DESPLEGUE///ITALO////////////////].onrender.com`
+![swagger.png](assets/swagger.png)
 
+![swagger-2.png](assets/swagger-2.png)
+
+![swagger-3.png](assets/swagger-3.png)
+
+- **URL pública del servicio desplegado en Render:** [SmartStay Backend](https://smart-backend-y5q6.onrender.com/swagger/index.html)
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -4029,15 +4034,15 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 2. ¿La interfaz y la organización de la información te parecieron claras y fáciles de seguir?
 3. ¿Qué partes del sistema te parecieron más útiles para tu hotel?
 4. ¿Hay alguna función que no te parezca relevante para tu operación diaria?
-5.Si implementaras esta herramienta, ¿qué procesos crees que mejorarían más? (reservas, pagos, personal, disponibilidad, reportes…)
+5. Si implementaras esta herramienta, ¿qué procesos crees que mejorarían más? (reservas, pagos, personal, disponibilidad, reportes…)
 6. ¿Cómo encajaría esta aplicación con la forma en la que actualmente gestionas el hotel?
-7.¿Crees que tu equipo podría adaptarse fácilmente al uso de esta herramienta?
+7. ¿Crees que tu equipo podría adaptarse fácilmente al uso de esta herramienta?
 8. En tu experiencia, ¿ves que esta app podría ayudar a evitar problemas como sobrerreservas, errores de disponibilidad o fallas en la facturación?
 9. ¿Qué cosa en la app mejorarías para que se ajuste mejor a tu hotel?
 10. ¿Qué te haría dudar en implementar una herramienta como esta? (costos, capacitación, tiempo, desconfianza, resistencia del personal, etc.)
 11. Basado en lo que viste, ¿pagarías una suscripción mensual por este sistema?
 12. ¿Qué rango de precio te parecería razonable para un hotel de tu tamaño?
-13.Si pudieras pedir una mejora o nueva función antes de usar esta app en tu hotel, ¿cuál sería?
+13. Si pudieras pedir una mejora o nueva función antes de usar esta app en tu hotel, ¿cuál sería?
 14. ¿Te gustaría probar una versión piloto en tu hotel cuando esté lista?
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles
@@ -4174,23 +4179,23 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
-| Nivel | Descripción |
-|-------|-------------|
-| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| Nivel | Descripción                                                                                                                                                                                     |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
 | **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 **TABLA RESUMEN:**
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|---|----------|---------------------|----------------------------------|
-| 1 | Falta información detallada del huésped (pagos, preferencias, restricciones). | 3 | Usability: Visibilidad del estado del sistema |
-| 2 | No se visualizan reservas pasadas y futuras claramente. | 3 | Usability: Reconocimiento antes que recuerdo |
-| 3 | Proceso de pago poco claro durante la demostración. | 3 | Usability: Coincidencia entre el sistema y el mundo real |
-| 4 | Falta información sobre servicios del hotel disponibles. | 2 | Information Architecture: Is it findable? |
-| 5 | Ausencia de funcionalidades de check-in y check-out digital. | 2 | Usability: Flexibilidad y eficiencia de uso |
-| 6 | Preocupación por fallos al procesar reservas o pagos sin retroalimentación clara. | 3 | Usability: Prevención de errores y retroalimentación |
+| # | Problema                                                                          | Escala de severidad | Heurística/Principio violada(o)                          |
+|---|-----------------------------------------------------------------------------------|---------------------|----------------------------------------------------------|
+| 1 | Falta información detallada del huésped (pagos, preferencias, restricciones).     | 3                   | Usability: Visibilidad del estado del sistema            |
+| 2 | No se visualizan reservas pasadas y futuras claramente.                           | 3                   | Usability: Reconocimiento antes que recuerdo             |
+| 3 | Proceso de pago poco claro durante la demostración.                               | 3                   | Usability: Coincidencia entre el sistema y el mundo real |
+| 4 | Falta información sobre servicios del hotel disponibles.                          | 2                   | Information Architecture: Is it findable?                |
+| 5 | Ausencia de funcionalidades de check-in y check-out digital.                      | 2                   | Usability: Flexibilidad y eficiencia de uso              |
+| 6 | Preocupación por fallos al procesar reservas o pagos sin retroalimentación clara. | 3                   | Usability: Prevención de errores y retroalimentación     |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
