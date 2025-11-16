@@ -39,15 +39,58 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 
 | Versión |   Fecha    |                 Autor                 |                 Descripción de los Cambios                  |
 |:-------:|:----------:|:-------------------------------------:|:-----------------------------------------------------------:|
-|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) |                                                             |
+|   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) | Estructuración inicial del proyecto y coordinación del equipo |
 |   1.0   | 01/09/2025 |     Italo Sebastian Verona Flores     | Creación del documento inicial del Informe de Trabajo Final |
+|   1.1   | 15/09/2025 |    Natalia Ximena Valverde Portuguez  | Desarrollo de wireframes, mockups y guías de estilo visual |
+|   1.2   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
+|   1.3   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
+|   2.0   | 30/09/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
+|   2.1   | 15/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Documentación del Sprint 3: Development Evidence, Deployment Evidence y Team Collaboration Insights |
+|   2.2   | 16/10/2025 |   Alexander Piero Fernandez Garfias   | Corrección de terminología: actualización de referencias a "bounded contexts" en todo el documento |
+|   2.3   | 18/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora de User Stories y Technical Stories: eliminación de referencias a UI y reescritura con formato API REST según estándares del profesor |
+|   2.4   | 19/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora del Sprint Goal del Sprint 3 según formato Outcome-Impact-Event |
+|   2.5   | 20/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Corrección del Sprint Backlog 3 para alinearlo con las User Stories y Technical Stories definidas |
+|   2.6   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Completar sección de Evaluaciones según heurísticas (5.3.3) siguiendo formato del Anexo D |
+|   2.7   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar sección de Video About-the-Product (5.4) con estructura completa |
+|   2.8   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar secciones de Conclusiones y Bibliografía al final del documento |
+|   2.9   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Limpieza de assets no utilizados y corrección de referencias de imágenes en secciones de Empathy Mapping y EventStorming |
 
 
 ## Project Report Collaboration Insights
 
-- URL del repositorio para el Project Report:
+- **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web
+- **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
+- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page
+- **URL desplegada de la landing page:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+- **URL del repositorio del frontend del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay
+- **URL del repositorio del backend:** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay
 
-<!-- \-\- Enlace pendiente de agregar por el equipo y capturas sobre el avance en el git hub. \-\- -->
+### Colaboración y Evidencia de Trabajo en Equipo
+
+El desarrollo del presente informe de trabajo final se realizó de manera colaborativa utilizando las herramientas de control de versiones de GitHub. A continuación se presenta la evidencia de la participación y contribuciones de cada miembro del equipo:
+
+#### Análisis de Commits por Colaborador
+
+El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
+
+<img src="assets/commits_team1.png" alt="Colaboración del Equipo" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
+
+
+#### Distribución de Contribuciones
+
+La colaboración se distribuyó de la siguiente manera:
+
+- **Gestión del repositorio y estructura inicial:** Configuración de la estructura base del documento
+- **Desarrollo de contenido por capítulos:** Cada miembro contribuyó con secciones específicas según su área de especialización
+- **Revisión y refinamiento:** Proceso iterativo de mejora del contenido mediante pull requests y revisiones colaborativas
+- **Integración final:** Consolidación de todas las contribuciones en el documento final
+
+#### Metodología de Trabajo Colaborativo
+
+- **Control de versiones:** Uso de Git para el seguimiento de cambios y colaboración
+- **Revisiones de contenido:** Implementación de pull requests para la validación del contenido
+- **Documentación continua:** Actualización incremental del informe durante todo el ciclo del proyecto
+- **Coordinación de equipo:** Reuniones regulares para alinear el progreso y resolver conflictos
 
 ## Contenido
 
