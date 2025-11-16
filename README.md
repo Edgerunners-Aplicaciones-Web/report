@@ -2636,7 +2636,7 @@ Mostrar cómo cada sección del administrador se conecta a través del menú pri
 
 Desde cualquier sección, el menú permite acceder a:
 
-1.**Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
+1. **Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
 2. **Dashboard** – Resumen general de actividad, métricas y gráficos.
 3. **Guests** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
 4. **Staff** – Gestión del personal; roles, turnos y contacto.
@@ -3381,17 +3381,17 @@ Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, propor
 ### Sprint #1 – Sprint Backlog
 
 
-| **Sprint #** | **User Story Id ** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
-| Sprint 1 | US-24 | Segmented landing page | UT-01 | Design visual structure | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6 | Alexander | Done |
-| Sprint 1 | US-24 | Segmented landing page | UT-02 | Layout Landing Page | Implement the HTML and CSS design of the base prototype. | 5 | Italo | In Process |
-| Sprint 1 | US-24 | Segmented landing page | UT-03 | Navigation and internal links | Configure navigation between sections with links and smooth scrolling.| 3 | Jose | Done |
-| Sprint 1 | US-26 | Success stories and testimonials | UT-04 | Create testimonials section | Design carousel with user testimonials and simple animations. | 4 | Aldair | To Review |
-| Sprint 1 | US-27 | Demo request and contact | UT-05 | Contact form | Implement form with validation and responsive design. | 4 | Natalia | Done |
-| Sprint 1 | US-28 | Corporate information | UT-06 | Write mission, vision and values | Write institutional text consistent with the Smart Stay brand.| 3 | Natalia | Done |
-| Sprint 1 | US-28 | Corporate information | UT-07 | Implement “About Us” section | Layout the section with text and representative image. | 4 | Alexander | To Do |
-| Sprint 1 | US-24 | Segmented landing page | UT-08 | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes. | 3 | Jose | Done |
-| Sprint 1 | US-26 | Success stories and testimonials | UT-09 | Adjust animations and transitions | Apply drop-in and fluid scrolling effects on testimonials.| 4 | Aldair | In Process |
+| **Sprint #** | **User Story Id ** | **User Story Title**             | **Task Id** | **Task Title**                              | **Description**                                                                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|--------------------|----------------------------------|-------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------|-----------------|------------|
+| Sprint 1     | US-24              | Segmented landing page           | UT-01       | Design visual structure                     | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6                      | Alexander       | Done       |
+| Sprint 1     | US-24              | Segmented landing page           | UT-02       | Layout Landing Page                         | Implement the HTML and CSS design of the base prototype.                                                     | 5                      | Italo           | In Process |
+| Sprint 1     | US-24              | Segmented landing page           | UT-03       | Navigation and internal links               | Configure navigation between sections with links and smooth scrolling.                                       | 3                      | Jose            | Done       |
+| Sprint 1     | US-26              | Success stories and testimonials | UT-04       | Create testimonials section                 | Design carousel with user testimonials and simple animations.                                                | 4                      | Aldair          | To Review  |
+| Sprint 1     | US-27              | Demo request and contact         | UT-05       | Contact form                                | Implement form with validation and responsive design.                                                        | 4                      | Natalia         | Done       |
+| Sprint 1     | US-28              | Corporate information            | UT-06       | Write mission, vision and values            | Write institutional text consistent with the Smart Stay brand.                                               | 3                      | Natalia         | Done       |
+| Sprint 1     | US-28              | Corporate information            | UT-07       | Implement “About Us” section                | Layout the section with text and representative image.                                                       | 4                      | Alexander       | To Do      |
+| Sprint 1     | US-24              | Segmented landing page           | UT-08       | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes.                                                   | 3                      | Jose            | Done       |
+| Sprint 1     | US-26              | Success stories and testimonials | UT-09       | Adjust animations and transitions           | Apply drop-in and fluid scrolling effects on testimonials.                                                   | 4                      | Aldair          | In Process |
 
 
 ## 5.2.1.4. Development Evidence for Sprint Review
@@ -3536,18 +3536,18 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ![sprint_trello](assets/trello2.jpg)
 
-| **Sprint #** | **User Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
-| Sprint 2 | US-24 | Segmented landing page | UT-10 | Optimize visual design | Improve color coherence, typography, and graphic elements. | 5 | Natalia | Done |
-| Sprint 2 | US-24 | Segmented landing page | UT-11 | Optimize SEO and performance | Implement SEO best practices and reduce load times. | 6 | Italo | In Process |
-| Sprint 2 | US-25 | ROI simulator for hotels | UT-12 | Design ROI simulator interface | Create mockup and structure for interactive simulator fields. | 6 | Alexander | To Do |
-| Sprint 2 | US-25 | ROI simulator for hotels | UT-13 | Implement calculation logic | Program function to dynamically calculate ROI. | 7 | Jose | In Process |
-| Sprint 2 | US-27 | Demo request and contact | UT-14 | Integrate form with backend| Connect contact form with simulated lead registration API. | 5 | Aldair | To Review |
-| Sprint 2 | US-24 | Segmented landing page | UT-15 | Implement multilingual system | Add support for English/Spanish and automatic detection. | 6 | Italo | In Process |
-| Sprint 2 | US-24 | Segmented landing page | UT-16 | Responsiveness testing | Conduct tests across different browsers and devices. | 5 | Natalia | Done |
-| Sprint 2 | US-26 | Success stories and testimonials | UT-17 |Add metrics to testimonials | Show improvement percentages or impact in success stories. | 4 | Jose | To Do |
-| Sprint 2 | US-28 | Corporate information | UT-18 |Team and leadership section| Add data and images of key team members. | 4 | Aldair | To Review |
-| Sprint 2 | US-24 | Segmented landing page | UT-19 | Deploy new public version | Publish optimized and fully functional site version. | 3 | Italo | Done |
+| **Sprint #** | **User Story Id** | **User Story Title**             | **Task Id** | **Task Title**                 | **Description**                                               | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|-------------------|----------------------------------|-------------|--------------------------------|---------------------------------------------------------------|------------------------|-----------------|------------|
+| Sprint 2     | US-24             | Segmented landing page           | UT-10       | Optimize visual design         | Improve color coherence, typography, and graphic elements.    | 5                      | Natalia         | Done       |
+| Sprint 2     | US-24             | Segmented landing page           | UT-11       | Optimize SEO and performance   | Implement SEO best practices and reduce load times.           | 6                      | Italo           | In Process |
+| Sprint 2     | US-25             | ROI simulator for hotels         | UT-12       | Design ROI simulator interface | Create mockup and structure for interactive simulator fields. | 6                      | Alexander       | To Do      |
+| Sprint 2     | US-25             | ROI simulator for hotels         | UT-13       | Implement calculation logic    | Program function to dynamically calculate ROI.                | 7                      | Jose            | In Process |
+| Sprint 2     | US-27             | Demo request and contact         | UT-14       | Integrate form with backend    | Connect contact form with simulated lead registration API.    | 5                      | Aldair          | To Review  |
+| Sprint 2     | US-24             | Segmented landing page           | UT-15       | Implement multilingual system  | Add support for English/Spanish and automatic detection.      | 6                      | Italo           | In Process |
+| Sprint 2     | US-24             | Segmented landing page           | UT-16       | Responsiveness testing         | Conduct tests across different browsers and devices.          | 5                      | Natalia         | Done       |
+| Sprint 2     | US-26             | Success stories and testimonials | UT-17       | Add metrics to testimonials    | Show improvement percentages or impact in success stories.    | 4                      | Jose            | To Do      |
+| Sprint 2     | US-28             | Corporate information            | UT-18       | Team and leadership section    | Add data and images of key team members.                      | 4                      | Aldair          | To Review  |
+| Sprint 2     | US-24             | Segmented landing page           | UT-19       | Deploy new public version      | Publish optimized and fully functional site version.          | 3                      | Italo           | Done       |
 
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review 
@@ -3644,26 +3644,26 @@ Estas rutas representan las vistas principales del sistema para los perfiles Adm
 
 La documentación siguiente recoge las “acciones simuladas” disponibles en el sistema, incluyendo navegación, carga de datos de ejemplo, formularios y operaciones emuladas. Esto sirve como base para la posterior implementación de Web Services reales.
 
-| Endpoint / Ruta | Acción Implementada (Simulada) | Método HTTP Simulado | Sintaxis / Llamada | Parámetros | Ejemplo de Response (Mock) | URL |
-|------------------|-------------------------------|-----------------------|---------------------|------------|------------------------------|------|
-| /login | Inicio de sesión del usuario | POST (simulado) | /login | Body: email, password | { "status":"success","role":"admin" } | https://smartstay-3cffc.web.app/login |
-| /register | Registrar nuevo usuario | POST (simulado) | /register | Body: name, email, password | { "id": 4, "name": "Ana" } | https://smartstay-3cffc.web.app/register |
-| /admin/dashboard | Mostrar dashboard admin | GET | /admin/dashboard | — | { "welcome":"Admin Panel" } | https://smartstay-3cffc.web.app/admin/dashboard |
-| /admin/auth/users | Ver lista de staff | GET | /admin/auth/users | Query: ?role=staff | [ { "id":1,"name":"Juan"} ] | https://smartstay-3cffc.web.app/admin/auth/users |
-| /admin/auth/users/edit/:id | Editar usuario staff | PUT (simulado) | /admin/auth/users/edit/{id} | Path: id | { "message":"User updated" } | https://smartstay-3cffc.web.app/admin/auth/users/edit/2 |
-| /admin/auth/users/add | Crear usuario del staff | POST (simulado) | /admin/auth/users/add | Body: name, role | { "id":6, "name":"Sofía" } | https://smartstay-3cffc.web.app/admin/auth/users/add |
-| /admin/property/rooms | Ver habitaciones | GET | /admin/property/rooms | Query: ?status=available | [{"id":10, "type":"Doble"}] | https://smartstay-3cffc.web.app/admin/property/rooms |
-| /admin/profile | Ver perfil admin | GET | /admin/profile | — | { "id":1,"name":"Admin" } | https://smartstay-3cffc.web.app/admin/profile |
-| /guest/dashboard | Dashboard huésped | GET | /guest/dashboard | — | { "welcome":"Guest Dashboard" } | https://smartstay-3cffc.web.app/guest/dashboard |
-| /guest/properties | Ver propiedades | GET | /guest/properties | Query: ?city=Lima | [{"id":101,"name":"SmartStay Miraflores"}] | https://smartstay-3cffc.web.app/guest/properties |
-| /guest/property/:id | Ver detalle de propiedad | GET | /guest/property/{id} | Path: id | { "id":101,"rooms":32 } | https://smartstay-3cffc.web.app/guest/property/101 |
-| /guest/book/:propertyId/:roomId | Iniciar reserva simulada | POST (simulado) | /guest/book/{propertyId}/{roomId} | Path: propertyId, roomId | { "bookingId":201,"status":"confirmed" } | https://smartstay-3cffc.web.app/guest/book/101/201 |
-| /guest/bookings | Ver reservas del huésped | GET | /guest/bookings | Query: ?status=completed | [{"id":201,"status":"confirmed"}] | https://smartstay-3cffc.web.app/guest/bookings |
-| /guest/rooms | Ver lista de habitaciones | GET | /guest/rooms | Query: ?capacity=2 | [{"id":31,"capacity":2}] | https://smartstay-3cffc.web.app/guest/rooms |
-| /staff/dashboard | Dashboard del staff | GET | /staff/dashboard | — | { "welcome":"Staff Dashboard" } | https://smartstay-3cffc.web.app/staff/dashboard |
-| /staff/property/tasks | Ver/gestionar tareas | GET / POST (simulado) | /staff/property/tasks | Body (POST): task, roomId | [{"task":"Clean Room 12"}] | https://smartstay-3cffc.web.app/staff/property/tasks |
-| /staff/property/cleaning | Ver habitaciones asignadas | GET | /staff/property/cleaning | — | [{"roomId":23,"status":"pending"}] | https://smartstay-3cffc.web.app/staff/property/cleaning |
-| /staff/profile | Ver perfil staff | GET | /staff/profile | — | { "id":3,"name":"Rosa Staff" } | https://smartstay-3cffc.web.app/staff/profile |
+| Endpoint / Ruta                 | Acción Implementada (Simulada) | Método HTTP Simulado  | Sintaxis / Llamada                | Parámetros                  | Ejemplo de Response (Mock)                 | URL                                                     |
+|---------------------------------|--------------------------------|-----------------------|-----------------------------------|-----------------------------|--------------------------------------------|---------------------------------------------------------|
+| /login                          | Inicio de sesión del usuario   | POST (simulado)       | /login                            | Body: email, password       | { "status":"success","role":"admin" }      | https://smartstay-3cffc.web.app/login                   |
+| /register                       | Registrar nuevo usuario        | POST (simulado)       | /register                         | Body: name, email, password | { "id": 4, "name": "Ana" }                 | https://smartstay-3cffc.web.app/register                |
+| /admin/dashboard                | Mostrar dashboard admin        | GET                   | /admin/dashboard                  | —                           | { "welcome":"Admin Panel" }                | https://smartstay-3cffc.web.app/admin/dashboard         |
+| /admin/auth/users               | Ver lista de staff             | GET                   | /admin/auth/users                 | Query: ?role=staff          | [ { "id":1,"name":"Juan"} ]                | https://smartstay-3cffc.web.app/admin/auth/users        |
+| /admin/auth/users/edit/:id      | Editar usuario staff           | PUT (simulado)        | /admin/auth/users/edit/{id}       | Path: id                    | { "message":"User updated" }               | https://smartstay-3cffc.web.app/admin/auth/users/edit/2 |
+| /admin/auth/users/add           | Crear usuario del staff        | POST (simulado)       | /admin/auth/users/add             | Body: name, role            | { "id":6, "name":"Sofía" }                 | https://smartstay-3cffc.web.app/admin/auth/users/add    |
+| /admin/property/rooms           | Ver habitaciones               | GET                   | /admin/property/rooms             | Query: ?status=available    | [{"id":10, "type":"Doble"}]                | https://smartstay-3cffc.web.app/admin/property/rooms    |
+| /admin/profile                  | Ver perfil admin               | GET                   | /admin/profile                    | —                           | { "id":1,"name":"Admin" }                  | https://smartstay-3cffc.web.app/admin/profile           |
+| /guest/dashboard                | Dashboard huésped              | GET                   | /guest/dashboard                  | —                           | { "welcome":"Guest Dashboard" }            | https://smartstay-3cffc.web.app/guest/dashboard         |
+| /guest/properties               | Ver propiedades                | GET                   | /guest/properties                 | Query: ?city=Lima           | [{"id":101,"name":"SmartStay Miraflores"}] | https://smartstay-3cffc.web.app/guest/properties        |
+| /guest/property/:id             | Ver detalle de propiedad       | GET                   | /guest/property/{id}              | Path: id                    | { "id":101,"rooms":32 }                    | https://smartstay-3cffc.web.app/guest/property/101      |
+| /guest/book/:propertyId/:roomId | Iniciar reserva simulada       | POST (simulado)       | /guest/book/{propertyId}/{roomId} | Path: propertyId, roomId    | { "bookingId":201,"status":"confirmed" }   | https://smartstay-3cffc.web.app/guest/book/101/201      |
+| /guest/bookings                 | Ver reservas del huésped       | GET                   | /guest/bookings                   | Query: ?status=completed    | [{"id":201,"status":"confirmed"}]          | https://smartstay-3cffc.web.app/guest/bookings          |
+| /guest/rooms                    | Ver lista de habitaciones      | GET                   | /guest/rooms                      | Query: ?capacity=2          | [{"id":31,"capacity":2}]                   | https://smartstay-3cffc.web.app/guest/rooms             |
+| /staff/dashboard                | Dashboard del staff            | GET                   | /staff/dashboard                  | —                           | { "welcome":"Staff Dashboard" }            | https://smartstay-3cffc.web.app/staff/dashboard         |
+| /staff/property/tasks           | Ver/gestionar tareas           | GET / POST (simulado) | /staff/property/tasks             | Body (POST): task, roomId   | [{"task":"Clean Room 12"}]                 | https://smartstay-3cffc.web.app/staff/property/tasks    |
+| /staff/property/cleaning        | Ver habitaciones asignadas     | GET                   | /staff/property/cleaning          | —                           | [{"roomId":23,"status":"pending"}]         | https://smartstay-3cffc.web.app/staff/property/cleaning |
+| /staff/profile                  | Ver perfil staff               | GET                   | /staff/profile                    | —                           | { "id":3,"name":"Rosa Staff" }             | https://smartstay-3cffc.web.app/staff/profile           |
 
 ---
 
@@ -4238,14 +4238,14 @@ Nicole Ávila tuvo una buena impresión de la aplicación, destacando su practic
 
 ### TABLA RESUMEN (Los Bytes)
 
-| # | Heurística afectada                  | Severidad | Área                  | ¿Requiere rediseño? |
-|---|--------------------------------------|-----------|-----------------------|---------------------|
-| 1 | Visibilidad del estado del sistema    | 3         | Información de huésped| Sí                  |
-| 2 | Reconocimiento por encima del recuerdo| 2         | Historial de reservas | Sí                  |
-| 3 | Mapeo natural (coherencia conceptual) | 3         | Flujo de pago         | Sí                  |
-| 4 | Encontrabilidad (Findability)         | 2         | Servicios disponibles | Parcial             |
-| 5 | Control y libertad del usuario        | 2         | Tareas del huésped    | Parcial             |
-| 6 | Prevención de errores                 | 3         | Reservas y pagos      | Sí                  |
+| # | Heurística afectada                    | Severidad | Área                   | ¿Requiere rediseño? |
+|---|----------------------------------------|-----------|------------------------|---------------------|
+| 1 | Visibilidad del estado del sistema     | 3         | Información de huésped | Sí                  |
+| 2 | Reconocimiento por encima del recuerdo | 2         | Historial de reservas  | Sí                  |
+| 3 | Mapeo natural (coherencia conceptual)  | 3         | Flujo de pago          | Sí                  |
+| 4 | Encontrabilidad (Findability)          | 2         | Servicios disponibles  | Parcial             |
+| 5 | Control y libertad del usuario         | 2         | Tareas del huésped     | Parcial             |
+| 6 | Prevención de errores                  | 3         | Reservas y pagos       | Sí                  |
 
 ---
 
