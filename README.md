@@ -2664,7 +2664,7 @@ En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creaci�
 
 | **Sprint #** | Sprint 3|
 |------------|-----------------|
-| **Sprint Planning Background** | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Web Service (Backend). En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. Además, se acordó mejorar la calidad de las User Stories y Technical Stories del proyecto, corrigiendo referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos y códigos HTTP. |
+| **Sprint Planning Background** | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Backend. En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. Además, se acordó mejorar la calidad de las User Stories y Technical Stories del proyecto, corrigiendo referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos y códigos HTTP. |
 | **Date** | 2025-10-22 |
 | **Time** | 07:00 PM |
 | **Location** | Modalidad remota mediante **Discord** |
@@ -2673,7 +2673,7 @@ En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creaci�
 | **Sprint 3 – 2 Review Summary** | En el Sprint 2, logramos culminar el desarrollo del frontend de SmartStay, incluyendo la implementación de la interfaz principal, la navegación y la optimización visual. El resultado fue funcional, aunque se identificaron pequeñas incidencias con la estructura de los bounded contexts, el diseño de interfaz y el rendimiento que deberán ser ajustadas más adelante. |
 | **Sprint 3 – 2 Retrospective Summary** | Durante el Sprint 2, el equipo trabajó de forma colaborativa y cumplió con los objetivos propuestos. Sin embargo, se evidenció la necesidad de una mejor coordinación en la gestión de versiones y documentación del código. Se acordó reforzar el control de tiempo en las tareas dadas a los integrantes. |
 | **Sprint Goal & User Stories** | — |
-| **Sprint 3 Goal** | **Nuestro enfoque está en** implementar los bounded contexts core del negocio (Accommodations, Bookings y Payments) a través de una API RESTful, mejorando la calidad de las User Stories y Technical Stories del proyecto, y proporcionando documentación interactiva de la API. **Creemos que esto proporciona** funcionalidad backend robusta y escalable a los desarrolladores frontend, mejor especificación de requisitos a los stakeholders, y una base sólida para la integración de servicios a los administradores de hoteles. **Esto se confirmará cuando** los desarrolladores frontend puedan consumir los endpoints de Accommodations, Bookings y Payments a través de la API desplegada, las User Stories y Technical Stories cumplan con los estándares de calidad establecidos (formato Gherkin, sin referencias a UI, con endpoints específicos), y la documentación Swagger esté disponible y funcional para pruebas de integración. |
+| **Sprint 3 Goal** | **Nuestro enfoque está en** implementar los bounded contexts core del negocio (Accommodations, Bookings y Payments) a través de una API RESTful, mejorando la calidad de las User Stories y Technical Stories del proyecto, y proporcionando documentación interactiva de la API. **Creemos que esto proporciona** funcionalidad backend robusta y escalable a los desarrolladores frontend, mejor especificación de requisitos a los stakeholders, y una base sólida para la integración de servicios a los administradores de hoteles. **Esto se confirmará cuando** los desarrolladores frontend puedan consumir los endpoints de Accommodations, Bookings y Payments a través de la API desplegada, las User Stories y Technical Stories cumplan con los estándares de calidad establecidos  y la documentación Swagger  para pruebas de integración. |
 | **Sprint 3 Velocity** | 18 |
 | **Sum of Story Points** | 20 |
 
@@ -2681,7 +2681,7 @@ En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creaci�
 
 ## 5.2.3.2. Aspect Leaders and Collaborators.
 
-Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Web Service (Backend) de SmartStay, creando la estructura base de la API RESTful y los bounded contexts correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
+Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Backend , creando la estructura base de la API RESTful y los bounded contexts correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
 Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y Colaboración (LACX), donde se definen los roles de Líder (L) y Colaborador (C) según los principales aspectos del Sprint.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Implementación de la API RESTful (Endpoints principales)** | **Integración de bounded contexts** | **Configuración y conexión con la Base de Datos** | **Gestión de autenticación y seguridad** |
@@ -2699,30 +2699,41 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 
 | **Sprint #** | **User Story Id ** | **User Story Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|--------------------|--------|------------|-----------------|------------------------|-----------------|------------|
-| Sprint 3 | US-01 | User registration with validation | UT-20 | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3 | Alexander | Done |
-| Sprint 3 | US-02 | Secure login | UT-21 | Login Implementation | Develop login endpoint using JWT for authentication and secure sessions. | 3 | Italo | In Process |
-| Sprint 3 | US-03 | Profile and role management | UT-22 | Profile API Creation | Build endpoints for viewing and updating user profiles.| 5 | Jose | Done |
-| Sprint 3 | US-03 | Profile and role management | UT-23 | Role-Based Access Control | Implement middleware to manage role permissions (admin, host, guest).| 5 | Italo | Done |
-| Sprint 3 | US-04 | Password recovery | UT-24 | Password Reset Service | Develop a token-based password recovery system with email verification. | 4 | Natalia | Done |
-| Sprint 3 | US-06 | Room and status management | UT-25 | Room CRUD Implementation | Create endpoints to add, update, and delete rooms.| 3 | Natalia | Done |
-| Sprint 3 | US-06 | Room and status management | UT-26 | Availability Logic | Implement room status updates (available, booked, maintenance). | 4 | Alexander | To Do |
-| Sprint 3 | US-07 | Centralized reservation management | UT-27 | Booking CRUD Service: | Implement booking endpoints for creation, update, and cancellation. | 3 | Jose | Done |
-| Sprint 3 | US-07 | Centralized reservation management | UT-28 | Database Linking | Connect booking data to users and rooms with proper relationships.| 4 | Italo | In Process |
-| Sprint 3 | US-09 | Digital check-out and billing | UT-29 | Digital Billing API | Implement endpoint for generating invoices after checkout. | 6 | Alexander | Done |
-| Sprint 3 | US-23 | Digital payment processing | UT-30 | Payment Gateway Simulation | Create secure endpoint that simulates real payment processing. | 5 | Italo | In Process |
-| Sprint 3 | US-23 | Digital payment processing | UT-31 | Transaction Logging | Store payment data and status in database with timestamp. | 3 | Jose | Done |
-| Sprint 3 | US-29 | RESTful API for room management | UT-32 | API Endpoint Design | Develop RESTful endpoints for external integration of room data. | 4 | Alexander | To Review |
-| Sprint 3 | US-29 | RESTful API for room management | UT-33 | Swagger Integration | Document all endpoints using Swagger/OpenAPI. | 4 | Natalia | Done |
-| Sprint 3 | US-31 | API authentication and authorization | UT-34 | Auth Middleware Setup | Configure authentication and authorization middleware for all routes. | 3 | Natalia | Done |
-| Sprint 3 | US-32 | Interactive API documentation | UT-35 | Swagger UI Configuration | Integrate Swagger UI to allow live endpoint testing and auto documentation. | 4 | Alexander | To Do |
-| Sprint 3 | US-40 | Data backup and recovery | UT-36 | Backup and Restore System | Implement scheduled backup tasks and recovery scripts for the database. | 3 | Jose | Done |
-| Sprint 3 | US-41 | System monitoring and logs | UT-37 | Logging Dashboard Setup | Configure centralized logging and create admin endpoint for viewing logs.| 4 | Italo | In Process |
+| Sprint 3 | US01 | Registro de huésped | UT-20 | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3 | Alexander | Done |
+| Sprint 3 | US02 | Inicio de sesión seguro | UT-21 | Login Implementation | Develop login endpoint using JWT for authentication and secure sessions. | 3 | Italo | In Process |
+| Sprint 3 | US03 | Recuperación de contraseña | UT-24 | Password Reset Service | Develop a token-based password recovery system with email verification. | 4 | Natalia | Done |
+| Sprint 3 | US04 | Edición de perfil personal | UT-22 | Profile API Creation | Build endpoints for viewing and updating user profiles.| 5 | Jose | Done |
+| Sprint 3 | US04 | Edición de perfil personal | UT-23 | Role-Based Access Control | Implement middleware to manage role permissions (admin, host, guest).| 5 | Italo | Done |
+| Sprint 3 | TS01 | Registro de usuario a través de la API | UT-20 | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3 | Alexander | Done |
+| Sprint 3 | TS02 | Inicio de sesión a través de la API | UT-21 | Login Implementation | Develop login endpoint using JWT for authentication and secure sessions. | 3 | Italo | In Process |
+| Sprint 3 | TS01 | Registro de usuario a través de la API | UT-34 | Auth Middleware Setup | Configure authentication and authorization middleware for all routes. | 3 | Natalia | Done |
+| Sprint 3 | TS09 | Crear habitación a través de la API | UT-25 | Room CRUD Implementation | Create endpoints to add, update, and delete rooms.| 3 | Natalia | Done |
+| Sprint 3 | TS09 | Crear habitación a través de la API | UT-26 | Availability Logic | Implement room status updates (available, booked, maintenance). | 4 | Alexander | To Do |
+| Sprint 3 | TS10 | Obtener habitación por ID a través de la API | UT-25 | Room CRUD Implementation | Create endpoints to get room by ID.| 2 | Natalia | Done |
+| Sprint 3 | TS17 | Obtener todas las habitaciones a través de la API | UT-25 | Room CRUD Implementation | Create endpoint to get all rooms.| 2 | Natalia | Done |
+| Sprint 3 | TS18 | Obtener tipo de habitación por ID a través de la API | UT-25 | Room CRUD Implementation | Create endpoint to get room type by ID.| 2 | Natalia | Done |
+| Sprint 3 | TS11 | Crear reserva a través de la API | UT-27 | Booking CRUD Service | Implement booking endpoints for creation, update, and cancellation. | 3 | Jose | Done |
+| Sprint 3 | TS11 | Crear reserva a través de la API | UT-28 | Database Linking | Connect booking data to users and rooms with proper relationships.| 4 | Italo | In Process |
+| Sprint 3 | TS12 | Obtener reserva por ID a través de la API | UT-27 | Booking CRUD Service | Implement endpoint to get booking by ID.| 2 | Jose | Done |
+| Sprint 3 | TS13 | Confirmar reserva a través de la API | UT-27 | Booking CRUD Service | Implement endpoint to confirm booking.| 2 | Jose | Done |
+| Sprint 3 | TS19 | Obtener todas las reservas a través de la API | UT-27 | Booking CRUD Service | Implement endpoint to get all bookings.| 2 | Jose | Done |
+| Sprint 3 | TS20 | Cancelar reserva a través de la API | UT-27 | Booking CRUD Service | Implement endpoint to cancel booking.| 2 | Jose | Done |
+| Sprint 3 | TS14 | Crear pago a través de la API | UT-30 | Payment Gateway Simulation | Create secure endpoint that simulates real payment processing. | 5 | Italo | In Process |
+| Sprint 3 | TS14 | Crear pago a través de la API | UT-31 | Transaction Logging | Store payment data and status in database with timestamp. | 3 | Jose | Done |
+| Sprint 3 | TS15 | Procesar pago a través de la API | UT-30 | Payment Gateway Simulation | Create endpoint to process payment transactions.| 3 | Italo | In Process |
+| Sprint 3 | TS16 | Obtener pagos por reserva a través de la API | UT-30 | Payment Gateway Simulation | Create endpoint to get payments by booking ID.| 2 | Italo | In Process |
+| Sprint 3 | TS21 | Obtener pago por ID a través de la API | UT-30 | Payment Gateway Simulation | Create endpoint to get payment by ID.| 2 | Italo | In Process |
+| Sprint 3 | TS22 | Obtener todos los pagos a través de la API | UT-30 | Payment Gateway Simulation | Create endpoint to get all payments.| 2 | Italo | In Process |
+| Sprint 3 | TS09 | Crear habitación a través de la API | UT-33 | Swagger Integration | Document all endpoints using Swagger/OpenAPI. | 4 | Natalia | Done |
+| Sprint 3 | TS11 | Crear reserva a través de la API | UT-33 | Swagger Integration | Document all endpoints using Swagger/OpenAPI. | 4 | Natalia | Done |
+| Sprint 3 | TS14 | Crear pago a través de la API | UT-33 | Swagger Integration | Document all endpoints using Swagger/OpenAPI. | 4 | Natalia | Done |
+| Sprint 3 | TS09 | Crear habitación a través de la API | UT-35 | Swagger UI Configuration | Integrate Swagger UI to allow live endpoint testing and auto documentation. | 4 | Alexander | To Do |
 
 ---
 
 ## 5.2.3.4. Development Evidence for Sprint Review.
 
-En este tercer sprint nos enfocamos en realizar la implementación del WebService BACKEND. Además, como parte del trabajo de desarrollo, se mejoraron las User Stories y Technical Stories del proyecto para cumplir con los estándares de calidad establecidos, eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST.
+En este tercer sprint nos enfocamos en realizar la implementación del Backend. Además, como parte del trabajo de desarrollo, se mejoraron las User Stories y Technical Stories del proyecto eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST.
 
 ### Commits realizados
 
@@ -2743,12 +2754,12 @@ En este tercer sprint nos enfocamos en realizar la implementación del WebServic
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
 
-En este **Sprint 3**, el entregable principal fue el **Backend API REST de SmartStay**, desarrollado con **.NET 9.0** siguiendo los principios de **Domain-Driven Design (DDD)**.
+En este **Sprint 3**, el entregable principal fue el **Backend API REST de SmartStay** siguiendo los principios de **Domain-Driven Design (DDD)**.
 
 La ejecución se centró en:
 
 - Implementar una **API REST** siguiendo la arquitectura DDD con separación en bounded contexts.
-- Desarrollar los **bounded contexts core del negocio**: Accommodations (Alojamientos), Bookings (Reservas) y Payments (Pagos).
+- Desarrollar los **bounded contexts core del negocio**: Accommodations , Bookings y Payments.
 - Configurar **Entity Framework Core** para persistencia con base de datos MySQL.
 - Implementar **Swagger/OpenAPI** para documentación interactiva de la API.
 - Priorizar la **lógica de negocio core** necesaria para el funcionamiento principal del sistema.
@@ -2767,7 +2778,7 @@ En este **Sprint 3**, nos enfocamos en implementar los **3 bounded contexts core
 
 ### Bounded contexts desarrollados
 
-#### 1. BOUNDED CONTEXT DE ALOJAMIENTOS (ACCOMMODATIONS)
+#### 1. BOUNDED CONTEXT ACCOMMODATIONS
 
 Este bounded context gestiona las habitaciones y tipos de habitación del sistema:
 
@@ -2782,7 +2793,7 @@ Este bounded context gestiona las habitaciones y tipos de habitación del sistem
   - `POST /api/v1/room-types` - Crear nuevo tipo de habitación
   - `GET /api/v1/room-types` - Obtener todos los tipos de habitación
 
-#### 2. BOUNDED CONTEXT DE RESERVAS (BOOKINGS)
+#### 2. BOUNDED CONTEXT BOOKINGS
 
 Este bounded context gestiona las reservas de habitaciones:
 
@@ -2794,7 +2805,7 @@ Este bounded context gestiona las reservas de habitaciones:
   - `POST /api/v1/bookings/{bookingId}/confirm` - Confirmar una reserva
   - `POST /api/v1/bookings/{bookingId}/cancel` - Cancelar una reserva
 
-#### 3. BOUNDED CONTEXT DE PAGOS (PAYMENTS)
+#### 3. BOUNDED CONTEXT  PAYMENTS
 
 Este bounded context gestiona los pagos asociados a las reservas:
 
@@ -2903,8 +2914,6 @@ La documentación cubre los siguientes bounded contexts y sus respectivos endpoi
 - **Ejemplos de uso**: Cada endpoint incluye ejemplos de requests y responses.
 - **Autenticación documentada**: Se documentan los métodos de autenticación requeridos para endpoints protegidos.
 - **Códigos de estado HTTP**: Se especifican todos los códigos de respuesta posibles (200, 201, 400, 401, 404, 500, etc.).
-- **Modelos de datos**: Se documentan todos los DTOs (Data Transfer Objects) utilizados en las peticiones y respuestas.
-
 
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
@@ -2918,27 +2927,6 @@ Durante este Sprint 3, el equipo desplegó el **Backend API REST de SmartStay**.
 - **MySQL**: Base de datos relacional configurada y conectada mediante Entity Framework Core para la persistencia de datos.
 - **Swagger/OpenAPI**: Documentación interactiva de la API desplegada junto con el servicio, permitiendo probar los endpoints directamente desde el navegador.
 
-### Proceso de despliegue
-
-El despliegue del backend siguió los siguientes pasos:
-
-1. **Preparación del entorno:**
-   - Se estableció la conexión a la base de datos MySQL mediante Entity Framework Core.
-   - Se configuró Swagger para la documentación automática de la API.
-   - Se prepararon los archivos de configuración necesarios para el despliegue en Render.
-
-2. **Configuración en Render:**
-   - Se conectó el repositorio de GitHub con Render para habilitar despliegue automático.
-   - Se configuró el servicio como un **Web Service**
-   - Se establecieron las **variables de entorno** necesarias
- 
-3. **Integración Continua:**
-   - Cada *commit* y *merge* en la rama principal del repositorio desencadena automáticamente un nuevo despliegue en Render.
-   - Este flujo garantiza que la versión en producción esté siempre actualizada con los últimos cambios del equipo.
-
-4. **Verificación del despliegue:**
-   - Se validó que todos los endpoints de los bounded contexts (Accommodations, Bookings, Payments) estén disponibles y funcionando correctamente.
-   - Se verificó el acceso a la documentación Swagger para facilitar las pruebas y la integración con el frontend.
 
 Este flujo aseguró que el backend desarrollado estuviera disponible para todo el equipo, permitiendo realizar pruebas de integración con el frontend y validar el funcionamiento de la API en un entorno de producción simulado.
 
@@ -2948,35 +2936,25 @@ Este flujo aseguró que el backend desarrollado estuviera disponible para todo e
 
 ![render](assets/render2.png)
 
-- **URL pública del servicio desplegado en Render:** `https://[//PEGAR AQUI EL DESPLEGUE//].onrender.com`
+- **URL pública del servicio desplegado en Render:** `https://[//PEGAR AQUI EL DESPLEGUE///ITALO////////////////].onrender.com`
 
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
-Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, implementando la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el código del frontend, actualizaciones en partes del reporte que requerían mejoras, y se mejoró significativamente la calidad de las User Stories y Technical Stories del proyecto.
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, implementando la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el frontend, actualizaciones en el reporte y se mejoró la calidad de las User Stories y Technical Stories, eliminando referencias a UI y reescribiéndolas con formato API REST (endpoints específicos, códigos HTTP, estructura Given-When-Then).
 
-Las mejoras en las historias incluyeron la eliminación de referencias a elementos de UI (como "hace clic", "botones", "pantallas"), la reescritura de las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos (`/api/v1/...`), códigos HTTP (200, 201, 400, 404, etc.) y estructura Given-When-Then apropiada. También se agregaron nuevas Technical Stories para los bounded contexts implementados (Accommodations, Bookings y Payments), siguiendo el formato del ejemplo proporcionado por el profesor.
-
-El uso de GitHub permitió mantener una organización clara del flujo de trabajo, facilitando el seguimiento de los aportes individuales y asegurando que las mejoras se integraran de manera ordenada.
-
-Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión más estable del backend con los bounded contexts de Accommodations, Bookings y Payments, optimizar el frontend, mejorar la calidad de las historias de usuario y técnicas, y fortalecer la calidad general del documento del proyecto.
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión estable del backend con los bounded contexts de Accommodations, Bookings y Payments, optimizar el frontend y fortalecer la calidad general del proyecto.
 
 ### Acciones de colaboración destacadas
 
-- Se utilizó **GitHub** como herramienta central para coordinar el trabajo del equipo, gestionar versiones y mantener un registro ordenado de los avances realizados.
-- Un integrante del equipo reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y para la corrección del frontend.
-- Cada miembro realizó **commits documentados**, detallando la implementación de funcionalidades en el backend (endpoints, bounded contexts, configuración de base de datos), las mejoras en el frontend y las correcciones aplicadas al reporte.
-- Se realizó una **revisión y mejora completa de las User Stories y Technical Stories** del proyecto, eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST, cumpliendo con los estándares de calidad establecidos por el profesor.
-- Se realizaron **pull requests** para integrar los cambios en la rama principal, manteniendo un flujo de integración seguro y evitando conflictos.
-- Se llevaron a cabo **revisiones de código** en equipo para:
-  - Validar la lógica implementada en el backend y la correcta separación de bounded contexts.
-  - Verificar la implementación de Entity Framework Core y la configuración de MySQL.
-  - Asegurar la corrección del código del frontend en aspectos de diseño, idioma y navegación.
-  - Verificar que las modificaciones al reporte cumplieran con la estructura y coherencia solicitadas.
-- Se utilizó **Trello** para la gestión visual de tareas y seguimiento del Sprint Backlog, facilitando la coordinación entre los miembros del equipo.
-- A pesar de las limitaciones por tiempo y experiencia, la comunicación constante permitió resolver problemas, ajustar entregables y mantener un avance estable del proyecto.
+- Se utilizó **GitHub** como herramienta central para coordinar el trabajo, gestionar versiones y mantener un registro ordenado de los avances.
+- Se reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y corrección del frontend.
+- Cada miembro realizó **commits documentados** detallando la implementación de funcionalidades en el backend, mejoras en el frontend y correcciones en el reporte.
+- Se realizó una **revisión y mejora completa de las User Stories y Technical Stories**, eliminando referencias a UI y reescribiéndolas con formato API REST según estándares de calidad.
+- Se realizaron **pull requests** y **revisiones de código** en equipo para validar la lógica del backend, verificar la configuración de base de datos y asegurar la corrección del frontend y reporte.
+- Se utilizó **Trello** para la gestión visual de tareas y seguimiento del Sprint Backlog.
 
-Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible, preparando el sistema para futuras expansiones.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
 
 ### Evidencia de colaboración
 
@@ -3105,10 +3083,260 @@ La usuaria tuvo una impresión muy positiva de la aplicación, resaltando que es
 ---
 
 
-## 5.3.3. Evaluaciones según heurísticas. 
+## 5.3.3. Evaluaciones según heurísticas.
 
-## 5.4. Video About-the-Product. 
+**UX Heuristics & Principles Evaluation**
 
-## LandingPage 
+**Usability – Inclusive Design – Information Architecture**
 
-## Frontend
+- **CARRERA:** Ingeniería de Software  
+- **CURSO:** Aplicaciones Web  
+- **SECCIÓN:** 7454  
+- **PROFESORES:** Todos  
+- **AUDITOR:** Equipo SmartStay  
+- **CLIENTE(S):** Administradores de Hoteles Boutique y Pequeños / Huéspedes de Hoteles  
+
+**SITE o APP A EVALUAR:**
+
+Smart Stay
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Gestionar reservas y visualizar historial completo (Administradores)
+2. Acceder a información detallada del huésped (pagos, preferencias) (Administradores)
+3. Realizar reservas de habitaciones (Huéspedes)
+4. Proceso de pago de reservas (Huéspedes)
+5. Acceder a información de servicios del hotel (Huéspedes)
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Control de habitación desde app (llaves digitales, temperatura, Wi-Fi)
+2. Integración con marketplaces globales
+3. Funcionalidades avanzadas de personalización
+4. Check-in y check-out digital
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | Falta información detallada del huésped (pagos, preferencias, restricciones). | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | No se visualizan reservas pasadas y futuras claramente. | 3 | Usability: Reconocimiento antes que recuerdo |
+| 3 | Proceso de pago poco claro durante la demostración. | 3 | Usability: Coincidencia entre el sistema y el mundo real |
+| 4 | Falta información sobre servicios del hotel disponibles. | 2 | Information Architecture: Is it findable? |
+| 5 | Ausencia de funcionalidades de check-in y check-out digital. | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 6 | Preocupación por fallos al procesar reservas o pagos sin retroalimentación clara. | 3 | Usability: Prevención de errores y retroalimentación |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: Falta información detallada del huésped (pagos, preferencias, restricciones)**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Visibilidad del estado del sistema
+
+**Problema:**
+
+Los administradores no pueden acceder a información completa del huésped, incluyendo estado de pagos, montos pendientes, preferencias alimenticias y restricciones. Durante las entrevistas, ambos administradores (Alejandra y Adrián) mencionaron la necesidad de ver más detalles del huésped, estado de pago y monto pendiente para una gestión eficiente.
+
+**Recomendación:**
+
+Implementar un perfil completo del huésped con secciones claras para: estado de pagos, historial de transacciones, preferencias, restricciones alimenticias y notas importantes. Incluir un dashboard que muestre un resumen visual del estado del huésped.
+
+---
+
+**PROBLEMA #2: No se visualizan reservas pasadas y futuras claramente**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+No existe una vista clara que permita visualizar reservas pasadas y futuras de manera organizada. Los administradores necesitan poder consultar todas las reservas para una gestión eficiente, pero actualmente no tienen acceso a esta información de forma clara y organizada.
+
+**Recomendación:**
+
+Crear un calendario o vista de lista con filtros temporales (pasadas, actuales, futuras) y opciones de búsqueda por huésped, fecha o estado. Implementar una vista de calendario mensual con indicadores visuales de ocupación.
+
+---
+
+**PROBLEMA #3: Proceso de pago poco claro durante la demostración**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+El proceso de pago no está claramente explicado durante la demostración, generando confusión sobre los pasos a seguir. La entrevistada Vanessa mencionó que "la parte de pagos fue lo menos comprendido durante la demostración" y sugiere "aclarar mejor la parte de pagos".
+
+**Recomendación:**
+
+Implementar un flujo de pago paso a paso con indicadores visuales claros (paso 1 de 3), resumen de la reserva antes del pago, y mensajes de confirmación después de cada acción. Incluir tooltips o ayuda contextual en cada paso del proceso.
+
+---
+
+**PROBLEMA #4: Falta información sobre servicios del hotel disponibles**
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture - Is it findable?
+
+**Problema:**
+
+Falta información visible sobre servicios del hotel disponibles para el huésped. La entrevistada mencionó que "sería útil agregar servicios del hotel" y que "la app tiene lo esencial", indicando que esta información es importante pero no está disponible.
+
+**Recomendación:**
+
+Crear una sección dedicada de servicios del hotel con iconos claros, descripciones y disponibilidad. Incluir esta información en la vista de reserva confirmada y en el dashboard del huésped.
+
+---
+
+**PROBLEMA #5: Ausencia de funcionalidades de check-in y check-out digital**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+Ausencia de funcionalidades de check-in y check-out digital mencionadas como deseables por los usuarios. La entrevistada sugirió "incluir check-in y check-out digitales" como mejora para la experiencia del huésped.
+
+**Recomendación:**
+
+Implementar flujos de check-in y check-out digital con guías paso a paso, confirmaciones visuales y opción de contacto con recepción si es necesario. Incluir validación de documentos y confirmación de llegada.
+
+---
+
+**PROBLEMA #6: Preocupación por fallos al procesar reservas o pagos sin retroalimentación clara**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Prevención de errores y retroalimentación
+
+**Problema:**
+
+Preocupación sobre posibles fallos al procesar reservas o pagos sin retroalimentación clara del sistema. La entrevistada mencionó que "le preocupa que puedan ocurrir fallos al procesar reservas o pagos", lo que genera desconfianza en el sistema.
+
+**Recomendación:**
+
+Implementar mensajes de confirmación claros después de cada acción crítica (reserva creada, pago procesado), validaciones en tiempo real antes de enviar formularios, y mensajes de error descriptivos con sugerencias de solución. Agregar un sistema de notificaciones que confirme cada paso del proceso. 
+
+## 5.4. Video About-the-Product.
+
+El Video About-the-Product de Smart Stay está dirigido a dos públicos principales: los visitantes del Landing Page que desean conocer el modelo de negocio y las características principales de la plataforma, y los usuarios de las aplicaciones que necesitan realizar tareas relacionadas con los procesos soportados por la solución.
+
+Este video presenta de manera clara y concisa las funcionalidades clave de Smart Stay, incluyendo la gestión de reservas para administradores de hoteles boutique y la experiencia de reserva y pago para huéspedes. El tono utilizado es profesional y accesible, alineado con la identidad visual y comunicacional de la plataforma.
+
+### Contenido del Video
+
+El video incluye:
+
+- **Modelo de negocio:** Explicación de cómo Smart Stay ayuda a los hoteles boutique a gestionar sus operaciones de manera eficiente.
+- **Características principales:** Demostración de las funcionalidades core de la plataforma para administradores y huéspedes.
+- **Procesos soportados:** Flujos de trabajo para gestión de reservas, información de huéspedes, proceso de pago y acceso a servicios del hotel.
+- **Experiencia de usuario:** Visualización de la interfaz y navegación de la aplicación.
+
+### Testimonio de Usuario
+
+Durante las sesiones de validación, los usuarios expresaron opiniones positivas sobre la plataforma. A continuación, un testimonio destacado:
+
+> *"La aplicación es práctica, clara y fácil de usar. Creo que mi equipo podría adaptarse sin problema. Una vez terminada la herramienta con las funciones sugeridas, la usaría sin dudar."*  
+> **— Adrián Nicholaiv Saavedra Angulo, Administrador de Hotel (34 años, Tarapoto)**
+
+### Metadatos del Video
+
+**Screenshot del Video:**
+
+![Video About-the-Product](assets/video_about_product.png)
+
+**URL de Microsoft Stream:**
+
+[//PEGAR AQUI EL URL DE MICROSOFT STREAM//]
+
+**URL de YouTube (para incrustar en Landing Page):**
+
+[//PEGAR AQUI EL URL DE YOUTUBE//]
+
+**Duración del Video:**
+
+[//PEGAR AQUI LA DURACION DEL VIDEO (ej: 5:30 minutos)//]
+
+---
+
+## Conclusiones
+
+A lo largo del desarrollo del proyecto Smart Stay, se lograron avances significativos en la implementación de una solución integral para la gestión de hoteles boutique. El trabajo realizado durante los tres sprints permitió consolidar tanto el frontend como el backend de la plataforma, siguiendo principios de Domain-Driven Design y arquitectura por bounded contexts.
+
+### Logros Principales
+
+Durante el **Sprint 3**, el equipo se enfocó en el desarrollo del Backend API REST, implementando los bounded contexts core del negocio: Accommodations, Bookings y Payments. Se estableció una base sólida con  Entity Framework Core y MySQL, proporcionando una API RESTful documentada con Swagger/OpenAPI que permite la integración con el frontend y futuras expansiones.
+
+La mejora de las User Stories y Technical Stories fue un logro importante, eliminando referencias a elementos de UI y estructurando las Technical Stories con formato API REST, lo que facilitará la integración y el desarrollo futuro.
+
+### Validación con Usuarios
+
+Las sesiones de validación con administradores de hoteles y huéspedes proporcionaron retroalimentación valiosa. Los usuarios destacaron la claridad y facilidad de uso de la aplicación, aunque identificaron áreas de mejora importantes como la necesidad de información más detallada del huésped, visualización de reservas pasadas y futuras, y clarificación del proceso de pago.
+
+### Desafíos y Aprendizajes
+
+El proyecto enfrentó desafíos relacionados con el tiempo disponible y la experiencia técnica del equipo. Sin embargo, estos desafíos se convirtieron en oportunidades de aprendizaje, permitiendo al equipo desarrollar habilidades en arquitectura de software, desarrollo de APIs REST, y trabajo colaborativo mediante herramientas como GitHub y Trello.
+
+### Próximos Pasos
+
+Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Profile, mejorar la retroalimentación del sistema en procesos críticos, y agregar funcionalidades solicitadas por los usuarios como check-in/check-out digital y sección de servicios del hotel. La base establecida en este sprint proporciona una plataforma sólida para estas expansiones.
+
+---
+
+## Bibliografía
+
+### Documentación Técnica
+
+- Microsoft. (2024). *ASP.NET Core Documentation*. Recuperado de https://learn.microsoft.com/en-us/aspnet/core/
+
+- Microsoft. (2024). *Entity Framework Core Documentation*. Recuperado de https://learn.microsoft.com/en-us/ef/core/
+
+- Oracle Corporation. (2024). *MySQL Documentation*. Recuperado de https://dev.mysql.com/doc/
+
+- Swagger. (2024). *OpenAPI Specification*. Recuperado de https://swagger.io/specification/
+
+### Arquitectura y Diseño
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+- Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
+
+### Metodologías Ágiles
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Recuperado de https://scrumguides.org/
+
+- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley Professional.
+
+### Usabilidad y Experiencia de Usuario
+
+- Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
+
+- Norman, D. (2013). *The Design of Everyday Things: Revised and Expanded Edition*. Basic Books.
+
+- W3C. (2021). *Web Content Accessibility Guidelines (WCAG) 2.1*. Recuperado de https://www.w3.org/WAI/WCAG21/quickref/
+
+### Herramientas y Plataformas
+
+- GitHub. (2024). *GitHub Documentation*. Recuperado de https://docs.github.com/
+
+- Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
+
+- React. (2024). *React Documentation*. Recuperado de https://react.dev/
