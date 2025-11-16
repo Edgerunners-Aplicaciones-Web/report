@@ -4365,11 +4365,19 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 **Screenshot del Video:**
 
-![Video About-the-Product](assets/video_about_product.png)
+![About-The-Team 1](assets/att1.png)
+
+![About-The-Team 2](assets/att2.png)
+
+![About-The-Team 3](assets/att3.png)
+
+![About-The-Team 4](assets/att4.png)
+
+![About-The-Team 5](assets/att5.png)
 
 **URL de Microsoft Stream:**
 
-[//PEGAR AQUI EL URL DE MICROSOFT STREAM//]
+[About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDIzqcXR55lQYHH8Y5vxEXyASvOA81jxk1r0dNiQP2-Ieg?e=hNzPm7)
 
 
 ---
