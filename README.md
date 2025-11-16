@@ -4087,8 +4087,6 @@ Datos del entrevistado:
 
 El entrevistado considera que la aplicación es práctica, clara y fácil de usar. Sugiere agregar más detalles del huésped, como el estado completo de pagos, y la posibilidad de ver reservas pasadas y futuras. Cree que, con esas funciones, la implementaría sin dudas. Está dispuesto a pagar hasta 120 soles mensuales y usaría la herramienta con gusto una vez esté completa.
 
-
-
 ---
 
 #### Entrevista 2
@@ -4112,6 +4110,26 @@ Datos del entrevistado:
 Adrián considera que la aplicación es práctica y fácil de usar, y cree que su equipo podría adaptarse sin problema. Sugiere añadir información detallada del huésped, como estado de pago, monto pendiente, historial de reservas, preferencias alimenticias o restricciones. Ve importante poder consultar todas las reservas, pasadas y futuras. Está dispuesto a pagar hasta 100 soles, aunque tendría dudas si el precio fuera elevado. Una vez terminada la herramienta con estas funciones, afirma que la usaría sin dudar.
 
 ---
+
+#### Entrevista 3
+
+Datos del entrevistado:
+
+**Nombre completo:** Alessandro Bravo
+
+**Edad:** 27
+
+**Ciudad:** Lima
+
+**Duración:**  8:37 minutos
+
+**Evidencia:** ![entrevista Adrian](assets/adrianentrevista.jpg)
+
+**URL del video:**
+[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBBDxvd4hJbRaBGoV7xrLogARA_qHG-hWZDjgGpa0lPpXY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GYbke)
+
+**Resumen de la entrevista**
+Adrián considera que la aplicación es práctica y fácil de usar, y cree que su equipo podría adaptarse sin problema. Sugiere añadir información detallada del huésped, como estado de pago, monto pendiente, historial de reservas, preferencias alimenticias o restricciones. Ve importante poder consultar todas las reservas, pasadas y futuras. Está dispuesto a pagar hasta 100 soles, aunque tendría dudas si el precio fuera elevado. Una vez terminada la herramienta con estas funciones, afirma que la usaría sin dudar.
 
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
