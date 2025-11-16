@@ -3468,15 +3468,8 @@ Una landing page es esencial en proyectos digitales, pues está diseñada estrat
 
 Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.  
 
-### Evidencia  
-
-- **Creación de Repositorio en GitHub**  
 ![Repositorio](assets/repository.png)  
  
-- **Configuración de GitHub Pages**
-(FALTA IMÁGENES DE ESTO)
-
----
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint  
 
