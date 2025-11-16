@@ -4352,6 +4352,17 @@ El proyecto enfrentó desafíos relacionados con el tiempo disponible y la exper
 
 Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Profile, mejorar la retroalimentación del sistema en procesos críticos, y agregar funcionalidades solicitadas por los usuarios como check-in/check-out digital y sección de servicios del hotel. La base establecida en este sprint proporciona una plataforma sólida para estas expansiones.
 
+### About-The-Team
+
+**Screenshot del Video:**
+
+![Video About-the-Product](assets/video_about_product.png)
+
+**URL de Microsoft Stream:**
+
+[//PEGAR AQUI EL URL DE MICROSOFT STREAM//]
+
+
 ---
 
 ## Bibliografía
