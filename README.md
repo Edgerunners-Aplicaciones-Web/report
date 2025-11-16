@@ -361,7 +361,8 @@ La resistencia de los hoteles a adoptar nueva tecnología, problemas de conectiv
 **Cuando veamos** que los hoteles piloto reporten mejoras operativas específicas y expresen preferencia por nuestra solución versus alternativas como Oracle Hospitality o gestión manual.
 
 #### 1.2.2.4. Lean UX Canvass
-![LEANUXCANVAS.jpg](assets/LEANUXCANVAS.jpg)
+
+<img src="assets/chapter-01/LEAN-UX-CANVAS.png" alt="LEAN UX CANVAS" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
 
 ## 1.3. Segmentos objetivos.
 
@@ -456,17 +457,121 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel global present
 
 #### 2.1.1 Análisis Competitivo.
 
-El análisis competitivo permite identificar las fortalezas y debilidades de los principales actores del mercado frente a la propuesta de **Smart Stay**.  
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias de los principales actores del mercado en comparación con la propuesta de **Smart Stay**.
 
-| Competidor              | Fortalezas                                                                 | Debilidades                                                                 | Diferenciación de Smart Stay |
-|--------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------------------|
-| **Oracle Hospitality**  | Reconocimiento global, soluciones completas de gestión hotelera.           | Alto costo, complejidad de implementación, poco flexible para hoteles pequeños. | Plataforma más accesible y enfocada en hoteles boutique. |
-| **Amadeus Hospitality** | Escalabilidad, fuerte presencia en cadenas hoteleras internacionales.      | Costos elevados, lenta implementación, baja personalización.               | Enfoque ágil y flexible para hoteles independientes. |
-| **RoomRaccoon**         | SaaS en la nube, interfaz intuitiva, diseñado para hoteles pequeños.       | Limitada presencia en LATAM, soporte técnico remoto.                       | Presencia local y soporte técnico en español para Lima. |
-| **Smartpricing**        | IA para revenue management y optimización de precios.                      | No cubre operaciones completas ni personalización del huésped.             | Gestión integral + IoT con personalización de la experiencia. |
-| **Startups locales**    | Precios accesibles, soporte en español, integración con canales de reservas. | Funcionalidades limitadas, sin IoT, poco enfoque en experiencia del huésped. | Plataforma integral que combina PMS + IoT + personalización. |
-| **Sistemas manuales**   | Bajo costo inicial, fáciles de usar sin capacitación avanzada.             | Ineficiencia, errores frecuentes, cero automatización.                     | Digitalización total y reducción de costos operativos. |
+**Matriz comparativa de competidores**
 
+<table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
+  </tr>
+
+  <tr>
+<th colspan="2">Competidores</th>
+<th>Smart Stay<br>
+<img src="assets/Chapter-02/logo.png" alt="Smart Stay Logo" width="60">
+</th>
+<th>
+Oracle Hospitality<br>
+<img src="assets/Chapter-02/oracle-hospitality.png" alt="Oracle Hospitality Logo" width="60">
+</th>
+<th>
+Room Raccoon<br>
+<img src="assets/Chapter-02/logo-roomraccoon.jpeg" alt="Room Raccoon Logo" width="60">
+</th>
+<th>
+Sistemas Manuales<br>
+<img src="assets/Chapter-02/Sistemas-Manuales.jpg" alt="Sistemas Manuales Logo" width="60">
+</th>
+
+  </tr>
+
+  <tr>
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
+    <td><b>Overview</b></td>
+    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
+    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
+    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
+    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
+    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
+    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
+    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
+    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
+    <td><b>Mercado objetivo</b></td>
+    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
+    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
+    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
+    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
+    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
+    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
+    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
+  </tr>
+
+  <tr>
+    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
+    <td><b>Productos & Servicios</b></td>
+    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
+    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
+    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
+    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
+  </tr>
+  <tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
+    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
+    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
+    <td>Gratuito o el costo de una licencia de Office.</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
+    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
+    <td>Aplicación web (Cloud) para el personal del hotel.</td>
+    <td>Plataforma web (Cloud).</td>
+    <td>Offline.</td>
+  </tr>
+
+  <tr>
+    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
+    <td><b>Fortalezas</b></td>
+    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
+    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
+    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
+    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
+    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
+    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
+    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
+    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
+    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
+    <td>Ninguna. Es el punto de partida para la digitalización.</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
+    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
+    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
+    <td>Cualquier software básico representa una amenaza existencial.</td>
+  </tr>
+</table>
 
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
@@ -533,15 +638,15 @@ Con el objetivo de profundizar en las necesidades y expectativas de los segmento
 
 Datos del entrevistado:
 
-**Nombre completo:** Adrian Saavedra Angulo 
+**Nombre completo:** Adrian Saavedra Angulo
 
 **Edad:** 34 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 8:07 minutos
 
-**Evidencia:** ![adrian entrevistado](assets/adrian_entrevistado.jpg)
+**Evidencia:** ![adrian entrevistado](assets/Chapter-02/adrian_entrevistado.jpg)
 
 **Resumen de la entrevista**
 
@@ -549,7 +654,7 @@ Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 pe
 Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
 
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+**URL del video:** [Entrevista Adrián Saavedra](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
 
 ---
 
@@ -557,17 +662,17 @@ Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque 
 
 Datos del entrevistado:
 
-**Nombre completo:** Monica Hernandez Vela 
+**Nombre completo:** Monica Hernandez Vela
 
 **Edad:** 33 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 5:53 minutos
 
-**Evidencia:** ![monica entrevistada](assets/monica_entrevistada.jpg)
+**Evidencia:** ![monica entrevistada](assets/Chapter-02/monica_entrevistada.jpg)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Monica Hernandez Vela](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -583,14 +688,14 @@ Datos del entrevistado:
 
 **Edad:** 23 años
 
-**Ciudad:** Tarapoto 
+**Ciudad:** Tarapoto
 
 **Duración:** 4:11 minutos
 
-**Evidencia:** ![entrevista alejandra](assets/alejandra_entrevistada.jpg)
+**Evidencia:** ![entrevista alejandra](assets/Chapter-02/alejandra_entrevistada.jpg)
 
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Alejandra Beltrán Diaz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -601,7 +706,6 @@ También ha tenido experiencias negativas con WhatsApp, ya que a veces resulta d
 
 ### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
 
----
 
 #### Entrevista 1
 
@@ -617,7 +721,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_alexander](assets/Chapter-02/entrevista_alexander.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [Diego Michael Segura](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista**
 
@@ -632,7 +736,7 @@ Considera que el trato humano sigue siendo un valor agregado, aunque la digitali
 
 Datos del entrevistado:
 
-**Nombre completo:** Juan Salcedo  
+**Nombre completo:** Juan Salcedo
 
 **Edad:** 44 años
 
@@ -648,7 +752,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)  
+**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)
 
 **Resumen de la entrevista**
 
@@ -660,7 +764,7 @@ Juan viaja por trabajo cada 1-2 meses y prefiere alojamientos cómodos, autónom
 
 Datos del entrevistado:
 
-**Nombre completo:** Tadeo Loja Beloglio 
+**Nombre completo:** Tadeo Loja Beloglio
 
 **Edad:** 22 años
 
@@ -699,7 +803,7 @@ Datos del entrevistado:
 
 
 
-**Enlace al video en Microsoft Stream:** [Entrevista-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EfHhd4ZVeqNEuji_fhRH2HABSjkFsOZnYobTIIqx-BN9nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eCsesR)  
+**Enlace al video en Microsoft Stream:** [Entrevista-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EfHhd4ZVeqNEuji_fhRH2HABSjkFsOZnYobTIIqx-BN9nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eCsesR)
 
 **Resumen de la entrevista**
 
@@ -711,48 +815,120 @@ en la limpieza. Considera muy práctico un sistema de check-in digital y control
 
 ---
 
-### 2.2.2. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
-**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+En esta sección se presenta un análisis detallado por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, necesarios para la construcción de los arquetipos. La información se basa en las entrevistas registradas y sus respectivos resúmenes, respaldada por fuentes académicas y de la industria.
 
-| Entrevistado   | Hotel               | Herramientas actuales                   | Dolor principal                                  | Motivación                                                 | Pago por suscripción           |
-| -------------- | ------------------- | --------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------- | ------------------------------ |
-| Adrián (34)    | 12 hab., 6 personas | Sistema propio no sincroniza            | **Sobreventa, errores por actualización manual** | Centralizar gestión + integraciones externas               | Sí, si el costo es razonable   |
-| Mónica (33)    | 12 hab., 4 personas | Sistema web propio + laptops + WhatsApp | **Dificultad de uso, poco flexible**             | Herramienta que centralice operaciones adaptada a su hotel | Sí, si mejora servicios        |
-| Alejandra (23) | 19 hab., 5 personas | WhatsApp + Excel                        | **Reservas perdidas, falta de control**          | Notificaciones automáticas + simplificación                | Sí, si realmente ahorra tiempo |
+**Segmento 1: Administradores de Hoteles Boutique y Pequeños**
 
-**Hallazgos clave segmento 1:**
+**Características Demográficas**
 
-- Problemas principales: Los entrevistados enfrentan dificultades recurrentes con la gestión de reservas debido a la ausencia de un sistema centralizado. Entre los problemas más destacados se encuentran la sobreventa de habitaciones, la duplicación de tareas administrativas y la pérdida de información en los registros. Estas situaciones generan ineficiencia, errores en la atención y mayor carga operativa.
-- Solución esperada: Los administradores expresaron la necesidad de implementar una herramienta digital que integre la gestión de reservas con otros procesos internos, tales como la coordinación de limpieza, los servicios adicionales y la generación de notificaciones automáticas. De esta manera, se busca simplificar el trabajo, reducir errores y aumentar la eficiencia operativa.
-- Disposición de pago: Existe consenso en la disposición a pagar por una suscripción mensual, siempre que la solución proporcione beneficios tangibles en términos de simplicidad y mejora del control administrativo.
-- Perfil digital: Aunque los establecimientos cuentan con sistemas propios, aún prevalece el uso de herramientas básicas como WhatsApp y Excel para el registro y seguimiento de reservas. Esto revela un nivel bajo de madurez tecnológica, pero acompañado de apertura hacia la adopción de soluciones digitales más sofisticadas.
+**Perfil de Edad y Ubicación**
+Los administradores entrevistados presentan una edad promedio de **30.0 años**, con un rango que va desde los 23 hasta los 34 años.
+![Perfil de edad de administradores — boxplot](assets/Chapter-02/S1_01_perfil_edad_boxplot.png)
+El **100%** de los entrevistados se ubican en Tarapoto, lo que indica una concentración geográfica específica en esta región turística del Perú. Este hallazgo se alinea con las tendencias nacionales, ya que según *Statista Market Forecast (2025)*, Peru ha experimentado un crecimiento significativo en el mercado hotelero, posicionándose como un actor clave en la industria hotelera latinoamericana.
+![Concentración geográfica: 100% en Tarapoto](assets/Chapter-02/S1_02_concentracion_tarapoto.png)
+
+**Características del Negocio**
+Los hoteles administrados por este segmento tienen un tamaño promedio de **14.3 habitaciones**, con un rango que va desde 12 hasta 19 habitaciones, confirmando que se trata efectivamente de establecimientos boutique y pequeños. El equipo de trabajo promedio es de **5.0 personas**, variando entre 4 y 6 empleados, lo que refleja operaciones de escala reducida pero con estructura organizacional definida. Estas características coinciden con las tendencias identificadas por *Statista*, donde los viajeros en Perú buscan cada vez más experiencias únicas y auténticas, impulsando la demanda de hoteles boutique.
+![Tamaño de hoteles (habitaciones) y equipo (empleados)](assets/Chapter-02/S1_03_tamano_hoteles_equipo_boxplots.png)
+
+**Herramientas Tecnológicas Actuales**
+
+**Diversidad de Sistemas**
+El análisis revela una heterogeneidad en los sistemas utilizados:
+- **66.7%** (2 de 3 administradores) utilizan sistemas propios desarrollados para sus hoteles.
+- **33.3%** (1 de 3 administradores) depende de herramientas básicas como Excel y WhatsApp.
+
+![Nivel de digitalización de herramientas actuales](assets/Chapter-02/S1_04_nivel_digitalizacion.png)
+
+Esta distribución indica que, aunque la mayoría cuenta con algún nivel de digitalización, existe una brecha significativa en la sofisticación de las herramientas empleadas. Este panorama refleja los hallazgos de un estudio académico sobre barreras de adopción tecnológica en hoteles pequeños y medianos, donde se identificó que la falta de recursos financieros, conocimiento de TI y resistencia al cambio son las principales limitaciones.
+
+**Problemas Identificados**
+
+**Distribución Equitativa de Problemas**
+Cada administrador enfrenta diferentes tipos de desafíos, con una distribución del **33.3%** para cada categoría:
+- **Problemas de sincronización:** Adrián experimenta sobreventa debido a la falta de sincronización entre plataformas.
+- **Dificultades operativas:** Mónica tiene complicaciones con el uso de su sistema actual.
+- **Pérdida de información:** Alejandra sufre pérdidas de reservas por las limitaciones de sus herramientas básicas.
+
+![Distribución de problemas](assets/Chapter-02/S1_05_distribucion_problemas.png)
+
+Estas problemáticas están documentadas en la literatura académica, donde se ha identificado que las organizaciones hoteleras pequeñas y medianas son más reluctantes a adoptar nuevas tecnologías de información que las más grandes, debido a la falta de entrenamiento, recursos financieros limitados y percepción de costos elevados.
+
+**Actitud hacia Nueva Tecnología**
+
+**Unanimidad en la Aceptación**
+Los resultados muestran una receptividad completa hacia soluciones tecnológicas mejoradas:
+- **100%** de los administradores expresan motivación para adoptar una nueva herramienta de gestión.
+- **100%** están dispuestos a pagar una suscripción mensual, siempre que el costo sea razonable y justifique la mejora en la eficiencia operativa.
+
+Esta disposición positiva contrasta con estudios previos pero se alinea con las tendencias post-pandemia. Según *Oracle Hospitality & Skift (2022)*, el **89%** de los ejecutivos hoteleros latinoamericanos afirmaron que la pandemia aceleró su adopción de tecnología hotelera, comparado con el 76% globalmente.
+
+![Actitud hacia nueva tecnología](assets/Chapter-02/S1_06_actitud_nuevas_tecnologias.png)
 
 ---
 
-**Segmento 2 – Huéspedes de Hoteles**
+**Segmento 2: Huéspedes de Hoteles Boutique**
 
-| Entrevistado | Perfil                   | Frustraciones                                                         | Valor esperado                                             | Pago adicional |
-| ------------ | ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------- | -------------- |
-| Diego (25)   | Viaja con pareja/familia | Esperas en recepción, falta de personalización                        | Check-in/out digital, control desde celular, app unificada | Sí, +10%-15%   |
-| Juan (44)    | Viaja por trabajo        | Horarios rígidos, Wi-Fi deficiente, falta de limpieza/personalización | Mejor Wi-Fi, atención rápida, flexibilidad                 | No pagaría más |
-| Tadeo (22)   | Viaja por turismo anual  | Esperas en recepción, falta de coordinación en limpieza               | Check-in digital, control desde app, llaves digitales      | Sí, hasta +5%  |
-| Joaquín (21) | Viaja por turismo anual  | Largas esperas, limpieza deficiente                                   | Check-in digital, control desde app, llaves digitales      | Sí, +5% a +10% |
+**Características Demográficas**
+
+**Perfil Generacional**
+Los huéspedes entrevistados tienen una edad promedio de **28.0 años**, con un rango de 21 a 44 años. El **75%** pertenece a la generación Millennial/Gen Z (menores de 26 años), lo que sugiere un segmento predominantemente joven y digitalmente nativo. Esta composición demográfica es especialmente relevante, ya que según *Hotel Tech Report (2025)*, los millennials son **57% más propensos** a ser influenciados por la tecnología hotelera.
+![Composición generacional de huéspedes](assets/Chapter-02/S2_07a_boxplot_edades_huespedes.png)
+
+**Patrones de Viaje y Preferencias Tecnológicas**
+
+**Propósito y Frecuencia**
+El análisis de los patrones de viaje revela:
+- **75%** viaja por turismo (Diego, Tadeo, Joaquín).
+- **25%** viaja por trabajo (Juan).
+- **100%** mantiene una frecuencia regular de viaje (anual o cada 1-2 meses).
+
+![Propósito de viaje](assets/Chapter-02/S2_08a_proposito_viaje.png)
+
+Las preferencias de esta generación están bien documentadas en la investigación de *Mews (2025)*, que indica que las estimaciones sugieren que los millennials representarán el **50%** de los huéspedes hoteleros en los próximos años, convirtiéndolos en críticos para los ingresos y el crecimiento de marca de los hoteles.
+
+**Problemas Más Frecuentes y Expectativas Digitales**
+
+**Consenso en Puntos de Dolor**
+Los problemas identificados muestran patrones claros:
+- **75%** experimenta esperas prolongadas en recepción como principal frustración.
+- **25%** señala problemas con horarios estrictos de check-in/check-out.
+
+![Puntos de dolor](assets/Chapter-02/S2_09_puntos_dolor.png)
+
+Estos hallazgos se correlacionan directamente con estudios globales de la industria. Según *Oracle Hospitality & Skift (2022)*, el **65%** de los huéspedes desean que los hoteles ofrezcan tecnologías que minimicen el contacto con el personal y otros huéspedes. Además, el **43%** de los huéspedes de lujo esperan no hacer filas, según *Hotel Tech Report (2025)*.
+
+**Actitud hacia la Digitalización**
+
+**Alta Receptividad Tecnológica**
+Los resultados demuestran una fuerte inclinación hacia soluciones digitales:
+- **75%** muestra alto interés en digitalización de servicios hoteleros.
+- **75%** está dispuesto a pagar un sobrecosto por experiencias digitales mejoradas.
+- **100%** considera las reseñas digitales como factor influyente en sus decisiones.
 
 
+![S2_10_receptividad_digitalizacion.png](assets/Chapter-02/S2_10_receptividad_digitalizacion.png)
 
-**Hallazgos clave segmento 2:**
+- Estos datos se alinean con investigaciones globales que indican que el **74%** de los huéspedes esperan poder hacer en línea cualquier cosa que ya pueden hacer en persona o por teléfono. Además, el **48%** de los huéspedes considera las reseñas en línea como el factor principal para elegir un hotel.
 
-- Problemas principales: Los participantes identifican como principales frustraciones las demoras en los procesos de check-in y check-out, la falta de personalización en el servicio, los horarios inflexibles, problemas de limpieza y deficiencias en la conectividad Wi-Fi. Estas situaciones afectan tanto a viajeros frecuentes como a los que viajan por turismo ocasional.
-- Solución esperada: Existe una fuerte preferencia por herramientas digitales que faciliten el check-in/check-out sin contacto, el control de funciones de la habitación desde el celular (como iluminación, temperatura y llaves digitales), y la disponibilidad de una app única para centralizar todos los servicios. Aunque la personalización total no es vista como esencial por todos, sí se espera comodidad y eficiencia.
-- Disposición de pago: Los usuarios más jóvenes muestran disposición a pagar entre un 5% y 15% más por experiencias digitales que realmente mejoren su estadía. Por otro lado, los viajeros mayores, como profesionales en viaje de trabajo, priorizan la funcionalidad y el costo, y no están dispuestos a pagar más por servicios digitales avanzados.
-- Perfil digital: El nivel de madurez tecnológica del segmento puede clasificarse como intermedio a alto. Todos los entrevistados utilizan Wi-Fi, Smart TV y reseñas digitales como parte clave de su experiencia de hospedaje. Existe apertura hacia la innovación, siempre que esta sea fácil de usar y aporte valor real a la experiencia del huésped.
+**Disposición de Pago por Digitalización**
+- **25%** pagaría entre 10-15% adicional.
+- **50%** pagaría entre 5-10% adicional.
+- **25%** no pagaría sobrecosto adicional.
 
-**Conclusión Integradora**
+![S2_11_disposicion_pagar.png](assets/Chapter-02/S2_11_disposicion_pagar.png)
 
-El análisis de ambos segmentos revela que, aunque sus necesidades se orientan a aspectos distintos del servicio, existe un punto común en la demanda de mayor digitalización y centralización de procesos. Para el segmento 1  el reto principal radica en mejorar la gestión operativa mediante sistemas integrados. Para el segmento 2 la prioridad se centra en optimizar la experiencia del usuario a través de herramientas digitales que reduzcan tiempos de espera, ofrezcan personalización y garanticen conectividad.
+La disposición a pagar por tecnología varía según la generación. Mientras que el **35%** de la Gen Z considera que la velocidad del Wi-Fi es más importante que la comodidad de la cama, los usuarios de mayor edad muestran menos disposición a pagar extra por funciones digitales avanzadas.
 
-Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferentes expectativas y niveles de disposición de pago. Este hallazgo subraya la oportunidad de diseñar una plataforma integral que atienda simultáneamente la eficiencia operativa del hotel y la satisfacción del huésped, alineando la modernización de los procesos internos con la mejora de la experiencia de los clientes.
+**Influencia de Reseñas Digitales**
+- **50%** reporta alta influencia de reseñas (70% o más en su decisión).
+- **100%** considera las reseñas como factor relevante en su proceso de selección.
+
+![S2_12_influencia_resenas.png](assets/Chapter-02/S2_12_influencia_resenas.png)
+
+Esta tendencia refleja datos globales donde las reseñas en línea han reemplazado el boca a boca tradicional, con los millennials consultando plataformas como TripAdvisor, Google y redes sociales antes de reservar.
 
 ---
 
@@ -772,28 +948,185 @@ Ambos segmentos muestran apertura a soluciones tecnológicas, aunque con diferen
  
 ### 2.3.2. User Task Matrix
 
-La siguiente matriz cruza a nuestros **User Personas** con las tareas clave que realizan en el hotel, considerando **frecuencia** e **importancia** para priorizar funcionalidades del sistema.
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona realizan para cumplir sus objetivos en la gestión hotelera y la experiencia de estadía. Las tareas descritas existen independientemente de cualquier solución de software. Se consideran dos segmentos con sus respectivos User Persona:
 
-**Adrián Ramírez (Administrador de hotel boutique)**
+Administradores de Hoteles Boutique y Pequeños en Lima (User Persona: Administrador)
 
-| **Tarea**                           | **Frecuencia** | **Importancia** |
-|-------------------------------------|----------------|-----------------|
-| Gestionar reservas y disponibilidad | Alta           | Alta            |
-| Evitar sobreventas y duplicados     | Alta           | Alta            |
-| Coordinar limpieza y personal       | Media          | Alta            |
-| Revisar y responder solicitudes     | Alta           | Media           |
-| Centralizar operaciones en un sistema único | Media | Alta |
+Huéspedes de Hoteles Boutique (User Persona: Huésped)
+
+<table>
+  <tr>
+    <th rowspan="2">Tarea / Task</th>
+    <th colspan="2">Administradores</th>
+    <th colspan="2">Huéspedes</th>
+  </tr>
+  <tr>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <td>Centralizar reservas en un único sistema</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Evitar sobreventa por falta de sincronización</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Gestionar check-in/check-out (automatizado o rápido)</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear ocupación, tarifas y disponibilidad</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Generar reportes de operación y KPIs</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Gestionar pagos y facturación digital</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar housekeeping y mantenimiento</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Capacitar al equipo en nuevas herramientas</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Controlar costos operativos y presupuesto TI</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Integrar canales (OTAs, WhatsApp, Booking)</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar reseñas y reputación digital</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Personalizar comunicación y upselling</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Realizar reservas y pagos desde el móvil</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Realizar check-in sin contacto</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Control de habitación vía app (WiFi/TV/servicios)</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Solicitar servicios internos por app/chat</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Consultar mapas, recomendaciones y beneficios</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Evaluar y dejar reseñas post-estadía</td>
+    <td>—</td>
+    <td>—</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+**Análisis:**
+
+**Tareas de mayor frecuencia e importancia compartidas:**
+
+Gestionar check-in/check-out con mínimo tiempo: Alta/Alta en ambos perfiles. Es el punto de mayor fricción para huéspedes y de mayor impacto operativo para administradores.
+
+Gestionar y responder reseñas: Importancia Alta en ambos; para huéspedes es frecuente, y para administradores es clave por reputación e ingresos.
+
+**Tareas críticas para Administradores:**
+
+Centralizar y actualizar reservas; Monitorear ocupación/tarifas; Evitar sobreventa; Integrar canales; Pagos/facturación. Todas con Importancia Alta y Frecuencia de Media a Alta.
+
+**Control de costos y presupuesto TI:**
+
+Importancia Alta (impacto financiero), Frecuencia Media (ciclos presupuestales).
+
+**Tareas críticas para Huéspedes:**
+
+Reservar y pagar desde smartphone, check-in sin contacto, solicitar servicios por app/chat, reputación digital: Importancia Alta; muchas con Frecuencia Alta por preferencia mobile-first.
+
+**Controlar habitación vía app y consultar recomendaciones:**
+
+Importancia de Media a Alta, mejoran experiencia y satisfacción.
+
+**Diferencias clave:**
+
+Administradores priorizan coordinación operativa y control financiero; Huéspedes priorizan rapidez, autonomía digital y conveniencia móvil.
+
+**Coincidencias:**
+
+Ambos valoran procesos rápidos en front desk y una reputación digital sólida (reseñas), alineándose con las tendencias de adopción tecnológica y expectativa de autoservicio.
 
 ---
-
-**Valeria Ríos (Huésped)**
-
-| **Tarea**                                  | **Frecuencia** | **Importancia** |
-|--------------------------------------------|----------------|-----------------|
-| Hacer check-in/check-out                   | Alta           | Alta            |
-| Acceder a wifi rápido y confiable          | Alta           | Alta            |
-| Personalizar su estadía con servicios digitales | Media      | Alta            |
-| Ahorrar tiempo en procesos                 | Alta           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
 
@@ -1104,53 +1437,435 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 ## 3.2. Impact Mapping.
 
-![ImpactMapping.jpeg](assets/ImpactMapping.jpeg)
+![ImpactMapping.jpeg](assets/ImpactMappingValeria1.png)
+
+
+![ImpactMapping.jpeg](assets/ImpactmapValeria2.png)
+
+
+
+![ImpactMapping.jpeg](assets/ImpactmapAdrianMartinez.png)
+
 
 ## 3.3. Product Backlog.
 
-| #Orden | ID   | User Story / Technical Story                                             | Story Points |
-| ------ | ---- | ------------------------------------------------------------------------ | ------------ |
-| 01     | US01 | Registro de huésped                                                      | 5            |
-| 02     | US02 | Inicio de sesión seguro                                                  | 5            |
-| 03     | US03 | Recuperación de contraseña                                               | 3            |
-| 04     | US04 | Edición de perfil personal                                               | 3            |
-| 05     | TS01 | Conectar formularios de registro/login con validaciones en frontend      | 8            |
-| 06     | US05 | Registro de anfitrión                                                    | 5            |
-| 07     | US06 | Verificación de identidad básica                                         | 3            |
-| 08     | US07 | Configuración de datos de contacto                                       | 3            |
-| 09     | US08 | Edición de perfil de anfitrión                                           | 3            |
-| 10     | TS02 | Validar campos de formulario en frontend (correo, contraseña, documento) | 8            |
-| 11     | US09 | Registrar nueva propiedad                                                | 5            |
-| 12     | US10 | Subir fotos de la propiedad                                              | 5            |
-| 13     | US11 | Editar información de la propiedad                                       | 3            |
-| 14     | US12 | Eliminar propiedad                                                       | 3            |
-| 15     | US13 | Buscar propiedades por ubicación                                         | 5            |
-| 16     | US14 | Filtrar por precio y fechas                                              | 5            |
-| 17     | US15 | Reservar una propiedad                                                   | 8            |
-| 18     | US16 | Ver historial de reservas                                                | 3            |
-| 19     | TS03 | Crear buscador y filtros en frontend                                     | 8            |
-| 20     | TS04 | Simular reservas con estado guardado en frontend                         | 5            |
-| 21     | US17 | Realizar pago en línea                                                   | 8            |
-| 22     | US18 | Consultar historial de pagos                                             | 3            |
-| 23     | US19 | Descargar comprobante de pago                                            | 3            |
-| 24     | TS05 | Simular integración de pago                                              | 8            |
-| 25     | US20 | Dejar reseña de una estancia                                             | 5            |
-| 26     | US21 | Calificar anfitrión o huésped                                            | 3            |
-| 27     | US22 | Ver reseñas de una propiedad                                             | 3            |
-| 28     | TS06 | Formulario de reseñas conectado a la UI, guardado simulado en frontend   | 5            |
-| 29     | US23 | Acceder a preguntas frecuentes                                           | 3            |
-| 30     | US24 | Enviar reporte de problema                                               | 3            |
-| 31     | US25 | Contactar con soporte técnico                                            | 5            |
-| 32     | TS07 | Implementar formulario de contacto y sección de preguntas frecuentes     | 8            |
-| 33     | US26 | Ver información general sobre SmartStay                                  | 3            |
-| 34     | US27 | Conocer beneficios de usar la plataforma                                 | 3            |
-| 35     | US28 | Acceder fácilmente al registro o login                                   | 5            |
-| 36     | TS08 | Implementar landing page con botones hacia login/registro                | 5            |
-
-
----
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th>#</th>
+      <th>Order</th>
+      <th>User Story Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>US-24</td>
+      <td>Segmented landing page</td>
+      <td><strong>As</strong> a visitor, <strong>I want</strong> to find specific information according to my profile (hotel administrator or guest) <strong>to</strong> understand Smart Stay's value.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+      <td>US-25</td>
+      <td>ROI simulator for hotels</td>
+      <td><strong>As</strong> a visiting hotel administrator, <strong>I want</strong> to use a simulator to estimate the return on investment I would get with Smart Stay <strong>to</strong> make informed decisions.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+      <td>US-27</td>
+      <td>Demo request and commercial contact</td>
+      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to request a demonstration and contact the sales team easily and quickly <strong>to</strong> explore Smart Stay solutions.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>US-26</td>
+      <td>Success stories and testimonials</td>
+      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to see real success stories from hotels using Smart Stay <strong>to</strong> validate solution effectiveness.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>US-28</td>
+      <td>Corporate information and values</td>
+      <td><strong>As</strong> a visitor, <strong>I want</strong> to know Smart Stay's mission, vision and values <strong>to</strong> understand the company's philosophy.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+      <td>US-05</td>
+      <td>Administrator dashboard</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel with key information <strong>to</strong> manage my hotel efficiently.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>7</td>
+      <td>US-07</td>
+      <td>Centralized reservation management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all reservations in one place <strong>to</strong> avoid overbooking and optimize occupancy.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>8</td>
+      <td>US-08</td>
+      <td>Automated digital check-in</td>
+      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> check-in to be performed digitally in less than 3 minutes <strong>to</strong> improve experience.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>9</td>
+      <td>US-09</td>
+      <td>Digital check-out and billing</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to perform digital check-out and receive my invoice automatically <strong>to</strong> expedite my departure.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10</td>
+      <td>US-06</td>
+      <td>Room and status management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all room statuses <strong>to</strong> optimize daily operations.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>11</td>
+      <td>US-20</td>
+      <td>OTA and booking channel integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate my inventory with Booking.com, Expedia and other OTAs <strong>to</strong> maximize occupancy and avoid overbooking.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>12</td>
+      <td>US-01</td>
+      <td>User registration with validation</td>
+      <td><strong>As</strong> a new user, <strong>I want</strong> to register in Smart Stay by validating my email <strong>to</strong> access functionalities according to my role.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>13</td>
+      <td>US-02</td>
+      <td>Secure login</td>
+      <td><strong>As</strong> a registered user, <strong>I want</strong> to login securely <strong>to</strong> access my personalized dashboard according to my role.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>14</td>
+      <td>US-11</td>
+      <td>IoT environmental control from mobile app</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to control temperature, lighting and other environmental aspects from my smartphone <strong>to</strong> personalize my experience.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>15</td>
+      <td>US-12</td>
+      <td>Service requests from app</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to request room service, additional cleaning and other services from my smartphone <strong>to</strong> access services conveniently.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>16</td>
+      <td>US-23</td>
+      <td>Digital payment processing</td>
+      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> to process payments securely and efficiently through multiple payment methods <strong>to</strong> ensure smooth transactions.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>17</td>
+      <td>US-10</td>
+      <td>Staff task assignment and tracking</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to assign tasks to staff and track their progress <strong>to</strong> optimize operations.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>18</td>
+      <td>US-16</td>
+      <td>Analytics dashboard and operational KPIs</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to visualize key metrics and KPIs <strong>to</strong> make informed decisions about hotel operations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>19</td>
+      <td>US-34</td>
+      <td>Mobile push notification system</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to receive push notifications on my smartphone about my request and service status <strong>to</strong> stay informed.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>20</td>
+      <td>US-35</td>
+      <td>Automatic staff notifications</td>
+      <td><strong>As</strong> hotel staff, <strong>I want</strong> to receive automatic notifications about assigned tasks and important operational changes <strong>to</strong> respond promptly.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>21</td>
+      <td>US-21</td>
+      <td>WhatsApp Business integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to use WhatsApp Business for direct guest communication and pre/post-stay query management <strong>to</strong> improve customer service.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>22</td>
+      <td>US-13</td>
+      <td>Digital guest-staff communication</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to communicate with hotel staff digitally <strong>to</strong> resolve questions and requests quickly.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>23</td>
+      <td>US-22</td>
+      <td>Digital reputation management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage Google, TripAdvisor and OTA reviews from one place <strong>to</strong> maintain good online reputation.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>24</td>
+      <td>US-17</td>
+      <td>Financial and occupancy reports</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to generate financial and occupancy reports <strong>to</strong> support management analysis and decision making.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>25</td>
+      <td>US-19</td>
+      <td>IoT energy consumption monitoring</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to monitor energy consumption of rooms and common areas <strong>to</strong> optimize operational costs.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>26</td>
+      <td>US-14</td>
+      <td>Experience personalization based on preferences</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> the system to learn my preferences <strong>to</strong> offer personalized experiences and services.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>27</td>
+      <td>US-15</td>
+      <td>Post-stay evaluation and feedback</td>
+      <td><strong>As</strong> a guest, <strong>I want</strong> to evaluate my experience and leave feedback <strong>to</strong> help the hotel improve its services.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>28</td>
+      <td>US-18</td>
+      <td>Guest satisfaction analysis</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze guest satisfaction <strong>to</strong> identify improvement areas and maintain service quality.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>29</td>
+      <td>US-29</td>
+      <td>RESTful API for room management</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to access RESTful endpoints <strong>to</strong> integrate Smart Stay with external hotel management systems.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>30</td>
+      <td>US-30</td>
+      <td>API for IoT device control</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> endpoints to control room IoT devices <strong>to</strong> enable integration with external applications.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>31</td>
+      <td>US-31</td>
+      <td>API authentication and authorization</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> a secure authentication system <strong>to</strong> access Smart Stay API endpoints safely.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>32</td>
+      <td>US-32</td>
+      <td>Interactive API documentation</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to access complete and interactive documentation <strong>to</strong> easily integrate with Smart Stay API.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>33</td>
+      <td>US-33</td>
+      <td>Webhooks for real-time events</td>
+      <td><strong>As</strong> a developer, <strong>I want</strong> to configure webhooks <strong>to</strong> receive automatic notifications when important Smart Stay events occur.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>34</td>
+      <td>US-03</td>
+      <td>Profile and role management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage users, assign roles and permissions <strong>to</strong> control access to different functionalities.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>35</td>
+      <td>US-04</td>
+      <td>Password recovery</td>
+      <td><strong>As</strong> a user, <strong>I want</strong> to recover my password via email <strong>to</strong> regain access to my account.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>36</td>
+      <td>US-36</td>
+      <td>Automated email marketing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to send automated personalized emails to guests at different stages <strong>to</strong> enhance customer experience.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>37</td>
+      <td>US-37</td>
+      <td>Intelligent alerts and escalation</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to receive intelligent alerts about operational problems with automatic escalation <strong>to</strong> ensure quick resolution.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>38</td>
+      <td>US-38</td>
+      <td>Unified communication panel</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel to manage all communications <strong>to</strong> streamline guest interaction management.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>39</td>
+      <td>US-39</td>
+      <td>Native mobile app for staff</td>
+      <td><strong>As</strong> hotel staff, <strong>I want</strong> a dedicated mobile app to manage my tasks and communication <strong>to</strong> work efficiently while on the move.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>40</td>
+      <td>US-42</td>
+      <td>Multi-hotel configuration for chains</td>
+      <td><strong>As</strong> a hotel chain administrator, <strong>I want</strong> to manage multiple properties from a master account <strong>to</strong> centralize operations with independent configurations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>41</td>
+      <td>US-43</td>
+      <td>Integration with existing PMS systems</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with my current PMS system <strong>to</strong> migrate gradually without interrupting operations.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>42</td>
+      <td>US-44</td>
+      <td>Brand customization per hotel</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to customize interface and communications with my hotel's brand <strong>to</strong> maintain visual consistency.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>43</td>
+      <td>US-45</td>
+      <td>Integrated loyalty program</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage a loyalty program for recurring guests <strong>to</strong> provide automatic benefits and increase retention.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>44</td>
+      <td>US-46</td>
+      <td>Event and conference management</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage special events and conferences <strong>to</strong> provide specific group functionalities.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>45</td>
+      <td>US-47</td>
+      <td>IoT predictive maintenance</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> the IoT system to predict maintenance needs <strong>to</strong> optimize equipment performance and reduce downtime.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>46</td>
+      <td>US-48</td>
+      <td>Competition analysis and dynamic pricing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze competitor prices and adjust my rates automatically <strong>to</strong> optimize revenue.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>47</td>
+      <td>US-49</td>
+      <td>Automated compliance and auditing</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> the system to generate automatic compliance reports <strong>to</strong> facilitate regulatory audits.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>48</td>
+      <td>US-50</td>
+      <td>Security system integration</td>
+      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with hotel security systems <strong>to</strong> provide automated access management.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>49</td>
+      <td>US-40</td>
+      <td>Data backup and recovery</td>
+      <td><strong>As</strong> a technical administrator, <strong>I want</strong> the system to have automatic backup and disaster recovery <strong>to</strong> guarantee operational continuity.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>50</td>
+      <td>US-41</td>
+      <td>System monitoring and logs</td>
+      <td><strong>As</strong> a technical administrator, <strong>I want</strong> to monitor system performance and access detailed logs <strong>to</strong> support troubleshooting activities.</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo IV: Product Design
+
 
 ## 4.1. Style Guidelines
 
@@ -1384,10 +2099,160 @@ Uso de color:
   - Recomendación: Ajustar colores con ratio de contraste mínimo 4.5:1 siguiendo WCAG 2.1.  
 
 ### 4.2.1. Organization Systems
+
+En el diseño de interfaces digitales centradas en el usuario, el Sistema de Organización es el componente de la arquitectura de información encargado de definir cómo se   agrupan, clasifican y presentan los contenidos dentro de la plataforma. Su objetivo principal es que los usuarios puedan explorar, comprender y acceder a la información de manera rápida e intuitiva, reduciendo la carga cognitiva y mejorando la usabilidad en sus interacciones con el producto.
+
+Para Smart Stay, se ha implementado un sistema de organización híbrido que combina estructuras jerárquicas y funcionales. En la Landing Page, el contenido se distribuye en bloques según su prioridad: primero se destacan las llamadas a la acción principales, como “Probar Demo” y seguidas de la propuesta de valor de la plataforma . El encabezado (header) y pie de página (footer) refuerzan esta jerarquía al agrupar accesos principales y secundarios, permitiendo que los usuarios comprendan rápidamente qué ofrece Smart Stay y cómo navegar por ella, incluso desde dispositivos móviles, aplicando principios de progressive disclosure y adaptabilidad responsiva.
+
+![organizationsystems.png](assets/organizationsystems.png)
+
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/c2895e86-0754-454b-9efb-d0f274918a3b/edit?viewport_loc=-1463%2C-581%2C3504%2C1441%2C0_0&invitationId=inv_f4b1886d-203a-4341-a7aa-50cbe423a0ad)
+
+En Application Wen, el contenido se distribuye en bloques según su prioridad: primero se accede a través de Login y si aún no se tiene cuenta pasas por Register, en el Login se selecciona el modo de usuario y una vez ingresas te deriva al modo de aplicación según el modo seleccionado. En cada modo se desglosa a través del menú y los botones de herramientas ubicados en la esquina superior.
+
+![organizationsystems2.png](assets/organizationsystems2.png)
+
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/83b0dc0e-542a-4bc9-8ac8-a1b59abaa464/edit?viewport_loc=-4786%2C-1265%2C7941%2C3266%2C0_0&invitationId=inv_6f1b4e45-f319-4624-a925-3bb6a7ec89a3)
+
 ### 4.2.2. Labeling Systems
+
+| Etiqueta           | Ubicación / Componente          | Función                                                                                              |
+|--------------------|---------------------------------|------------------------------------------------------------------------------------------------------|
+| Home               | Header                          | Enlace a la Landing Page. Claro y universal.                                                         |
+| Services           | Header                          | Información sobre los servicios disponibles (alojamiento, limpieza, extras). Directo y comprensible. |
+| Bookings           | Header                          | Acceso a la sección de reservas. Término estándar y reconocido.                                      |
+| Contact            | Header                          | Formulario de contacto o enlace de correo. Directa y orientada a la acción.                          |
+| Sign Up            | Header (botón)                  | Registro de nuevos usuarios. Corto, amigable y visualmente destacado.                                |
+| Login              | Header (botón)                  | Inicio de sesión de usuarios. Palabra ampliamente reconocida.                                        |
+| Try Demo           | Hero Section (CTA principal)    | Llamada a la acción principal para probar la demo. Imperativo que motiva la interacción.             |
+| Benefits           | Hero Section / Sección de valor | Destaca las ventajas de la plataforma. Claro y enfocado al usuario.                                  |
+| Testimonials       | Sección de valor                | Muestra opiniones de usuarios. Genera confianza y credibilidad.                                      |
+| About              | Footer / Company                | Información institucional sobre Smart Stay. Claro y directo.                                         |
+| Privacy Policy     | Footer / Legal                  | Obligatorio por normativa. Etiqueta reconocida internacionalmente.                                   |
+| Terms & Conditions | Footer / Legal                  | Complementa la política de privacidad. Estándar legal indispensable.                                 |
+| Social Media       | Footer / Navigation             | Agrupa enlaces a redes oficiales. Convencional y reconocible globalmente.                            |
+| Smart Stay         | Marca                           | Nombre distintivo de la plataforma. Funciona como ancla visual y semántica.                          |
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Los SEO tags y meta tags son elementos clave dentro de la Landing Page y cualquier página web, porque permiten que los motores de búsqueda comprendan el contenido, mejoren la visibilidad y aumenten la tasa de clics desde resultados de búsqueda. Además, algunas etiquetas influyen directamente en cómo se muestra la página en redes sociales y en navegadores móviles.
+La landing page de SmartStay incluye los siguientes SEO/meta tags: charset, viewport, title, description, keywords y favicon. Estos permiten definir la codificación, hacer la página responsive, dar un título y descripción para los buscadores, y mostrar un ícono en la pestaña del navegador.
+
+**Meta charset**
+
+```html
+<meta charset="UTF-8">
+```
+
+- Define la codificación de caracteres de la página.
+- Importante para que los navegadores interpreten correctamente acentos y caracteres especiales.
+
+**Meta viewport**
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+- Hace que la página sea responsive, ajustando la visualización a distintos dispositivos.
+
+**Tittle**
+
+```html
+<title>SmartStay</title>
+```
+
+**1. Meta Tags principales**
+
+- charset: Define la codificación de caracteres de la página. UTF-8 es estándar internacional.
+- viewport: Hace que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+- description: Breve resumen de la página; es lo que aparece debajo del título en los resultados de búsqueda (SERPs). Muy importante para mejorar el CTR.
+- keywords: Lista de palabras clave relevantes para el contenido. Aunque Google ya no las usa directamente, ayudan en SEO interno y organización.
+- author: Indica el autor o equipo responsable del sitio.
+- robots: Controla cómo los motores de búsqueda indexan la página (index, follow permite que la página sea indexada y los enlaces seguidos).
+
+```html
+<meta name="description" content="Smart Stay integra tecnología IoT e inteligencia artificial para optimizar la gestión hotelera. Descubre la revolución en hospitalidad inteligente.">
+```
+
+- Ayuda a los buscadores a mostrar un resumen en los resultados de búsqueda.
+- Clave para mejorar CTR (click-through rate).
+
+**Meta keywords**
+
+```html
+<meta name="keywords" content="Smart Stay, hotel management, IoT, AI, hospitality, smart hotels">
+```
+
+- Open Graph (og:): Permiten que la página se vea atractiva al compartirse en Facebook, LinkedIn, WhatsApp y otras plataformas.
+- Twitter Cards: Similar a Open Graph, pero optimizado para Twitter. Muestra título, descripción e imagen.
+
+**Author y Favicon**
+
+```html
+<meta name="author" content="Smart Stay Team">
+```
+```html
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+```
+
+- Title: Encabezado principal visible en resultados de búsqueda. Fundamental para atraer clics.
+- H1, H2, H3: Encabezados dentro de la página que estructuran el contenido. Mejoran la lectura y el SEO on-page.
+- Alt Text: Texto alternativo para imágenes, necesario para accesibilidad y SEO de imágenes.
+  -Canonical URL: Indica la URL principal para evitar contenido duplicado y penalizaciones SEO.
+  -Schema.org / JSON-LD: Datos estructurados que ayudan a los motores de búsqueda a mostrar rich snippets (calificaciones, eventos, precios).
+  -Language: Define el idioma de la página, útil para SEO internacional.
+  -Theme-color: Ajusta el color principal en navegadores móviles, mejorando la experiencia del usuario.
+
 ### 4.2.4. Searching Systems
+
+El Searching System de Smart Stay permite a los usuarios localizar información, reservas, servicios o productos de manera rápida y eficiente.
+En la Landing Page, la búsqueda está orientada a descubrir información general sobre la plataforma, con barra de búsqueda, autocompletado y enlaces directos a secciones clave como “Try Demo” o “Benefits”.
+En la Web App, la búsqueda es más funcional y permite filtrar y ordenar datos concretos como huéspedes, reservas y servicios, aplicando autocompletado, filtros dinámicos y persistencia de resultados para mejorar la experiencia del usuario.
+El sistema se diseña siguiendo principios de intuitividad, consistencia, visibilidad y escalabilidad, asegurando que los usuarios siempre encuentren lo que buscan de manera rápida y clara.
+
+| Search Type                | Location / Component                  | Function                                                                                                                                               |
+|----------------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| General Search             | Landing Page / Header                 | Permite buscar información general sobre la plataforma y sus servicios (ej. "services", "demo", "benefits"). Incluye autocompletado y filtros básicos. |
+| Try Demo / Benefits Links  | Landing Page / Hero & Value Sections  | Funciona como búsqueda indirecta, guiando al usuario hacia contenido relevante sin necesidad de escribir.                                              |
+| Guest / Customer Search    | Web App / Guests Section              | Permite filtrar por nombre, ID, tipo de habitación o fecha de reserva. Facilita gestión de usuarios.                                                   |
+| Bookings Search            | Web App / Bookings Section            | Filtrado por fechas, estado de reserva (pendiente, confirmada, cancelada) y tipo de servicio.                                                          |
+| Services & Products Search | Web App / Services & Products Section | Filtrado por categoría (limpieza, comida, amenities), disponibilidad y precios.                                                                        |
+| Autocomplete               | Web App / All Search Fields           | Sugerencias dinámicas mientras se escribe para acelerar la búsqueda y mejorar experiencia de usuario.                                                  |
+| Dynamic Filters            | Web App / All Search Results          | Ajusta los resultados en tiempo real según criterios seleccionados.                                                                                    |
+| Sorting                    | Web App / All Search Results          | Permite ordenar resultados por fecha, nombre, prioridad o relevancia.                                                                                  |
+| Search Persistence         | Web App / All Sections                | Mantiene los filtros y resultados de búsqueda mientras el usuario navega dentro de la misma sección.                                                   |
+
 ### 4.2.5. Navigation Systems
+
+**Landing Page Navigation**
+
+| Navigation Item    | Location / Component         | Function                                                                      |
+|--------------------|------------------------------|-------------------------------------------------------------------------------|
+| Home               | Header                       | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
+| Services           | Header                       | Acceso rápido a la sección de servicios disponibles.                          |
+| Bookings           | Header                       | Permite al usuario gestionar reservas desde cualquier lugar.                  |
+| Contact            | Header                       | Enlace al formulario de contacto o correo de soporte.                         |
+| Sign Up            | Header (button)              | Registro de nuevos usuarios. Destacado visualmente.                           |
+| Login              | Header (button)              | Acceso a la sesión del usuario. Fácil de localizar.                           |
+| Try Demo           | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay.              |
+| Benefits           | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma.                   |
+| About              | Footer / Company             | Información institucional sobre Smart Stay. Acceso desde cualquier sección.   |
+| Privacy Policy     | Footer / Legal               | Enlace obligatorio por normativa legal.                                       |
+| Terms & Conditions | Footer / Legal               | Complementa la política de privacidad.                                        |
+| Social Media       | Footer / Navigation          | Acceso a redes oficiales, visibilidad global.                                 |
+
+**Web App Navigation**
+
+| Navigation Item | Location / Component | Function                                                             |
+|-----------------|----------------------|----------------------------------------------------------------------|
+| Guests          | Sidebar              | Sección principal para gestionar huéspedes o clientes.               |
+| Bookings        | Sidebar              | Sección principal para gestionar reservas y su estado.               |
+| Services        | Sidebar              | Sección principal para gestionar servicios disponibles.              |
+| Products        | Sidebar              | Sección para visualizar y administrar productos asociados.           |
+| Profile         | Top Bar              | Acceso a perfil de usuario, configuración y notificaciones.          |
+| Notifications   | Top Bar              | Acceso rápido a alertas y mensajes importantes.                      |
+| Breadcrumbs     | Optional             | Indica la ruta de navegación y permite regresar a secciones previas. |
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
@@ -1410,6 +2275,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
   - Sección "¿Quiénes somos?" con breve descripción.  
   - Bloques de beneficios y características principales.  
   - Footer con enlaces de contacto, políticas y redes sociales.
+
 ![whome.png](assets/whome.png)
 
 
@@ -1419,6 +2285,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
   - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.  
   - Descripción breve de cada módulo.  
   - Botón de descarga de brochure.
+
   ![wproductos.png](assets/wproductos.png)
 
 **3. Soluciones**
@@ -1428,6 +2295,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
   - Sección para alojamientos alternativos.  
   - Sección para cadenas hoteleras.  
   - Botón para descargar información detallada.
+
   ![wsoluciones.png](assets/wsoluciones.png)
 
 
@@ -1436,6 +2304,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
   - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
+
 ![wsprecios.png](assets/wsprecios.png)
 
 **5. Casos de Éxito**
@@ -1443,6 +2312,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Bloques con testimonios de clientes.  
   - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
+
   ![wreseñas.png](assets/wreseñas.png)  
 
 **6. Recursos**
@@ -1450,6 +2320,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Documentos descargables (guías, whitepapers, brochures).  
   - Links de blogs.  
+
 ![wrecurso.png](assets/wrecurso.png)
 
 **7. Registro**
@@ -1457,6 +2328,7 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
   - Botón de registro.  
+
 ![wregister.png](assets/wregister.png)
 
 **8. Login**
@@ -1464,7 +2336,8 @@ A continuación, se presenta un resumen de cada una de las secciones.
 - **Elementos clave:**  
   - Formulario de inicio de sesión con correo y contraseña.  
   - Botón de acceso.  
-  - Enlace a recuperación de contraseña y a registro.  
+  - Enlace a recuperación de contraseña y a registro.
+
 ![wlogin.png](assets/wlogin.png)
 
 Los wireframes definen la base de navegación de Smart Stay, asegurando que cada sección tenga un propósito claro:  
@@ -1490,6 +2363,7 @@ Su propósito es:
   - Paleta de colores aplicada (azul corporativo + tonos complementarios).  
   - Imagen de fondo en el Hero con llamada a la acción resaltada (“Probar demo”).  
   - Iconografía personalizada para los beneficios.  
+
 ![home.png](assets/home.png)
 
 **2. Productos**
@@ -1497,6 +2371,7 @@ Su propósito es:
   - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
   - Inclusión de imágenes ilustrativas.  
   - Botón de descarga estilizado con colores de la marca.  
+
 ![producto.png](assets/producto.png)
 
 **3. Soluciones**
@@ -1504,23 +2379,27 @@ Su propósito es:
   - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).  
   - Uso de fotografías representativas de hoteles.  
   - CTA destacado.
+
 ![soluciones.png](assets/soluciones.png)
 
 **4. Precios**
 - **Cambios respecto al wireframe:**  
   - Tabla de precios con colores diferenciadores por plan.  
-  - Plan recomendado resaltado con un fondo destacado.  
+  - Plan recomendado resaltado con un fondo destacado. 
+
   ![precio.png](assets/precio.png)
 
 **5. Casos de Éxito**
 - **Cambios respecto al wireframe:**  
-  - Testimonios acompañados de logos reales de hoteles.  
+  - Testimonios acompañados de logos reales de hoteles.
+
 ![reseña.png](assets/reseña.png)
 
 **6. Recursos**
 - **Cambios respecto al wireframe:**  
   - Secciones de miniaturas de documentos descargables.  
   - Secciones de blog con botón de visitar página externa.
+
 ![recursos.png](assets/recursos.png)
 
 **7. Registro**
@@ -1528,19 +2407,22 @@ Su propósito es:
   - Formulario minimalista con campos estilizados.  
   - Botón de “Enviar y registrar” resaltado en color primario.  
   - Fondo con imagen ligera para dar contexto al servicio.
+
   ![register.png](assets/register.png)
 
 **8. Login**
 - **Cambios respecto al wireframe:**  
   - Formulario ubicado a lateral izquierdo en pantalla con diseño limpio.  
   - Logo al lado derecho de la pantalla.  
-  - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”.  
+  - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”. 
+
 ![login.png](assets/login.png)
 
 Los mockups consolidan el diseño visual final de Smart Stay, transformando la estructura básica de los wireframes en interfaces listas para evaluación estética y funcional.  
 
 
 ## 4.4. Web Applications UX/UI Design
+
 En esta sección de Web Applications UX/UI Design ya nos enfocamos en el diseño de la interfaz y la experiencia de usuario de nuestro explicativo el cual se menciona e informa en el landing page, cabe resaltar que el el aplicativo es difernte según el rol que forman parte de la solución digital: administrador, staff y huéspedpor lo que su funcionamiento es distinto. Aquí se visualizará el prototipo de cada app y a su vez se presentará en la forma más práctica según su rol, formato desktop para administrados y formato móvil para staff y huésped, aunque los tres cuentan con diseño responsive por lo que se puede usar de cualquier dispositivo móvil.
 
 ### 4.4.1. Web Applications Wireframes
@@ -1754,25 +2636,24 @@ Mostrar cómo cada sección del administrador se conecta a través del menú pri
 
 Desde cualquier sección, el menú permite acceder a:
 
-1. **Dashboard** – Resumen general de actividad, métricas y gráficos.
-2. **Huéspedes** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
-3. **Staff** – Gestión del personal; roles, turnos y contacto.
-4. **Hoteles / Habitaciones** – Administración de hoteles, habitaciones y disponibilidad.
-5. **Reservas** – Calendario de reservas; agregar, modificar o cancelar reservas.
-6. **Pagos** – Visualización y gestión de transacciones y estados de pago.
-7. **Servicios / Productos** – Gestión de servicios del hotel y productos adicionales.
-8. **Reseñas** – Panel de comentarios de huéspedes con gráficos de satisfacción.
-9. **Soporte / Tickets** – Crear tickets de ayuda y consultar su estado.
+1.**Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
+2. **Dashboard** – Resumen general de actividad, métricas y gráficos.
+3. **Guests** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
+4. **Staff** – Gestión del personal; roles, turnos y contacto.
+5. **Hotels / Rooms** – Administración de hoteles, habitaciones y disponibilidad.
+6. **Booking** – Calendario de reservas; agregar, modificar o cancelar reservas.
+7. **Payments** – Visualización y gestión de transacciones y estados de pago.
+8. **Services / Productos** – Gestión de servicios del hotel y productos adicionales.
+9. **Reviews** – Panel de comentarios de huéspedes con gráficos de satisfacción.
+10. **Support / Tickets** – Crear tickets de ayuda y consultar su estado.
 
 **Flujo General (Wireflow)**
 
-- **Dashboard**: centro de información y acceso rápido a todas las secciones.  
-- **Menú Principal**: conecta directamente a las 9 secciones.  
-- Secciones interrelacionadas:  
-  - **Reservas ↔ Pagos ↔ Servicios / Productos**  
-  - **Huéspedes ↔ Reservas ↔ Reseñas**  
-  - **Staff ↔ Hoteles / Habitaciones**  
-- **Soporte / Tickets**: siempre accesible desde cualquier sección para resolver inconveniencias.
+- **Dashboard**: centro de información y acceso rápido a secciones principales por botones. En los gráficos de ganancia y pérdidas el botón "See Reviews" te deriva **Reviews** y en los gráficos porcentual de habitaciones ocupadas el botón "check Booking" te deriva a **Booking**.
+- **Menú Bar**: conecta directamente a las 9 secciones.
+- Secciones interrelacionadas:
+    - **Staff, Guests, Hotels** se conecta con **Reviews** ya que allí se derivan los comentarios sobre el staff huésped y el hotel.
+    - **Booking** se relaciona con **Guests** para ver los clientes de cada reserva hecha.
 
 **Web Applications Wireflow Diagrams – Modo Huésped**
 
@@ -1783,19 +2664,19 @@ Mostrar cómo cada sección de la app para huéspedes se conecta a través del m
 
 **Secciones Principales**
 
-1. **Introducción** – Pantalla inicial, solo se conecta a **Home**.
+1. **Intro** – Pantalla inicial, solo se conecta a **Home**.
 2. **Home** – Vista principal; acceso a todas las secciones mediante el menú.
-3. **Habitación** – Detalles de la habitación asignada o disponible; acceso desde el menú.
-4. **Servicios** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
-5. **Mapa** – Ubicación del hotel, puntos de interés; acceso desde el menú.
-6. **Perfil** – Datos del huésped, preferencias y configuración; acceso desde el menú.
-7. **Notificaciones** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
+3. **Rooms** – Detalles de la habitación asignada o disponible; acceso desde el menú.
+4. **Services** – Servicios del hotel disponibles para el huésped; acceso desde el menú.
+5. **Map** – Ubicación del hotel, puntos de interés; acceso desde el menú.
+6. **Profile** – Datos del huésped, preferencias y configuración; acceso desde el menú.
+7. **Notifications** – Alertas y mensajes importantes; acceso mediante un icono persistente arriba, visible desde todas las secciones.
 
 **Flujo General (Wireflow)**
 
-- **Introducción** → **Home**  
-- **Home** → conecta a **Habitación**, **Servicios**, **Mapa**, **Perfil** mediante el menú principal.  
-- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.  
+- **Intro** → **Home**
+- **Home** → conecta a **Rooms**, **Services**, **Map**, **Profile** mediante el menú principal.
+- **Notifications** → accesibles desde cualquier sección a través del icono superior.
 
 **Web Applications Wireflow Diagrams – Modo Staff**
 
@@ -1805,20 +2686,20 @@ Mostrar cómo cada sección de la app para staff se conecta a través del menú 
 
 **Secciones Principales**
 
-1. **Introducción** – Pantalla inicial, conecta al **Login**.  
-2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**.  
-3. **Home** – Vista principal; acceso a todas las secciones mediante el menú.  
-4. **Tareas** – Lista y gestión de tareas asignadas; acceso desde el menú.  
-5. **Servicios** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.  
-6. **Reservas** – Visualización de reservas relacionadas con el staff; acceso desde el menú.  
-7. **Perfil** – Datos del staff y configuración personal; acceso desde el menú.  
-8. **Notificaciones** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
+1. **Intro** – Pantalla inicial, conecta al **Login**.
+2. **Login** – Pantalla de acceso; una vez autenticado, va a **Home**. Para ellos siempre es necesario que hagan login por el uso continuo del app a diferencia del huésped que solo tienen acceso durante su estadía.
+3. **Home** – Vista principal; acceso a todas las secciones mediante el menú.
+4. **Tasks** – Lista y gestión de tareas asignadas; acceso desde el menú.
+5. **Services** – Gestión de servicios ofrecidos por el staff; acceso desde el menú.
+6. **Booking** – Visualización de reservas relacionadas con el staff; acceso desde el menú.
+7. **Profile** – Datos del staff y configuración personal; acceso desde el menú.
+8. **Notifications** – Alertas y mensajes importantes; accesibles mediante un icono persistente que aparece en todas las secciones.
 
 **Flujo General (Wireflow)**
 
-- **Introducción** → **Login** → **Home**  
-- Desde **Home** se puede acceder mediante el menú a: **Tareas**, **Servicios**, **Reservas**, **Perfil**  
-- **Notificaciones** → accesibles desde cualquier sección a través del icono superior.
+- **Intro** → **Login** → **Home**
+- Desde **Home** se puede acceder mediante el menú a: **Tasks**, **Services**, **Booking**, **Profile**
+- **Notifications** → accesibles desde cualquier sección a través del icono superior.
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1988,6 +2869,48 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 ![mockupstaff2.png](assets/mockupstaff2.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+**Rol 1:** Administrador del hotel
+
+**Objetivo:** Gestionar todas las áreas del hotel de manera eficiente desde un panel centralizado, incluyendo huéspedes, staff, reservas, pagos, servicios, reseñas y soporte.
+
+**Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
+
+**Happy Paths:**
+![happypathadmi.png](assets/happypathadmi.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/dc345c68-b9ba-4b68-ba59-d33a107cd547/edit?viewport_loc=-2020%2C-505%2C6554%2C2712%2C0_0&invitationId=inv_f306e465-ed6b-4d99-9d15-d416cfe5ca03)
+
+**Unhappy Paths:**
+![unhappypathadmi.png](assets/unhappypathadmi.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/5b49d2f9-1e2c-495a-bb48-a86af3f68d15/edit?viewport_loc=-805%2C345%2C3936%2C1628%2C0_0&invitationId=inv_3de7ece2-dc86-4690-95d5-4ab9db028e9a)
+
+**Rol 2:** Huésped del hotel
+
+**Objetivo:** Permitir al huésped consultar y gestionar su estadía, incluyendo habitaciones, servicios, mapa, perfil y notificaciones.
+**Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
+
+**Happy Paths:**
+![happypathhuesped.png](assets/happypathhuesped.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/7b89dd53-b257-4f78-97e3-1b599d6b85e5/edit?viewport_loc=-1918%2C-477%2C5700%2C2358%2C0_0&invitationId=inv_9502d876-be63-41c8-acb4-1d8e2ca1de0d)
+
+**Unhappy Paths:**
+![unhappypathhuesped.png](assets/unhappypathhuesped.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/18fbfec8-9c89-4794-8f4b-a9242e4db649/edit?viewport_loc=-930%2C-4%2C3511%2C1453%2C0_0&invitationId=inv_bbc495e4-6bb4-418f-a0ac-65c431096cd6)
+
+
+**Rol 3:** Personal del hotel (staff)
+
+**Objetivo:** Permitir al staff gestionar tareas, servicios, reservas y comunicaciones con eficiencia.
+**Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
+
+**Happy Paths:**
+![happypathstaff.png](assets/happypathstaff.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
+
+**Unhappy Paths:**
+![unhappypathstaff.png](assets/unhappypathstaff.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/543c4cad-5bce-40bc-bc29-8a1f2a604a63/edit?viewport_loc=-2062%2C-511%2C5080%2C2102%2C0_0&invitationId=inv_8e3a4604-fe5c-4655-addc-5f16e8fb91d4)
+
 ## 4.5. Web Applications Prototyping
 
 El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
@@ -1997,13 +2920,67 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
+**Legend of terminologies:**
+
+![terminology.jpg](assets/Chapter-04/terminology.png)
+
+**Step 1: Unstructured Exploration:**
+
+![step1.jpg](assets/Chapter-04/step1.png)
+
+**Step 2: Timelines:**
+
+![step2.jpg](assets/Chapter-04/step2.png)
+
+**Step 3: Paint Points:**
+
+![step3.jpg](assets/Chapter-04/step3.png)
+
+**Step 4: Pivotal Points:**
+
+![step4.jpg](assets/Chapter-04/step4.png)
+
+**Step 5: Commands:**
+
+![step5.jpg](assets/Chapter-04/step5.png)
+
+**Step 6: Policies:**
+
+![step6.jpg](assets/Chapter-04/step6.png)
+
+**Step 7: Read models:**
+
+![step7.jpg](assets/Chapter-04/step7.png)
+
+**Step 8: External Systems:**
+
+![step8.jpg](assets/Chapter-04/step8.png)
+
+**Step 9: Aggregates:**
+
+![step9.jpg](assets/Chapter-04/step9.png)
+
+**Step 10: Bounded Contexts:**
+
+![step10.jpg](assets/Chapter-04/step10.png)
+
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://miro.com/app/board/uXjVJ9iB8iU=/?share_link_id=650007847940)
+
+
 ### 4.6.2. Software Architecture Context Diagram
+
 ![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
+
 ### 4.6.3. Software Architecture Container Diagrams
+
 ![Containers.jpg](assets/Chapter-04/Containers.jpg)
+
 ### 4.6.4. Software Architecture Components Diagrams
+
 ![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
+
 ## 4.7. Software Object-Oriented Design
+
 ![IotGatewayComponets.jpg](assets/Chapter-04/IotGatewayComponets.jpg)
 
 ### 4.7.1. Class Diagrams
