@@ -776,15 +776,50 @@ Estos recorridos permiten detectar fricciones, validar expectativas y proponer m
 
 ### 2.3.4. Empathy Mapping.
 
-**Adrián Ramírez (Administrador de hotel boutique):**
+El Empathy Mapping permite comprender en profundidad las emociones, pensamientos y comportamientos de los usuarios, facilitando una conexión más humana con sus necesidades reales.
+A través de esta herramienta, se identifican los dolores, motivaciones y expectativas de los distintos perfiles, lo que contribuye al diseño de soluciones más relevantes y personalizadas.
 
-![Screenshot](assets/Chapter-02/Emphaty_map.jpg)
+En el caso de Smart Stay, se elaboraron dos mapas de empatía diferenciados según los segmentos objetivos:
 
-**Valeria Ríos (Huésped / Viajera):**
+- **Segmento 1: orientado a la gestión operativa y administración hotelera, representado por el perfil del Manager (Adrián Ramírez).**
 
-![Screenshot](assets/MapaEmpaticoCorrecion.jpg)
+- **Segmento 2: enfocado en la experiencia de estadía y servicios digitales, representado por el perfil del Traveler (Valeria Ríos).**
+
+Estos mapas permiten visualizar cómo cada tipo de usuario piensa, siente y actúa frente al servicio, además de reconocer los puntos de dolor (pains) y las ganancias esperadas (gains).
+El análisis conjunto de ambos segmentos brinda una visión integral para mejorar la eficiencia operativa del hotel y elevar la satisfacción del huésped, alineando tecnología y experiencia humana.
+
+**Segmento 1 – Administradores de Hoteles Boutique y Pequeños en Lima**
+
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap1.png)
+
+**Segmento 2 – Huéspedes de Hoteles**
+
+![empathy-map-2.jpg](assets/Chapter-02/Empathymap2_(2).png)
+
+---
 
 ## 2.4. Big Picture EventStorming.
+
+
+**Chaotic Exploration:**
+
+![step1.jpg](assets/Chapter-02/chaoticexploration.jpg)
+
+**Timeline:**
+
+![step2.jpg](assets/Chapter-02/Timeline.jpg)
+
+**People & Systems:**
+
+![step3.jpg](assets/Chapter-02/PeopleSystems.jpg)
+
+**Problems & Opportunities:**
+
+![step4.jpg](assets/Chapter-02/ProblemsOpportunities.jpg)
+
+**Prioritization:**
+
+![step5.jpg](assets/Chapter-02/Prioritization.jpg)
 
 ---
 
