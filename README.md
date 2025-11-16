@@ -4400,9 +4400,6 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 ### Usabilidad y Experiencia de Usuario
 
-- Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
-
-- Norman, D. (2013). *The Design of Everyday Things: Revised and Expanded Edition*. Basic Books.
 
 - W3C. (2021). *Web Content Accessibility Guidelines (WCAG) 2.1*. Recuperado de https://www.w3.org/WAI/WCAG21/quickref/
 
@@ -4412,4 +4409,3 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 - Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
 
-- React. (2024). *React Documentation*. Recuperado de https://react.dev/
