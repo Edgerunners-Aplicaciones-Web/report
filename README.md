@@ -3034,7 +3034,7 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 
 ### 4.8.1. Database Diagrams
 
-![database-diagram.png](assets/Chapter-04/database-diagram.png)
+![Edgerunners-Aplicaciones-Web_Physical_Export.png](assets/Chapter-04/Edgerunners-Aplicaciones-Web_Physical_Export.png)
 
 ---
 
