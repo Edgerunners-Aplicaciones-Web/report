@@ -4323,19 +4323,19 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 **Screenshot del Video:**
 
-![Video About-the-Product](assets/video_about_product.png)
+![about-the.product.png](assets/about-the.product.png)
 
 **URL de Microsoft Stream:**
 
-[//PEGAR AQUI EL URL DE MICROSOFT STREAM//]
+[Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQDomHC5NY-OTrQsZBkk-2y3AQB0oa2gq_DIwfLtaJPD6rA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Pxr9Bb)
 
 **URL de YouTube (para incrustar en Landing Page):**
 
-[//PEGAR AQUI EL URL DE YOUTUBE//]
+[Video about the proyect](https://youtu.be/R7d_tfMvb5c)
 
 **Duración del Video:**
 
-[//PEGAR AQUI LA DURACION DEL VIDEO (ej: 5:30 minutos)//]
+8:40 minutos
 
 ---
 
