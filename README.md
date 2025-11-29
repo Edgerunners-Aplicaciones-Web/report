@@ -3526,12 +3526,13 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
 
 **Happy Paths:**
-![happypathadmi.png](assets/happypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/dc345c68-b9ba-4b68-ba59-d33a107cd547/edit?viewport_loc=-2020%2C-505%2C6554%2C2712%2C0_0&invitationId=inv_f306e465-ed6b-4d99-9d15-d416cfe5ca03)
+![happypathadmi.png](assets/Chapter-04/loginAdmin.png)
+
+![happypathadmi.png](assets/Chapter-04/homeAdmin.png)
 
 **Unhappy Paths:**
-![unhappypathadmi.png](assets/unhappypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/5b49d2f9-1e2c-495a-bb48-a86af3f68d15/edit?viewport_loc=-805%2C345%2C3936%2C1628%2C0_0&invitationId=inv_3de7ece2-dc86-4690-95d5-4ab9db028e9a)
+![unhappypathadmi.png](assets/Chapter-04/loginAdmin2.png)
+
 
 **Rol 2:** Huésped del hotel
 
@@ -3539,12 +3540,10 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
 
 **Happy Paths:**
-![happypathhuesped.png](assets/happypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/7b89dd53-b257-4f78-97e3-1b599d6b85e5/edit?viewport_loc=-1918%2C-477%2C5700%2C2358%2C0_0&invitationId=inv_9502d876-be63-41c8-acb4-1d8e2ca1de0d)
+![happypathhuesped.png](assets/Chapter-04/huespedhappy.png)
 
 **Unhappy Paths:**
-![unhappypathhuesped.png](assets/unhappypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/18fbfec8-9c89-4794-8f4b-a9242e4db649/edit?viewport_loc=-930%2C-4%2C3511%2C1453%2C0_0&invitationId=inv_bbc495e4-6bb4-418f-a0ac-65c431096cd6)
+![unhappypathhuesped.png](assets/Chapter-04/huespedunhappy.png)
 
 
 **Rol 3:** Personal del hotel (staff)
@@ -3553,12 +3552,17 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
 
 **Happy Paths:**
-![happypathstaff.png](assets/happypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
+![taskhapylogin.png](assets/Chapter-04/loginStaf.png)
+
+
+![taskhappy.png](assets/Chapter-04/homeStaf.png)
+
 
 **Unhappy Paths:**
-![unhappypathstaff.png](assets/unhappypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/543c4cad-5bce-40bc-bc29-8a1f2a604a63/edit?viewport_loc=-2062%2C-511%2C5080%2C2102%2C0_0&invitationId=inv_8e3a4604-fe5c-4655-addc-5f16e8fb91d4)
+![lognohappy.png](assets/Chapter-04/loginStaf2.png)
+
+![taskviewhome.png](assets/Chapter-04/homeStaf2.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/451a14e9-2d76-476c-8bd9-d26804387cdf/edit?viewport_loc=-908%2C-652%2C18743%2C9986%2C0_0&invitationId=inv_d50dd7bc-2d9b-4aaa-8537-5cc8b57655ab)
 
 ## 4.5. Web Applications Prototyping
 
