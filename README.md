@@ -46,14 +46,25 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 |   1.2   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
 |   1.3   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
 |   2.0   | 30/09/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
+|   2.1   | 15/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Documentación del Sprint 3: Development Evidence, Deployment Evidence y Team Collaboration Insights |
+|   2.2   | 16/10/2025 |   Alexander Piero Fernandez Garfias   | Corrección de terminología: actualización de referencias a "bounded contexts" en todo el documento |
+|   2.3   | 18/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora de User Stories y Technical Stories: eliminación de referencias a UI y reescritura con formato API REST según estándares del profesor |
+|   2.4   | 19/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora del Sprint Goal del Sprint 3 según formato Outcome-Impact-Event |
+|   2.5   | 20/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Corrección del Sprint Backlog 3 para alinearlo con las User Stories y Technical Stories definidas |
+|   2.6   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Completar sección de Evaluaciones según heurísticas (5.3.3) siguiendo formato del Anexo D |
+|   2.7   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar sección de Video About-the-Product (5.4) con estructura completa |
+|   2.8   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar secciones de Conclusiones y Bibliografía al final del documento |
+|   2.9   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Limpieza de assets no utilizados y corrección de referencias de imágenes en secciones de Empathy Mapping y EventStorming |
 
 
 ## Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web
 - **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
-- **URL del repositorio de la landing page del proyecto:** https://edgerunners-aplicaciones-web.github.io/landing-page/
-- **URL del repositorio del frontend del proyecto:** <!--TODO: AGREGAR EL URL-->
+- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page
+- **URL desplegada de la landing page:** https://edgerunners-aplicaciones-web.github.io/landing-page/
+- **URL del repositorio del frontend del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay
+- **URL del repositorio del backend:** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay
 
 ### Colaboración y Evidencia de Trabajo en Equipo
 
@@ -64,7 +75,6 @@ El desarrollo del presente informe de trabajo final se realizó de manera colabo
 El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
 
 <img src="assets/commits_team1.png" alt="Colaboración del Equipo" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
-<img src="assets/chapter-01/Insights%20landing.png" alt="Insights landing.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
 
 
 #### Distribución de Contribuciones
@@ -180,8 +190,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | Italo Sebastian Verona Flores TB1 <ul><li>Lideré la definición de la arquitectura de software del proyecto 'Smart Stay', utilizando el modelo C4 para establecer los diagramas de Contexto, Contenedores y Componentes.</li><li>Dirigí el diseño de la base de datos, solicitando y validando los esquemas en SQL y DBML para asegurar la correcta persistencia de los datos según los Bounded Contexts definidos.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Lideré el área de diseño de experiencia de usuario (UX), elaborando los wireframes y mockups de alta fidelidad que sirvieron como guía visual para todo el proyecto.</li><li>Dirigí la creación de la guía de estilos visuales de "Smart Stay", definiendo la paleta de colores, tipografía y branding para asegurar una identidad de marca coherente y profesional.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Tomé el liderazgo en el desarrollo front-end, traduciendo los mockups y guías de estilo en un prototipo funcional utilizando HTML, Tailwind CSS y JavaScript.</li><li>Dirigí la implementación técnica de la arquitectura de página única estática (SPA), asegurando que la navegación entre vistas fuera fluida y eficiente.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Lideré la fase de análisis de requerimientos del proyecto, siendo responsable de la creación y redacción del Product Backlog, incluyendo todas las Épicas y User Stories.</li><li>Guié la alineación del producto con las necesidades del negocio mediante la elaboración del Lean UX Canvas, asegurando que cada funcionalidad tuviera un propósito claro.</li></ul> Aldair Joaquin Ramos Aguirre TB1  <ul><li> Dirigí la definición Big Picture EventStorming para descubrir eventos de negocio y flujos principales. </li> <li>  Dirigí la definición mediante Impact Mapping para identificar objetivos, actores, impactos y entregables clave, estableciendo así una base estratégica que respaldó el diseño de la arquitectura de software del proyecto 'Smart Stay'. | *TB1*<br> <li>El liderazgo del equipo se manifestó de forma conjunta al distribuir responsabilidades clave (arquitectura, diseño de base de datos, UI/UX) entre los miembros, permitiendo que cada uno guiara su área de especialización y contribuyera a una visión técnica coherente y unificada del producto.</li><li>Las decisiones de diseño cruciales, como la adopción del modelo C4 para la arquitectura y la separación funcional de roles de usuario, se tomaron de manera consensuada, discutiendo y evaluando colectivamente las mejores alternativas para la robustez y escalabilidad del sistema.</li><li>El equipo demostró un liderazgo proactivo al guiar el proyecto a través de un proceso iterativo de refinamiento, transformando los conceptos iniciales en un conjunto de artefactos de diseño detallados y un prototipo funcional.</li>                                                                                           |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Italo Sebastian Verona Flores TB1 <ul><li>Establecí los objetivos para cada artefacto de diseño, planificando la secuencia de trabajo desde los diagramas de alto nivel (C4) hasta la implementación del front-end.</li><li>Fomenté un entorno de colaboración al proporcionar retroalimentación específica y constructiva sobre cada entregable, permitiendo la mejora continua del producto final.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Creé un entorno colaborativo al proporcionar los artefactos visuales (mockups) que sirvieron como un "lenguaje común" para alinear el trabajo de arquitectura y desarrollo.</li><li>Establecí las metas de diseño visual y de usabilidad, planificando las tareas de creación de componentes gráficos y asegurando el cumplimiento de los objetivos estéticos del proyecto.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Colaboré estrechamente con el área de diseño para planificar las tareas de maquetación, asegurando que la implementación técnica fuera fiel a la visión UX/UI.</li><li>Cumplí el objetivo de entregar una landing page interactiva y funcional, implementando características complejas como el selector de idioma y la navegación entre vistas.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Establecí las metas funcionales del producto a través de User Stories claras y bien definidas, lo que permitió al equipo planificar sus tareas de desarrollo de manera efectiva.</li><li>Creé un puente de colaboración entre la visión de negocio y el equipo técnico, asegurando que los entregables cumplieran con los objetivos planteados en la fase de análisis.</li></ul> Aldair Joaquin Ramos Aguirre TB1 <ul><li>Conduje una sesión de Big Picture EventStorming, mapeando eventos de negocio y flujos esenciales para obtener una visión integral de los procesos del proyecto.</li><li>Lideré el uso de Impact Mapping para definir metas, actores, resultados esperados y entregables, sentando las bases estratégicas.</li></ul>                   | *TB1*<br> <li>Se fomentó un entorno altamente colaborativo utilizando los artefactos de diseño (diagramas C4, mockups, guías de estilo) como un lenguaje común, lo que facilitó la integración del trabajo individual y aseguró que todos los miembros compartieran la misma visión del producto final.</li><li>El equipo estableció y siguió un plan de trabajo estructurado, definiendo metas claras para cada fase del proyecto: desde el análisis de requerimientos y el diseño arquitectónico de alto nivel, hasta el modelado detallado de la base de datos y la implementación del prototipo.</li><li>Se cumplió con el objetivo principal del TB1 al entregar un producto cohesivo y funcional, que incluye una arquitectura de software documentada, un esquema de base de datos normalizado y una landing page estática e interactiva, demostrando la capacidad del equipo para planificar y ejecutar tareas complejas de manera efectiva.</li> |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | Italo Sebastian Verona Flores TB1 <ul><li>Lideré la definición de la arquitectura de software del proyecto 'Smart Stay', utilizando el modelo C4 para establecer los diagramas de Contexto, Contenedores y Componentes.</li><li>Dirigí el diseño de la base de datos, solicitando y validando los esquemas en SQL y DBML para asegurar la correcta persistencia de los datos según los Bounded Contexts definidos.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Lideré el área de diseño de experiencia de usuario (UX), elaborando los wireframes y mockups de alta fidelidad que sirvieron como guía visual para todo el proyecto.</li><li>Dirigí la creación de la guía de estilos visuales de "Smart Stay", definiendo la paleta de colores, tipografía y branding para asegurar una identidad de marca coherente y profesional.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Tomé el liderazgo en el desarrollo front-end, traduciendo los mockups y guías de estilo en un prototipo funcional utilizando HTML, Tailwind CSS y JavaScript.</li><li>Dirigí la implementación técnica de la arquitectura de página única estática (SPA), asegurando que la navegación entre vistas fuera fluida y eficiente.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Lideré la fase de análisis de requerimientos del proyecto, siendo responsable de la creación y redacción del Product Backlog, incluyendo todas las Épicas y User Stories.</li><li>Guié la alineación del producto con las necesidades del negocio mediante la elaboración del Lean UX Canvas, asegurando que cada funcionalidad tuviera un propósito claro.</li></ul> Aldair Joaquin Ramos Aguirre TB1  <ul><li> Dirigí la definición Big Picture EventStorming para descubrir eventos de negocio y flujos principales. </li> <li>  Dirigí la definición mediante Impact Mapping para identificar objetivos, actores, impactos y entregables clave, estableciendo así una base estratégica que respaldó el diseño de la arquitectura de software del proyecto 'Smart Stay'.</li></ul> <br> **TP (Sprint 2 - Frontend)** <br> Italo Sebastian Verona Flores TP <ul><li>Lideré el diseño visual y la maquetación web del frontend funcional de Smart Stay, estableciendo la estructura y componentes principales de la aplicación web.</li><li>Dirigí la implementación de las vistas principales (Admin, Guest, Staff) siguiendo los principios de diseño establecidos y asegurando la coherencia visual.</li></ul> Natalia Ximena Valverde Portuguez TP <ul><li>Lideré la implementación técnica del cambio de idioma (multilenguaje funcional), desarrollando el sistema de internacionalización que permite alternar entre español e inglés.</li><li>Dirigí la integración del sistema de idiomas en toda la aplicación, asegurando que todos los componentes respeten la selección del usuario.</li></ul> Alexander Piero Fernandez Garfias TP <ul><li>Lideré la implementación de responsividad y pruebas en distintos dispositivos, asegurando que la aplicación funcione correctamente en móviles, tablets y escritorio.</li><li>Dirigí las pruebas de compatibilidad y ajustes de diseño responsive para garantizar una experiencia óptima en todos los tamaños de pantalla.</li></ul> Jose Jhonatan Saavedra Angulo TP <ul><li>Lideré el despliegue de la aplicación web, configurando el proceso de deployment y asegurando que la aplicación esté disponible públicamente.</li><li>Dirigí la integración con servicios de hosting y la configuración de CI/CD para automatizar el despliegue continuo.</li></ul> <br> **TB2 (Sprint 3 - Backend)** <br> Italo Sebastian Verona Flores TB2 <ul><li>Lideré la implementación de la API RESTful con endpoints principales, desarrollando los controladores y servicios para los bounded contexts core del negocio.</li><li>Dirigí la creación de los endpoints de Accommodations, Bookings y Payments, asegurando que sigan las mejores prácticas de diseño REST.</li></ul> Natalia Ximena Valverde Portuguez TB2 <ul><li>Lideré la integración de bounded contexts, coordinando la estructura y comunicación entre los diferentes contextos del dominio (Accommodations, Bookings, Payments).</li><li>Dirigí la implementación de Swagger/OpenAPI para documentación interactiva de la API, facilitando la integración con el frontend.</li></ul> Alexander Piero Fernandez Garfias TB2 <ul><li>Lideré la configuración y conexión con la base de datos, implementando Entity Framework Core y configurando la persistencia con MySQL.</li><li>Dirigí el diseño del esquema de base de datos y las migraciones necesarias para soportar los bounded contexts implementados.</li></ul> Jose Jhonatan Saavedra Angulo TB2 <ul><li>Lideré la gestión de autenticación y seguridad, implementando middleware de autenticación JWT y configurando la autorización para todas las rutas.</li><li>Dirigí la implementación de control de acceso basado en roles y la configuración de seguridad de la API.</li></ul> | *TB1*<br> <li>El liderazgo del equipo se manifestó de forma conjunta al distribuir responsabilidades clave (arquitectura, diseño de base de datos, UI/UX) entre los miembros, permitiendo que cada uno guiara su área de especialización y contribuyera a una visión técnica coherente y unificada del producto.</li><li>Las decisiones de diseño cruciales, como la adopción del modelo C4 para la arquitectura y la separación funcional de roles de usuario, se tomaron de manera consensuada, discutiendo y evaluando colectivamente las mejores alternativas para la robustez y escalabilidad del sistema.</li><li>El equipo demostró un liderazgo proactivo al guiar el proyecto a través de un proceso iterativo de refinamiento, transformando los conceptos iniciales en un conjunto de artefactos de diseño detallados y un prototipo funcional.</li> <br> *TP*<br> <li>El liderazgo conjunto se evidenció en la distribución de responsabilidades técnicas del frontend: diseño visual, multilenguaje, responsividad y despliegue, permitiendo que cada integrante liderara su área de especialización y contribuyera a una aplicación web funcional y completa.</li><li>Las decisiones técnicas sobre la estructura de la aplicación, el sistema de internacionalización y la estrategia de despliegue se tomaron de manera colaborativa, asegurando que todos los componentes trabajaran de forma integrada y coherente.</li><li>El equipo demostró liderazgo técnico al transformar los mockups y diseños en una aplicación web funcional, implementando características complejas como el cambio de idioma y la adaptación responsive, cumpliendo con los objetivos del Sprint 2.</li> <br> *TB2*<br> <li>El liderazgo conjunto se manifestó en la distribución de responsabilidades del backend: implementación de API, integración de bounded contexts, configuración de base de datos y seguridad, permitiendo que cada integrante liderara su área técnica y contribuyera a una API RESTful robusta y escalable.</li><li>Las decisiones arquitectónicas sobre la estructura de bounded contexts, la configuración de persistencia y la estrategia de autenticación se tomaron de manera consensuada, asegurando que todos los componentes del backend funcionaran de forma integrada y segura.</li><li>El equipo demostró liderazgo técnico al implementar los bounded contexts core del negocio (Accommodations, Bookings, Payments), estableciendo una base sólida para futuras expansiones y cumpliendo con los objetivos del Sprint 3.</li>                                                                                           |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Italo Sebastian Verona Flores TB1 <ul><li>Establecí los objetivos para cada artefacto de diseño, planificando la secuencia de trabajo desde los diagramas de alto nivel (C4) hasta la implementación del front-end.</li><li>Fomenté un entorno de colaboración al proporcionar retroalimentación específica y constructiva sobre cada entregable, permitiendo la mejora continua del producto final.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Creé un entorno colaborativo al proporcionar los artefactos visuales (mockups) que sirvieron como un "lenguaje común" para alinear el trabajo de arquitectura y desarrollo.</li><li>Establecí las metas de diseño visual y de usabilidad, planificando las tareas de creación de componentes gráficos y asegurando el cumplimiento de los objetivos estéticos del proyecto.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Colaboré estrechamente con el área de diseño para planificar las tareas de maquetación, asegurando que la implementación técnica fuera fiel a la visión UX/UI.</li><li>Cumplí el objetivo de entregar una landing page interactiva y funcional, implementando características complejas como el selector de idioma y la navegación entre vistas.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Establecí las metas funcionales del producto a través de User Stories claras y bien definidas, lo que permitió al equipo planificar sus tareas de desarrollo de manera efectiva.</li><li>Creé un puente de colaboración entre la visión de negocio y el equipo técnico, asegurando que los entregables cumplieran con los objetivos planteados en la fase de análisis.</li></ul> Aldair Joaquin Ramos Aguirre TB1 <ul><li>Conduje una sesión de Big Picture EventStorming, mapeando eventos de negocio y flujos esenciales para obtener una visión integral de los procesos del proyecto.</li><li>Lideré el uso de Impact Mapping para definir metas, actores, resultados esperados y entregables, sentando las bases estratégicas.</li></ul> <br> **TP (Sprint 2 - Frontend)** <br> Italo Sebastian Verona Flores TP <ul><li>Establecí las metas de diseño visual y maquetación, planificando las tareas de implementación de las vistas principales (Admin, Guest, Staff) y asegurando la coherencia visual en toda la aplicación.</li><li>Fomenté un entorno colaborativo al coordinar el trabajo de diseño con el equipo, proporcionando retroalimentación sobre la implementación de componentes y asegurando que se cumplieran los objetivos de diseño establecidos.</li></ul> Natalia Ximena Valverde Portuguez TP <ul><li>Creé un entorno colaborativo al desarrollar el sistema de multilenguaje que facilitó la comunicación y alineación del equipo en la implementación de textos e interfaces.</li><li>Establecí las metas de internacionalización, planificando las tareas de traducción e integración del sistema de idiomas en todos los componentes de la aplicación.</li></ul> Alexander Piero Fernandez Garfias TP <ul><li>Colaboré estrechamente con el equipo para planificar las tareas de responsividad, asegurando que la aplicación fuera accesible y funcional en todos los dispositivos.</li><li>Cumplí el objetivo de entregar una aplicación completamente responsive, implementando pruebas exhaustivas en diferentes tamaños de pantalla y resolviendo problemas de adaptación.</li></ul> Jose Jhonatan Saavedra Angulo TP <ul><li>Establecí las metas de despliegue y disponibilidad, planificando las tareas de configuración de hosting y automatización del proceso de deployment.</li><li>Creé un entorno de colaboración al coordinar el despliegue continuo, asegurando que todos los cambios se integraran correctamente y la aplicación estuviera siempre disponible.</li></ul> <br> **TB2 (Sprint 3 - Backend)** <br> Italo Sebastian Verona Flores TB2 <ul><li>Establecí las metas de implementación de la API RESTful, planificando las tareas de desarrollo de endpoints y servicios para los bounded contexts core del negocio.</li><li>Fomenté un entorno colaborativo al coordinar el trabajo de implementación de endpoints, proporcionando retroalimentación sobre la estructura y diseño de la API.</li></ul> Natalia Ximena Valverde Portuguez TB2 <ul><li>Creé un entorno colaborativo al liderar la integración de bounded contexts, facilitando la comunicación entre los diferentes contextos y asegurando una arquitectura coherente.</li><li>Establecí las metas de documentación de la API, planificando las tareas de implementación de Swagger/OpenAPI y asegurando que la documentación fuera completa y accesible.</li></ul> Alexander Piero Fernandez Garfias TB2 <ul><li>Colaboré estrechamente con el equipo para planificar las tareas de configuración de base de datos, asegurando que la persistencia de datos fuera robusta y escalable.</li><li>Cumplí el objetivo de configurar Entity Framework Core con MySQL, implementando las migraciones necesarias y asegurando la integridad de los datos en todos los bounded contexts.</li></ul> Jose Jhonatan Saavedra Angulo TB2 <ul><li>Establecí las metas de seguridad y autenticación, planificando las tareas de implementación de JWT y middleware de autorización para proteger todos los endpoints.</li><li>Creé un entorno de colaboración al coordinar la implementación de seguridad, asegurando que todos los endpoints estuvieran protegidos y el sistema fuera seguro.</li></ul>                   | *TB1*<br> <li>Se fomentó un entorno altamente colaborativo utilizando los artefactos de diseño (diagramas C4, mockups, guías de estilo) como un lenguaje común, lo que facilitó la integración del trabajo individual y aseguró que todos los miembros compartieran la misma visión del producto final.</li><li>El equipo estableció y siguió un plan de trabajo estructurado, definiendo metas claras para cada fase del proyecto: desde el análisis de requerimientos y el diseño arquitectónico de alto nivel, hasta el modelado detallado de la base de datos y la implementación del prototipo.</li><li>Se cumplió con el objetivo principal del TB1 al entregar un producto cohesivo y funcional, que incluye una arquitectura de software documentada, un esquema de base de datos normalizado y una landing page estática e interactiva, demostrando la capacidad del equipo para planificar y ejecutar tareas complejas de manera efectiva.</li> <br> *TP*<br> <li>Se fomentó un entorno colaborativo utilizando GitHub como herramienta central de coordinación, permitiendo que cada integrante trabajara en su área de especialización (diseño, multilenguaje, responsividad, despliegue) mientras se mantenía la comunicación constante y la integración ordenada del código.</li><li>El equipo estableció y siguió un plan de trabajo estructurado para el Sprint 2, definiendo metas claras: aplicación web funcional, sistema de multilenguaje operativo, diseño responsive completo y despliegue público estable, cumpliendo con todos los objetivos planteados.</li><li>Se cumplió con el objetivo principal del TP al entregar una aplicación web completamente funcional con todas las vistas implementadas (Admin, Guest, Staff), sistema de cambio de idioma operativo, diseño responsive y despliegue exitoso, demostrando la capacidad del equipo para planificar y ejecutar tareas de desarrollo frontend de manera efectiva.</li> <br> *TB2*<br> <li>Se fomentó un entorno altamente colaborativo utilizando GitHub y Trello para coordinar el trabajo del backend, permitiendo que cada integrante liderara su área técnica (API, bounded contexts, base de datos, seguridad) mientras se mantenía la comunicación constante y la integración ordenada del código.</li><li>El equipo estableció y siguió un plan de trabajo estructurado para el Sprint 3, definiendo metas claras: implementación de bounded contexts core (Accommodations, Bookings, Payments), API RESTful documentada, configuración de base de datos y sistema de autenticación, cumpliendo con todos los objetivos planteados.</li><li>Se cumplió con el objetivo principal del TB2 al entregar un backend completamente funcional con los bounded contexts implementados, API RESTful documentada con Swagger, configuración de Entity Framework Core con MySQL y sistema de autenticación JWT, demostrando la capacidad del equipo para planificar y ejecutar tareas de desarrollo backend de manera efectiva.</li> |
 
 # **Capítulo I: Introducción**
 
@@ -936,6 +946,27 @@ La disposición a pagar por tecnología varía según la generación. Mientras q
 ![S2_12_influencia_resenas.png](assets/Chapter-02/S2_12_influencia_resenas.png)
 
 Esta tendencia refleja datos globales donde las reseñas en línea han reemplazado el boca a boca tradicional, con los millennials consultando plataformas como TripAdvisor, Google y redes sociales antes de reservar.
+
+
+**Chaotic Exploration:**
+
+![step1.jpg](assets/Chapter-02/chaoticexploration.jpg)
+
+**Timeline:**
+
+![step2.jpg](assets/Chapter-02/Timeline.jpg)
+
+**People & Systems:**
+
+![step3.jpg](assets/Chapter-02/PeopleSystems.jpg)
+
+**Problems & Opportunities:**
+
+![step4.jpg](assets/Chapter-02/ProblemsOpportunities.jpg)
+
+**Prioritization:**
+
+![step5.jpg](assets/Chapter-02/Prioritization.jpg)
 
 ---
 
@@ -2103,7 +2134,6 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 ![ImpactMapping.jpeg](assets/ImpactmapValeria2.png)
 
 
-
 ![ImpactMapping.jpeg](assets/ImpactmapAdrianMartinez.png)
 
 
@@ -2526,6 +2556,7 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 # Capítulo IV: Product Design
 
+
 ## 4.1. Style Guidelines
 
 Nuestra base es establecer la identidad visual y de diseño de Smart Stay, asegurando coherencia, claridad y usabilidad en todos los puntos de contacto de la marca, tanto en medios digitales como en experiencias del usuario.
@@ -2913,6 +2944,37 @@ El sistema se diseña siguiendo principios de intuitividad, consistencia, visibi
 | Breadcrumbs     | Optional             | Indica la ruta de navegación y permite regresar a secciones previas. |
 
 ## 4.3. Landing Page UI Design
+
+**Landing Page Navigation**
+
+| Navigation Item    | Location / Component         | Function                                                                      |
+|--------------------|------------------------------|-------------------------------------------------------------------------------|
+| Home               | Header                       | Enlace a la Landing Page. Permite regresar al inicio desde cualquier sección. |
+| Services           | Header                       | Acceso rápido a la sección de servicios disponibles.                          |
+| Bookings           | Header                       | Permite al usuario gestionar reservas desde cualquier lugar.                  |
+| Contact            | Header                       | Enlace al formulario de contacto o correo de soporte.                         |
+| Sign Up            | Header (button)              | Registro de nuevos usuarios. Destacado visualmente.                           |
+| Login              | Header (button)              | Acceso a la sesión del usuario. Fácil de localizar.                           |
+| Try Demo           | Hero Section (CTA principal) | Llamada a la acción principal para probar la demo de Smart Stay.              |
+| Benefits           | Hero Section / Value Section | Navegación indirecta hacia los beneficios de la plataforma.                   |
+| About              | Footer / Company             | Información institucional sobre Smart Stay. Acceso desde cualquier sección.   |
+| Privacy Policy     | Footer / Legal               | Enlace obligatorio por normativa legal.                                       |
+| Terms & Conditions | Footer / Legal               | Complementa la política de privacidad.                                        |
+| Social Media       | Footer / Navigation          | Acceso a redes oficiales, visibilidad global.                                 |
+
+**Web App Navigation**
+
+| Navigation Item | Location / Component | Function                                                             |
+|-----------------|----------------------|----------------------------------------------------------------------|
+| Guests          | Sidebar              | Sección principal para gestionar huéspedes o clientes.               |
+| Bookings        | Sidebar              | Sección principal para gestionar reservas y su estado.               |
+| Services        | Sidebar              | Sección principal para gestionar servicios disponibles.              |
+| Products        | Sidebar              | Sección para visualizar y administrar productos asociados.           |
+| Profile         | Top Bar              | Acceso a perfil de usuario, configuración y notificaciones.          |
+| Notifications   | Top Bar              | Acceso rápido a alertas y mensajes importantes.                      |
+| Breadcrumbs     | Optional             | Indica la ruta de navegación y permite regresar a secciones previas. |
+
+## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
 Los wireframes representan la primera aproximación al diseño de la interfaz de Smart Stay.  
@@ -2926,68 +2988,77 @@ El objetivo de estos wireframes es:
 A continuación, se presenta un resumen de cada una de las secciones.
 
 **1. Home**
-- **Propósito:** Página principal de presentación de Smart Stay.
-- **Elementos clave:**
-    - Encabezado con menú de navegación.
-    - Hero con nombre de la plataforma y botón de llamada a la acción (*CTA: Probar demo*).
-    - Sección "¿Quiénes somos?" con breve descripción.
-    - Bloques de beneficios y características principales.
-    - Footer con enlaces de contacto, políticas y redes sociales.
-      ![whome.png](assets/whome.png)
+- **Propósito:** Página principal de presentación de Smart Stay.  
+- **Elementos clave:**  
+  - Encabezado con menú de navegación.  
+  - Hero con nombre de la plataforma y botón de llamada a la acción (*CTA: Probar demo*).  
+  - Sección "¿Quiénes somos?" con breve descripción.  
+  - Bloques de beneficios y características principales.  
+  - Footer con enlaces de contacto, políticas y redes sociales.
 
-**2. Products**
-- **Propósito:** Mostrar los productos y módulos de la plataforma.
-- **Elementos clave:**
-    - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.
-    - Descripción breve de cada módulo.
-    - Botón de descarga de brochure.
-      ![wproductos.png](assets/wproductos.png)
-
-**3. Solutions**
-- **Propósito:** Explicar cómo Smart Stay se adapta a diferentes tipos de hoteles.
-- **Elementos clave:**
-    - Sección para hoteles boutique.
-    - Sección para alojamientos alternativos.
-    - Sección para cadenas hoteleras.
-    - Botón para descargar información detallada.
-      ![wsoluciones.png](assets/wsoluciones.png)
+![whome.png](assets/whome.png)
 
 
-**4. Prices**
-- **Propósito:** Detallar planes y costos de la plataforma.
-- **Elementos clave:**
-    - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.
-    - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
-      ![wsprecios.png](assets/wsprecios.png)
+**2. Productos**
+- **Propósito:** Mostrar los productos y módulos de la plataforma.  
+- **Elementos clave:**  
+  - Lista de funcionalidades divididas en áreas: gestión hotelera, experiencia del huésped, reportes, seguridad.  
+  - Descripción breve de cada módulo.  
+  - Botón de descarga de brochure.
 
-**5. Success Stories**
-- **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.
-- **Elementos clave:**
-    - Bloques con testimonios de clientes.
-    - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
-      ![wreseñas.png](assets/wreseñas.png)
+  ![wproductos.png](assets/wproductos.png)
 
-**6. Resources**
-- **Propósito:** Repositorio de materiales de apoyo y aprendizaje.
-- **Elementos clave:**
-    - Documentos descargables (guías, whitepapers, brochures).
-    - Links de blogs.  
-      ![wrecurso.png](assets/wrecurso.png)
+**3. Soluciones**
+- **Propósito:** Explicar cómo Smart Stay se adapta a diferentes tipos de hoteles.  
+- **Elementos clave:**  
+  - Sección para hoteles boutique.  
+  - Sección para alojamientos alternativos.  
+  - Sección para cadenas hoteleras.  
+  - Botón para descargar información detallada.
 
-**7. Register**
-- **Propósito:** Permitir que un nuevo usuario cree su cuenta.
-- **Elementos clave:**
-    - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).
-    - Botón de registro.  
-      ![wregister.png](assets/wregister.png)
+  ![wsoluciones.png](assets/wsoluciones.png)
+
+
+**4. Precios**
+- **Propósito:** Detallar planes y costos de la plataforma.  
+- **Elementos clave:**  
+  - Tabla comparativa de funcionalidades entre Plan Normal y Plan Plus.  
+  - Categorías claras: gestión hotelera, experiencia huésped, seguridad, soporte.
+
+![wsprecios.png](assets/wsprecios.png)
+
+**5. Casos de Éxito**
+- **Propósito:** Mostrar testimonios y ejemplos de hoteles que ya usan Smart Stay.  
+- **Elementos clave:**  
+  - Bloques con testimonios de clientes.  
+  - Descripción breve de resultados obtenidos (ahorro de tiempo, mejora de experiencia, reducción de costos).
+
+  ![wreseñas.png](assets/wreseñas.png)  
+
+**6. Recursos**
+- **Propósito:** Repositorio de materiales de apoyo y aprendizaje.  
+- **Elementos clave:**  
+  - Documentos descargables (guías, whitepapers, brochures).  
+  - Links de blogs.  
+
+![wrecurso.png](assets/wrecurso.png)
+
+**7. Registro**
+- **Propósito:** Permitir que un nuevo usuario cree su cuenta.  
+- **Elementos clave:**  
+  - Formulario de registro con campos básicos (nombre, correo, contraseña, tipo de empresa).  
+  - Botón de registro.  
+
+![wregister.png](assets/wregister.png)
 
 **8. Login**
-- **Propósito:** Acceso de usuarios ya registrados.
-- **Elementos clave:**
-    - Formulario de inicio de sesión con correo y contraseña.
-    - Botón de acceso.
-    - Enlace a recuperación de contraseña y a registro.  
-      ![wlogin.png](assets/wlogin.png)
+- **Propósito:** Acceso de usuarios ya registrados.  
+- **Elementos clave:**  
+  - Formulario de inicio de sesión con correo y contraseña.  
+  - Botón de acceso.  
+  - Enlace a recuperación de contraseña y a registro.
+
+![wlogin.png](assets/wlogin.png)
 
 Los wireframes definen la base de navegación de Smart Stay, asegurando que cada sección tenga un propósito claro:
 - **Home:** captar atención y presentar la plataforma.
@@ -3007,62 +3078,71 @@ Su propósito es:
 - Proyectar cómo se verá cada sección en un entorno final.
 
 **1. Landing Page**
-- **Cambios respecto al wireframe:**
-    - Se añadió el logotipo de Smart Stay en el header.
-    - Paleta de colores aplicada (azul corporativo + tonos complementarios).
-    - Imagen de fondo en el Hero con llamada a la acción resaltada (“Probar demo”).
-    - Iconografía personalizada para los beneficios.  
-      ![home.png](assets/home.png)
+- **Cambios respecto al wireframe:**  
+  - Se añadió el logotipo de Smart Stay en el header.  
+  - Paleta de colores aplicada (azul corporativo + tonos complementarios).  
+  - Imagen de fondo en el Hero con llamada a la acción resaltada (“Probar demo”).  
+  - Iconografía personalizada para los beneficios.  
 
-**2. Product**
--**Cambios respecto al wireframe:**
-- Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).
-- Inclusión de imágenes ilustrativas.
-- Botón de descarga estilizado con colores de la marca.  
-  ![producto.png](assets/producto.png)
+![home.png](assets/home.png)
 
-**3. Solutions**
-- **Cambios respecto al wireframe:**
-    - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).
-    - Uso de fotografías representativas de hoteles.
-    - CTA destacado.
-      ![soluciones.png](assets/soluciones.png)
+**2. Productos**
+-**Cambios respecto al wireframe:**  
+  - Uso de íconos y colores diferenciados por módulo (gestión, experiencia huésped, seguridad, reportes).  
+  - Inclusión de imágenes ilustrativas.  
+  - Botón de descarga estilizado con colores de la marca.  
 
-**4. Prices**
-- **Cambios respecto al wireframe:**
-    - Tabla de precios con colores diferenciadores por plan.
-    - Plan recomendado resaltado con un fondo destacado.  
-      ![precio.png](assets/precio.png)
+![producto.png](assets/producto.png)
 
-**5. Success Stories**
-- **Cambios respecto al wireframe:**
-    - Testimonios acompañados de logos reales de hoteles.  
-      ![reseña.png](assets/reseña.png)
+**3. Soluciones**
+- **Cambios respecto al wireframe:**  
+  - Bloques visuales para cada tipo de cliente (hoteles boutique, alojamientos alternativos, cadenas).  
+  - Uso de fotografías representativas de hoteles.  
+  - CTA destacado.
 
-**6. Resources**
-- **Cambios respecto al wireframe:**
-    - Secciones de miniaturas de documentos descargables.
-    - Secciones de blog con botón de visitar página externa.
-      ![recursos.png](assets/recursos.png)
+![soluciones.png](assets/soluciones.png)
 
-**7. Register**
-- **Cambios respecto al wireframe:**
-    - Formulario minimalista con campos estilizados.
-    - Botón de “Enviar y registrar” resaltado en color primario.
-    - Fondo con imagen ligera para dar contexto al servicio.
-      ![register.png](assets/register.png)
+**4. Precios**
+- **Cambios respecto al wireframe:**  
+  - Tabla de precios con colores diferenciadores por plan.  
+  - Plan recomendado resaltado con un fondo destacado. 
+
+  ![precio.png](assets/precio.png)
+
+**5. Casos de Éxito**
+- **Cambios respecto al wireframe:**  
+  - Testimonios acompañados de logos reales de hoteles.
+
+![reseña.png](assets/reseña.png)
+
+**6. Recursos**
+- **Cambios respecto al wireframe:**  
+  - Secciones de miniaturas de documentos descargables.  
+  - Secciones de blog con botón de visitar página externa.
+
+![recursos.png](assets/recursos.png)
+
+**7. Registro**
+- **Cambios respecto al wireframe:**  
+  - Formulario minimalista con campos estilizados.  
+  - Botón de “Enviar y registrar” resaltado en color primario.  
+  - Fondo con imagen ligera para dar contexto al servicio.
+
+  ![register.png](assets/register.png)
 
 **8. Login**
-- **Cambios respecto al wireframe:**
-    - Formulario ubicado a lateral izquierdo en pantalla con diseño limpio.
-    - Logo al lado derecho de la pantalla.
-    - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”.  
-      ![login.png](assets/login.png)
+- **Cambios respecto al wireframe:**  
+  - Formulario ubicado a lateral izquierdo en pantalla con diseño limpio.  
+  - Logo al lado derecho de la pantalla.  
+  - Enlaces secundarios estilizados para “¿Olvidaste tu contraseña?”. 
+
+![login.png](assets/login.png)
 
 Los mockups consolidan el diseño visual final de Smart Stay, transformando la estructura básica de los wireframes en interfaces listas para evaluación estética y funcional.
 
 
 ## 4.4. Web Applications UX/UI Design
+
 En esta sección de Web Applications UX/UI Design ya nos enfocamos en el diseño de la interfaz y la experiencia de usuario de nuestro explicativo el cual se menciona e informa en el landing page, cabe resaltar que el el aplicativo es difernte según el rol que forman parte de la solución digital: administrador, staff y huéspedpor lo que su funcionamiento es distinto. Aquí se visualizará el prototipo de cada app y a su vez se presentará en la forma más práctica según su rol, formato desktop para administrados y formato móvil para staff y huésped, aunque los tres cuentan con diseño responsive por lo que se puede usar de cualquier dispositivo móvil.
 
 ### 4.4.1. Web Applications Wireframes
@@ -3285,7 +3365,7 @@ Mostrar cómo cada sección del administrador se conecta a través del menú pri
 
 Desde cualquier sección, el menú permite acceder a:
 
-1.**Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
+1. **Intro** - Pantalla de inicio a app Adminstrator luego de iniciar sesión.
 2. **Dashboard** – Resumen general de actividad, métricas y gráficos.
 3. **Guests** – Gestión de perfiles de usuarios; agregar, editar o eliminar.
 4. **Staff** – Gestión del personal; roles, turnos y contacto.
@@ -3526,13 +3606,12 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
 
 **Happy Paths:**
-![happypathadmi.png](assets/Chapter-04/loginAdmin.png)
-
-![happypathadmi.png](assets/Chapter-04/homeAdmin.png)
+![happypathadmi.png](assets/happypathadmi.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/dc345c68-b9ba-4b68-ba59-d33a107cd547/edit?viewport_loc=-2020%2C-505%2C6554%2C2712%2C0_0&invitationId=inv_f306e465-ed6b-4d99-9d15-d416cfe5ca03)
 
 **Unhappy Paths:**
-![unhappypathadmi.png](assets/Chapter-04/loginAdmin2.png)
-
+![unhappypathadmi.png](assets/unhappypathadmi.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/5b49d2f9-1e2c-495a-bb48-a86af3f68d15/edit?viewport_loc=-805%2C345%2C3936%2C1628%2C0_0&invitationId=inv_3de7ece2-dc86-4690-95d5-4ab9db028e9a)
 
 **Rol 2:** Huésped del hotel
 
@@ -3540,10 +3619,12 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
 
 **Happy Paths:**
-![happypathhuesped.png](assets/Chapter-04/huespedhappy.png)
+![happypathhuesped.png](assets/happypathhuesped.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/7b89dd53-b257-4f78-97e3-1b599d6b85e5/edit?viewport_loc=-1918%2C-477%2C5700%2C2358%2C0_0&invitationId=inv_9502d876-be63-41c8-acb4-1d8e2ca1de0d)
 
 **Unhappy Paths:**
-![unhappypathhuesped.png](assets/Chapter-04/huespedunhappy.png)
+![unhappypathhuesped.png](assets/unhappypathhuesped.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/18fbfec8-9c89-4794-8f4b-a9242e4db649/edit?viewport_loc=-930%2C-4%2C3511%2C1453%2C0_0&invitationId=inv_bbc495e4-6bb4-418f-a0ac-65c431096cd6)
 
 
 **Rol 3:** Personal del hotel (staff)
@@ -3552,17 +3633,12 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 **Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
 
 **Happy Paths:**
-![taskhapylogin.png](assets/Chapter-04/loginStaf.png)
-
-
-![taskhappy.png](assets/Chapter-04/homeStaf.png)
-
+![happypathstaff.png](assets/happypathstaff.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
 
 **Unhappy Paths:**
-![lognohappy.png](assets/Chapter-04/loginStaf2.png)
-
-![taskviewhome.png](assets/Chapter-04/homeStaf2.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/451a14e9-2d76-476c-8bd9-d26804387cdf/edit?viewport_loc=-908%2C-652%2C18743%2C9986%2C0_0&invitationId=inv_d50dd7bc-2d9b-4aaa-8537-5cc8b57655ab)
+![unhappypathstaff.png](assets/unhappypathstaff.png)
+**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/543c4cad-5bce-40bc-bc29-8a1f2a604a63/edit?viewport_loc=-2062%2C-511%2C5080%2C2102%2C0_0&invitationId=inv_8e3a4604-fe5c-4655-addc-5f16e8fb91d4)
 
 ## 4.5. Web Applications Prototyping
 
@@ -3621,21 +3697,16 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 
 
 ### 4.6.2. Software Architecture Context Diagram
-**System Context**
-![SystemContext.png](assets/Chapter-04/SystemContext.png)
 
+![SystemContext.jpg](assets/Chapter-04/SystemContext.jpg)
 
 ### 4.6.3. Software Architecture Container Diagrams
-**Containers**
-![Containers.png](assets/Chapter-04/Containers.png)
+
+![Containers.jpg](assets/Chapter-04/Containers.jpg)
+
 ### 4.6.4. Software Architecture Components Diagrams
 
-**Api Components**
-![Apicomponents.png](assets/Chapter-04/Apicomponents.png)
-
-
-**IoT Gateway Components**
-![IotGatewayComponets.png](assets/Chapter-04/IotGatewayComponets.png)
+![Apicomponents.jpg](assets/Chapter-04/Apicomponents.jpg)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -3689,6 +3760,8 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ### 4.8.1. Database Diagrams
 
 ![Edgerunners-Aplicaciones-Web_Physical_Export.png](assets/Chapter-04/Edgerunners-Aplicaciones-Web_Physical_Export.png)
+
+---
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -4000,21 +4073,21 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 | **Sprint n – 1 Review Summary**        | Este es el primer sprint del proyecto, por lo tanto, no existe una revisión de sprint anterior.                                                                                                                                                               |
 | **Sprint n – 1 Retrospective Summary** | Al ser la primera iteración, no se registran retrospectivas previas. No obstante, se acordó la importancia de establecer lineamientos claros de trabajo colaborativo, mantener una comunicación efectiva y un uso disciplinado de las herramientas definidas. |
 | **Sprint Goal & User Stories**         | —                                                                                                                                                                                                                                                             |
-| **Sprint n Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                  |
-| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                             |
+| **Sprint 1 Goal**                      | Publicar una **Landing Page funcional** para SmartStay, con diseño responsive, estructura clara y accesible desde GitHub Pages, sirviendo como punto inicial de la solución.                                                                                  |
+| **Sprint 1 Velocity**                  | 2                                                                                                                                                                                                                                                             |
 | **Sum of Story Points**                | 2                                                                                                                                                                                                                                                             |
 
 
 
 ## 5.2.1.2. Deployment Evidence for Sprint Review
 
-| **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
-|-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
-| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318)         | L                                                  | C                                                                         | C                                                     | C                                   |
-| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)           | C                                                  | L                                                                         | C                                                     | C                                   |
-| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C                                                  | C                                                                         | L                                                     | C                                   |
-| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)               | C                                                  | C                                                                         | C                                                     | L                                   |
-| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)           | C                                                  | C                                                                         | C                                                     | L                                   |
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                  | **Estructura base del proyecto (HTML/CSS)** | **Diseño visual y maquetación web (Landing Page)** | **Integración de componentes visuales** | **Revisión y control de versiones** |
+|-----------------------------------------|------------------------------------------------------|---------------------------------------------|----------------------------------------------------|-----------------------------------------|-------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L                                           | C                                                  | C                                       | C                                   |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)   | C                                           | L                                                  | C                                       | C                                   |
+| **Fernandez Garfias, Alexander Piero**  | [@shiloox](https://github.com/shiloox)               | C                                           | C                                                  | L                                       | C                                   |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)       | C                                           | C                                                  | C                                       | L                                   |
+| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)   | C                                           | C                                                  | C                                       | L                                   |
 
 ---
 
@@ -4033,17 +4106,17 @@ Este Sprint permitió entregar la **Landing Page inicial de Smart Stay**, propor
 ### Sprint #1 – Sprint Backlog
 
 
-| **Sprint #** | **User Story**                           | **Work-Item/Task** | **Id**                                     | **Title**                                                                                                    | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|------------------------------------------|--------------------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------|------------------------|-----------------|------------|
-| Sprint 1     | US-24 – Segmented landing page           | UT-01              | Diseñar estructura visual                  | Crear la estructura general de la Landing Page con secciones diferenciadas para administradores y huéspedes. | 6               | Alexander              | Done            |
-| Sprint 1     | US-24 – Segmented landing page           | UT-02              | Maquetar Landing Page                      | Implementar el diseño HTML y CSS del prototipo base.                                                         | 5               | Italo                  | In Process      |
-| Sprint 1     | US-24 – Segmented landing page           | UT-03              | Navegación y enlaces internos              | Configurar navegación entre secciones con enlaces y smooth scroll.                                           | 3               | Jose                   | Done            |
-| Sprint 1     | US-26 – Success stories and testimonials | UT-04              | Crear sección de testimonios               | Diseñar carrusel con testimonios de usuarios y animaciones simples.                                          | 4               | Aldair                 | To Review       |
-| Sprint 1     | US-27 – Demo request and contact         | UT-05              | Formulario de contacto                     | Implementar formulario con validación y diseño responsive.                                                   | 4               | Natalia                | Done            |
-| Sprint 1     | US-28 – Corporate information            | UT-06              | Redactar misión, visión y valores          | Escribir texto institucional coherente con la marca Smart Stay.                                              | 3               | Natalia                | Done            |
-| Sprint 1     | US-28 – Corporate information            | UT-07              | Implementar sección “About Us”             | Maquetar la sección con texto e imagen representativa.                                                       | 4               | Alexander              | To Do           |
-| Sprint 1     | US-24 – Segmented landing page           | UT-08              | Añadir botones CTA (Login, Registro, Demo) | Colocar botones visibles con enlaces a las rutas de autenticación.                                           | 3               | Jose                   | Done            |
-| Sprint 1     | US-26 – Success stories and testimonials | UT-09              | Ajustar animaciones y transiciones         | Aplicar efectos de entrada y desplazamiento fluido en los testimonios.                                       | 4               | Aldair                 | In Process      |
+| **Sprint #** | **User Story Id ** | **User Story Title**             | **Task Id** | **Task Title**                              | **Description**                                                                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|--------------------|----------------------------------|-------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------|-----------------|------------|
+| Sprint 1     | US-24              | Segmented landing page           | UT-01       | Design visual structure                     | Create the general structure of the Landing Page with differentiated sections for administrators and guests. | 6                      | Alexander       | Done       |
+| Sprint 1     | US-24              | Segmented landing page           | UT-02       | Layout Landing Page                         | Implement the HTML and CSS design of the base prototype.                                                     | 5                      | Italo           | In Process |
+| Sprint 1     | US-24              | Segmented landing page           | UT-03       | Navigation and internal links               | Configure navigation between sections with links and smooth scrolling.                                       | 3                      | Jose            | Done       |
+| Sprint 1     | US-26              | Success stories and testimonials | UT-04       | Create testimonials section                 | Design carousel with user testimonials and simple animations.                                                | 4                      | Aldair          | To Review  |
+| Sprint 1     | US-27              | Demo request and contact         | UT-05       | Contact form                                | Implement form with validation and responsive design.                                                        | 4                      | Natalia         | Done       |
+| Sprint 1     | US-28              | Corporate information            | UT-06       | Write mission, vision and values            | Write institutional text consistent with the Smart Stay brand.                                               | 3                      | Natalia         | Done       |
+| Sprint 1     | US-28              | Corporate information            | UT-07       | Implement “About Us” section                | Layout the section with text and representative image.                                                       | 4                      | Alexander       | To Do      |
+| Sprint 1     | US-24              | Segmented landing page           | UT-08       | Add CTA buttons (Login, Registration, Demo) | Place visible buttons with links to authentication routes.                                                   | 3                      | Jose            | Done       |
+| Sprint 1     | US-26              | Success stories and testimonials | UT-09       | Adjust animations and transitions           | Apply drop-in and fluid scrolling effects on testimonials.                                                   | 4                      | Aldair          | In Process |
 
 
 ## 5.2.1.4. Development Evidence for Sprint Review
@@ -4066,25 +4139,7 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 ![commitslanding](assets/commitslanding.png)
 
-## 5.2.1.5. Deployment Evidence for Sprint Review
-
-Durante este Sprint se realizó el despliegue inicial de la **Landing Page** del proyecto.
-
-- **Repositorio en GitHub**: se creó y configuró el repositorio oficial  [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).
-- **GitHub Pages**: se habilitó como servicio de despliegue gratuito, configurando la rama `main` como fuente de publicación.
-- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.
-
-### Evidencia
-
-- **Repositorio en GitHub**  
-  ![Repositorio](assets/repository.png)
-
-
-- **Landing Page publicada**  
-  ![landing_page](assets/encabezado_hero.png)
-
-
-### 5.2.1.6. Execution Evidence for Sprint Review.
+### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.
 
@@ -4097,36 +4152,51 @@ La ejecución se centró en:
 ### Evidencia visual
 A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
 
-- Vista principal de la landing page:  
-  ![home.png](assets/home.png)
+- Esta es la sección inicial, donde está el header.
 
-- Barra de navegación y sección principal (*Hero*):  
-  ![navbar](assets/navbar.png)
+  ![Landing1](assets/landing1.jpeg)
+
+- Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+
+  ![Landing2](assets/landing2.jpeg)
+
+- Esta sección describe las soluciones de acorde al tipo de propiedad.
+
+  ![Landing3](assets/landing3.jpeg)
+
+-Tenemos en esta sección acerca de precios por el servicio.
+
+  ![Landing4](assets/landing4.jpeg)
+
+-Aquí se puede observar la sección de reseñas.
+
+  ![Landing5](assets/landing5.jpeg)
 
 
-### 5.2.1.7. Services Documentation Evidence for Sprint Review
+### 5.2.1.6. Services Documentation Evidence for Sprint Review  
 
 En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.
 
 El trabajo incluyó la definición de la estructura visual básica, la aplicación de colores corporativos y la integración de secciones clave como la barra de navegación y la sección principal (*Hero*).
-
+f
 La landing page cumple el rol de **página de presentación inicial** de la plataforma SmartStay, ofreciendo a los usuarios una visión general del proyecto y accesos rápidos al registro o login.
 
 Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.
 
 
-### 5.2.1.8. Software Deployment Evidence for Sprint Review
-
-Durante este Sprint, se realizaron los siguientes procesos de despliegue:
+### 5.2.1.7. Software Deployment Evidence for Sprint Review  
 
 - **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.
-- **GitHub**: Se creó un repositorio específico para la Landing Page, facilitando la colaboración del equipo.
-- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública.
+- **Repositorio en GitHub**: Se creó y configuró el repositorio oficial específico para el landing page, facilitando la colaboración del equipo. [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública, configurando la rama `main` como fuente de publicación. 
+- **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
 
 Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo el equipo y los revisores, permitiendo validar en tiempo real los avances.
 
+![Repositorio](assets/repository.png)  
+ 
 
-### 5.2.1.9. Team Collaboration Insights during Sprint
+### 5.2.1.8. Team Collaboration Insights during Sprint  
 
 Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.
 
@@ -4143,17 +4213,17 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ![commits_team2](assets/commits_team2.png)
 
-
+---
 
 ## 5.2.2 Sprint 2
 
----
+A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplicación web, trabajando con una estructura basada en Domain-Driven Design (DDD). Nos organizamos utilizando bounded contexts clave que permiten una mejor gestión y uso eficiente de las herramientas de diseño de productos.
 
 
 ## 5.2.2.1 Sprint Planning 2
 
 
-| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**         | Reunión inicial de planificación del proyecto **SmartStay**, orientada a establecer los objetivos del primer sprint y asignar las tareas relacionadas con el diseño, desarrollo y despliegue de la Landing Page.                                                                                                                                                                                                                                                                                                                                                                           |
 | **Date**                               | 2025-10-01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -4161,11 +4231,11 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 | **Location**                           | Modalidad remota mediante **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Prepared By**                        | Equipo **SmartStay**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Attendees (to planning meeting)**    | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Sprint n – 1 Review Summary**        | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint.                                                                                                                                                                                                                                                                                                                  |
-| **Sprint n – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto.                                                                                                                                                                                |
+| **Sprint 2 – 1 Review Summary**        | Durante el primer Sprint desarrollamos la estructura base de **Smart Stay** y logramos poner en marcha una versión funcional inicial. El progreso fue positivo, aunque se detectó un problema con la configuración del idioma, que será corregido en el siguiente Sprint.                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 2 – 1 Retrospective Summary** | Durante el primer Sprint trabajamos de manera colaborativa en el desarrollo de **Smart Stay** y completamos la mayoría de las tareas planificadas con éxito. Sin embargo, surgieron algunos errores técnicos durante la integración. Identificamos como oportunidades de mejora la necesidad de una validación más rigurosa antes del despliegue y una mejor coordinación en la documentación del proyecto.                                                                                                                                                                                |
 | **Sprint Goal & User Stories**         | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Sprint n Goal**                      | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
-| **Sprint n Velocity**                  | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 2 Goal**                      | Nuestro objetivo es entregar una versión completamente funcional y visualmente mejorada de **Smart Stay** como una aplicación web de una sola página (SPA). Incluiremos la optimización de la experiencia en la landing page para ofrecer una navegación más clara y atractiva. Esperamos que estos avances mejoren la usabilidad y la percepción de los usuarios que están explorando nuestra plataforma. El cumplimiento se confirmará cuando la landing page refleje los nuevos ajustes de diseño, la navegación sea fluida y la aplicación esté desplegada de forma pública y estable. |
+| **Sprint 2 Velocity**                  | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Sum of Story Points**                | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 
@@ -4173,16 +4243,16 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ## 5.2.2.2. Aspect Leaders and Collaborators
 
-Durante este primer Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
 Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Landing Page)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
-|-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
-| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318)         | L                                                  | C                                                                         | C                                                     | C                                   |
-| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)           | C                                                  | L                                                                         | C                                                     | C                                   |
-| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C                                                  | C                                                                         | L                                                     | C                                   |
-| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)               | C                                                  | C                                                                         | C                                                     | L                                   |
-| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)           | C                                                  | C                                                                         | C                                                     | L                                   |
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318)         | L                                                        | C                                                                         | C                                                     | C                                   |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)           | C                                                        | L                                                                         | C                                                     | C                                   |
+| **Fernandez Garfias, Alexander Piero**  | [@FernandezAlexander](https://github.com/FernandezAlexander) | C                                                        | C                                                                         | L                                                     | C                                   |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)               | C                                                        | C                                                                         | C                                                     | L                                   |
+| **Ramos Aguirre, Aldair Joaquin**       | [@AldairRamos13](https://github.com/AldairRamos13)           | C                                                        | C                                                                         | C                                                     | L                                   |
 
 ---
 
@@ -4191,74 +4261,135 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ![sprint_trello](assets/trello2.jpg)
 
-| **Sprint #** | **User Story**                           | **Work-Item/Task** | **Id**                             | **Title**                                                              | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|------------------------------------------|--------------------|------------------------------------|------------------------------------------------------------------------|-----------------|------------------------|-----------------|------------|
-| Sprint 2     | US-24 – Segmented landing page           | UT-10              | Optimizar diseño visual            | Mejorar la coherencia de colores, tipografía y elementos gráficos.     | 5               | Natalia                | Done            |
-| Sprint 2     | US-24 – Segmented landing page           | UT-11              | Optimizar SEO y rendimiento        | Implementar buenas prácticas de SEO y reducir tiempos de carga.        | 6               | Italo                  | In Process      |
-| Sprint 2     | US-25 – ROI simulator for hotels         | UT-12              | Diseñar interfaz del simulador ROI | Crear mockup y estructura del simulador con campos interactivos.       | 6               | Alexander              | To Do           |
-| Sprint 2     | US-25 – ROI simulator for hotels         | UT-13              | Implementar lógica de cálculo      | Programar la función que calcula el ROI dinámicamente.                 | 7               | Jose                   | In Process      |
-| Sprint 2     | US-27 – Demo request and contact         | UT-14              | Integrar formulario con backend    | Conectar formulario de contacto con API simulada de registro de leads. | 5               | Aldair                 | To Review       |
-| Sprint 2     | US-24 – Segmented landing page           | UT-15              | Implementar sistema multilenguaje  | Agregar soporte para inglés/español y detección automática.            | 6               | Italo                  | In Process      |
-| Sprint 2     | US-24 – Segmented landing page           | UT-16              | Pruebas de responsividad           | Realizar pruebas en diferentes navegadores y dispositivos.             | 5               | Natalia                | Done            |
-| Sprint 2     | US-26 – Success stories and testimonials | UT-17              | Agregar métricas en testimonios    | Mostrar porcentajes de mejora o impacto en casos de éxito.             | 4               | Jose                   | To Do           |
-| Sprint 2     | US-28 – Corporate information            | UT-18              | Sección de equipo y liderazgo      | Agregar datos e imágenes de los integrantes principales.               | 4               | Aldair                 | To Review       |
-| Sprint 2     | US-24 – Segmented landing page           | UT-19              | Desplegar nueva versión pública    | Publicar versión optimizada y completamente funcional del sitio.       | 3               | Italo                  | Done            |
+| **Sprint #** | **User Story Id** | **User Story Title**             | **Task Id** | **Task Title**                 | **Description**                                               | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|-------------------|----------------------------------|-------------|--------------------------------|---------------------------------------------------------------|------------------------|-----------------|------------|
+| Sprint 2     | US-24             | Segmented landing page           | UT-10       | Optimize visual design         | Improve color coherence, typography, and graphic elements.    | 5                      | Natalia         | Done       |
+| Sprint 2     | US-24             | Segmented landing page           | UT-11       | Optimize SEO and performance   | Implement SEO best practices and reduce load times.           | 6                      | Italo           | In Process |
+| Sprint 2     | US-25             | ROI simulator for hotels         | UT-12       | Design ROI simulator interface | Create mockup and structure for interactive simulator fields. | 6                      | Alexander       | To Do      |
+| Sprint 2     | US-25             | ROI simulator for hotels         | UT-13       | Implement calculation logic    | Program function to dynamically calculate ROI.                | 7                      | Jose            | In Process |
+| Sprint 2     | US-27             | Demo request and contact         | UT-14       | Integrate form with backend    | Connect contact form with simulated lead registration API.    | 5                      | Aldair          | To Review  |
+| Sprint 2     | US-24             | Segmented landing page           | UT-15       | Implement multilingual system  | Add support for English/Spanish and automatic detection.      | 6                      | Italo           | In Process |
+| Sprint 2     | US-24             | Segmented landing page           | UT-16       | Responsiveness testing         | Conduct tests across different browsers and devices.          | 5                      | Natalia         | Done       |
+| Sprint 2     | US-26             | Success stories and testimonials | UT-17       | Add metrics to testimonials    | Show improvement percentages or impact in success stories.    | 4                      | Jose            | To Do      |
+| Sprint 2     | US-28             | Corporate information            | UT-18       | Team and leadership section    | Add data and images of key team members.                      | 4                      | Aldair          | To Review  |
+| Sprint 2     | US-24             | Segmented landing page           | UT-19       | Deploy new public version      | Publish optimized and fully functional site version.          | 3                      | Italo           | Done       |
 
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review
 
-En este segundo Sprint hemos realizado la implementación de nuestra Single Page Aplication. En la siguiente tabla se muestran los commits realizados.
+En este segundo Sprint hemos realizado la implementación de nuestra Single Page Application. En la siguiente tabla se muestran los commits realizados.
+
+### Commits realizados
+
+(FALTA TABLA DE COMMITS)
+
+**Evidencia de los commits del FrontEnd**
+(FALTA FOTO DE COMMITS DE FRONTEND)
 
 ---
+
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
-landing Page
+Aquí veremos la versión de la aplicación web. Esto fue realizado mediante WebStorm y su complemento de git, con esto cada integrante pudo realizar cambios y versiones en sus ramas para luego mandarlas a la rama principal y no tener ningún inconveniente. A continuación se mostrarán las evidencias de ejecución.
 
-Esta es la sección inicial, donde está el header.
+Primero en esta vista podemos ver el Login de la app, con su respectivo formulario donde se coloca el email, contraseña y rol. También un vínculo para redirigir a register, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-![Landing1](assets/landing1.jpeg)
+![LoginApp](assets/LoginApp.png)
 
-Aquí se puede observar la sección donde se presenta a los productos que ofrecemos.
+En esta sección se puede ver la vista de register, con su repectivo formulario para crear una cuenta y en el rol que desees. También tiene un vínculo para redirigir a login, que también lo puedes ver en un botón junto con los botones de lenguaje inglés y español.
 
-![Landing2](assets/landing2.jpeg)
+![RegisterApp](assets/RegisterApp.png)
 
-Esta sección describe las soluciones de acorde al tipo de propiedad.
-![Landing3](assets/landing3.jpeg)
+- VISTA COMO ADMINISTRADOR (ADMINISTRATOR)
 
-Tenemos en esta sección acerca de precios por el servicio.
+En esta sección se puede ver el dashboard de administrador de la persona. Puede apreciar datos como Rooms Found, Registered Staff, Bookings(Today) y Occupance Rate. También tienes el menú con sus dos funciones principales que te redirigen a una vista diferente Manage Staff y Manage Rooms.
 
-![Landing4](assets/landing4.jpeg)
+![AdminDashboard](assets/AdminDashboard.png)
 
-Aquí se puede observar la sección de reseñas.
+Aquí vemos la vista de Manage Staff. Puedes editar y eliminar la información de cada personal que se haya registrado. También puedes agregar un nuevo personal.
 
-![Landing5](assets/landing5.jpeg)
+![ManageStaff](assets/ManageStaff.png)
 
+Aquí vemos la vista de Manage Rooms. Puedes editar y eliminar la información de cada habitación de un respectivo hotel que se haya registrado. También puedes agregar una nueva habitación.
 
-Frontend
-
-En esta sección se puede ver las habitaciones disponibles.
-
-![Front1](assets/front1.jpeg)
+![ManageRoom](assets/ManageRoom.png)
+![ManageRoomEdit](assets/ManageRoomEdit.png)
 
 
-En esta sección se puede ver las habitaciones disponibles desde el punto de vista de un administrador.
+También en el dashboard de admin puedes acceder a ver tu perfil.
 
-![Front2](assets/front2.jpeg)
+![AdminProfile](assets/AdminProfile.png)
 
-En esta sección se puede ver el panel del administrador.
+- VISTA COMO HUÉSPED (GUEST)
 
-![Front3](assets/front3.jpeg)
+En esta sección se puede ver el dashboard de huésped de la persona. Puede apreciar datos como Upcoming Bookings, Active Services, Recommendation donde puedes dejar tus reseñas y Recent Properties. También tienes el menú con sus tres funciones principales que te redirigen a una vista diferente View Properties, Manage Bookings y View Rooms.
 
-En esta sección se puede ver el panel del administrador se puede ver un dashboard con las habitaciones.
+![GuestDashboard](assets/GuestDashboard.png)
 
-![Front4](assets/fron4.jpeg)
+Aquí vemos la vista de View Properties. Puedes buscar información de los hoteles, tienes el buscador para buscar para palabra clave y haces click en Ver Hotel y lo ves más a detalle.
+
+![ViewProperties](assets/ViewProperties.png)
+![ViewPropertiesExample](assets/ViewPropertiesExample.png)
+
+Si presionas reservar te lleva a una vista donde seleccionas las fechas y reservas.
+![ViewPropertiesExampleBook](assets/ViewPropertiesExampleBook.png)
+
+Aquí vemos la vista de View Rooms y puedes usar filtros por hotel, tipo y precio.
+
+![ViewRooms](assets/ViewRooms.png)
+
+Y aquí donde dejamos las reseñas.
+![Review](assets/Review.png)
+
+- VISTA COMO STAFF
+  
+En esta sección se puede ver el dashboard de staff de la persona. Puede apreciar datos como Performance Statistics, Pending Tasks, Assigned Rooms y Quick Actions para reportar problemas o pedir requerimientos. También tienes el menú lateral con Manage Tasks, Assigned Rooms de nuevo y Profile.
+
+![StaffDashboard](assets/StaffDashboard.png)
+
+Aquí vemos la vista de Manage Tasks donde puedes editar, eliminar y agregar un nuevo task. Los ves por filtros de estados.
+
+![ManageTasks](assets/ManageTasks.png)
+
+Aquí vemos la vista de Assigned Rooms. Puedes buscar los cuartos asignados y marcas sus estados si está ocupada, en mantenimiento, entre otras. Puedes ver la cantidad de cuartos por tipo de estado y tarea.
+
+![AssignedRooms](assets/AssignedRooms.png)
+
+Y aquí verás el perfil del staff.
+![StaffProfile](assets/StaffProfile.png)
 
 
 ---
-## 5.2.2.6. Execution Evidence for Sprint Review
+## 5.2.2.6. Service Documentation Evidence for Sprint Review. 
 
-No se emplearon servicios adicionales, ya que este segundo sprint se centró exclusivamente en la implementación de la primera versión del web application.
+En este Sprint aún no se desarrolla el backend real de SmartStay; sin embargo, para avanzar con la funcionalidad del sistema, se implementaron rutas de frontend completamente operativas y conectadas a una API simulada (mock data).
+Estas rutas representan las vistas principales del sistema para los perfiles Admin, Guest y Staff, y permitieron validar los flujos clave con datos falsos.
+
+La documentación siguiente recoge las “acciones simuladas” disponibles en el sistema, incluyendo navegación, carga de datos de ejemplo, formularios y operaciones emuladas. Esto sirve como base para la posterior implementación de Web Services reales.
+
+| Endpoint / Ruta                 | Acción Implementada (Simulada) | Método HTTP Simulado  | Sintaxis / Llamada                | Parámetros                  | Ejemplo de Response (Mock)                 | URL                                                     |
+|---------------------------------|--------------------------------|-----------------------|-----------------------------------|-----------------------------|--------------------------------------------|---------------------------------------------------------|
+| /login                          | Inicio de sesión del usuario   | POST (simulado)       | /login                            | Body: email, password       | { "status":"success","role":"admin" }      | https://smartstay-3cffc.web.app/login                   |
+| /register                       | Registrar nuevo usuario        | POST (simulado)       | /register                         | Body: name, email, password | { "id": 4, "name": "Ana" }                 | https://smartstay-3cffc.web.app/register                |
+| /admin/dashboard                | Mostrar dashboard admin        | GET                   | /admin/dashboard                  | —                           | { "welcome":"Admin Panel" }                | https://smartstay-3cffc.web.app/admin/dashboard         |
+| /admin/auth/users               | Ver lista de staff             | GET                   | /admin/auth/users                 | Query: ?role=staff          | [ { "id":1,"name":"Juan"} ]                | https://smartstay-3cffc.web.app/admin/auth/users        |
+| /admin/auth/users/edit/:id      | Editar usuario staff           | PUT (simulado)        | /admin/auth/users/edit/{id}       | Path: id                    | { "message":"User updated" }               | https://smartstay-3cffc.web.app/admin/auth/users/edit/2 |
+| /admin/auth/users/add           | Crear usuario del staff        | POST (simulado)       | /admin/auth/users/add             | Body: name, role            | { "id":6, "name":"Sofía" }                 | https://smartstay-3cffc.web.app/admin/auth/users/add    |
+| /admin/property/rooms           | Ver habitaciones               | GET                   | /admin/property/rooms             | Query: ?status=available    | [{"id":10, "type":"Doble"}]                | https://smartstay-3cffc.web.app/admin/property/rooms    |
+| /admin/profile                  | Ver perfil admin               | GET                   | /admin/profile                    | —                           | { "id":1,"name":"Admin" }                  | https://smartstay-3cffc.web.app/admin/profile           |
+| /guest/dashboard                | Dashboard huésped              | GET                   | /guest/dashboard                  | —                           | { "welcome":"Guest Dashboard" }            | https://smartstay-3cffc.web.app/guest/dashboard         |
+| /guest/properties               | Ver propiedades                | GET                   | /guest/properties                 | Query: ?city=Lima           | [{"id":101,"name":"SmartStay Miraflores"}] | https://smartstay-3cffc.web.app/guest/properties        |
+| /guest/property/:id             | Ver detalle de propiedad       | GET                   | /guest/property/{id}              | Path: id                    | { "id":101,"rooms":32 }                    | https://smartstay-3cffc.web.app/guest/property/101      |
+| /guest/book/:propertyId/:roomId | Iniciar reserva simulada       | POST (simulado)       | /guest/book/{propertyId}/{roomId} | Path: propertyId, roomId    | { "bookingId":201,"status":"confirmed" }   | https://smartstay-3cffc.web.app/guest/book/101/201      |
+| /guest/bookings                 | Ver reservas del huésped       | GET                   | /guest/bookings                   | Query: ?status=completed    | [{"id":201,"status":"confirmed"}]          | https://smartstay-3cffc.web.app/guest/bookings          |
+| /guest/rooms                    | Ver lista de habitaciones      | GET                   | /guest/rooms                      | Query: ?capacity=2          | [{"id":31,"capacity":2}]                   | https://smartstay-3cffc.web.app/guest/rooms             |
+| /staff/dashboard                | Dashboard del staff            | GET                   | /staff/dashboard                  | —                           | { "welcome":"Staff Dashboard" }            | https://smartstay-3cffc.web.app/staff/dashboard         |
+| /staff/property/tasks           | Ver/gestionar tareas           | GET / POST (simulado) | /staff/property/tasks             | Body (POST): task, roomId   | [{"task":"Clean Room 12"}]                 | https://smartstay-3cffc.web.app/staff/property/tasks    |
+| /staff/property/cleaning        | Ver habitaciones asignadas     | GET                   | /staff/property/cleaning          | —                           | [{"roomId":23,"status":"pending"}]         | https://smartstay-3cffc.web.app/staff/property/cleaning |
+| /staff/profile                  | Ver perfil staff               | GET                   | /staff/profile                    | —                           | { "id":3,"name":"Rosa Staff" }             | https://smartstay-3cffc.web.app/staff/profile           |
+
 ---
+
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint hemos desplegado el frontend.
@@ -4277,34 +4408,735 @@ Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece
 
 Durante este Sprint, el equipo colaboró en la mejora del frontend de Smart Stay, corrigiendo aspectos de diseño, idioma y navegación. Se trabajó mediante GitHub, lo que permitió una buena organización y seguimiento de los aportes de cada integrante. Aunque la colaboración fue efectiva, se presentaron algunas limitaciones por tiempo y experiencia, pero el resultado final mostró una versión más sólida y funcional del producto.
 
+### Acciones de colaboración destacadas
 
-# Conclusiones y Recomendaciones
+- Se utilizó **GitHub** como herramienta principal para coordinar el trabajo, gestionar versiones y mantener un registro claro de los avances.
+- Un integrante del equipo organizó la estructura del repositorio y creó las ramas necesarias para trabajar ordenadamente en las mejoras del frontend.
+- Cada miembro realizó **commits documentados**, describiendo los ajustes en diseño, idioma y navegación.
+- Se llevaron a cabo **pull requests** para integrar los cambios en la rama principal, asegurando un flujo de trabajo controlado.
+- Se realizaron **revisiones de código** en equipo para verificar la coherencia visual, la correcta implementación de las mejoras y la corrección de los errores señalados en la revisión anterior.
+- A pesar de las limitaciones de tiempo y experiencia, la comunicación constante permitió resolver obstáculos y mantener un progreso estable.
 
-- El desarrollo del proyecto SMART STAY, permitió aplicar de manera integral los conocimientos adquiridos para el landing page y aplicación web en el curso de Desarrollo de Aplicaciones web.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos en el código y asegurando un resultado consistente.
 
-- A través de la identificación de problemas relacionados con LA GESTIÓN HOTELERA POR PARTE DE LOS DISTINTOS USUARIOS, se diseñó una solución INTELIGENTE basada en SERVICIOS DE ADMINISTRACIÓN DE RESERVAS Y PRODUCTOS TECNOLÓGICOS QUE SE IMPLEMENTAN EN HOTELES Y RESORTS PARA FACILITAR LA GESTIÓN Y USO DE HERRAMIENTAS POR PARTE DEL USUARIO FINAL MEJORANDO SU EXPERIENCIA DE USUARIO .
+![comits](assets/comits3.jpeg)
 
-- Durante el proceso se implementaron metodologías ágiles que AYUDARON EN la priorización de tareas.
+![comits](assets/comits4.jpeg)
 
-- La colaboración mediante GitHub, las revisiones cruzadas de código y la comunicación constante aseguran la ENTREGA DE UN BUEN producto. Se generó documentación técnica y de servicios que facilitará la continuidad del proyecto en futuros ciclos de desarrollo.
+---
+## 5.2.3. Sprint 3
 
-- SMART STAY representa un avance hacia soluciones innovadoras para el sector HOTELERO.
+En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creación del backend con sus respectivas tareas. Aquí también trabajamos con los mismos bounded contexts y estructura planteada en el anterior sprint, pero con el fin de crear su respectivo API RESTful.
 
 
-- MEJORAR MANEJO DEL TIEMPO PORQUE DEBIDO A LAS FALLAS DEL PRIMER AVANCE ABARCÓ MUCHO TIEMPO LA CORRECCIÓN DE ESTAS, DIFICULTANDO UN AVANCE MÁS PROLIJO Y UNA ENTREGA MÁS PUDIENTE DEL PROYECTO.
+## 5.2.3.1. Spring Planning 3.
 
-- SI BIEN SE CORRIGIÓ LOS ERRORES COMETIDOS EN EL ANTERIOR AVANCE, SE DEBE CONTAR CON SEGUNDAS OPCIONES, RESPUESTAS O SOLUCIONES ANTE POSIBLES INCIDENTES E INCONVENIENTES QUE SE PRESENTAN POR PARTE DE ALGÚN INTEGRANTE PARA SABER CÓMO MANEJARLO Y NO ESTAR A LA ESPERA DE UNA RESPUESTA TARDÍA.
+| **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         | Reunión de planificación correspondiente al Sprint 3 del proyecto SmartStay, centrada en el desarrollo e implementación del Backend. En esta etapa se construirá la API RESTful que permitirá la comunicación entre el frontend y la base de datos. Además, se acordó mejorar la calidad de las User Stories y Technical Stories del proyecto, corrigiendo referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST con endpoints específicos y códigos HTTP.                                                                                                                                                                                                                                                                                                                       |
+| **Date**                               | 2025-10-22                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                               | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota mediante **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Prepared By**                        | Equipo **SmartStay**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Verona Flores, Italo Sebastián / Valverde Portuguez, Natalia Ximena / Fernandez Garfias, Alexander Piero / Saavedra Angulo, Jose Jhonatan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint 3 – 2 Review Summary**        | En el Sprint 2, logramos culminar el desarrollo del frontend de SmartStay, incluyendo la implementación de la interfaz principal, la navegación y la optimización visual. El resultado fue funcional, aunque se identificaron pequeñas incidencias con la estructura de los bounded contexts, el diseño de interfaz y el rendimiento que deberán ser ajustadas más adelante.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint 3 – 2 Retrospective Summary** | Durante el Sprint 2, el equipo trabajó de forma colaborativa y cumplió con los objetivos propuestos. Sin embargo, se evidenció la necesidad de una mejor coordinación en la gestión de versiones y documentación del código. Se acordó reforzar el control de tiempo en las tareas dadas a los integrantes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sprint Goal & User Stories**         | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 3 Goal**                      | **Nuestro enfoque está en** implementar los bounded contexts core del negocio (Accommodations, Bookings y Payments) a través de una API RESTful, mejorando la calidad de las User Stories y Technical Stories del proyecto, y proporcionando documentación interactiva de la API. **Creemos que esto proporciona** funcionalidad backend robusta y escalable a los desarrolladores frontend, mejor especificación de requisitos a los stakeholders, y una base sólida para la integración de servicios a los administradores de hoteles. **Esto se confirmará cuando** los desarrolladores frontend puedan consumir los endpoints de Accommodations, Bookings y Payments a través de la API desplegada, las User Stories y Technical Stories cumplan con los estándares de calidad establecidos  y la documentación Swagger  para pruebas de integración. |
+| **Sprint 3 Velocity**                  | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**                | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-- SEGUIR PRACTICANDO CON MÁS FRECUENCIA LA RESOLUCIÓN DE PROYECTOS Y AVERIGUAR NUEVAS HERRAMIENTAS U EXTENSIONES QUE FACILITEN EN EL DESARROLLO DEL CÓDIGO PARA NO ENTREGAR ALGO BÁSICO, SINO CADA VEZ MEJORAR MÁS EN LA CALIDAD DE ENTREGA DEL PRODUCTO FINAL.
+---
 
-# Bibliografía y Referencias
+## 5.2.3.2. Aspect Leaders and Collaborators.
 
-Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience (Cap. 3). O’Reilly Media.
+Durante este tercer Sprint, el equipo se enfocó en el desarrollo e implementación del Backend , creando la estructura base de la API RESTful y los bounded contexts correspondientes. Se configuró la conexión a la base de datos, se implementó la autenticación y se estableció la comunicación entre servicios siguiendo los principios de arquitectura por bounded contexts.
+Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y Colaboración (LACX), donde se definen los roles de Líder (L) y Colaborador (C) según los principales aspectos del Sprint.
 
-Cohn, M. (s.f.). User Stories Articles. Mountain Goat Software Blog. Recuperado de https://www.mountaingoatsoftware.com/blog
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                  | **Implementación de la API RESTful (Endpoints principales)** | **Integración de bounded contexts** | **Configuración y conexión con la Base de Datos** | **Gestión de autenticación y seguridad** |
+|-----------------------------------------|------------------------------------------------------|--------------------------------------------------------------|-------------------------------------|---------------------------------------------------|------------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L                                                            | C                                   | C                                                 | C                                        |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)   | C                                                            | L                                   | C                                                 | C                                        |
+| **Fernandez Garfias, Alexander Piero**  | [@shiloox](https://github.com/shiloox)               | C                                                            | C                                   | L                                                 | C                                        |
+| **Saavedra Angulo, Jose Jhonatan**      | [@ElrichMasNa](https://github.com/ElrichMasNa)       | C                                                            | C                                   | C                                                 | L                                        |
 
-Fowler, M. (s.f.). Domain-Driven Architecture Diagrams. Recuperado de https://martinfowler.com
+---
 
-Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+## 5.2.3.3. Sprint Backlog 3.
 
-Cagan, M. (2011). Seriously, What’s Your (Startup’s) Problem?.https://svpg.com
+![sprint_trello](assets/SprintBacklog3.png)
+
+| **Sprint #** | **User Story Id ** | **User Story Title**                                 | **Task Id** | **Task Title**                    | **Description**                                                                      | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|--------------------|------------------------------------------------------|-------------|-----------------------------------|--------------------------------------------------------------------------------------|------------------------|-----------------|------------|
+| Sprint 3     | US01               | Registro de huésped                                  | UT-20       | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3                      | Alexander       | Done       |
+| Sprint 3     | US02               | Inicio de sesión seguro                              | UT-21       | Login Implementation              | Develop login endpoint using JWT for authentication and secure sessions.             | 3                      | Italo           | In Process |
+| Sprint 3     | US03               | Recuperación de contraseña                           | UT-24       | Password Reset Service            | Develop a token-based password recovery system with email verification.              | 4                      | Natalia         | Done       |
+| Sprint 3     | US04               | Edición de perfil personal                           | UT-22       | Profile API Creation              | Build endpoints for viewing and updating user profiles.                              | 5                      | Jose            | Done       |
+| Sprint 3     | US04               | Edición de perfil personal                           | UT-23       | Role-Based Access Control         | Implement middleware to manage role permissions (admin, host, guest).                | 5                      | Italo           | Done       |
+| Sprint 3     | TS01               | Registro de usuario a través de la API               | UT-20       | Registration Endpoint Development | Create an endpoint for user registration with field validation and database storage. | 3                      | Alexander       | Done       |
+| Sprint 3     | TS02               | Inicio de sesión a través de la API                  | UT-21       | Login Implementation              | Develop login endpoint using JWT for authentication and secure sessions.             | 3                      | Italo           | In Process |
+| Sprint 3     | TS01               | Registro de usuario a través de la API               | UT-34       | Auth Middleware Setup             | Configure authentication and authorization middleware for all routes.                | 3                      | Natalia         | Done       |
+| Sprint 3     | TS09               | Crear habitación a través de la API                  | UT-25       | Room CRUD Implementation          | Create endpoints to add, update, and delete rooms.                                   | 3                      | Natalia         | Done       |
+| Sprint 3     | TS09               | Crear habitación a través de la API                  | UT-26       | Availability Logic                | Implement room status updates (available, booked, maintenance).                      | 4                      | Alexander       | To Do      |
+| Sprint 3     | TS10               | Obtener habitación por ID a través de la API         | UT-25       | Room CRUD Implementation          | Create endpoints to get room by ID.                                                  | 2                      | Natalia         | Done       |
+| Sprint 3     | TS17               | Obtener todas las habitaciones a través de la API    | UT-25       | Room CRUD Implementation          | Create endpoint to get all rooms.                                                    | 2                      | Natalia         | Done       |
+| Sprint 3     | TS18               | Obtener tipo de habitación por ID a través de la API | UT-25       | Room CRUD Implementation          | Create endpoint to get room type by ID.                                              | 2                      | Natalia         | Done       |
+| Sprint 3     | TS11               | Crear reserva a través de la API                     | UT-27       | Booking CRUD Service              | Implement booking endpoints for creation, update, and cancellation.                  | 3                      | Jose            | Done       |
+| Sprint 3     | TS11               | Crear reserva a través de la API                     | UT-28       | Database Linking                  | Connect booking data to users and rooms with proper relationships.                   | 4                      | Italo           | In Process |
+| Sprint 3     | TS12               | Obtener reserva por ID a través de la API            | UT-27       | Booking CRUD Service              | Implement endpoint to get booking by ID.                                             | 2                      | Jose            | Done       |
+| Sprint 3     | TS13               | Confirmar reserva a través de la API                 | UT-27       | Booking CRUD Service              | Implement endpoint to confirm booking.                                               | 2                      | Jose            | Done       |
+| Sprint 3     | TS19               | Obtener todas las reservas a través de la API        | UT-27       | Booking CRUD Service              | Implement endpoint to get all bookings.                                              | 2                      | Jose            | Done       |
+| Sprint 3     | TS20               | Cancelar reserva a través de la API                  | UT-27       | Booking CRUD Service              | Implement endpoint to cancel booking.                                                | 2                      | Jose            | Done       |
+| Sprint 3     | TS14               | Crear pago a través de la API                        | UT-30       | Payment Gateway Simulation        | Create secure endpoint that simulates real payment processing.                       | 5                      | Italo           | In Process |
+| Sprint 3     | TS14               | Crear pago a través de la API                        | UT-31       | Transaction Logging               | Store payment data and status in database with timestamp.                            | 3                      | Jose            | Done       |
+| Sprint 3     | TS15               | Procesar pago a través de la API                     | UT-30       | Payment Gateway Simulation        | Create endpoint to process payment transactions.                                     | 3                      | Italo           | In Process |
+| Sprint 3     | TS16               | Obtener pagos por reserva a través de la API         | UT-30       | Payment Gateway Simulation        | Create endpoint to get payments by booking ID.                                       | 2                      | Italo           | In Process |
+| Sprint 3     | TS21               | Obtener pago por ID a través de la API               | UT-30       | Payment Gateway Simulation        | Create endpoint to get payment by ID.                                                | 2                      | Italo           | In Process |
+| Sprint 3     | TS22               | Obtener todos los pagos a través de la API           | UT-30       | Payment Gateway Simulation        | Create endpoint to get all payments.                                                 | 2                      | Italo           | In Process |
+| Sprint 3     | TS09               | Crear habitación a través de la API                  | UT-33       | Swagger Integration               | Document all endpoints using Swagger/OpenAPI.                                        | 4                      | Natalia         | Done       |
+| Sprint 3     | TS11               | Crear reserva a través de la API                     | UT-33       | Swagger Integration               | Document all endpoints using Swagger/OpenAPI.                                        | 4                      | Natalia         | Done       |
+| Sprint 3     | TS14               | Crear pago a través de la API                        | UT-33       | Swagger Integration               | Document all endpoints using Swagger/OpenAPI.                                        | 4                      | Natalia         | Done       |
+| Sprint 3     | TS09               | Crear habitación a través de la API                  | UT-35       | Swagger UI Configuration          | Integrate Swagger UI to allow live endpoint testing and auto documentation.          | 4                      | Alexander       | To Do      |
+
+---
+
+## 5.2.3.4. Development Evidence for Sprint Review.
+
+En este tercer sprint nos enfocamos en realizar la implementación del Backend. Además, como parte del trabajo de desarrollo, se mejoraron las User Stories y Technical Stories del proyecto eliminando referencias a elementos de UI y reescribiendo las Technical Stories para que sigan el formato correcto enfocado en la API REST.
+
+### Commits realizados
+
+
+### Backend
+
+![GitHubRepository1](assets/GitHubRepository1.png)
+
+### Report
+
+![GitHubRepository2](assets/GitHubRepository2.png)
+
+### Front-end
+
+![GitHubRepository3](assets/GitHubRepository3.png)
+
+---
+
+## 5.2.3.5. Execution Evidence for Sprint Review
+
+En este **Sprint 3**, el entregable principal fue el **Backend API REST de SmartStay** siguiendo los principios de **Domain-Driven Design (DDD)**.
+
+La ejecución se centró en:
+
+- Implementar una **API REST** siguiendo la arquitectura DDD con separación en bounded contexts.
+- Desarrollar los **bounded contexts core del negocio**: Accommodations , Bookings y Payments.
+- Configurar **Entity Framework Core** para persistencia con base de datos MySQL.
+- Implementar **Swagger/OpenAPI** para documentación interactiva de la API.
+- Priorizar la **lógica de negocio core** necesaria para el funcionamiento principal del sistema.
+
+### Bounded Contexts del Sistema
+
+Nuestro sistema está diseñado con **5 bounded contexts** :
+
+1. **Accommodations** - Gestión de habitaciones y tipos de habitación
+2. **Bookings** - Gestión de reservas
+3. **Payments** - Gestión de pagos
+4. **IAM** - Identity and Access Management 
+5. **Profile** - Gestión de perfiles de usuario 
+
+En este **Sprint 3**, nos enfocamos en implementar los **3 bounded contexts core del negocio** (Accommodations, Bookings y Payments), ya que representan la lógica de negocio fundamental del sistema de gestión hotelera. Los bounded contexts de **IAM** y **Profile** se implementarán en el **Sprint 4**, ya que no representan lógica de negocio core y pueden desarrollarse posteriormente sin afectar el funcionamiento principal del sistema.
+
+### Bounded contexts desarrollados
+
+#### 1. BOUNDED CONTEXT ACCOMMODATIONS
+
+Este bounded context gestiona las habitaciones y tipos de habitación del sistema:
+
+- **RoomsController**: Endpoints para gestionar habitaciones
+  - `GET /api/v1/rooms/{roomId}` - Obtener habitación por ID
+  - `POST /api/v1/rooms` - Crear nueva habitación
+  - `GET /api/v1/rooms` - Obtener todas las habitaciones
+  - `GET /api/v1/rooms/type/{roomTypeId}` - Obtener habitaciones por tipo
+
+- **RoomTypesController**: Endpoints para gestionar tipos de habitación
+  - `GET /api/v1/room-types/{roomTypeId}` - Obtener tipo de habitación por ID
+  - `POST /api/v1/room-types` - Crear nuevo tipo de habitación
+  - `GET /api/v1/room-types` - Obtener todos los tipos de habitación
+
+#### 2. BOUNDED CONTEXT BOOKINGS
+
+Este bounded context gestiona las reservas de habitaciones:
+
+- **BookingsController**: Endpoints para gestionar reservas
+  - `GET /api/v1/bookings/{bookingId}` - Obtener reserva por ID
+  - `POST /api/v1/bookings` - Crear nueva reserva
+  - `GET /api/v1/bookings` - Obtener todas las reservas
+  - `GET /api/v1/bookings/room/{roomId}` - Obtener reservas por habitación
+  - `POST /api/v1/bookings/{bookingId}/confirm` - Confirmar una reserva
+  - `POST /api/v1/bookings/{bookingId}/cancel` - Cancelar una reserva
+
+#### 3. BOUNDED CONTEXT  PAYMENTS
+
+Este bounded context gestiona los pagos asociados a las reservas:
+
+- **PaymentsController**: Endpoints para gestionar pagos
+  - `GET /api/v1/payments/{paymentId}` - Obtener pago por ID
+  - `POST /api/v1/payments` - Crear nuevo pago
+  - `GET /api/v1/payments` - Obtener todos los pagos
+  - `GET /api/v1/payments/booking/{bookingId}` - Obtener pagos por reserva
+  - `POST /api/v1/payments/{paymentId}/process` - Procesar un pago
+  - `POST /api/v1/payments/{paymentId}/fail` - Marcar un pago como fallido
+
+### Características técnicas implementadas
+
+- Arquitectura basada en **Domain-Driven Design (DDD)** con bounded contexts
+- **Entity Framework Core** para persistencia de datos con MySQL
+- **Swagger/OpenAPI** para documentación interactiva de la API
+- **API REST** con endpoints organizados por bounded contexts
+
+### Evidencia visual
+
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- **Swagger UI - Documentación de la API**
+
+  Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por bounded contexts (Accommodations, Bookings, Payments).
+
+  ![SwaggerUI](assets/SwaggerUI.png)
+
+- **Swagger - Endpoints de Accommodations**
+
+  Vista detallada de los endpoints del bounded context de Accommodations, mostrando los métodos HTTP disponibles y sus parámetros.
+
+  ![SwaggerRooms](assets/SwaggerRooms.png)
+
+- **Swagger - Endpoints de Bookings**
+
+  Vista detallada de los endpoints del bounded context de Bookings, incluyendo operaciones de creación, consulta, confirmación y cancelación.
+
+  ![SwaggerBookings](assets/SwaggerBookings.png)
+
+- **Swagger - Endpoints de Payments**
+
+  Vista detallada de los endpoints del bounded context de Payments, mostrando las operaciones para gestionar el ciclo de vida de los pagos.
+
+  ![SwaggerPayments](assets/SwaggerPayments.png)
+
+- **Ejemplo de respuesta - Obtener habitación por ID**
+
+  Respuesta JSON al consultar una habitación específica, mostrando la estructura de datos retornada por la API.
+
+  ![APIResponseRoom](assets/APIResponseRoom.png)
+
+- **Ejemplo de creación - Crear nueva reserva**
+
+  Petición POST para crear una nueva reserva, mostrando el cuerpo de la solicitud y la respuesta con el recurso creado.
+
+  ![APICreateBooking](assets/APICreateBooking.png)
+
+- **Estructura del proyecto **
+
+  Vista de la estructura de carpetas del proyecto, mostrando la organización por bounded contexts (Accommodations, Bookings, Payments).
+
+  ![ProjectStructure](assets/ProjectStructure.png)
+
+- **Configuración de base de datos**
+
+  Vista de la configuración de Entity Framework Core y la cadena de conexión a MySQL, mostrando cómo se configuró la persistencia de datos.
+
+  ![DatabaseConfig](assets/DatabaseConfig.png)
+
+## 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+En este **Sprint 3**, el equipo implementó la documentación completa de la **API REST de SmartStay** utilizando **Swagger/OpenAPI**. Esta documentación interactiva permite a los desarrolladores y usuarios del sistema entender, probar y consumir los endpoints de manera eficiente.
+
+### Documentación con Swagger/OpenAPI
+
+La documentación de la API se generó  utilizando **Swagger UI**, que proporciona una interfaz web interactiva para explorar y probar todos los endpoints disponibles. Esta herramienta es esencial para:
+
+- **Documentación automática**: Genera documentación actualizada automáticamente basada en los atributos y comentarios del código.
+- **Pruebas interactivas**: Permite probar los endpoints directamente desde el navegador sin necesidad de herramientas externas como Postman.
+- **Validación de esquemas**: Muestra los modelos de datos, tipos de parámetros y respuestas esperadas para cada endpoint.
+- **Integración con frontend**: Facilita la integración del frontend al proporcionar especificaciones OpenAPI que pueden ser consumidas por herramientas de generación de código.
+
+### Bounded contexts documentados
+
+La documentación cubre los siguientes bounded contexts y sus respectivos endpoints:
+
+1. **Accommodations (Alojamientos)**
+   - Endpoints para gestión de habitaciones (`/api/v1/rooms`)
+   - Endpoints para gestión de tipos de habitación (`/api/v1/room-types`)
+   - Operaciones CRUD completas con ejemplos de request y response
+
+2. **Bookings (Reservas)**
+   - Endpoints para creación y gestión de reservas (`/api/v1/bookings`)
+   - Operaciones de confirmación y cancelación de reservas
+   - Consultas de reservas por usuario o habitación
+
+3. **Payments (Pagos)**
+   - Endpoints para procesamiento de pagos (`/api/v1/payments`)
+   - Consulta de transacciones y estados de pago
+   - Integración con simuladores de pasarelas de pago
+
+### Características de la documentación
+
+- **Especificación OpenAPI 3.0**: Cumple con el estándar OpenAPI para máxima compatibilidad.
+- **Ejemplos de uso**: Cada endpoint incluye ejemplos de requests y responses.
+- **Autenticación documentada**: Se documentan los métodos de autenticación requeridos para endpoints protegidos.
+- **Códigos de estado HTTP**: Se especifican todos los códigos de respuesta posibles (200, 201, 400, 401, 404, 500, etc.).
+
+## 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint 3, el equipo desplegó el **Backend API REST de SmartStay**. El despliegue se realizó utilizando la plataforma **Render**, que permite ejecutar servicios web de forma continua y escalable.
+
+### Herramientas y plataformas utilizadas
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente del backend.
+- **GitHub**: Se creó y configuró el repositorio oficial para el backend, facilitando la colaboración del equipo y el seguimiento de los cambios realizados en los bounded contexts (Accommodations, Bookings, Payments).
+- **Render**: Plataforma de hosting en la nube utilizada para desplegar la API REST, permitiendo que el servicio esté disponible de forma continua y accesible para el frontend y otros clientes.
+- **MySQL**: Base de datos relacional configurada y conectada mediante Entity Framework Core para la persistencia de datos.
+- **Swagger/OpenAPI**: Documentación interactiva de la API desplegada junto con el servicio, permitiendo probar los endpoints directamente desde el navegador.
+
+
+Este flujo aseguró que el backend desarrollado estuviera disponible para todo el equipo, permitiendo realizar pruebas de integración con el frontend y validar el funcionamiento de la API en un entorno de producción simulado.
+
+### Evidencia del despliegue
+
+![render-2.png](assets/render-2.png)
+
+![render.png](assets/render.png)
+
+![swagger.png](assets/swagger.png)
+
+![swagger-2.png](assets/swagger-2.png)
+
+![swagger-3.png](assets/swagger-3.png)
+
+- **URL pública del servicio desplegado en Render:** [SmartStay Backend](https://smart-backend-y5q6.onrender.com/swagger/index.html)
+
+## 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Smart Stay, implementando la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el frontend, actualizaciones en el reporte y se mejoró la calidad de las User Stories y Technical Stories, eliminando referencias a UI y reescribiéndolas con formato API REST (endpoints específicos, códigos HTTP, estructura Given-When-Then).
+
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una versión estable del backend con los bounded contexts de Accommodations, Bookings y Payments, optimizar el frontend y fortalecer la calidad general del proyecto.
+
+### Acciones de colaboración destacadas
+
+- Se utilizó **GitHub** como herramienta central para coordinar el trabajo, gestionar versiones y mantener un registro ordenado de los avances.
+- Se reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y corrección del frontend.
+- Cada miembro realizó **commits documentados** detallando la implementación de funcionalidades en el backend, mejoras en el frontend y correcciones en el reporte.
+- Se realizó una **revisión y mejora completa de las User Stories y Technical Stories**, eliminando referencias a UI y reescribiéndolas con formato API REST según estándares de calidad.
+- Se realizaron **pull requests** y **revisiones de código** en equipo para validar la lógica del backend, verificar la configuración de base de datos y asegurar la corrección del frontend y reporte.
+- Se utilizó **Trello** para la gestión visual de tareas y seguimiento del Sprint Backlog.
+
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
+
+### Evidencia de colaboración
+
+**Commits realizados durante el Sprint 3:**
+
+![comits](assets/GitHubRepository1.png)
+
+![comits](assets/GitHubRepository2.png)
+
+![comits](assets/GitHubRepository3.png)
+
+## 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de Entrevistas. 
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+1. ¿Qué impresión te dejó la herramienta después de ver la demostración?
+2. ¿La interfaz y la organización de la información te parecieron claras y fáciles de seguir?
+3. ¿Qué partes del sistema te parecieron más útiles para tu hotel?
+4. ¿Hay alguna función que no te parezca relevante para tu operación diaria?
+5. Si implementaras esta herramienta, ¿qué procesos crees que mejorarían más? (reservas, pagos, personal, disponibilidad, reportes…)
+6. ¿Cómo encajaría esta aplicación con la forma en la que actualmente gestionas el hotel?
+7. ¿Crees que tu equipo podría adaptarse fácilmente al uso de esta herramienta?
+8. En tu experiencia, ¿ves que esta app podría ayudar a evitar problemas como sobrerreservas, errores de disponibilidad o fallas en la facturación?
+9. ¿Qué cosa en la app mejorarías para que se ajuste mejor a tu hotel?
+10. ¿Qué te haría dudar en implementar una herramienta como esta? (costos, capacitación, tiempo, desconfianza, resistencia del personal, etc.)
+11. Basado en lo que viste, ¿pagarías una suscripción mensual por este sistema?
+12. ¿Qué rango de precio te parecería razonable para un hotel de tu tamaño?
+13. Si pudieras pedir una mejora o nueva función antes de usar esta app en tu hotel, ¿cuál sería?
+14. ¿Te gustaría probar una versión piloto en tu hotel cuando esté lista?
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles
+
+1. ¿Qué impresión general te dejó la aplicación después de la demostración?
+2. ¿La interfaz se te hizo intuitiva y fácil de entender?
+3. ¿Qué parte te pareció más útil?
+4. ¿Hay alguna función que no te parezca necesaria para ti como huésped?
+5. ¿Sientes que este sistema haría más cómoda tu estadía en comparación con un hotel tradicional?
+6. ¿Qué te sorprendió o llamó más la atención de manera positiva?
+7. ¿Hay algo que te generaría desconfianza al usar este tipo de sistema?
+8. ¿Preferirías interacción humana en algún punto, aunque exista el sistema digital?
+9. Si dos hoteles ofrecieran lo mismo, pero uno tuviera esta experiencia digital, ¿cuál elegirías?
+10. ¿Pagarías un poco más por la experiencia digital? ¿Cuánto aproximadamente?
+11. ¿Qué agregarías o cambiarías para que la experiencia del huésped sea más cómoda?
+12. ¿Qué parte de la demostración te pareció menos clara o más débil?
+
+---
+
+## 5.3.2. Registro de Entrevistas. 
+
+### Entrevista – Segmento 1: Administradores de Hoteles Boutique y Pequeños
+
+#### Entrevista 1
+
+Datos del entrevistado:
+
+**Nombre completo:**  Alejandra Beltrán Diaz
+
+**Edad:** 23 años
+
+**Ciudad:** Tarapoto
+
+**Duración:** 7:35 minutos
+
+**Evidencia:** ![entrevista alejandra](assets/alejandraentrevisa.jpg)
+
+**URL del video:** 
+
+[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAWKRdlP0wrTrxrWyH1YpxUAQgX4tukkfWsGlrNkWzDV7g?e=mV81At&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Resumen de la entrevista** 
+
+El entrevistado considera que la aplicación es práctica, clara y fácil de usar. Sugiere agregar más detalles del huésped, como el estado completo de pagos, y la posibilidad de ver reservas pasadas y futuras. Cree que, con esas funciones, la implementaría sin dudas. Está dispuesto a pagar hasta 120 soles mensuales y usaría la herramienta con gusto una vez esté completa.
+
+---
+
+#### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** Adrian Nicholaiv Saavedra Angulo 
+
+**Edad:** 34
+
+**Ciudad:** Tarapoto
+
+**Duración:**  8:37 minutos
+
+**Evidencia:** ![entrevista Adrian](assets/adrianentrevista.jpg)
+
+**URL del video:** 
+[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAjqYO1yBXEQLgqecYAWIroAdXaCEo-q3_ooN9jxKAo1nI?e=LV5AoW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+Adrián considera que la aplicación es práctica y fácil de usar, y cree que su equipo podría adaptarse sin problema. Sugiere añadir información detallada del huésped, como estado de pago, monto pendiente, historial de reservas, preferencias alimenticias o restricciones. Ve importante poder consultar todas las reservas, pasadas y futuras. Está dispuesto a pagar hasta 100 soles, aunque tendría dudas si el precio fuera elevado. Una vez terminada la herramienta con estas funciones, afirma que la usaría sin dudar.
+
+---
+
+#### Entrevista 3
+
+Datos del entrevistado:
+
+**Nombre completo:** Alessandro Daniel Bravo Castillo
+
+**Edad:** 27
+
+**Ciudad:** Lima
+
+**Duración:**  5:24 minutos
+
+**Evidencia:** ![entrevista-3-admin.png](assets/entrevista-3-admin.png)
+
+**URL del video:**
+[Alessandro Daniel Bravo Castillo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBBDxvd4hJbRaBGoV7xrLogARA_qHG-hWZDjgGpa0lPpXY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GYbke)
+
+**Resumen de la entrevista**
+
+Alessandro Bravo calificó la herramienta como bastante eficiente, destacando su interfaz sencilla e intuitiva, con diseño claro y acciones bien ubicadas; valoró especialmente la gestión de staff por ofrecer mayor control sobre los empleados, la gestión de habitaciones por su claridad en disponibilidad y servicios, y la mejora de procesos clave como reservas y reportes al reemplazar métodos engorrosos como Excel; sugirió añadir un dashboard específico para habitaciones en promoción; afirmó que la app encajaría muy bien en su hotel, ayudaría a prevenir errores como la sobre-reserva, y que el equipo podría adaptarse fácilmente con buena capacitación, mostrando confianza en su implementación por considerarla confiable y fácil de usar
+
+---
+
+#### Entrevista 4
+
+Datos del entrevistado:
+
+**Nombre completo:** Jorge Linares
+
+**Edad:** 29
+
+**Ciudad:** Lima
+
+**Duración:**  8:39 minutos
+
+**Evidencia:** ![entrevista-4-admin.png](assets/entrevista-4-admin.png)
+
+**URL del video:**
+[Jorge Linares](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQALY_uzirfrTY-KGZH0GRjmAck37lQdBFdDzgyyrM9cyLM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TRaopg)
+
+**Resumen de la entrevista**
+
+Jorge Linares tuvo una impresión muy positiva de la aplicación de gestión hotelera, destacando su interfaz intuitiva y ordenada con nombres descriptivos que facilitan el uso; valoró especialmente la agilidad, automatización y el módulo de reservas por su vista detallada, además de la capacidad del sistema para prevenir errores como la sobre-reserva y centralizar información dispersa; sugirió mejoras como un módulo de pagos, exportación de reportes en PDF y funciones para coordinar al personal, además de asegurar la escalabilidad para hoteles grandes; consideró que su equipo podría adaptarse fácilmente con una breve capacitación y estaría dispuesto a pagar una suscripción mensual si el precio es razonable y la herramienta se mantiene estable.
+
+
+---
+
+### Entrevista – Segmento 2: Huéspedes de Hoteles Boutique
+
+#### Entrevista 1
+
+Datos del entrevistado:
+
+**Nombre completo:** Vanessa Choy Robles
+
+**Edad:** 25 años
+
+**Distrito:** Jesus María – Lima Metropolitana
+
+**Duración:** 04:05 minutos
+
+**Evidencia:** ![entrevista_vanessa](assets/entrevista_vanessa.png)
+
+**URL del video:** [https://shorturl.at/7UPcY](https://drive.google.com/file/d/1whr93eI_f3YJgqxVULE7BqRw50qBHzoJ/view?usp=sharing)
+
+**Resumen de la entrevista**
+
+La usuaria tuvo una impresión muy positiva de la aplicación, resaltando que es clara, sencilla e intuitiva. Consideró útiles los filtros para elegir habitaciones y mencionó que, aunque la app tiene lo esencial, sería útil agregar servicios del hotel. Percibe que la experiencia digital haría su estadía más cómoda y valora especialmente la simplicidad de la interfaz, aunque le preocupa que puedan ocurrir fallos al procesar reservas o pagos. Prefiere interacción humana solo en casos específicos y estaría dispuesta a pagar unos 25 soles más por esta experiencia. Como mejoras, sugiere incluir check-in y check-out digitales y aclarar mejor la parte de pagos, que fue lo menos comprendido durante la demostración.
+
+---
+
+#### Entrevista 2
+
+Datos del entrevistado:
+
+**Nombre completo:** Nicole Yamile Avila Ayquipa
+
+**Edad:** 25 años
+
+**Distrito:** Lima, centro de Lima
+
+**Duración:** 03:51 minutos
+
+**Evidencia:** ![entrevista-2-cliente.png](assets/entrevista-2-cliente.png)
+
+**URL del video:** [Nicole Yamile Avila Ayquipa - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBCG5se8kSVRrzEMtmdoNyVAanahQcqo4TXSK9EYI1lKB8?e=o8a21B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista**
+
+Nicole Ávila tuvo una buena impresión de la aplicación, destacando su practicidad al centralizar información de varios hoteles y su interfaz intuitiva con ventanas rotativas que facilitan la exploración; valoró especialmente la agenda de reservas por su orden y claridad, así como la posibilidad de tomar decisiones más informadas gracias a las reseñas de otros huéspedes, sin encontrar funciones innecesarias; aunque considera el sistema confiable, sugirió incorporar una ventana de asistencia virtual para mantener interacción humana; afirmó que preferiría hoteles con esta experiencia digital y estaría dispuesta a pagar más por la seguridad que le brinda al elegir con mayor información.
+
+---
+
+## 5.3.3. Evaluaciones según heurísticas.
+
+### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
+
+- **CARRERA:** Ingeniería de Software
+- **CURSO:** Aplicaciones Web
+- **SECCIÓN:** 7454
+- **PROFESORES:** Todos
+- **AUDITOR:** Los Bytes
+- **CLIENTE(S):** Administradores de Hoteles Boutique y Pequeños / Huéspedes
+- **SITE/APP EVALUADA:** Smart Stay
+
+---
+
+### TAREAS EVALUADAS
+- Gestión y consulta de reservas históricas y activas (Administradores)
+- Acceso a información profunda del huésped (Administradores)
+- Reserva de habitaciones (Huéspedes)
+- Pago de reservas (Huéspedes)
+- Consulta de servicios del hotel (Huéspedes)
+
+#### TAREAS NO INCLUIDAS
+- Control de habitación digital
+- Integración con marketplaces
+- Personalización avanzada
+- Check-in/out automatizado
+
+---
+
+### ESCALA DE SEVERIDAD
+- **0** = No es un problema
+- **1** = Problema cosmético
+- **2** = Baja severidad
+- **3** = Alta severidad
+- **4** = Catastrófico
+
+---
+
+### TABLA RESUMEN (Los Bytes)
+
+| # | Heurística afectada                    | Severidad | Área                   | ¿Requiere rediseño? |
+|---|----------------------------------------|-----------|------------------------|---------------------|
+| 1 | Visibilidad del estado del sistema     | 3         | Información de huésped | Sí                  |
+| 2 | Reconocimiento por encima del recuerdo | 2         | Historial de reservas  | Sí                  |
+| 3 | Mapeo natural (coherencia conceptual)  | 3         | Flujo de pago          | Sí                  |
+| 4 | Encontrabilidad (Findability)          | 2         | Servicios disponibles  | Parcial             |
+| 5 | Control y libertad del usuario         | 2         | Tareas del huésped     | Parcial             |
+| 6 | Prevención de errores                  | 3         | Reservas y pagos       | Sí                  |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS – Los Bytes
+
+#### PROBLEMA 1 – Información fragmentada del huésped
+- **Severidad:** 3
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** La vista actual ofrece datos parciales, lo que obliga a los administradores a depender de múltiples pantallas para reconstruir el perfil del huésped. Según Nielsen (1994), la visibilidad inmediata del estado del sistema disminuye el esfuerzo cognitivo, algo que aquí no ocurre.
+- **Recomendación:** Diseñar un perfil unificado, con secciones diferenciadas: pagos, historial, preferencias y restricciones. Agrupar información crítica usando jerarquías visuales definidas en Arquitectura de Información (Morville & Rosenfeld, 2015).
+
+---
+
+#### PROBLEMA 2 – Reservas pasadas y futuras difíciles de ubicar
+- **Severidad:** 2
+- **Heurística violada:** Reconocimiento por encima del recuerdo
+- **Problema:** La ausencia de una vista cronológica obliga a memorizar fechas o navegar múltiples pantallas. Esto contradice el principio de reducir la carga de memoria a corto plazo (Baddeley, 2012).
+- **Recomendación:** Incorporar vista tipo timeline o calendario mensual con filtros de estado, ocupación y huésped.
+
+---
+
+#### PROBLEMA 3 – Flujo de pago con pobre mapeo conceptual
+- **Severidad:** 3
+- **Heurística violada:** Mapeo natural (sistema y mundo real)
+- **Problema:** Los pasos del pago no se sienten intuitivos ni siguen el orden mental del usuario (selección → confirmación → pago). Norman (2013) argumenta que la interfaz debe imitar modelos mentales familiares.
+- **Recomendación:** Implementar un flujo lineal guiado con indicadores de progreso, resumen previo y mensajes de verificación explícitos.
+
+---
+
+#### PROBLEMA 4 – Servicios del hotel poco visibles
+- **Severidad:** 2
+- **Heurística violada:** Encontrabilidad (Findability)
+- **Problema:** La arquitectura de contenido no prioriza información relevante para la toma de decisiones del huésped. Morville (2010) resalta que la encontrabilidad es un eje en experiencias de descubrimiento.
+- **Recomendación:** Crear módulo con iconografía accesible, descripciones simples y agrupaciones temáticas (spa, comida, actividades).
+
+---
+
+#### PROBLEMA 5 – Falta de mecanismos de control/retroceso
+- **Severidad:** 2
+- **Heurística violada:** Control y libertad del usuario
+- **Problema:** No siempre se dispone de botones de retroceso o cancelación en interacciones clave.
+- **Recomendación:** Asegurar un patrón consistente: cancelar, deshacer, volver.
+
+---
+
+#### PROBLEMA 6 – Ausencia de retroalimentación robusta ante fallos en pagos o reservas
+- **Severidad:** 3
+- **Heurística violada:** Prevención de errores y retroalimentación
+- **Problema:** No existen mecanismos de alerta inmediata. Según Shneiderman & Plaisant (2010), la retroalimentación instantánea es vital en acciones críticas.
+- **Recomendación:** Validación en tiempo real, confirmaciones visibles y mensajes de error accionables.
+
+## 5.4. Video About-the-Product.
+
+El Video About-the-Product de Smart Stay está dirigido a dos públicos principales: los visitantes del Landing Page que desean conocer el modelo de negocio y las características principales de la plataforma, y los usuarios de las aplicaciones que necesitan realizar tareas relacionadas con los procesos soportados por la solución.
+
+Este video presenta de manera clara y concisa las funcionalidades clave de Smart Stay, incluyendo la gestión de reservas para administradores de hoteles boutique y la experiencia de reserva y pago para huéspedes. El tono utilizado es profesional y accesible, alineado con la identidad visual y comunicacional de la plataforma.
+
+### Contenido del Video
+
+El video incluye:
+
+- **Modelo de negocio:** Explicación de cómo Smart Stay ayuda a los hoteles boutique a gestionar sus operaciones de manera eficiente.
+- **Características principales:** Demostración de las funcionalidades core de la plataforma para administradores y huéspedes.
+- **Procesos soportados:** Flujos de trabajo para gestión de reservas, información de huéspedes, proceso de pago y acceso a servicios del hotel.
+- **Experiencia de usuario:** Visualización de la interfaz y navegación de la aplicación.
+
+### Testimonio de Usuario
+
+Durante las sesiones de validación, los usuarios expresaron opiniones positivas sobre la plataforma. A continuación, un testimonio destacado:
+
+> *"La aplicación es práctica, clara y fácil de usar. Creo que mi equipo podría adaptarse sin problema. Una vez terminada la herramienta con las funciones sugeridas, la usaría sin dudar."*  
+> **— Adrián Nicholaiv Saavedra Angulo, Administrador de Hotel (34 años, Tarapoto)**
+
+### Metadatos del Video
+
+**Screenshot del Video:**
+
+![about-the.product.png](assets/about-the.product.png)
+
+**URL de Microsoft Stream:**
+
+[Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQDomHC5NY-OTrQsZBkk-2y3AQB0oa2gq_DIwfLtaJPD6rA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Pxr9Bb)
+
+**URL de YouTube (para incrustar en Landing Page):**
+
+[Video about the proyect](https://youtu.be/R7d_tfMvb5c)
+
+**Duración del Video:**
+
+8:40 minutos
+
+---
+
+## Conclusiones
+
+A lo largo del desarrollo del proyecto Smart Stay, se lograron avances significativos en la implementación de una solución integral para la gestión de hoteles boutique. El trabajo realizado durante los tres sprints permitió consolidar tanto el frontend como el backend de la plataforma, siguiendo principios de Domain-Driven Design y arquitectura por bounded contexts.
+
+### Logros Principales
+
+Durante el **Sprint 3**, el equipo se enfocó en el desarrollo del Backend API REST, implementando los bounded contexts core del negocio: Accommodations, Bookings y Payments. Se estableció una base sólida con  Entity Framework Core y MySQL, proporcionando una API RESTful documentada con Swagger/OpenAPI que permite la integración con el frontend y futuras expansiones.
+
+La mejora de las User Stories y Technical Stories fue un logro importante, eliminando referencias a elementos de UI y estructurando las Technical Stories con formato API REST, lo que facilitará la integración y el desarrollo futuro.
+
+### Validación con Usuarios
+
+Las sesiones de validación con administradores de hoteles y huéspedes proporcionaron retroalimentación valiosa. Los usuarios destacaron la claridad y facilidad de uso de la aplicación, aunque identificaron áreas de mejora importantes como la necesidad de información más detallada del huésped, visualización de reservas pasadas y futuras, y clarificación del proceso de pago.
+
+### Desafíos y Aprendizajes
+
+El proyecto enfrentó desafíos relacionados con el tiempo disponible y la experiencia técnica del equipo. Sin embargo, estos desafíos se convirtieron en oportunidades de aprendizaje, permitiendo al equipo desarrollar habilidades en arquitectura de software, desarrollo de APIs REST, y trabajo colaborativo mediante herramientas como GitHub y Trello.
+
+### Próximos Pasos
+
+Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Profile, mejorar la retroalimentación del sistema en procesos críticos, y agregar funcionalidades solicitadas por los usuarios como check-in/check-out digital y sección de servicios del hotel. La base establecida en este sprint proporciona una plataforma sólida para estas expansiones.
+
+### About-The-Team
+
+**Screenshot del Video:**
+
+![About-The-Team 1](assets/att1.png)
+
+![About-The-Team 2](assets/att2.png)
+
+![About-The-Team 3](assets/att3.png)
+
+![About-The-Team 4](assets/att4.png)
+
+![About-The-Team 5](assets/att5.png)
+
+**URL de Microsoft Stream:**
+
+[About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDIzqcXR55lQYHH8Y5vxEXyASvOA81jxk1r0dNiQP2-Ieg?e=hNzPm7)
+
+
+---
+
+## Bibliografía
+
+### Documentación Técnica
+
+- Microsoft. (2024). *ASP.NET Core Documentation*. Recuperado de https://learn.microsoft.com/en-us/aspnet/core/
+
+- Microsoft. (2024). *Entity Framework Core Documentation*. Recuperado de https://learn.microsoft.com/en-us/ef/core/
+
+- Oracle Corporation. (2024). *MySQL Documentation*. Recuperado de https://dev.mysql.com/doc/
+
+- Swagger. (2024). *OpenAPI Specification*. Recuperado de https://swagger.io/specification/
+
+### Arquitectura y Diseño
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+- Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
+
+### Metodologías Ágiles
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Recuperado de https://scrumguides.org/
+
+- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley Professional.
+
+### Usabilidad y Experiencia de Usuario
+
+
+- W3C. (2021). *Web Content Accessibility Guidelines (WCAG) 2.1*. Recuperado de https://www.w3.org/WAI/WCAG21/quickref/
+
+### Herramientas y Plataformas
+
+- GitHub. (2024). *GitHub Documentation*. Recuperado de https://docs.github.com/
+
+- Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
+
