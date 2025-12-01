@@ -3600,45 +3600,76 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 ### 4.4.4. Web Applications User Flow Diagrams
 
 **Rol 1:** Administrador del hotel
+**Objetivo:** Gestionar la operación completa del hotel mediante el panel central.
 
-**Objetivo:** Gestionar todas las áreas del hotel de manera eficiente desde un panel centralizado, incluyendo huéspedes, staff, reservas, pagos, servicios, reseñas y soporte.
 
-**Cómo ayuda el diagrama:** Permite identificar los pasos necesarios para realizar tareas frecuentes y optimizar la navegación para máxima eficiencia.
+![loginAdmin.png](assets/Chapter-04/loginAdmin.png)
 
-**Happy Paths:**
-![happypathadmi.png](assets/happypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/dc345c68-b9ba-4b68-ba59-d33a107cd547/edit?viewport_loc=-2020%2C-505%2C6554%2C2712%2C0_0&invitationId=inv_f306e465-ed6b-4d99-9d15-d416cfe5ca03)
+![homeAdmin.png](assets/Chapter-04/homeAdmin.png)
 
-**Unhappy Paths:**
-![unhappypathadmi.png](assets/unhappypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/5b49d2f9-1e2c-495a-bb48-a86af3f68d15/edit?viewport_loc=-805%2C345%2C3936%2C1628%2C0_0&invitationId=inv_3de7ece2-dc86-4690-95d5-4ab9db028e9a)
+
+**Flujo del usuario:**
+- **Login** – acceso con credenciales.
+- **Intro** – pantalla inicial después del login.
+- **Dashboard** – visualización general de métricas y accesos rápidos.
+- Desde **Dashboard**, el usuario puede navegar a:
+  - **Guests** – administrar huéspedes.
+  - **Staff** – gestionar personal y turnos.
+  - **Hotels / Rooms** – administrar hoteles y disponibilidad.
+  - **Booking** – gestionar reservas.
+  - **Payments** – revisar transacciones y estados de pago.
+  - **Services / Productos** – configurar servicios adicionales.
+  - **Reviews** – visualizar comentarios de huéspedes y métricas de satisfacción.
+  - **Support / Tickets** – gestionar incidencias internas.
+- **Accesos contextuales dentro del Dashboard:**
+  - **See Reviews** – botón que lleva directamente a **Reviews**.
+  - **Check Booking** – botón que lleva directamente a **Booking**.
+- **Relación entre secciones:**
+  - **Booking** se conecta con **Guests** para ver clientes de cada reserva.
+  - **Reviews** se conecta con **Guests**, **Staff**, y **Hotels** para evaluar desempeño.
+- **Logout** – el administrador puede cerrar sesión desde cualquier pantalla.
+
 
 **Rol 2:** Huésped del hotel
 
-**Objetivo:** Permitir al huésped consultar y gestionar su estadía, incluyendo habitaciones, servicios, mapa, perfil y notificaciones.
-**Cómo ayuda el diagrama:** Visualiza los pasos más rápidos e intuitivos para que el huésped acceda a la información que necesita y realice solicitudes con facilidad.
+**Objetivo:** Facilitar la navegación del huésped y el acceso a servicios del hotel durante su estadía.
 
-**Happy Paths:**
-![happypathhuesped.png](assets/happypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/7b89dd53-b257-4f78-97e3-1b599d6b85e5/edit?viewport_loc=-1918%2C-477%2C5700%2C2358%2C0_0&invitationId=inv_9502d876-be63-41c8-acb4-1d8e2ca1de0d)
+![huespedhappy.png](assets/Chapter-04/huespedhappy.png)
 
-**Unhappy Paths:**
-![unhappypathhuesped.png](assets/unhappypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/18fbfec8-9c89-4794-8f4b-a9242e4db649/edit?viewport_loc=-930%2C-4%2C3511%2C1453%2C0_0&invitationId=inv_bbc495e4-6bb4-418f-a0ac-65c431096cd6)
+
+**Flujo del usuario:**
+- **Intro** – pantalla inicial previa al acceso.
+- **Home** – acceso principal después de validar reserva o QR.
+- Desde **Home**, mediante el menú, se puede acceder a:
+  - **Rooms** – detalles de la habitación asignada.
+  - **Services** – solicitud de servicios internos del hotel.
+  - **Map** – ubicación, rutas e información útil.
+  - **Profile** – datos personales, preferencias y pagos.
+- **Notifications** – acceso persistente mediante icono superior visible desde cualquier pantalla.
+- **Logout** – cierre de sesión automático en checkout o manual.
+
 
 
 **Rol 3:** Personal del hotel (staff)
 
-**Objetivo:** Permitir al staff gestionar tareas, servicios, reservas y comunicaciones con eficiencia.
-**Cómo ayuda el diagrama:** Identifica pasos clave para que el personal cumpla sus responsabilidades sin confusión y con mínima navegación.
+**Objetivo:** Gestionar tareas asignadas, reservas asociadas y comunicación interna del personal.
 
-**Happy Paths:**
-![happypathstaff.png](assets/happypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
+![loginStaf.png](assets/Chapter-04/loginStaf.png)
+![homeStaf.png](assets/Chapter-04/homeStaf.png)
 
-**Unhappy Paths:**
-![unhappypathstaff.png](assets/unhappypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/543c4cad-5bce-40bc-bc29-8a1f2a604a63/edit?viewport_loc=-2062%2C-511%2C5080%2C2102%2C0_0&invitationId=inv_8e3a4604-fe5c-4655-addc-5f16e8fb91d4)
+
+
+**Flujo del usuario:**
+- **Intro** – pantalla inicial.
+- **Login** – acceso obligatorio para control de actividad.
+- **Home** – vista principal luego de la autenticación.
+- Desde **Home**, mediante menú, se puede acceder a:
+  - **Tasks** – lista de tareas asignadas y control de progreso.
+  - **Services** – registro y reporte de servicios realizados.
+  - **Booking** – revisión de reservas vinculadas al área de trabajo.
+  - **Profile** – datos personales y horarios.
+- **Notifications** – icono persistente accesible desde todas las pantallas.
+- **Logout** – finalización de sesión al terminar turno.
 
 ## 4.5. Web Applications Prototyping
 
