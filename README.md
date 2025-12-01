@@ -4647,42 +4647,60 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 ## 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-En este **Sprint 3**, el equipo implementó la documentación completa de la **API REST de SmartStay** utilizando **Swagger/OpenAPI**. Esta documentación interactiva permite a los desarrolladores y usuarios del sistema entender, probar y consumir los endpoints de manera eficiente.
+En esta fase del Sprint se desarrollaron endpoints funcionales del backend de SmartStay para los módulos **Payments**, **Bookings**, **Rooms** y **Room Types**.  
+La API está estructurada bajo la ruta base:
 
-### Documentación con Swagger/OpenAPI
+`/api/v1/`
 
-La documentación de la API se generó  utilizando **Swagger UI**, que proporciona una interfaz web interactiva para explorar y probar todos los endpoints disponibles. Esta herramienta es esencial para:
+Estos servicios permiten operaciones CRUD, búsquedas específicas y acciones de confirmación y cancelación.  
+En el siguiente Sprint se conectará a base de datos y autenticación real.
 
-- **Documentación automática**: Genera documentación actualizada automáticamente basada en los atributos y comentarios del código.
-- **Pruebas interactivas**: Permite probar los endpoints directamente desde el navegador sin necesidad de herramientas externas como Postman.
-- **Validación de esquemas**: Muestra los modelos de datos, tipos de parámetros y respuestas esperadas para cada endpoint.
-- **Integración con frontend**: Facilita la integración del frontend al proporcionar especificaciones OpenAPI que pueden ser consumidas por herramientas de generación de código.
+---
 
-### Bounded contexts documentados
+## **Tabla de Endpoints Disponibles**
 
-La documentación cubre los siguientes bounded contexts y sus respectivos endpoints:
+### **Payments**
+| **Método** | **Endpoint** | **Descripción** | **Parámetros** | **Ejemplo de Response** |
+|-----------|--------------|------------------|----------------|--------------------------|
+| **GET** | `/api/v1/payments/{paymentId}` | Obtener un pago por ID | Path: `paymentId` | `{ "id": 30, "status": "pending" }` |
+| **POST** | `/api/v1/payments` | Crear un nuevo pago | Body: `amount`, `bookingId`, `method` | `{ "message": "Payment created" }` |
+| **GET** | `/api/v1/payments` | Obtener todos los pagos | — | `[ { "id": 30, "status": "completed" } ]` |
+| **GET** | `/api/v1/payments/booking/{bookingId}` | Obtener pagos por ID de reserva | Path: `bookingId` | `[ { "paymentId": 20 } ]` |
+| **POST** | `/api/v1/payments/{paymentId}/process` | Procesar un pago | Path: `paymentId` | `{ "status": "processed" }` |
+| **POST** | `/api/v1/payments/{paymentId}/fail` | Rechazar o fallar un pago | Path: `paymentId` | `{ "status": "failed" }` |
 
-1. **Accommodations (Alojamientos)**
-   - Endpoints para gestión de habitaciones (`/api/v1/rooms`)
-   - Endpoints para gestión de tipos de habitación (`/api/v1/room-types`)
-   - Operaciones CRUD completas con ejemplos de request y response
+---
 
-2. **Bookings (Reservas)**
-   - Endpoints para creación y gestión de reservas (`/api/v1/bookings`)
-   - Operaciones de confirmación y cancelación de reservas
-   - Consultas de reservas por usuario o habitación
+### **Bookings**
+| **Método** | **Endpoint** | **Descripción** | **Parámetros** | **Ejemplo Response** |
+|-----------|--------------|------------------|----------------|----------------------|
+| **GET** | `/api/v1/bookings/{bookingId}` | Obtener reserva por ID | Path: `bookingId` | `{ "id": 12, "status": "confirmed" }` |
+| **POST** | `/api/v1/bookings` | Crear una reserva | Body: `userId`, `roomId`, `dates` | `{ "message": "Booking created" }` |
+| **GET** | `/api/v1/bookings` | Obtener todas las reservas | — | `[ { "id": 20, "status": "pending" } ]` |
+| **GET** | `/api/v1/bookings/room/{roomId}` | Obtener reservas por habitación | Path: `roomId` | `[ { "bookingId": 55 } ]` |
+| **POST** | `/api/v1/bookings/{bookingId}/confirm` | Confirmar una reserva | Path: `bookingId` | `{ "status": "confirmed" }` |
+| **POST** | `/api/v1/bookings/{bookingId}/cancel` | Cancelar una reserva | Path: `bookingId` | `{ "status": "canceled" }` |
 
-3. **Payments (Pagos)**
-   - Endpoints para procesamiento de pagos (`/api/v1/payments`)
-   - Consulta de transacciones y estados de pago
-   - Integración con simuladores de pasarelas de pago
+---
 
-### Características de la documentación
+### **Rooms**
+| **Método** | **Endpoint** | **Descripción** | **Parámetros** | **Ejemplo Response** |
+|-----------|--------------|------------------|----------------|----------------------|
+| **GET** | `/api/v1/rooms/{roomId}` | Obtener habitación por ID | Path: `roomId` | `{ "id": 105, "capacity": 3 }` |
+| **POST** | `/api/v1/rooms` | Crear habitación | Body: `typeId`, `number`, `price` | `{ "message": "Room created" }` |
+| **GET** | `/api/v1/rooms` | Obtener todas las habitaciones | — | `[ { "id": 105, "status": "available" } ]` |
+| **GET** | `/api/v1/rooms/type/{roomTypeId}` | Obtener habitaciones por tipo | Path: `roomTypeId` | `[ { "id": 110 } ]` |
 
-- **Especificación OpenAPI 3.0**: Cumple con el estándar OpenAPI para máxima compatibilidad.
-- **Ejemplos de uso**: Cada endpoint incluye ejemplos de requests y responses.
-- **Autenticación documentada**: Se documentan los métodos de autenticación requeridos para endpoints protegidos.
-- **Códigos de estado HTTP**: Se especifican todos los códigos de respuesta posibles (200, 201, 400, 401, 404, 500, etc.).
+---
+
+### **Room Types**
+| **Método** | **Endpoint** | **Descripción** | **Parámetros** | **Ejemplo Response** |
+|-----------|--------------|------------------|----------------|----------------------|
+| **GET** | `/api/v1/room-types/{roomTypeId}` | Obtener un tipo de habitación por ID | Path: `roomTypeId` | `{ "id": 1, "name": "Suite" }` |
+| **POST** | `/api/v1/room-types` | Crear un tipo de habitación | Body: `name`, `price` | `{ "message": "Room type created" }` |
+| **GET** | `/api/v1/room-types` | Obtener todos los tipos de habitación | — | `[ { "id": 1, "name": "Suite" } ]` |
+
+---
 
 ## 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
