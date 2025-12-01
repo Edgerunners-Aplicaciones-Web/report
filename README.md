@@ -4258,8 +4258,23 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 
 ## 5.2.2.3. Sprint Backlog 2.
 
+### Introducción
+El objetivo principal del Sprint fue desarrollar el Frontend funcional de la aplicación SmartStay, implementando las vistas iniciales para los roles de usuario Administrador, Staff y Huésped (Guest).
+Esta fase se centró en validar los flujos principales del sistema mediante interfaces navegables conectadas a una API simulada (mock data), lo cual permitió evaluar la experiencia del usuario y comprobar el correcto funcionamiento de las rutas y acciones esenciales dentro de la plataforma.
+
+El enfoque de este Sprint fue ofrecer una experiencia más cercana al producto final, permitiendo a los usuarios interactuar con funcionalidades clave como la gestión de reservas, visualización de servicios del hotel, gestión de habitaciones y panel administrativo.
 
 ![sprint_trello](assets/trello2.jpg)
+
+Este Sprint permitió entregar la primera versión funcional del Frontend Multirrol de SmartStay, asegurando:
+
+- Navegación activa entre vistas de Admin, Guest y Staff.
+
+- Validación de flujos de usuario clave mediante mock data.
+
+- Simulación de operaciones como creación de reservas, visualización de habitaciones y gestión de servicios.
+
+- Preparación del entorno para la futura conexión con el backend real.
 
 | **Sprint #** | **User Story Id** | **User Story Title**             | **Task Id** | **Task Title**                 | **Description**                                               | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|-------------------|----------------------------------|-------------|--------------------------------|---------------------------------------------------------------|------------------------|-----------------|------------|
