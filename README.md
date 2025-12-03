@@ -4147,7 +4147,6 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 | Edgerunners-Aplicaciones-Web/report | feature/landing-page | `59ff1d8` | `chore: fix navigation and styles`         | Ajustes en navegación y estilos de la landing.                       | 15/09/2025          |
 | Edgerunners-Aplicaciones-Web/report | develop              | `6af1bc3` | `merge: feature/landing-page into develop` | Se integran cambios de la landing en la rama de desarrollo.          | 16/09/2025          |
 
-**Evidencia de los commits del landing page**
 
 ![commitslanding](assets/commitslanding.png)
 
@@ -4257,6 +4256,16 @@ A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplic
 
 Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
 Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
+
+La matriz está dividida en cuatro grandes áreas del Sprint:
+
+Diseño visual y maquetación web (Frontend funcional): Incluye la estructura visual, componentes, estilos, y la maquetación completa de la Landing Page y vistas principales.
+
+Implementación técnica del cambio de idioma (Multilenguaje funcional): Configuración del sistema multilenguaje (ES/EN), archivos JSON, toggles de cambio de idioma, y aseguramiento de la traducción de componentes.
+
+Responsividad y pruebas en distintos dispositivos: Ajuste del diseño para que funcione correctamente en laptops, tablets y smartphones. Identificación y corrección de desbordes, errores de layout o estilos.
+
+Despliegue de la aplicación web: Configuración de hosting, repositorio, build final y publicación de la aplicación.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username**                                          | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
 |-----------------------------------------|--------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
@@ -4421,13 +4430,24 @@ La documentación siguiente recoge las “acciones simuladas” disponibles en e
 
 Durante este Sprint hemos desplegado el frontend.
 
+### Uso de Beeceptor para simular el backend (Mock API)
+Durante este Sprint utilizamos Beeceptor para crear una API simulada que permitiera probar el frontend sin depender del backend real.
+En esta etapa se creó un workspace llamado smartstay, lo que generó una URL de pruebas para realizar peticiones HTTP.
+
 ![beeceptor](assets/beeceptor.jpeg)
 
 ![beeceptor](assets/beeceptor2.jpeg)
 
+### Configuración de endpoints mock
+Dentro del workspace se configuraron rutas como /users/login, /rooms y /bookings, las cuales devolvían respuestas JSON simuladas.
+Estas rutas permitieron ejecutar y validar los principales flujos del sistema SmartStay sin necesidad de un backend real.
 
 Usaremos Firebase, el cuál es una plataforma de desarrollo de Google que ofrece servicios backend listos.
 
+### Deployment del Frontend en Firebase Hosting
+Para publicar la aplicación y hacerla accesible desde la web, se utilizó Firebase Hosting.
+En esta pantalla se creó el proyecto SmartStay, que sería utilizado para alojar el build generado por Angular.
+Después se configuró Firebase en el proyecto local y se ejecutó el despliegue con firebase deploy.
 ![firebase](assets/firebase1.jpeg)
 
 ---
@@ -4490,6 +4510,13 @@ Para optimizar la coordinación del equipo, se elaboró la Matriz de Liderazgo y
 ---
 
 ## 5.2.3.3. Sprint Backlog 3.
+
+### Introducción
+
+El objetivo principal de este Sprint fue implementar el backend real de SmartStay, desarrollando los servicios y endpoints necesarios para gestionar funcionalidades críticas como registro y autenticación segura de usuarios, control de roles, gestión de reservas, procesamiento de pagos y documentación de APIs.
+Este Sprint marcó un avance significativo al pasar del uso de mock data a operaciones reales conectadas a base de datos, con validación, middleware y seguridad basada en JWT.
+
+La implementación backend permite sostener las operaciones centrales del sistema, asegurando integridad de la información, trazabilidad, escalabilidad y soporte a la interfaz web desarrollada previamente.
 
 ![sprint_trello](assets/SprintBacklog3.png)
 
