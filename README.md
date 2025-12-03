@@ -4081,6 +4081,18 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 ## 5.2.1.2. Deployment Evidence for Sprint Review
 
+En esta sección se presenta la evidencia correspondiente al despliegue y desarrollo del Sprint, enfocada específicamente en la construcción y presentación de la Landing Page del proyecto. Para evaluar la participación de cada miembro del equipo, se establecieron cinco criterios principales que reflejan las responsabilidades técnicas del Sprint:
+
+Estructura base del proyecto (HTML/CSS): Se evalúa la correcta creación de la estructura inicial del sitio, la organización del contenido y el uso adecuado de HTML y estilos CSS.
+
+Diseño visual y maquetación web (Landing Page): Considera la implementación del diseño gráfico, la coherencia visual, la experiencia del usuario y el cumplimiento del mockup.
+
+Integración de componentes visuales: Incluye la incorporación de imágenes, íconos, tipografías y elementos interactivos que enriquecen la página.
+
+Revisión y control de versiones: Evalúa el uso adecuado de GitHub, la correcta gestión de commits, ramas, merges y el trabajo colaborativo ordenado.
+
+La siguiente tabla muestra el nivel de participación según los criterios mencionados, usando las marcas L (Logrado) y C (Contribuido) para reflejar el aporte individual de cada integrante durante este Sprint.
+
 | **Team Member (Last Name, First Name)** | **GitHub Username**                                  | **Estructura base del proyecto (HTML/CSS)** | **Diseño visual y maquetación web (Landing Page)** | **Integración de componentes visuales** | **Revisión y control de versiones** |
 |-----------------------------------------|------------------------------------------------------|---------------------------------------------|----------------------------------------------------|-----------------------------------------|-------------------------------------|
 | **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L                                           | C                                                  | C                                       | C                                   |
@@ -4672,7 +4684,7 @@ En el siguiente Sprint se conectará a base de datos y autenticación real.
 
 ---
 
-## **Tabla de Endpoints Disponibles**
+### **Tabla de Endpoints Disponibles**
 
 ### **Payments**
 | **Método** | **Endpoint** | **Descripción** | **Parámetros** | **Ejemplo de Response** |
