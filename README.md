@@ -4571,13 +4571,38 @@ En este tercer sprint nos enfocamos en realizar la implementación del Backend. 
 
 ### Backend
 
+| Repository                                   | Branch          | Commit Id  | Commit Message                                                        | Commit Message Body                                                                                         | Committed on (Date) |
+|----------------------------------------------|-----------------|------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------|
+| Edgerunners-Aplicaciones-Web/backend-smartstay | feature/tb2     | `d112ea9f` | `merge pull request #3 from Edgerunners-Aplicaciones-Web/feature/tb2` | Integración de los cambios principales del módulo TB2 a la rama principal.                                   | 15/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `706757d4` | `fix: resolve dependency issues and update Swagger descriptions`      | Corrección de dependencias, actualización de descripciones Swagger y mejoras generales en Shared.            | 15/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `cbea4b3f` | `refactor(program.cs): reorganize service configuration`              | Reorganización del archivo Program.cs con mejoras en configuración y middleware.                              | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `5ea2380`  | `feat(shared): enhance DB creation logic, logging, error handling`    | Mejora de la creación de base de datos, manejo de errores y configuración de Swagger.                        | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `b4a2a42e` | `refactor(config): update default DB connection`                      | Actualización de la cadena de conexión para apuntar al backend-smartstay-db.                                 | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `273de0bc` | `refactor(shared): enable accommodations, bookings, payments config`  | Configuración de EF Core para acomodaciones, reservas y pagos en AppDbContext.                               | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `1fe40f01` | `feat(payments): implement REST API`                                  | Implementación completa de API REST para pagos con controladores, servicios, ensambladores y DI.              | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `d57e07fb` | `feat(payments): add EF Core model builder extensions`                | Extensiones de configuración para entidad Payments.                                                           | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `9f147481` | `feat(payments): implement payment command and query services`        | Servicios de comando y consulta para pagos siguiendo CQRS.                                                    | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `453b109a` | `refactor(payments): add repository interfaces`                       | Se agregan interfaces de repositorio y servicios relacionados a payment management.                          | 14/11/2025           |
+| Edgerunners-Aplicaciones-Web/backend-smartstay | main            | `9b489823` | `refactor(bookings): replace legacy structure with REST API`          | Reestructuración total del módulo de bookings a un API REST moderno y escalable.                             | 14/11/2025           |
+
 ![GitHubRepository1](assets/GitHubRepository1.png)
 
-### Report
-
-![GitHubRepository2](assets/GitHubRepository2.png)
 
 ### Front-end
+
+### Front-end – Commits realizados
+
+| Repository                                        | Branch | Commit Id  | Commit Message                                                                 | Commit Message Body                                                                                       | Committed on (Date) |
+|---------------------------------------------------|--------|------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------|
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `6823048`  | `refactor: rename modules for consistency`                                     | Renombrado de módulos para mantener consistencia (Profiles, Bookings, Properties).                        | 13/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `6a55366`  | `refactor: move Profile module to standalone context`                           | Separación del módulo Profile para mejorar escalabilidad y organización del proyecto.                     | 13/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `299f27a`  | `feat: implement booking and review management with use cases and API`         | Integración del flujo de reservas con casos de uso, API y lógica de reseñas.                              | 11/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `5ee545c`  | `feat: add axios instance and mock DB for user/property/room/booking data`      | Configuración de Axios + mock server con datos iniciales para pruebas.                                     | 10/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `2e962f1`  | `feat: implement analytics module`                                             | Implementación de vistas de análisis para admin, guest y staff con estadísticas y dashboard.              | 10/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `3e9b12b`  | `feat: add staff room cleaning list view`                                      | Vista de lista de limpieza para Staff con integración de store y botones de acción.                       | 10/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `aed1fd1`  | `feat: implement user repository interface and assembler for API integration`   | Creación del repositorio de usuarios, assembler y lógica para comunicación con el backend.                | 10/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `e5c707a`  | `feat: implement room management view and use cases`                            | Implementación de vistas de gestión de habitaciones con casos de uso para CRUD.                           | 10/11/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay   | main   | `fc472b9`  | `feat: add user management views`                                              | Creación de vistas para creación, edición y eliminación de usuarios.                                      | 10/11/2025           |
 
 ![GitHubRepository3](assets/GitHubRepository3.png)
 
