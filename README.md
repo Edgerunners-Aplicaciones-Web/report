@@ -4313,14 +4313,22 @@ Este Sprint permitió entregar la primera versión funcional del Frontend Multir
 ---
 ## 5.2.2.4. Development Evidence for Sprint Review
 
-En este segundo Sprint hemos realizado la implementación de nuestra Single Page Application. En la siguiente tabla se muestran los commits realizados.
+Durante este Sprint se avanzó significativamente en la arquitectura inicial del frontend de SmartStay, implementando la estructura modular basada en bounded contexts, así como la configuración del router, manejo de estado y soporte multilenguaje.
+Este avance estableció las bases necesarias para el desarrollo de las vistas y funcionalidades de cada rol del sistema (Admin, Guest, Staff, Auth).
 
 ### Commits realizados
 
-(FALTA TABLA DE COMMITS)
-
-**Evidencia de los commits del FrontEnd**
-(FALTA FOTO DE COMMITS DE FRONTEND)
+| Repository                                   | Branch          | Commit Id | Commit Message                                           | Commit Message Body                                                                                   | Committed on (Date) |
+|----------------------------------------------|-----------------|-----------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------|
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/natalia | `a1b2c3d` | `feat: create code in bounded context admin`             | Creación del módulo base para el rol Admin siguiendo principios de arquitectura modular.             | 21/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/natalia | `b2c3d4e` | `feat: create code in bounded context guest`             | Implementación del módulo Guest con estructura para vistas y lógica de interfaz.                      | 21/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/natalia | `c3d4e5f` | `feat: create code in bounded context staff`             | Creación del módulo Staff, incluyendo estructura inicial para gestión de tareas y habitaciones.       | 21/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | feature/natalia | `d4e5f6a` | `feat: update code in shared directory`                  | Actualización de componentes y utilidades compartidas por todos los módulos.                          | 21/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main            | `e5f6a7b` | `merge: feature/natalia into main`                       | Integración oficial de la estructura inicial del frontend a la rama principal del proyecto.           | 26/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main            | `1a2b3c4` | `feat: add Pinia store setup for state management`       | Implementación del sistema global de estado usando Pinia para autenticación y manejo de usuario.      | 27/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main            | `2b3c4d5` | `feat: implement Vue Router with routes for home and 404 page` | Configuración del router, rutas base y página 404 personalizada.                                     | 27/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main            | `3c4d5e6` | `feat: implement BaseApi and BaseEndpoint classes`       | Estructura base para la interacción con APIs, facilitando escalabilidad y acoplamiento bajo.           | 27/10/2025           |
+| Edgerunners-Aplicaciones-Web/frontend-smartstay | main            | `4d5e6f7` | `feat: add i18n configuration for internationalization`  | Implementación de soporte multilenguaje (EN/ES) y configuración de archivos de localización.          | 27/10/2025           |
 
 ---
 
