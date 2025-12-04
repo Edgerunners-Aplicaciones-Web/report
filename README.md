@@ -4016,6 +4016,187 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 ![comits](assets/GitHubRepository2.png)
 
 ![comits](assets/GitHubRepository3.png)
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+
+Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint 4</b>
+        </td>
+        <td>
+            <b>Sprint 4</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            01/12/25
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            9:00 PM         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad Remota por Discord  
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Seminario Castillo, Diego Vicente
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Verona Flores, Italo Sebastián<br>
+            - Valverde Portuguez, Natalia Ximena <br>
+            - Seminario Castillo, Diego Vicente <br>
+            -  Jareth Beycker Vidal Malaga<br>
+            -  <br>
+            - <br>
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 4</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 4</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+            Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 4 Goal</b>
+        </td>
+        <td>
+            Para el desarrollo del sprint 4, el equipo publicara la ultima version del frontend y backend corrigiendo las errores indicados además de añadir las secciones faltantes en el reporte. Además de realizar la conexión entre ambos apartados.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 4 Velocity</b>
+        </td>
+        <td>
+            61
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            61
+        </td>
+    </tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                  | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Verona Flores, Italo Sebastián**      | [@atomdragon1318](https://github.com/atomdragon1318) | L                                                        | C                                                                         | C                                                     | C                                   |
+| **Valverde Portuguez, Natalia Ximena**  | [@NatValverde15](https://github.com/NatValverde15)   | C                                                        | L                                                                         | C                                                     | C                                   |
+| **Seminario Castillo ,Diego Vicente**   | [@DiegoSeminario](https://github.com/DiegoSeminario) | C                                                        | C                                                                         | C                                                     | L                                   |
+| **Vidal Malaga, Jareth Beycker**          | [@AldairRamos13](https://github.com/Jareth341)   | C                                                        | C                                                                         | C                                                     | L                                   |
+
+#### 5.2.4.3. Sprint Backlog 4
+![sprint_trello](assets/SprintBacklog4.png)
+
+| ID   | Title                                | ID   | Title                                          | Description                                                           | Estimation(Hours) | Assigned to                           | Status(To-do/ In-Process-To-Review/Done) |
+|------|--------------------------------------|------|------------------------------------------------|-----------------------------------------------------------------------|-------------------|---------------------------------------|-------------------------------------------|
+| US01 | User registration with validation    |  |              |               | 5                 |             | Done                                      |
+|      |                                      |  |      |  | 3                 |             | Done                                      |
+| US02 | Secure Login                         |  |          |            | 5                 |        | Done                                      |
+|      |                                      |  |                 |                 | 3                 |        | Done                                      |
+| US03 | Profile and role management          |  |                      |                               | 4                 |          | Done                                      |
+|      |                                      |  |  |                 | 2                 |           | Done                                      |
+| US04 | Password recovery                    |  |           |        | 5                 |           | Done                                      |
+|      |                                      |  |            |                      | 2                 |           | Done                                      |
+| US06 | Room and status management           |  |       |                | 5                 |                 | In Progress                               |
+| US07 | Centralized reservation management   |  |       |              | 6                 |                | To Do                                     |
+| US09 | Digital check-out and billing        |  |               |                      | 4                 |  | In Progress                               |
+|      |                                      |  |         |            | 2                 |  | In Progress                               |
+| TU25 | Obtener sesión terapéutica existente |  |     |                  | 4                 |  | Done                                      |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+| **Repository**  | **Branch**                           | **Commit ID**                            | **Author**     | **Time ago** |
+|-----------------|--------------------------------------|------------------------------------------|----------------|--------------|
+| Smart-Backend  | master                               | 2e649b18565f23df138acae42b07d7389d72a617 | atomdragon1318 | 1 days ago   |
+| Smart-Backend  | feature/development                  | 860e83ce682a2c31e651162e85a81bdd23699f01 | atomdragon1318 | 3 weeks ago  |
+| Smart-Backend  | feature/documentation                | 2536c95ced206c47b2f4bcd2b60037ef7138cae5 | atomdragon1318 | last week    |
+| Smart-Backend  | feature/natalia                      | 2e649b18565f23df138acae42b07d7389d72a617 | atomdragon1318 | 14 days ago  |
+| Smart-Backend  | feature/tb2                           | 439754c79c9b0c248464cf3bdaf52d96ea3cdabc | shiloox        | 1 days ago   |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+El despliegue se realizó exitosamente y se puede visualizar su funcionamiento. Este se encuentra en el siguiente enlace: https://smart-backend-y5q6.onrender.com/swagger/index.html
+
+<img src="./assets/chapter05/smarstayapi.png" alt="Execution Backend 1">
+<img src="./assets/chapter05/smarstayapi2.png" alt="Execution Backend 2">
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Para el uso de datos en el frontend se utiliza la API del backend desarrollado y desplegado.
+
+<img src="./assets/chapter05/smartapi2.png" alt="Backend 1">
+
+<img src="./assets/chapter05/smartapi3.png" alt="Backend 2">
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue del backend se realizaron los siguientes pasos:
+
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 
 ## 5.3. Validation Interviews.
 
