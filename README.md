@@ -671,7 +671,7 @@ Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 pe
 Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
 
 
-**URL del video:** [Entrevista Adrián Saavedra](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
+**URL del video:** https://tinyurl.com/ywcf7dpk
 
 ---
 
@@ -689,7 +689,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![monica entrevistada](assets/Chapter-02/monica_entrevistada.jpg)
 
-**URL del video:** [Monica Hernandez Vela](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EdqJPIq2kS1Jv-WFlDlGmQsBrYHjn4HfJhkJQcrdY9D9BQ?e=NfHBpW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** https://tinyurl.com/59zmmrjb
 
 **Resumen de la entrevista**
 
@@ -712,7 +712,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista alejandra](assets/Chapter-02/alejandra_entrevistada.jpg)
 
 
-**URL del video:** [Alejandra Beltrán Diaz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** https://tinyurl.com/2p9n2kmb
 
 **Resumen de la entrevista**
 
@@ -738,7 +738,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_alexander](assets/Chapter-02/entrevista_alexander.png)
 
-**URL del video:** [Diego Michael Segura](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** https://tinyurl.com/me55rvnx
 
 **Resumen de la entrevista**
 
@@ -769,7 +769,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/ERPriyAe3RlMlJHW2WouYN8BTLnggzX4JPIaQq2eElKZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfbeZY)
+**URL del video:** https://tinyurl.com/3mv3ytt5
 
 **Resumen de la entrevista**
 
@@ -791,7 +791,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/EntrevistaTadeoLoja.png)
 
-**URL del video:** [Entrevista-3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EX5Eq-XT8MdGnWsqsTcHL7MBqeTy6xG91s4YoE9WcsRY_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0XZvvA)
+**URL del video:** https://tinyurl.com/3ztyph92
 
 **Resumen de la entrevista**
 
@@ -820,7 +820,7 @@ Datos del entrevistado:
 
 
 
-**Enlace al video en Microsoft Stream:** [Entrevista-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EfHhd4ZVeqNEuji_fhRH2HABSjkFsOZnYobTIIqx-BN9nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eCsesR)
+**Enlace al video en Microsoft Stream:** https://tinyurl.com/38sxmh5a
 
 **Resumen de la entrevista**
 
@@ -2796,13 +2796,13 @@ Para Smart Stay, se ha implementado un sistema de organización híbrido que com
 
 ![organizationsystems.png](assets/organizationsystems.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/c2895e86-0754-454b-9efb-d0f274918a3b/edit?viewport_loc=-1463%2C-581%2C3504%2C1441%2C0_0&invitationId=inv_f4b1886d-203a-4341-a7aa-50cbe423a0ad)
+**Link para visualizar mejor:** https://tinyurl.com/3k3wxh3h
 
 En Application Wen, el contenido se distribuye en bloques según su prioridad: primero se accede a través de Login y si aún no se tiene cuenta pasas por Register, en el Login se selecciona el modo de usuario y una vez ingresas te deriva al modo de aplicación según el modo seleccionado. En cada modo se desglosa a través del menú y los botones de herramientas ubicados en la esquina superior.
 
 ![organizationsystems2.png](assets/organizationsystems2.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/83b0dc0e-542a-4bc9-8ac8-a1b59abaa464/edit?viewport_loc=-4786%2C-1265%2C7941%2C3266%2C0_0&invitationId=inv_6f1b4e45-f319-4624-a925-3bb6a7ec89a3)
+**Link para visualizar mejor:** https://tinyurl.com/2jjhkz2z
 
 ### 4.2.2. Labeling Systems
 
@@ -3607,11 +3607,11 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 
 **Happy Paths:**
 ![happypathadmi.png](assets/happypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/dc345c68-b9ba-4b68-ba59-d33a107cd547/edit?viewport_loc=-2020%2C-505%2C6554%2C2712%2C0_0&invitationId=inv_f306e465-ed6b-4d99-9d15-d416cfe5ca03)
+**Link para visualizar mejor:** https://tinyurl.com/5xfnc6wm
 
 **Unhappy Paths:**
 ![unhappypathadmi.png](assets/unhappypathadmi.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/5b49d2f9-1e2c-495a-bb48-a86af3f68d15/edit?viewport_loc=-805%2C345%2C3936%2C1628%2C0_0&invitationId=inv_3de7ece2-dc86-4690-95d5-4ab9db028e9a)
+**Link para visualizar mejor:** https://tinyurl.com/68rzzsb5
 
 **Rol 2:** Huésped del hotel
 
@@ -3620,11 +3620,11 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 
 **Happy Paths:**
 ![happypathhuesped.png](assets/happypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/7b89dd53-b257-4f78-97e3-1b599d6b85e5/edit?viewport_loc=-1918%2C-477%2C5700%2C2358%2C0_0&invitationId=inv_9502d876-be63-41c8-acb4-1d8e2ca1de0d)
+**Link para visualizar mejor:** https://tinyurl.com/4tdswbjw
 
 **Unhappy Paths:**
 ![unhappypathhuesped.png](assets/unhappypathhuesped.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/18fbfec8-9c89-4794-8f4b-a9242e4db649/edit?viewport_loc=-930%2C-4%2C3511%2C1453%2C0_0&invitationId=inv_bbc495e4-6bb4-418f-a0ac-65c431096cd6)
+**Link para visualizar mejor:** https://tinyurl.com/33r2xayb
 
 
 **Rol 3:** Personal del hotel (staff)
@@ -3634,17 +3634,17 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 
 **Happy Paths:**
 ![happypathstaff.png](assets/happypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/9f2ebd7e-4046-4322-967e-5ebba51fb97c/edit?viewport_loc=-1647%2C-458%2C3981%2C1647%2C0_0&invitationId=inv_fdadb516-80a9-47ea-bb85-0561af5c0704)
+**Link para visualizar mejor:** https://tinyurl.com/47bc4b86
 
 **Unhappy Paths:**
 ![unhappypathstaff.png](assets/unhappypathstaff.png)
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/543c4cad-5bce-40bc-bc29-8a1f2a604a63/edit?viewport_loc=-2062%2C-511%2C5080%2C2102%2C0_0&invitationId=inv_8e3a4604-fe5c-4655-addc-5f16e8fb91d4)
+**Link para visualizar mejor:** https://tinyurl.com/bdch5493
 
 ## 4.5. Web Applications Prototyping
 
 El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
 En este caso presentaremos el prototipo del app principal que es del modo administrador:
-[https://shorturl.at/7UPcY](https://www.figma.com/proto/RqI67mkRZ1AwuQNTcuGBvA/Sin-t%C3%ADtulo?node-id=48-3793&p=f&t=4u5X36WGvtb7jWe4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+https://tinyurl.com/372nrrbv
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -3693,7 +3693,7 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 
 ![step10.jpg](assets/Chapter-04/step10.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://miro.com/app/board/uXjVJ9iB8iU=/?share_link_id=650007847940)
+**Link para visualizar mejor:** https://tinyurl.com/8529395x
 
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -4903,6 +4903,7 @@ Datos del entrevistado:
 **URL del video:** 
 
 [https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAWKRdlP0wrTrxrWyH1YpxUAQgX4tukkfWsGlrNkWzDV7g?e=mV81At&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 **Resumen de la entrevista** 
 
 El entrevistado considera que la aplicación es práctica, clara y fácil de usar. Sugiere agregar más detalles del huésped, como el estado completo de pagos, y la posibilidad de ver reservas pasadas y futuras. Cree que, con esas funciones, la implementaría sin dudas. Está dispuesto a pagar hasta 120 soles mensuales y usaría la herramienta con gusto una vez esté completa.
