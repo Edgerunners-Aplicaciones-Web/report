@@ -4102,7 +4102,6 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 
 ## 5.2.1.1. Sprint Planning 1
-## 5.2.1.1. Sprint Planning 1
 En esta sesión, el equipo definió los objetivos y el alcance del primer ciclo de trabajo, enfocándose en el desarrollo de la Landing Page como punto de entrada principal para comunicar la propuesta de valor de la plataforma. A continuación, se presenta el cuadro resumen del Sprint Planning :
 
 | **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                      |
