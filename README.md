@@ -4111,7 +4111,7 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
             <b>Sprint 4 Goal</b>
         </td>
         <td>
-            Para el desarrollo del sprint 4, el equipo publicara la ultima version del frontend y backend corrigiendo las errores indicados además de añadir las secciones faltantes en el reporte. Además de realizar la conexión entre ambos apartados.
+            Our focus is on offering more secure access to guests, providing an enhanced profile management process to users, and incrementing new feature possibilities to the development team members.  We believe it delivers easier authentication to visitors, more flexibility on profile updates to users, and opportunities for implementing more payment-related features in the hotel management ecosystem to development team. This will be confirmed when guests can register and log in securely in no more than three steps, users can update or delete their profiles without intervention of support staff, customers can complete online payments using input masks with accuracy and simplicity, and developers implement new features related to authentication, profiles, and payments using the implemented endpoints without intervention of backend development team.
         </td>
     </tr>
     <tr align="left">
