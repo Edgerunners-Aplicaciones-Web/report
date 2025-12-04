@@ -5247,3 +5247,33 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 - Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
 
+---
+
+## Anexos
+
+### Anexo A - Videos de exposiciones
+
+- Video About the Product: [https://shre.ink/q5p2](https://shre.ink/q5p2)
+- Video About the team: 
+- Video Exposición del Trabajo Final:
+   
+### Anexo B - Evidencias de deployments
+
+- Deployment de Landing Page: [https://shre.ink/q5f6](https://shre.ink/q5f6)
+- Deployment de Front End: [https://shre.ink/q5fR](https://shre.ink/q5fR)
+- Deployment de Back End: [https://shre.ink/q5fZ](https://shre.ink/q5fZ)
+  
+### Anexo C - Repsotorios de proyectos
+
+- Repsortorio del reporte: [https://shre.ink/q5f7](https://shre.ink/q5f7)
+- Repositorio de Landing Page:[https://shre.ink/q5fx](https://shre.ink/q5fx)
+- Repositorio de Front End: [https://shre.ink/q5fo](https://shre.ink/q5fo)
+- Repositorio de Back End: [https://shre.ink/q5fb](https://shre.ink/q5fb)
+  
+### Anexo D - Wireframes y Mockups de Landing Page y aplicación
+
+- Figma Landing Page: [https://shre.ink/q5fr](https://shre.ink/q5fr)
+- Figma Front End: [https://shre.ink/q5fs](https://shre.ink/q5fs)
+  
+
+
