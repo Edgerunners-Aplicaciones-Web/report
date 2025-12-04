@@ -31,8 +31,10 @@
 | U20221E617 | Verona Flores    | Italo Sebastian |
 | U20231A816 | Valverde Portuguez| Natalia Ximena |
 | U202019498 | Fernandez Garfias | Alexander Piero |
-| u20191c464 | Saavedra Angulo   | Jose Jhonatan  |
+| U20191c464 | Saavedra Angulo   | Jose Jhonatan  |
 | U20201F051 | Ramos Aguirre    | Aldair Joaquin |
+| U202412591 | Seminario Castillo | Diego Vicente  |
+| U202316878 | Vidal Malaga    | Jareth Beycker |
 
 
 <strong> Diciembre, 2025</strong><br>
@@ -223,7 +225,9 @@ Entre sus principales características destacan:
 | U20231A816 | Valverde Portuguez | Natalia Ximena  |  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de Marketing y estoy interesada en el UX Design y base de datos con sql. Experiencia en trabajos de creación de startups en el ámbito laboral, lo que fortalece mis capacidades tanto en trabajos grupales e individuales para las bases de un proyecto.  | ![natalia-valverde.png](assets/natalia-valverde.png) |  
 | U20191C464 |  Saavedra Angulo   |  Jose Jhonatan  | Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta la computación y el programar se me hace divertido, tengo habilidades en programación en el lenguaje c++, python y algo de java. Tengo experiencia en proyectos académicos y personales que demuestran mi capacidad para trabajar en equipo y resolver problemas técnicos. | ![saavedra.jpg](assets/saavedra.jpg)                 |
 | U20201F051 |   Ramos Aguirre    | Aldair Joaquin  |                                                           Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC).  Cuento con conocimientos C++, Python me gusta resolver problemas y poder colaborar con mis compañeros, cuento con experiencia en proyectos académicos previos.                                                           | ![aldair-ramos.jpg](assets/FotoAldair.jpg)           |
-| U202019498 | Fernández Garfias  | Alexander Piero |                  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo.                   | ![alex-fernandez.jpg](assets/foto_alexander.jpeg)    |                                                                               
+| U202019498 | Fernández Garfias  | Alexander Piero |                  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Interesado en el desarrollo de aplicaciones móviles y web, con conocimientos en Java para Android, Flutter y HTML básico. Participa en proyectos académicos donde aplica sus habilidades técnicas y fortalece su capacidad de trabajo en equipo.                   | ![alex-fernandez.jpg](assets/foto_alexander.jpeg)    | 
+| U202412591 | Seminario Castillo | Diego Vicente  |                                |    |             
+| U202316878 | Vidal Malaga    | Jareth Beycker |               |    |    
 
 ## 1.2. Solution Profile
 
