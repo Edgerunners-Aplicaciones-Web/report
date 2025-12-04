@@ -4054,13 +4054,13 @@ El proyecto implementa un flujo automatizado de **Integración Continua y Despli
 
 ---
 
-## 5.2.1. Sprint 1
+## 5.2.1. 
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
 
 ## 5.2.1.1. Sprint Planning 1
-
+En esta sesión, el equipo definió los objetivos y el alcance del primer ciclo de trabajo, enfocándose en el desarrollo de la Landing Page como punto de entrada principal para comunicar la propuesta de valor de la plataforma. A continuación, se presenta el cuadro resumen del Sprint Planning :
 
 | **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                      |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4232,9 +4232,9 @@ A continuación, en el Sprint 2 nos enfocamos en las funcionalidades de la aplic
 
 
 ## 5.2.2.1 Sprint Planning 2
+En esta sesión, el equipo definió los objetivos y el alcance del segundo ciclo de trabajo, enfocándose en el desarrollo de la aplicación web multi-rol con diseño responsive y soporte de internacionalización para servir a administradores de hotel, personal y huéspedes. A continuación, se presenta el cuadro resumen del Sprint Planning:
 
-
-| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint 2**                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                           
 | **Date**                               | 2025-10-01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -4485,6 +4485,8 @@ En el Sprint Backlog 3, se juntan todas las User Stories enfocadas en la creaci�
 
 
 ## 5.2.3.1. Spring Planning 3.
+
+En esta sesión, el equipo definió los objetivos y el alcance del tercer ciclo de trabajo, enfocándose en la implementación de los bounded contexts principales del negocio (Accommodations, Bookings y Payments) mediante una API RESTful siguiendo principios de Domain-Driven Design, la mejora de la calidad de las User Stories y Technical Stories, y la provisión de documentación interactiva de la API. A continuación, se presenta el cuadro resumen del Sprint Planning Meeting:
 
 | **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
