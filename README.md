@@ -1,45 +1,43 @@
-<div align="center">
-
-![UPC-Logo.png](assets/UPC-Logo.png)
+<p style="text-align:center;">
+<img src="assets/UPC-Logo.png" width="120"><br><br>
 
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <strong>Facultad de Ingeniería</strong><br>
-<strong>Carrera: Ingeniería de Software</strong><br>
+<strong>Carrera de Ingeniería de Software</strong><br>
 
-<strong>Periodo: 202520 </strong><br>
-<strong>Codigo del curso: 1ASI0730</strong><br>
-<strong>Nombre del curso: Aplicaciones Web</strong><br>
+<strong>Período 202520 </strong><br>
+<strong>1ASI0730</strong><br>
+<strong>Aplicaciones Web</strong><br>
 <strong>NRC: 7454<br>
 
-<strong>Nombre del profesor: Angel Augusto Velasquez Nuñez</strong><br>
+<strong>Nombre del profesor: Ángel Augusto Velásquez Núñez</strong><br>
 
 <br><strong>*Informe de Trabajo Final*</strong><br><br>
 
 <strong>Nombre del startup: Edgerunners</strong><br>
 <strong>Nombre del producto: SmartStay</strong><br>
 
-</div>
-
-<div align="center">
     
 ### Relación de Integrantes
 
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
-| U20221E617 | Verona Flores    | Italo Sebastian |
+| U20221E617 | Verona Flores    | Ítalo Sebastián |
 | U20231A816 | Valverde Portuguez| Natalia Ximena |
-| U202019498 | Fernandez Garfias | Alexander Piero |
-| U20191c464 | Saavedra Angulo   | Jose Jhonatan  |
-| U20201F051 | Ramos Aguirre    | Aldair Joaquin |
+| U202019498 | Fernández Garfias | Alexander Piero |
+| U20191c464 | Saavedra Angulo   | José Jhonatan  |
+| U20201F051 | Ramos Aguirre    | Aldair Joaquín |
 | U202412591 | Seminario Castillo | Diego Vicente  |
 | U202316878 | Vidal Malaga    | Jareth Beycker |
 
 
 <strong> Diciembre, 2025</strong><br>
 
-</div>
+</p>
+
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
@@ -65,6 +63,7 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 |   2.8   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar secciones de Conclusiones y Bibliografía al final del documento |
 |   2.9   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Limpieza de assets no utilizados y corrección de referencias de imágenes en secciones de Empathy Mapping y EventStorming |
 
+<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
@@ -101,6 +100,8 @@ La colaboración se distribuyó de la siguiente manera:
 - **Revisiones de contenido:** Implementación de pull requests para la validación del contenido
 - **Documentación continua:** Actualización incremental del informe durante todo el ciclo del proyecto
 - **Coordinación de equipo:** Reuniones regulares para alinear el progreso y resolver conflictos
+
+<div style="page-break-after: always;"></div>
 
 ## Contenido
 
@@ -187,6 +188,9 @@ La colaboración se distribuyó de la siguiente manera:
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía y Referencias](#bibliografía-y-referencias)
 
+<div style="page-break-after: always;"></div>
+
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -201,6 +205,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | Italo Sebastian Verona Flores TB1 <ul><li>Lideré la definición de la arquitectura de software del proyecto 'Smart Stay', utilizando el modelo C4 para establecer los diagramas de Contexto, Contenedores y Componentes.</li><li>Dirigí el diseño de la base de datos, solicitando y validando los esquemas en SQL y DBML para asegurar la correcta persistencia de los datos según los Bounded Contexts definidos.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Lideré el área de diseño de experiencia de usuario (UX), elaborando los wireframes y mockups de alta fidelidad que sirvieron como guía visual para todo el proyecto.</li><li>Dirigí la creación de la guía de estilos visuales de "Smart Stay", definiendo la paleta de colores, tipografía y branding para asegurar una identidad de marca coherente y profesional.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Tomé el liderazgo en el desarrollo front-end, traduciendo los mockups y guías de estilo en un prototipo funcional utilizando HTML, Tailwind CSS y JavaScript.</li><li>Dirigí la implementación técnica de la arquitectura de página única estática (SPA), asegurando que la navegación entre vistas fuera fluida y eficiente.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Lideré la fase de análisis de requerimientos del proyecto, siendo responsable de la creación y redacción del Product Backlog, incluyendo todas las Épicas y User Stories.</li><li>Guié la alineación del producto con las necesidades del negocio mediante la elaboración del Lean UX Canvas, asegurando que cada funcionalidad tuviera un propósito claro.</li></ul> Aldair Joaquin Ramos Aguirre TB1  <ul><li> Dirigí la definición Big Picture EventStorming para descubrir eventos de negocio y flujos principales. </li> <li>  Dirigí la definición mediante Impact Mapping para identificar objetivos, actores, impactos y entregables clave, estableciendo así una base estratégica que respaldó el diseño de la arquitectura de software del proyecto 'Smart Stay'.</li></ul> <br> **TP (Sprint 2 - Frontend)** <br> Italo Sebastian Verona Flores TP <ul><li>Lideré el diseño visual y la maquetación web del frontend funcional de Smart Stay, estableciendo la estructura y componentes principales de la aplicación web.</li><li>Dirigí la implementación de las vistas principales (Admin, Guest, Staff) siguiendo los principios de diseño establecidos y asegurando la coherencia visual.</li></ul> Natalia Ximena Valverde Portuguez TP <ul><li>Lideré la implementación técnica del cambio de idioma (multilenguaje funcional), desarrollando el sistema de internacionalización que permite alternar entre español e inglés.</li><li>Dirigí la integración del sistema de idiomas en toda la aplicación, asegurando que todos los componentes respeten la selección del usuario.</li></ul> Alexander Piero Fernandez Garfias TP <ul><li>Lideré la implementación de responsividad y pruebas en distintos dispositivos, asegurando que la aplicación funcione correctamente en móviles, tablets y escritorio.</li><li>Dirigí las pruebas de compatibilidad y ajustes de diseño responsive para garantizar una experiencia óptima en todos los tamaños de pantalla.</li></ul> Jose Jhonatan Saavedra Angulo TP <ul><li>Lideré el despliegue de la aplicación web, configurando el proceso de deployment y asegurando que la aplicación esté disponible públicamente.</li><li>Dirigí la integración con servicios de hosting y la configuración de CI/CD para automatizar el despliegue continuo.</li></ul> <br> **TB2 (Sprint 3 - Backend)** <br> Italo Sebastian Verona Flores TB2 <ul><li>Lideré la implementación de la API RESTful con endpoints principales, desarrollando los controladores y servicios para los bounded contexts core del negocio.</li><li>Dirigí la creación de los endpoints de Accommodations, Bookings y Payments, asegurando que sigan las mejores prácticas de diseño REST.</li></ul> Natalia Ximena Valverde Portuguez TB2 <ul><li>Lideré la integración de bounded contexts, coordinando la estructura y comunicación entre los diferentes contextos del dominio (Accommodations, Bookings, Payments).</li><li>Dirigí la implementación de Swagger/OpenAPI para documentación interactiva de la API, facilitando la integración con el frontend.</li></ul> Alexander Piero Fernandez Garfias TB2 <ul><li>Lideré la configuración y conexión con la base de datos, implementando Entity Framework Core y configurando la persistencia con MySQL.</li><li>Dirigí el diseño del esquema de base de datos y las migraciones necesarias para soportar los bounded contexts implementados.</li></ul> Jose Jhonatan Saavedra Angulo TB2 <ul><li>Lideré la gestión de autenticación y seguridad, implementando middleware de autenticación JWT y configurando la autorización para todas las rutas.</li><li>Dirigí la implementación de control de acceso basado en roles y la configuración de seguridad de la API.</li></ul> | *TB1*<br> <li>El liderazgo del equipo se manifestó de forma conjunta al distribuir responsabilidades clave (arquitectura, diseño de base de datos, UI/UX) entre los miembros, permitiendo que cada uno guiara su área de especialización y contribuyera a una visión técnica coherente y unificada del producto.</li><li>Las decisiones de diseño cruciales, como la adopción del modelo C4 para la arquitectura y la separación funcional de roles de usuario, se tomaron de manera consensuada, discutiendo y evaluando colectivamente las mejores alternativas para la robustez y escalabilidad del sistema.</li><li>El equipo demostró un liderazgo proactivo al guiar el proyecto a través de un proceso iterativo de refinamiento, transformando los conceptos iniciales en un conjunto de artefactos de diseño detallados y un prototipo funcional.</li> <br> *TP*<br> <li>El liderazgo conjunto se evidenció en la distribución de responsabilidades técnicas del frontend: diseño visual, multilenguaje, responsividad y despliegue, permitiendo que cada integrante liderara su área de especialización y contribuyera a una aplicación web funcional y completa.</li><li>Las decisiones técnicas sobre la estructura de la aplicación, el sistema de internacionalización y la estrategia de despliegue se tomaron de manera colaborativa, asegurando que todos los componentes trabajaran de forma integrada y coherente.</li><li>El equipo demostró liderazgo técnico al transformar los mockups y diseños en una aplicación web funcional, implementando características complejas como el cambio de idioma y la adaptación responsive, cumpliendo con los objetivos del Sprint 2.</li> <br> *TB2*<br> <li>El liderazgo conjunto se manifestó en la distribución de responsabilidades del backend: implementación de API, integración de bounded contexts, configuración de base de datos y seguridad, permitiendo que cada integrante liderara su área técnica y contribuyera a una API RESTful robusta y escalable.</li><li>Las decisiones arquitectónicas sobre la estructura de bounded contexts, la configuración de persistencia y la estrategia de autenticación se tomaron de manera consensuada, asegurando que todos los componentes del backend funcionaran de forma integrada y segura.</li><li>El equipo demostró liderazgo técnico al implementar los bounded contexts core del negocio (Accommodations, Bookings, Payments), estableciendo una base sólida para futuras expansiones y cumpliendo con los objetivos del Sprint 3.</li>                                                                                           |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | Italo Sebastian Verona Flores TB1 <ul><li>Establecí los objetivos para cada artefacto de diseño, planificando la secuencia de trabajo desde los diagramas de alto nivel (C4) hasta la implementación del front-end.</li><li>Fomenté un entorno de colaboración al proporcionar retroalimentación específica y constructiva sobre cada entregable, permitiendo la mejora continua del producto final.</li></ul> Natalia Ximena Valverde Portuguez TB1 <ul><li>Creé un entorno colaborativo al proporcionar los artefactos visuales (mockups) que sirvieron como un "lenguaje común" para alinear el trabajo de arquitectura y desarrollo.</li><li>Establecí las metas de diseño visual y de usabilidad, planificando las tareas de creación de componentes gráficos y asegurando el cumplimiento de los objetivos estéticos del proyecto.</li></ul> Alexander Piero Fernandez Garfias TB1 <ul><li>Colaboré estrechamente con el área de diseño para planificar las tareas de maquetación, asegurando que la implementación técnica fuera fiel a la visión UX/UI.</li><li>Cumplí el objetivo de entregar una landing page interactiva y funcional, implementando características complejas como el selector de idioma y la navegación entre vistas.</li></ul> Jose Jhonatan Saavedra Angulo TB1 <ul><li>Establecí las metas funcionales del producto a través de User Stories claras y bien definidas, lo que permitió al equipo planificar sus tareas de desarrollo de manera efectiva.</li><li>Creé un puente de colaboración entre la visión de negocio y el equipo técnico, asegurando que los entregables cumplieran con los objetivos planteados en la fase de análisis.</li></ul> Aldair Joaquin Ramos Aguirre TB1 <ul><li>Conduje una sesión de Big Picture EventStorming, mapeando eventos de negocio y flujos esenciales para obtener una visión integral de los procesos del proyecto.</li><li>Lideré el uso de Impact Mapping para definir metas, actores, resultados esperados y entregables, sentando las bases estratégicas.</li></ul> <br> **TP (Sprint 2 - Frontend)** <br> Italo Sebastian Verona Flores TP <ul><li>Establecí las metas de diseño visual y maquetación, planificando las tareas de implementación de las vistas principales (Admin, Guest, Staff) y asegurando la coherencia visual en toda la aplicación.</li><li>Fomenté un entorno colaborativo al coordinar el trabajo de diseño con el equipo, proporcionando retroalimentación sobre la implementación de componentes y asegurando que se cumplieran los objetivos de diseño establecidos.</li></ul> Natalia Ximena Valverde Portuguez TP <ul><li>Creé un entorno colaborativo al desarrollar el sistema de multilenguaje que facilitó la comunicación y alineación del equipo en la implementación de textos e interfaces.</li><li>Establecí las metas de internacionalización, planificando las tareas de traducción e integración del sistema de idiomas en todos los componentes de la aplicación.</li></ul> Alexander Piero Fernandez Garfias TP <ul><li>Colaboré estrechamente con el equipo para planificar las tareas de responsividad, asegurando que la aplicación fuera accesible y funcional en todos los dispositivos.</li><li>Cumplí el objetivo de entregar una aplicación completamente responsive, implementando pruebas exhaustivas en diferentes tamaños de pantalla y resolviendo problemas de adaptación.</li></ul> Jose Jhonatan Saavedra Angulo TP <ul><li>Establecí las metas de despliegue y disponibilidad, planificando las tareas de configuración de hosting y automatización del proceso de deployment.</li><li>Creé un entorno de colaboración al coordinar el despliegue continuo, asegurando que todos los cambios se integraran correctamente y la aplicación estuviera siempre disponible.</li></ul> <br> **TB2 (Sprint 3 - Backend)** <br> Italo Sebastian Verona Flores TB2 <ul><li>Establecí las metas de implementación de la API RESTful, planificando las tareas de desarrollo de endpoints y servicios para los bounded contexts core del negocio.</li><li>Fomenté un entorno colaborativo al coordinar el trabajo de implementación de endpoints, proporcionando retroalimentación sobre la estructura y diseño de la API.</li></ul> Natalia Ximena Valverde Portuguez TB2 <ul><li>Creé un entorno colaborativo al liderar la integración de bounded contexts, facilitando la comunicación entre los diferentes contextos y asegurando una arquitectura coherente.</li><li>Establecí las metas de documentación de la API, planificando las tareas de implementación de Swagger/OpenAPI y asegurando que la documentación fuera completa y accesible.</li></ul> Alexander Piero Fernandez Garfias TB2 <ul><li>Colaboré estrechamente con el equipo para planificar las tareas de configuración de base de datos, asegurando que la persistencia de datos fuera robusta y escalable.</li><li>Cumplí el objetivo de configurar Entity Framework Core con MySQL, implementando las migraciones necesarias y asegurando la integridad de los datos en todos los bounded contexts.</li></ul> Jose Jhonatan Saavedra Angulo TB2 <ul><li>Establecí las metas de seguridad y autenticación, planificando las tareas de implementación de JWT y middleware de autorización para proteger todos los endpoints.</li><li>Creé un entorno de colaboración al coordinar la implementación de seguridad, asegurando que todos los endpoints estuvieran protegidos y el sistema fuera seguro.</li></ul>                   | *TB1*<br> <li>Se fomentó un entorno altamente colaborativo utilizando los artefactos de diseño (diagramas C4, mockups, guías de estilo) como un lenguaje común, lo que facilitó la integración del trabajo individual y aseguró que todos los miembros compartieran la misma visión del producto final.</li><li>El equipo estableció y siguió un plan de trabajo estructurado, definiendo metas claras para cada fase del proyecto: desde el análisis de requerimientos y el diseño arquitectónico de alto nivel, hasta el modelado detallado de la base de datos y la implementación del prototipo.</li><li>Se cumplió con el objetivo principal del TB1 al entregar un producto cohesivo y funcional, que incluye una arquitectura de software documentada, un esquema de base de datos normalizado y una landing page estática e interactiva, demostrando la capacidad del equipo para planificar y ejecutar tareas complejas de manera efectiva.</li> <br> *TP*<br> <li>Se fomentó un entorno colaborativo utilizando GitHub como herramienta central de coordinación, permitiendo que cada integrante trabajara en su área de especialización (diseño, multilenguaje, responsividad, despliegue) mientras se mantenía la comunicación constante y la integración ordenada del código.</li><li>El equipo estableció y siguió un plan de trabajo estructurado para el Sprint 2, definiendo metas claras: aplicación web funcional, sistema de multilenguaje operativo, diseño responsive completo y despliegue público estable, cumpliendo con todos los objetivos planteados.</li><li>Se cumplió con el objetivo principal del TP al entregar una aplicación web completamente funcional con todas las vistas implementadas (Admin, Guest, Staff), sistema de cambio de idioma operativo, diseño responsive y despliegue exitoso, demostrando la capacidad del equipo para planificar y ejecutar tareas de desarrollo frontend de manera efectiva.</li> <br> *TB2*<br> <li>Se fomentó un entorno altamente colaborativo utilizando GitHub y Trello para coordinar el trabajo del backend, permitiendo que cada integrante liderara su área técnica (API, bounded contexts, base de datos, seguridad) mientras se mantenía la comunicación constante y la integración ordenada del código.</li><li>El equipo estableció y siguió un plan de trabajo estructurado para el Sprint 3, definiendo metas claras: implementación de bounded contexts core (Accommodations, Bookings, Payments), API RESTful documentada, configuración de base de datos y sistema de autenticación, cumpliendo con todos los objetivos planteados.</li><li>Se cumplió con el objetivo principal del TB2 al entregar un backend completamente funcional con los bounded contexts implementados, API RESTful documentada con Swagger, configuración de Entity Framework Core con MySQL y sistema de autenticación JWT, demostrando la capacidad del equipo para planificar y ejecutar tareas de desarrollo backend de manera efectiva.</li> |
+
+<div style="page-break-after: always;"></div>
+
 
 # **Capítulo I: Introducción**
 
@@ -475,6 +482,8 @@ Esta sección incluye la descripción de los segmentos asociados al dominio del 
 **Validación del Mercado Objetivo**
 
 Esta información proporciona una base sólida para validar que existe un mercado objetivo claro y definido para la solución Smart Stay, con necesidades específicas tanto del lado de la oferta (administradores) como de la demanda (huéspedes tech-savvy).
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
@@ -1260,6 +1269,8 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 | Real-Time Notification       | Notificación en tiempo real        | Alerta automática que informa sobre nuevas reservas, cambios en disponibilidad o solicitudes de huéspedes.                                          |
 | Financial Report             | Reporte financiero                 | Documento digital generado por el sistema que resume ingresos, gastos y métricas clave para evaluar la rentabilidad del hotel.                      |
 | Guest Feedback               | Retroalimentación del huésped      | Opiniones y calificaciones que los huéspedes comparten sobre su estadía, utilizadas para mejorar los servicios.                                     |
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo III: Requirements Specification**
 
@@ -2564,6 +2575,8 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo IV: Product Design
 
 
@@ -3803,6 +3816,7 @@ Relaciones: Todas las asociaciones y composiciones en los diagramas de clases se
 ![Edgerunners-Aplicaciones-Web_Physical_Export.png](assets/Chapter-04/Edgerunners-Aplicaciones-Web_Physical_Export.png)
 
 ---
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -5379,7 +5393,8 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 8:40 minutos
 
----
+<div style="page-break-after: always;"></div>
+
 
 ## Conclusiones
 
@@ -5422,7 +5437,7 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 [About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDIzqcXR55lQYHH8Y5vxEXyASvOA81jxk1r0dNiQP2-Ieg?e=hNzPm7)
 
 
----
+<div style="page-break-after: always;"></div>
 
 ## Bibliografía
 
@@ -5459,7 +5474,8 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 - Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
 
----
+<div style="page-break-after: always;"></div>
+
 
 ## Anexos
 
