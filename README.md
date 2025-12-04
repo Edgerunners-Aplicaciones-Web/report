@@ -2,22 +2,29 @@
 
 ![UPC-Logo.png](assets/UPC-Logo.png)
 
-# Universidad Peruana de Ciencias Aplicadas
-## Carrera: Ingeniería de Software
-## Ciclo: 2025 - 2
 
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-## Curso: 1ASI0730 - Aplicaciones Web
-## NRC: 7454
-## Profesor: Angel Augusto Velasquez Nuñez
+<strong>Facultad de Ingeniería</strong><br>
+<strong>Carrera: Ingeniería de Software</strong><br>
 
-# Informe de Trabajo Final
-## Startup: Edgerunners
-## Producto: Smart Stay
+<strong>Periodo: 202520 </strong><br>
+<strong>Codigo del curso: 1ASI0730</strong><br>
+<strong>Nombre del curso: Aplicaciones Web</strong><br>
+<strong>NRC: 7454<br>
+
+<strong>Nombre del profesor: Angel Augusto Velasquez Nuñez</strong><br>
+
+<br><strong>*Informe de Trabajo Final*</strong><br><br>
+
+<strong>Nombre del startup: Edgerunners</strong><br>
+<strong>Nombre del producto: SmartStay</strong><br>
 
 </div>
 
 <div align="center">
+    
+### Relación de Integrantes
 
 |   Código   |   Apellidos      |     Nombres     |
 |:----------:|:----------------:|:---------------:|
@@ -28,7 +35,7 @@
 | U20201F051 | Ramos Aguirre    | Aldair Joaquin |
 
 
-**Mes y Año:** Septiembre 2025
+<strong> Diciembre, 2025</strong><br>
 
 </div>
 
