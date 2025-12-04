@@ -1,4 +1,4 @@
-<p style="text-align:center;">
+<div align="center">
 <img src="assets/UPC-Logo.png" width="120"><br><br>
 
 
@@ -35,7 +35,7 @@
 
 <strong> Diciembre, 2025</strong><br>
 
-</p>
+</div>
 
 <div style="page-break-after: always;"></div>
 
