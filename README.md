@@ -5496,7 +5496,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista-3-admin.png](assets/entrevista-3-admin.png)
 
 **URL del video:**
-[Alessandro Daniel Bravo Castillo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBBDxvd4hJbRaBGoV7xrLogARA_qHG-hWZDjgGpa0lPpXY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GYbke)
+[https://n9.cl/mgqmrr](https://n9.cl/mgqmrr)
 
 **Resumen de la entrevista**
 
@@ -5519,7 +5519,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista-4-admin.png](assets/entrevista-4-admin.png)
 
 **URL del video:**
-[Jorge Linares](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQALY_uzirfrTY-KGZH0GRjmAck37lQdBFdDzgyyrM9cyLM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TRaopg)
+[https://n9.cl/7tty90](https://n9.cl/7tty90)
 
 **Resumen de la entrevista**
 
@@ -5566,7 +5566,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista-2-cliente.png](assets/entrevista-2-cliente.png)
 
-**URL del video:** [Nicole Yamile Avila Ayquipa - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBCG5se8kSVRrzEMtmdoNyVAanahQcqo4TXSK9EYI1lKB8?e=o8a21B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** [https://n9.cl/ligje](https://n9.cl/ligje)
 
 **Resumen de la entrevista**
 
@@ -5704,11 +5704,11 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 **URL de Microsoft Stream:**
 
-[Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQDomHC5NY-OTrQsZBkk-2y3AQB0oa2gq_DIwfLtaJPD6rA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Pxr9Bb)
+[https://shre.ink/q5p2](https://shre.ink/q5p2)
 
 **URL de YouTube (para incrustar en Landing Page):**
 
-[Video about the proyect](https://youtu.be/R7d_tfMvb5c)
+[https://shre.ink/q5f1](https://shre.ink/q5f1)
 
 **Duración del Video:**
 
