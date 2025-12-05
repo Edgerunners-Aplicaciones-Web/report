@@ -4257,7 +4257,7 @@ Smart Stay está ahora posicionado como una solución completa y operativa que p
 
 **URL de Microsoft Stream:**
 
-About-The-Team : https://tinyurl.com/pc9anud3
+About-The-Team : [https://n9.cl/f59e0](https://n9.cl/f59e0)
 
 
 <div style="page-break-after: always;"></div>
@@ -4429,7 +4429,7 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 ### Anexo C - Videos de exposiciones
 
 - Video About the Product: https://shre.ink/q5p2
-- Video About the team:
+- Video About the team: https://shre.ink/q5f6
 - Video Exposición del Trabajo Final:
 
 <div style="page-break-after: always;"></div>
