@@ -3770,19 +3770,19 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 
 ![sprint_trello](assets/SprintBacklog4.png)
 
-| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Description | Est. (Horas) | Assigned To | Status   |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |:---------|
-| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-36** | **Diseño UI de Pasarela de Pagos** | **Crear la pantalla ("Pestaña de Pagos") con formulario para ingresar tarjeta, titular y monto.** | **5** | **Alexander** | **Done** |
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Description | Est. (Horas) | Assigned To   | Status   |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |:--------------|:---------|
+| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-36** | **Diseño UI de Pasarela de Pagos** | **Crear la pantalla ("Pestaña de Pagos") con formulario para ingresar tarjeta, titular y monto.** | **5** | **Jareth**    | **Done** |
 | **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-37** | **Validación de Formulario de Pago** | **Implementar validaciones en el Frontend (Luhn algorithm para tarjetas, fecha exp, CVV).** | **3** | **Alexander** | **Done** |
-| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-38** | **Integración API de Pagos** | **Conectar el formulario de pagos con el endpoint `TS15` (Procesar Pago) y manejar respuestas (éxito/error).** | **4** | **Italo** | **Done** |
-| **Sprint 4** | **US-24** | **Landing Page Segmentada** | **UT-39** | **Enrutamiento Landing-App** | **Conectar los botones "Ingresar" y "Registrarse" de la Landing Page con las rutas del Frontend de la aplicación.** | **2** | **Jose** | **Done** |
-| **Sprint 4** | **US-02** | **Inicio de sesión seguro** | **UT-40** | **Integración Frontend Login** | **Crear formulario de Login en Vue/Angular/React y consumir el endpoint de autenticación (guardar JWT).** | **4** | **Natalia** | **Dne**  |
-| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-41** | **Vista de Perfil de Usuario** | **Desarrollar la interfaz para visualizar los datos del usuario consumiendo el endpoint `TS04`.** | **3** | **Jose** | **Done** |
-| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-42** | **Formulario de Edición de Perfil** | **Crear interfaz para modificar datos y conectar con el endpoint PUT de perfil.** | **3** | **Jose** | **Done** |
-| **Sprint 4** | **TS-26** | **Lógica de Disponibilidad** | **UT-26** | **Finalizar Lógica de Habitaciones** | *(Arrastrado del Sprint 3)* Implementar lógica para cambiar estados (disponible, reservado, mantenimiento). | **3** | **Alexander** | **Done** |
-| **Sprint 4** | **TS-14** | **Crear pago a través de API** | **UT-30** | **Finalizar Simulación Gateway** | *(Arrastrado del Sprint 3)* Completar la lógica backend para simular la respuesta del banco. | **2** | **Italo** | **Done** |
-| **Sprint 4** | **US-33** | **Webhooks para eventos** | **UT-43** | **Configuración de Webhook de Pago** | **Implementar webhook para notificar al usuario cuando el pago sea exitoso.** | **4** | **Natalia** | **Done** |
-| **Sprint 4** | **TS-35** | **Integración Swagger UI** | **UT-35** | **Testing de Endpoints en UI** | *(Arrastrado del Sprint 3)* Verificar que todos los nuevos endpoints de pagos funcionen correctamente en Swagger UI. | **2** | **Alexander** | **Done**   |
+| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-38** | **Integración API de Pagos** | **Conectar el formulario de pagos con el endpoint `TS15` (Procesar Pago) y manejar respuestas (éxito/error).** | **4** | **Italo**     | **Done** |
+| **Sprint 4** | **US-24** | **Landing Page Segmentada** | **UT-39** | **Enrutamiento Landing-App** | **Conectar los botones "Ingresar" y "Registrarse" de la Landing Page con las rutas del Frontend de la aplicación.** | **2** | **Diego**     | **Done** |
+| **Sprint 4** | **US-02** | **Inicio de sesión seguro** | **UT-40** | **Integración Frontend Login** | **Crear formulario de Login en Vue/Angular/React y consumir el endpoint de autenticación (guardar JWT).** | **4** | **Natalia**   | **Dne**  |
+| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-41** | **Vista de Perfil de Usuario** | **Desarrollar la interfaz para visualizar los datos del usuario consumiendo el endpoint `TS04`.** | **3** | **Natalia**   | **Done** |
+| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-42** | **Formulario de Edición de Perfil** | **Crear interfaz para modificar datos y conectar con el endpoint PUT de perfil.** | **3** | **Italo**     | **Done** |
+| **Sprint 4** | **TS-26** | **Lógica de Disponibilidad** | **UT-26** | **Finalizar Lógica de Habitaciones** | *(Arrastrado del Sprint 3)* Implementar lógica para cambiar estados (disponible, reservado, mantenimiento). | **3** | **Jareth**    | **Done** |
+| **Sprint 4** | **TS-14** | **Crear pago a través de API** | **UT-30** | **Finalizar Simulación Gateway** | *(Arrastrado del Sprint 3)* Completar la lógica backend para simular la respuesta del banco. | **2** | **Italo**     | **Done** |
+| **Sprint 4** | **US-33** | **Webhooks para eventos** | **UT-43** | **Configuración de Webhook de Pago** | **Implementar webhook para notificar al usuario cuando el pago sea exitoso.** | **4** | **Natalia**   | **Done** |
+| **Sprint 4** | **TS-35** | **Integración Swagger UI** | **UT-35** | **Testing de Endpoints en UI** | *(Arrastrado del Sprint 3)* Verificar que todos los nuevos endpoints de pagos funcionen correctamente en Swagger UI. | **2** | **Diego**     | **Done**   |
 
 
 #### 5.2.4.4. Development Evidence for Sprint Review
