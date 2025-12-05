@@ -3795,6 +3795,8 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 | Smart-Backend  | feature/documentation                | 2536c95ced206c47b2f4bcd2b60037ef7138cae5 | atomdragon1318 | last week    |
 | Smart-Backend  | feature/natalia                      | 2e649b18565f23df138acae42b07d7389d72a617 | atomdragon1318 | 14 days ago  |
 | Smart-Backend  | feature/tb2                           | 439754c79c9b0c248464cf3bdaf52d96ea3cdabc | shiloox        | 1 days ago   |
+| Smart-Backend  | feature/jareth                        | 3b070b306b13c1b89832e56be905d7ef2fa1cce2| Jareth341        | 1 days ago   |
+| Smart-Backend  | feature/jareth                        | 780c7ef1e8fb3c19890c2b0c890e76a25e182be9 | Jareth341        | 1 days ago   |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
