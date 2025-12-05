@@ -393,6 +393,50 @@ Nuestro servicio de gestión hotelera busca optimizar la experiencia tanto del p
 
 Hemos observado un factor crítico que afecta la eficiencia operativa: la gestión manual de habitaciones y servicios que genera ineficiencias, errores en la disponibilidad y falta de personalización en tiempo real. Actualmente, el personal debe verificar manualmente el estado de las habitaciones, coordinar servicios de limpieza y atender solicitudes de huéspedes sin un sistema centralizado que permita automatización y monitoreo en tiempo real.
 
+¿Cómo podríamos digitalizar y automatizar la gestión de habitaciones y servicios hoteleros para reducir errores operativos, mejorar la coordinación interna y ofrecer una experiencia personalizada y en tiempo real a los huéspedes?
+
+**Features**
+
+*1. Gestión de Habitaciones*
+- Visualización centralizada del estado de cada habitación.
+- Actualización del estado (disponible, ocupada, limpieza, mantenimiento).
+- Control básico para administración operativa.
+
+*2. Asignación de Habitaciones a Huéspedes*
+- Asignación de habitaciones según tipo y disponibilidad.
+- Registro digital de check-in y check-out.
+- Gestión simple de reservas internas.
+
+*3. Gestión de Servicios de Limpieza*
+- Programación y registro de tareas de housekeeping.
+- Actualización del estado de limpieza por parte del personal.
+- Notificaciones internas sobre habitaciones listas o pendientes.
+
+*4. Coordinación de Mantenimiento*
+- Registro y seguimiento de incidencias reportadas.
+- Asignación de tareas al personal de mantenimiento.
+- Actualización del estado de cada incidencia.
+
+*5. Portal del Administrador*
+- Panel centralizado para gestionar habitaciones, servicios y personal.
+- Acceso a reportes operativos básicos.
+- Control general del funcionamiento del hotel.
+
+*6. Portal del Huésped*
+- Solicitud de servicios (limpieza, amenities, asistencia).
+- Consulta del estado de su habitación y servicios disponibles.
+- Interacción digital para mejorar su experiencia en el hotel.
+
+*7. Sistema de Notificaciones*
+- Alertas internas para limpieza, mantenimiento o incidencias.
+- Notificaciones al huésped sobre actualizaciones o servicios.
+- Comunicación rápida entre áreas.
+
+*8. Gestión de Usuarios y Roles*
+- Definición de roles: administrador, limpieza, mantenimiento y huésped.
+- Accesos diferenciados según función.
+- Seguridad básica del sistema.
+
 **Business Outcome:**
 
 Objective (O): Mejorar la eficiencia operativa del hotel en el primer ciclo de 4 meses.
@@ -415,6 +459,8 @@ Key Results (KR):
 - Asegurar que el 70% de los usuarios recurrentes utilicen la funcionalidad digital sin necesidad de asistencia del personal.
 
 #### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions**
 
 1. Creo que mis clientes necesitan
    Una solución integral de gestión hotelera que automatice procesos operativos, optimice el uso de recursos y proporcione una experiencia personalizada a los huéspedes mediante tecnología IoT.
@@ -465,6 +511,60 @@ Key Results (KR):
     - Los dispositivos IoT tendrán una vida útil de al menos 3-5 años
     - Las regulaciones de privacidad y seguridad no impedirán la recolección de datos de habitaciones
     - El retorno de inversión será visible en los primeros 6-12 meses de implementación
+
+**User Assumptions**
+
+1. ¿Quién es el usuario?
+
+Los usuarios de SmartStay incluyen a administradores hoteleros, personal operativo (limpieza y mantenimiento) y huéspedes.  
+Los administradores buscan controlar y optimizar las operaciones del hotel; el personal requiere una herramienta para organizar tareas y actualizar estados; y los huéspedes desean una experiencia más fluida, personalizada y moderna durante su estancia.
+
+
+2. ¿Dónde encaja nuestro producto en su trabajo o vida?
+
+SmartStay se integra en las actividades diarias del hotel.  
+Para los administradores, se convierte en una plataforma central para gestionar habitaciones, servicios, reservas y personal.  
+Para el equipo operativo, simplifica la actualización de estados y tareas.  
+Para los huéspedes, mejora la experiencia permitiendo solicitar servicios y recibir información en tiempo real.
+
+3. ¿Qué problemas tiene nuestro producto y cómo se puede resolver?
+
+Los hoteles enfrentan gestión manual de habitaciones, retrasos en la coordinación entre áreas, falta de información centralizada y errores en la asignación de habitaciones o en la atención de servicios.  
+SmartStay resuelve esto mediante:
+- Actualización automática del estado de las habitaciones.  
+- Tareas organizadas para limpieza y mantenimiento.  
+- Comunicación interna rápida entre áreas.  
+- Información en tiempo real para mejorar decisiones operativas.  
+- Herramientas para que el huésped solicite servicios de manera digital y segura.
+
+
+4. ¿Cuándo y cómo es usado nuestro producto?
+
+SmartStay es utilizado a lo largo de toda la operación hotelera:
+- Al momento del check-in y asignación de habitaciones.  
+- Durante la coordinación de limpieza, mantenimiento y servicios.  
+- Para gestionar solicitudes del huésped durante su estancia.  
+- En tareas administrativas como reportes, control de ocupación y seguimiento de incidencias.  
+
+Se usa tanto en tiempo real (minuto a minuto) como para planificación diaria.
+
+
+5. ¿Qué características son importantes?
+
+- Panel centralizado de gestión de habitaciones.  
+- Asignación automática y control de disponibilidad.  
+- Módulo de limpieza y mantenimiento con actualización de estados.  
+- Sistema de notificaciones internas y alertas.  
+- Portal del huésped para solicitar servicios.  
+- Roles diferenciados según tipo de usuario.  
+- Información segura, ordenada y accesible.
+
+
+6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?
+
+SmartStay debe verse moderno, intuitivo y profesional, transmitiendo eficiencia y organización.  
+Debe comportarse de manera fluida y rápida, facilitando tareas diarias sin complejidad.  
+La interfaz debe ser clara tanto para administradores como para personal operativo y huéspedes, asegurando un uso accesible incluso para usuarios con poca experiencia digital.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 <div>
