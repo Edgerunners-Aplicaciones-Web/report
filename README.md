@@ -4210,9 +4210,11 @@ Las sesiones de validación con administradores de hoteles y huéspedes proporci
 
 El proyecto enfrentó desafíos relacionados con el tiempo disponible y la experiencia técnica del equipo. Sin embargo, estos desafíos se convirtieron en oportunidades de aprendizaje, permitiendo al equipo desarrollar habilidades en arquitectura de software, desarrollo de APIs REST, y trabajo colaborativo mediante herramientas como GitHub y Trello.
 
-### Próximos Pasos
+### Reflexión Final
 
-Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Profile, mejorar la retroalimentación del sistema en procesos críticos, y agregar funcionalidades solicitadas por los usuarios como check-in/check-out digital y sección de servicios del hotel. La base establecida en este sprint proporciona una plataforma sólida para estas expansiones.
+El desarrollo de Smart Stay representó un ejercicio completo de ingeniería de software, desde la concepción y diseño hasta la implementación y validación con usuarios reales. El equipo Edgerunners logró construir un producto cohesivo que integra múltiples tecnologías y principios de diseño de software modernos.
+La experiencia adquirida durante los cuatro sprints del proyecto no solo resultó en un producto funcional, sino también en el desarrollo de competencias profesionales esenciales para la industria del software: trabajo en equipo efectivo, comunicación técnica clara, adaptabilidad ante desafíos técnicos, y compromiso con la calidad del producto final.
+Smart Stay está ahora posicionado como una solución completa y operativa que puede transformar la manera en que los hoteles boutique gestionan sus operaciones, marcando el inicio de una nueva era de hospitalidad digital e inteligente.
 
 ### About-The-Team
 
