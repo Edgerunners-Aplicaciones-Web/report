@@ -3765,27 +3765,23 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 | **Vidal Malaga, Jareth Beycker**    | [@Jareth341](https://github.com/Jareth341)  | C                                               | C                                               | C                                          | C                                          | L                                           |
 
 #### 5.2.4.3. Sprint Backlog 4
+![sprint_trello](assets/SprintBacklog4.png)
 
-
-### Objetivo del Sprint
-El objetivo principal del Sprint 4 es la **integración vertical** de los servicios desarrollados previamente. Tras establecer la lógica de negocio en el Backend durante el Sprint 3, este sprint se enfoca en la implementación de la interfaz de usuario (Frontend) y la conexión de los Bounded Contexts críticos para la experiencia del usuario final.
-
-![sprint_trello](assets/chapter05/SprintBacklog4.png)
-
-| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Description                                                                                                          | Est. (Horas) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- |:---------------------------------------------------------------------------------------------------------------------| :--- | :--- | :--- |
-| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-36** | **Diseño UI de Pasarela de Pagos** | **Crear la pantalla ("Pestaña de Pagos") con formulario para ingresar tarjeta, titular y monto.**                    | **5** | **Alexander** | **To Do** |
-| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-37** | **Validación de Formulario de Pago** | **Implementar validaciones en el Frontend (Luhn algorithm para tarjetas, fecha exp, CVV).**                          | **3** | **Alexander** | **To Do** |
-| **Sprint 4** | **US-23** | **Procesamiento de pagos digitales** | **UT-38** | **Integración API de Pagos** | **Conectar el formulario de pagos con el endpoint `TS15` (Procesar Pago) y manejar respuestas (éxito/error).**       | **4** | **Italo** | **To Do** |
-| **Sprint 4** | **US-24** | **Landing Page Segmentada** | **UT-39** | **Enrutamiento Landing-App** | **Conectar los botones "Login" y "Regiser" de la Landing Page con las rutas del Frontend de la aplicación.**         | **2** | **Jose** | **To Do** |
-| **Sprint 4** | **US-02** | **Inicio de sesión seguro** | **UT-40** | **Integración Frontend Login** | **Crear formulario de Login en Vue/Angular/React y consumir el endpoint de autenticación (guardar JWT).**            | **4** | **Natalia** | **To Do** |
-| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-41** | **Vista de Perfil de Usuario** | **Desarrollar la interfaz para visualizar los datos del usuario consumiendo el endpoint `TS04`.**                    | **3** | **Jose** | **To Do** |
-| **Sprint 4** | **US-04** | **Edición de perfil personal** | **UT-42** | **Formulario de Edición de Perfil** | **Crear interfaz para modificar datos y conectar con el endpoint PUT de perfil.**                                    | **3** | **Jose** | **To Do** |
-| **Sprint 4** | **TS-26** | **Lógica de Disponibilidad** | **UT-26** | **Finalizar Lógica de Habitaciones** | *(Arrastrado del Sprint 3)* Implementar lógica para cambiar estados (disponible, reservado, mantenimiento).          | **3** | **Alexander** | **To Do** |
-| **Sprint 4** | **TS-14** | **Crear pago a través de API** | **UT-30** | **Finalizar Simulación Gateway** | *(Arrastrado del Sprint 3)* Completar la lógica backend para simular la respuesta del banco.                         | **2** | **Italo** | **To Do** |
-| **Sprint 4** | **US-33** | **Webhooks para eventos** | **UT-43** | **Configuración de Webhook de Pago** | **Implementar webhook para notificar al usuario cuando el pago sea exitoso.**                                        | **4** | **Natalia** | **To Do** |
-| **Sprint 4** | **TS-35** | **Integración Swagger UI** | **UT-35** | **Testing de Endpoints en UI** | *(Arrastrado del Sprint 3)* Verificar que todos los nuevos endpoints de pagos funcionen correctamente en Swagger UI. | **2** | **Alexander** | **To Do** |
-
+| ID   | Title                                | ID   | Title                                          | Description                                                           | Estimation(Hours) | Assigned to                           | Status(To-do/ In-Process-To-Review/Done) |
+|------|--------------------------------------|------|------------------------------------------------|-----------------------------------------------------------------------|-------------------|---------------------------------------|-------------------------------------------|
+| US01 | User registration with validation    |  |              |               | 5                 |             | Done                                      |
+|      |                                      |  |      |  | 3                 |             | Done                                      |
+| US02 | Secure Login                         |  |          |            | 5                 |        | Done                                      |
+|      |                                      |  |                 |                 | 3                 |        | Done                                      |
+| US03 | Profile and role management          |  |                      |                               | 4                 |          | Done                                      |
+|      |                                      |  |  |                 | 2                 |           | Done                                      |
+| US04 | Password recovery                    |  |           |        | 5                 |           | Done                                      |
+|      |                                      |  |            |                      | 2                 |           | Done                                      |
+| US06 | Room and status management           |  |       |                | 5                 |                 | In Progress                               |
+| US07 | Centralized reservation management   |  |       |              | 6                 |                | To Do                                     |
+| US09 | Digital check-out and billing        |  |               |                      | 4                 |  | In Progress                               |
+|      |                                      |  |         |            | 2                 |  | In Progress                               |
+| TU25 | Obtener sesión terapéutica existente |  |     |                  | 4                 |  | Done                                      |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
