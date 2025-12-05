@@ -4426,7 +4426,7 @@ Durante este Sprint se avanzó en la **implementación de la Landing Page**. Se 
 
 ![commitslanding](assets/commitslanding.png)
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
+## 5.2.1.5. Execution Evidence for Sprint Review.
 
 En este **Sprint 1**, el entregable principal fue la **Landing Page inicial de SmartStay**, desarrollada e implementada en GitHub Pages.
 
@@ -4460,7 +4460,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   ![Landing5](assets/landing5.jpeg)
 
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+## 5.2.1.6. Services Documentation Evidence for Sprint Review  
 
 En este **Sprint 1**, los miembros del equipo lograron completar las tareas asociadas al desarrollo de la **Landing Page de SmartStay**.
 
@@ -4471,7 +4471,7 @@ La landing page cumple el rol de **página de presentación inicial** de la plat
 Una landing page es esencial en proyectos digitales, pues está diseñada estratégicamente para guiar al visitante hacia acciones específicas, optimizando la experiencia del usuario. En este caso, la acción principal es conocer SmartStay y dar el primer paso hacia el registro.
 
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+## 5.2.1.7. Software Deployment Evidence for Sprint Review  
 
 - **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.
 - **Repositorio en GitHub**: Se creó y configuró el repositorio oficial específico para el landing page, facilitando la colaboración del equipo. [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
@@ -4483,7 +4483,7 @@ Este flujo aseguró que el trabajo desarrollado estuviera disponible para todo e
 ![Repositorio](assets/repository.png)  
  
 
-### 5.2.1.8. Team Collaboration Insights during Sprint  
+## 5.2.1.8. Team Collaboration Insights during Sprint  
 
 Las actividades de desarrollo de este Sprint se llevaron a cabo de manera colaborativa, distribuyendo las tareas entre los miembros del equipo.
 
@@ -5117,8 +5117,8 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 ![comits](assets/comits6.png)
 
-### 5.2.4. Sprint 4
-#### 5.2.4.1. Sprint Planning 4
+## 5.2.4. Sprint 4
+## 5.2.4.1. Sprint Planning 4
 
 Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
 
@@ -5233,7 +5233,7 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
     </tr>
 </table>
 
-#### 5.2.4.2. Aspect Leaders and Collaborators.
+## 5.2.4.2. Aspect Leaders and Collaborators.
 Durante este Sprint, el equipo se centró en la **integración del Frontend y Backend** de Smart Stay, asegurando la correcta comunicación entre los servicios, la implementación de endpoints funcionales, pruebas del flujo completo y la adaptación del frontend para consumir datos reales provenientes del backend.  
 
 Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colaboración (LACX), donde se asignan los roles de Líder (L) y Colaborador (C) en los principales aspectos del Sprint.
@@ -5245,7 +5245,7 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 | **Seminario Castillo, Diego Vicente** | [@DiegoSeminario](https://github.com/DiegoSeminario) | C                                               | C                                               | C                                          | L                                          | L                                           |
 | **Vidal Malaga, Jareth Beycker**    | [@Jareth341](https://github.com/Jareth341)  | C                                               | C                                               | C                                          | C                                          | L                                           |
 
-#### 5.2.4.3. Sprint Backlog 4
+## 5.2.4.3. Sprint Backlog 4
 ![sprint_trello](assets/SprintBacklog4.png)
 
 | ID   | Title                                | ID   | Title                                          | Description                                                           | Estimation(Hours) | Assigned to                           | Status(To-do/ In-Process-To-Review/Done) |
@@ -5264,7 +5264,7 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 |      |                                      |  |         |            | 2                 |  | In Progress                               |
 | TU25 | Obtener sesión terapéutica existente |  |     |                  | 4                 |  | Done                                      |
 
-#### 5.2.4.4. Development Evidence for Sprint Review
+## 5.2.4.4. Development Evidence for Sprint Review
 
 | **Repository**  | **Branch**                           | **Commit ID**                            | **Author**     | **Time ago** |
 |-----------------|--------------------------------------|------------------------------------------|----------------|--------------|
@@ -5274,14 +5274,14 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 | Smart-Backend  | feature/natalia                      | 2e649b18565f23df138acae42b07d7389d72a617 | atomdragon1318 | 14 days ago  |
 | Smart-Backend  | feature/tb2                           | 439754c79c9b0c248464cf3bdaf52d96ea3cdabc | shiloox        | 1 days ago   |
 
-#### 5.2.4.5. Execution Evidence for Sprint Review
+## 5.2.4.5. Execution Evidence for Sprint Review
 
 El despliegue se realizó exitosamente y se puede visualizar su funcionamiento. Este se encuentra en el siguiente enlace: https://smart-backend-y5q6.onrender.com/swagger/index.html
 
 <img src="./assets/chapter05/smarstayapi.png" alt="Execution Backend 1">
 <img src="./assets/chapter05/smarstayapi2.png" alt="Execution Backend 2">
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+## 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 En esta entrega se agregaron endpoints para Users y Authetication. 
 
@@ -5340,7 +5340,7 @@ Se actualizaron las que ya habían sido creadas.
 Para el uso de datos en el frontend se utiliza la API del backend desarrollado y desplegado.
 
 
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+## 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 
 El despliegue del backend de SmartStay se realizó utilizando **Render**, un servicio en la nube que permite ejecutar aplicaciones en contenedores Docker. El proceso de deployment se integra directamente con GitHub, lo que hace posible que los cambios en la rama principal (`master`) se desplieguen automáticamente en el entorno de producción.
@@ -5391,7 +5391,7 @@ Actualmente, la API se encuentra disponible en producción, sirviendo los endpoi
 <img src="./assets/chapter05/smartapi3.png" alt="Backend 2">
 
 
-#### 5.2.4.8. Team Collaboration Insights during Sprint
+## 5.2.4.8. Team Collaboration Insights during Sprint
 
 
 ## 5.3. Validation Interviews.
