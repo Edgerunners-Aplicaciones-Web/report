@@ -3876,8 +3876,23 @@ Esto asegura que el servicio continúe funcionando sin interrupciones mientras s
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+Durante este Sprint, uno de los avances clave fue la integración entre el frontend y el backend, permitiendo conectar los componentes visuales con la lógica de negocio de Smart Stay. Para lograr esta integración, el equipo realizó diversas acciones técnicas y de colaboración, entre las que destacan:
 
-![comits](assets/comits8.png)
+- Consumo de los nuevos endpoints generados para Bookings, Rooms, Payments y Authentication, asegurando su correcto funcionamiento desde el frontend.
+- Verificación de la comunicación entre ambos módulos mediante peticiones HTTP (GET, POST) hacia la API desplegada.
+- Ajustes en los componentes del frontend para recibir, renderizar y manejar los datos provenientes del backend.
+- Corrección de rutas, formatos JSON y manejo de estados para garantizar una experiencia de usuario fluida.
+- Validación conjunta del equipo para asegurar que las funcionalidades integradas operen de forma estable en distintos entornos.
+
+En cuanto al trabajo colaborativo, se utilizaron diversas herramientas y prácticas de ingeniería:
+
+- GitHub fue la herramienta central para coordinar el trabajo, gestionar versiones y mantener un historial claro de cambios.
+- Se reorganizó la estructura del repositorio y se crearon ramas específicas para el desarrollo del backend, la corrección del frontend y la actualización del reporte final.
+- Cada integrante realizó commits documentados, describiendo la implementación de nuevos endpoints, ajustes en controladores, mejoras en las vistas y correcciones en la documentación.
+- Se completó una revisión profunda de las User Stories y Technical Stories, eliminando referencias a UI y reformulándolas con un enfoque API REST y usando el formato Given–When–Then.
+- Se realizaron pull requests y revisiones en equipo para validar la lógica de negocio, la conexión con la base de datos y la interacción correcta entre módulos.
+
+![comits](assets/comits7.png)
 
 ## 5.3. Validation Interviews.
 
