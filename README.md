@@ -4243,18 +4243,6 @@ Smart Stay está ahora posicionado como una solución completa y operativa que p
 
 ### About-The-Team
 
-**Screenshot del Video:**
-
-![About-The-Team 1](assets/att1.png)
-
-![About-The-Team 2](assets/att2.png)
-
-![About-The-Team 3](assets/att3.png)
-
-![About-The-Team 4](assets/att4.png)
-
-![About-The-Team 5](assets/att5.png)
-
 **URL de Microsoft Stream:**
 
 About-The-Team : [https://n9.cl/f59e0](https://n9.cl/f59e0)
