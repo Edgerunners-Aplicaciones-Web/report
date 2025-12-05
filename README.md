@@ -815,7 +815,7 @@ Adrián administra un hotel de 12 habitaciones en Tarapoto con un equipo de 6 pe
 Aunque cuentan con un sistema propio, han tenido problemas de sobreventa porque no se sincroniza con todas las plataformas, lo que obliga a actualizaciones manuales y genera errores. Adrián estaría motivado a usar una herramienta que centralice la gestión y se integre con plataformas externas, siempre que el costo de suscripción sea razonable.
 
 
-**URL del video:** [https://tinyurl.com/ywcf7dpk](https://tinyurl.com/ywcf7dpk)
+**URL del video:** https://tinyurl.com/ywcf7dpk
 
 ---
 
@@ -833,7 +833,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![monica entrevistada](assets/Chapter-02/monica_entrevistada.jpg)
 
-**URL del video:** [https://tinyurl.com/59zmmrjb](https://tinyurl.com/59zmmrjb)
+**URL del video:** https://tinyurl.com/59zmmrjb
 **Resumen de la entrevista**
 
 Mónica administra un hotel de 12 habitaciones en Tarapoto con un equipo de 4 personas. Su rutina diaria incluye organizar los desayunos, coordinar la limpieza, asignar habitaciones, atender a los turistas y revisar constantemente las reservas. Utiliza un sistema propio a través de la página web del hotel, gestionado principalmente desde laptops y computadoras, y se comunica con su personal mediante WhatsApp.
@@ -855,7 +855,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista alejandra](assets/Chapter-02/alejandra_entrevistada.jpg)
 
 
-**URL del video:** [https://tinyurl.com/2p9n2kmb](https://tinyurl.com/2p9n2kmb)
+**URL del video:** https://tinyurl.com/2p9n2kmb
 
 **Resumen de la entrevista**
 
@@ -881,7 +881,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_alexander](assets/Chapter-02/entrevista_alexander.png)
 
-**URL del video:** [https://tinyurl.com/me55rvnx](https://tinyurl.com/me55rvnx)
+**URL del video:** https://tinyurl.com/me55rvnx
 
 **Resumen de la entrevista**
 
@@ -912,7 +912,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/JuanSalcedo.png)
 
-**URL del video:** [https://tinyurl.com/3mv3ytt5](https://tinyurl.com/3mv3ytt5)
+**URL del video:** https://tinyurl.com/3mv3ytt5
 
 **Resumen de la entrevista**
 
@@ -934,7 +934,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![Screenshot](assets/Chapter-02/EntrevistaTadeoLoja.png)
 
-**URL del video:** [https://tinyurl.com/3ztyph92](https://tinyurl.com/3ztyph92)
+**URL del video:** https://tinyurl.com/3ztyph92
 
 **Resumen de la entrevista**
 
@@ -963,7 +963,7 @@ Datos del entrevistado:
 
 
 
-**Enlace al video en Microsoft Stream:** [https://tinyurl.com/38sxmh5a](https://tinyurl.com/38sxmh5a)
+**Enlace al video en Microsoft Stream:** https://tinyurl.com/38sxmh5a
 
 **Resumen de la entrevista**
 
@@ -1655,13 +1655,13 @@ Para Smart Stay, se ha implementado un sistema de organización híbrido que com
 
 ![organizationsystems.png](assets/organizationsystems.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/c2895e86-0754-454b-9efb-d0f274918a3b/edit?viewport_loc=-1463%2C-581%2C3504%2C1441%2C0_0&invitationId=inv_f4b1886d-203a-4341-a7aa-50cbe423a0ad)
+**Link para visualizar mejor:** https://tinyurl.com/3k3wxh3h
 
 En Application Wen, el contenido se distribuye en bloques según su prioridad: primero se accede a través de Login y si aún no se tiene cuenta pasas por Register, en el Login se selecciona el modo de usuario y una vez ingresas te deriva al modo de aplicación según el modo seleccionado. En cada modo se desglosa a través del menú y los botones de herramientas ubicados en la esquina superior.
 
 ![organizationsystems2.png](assets/organizationsystems2.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://lucid.app/lucidchart/83b0dc0e-542a-4bc9-8ac8-a1b59abaa464/edit?viewport_loc=-4786%2C-1265%2C7941%2C3266%2C0_0&invitationId=inv_6f1b4e45-f319-4624-a925-3bb6a7ec89a3)
+**Link para visualizar mejor:** https://tinyurl.com/2jjhkz2z
 
 ### 4.2.2. Labeling Systems
 
@@ -2534,7 +2534,7 @@ Los mockups muestran la interfaz final del personal de SmartStay, incluyendo **c
 
 El prototipo permite simular la navegación entre todas las secciones principales mediante **carga dinámica de contenido**, mostrando cómo el administrador se moverá a través de los caminos definidos en los **User Flow Diagrams**, asegurando fluidez y coherencia en la experiencia de usuario.
 En este caso presentaremos el prototipo del app principal que es del modo administrador:
-[https://shorturl.at/7UPcY](https://www.figma.com/proto/RqI67mkRZ1AwuQNTcuGBvA/Sin-t%C3%ADtulo?node-id=48-3793&p=f&t=4u5X36WGvtb7jWe4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+https://tinyurl.com/372nrrbv
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -2583,7 +2583,7 @@ En este caso presentaremos el prototipo del app principal que es del modo admini
 
 ![step10.jpg](assets/Chapter-04/step10.png)
 
-**Link para visualizar mejor:** [https://shorturl.at/7UPcY](https://miro.com/app/board/uXjVJ9iB8iU=/?share_link_id=650007847940)
+**Link para visualizar mejor:** https://tinyurl.com/8529395x
 
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -2674,9 +2674,9 @@ Para la gestión del proyecto se emplearon diversas herramientas de comunicació
 - **Planificación y asignación de tareas:** Trello
 
 **Enlaces**  
--**GitHub:** [GitHub](https://github.com/)  
--**Discord:** [Discord](https://discord.com/)  
--**Trello:** [Trello](https://trello.com/)
+-**GitHub:** https://github.com
+-**Discord:** https://discord.com  
+-**Trello:** https://trello.com
 
 
 ### Requirement Management
@@ -2684,9 +2684,9 @@ Para la fase de levantamiento y priorización de requisitos, se implementaron he
 Además, se utilizó **UXPressia** para el desarrollo de *User Personas*, *Empathy Maps*, *Journey Maps* y *Lean UX Canvas*, mientras que **Miro** sirvió para construir los escenarios *As-Is* y *To-Be* de los procesos del sistema.
 
 **Enlaces**  
--**Trello:** [Trello](https://trello.com/)  
--**UXPressia:** [UXPressia](https://uxpressia.com/)  
--**Miro:** [Miro](https://miro.com/es/)
+-**Trello:** https://trello.com 
+-**UXPressia:** https://uxpressia.com 
+-**Miro:** https://miro.com/es
 
 
 
@@ -2695,7 +2695,7 @@ Durante el diseño de la experiencia e interfaz de usuario, el equipo utilizó *
 Asimismo, se aplicaron principios de usabilidad y diseño centrado en el usuario para garantizar una navegación fluida y consistente.
 
 **Enlaces**  
--**Figma:** [Figma](https://www.figma.com/)
+-**Figma:** https://www.figma.com
 
 
 
@@ -2706,13 +2706,13 @@ Adicionalmente, se emplearon **HTML**, **CSS** y **JavaScript** para la construc
 La instalación y mantenimiento de las IDEs se realizó mediante **JetBrains ToolBox**.
 
 **Enlaces**  
--**JetBrains ToolBox:** [JetBrains ToolBox](https://www.jetbrains.com/toolbox-app/)  
--**Rider:** [JetBrains Rider](https://www.jetbrains.com/rider/)  
--**Webstorm:** [JetBrains WebStorm](https://www.jetbrains.com/webstorm/)  
--**Node.js:** [Node.js](https://nodejs.org/)  
--**Vue.js:** [Vue.js](https://vuejs.org/)  
--**PrimeVue:** [PrimeVue](https://primevue.org/)  
--**Visual Studio Code:** [Visual Studio Code](https://code.visualstudio.com/)
+-**JetBrains ToolBox:** https://www.jetbrains.com/toolbox-app
+-**Rider:** https://www.jetbrains.com/rider 
+-**Webstorm:** https://www.jetbrains.com/webstorm
+-**Node.js:** https://nodejs.org  
+-**Vue.js:** https://vuejs.org
+-**PrimeVue:** https://primevue.org 
+-**Visual Studio Code:** https://code.visualstudio.com
 
 
 ### Software Documentation
@@ -2721,13 +2721,13 @@ Esta estrategia permitió un control de versiones eficiente mediante el uso de r
 Toda la documentación se redactó en formato **Markdown (.md)**, debido a su legibilidad, simplicidad y compatibilidad con GitHub.
 
 **Enlaces**  
--**GitHub:** [GitHub](https://github.com/)
+-**GitHub:** https://github.com
 
 ### Software Deployment
 El despliegue de la *Landing Page* se realizó mediante **GitHub Pages**, una herramienta ideal para la publicación de sitios web estáticos directamente desde el repositorio del proyecto.
 
 **Enlaces**  
--**GitHub Pages:**  [GitHub Pages](https://pages.github.com/)
+-**GitHub Pages:**  https://pages.github.com
 
 -----
 ## 5.1.2. Source Code Management
@@ -2821,8 +2821,8 @@ Todas las variables, funciones, clases y archivos se nombran en **inglés**, sig
 ### HTML / CSS
 Se siguen las recomendaciones de las guías de estilo oficiales:
 
-- [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)
-- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- HTML Style Guide and Coding Conventions: https://www.w3schools.com/html/html5_syntax.asp
+- Google HTML/CSS Style Guide : https://google.github.io/styleguide/htmlcssguide.html
 
 **Convenciones aplicadas:**
 - Uso de etiquetas **semánticas** para mejorar la estructura, accesibilidad y SEO del sitio.
@@ -2846,10 +2846,10 @@ Se siguen las recomendaciones de las guías de estilo oficiales:
 
 Se aplican las siguientes guías y herramientas de estilo:
 
-- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
-- [W3C JavaScript Best Practices](https://www.w3.org/wiki/JavaScript_best_practices)
-- [MDN JavaScript Guidelines](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Vue Style Guide](https://vuejs.org/style-guide/)
+- Google JavaScript Style Guide : https://google.github.io/styleguide/jsguide.html
+- W3C JavaScript Best Practices : https://www.w3.org/wiki/JavaScript_best_practices
+- MDN JavaScript Guidelines : https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- Vue Style Guide : https://vuejs.org/style-guide/
 
 **Prácticas adoptadas:**
 - Código escrito en **ES6+**, priorizando claridad y modularidad.
@@ -2862,8 +2862,8 @@ Se aplican las siguientes guías y herramientas de estilo:
 ### C# y ASP.NET Core
 Las convenciones del código backend siguen los lineamientos de Microsoft:
 
-- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [Microsoft ASP.NET Core Coding Guidelines](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0)
+- C# Coding Conventions : https://tinyurl.com/dcv9w6m8
+- Microsoft ASP.NET Core Coding Guidelines : https://tinyurl.com/mw3m8w58
 
 **Convenciones aplicadas:**
 - Uso de **PascalCase** para clases, interfaces y métodos públicos.
@@ -2935,7 +2935,7 @@ El proyecto implementa un flujo automatizado de **Integración Continua y Despli
 ![Github Pages](assets/githubpages.jpg)
 
 **La URL que nos entrega Github Pages para acceder a la landing page es la siguiente:**  
-[https://edgerunners-aplicaciones-web.github.io/landing-page/](https://edgerunners-aplicaciones-web.github.io/landing-page/)
+https://edgerunners-aplicaciones-web.github.io/landing-page/
 
 ---
 
@@ -3089,7 +3089,7 @@ Una landing page es esencial en proyectos digitales, pues está diseñada estrat
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review  
 
 - **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente.
-- **Repositorio en GitHub**: Se creó y configuró el repositorio oficial específico para el landing page, facilitando la colaboración del equipo. [Landing Page – GitHub Repository](https://github.com/Edgerunners-Aplicaciones-Web/landing-page).  
+- **Repositorio en GitHub**: Se creó y configuró el repositorio oficial específico para el landing page, facilitando la colaboración del equipo. https://github.com/Edgerunners-Aplicaciones-Web/landing-page  
 - **GitHub Pages**: Se configuró como servicio de hosting gratuito para publicar la página y permitir su acceso en línea de manera pública, configurando la rama `main` como fuente de publicación. 
 - **Integración automática**: cada *commit* en la rama principal actualiza de manera automática la página desplegada.  
 
@@ -3708,7 +3708,7 @@ Este flujo aseguró que el backend desarrollado estuviera disponible para todo e
 
 ![swagger-3.png](assets/swagger-3.png)
 
-- **URL pública del servicio desplegado en Render:** [SmartStay Backend](https://smart-backend-y5q6.onrender.com/swagger/index.html)
+- **URL pública del servicio desplegado en Render:** https://smart-backend-y5q6.onrender.com/swagger/index.html
 
 ## 5.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -3932,8 +3932,8 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista alejandra](assets/alejandraentrevisa.jpg)
 
 **URL del video:** 
+https://tinyurl.com/5n94ewyf
 
-[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAWKRdlP0wrTrxrWyH1YpxUAQgX4tukkfWsGlrNkWzDV7g?e=mV81At&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 **Resumen de la entrevista** 
 
 El entrevistado considera que la aplicación es práctica, clara y fácil de usar. Sugiere agregar más detalles del huésped, como el estado completo de pagos, y la posibilidad de ver reservas pasadas y futuras. Cree que, con esas funciones, la implementaría sin dudas. Está dispuesto a pagar hasta 120 soles mensuales y usaría la herramienta con gusto una vez esté completa.
@@ -3955,7 +3955,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista Adrian](assets/adrianentrevista.jpg)
 
 **URL del video:** 
-[https://shorturl.at/7UPcY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/IQAjqYO1yBXEQLgqecYAWIroAdXaCEo-q3_ooN9jxKAo1nI?e=LV5AoW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+https://tinyurl.com/bdnc3jm8
 
 **Resumen de la entrevista**
 Adrián considera que la aplicación es práctica y fácil de usar, y cree que su equipo podría adaptarse sin problema. Sugiere añadir información detallada del huésped, como estado de pago, monto pendiente, historial de reservas, preferencias alimenticias o restricciones. Ve importante poder consultar todas las reservas, pasadas y futuras. Está dispuesto a pagar hasta 100 soles, aunque tendría dudas si el precio fuera elevado. Una vez terminada la herramienta con estas funciones, afirma que la usaría sin dudar.
@@ -3977,7 +3977,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista-3-admin.png](assets/entrevista-3-admin.png)
 
 **URL del video:**
-[Alessandro Daniel Bravo Castillo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBBDxvd4hJbRaBGoV7xrLogARA_qHG-hWZDjgGpa0lPpXY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GYbke)
+https://tinyurl.com/y85aj7s4
 
 **Resumen de la entrevista**
 
@@ -4000,7 +4000,7 @@ Datos del entrevistado:
 **Evidencia:** ![entrevista-4-admin.png](assets/entrevista-4-admin.png)
 
 **URL del video:**
-[Jorge Linares](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQALY_uzirfrTY-KGZH0GRjmAck37lQdBFdDzgyyrM9cyLM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TRaopg)
+https://tinyurl.com/4k3kr4mv
 
 **Resumen de la entrevista**
 
@@ -4025,7 +4025,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista_vanessa](assets/entrevista_vanessa.png)
 
-**URL del video:** [https://shorturl.at/7UPcY](https://drive.google.com/file/d/1whr93eI_f3YJgqxVULE7BqRw50qBHzoJ/view?usp=sharing)
+**URL del video:** https://tinyurl.com/4yn7pm2w
 
 **Resumen de la entrevista**
 
@@ -4047,7 +4047,7 @@ Datos del entrevistado:
 
 **Evidencia:** ![entrevista-2-cliente.png](assets/entrevista-2-cliente.png)
 
-**URL del video:** [Nicole Yamile Avila Ayquipa - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQBCG5se8kSVRrzEMtmdoNyVAanahQcqo4TXSK9EYI1lKB8?e=o8a21B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL del video:** https://tinyurl.com/bdd2t8cu
 
 **Resumen de la entrevista**
 
@@ -4185,11 +4185,11 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 **URL de Microsoft Stream:**
 
-[Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQDomHC5NY-OTrQsZBkk-2y3AQB0oa2gq_DIwfLtaJPD6rA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Pxr9Bb)
+Video About-the-Product : https://tinyurl.com/ytrwc5xj
 
 **URL de YouTube (para incrustar en Landing Page):**
 
-[Video about the proyect](https://youtu.be/R7d_tfMvb5c)
+Video about the proyect : https://youtu.be/R7d_tfMvb5c
 
 **Duración del Video:**
 
@@ -4216,9 +4216,11 @@ Las sesiones de validación con administradores de hoteles y huéspedes proporci
 
 El proyecto enfrentó desafíos relacionados con el tiempo disponible y la experiencia técnica del equipo. Sin embargo, estos desafíos se convirtieron en oportunidades de aprendizaje, permitiendo al equipo desarrollar habilidades en arquitectura de software, desarrollo de APIs REST, y trabajo colaborativo mediante herramientas como GitHub y Trello.
 
-### Próximos Pasos
+### Reflexión Final
 
-Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Profile, mejorar la retroalimentación del sistema en procesos críticos, y agregar funcionalidades solicitadas por los usuarios como check-in/check-out digital y sección de servicios del hotel. La base establecida en este sprint proporciona una plataforma sólida para estas expansiones.
+El desarrollo de Smart Stay representó un ejercicio completo de ingeniería de software, desde la concepción y diseño hasta la implementación y validación con usuarios reales. El equipo Edgerunners logró construir un producto cohesivo que integra múltiples tecnologías y principios de diseño de software modernos.
+La experiencia adquirida durante los cuatro sprints del proyecto no solo resultó en un producto funcional, sino también en el desarrollo de competencias profesionales esenciales para la industria del software: trabajo en equipo efectivo, comunicación técnica clara, adaptabilidad ante desafíos técnicos, y compromiso con la calidad del producto final.
+Smart Stay está ahora posicionado como una solución completa y operativa que puede transformar la manera en que los hoteles boutique gestionan sus operaciones, marcando el inicio de una nueva era de hospitalidad digital e inteligente.
 
 ### About-The-Team
 
@@ -4236,7 +4238,7 @@ Para futuros sprints, se recomienda implementar los bounded contexts de IAM y Pr
 
 **URL de Microsoft Stream:**
 
-[About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDIzqcXR55lQYHH8Y5vxEXyASvOA81jxk1r0dNiQP2-Ieg?e=hNzPm7)
+About-The-Team : https://tinyurl.com/pc9anud3
 
 
 <div style="page-break-after: always;"></div>
@@ -5148,7 +5150,7 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 
 ### Anexo C - Videos de exposiciones
 
-- Video About the Product: [https://shre.ink/q5p2](https://shre.ink/q5p2)
+- Video About the Product: https://shre.ink/q5p2
 - Video About the team:
 - Video Exposición del Trabajo Final:
 
@@ -5156,25 +5158,25 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 
 ### Anexo D - Evidencias de deployments
 
-- Deployment de Landing Page: [https://shre.ink/q5f6](https://shre.ink/q5f6)
-- Deployment de Front End: [https://shre.ink/q5fR](https://shre.ink/q5fR)
-- Deployment de Back End: [https://shre.ink/q5fZ](https://shre.ink/q5fZ)
+- Deployment de Landing Page: https://shre.ink/q5f6
+- Deployment de Front End: https://shre.ink/q5fR
+- Deployment de Back End: https://shre.ink/q5fZ
 
 <div style="page-break-after: always;"></div>
 
 ### Anexo E - Repsotorios de proyectos
 
-- Repsortorio del reporte: [https://shre.ink/q5f7](https://shre.ink/q5f7)
-- Repositorio de Landing Page:[https://shre.ink/q5fx](https://shre.ink/q5fx)
-- Repositorio de Front End: [https://shre.ink/q5fo](https://shre.ink/q5fo)
-- Repositorio de Back End: [https://shre.ink/q5fb](https://shre.ink/q5fb)
+- Repsortorio del reporte: https://shre.ink/q5f7
+- Repositorio de Landing Page: https://shre.ink/q5fx
+- Repositorio de Front End: https://shre.ink/q5fo
+- Repositorio de Back End: https://shre.ink/q5fb
 
 <div style="page-break-after: always;"></div>
 
 ### Anexo F - Wireframes y Mockups de Landing Page y aplicación
 
-- Figma Landing Page: [https://shre.ink/q5fr](https://shre.ink/q5fr)
-- Figma Front End: [https://shre.ink/q5fs](https://shre.ink/q5fs)
+- Figma Landing Page: https://shre.ink/q5fr
+- Figma Front End: https://shre.ink/q5fs
 
   
 
