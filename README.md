@@ -48,53 +48,139 @@ Esta sección inicia en una página nueva e incluye un cuadro con la siguiente e
 | Versión |   Fecha    |                 Autor                 |                 Descripción de los Cambios                  |
 |:-------:|:----------:|:-------------------------------------:|:-----------------------------------------------------------:|
 |   1.0   | 01/09/2025 | Jose Jhonatan Saavedra Angulo (Líder) | Estructuración inicial del proyecto y coordinación del equipo |
-|   1.0   | 01/09/2025 |     Italo Sebastian Verona Flores     | Creación del documento inicial del Informe de Trabajo Final |
-|   1.1   | 15/09/2025 |    Natalia Ximena Valverde Portuguez  | Desarrollo de wireframes, mockups y guías de estilo visual |
-|   1.2   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
-|   1.3   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
-|   2.0   | 30/09/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
-|   2.1   | 15/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Documentación del Sprint 3: Development Evidence, Deployment Evidence y Team Collaboration Insights |
-|   2.2   | 16/10/2025 |   Alexander Piero Fernandez Garfias   | Corrección de terminología: actualización de referencias a "bounded contexts" en todo el documento |
-|   2.3   | 18/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora de User Stories y Technical Stories: eliminación de referencias a UI y reescritura con formato API REST según estándares del profesor |
-|   2.4   | 19/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora del Sprint Goal del Sprint 3 según formato Outcome-Impact-Event |
-|   2.5   | 20/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Corrección del Sprint Backlog 3 para alinearlo con las User Stories y Technical Stories definidas |
-|   2.6   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Completar sección de Evaluaciones según heurísticas (5.3.3) siguiendo formato del Anexo D |
-|   2.7   | 21/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar sección de Video About-the-Product (5.4) con estructura completa |
-|   2.8   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar secciones de Conclusiones y Bibliografía al final del documento |
-|   2.9   | 22/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Limpieza de assets no utilizados y corrección de referencias de imágenes en secciones de Empathy Mapping y EventStorming |
+|   1.1   | 01/09/2025 |     Italo Sebastian Verona Flores     | Creación del documento inicial del Informe de Trabajo Final |
+|   1.2   | 11/09/2025 |    Natalia Ximena Valverde Portuguez  | Desarrollo de wireframes, mockups y guías de estilo visual |
+|   2.0   | 20/09/2025 |   Alexander Piero Fernandez Garfias   | Implementación de landing page y desarrollo front-end |
+|   2.1   | 25/09/2025 |     Aldair Joaquin Ramos Aguirre      | Elaboración de EventStorming e Impact Mapping |
+|   2.2   | 5/10/2025 |  Equipo Edgerunners (Todos los miembros) | Finalización y revisión integral del Informe de Trabajo Final |
+|   3.0   | 24/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Documentación del Sprint 3: Development Evidence, Deployment Evidence y Team Collaboration Insights |
+|   3.1   | 25/10/2025 |   Alexander Piero Fernandez Garfias   | Corrección de terminología: actualización de referencias a "bounded contexts" en todo el documento |
+|   3.2   | 31/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora de User Stories y Technical Stories: eliminación de referencias a UI y reescritura con formato API REST según estándares del profesor |
+|   3.3   | 31/10/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Mejora del Sprint Goal del Sprint 3 según formato Outcome-Impact-Event |
+|   3.4   | 01/11/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Corrección del Sprint Backlog 3 para alinearlo con las User Stories y Technical Stories definidas |
+|   3.5   | 02/11/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Completar sección de Evaluaciones según heurísticas (5.3.3) siguiendo formato del Anexo D |
+|   3.6   | 03/11/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar sección de Video About-the-Product (5.4) con estructura completa |
+|   3.7   | 10/11/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Agregar secciones de Conclusiones y Bibliografía al final del documento |
+|   3.8   | 15/11/2025 |  Equipo Edgerunners (Jose, Italo, Natalia, Alexander) | Limpieza de assets no utilizados y corrección de referencias de imágenes en secciones de Empathy Mapping y EventStorming |
+|   4.0   | 21/11/2025 |  Equipo Edgerunners (Daniel, Jareth, Natalia, Italo) | Documentación del Sprint 4: Development Evidence, Deployment Evidence y Team Collaboration Insights |
+|   4.1   | 25/11/2025 | Natalia Ximena Valverde Portuguez   | Corrección en Landing Page que permita abrir el nuevo FrontEnd y arreglos en la estructura FrontEnd para ajustarlo al Backend |
+|   4.2   | 30/11/2025 | Italo Sebastian Verona Flores | Desarrollo de la integración de bounded context relacionado a los usuarios y sus perfiles, y bookings del rol guest del BackEnd junto con el FrontEnd |
+|   4.3   | 01/12/2025 | Diego Vicente Seminario Castillo| Creación de vistas de método de pago en el bounded context Payments del FrontEnd|
+|   4.4   | 02/12/2025 | Jareth Beycker Vidal Malaga | Integración de rol staff del BackEnd junto con FrontEnd |
+|   4.5   | 03/12/2025 | Equipo Edgerunners (Daniel, Jareth, Natalia, Italo)  | Correcciones del documento del Trabajo final y videos como About The Team |
+|   4.6   | 04/12/2025 |Equipo Edgerunners (Daniel, Jareth, Natalia, Italo)  | Corrección la función de traducción del FrontEnd después de correcciones de integración con el BackEnd |
+
 
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
-- **URL de la organización del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web
 - **URL del repositorio para el Project Report:** https://github.com/Edgerunners-Aplicaciones-Web/report
-- **URL del repositorio de la landing page del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/landing-page
-- **URL desplegada de la landing page:** https://edgerunners-aplicaciones-web.github.io/landing-page/
-- **URL del repositorio del frontend del proyecto:** https://github.com/Edgerunners-Aplicaciones-Web/frontend-smartstay
-- **URL del repositorio del backend:** https://github.com/Edgerunners-Aplicaciones-Web/backend-smartstay
 
-### Colaboración y Evidencia de Trabajo en Equipo
 
 El desarrollo del presente informe de trabajo final se realizó de manera colaborativa utilizando las herramientas de control de versiones de GitHub. A continuación se presenta la evidencia de la participación y contribuciones de cada miembro del equipo:
 
-#### Análisis de Commits por Colaborador
+El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo por cada entrega.
 
-El trabajo en el repositorio del informe demuestra la participación activa de todos los miembros del equipo:
+*Primer Avance*
 
-<img src="assets/commits_team1.png" alt="Colaboración del Equipo" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;">
+En el Primer Avance el objetivo principal fue la construcción completa del informe base del proyecto. El equipo trabajó en:
+
+- Estructura del documento (portada, índice, organización de capítulos).
+
+- Desarrollo de contenido general y conceptual:
+
+- Contexto del proyecto
+
+- Problemática y objetivos
+
+- Alcance del sistema
+
+- Arquitectura conceptual
+
+- Identificación inicial de usuarios, funcionalidades y módulos
+
+- Definición de lineamientos de estilo y formato del documento.
+
+- Revisión colaborativa del contenido, ajustando redacción, coherencia y estilo.
 
 
-#### Distribución de Contribuciones
 
-La colaboración se distribuyó de la siguiente manera:
+![commits_team1](assets/commits_team1.png)
 
-- **Gestión del repositorio y estructura inicial:** Configuración de la estructura base del documento
-- **Desarrollo de contenido por capítulos:** Cada miembro contribuyó con secciones específicas según su área de especialización
-- **Revisión y refinamiento:** Proceso iterativo de mejora del contenido mediante pull requests y revisiones colaborativas
-- **Integración final:** Consolidación de todas las contribuciones en el documento final
+![commits_team2](assets/commits_team2.png)
 
-#### Metodología de Trabajo Colaborativo
+Los gráficos muestran la distribución del trabajo del equipo durante esta fase, donde todos los miembros aportaron contenido significativo al informe base.
+
+
+*Segundo Avance (Trabajo Parcial)*
+
+Durante el segundo avance, el informe se actualizó para documentar los avances técnicos realizados en los Sprint 1 y Sprint 2, los cuales se centraron en:
+
+- Sprint 1: Implementación inicial de la Landing Page (estructura HTML/CSS).
+
+- Sprint 2: Desarrollo del frontend con mayor detalle:
+
+  - Beneficios, secciones informativas y navegación
+
+  - Diseño, maquetación y primeros componentes visuales
+
+  - Integración de estilos y estructura responsive
+
+En el informe se añadieron:
+
+- Capítulos de Evidencia de Desarrollo,
+
+- Capturas del frontend,
+
+- Avances registrados en GitHub,
+
+- Tablas de commits y evidencias de Trello.
+
+ 
+
+![comits](assets/comits3.jpeg)
+
+![comits](assets/comits4.jpeg)
+
+El incremento notable de commits en la documentación refleja el desarrollo técnico del frontend y las mejoras continuas al informe.
+
+
+*Tercer Avance*
+
+En el tercer avance se integró la documentación del Sprint 3:
+
+- Sprint 3 – Backend
+
+  - Diseño y creación de la arquitectura del backend con Spring Boot
+
+  - Implementación de entidades, repositorios, controladores y servicios
+
+  - Generación de endpoints y pruebas iniciales
+
+  - Evidencias de Swagger, commits y estructura del proyecto
+
+
+
+![comits](assets/comits5.png)
+
+![comits](assets/comits6.png)
+ 
+ Los gráficos reflejan la documentación del trabajo más técnico orientado al backend.
+
+
+*Cuarto Avance (Trabajo Final)*
+
+En el cuarto avance se integró la documentación del Sprint 4:
+
+- Sprint 4 – Aquí nos enfocamos más en la integración de frontend con backend y API RESTful.
+
+  Aquí se unieron dos integrantes más a nuestro equipo y a su vez dos dejaron el proyecto hasta el anterior sprint.
+
+ Los gráficos reflejan la documentación final con medidas de participación en este trabajo final.
+
+
+### Metodología de Trabajo Colaborativo
 
 - **Control de versiones:** Uso de Git para el seguimiento de cambios y colaboración
 - **Revisiones de contenido:** Implementación de pull requests para la validación del contenido
@@ -4891,6 +4977,10 @@ Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técni
 - Se utilizó **Trello** para la gestión visual de tareas y seguimiento del Sprint Backlog.
 
 Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
+
+![comits](assets/comits5.png)
+
+![comits](assets/comits6.png)
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
