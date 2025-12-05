@@ -4430,7 +4430,7 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 
 - Video About the Product: https://shre.ink/q5p2
 - Video About the team: https://shre.ink/q5f6
-- Video Exposición del Trabajo Final:
+- Video Exposición del Trabajo Final: https://n9.cl/nvn43m
 
 <div style="page-break-after: always;"></div>
 
