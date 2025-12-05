@@ -3861,7 +3861,49 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Para el despliegue del backend se realizaron los siguientes pasos:
+
+El despliegue del backend de SmartStay se realizó utilizando **Render**, un servicio en la nube que permite ejecutar aplicaciones en contenedores Docker. El proceso de deployment se integra directamente con GitHub, lo que hace posible que los cambios en la rama principal (`master`) se desplieguen automáticamente en el entorno de producción.
+
+<img src="./assets/chapter05/smarstayapi2.png" alt="Execution Backend 2">
+
+1. Conexión con GitHub y Rama de Producción
+El servicio de Render fue configurado para monitorear el repositorio del proyecto y desplegar cada actualización realizada en la rama `master`.  
+Esto permite que cualquier avance validado por el equipo se publique automáticamente sin intervenciones manuales.
+
+2. Proceso Automático de Build y Deploy
+Cada vez que se detecta un nuevo commit en `master`, Render ejecuta el siguiente flujo:
+
+- *Descarga del código fuente* desde el repositorio.
+- *Construcción del contenedor Docker*, utilizando el `Dockerfile` del proyecto.
+- *Compilación y verificación de dependencias* del backend.
+- *Inicialización del servicio*, exponiéndolo en la URL pública del backend:
+   ```
+   https://smart-backend-jv56p.onrender.com
+   ```
+- *Verificación de estado*: si el servicio inicia correctamente, Render lo mantiene activo; si ocurre algún error, el despliegue se marca como fallido.
+
+Este proceso garantiza consistencia entre el código entregado por el equipo y la versión que se ejecuta en producción.
+
+3. Manejo de Fallos y Rollback
+Si durante el build o la ejecución del contenedor ocurre un error, Render:
+
+- marca el deployment como **fallido**,  
+- conserva la última versión estable del backend,  
+- permite realizar un **rollback** de forma segura.
+
+Esto asegura que el servicio continúe funcionando sin interrupciones mientras se corrigen los errores detectados.
+
+4. Resultados del Deployment
+Tras aplicar las configuraciones necesarias (como variables de entorno, conexión a la base de datos y servicios de autenticación), el backend pudo desplegarse correctamente.  
+Actualmente, la API se encuentra disponible en producción, sirviendo los endpoints correspondientes a:
+
+- Authentication  
+- Users  
+- Bookings  
+- Payments  
+- Rooms  
+- Room Types  
+
 
 <img src="./assets/chapter05/smartapi2.png" alt="Backend 1">
 
