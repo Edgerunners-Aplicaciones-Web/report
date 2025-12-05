@@ -5283,17 +5283,70 @@ El despliegue se realizó exitosamente y se puede visualizar su funcionamiento. 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+En esta entrega se agregaron endpoints para Users y Authetication. 
+
+## **Authentication**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| POST | `/api/v1/authentication/sign-in` | Iniciar sesión | Body: `email`, `password` | `{ "token": "abc123", "refreshToken": "xyz789" }` |
+| POST | `/api/v1/authentication/sign-up` | Registrar usuario | Body: `name`, `email`, `password` | `{ "message": "User created" }` |
+
+
+
+## **Users**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| GET | `/api/v1/users/{id}` | Obtener usuario por ID | Path: `id` | `{ "id": 1, "email": "user@mail.com" }` |
+| GET | `/api/v1/users` | Obtener todos los usuarios | — | `[ { "id": 1, "email": "user@mail.com" } ]` |
+
+Se actualizaron las que ya habían sido creadas.
+
+## **Payments**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| POST | `/api/v1/payments/{paymentId}/process` | Procesar un pago | Path: `paymentId` | `{ "status": "processed" }` |
+| POST | `/api/v1/payments/{paymentId}/fail` | Marcar pago como fallido | Path: `paymentId` | `{ "status": "failed" }` |
+
+
+
+## **Bookings**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| GET | `/api/v1/bookings/{bookingId}` | Obtener reserva por ID | Path: `bookingId` | `{ "id": 10, "status": "pending" }` |
+| POST | `/api/v1/bookings` | Crear reserva | Body: `userId`, `roomId`, `dates` | `{ "message": "Booking created" }` |
+| GET | `/api/v1/bookings/room/{roomId}` | Obtener reservas por habitación | Path: `roomId` | `[ { "bookingId": 22 } ]` |
+| POST | `/api/v1/bookings/{bookingId}/confirm` | Confirmar reserva | Path: `bookingId` | `{ "status": "confirmed" }` |
+| POST | `/api/v1/bookings/{bookingId}/cancel` | Cancelar reserva | Path: `bookingId` | `{ "status": "canceled" }` |
+
+
+
+## **Rooms**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| GET | `/api/v1/rooms/{roomId}` | Obtener habitación por ID | Path: `roomId` | `{ "id": 105, "capacity": 3 }` |
+| POST | `/api/v1/rooms` | Crear habitación | Body: `typeId`, `hotelId`, `price`, `number`, `amenities` | `{ "message": "Room created" }` |
+| GET | `/api/v1/rooms` | Obtener todas las habitaciones | — | `[ { "id": 105 } ]` |
+| GET | `/api/v1/rooms/type/{roomTypeId}` | Obtener habitaciones por tipo | Path: `roomTypeId` | `[ { "id": 120 } ]` |
+
+
+
+## **Room Types**
+| Método | Endpoint | Descripción | Parámetros | Ejemplo Response |
+|--------|----------|-------------|------------|------------------|
+| GET | `/api/v1/room-types/{roomTypeId}` | Obtener tipo de habitación por ID | Path: `roomTypeId` | `{ "id": 1, "name": "Suite" }` |
+| POST | `/api/v1/room-types` | Crear tipo de habitación | Body: `name`, `description` | `{ "message": "Room type created" }` |
+| GET | `/api/v1/room-types` | Obtener todos los tipos | — | `[ { "id": 1, "name": "Suite" } ]` |
+
 Para el uso de datos en el frontend se utiliza la API del backend desarrollado y desplegado.
-
-<img src="./assets/chapter05/smartapi2.png" alt="Backend 1">
-
-<img src="./assets/chapter05/smartapi3.png" alt="Backend 2">
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Para el despliegue del backend se realizaron los siguientes pasos:
 
+<img src="./assets/chapter05/smartapi2.png" alt="Backend 1">
+
+<img src="./assets/chapter05/smartapi3.png" alt="Backend 2">
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
