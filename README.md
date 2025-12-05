@@ -497,117 +497,20 @@ El análisis competitivo permite identificar las fortalezas, debilidades y estra
 
 **Matriz comparativa de competidores**
 
-<table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
-    <td colspan="4">Este análisis permite identificar las fortalezas y debilidades de nuestra startup (Smart Stay) frente a los principales arquetipos de competidores, revelando oportunidades clave y amenazas potenciales para definir una propuesta de valor única y una estrategia sólida.</td>
-  </tr>
 
-  <tr>
-<th colspan="2">Competidores</th>
-<th>Smart Stay<br>
-<img src="assets/Chapter-02/logo.png" alt="Smart Stay Logo" width="60">
-</th>
-<th>
-Oracle Hospitality<br>
-<img src="assets/Chapter-02/oracle-hospitality.png" alt="Oracle Hospitality Logo" width="60">
-</th>
-<th>
-Room Raccoon<br>
-<img src="assets/Chapter-02/logo-roomraccoon.jpeg" alt="Room Raccoon Logo" width="60">
-</th>
-<th>
-Sistemas Manuales<br>
-<img src="assets/Chapter-02/Sistemas-Manuales.jpg" alt="Sistemas Manuales Logo" width="60">
-</th>
-
-  </tr>
-
-  <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil</th>
-    <td><b>Overview</b></td>
-    <td>Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped.</td>
-    <td>Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras.</td>
-    <td>SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes.</td>
-    <td>Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales.</td>
-  </tr>
-  <tr>
-    <td><b>Ventaja competitiva</b><br>¿qué valor ofrece a los clientes?</td>
-    <td>Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM.</td>
-    <td>Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala.</td>
-    <td>Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente.</td>
-    <td>Costo casi nulo y flexibilidad total al no depender de ningún software.</td>
-  </tr>
-
-  <tr>
-    <th rowspan="2" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Marketing</th>
-    <td><b>Mercado objetivo</b></td>
-    <td>Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse.</td>
-    <td>Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas.</td>
-    <td>Hoteles pequeños, hostales, B&Bs y apartamentos turísticos.</td>
-    <td>Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Estrategias de marketing</b></td>
-    <td>Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM.</td>
-    <td>Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria.</td>
-    <td>Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas.</td>
-    <td>Inexistente. Adopción por necesidad o falta de alternativas conocidas.</td>
-  </tr>
-
-  <tr>
-    <th rowspan="3" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Perfil de Producto</th>
-    <td><b>Productos & Servicios</b></td>
-    <td>PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos.</td>
-    <td>Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones.</td>
-    <td>Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping.</td>
-    <td>Hojas de cálculo, libros de registro, calendarios de papel.</td>
-  </tr>
-  <tr>
-    <td><b>Precios & Costos</b></td>
-    <td>Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial.</td>
-    <td>Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización.</td>
-    <td>Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible.</td>
-    <td>Gratuito o el costo de una licencia de Office.</td>
-  </tr>
-  <tr>
-    <td><b>Canales de distribución</b><br>(Web y/o Móvil)</td>
-    <td>Plataforma web (Cloud) y aplicación móvil para huéspedes y staff.</td>
-    <td>Aplicación web (Cloud) para el personal del hotel.</td>
-    <td>Plataforma web (Cloud).</td>
-    <td>Offline.</td>
-  </tr>
-
-  <tr>
-    <th rowspan="4" style="writing-mode: vertical-rl; text-orientation: mixed; text-align:center;">Análisis SWOT</th>
-    <td><b>Fortalezas</b></td>
-    <td>Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna.</td>
-    <td>Marca líder, producto robusto y escalable, gran base de clientes cautiva.</td>
-    <td>Fácil de usar, rápido de implementar, excelente soporte, precio transparente.</td>
-    <td>Costo cero, simplicidad absoluta, sin necesidad de capacitación.</td>
-  </tr>
-  <tr>
-    <td><b>Debilidades</b></td>
-    <td>Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT.</td>
-    <td>Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador.</td>
-    <td>Funcionalidades limitadas para hoteles grandes o con operaciones complejas.</td>
-    <td>Ineficiente, propenso a errores, no escalable, sin conectividad online.</td>
-  </tr>
-  <tr>
-    <td><b>Oportunidades</b></td>
-    <td>Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles.</td>
-    <td>Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos.</td>
-    <td>Expandirse a mercados emergentes, añadir más integraciones de terceros.</td>
-    <td>Ninguna. Es el punto de partida para la digitalización.</td>
-  </tr>
-  <tr>
-    <td><b>Amenazas</b></td>
-    <td>Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector.</td>
-    <td>Nuevos competidores SaaS ágiles y más económicos, ciberseguridad.</td>
-    <td>Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite".</td>
-    <td>Cualquier software básico representa una amenaza existencial.</td>
-  </tr>
-</table>
+| Categoría | Aspecto | Smart Stay<br>![Smart Stay](assets/Chapter-02/logo.png) | Oracle Hospitality<br>![Oracle](assets/Chapter-02/oracle-hospitality.png) | Room Raccoon<br>![Room Raccoon](assets/Chapter-02/logo-roomraccoon.jpeg) | Sistemas Manuales<br>![Sistemas Manuales](assets/Chapter-02/Sistemas-Manuales.jpg) |
+|-----------|---------|----------|-------------------|---------------|------------------|
+| **PERFIL** | **Overview** | Plataforma integral de gestión hotelera con enfoque en hoteles boutique y medianos, incorporando IoT y personalización del huésped. | Soluciones globales y completas (PMS/OPERA) para gestión de grandes cadenas hoteleras. | SaaS en la nube todo-en-uno (PMS, Channel Manager, Motor de Reservas) intuitivo, orientado a hoteles pequeños e independientes. | Sistemas tradicionales que usan Excel, papel y lápiz. Procesos 100% manuales. |
+| **PERFIL** | **Ventaja competitiva**<br>¿qué valor ofrece a los clientes? | Accesibilidad, personalización profunda de la experiencia del huésped mediante IoT, y un enfoque especializado en el mercado LATAM. | Reconocimiento global, robustez, soluciones integrales y confiabilidad para operaciones a gran escala. | Extrema facilidad de uso, rápida implementación y un soporte al cliente muy valorado. Todo en uno para el hotelero independiente. | Costo casi nulo y flexibilidad total al no depender de ningún software. |
+| **PERFIL DE MARKETING** | **Mercado objetivo** | Hoteles boutique, medianos y en crecimiento en LATAM que buscan diferenciarse. | Grandes cadenas hoteleras globales y resorts de lujo con operaciones complejas. | Hoteles pequeños, hostales, B&Bs y apartamentos turísticos. | Hoteles muy pequeños o de baja tecnología que no han iniciado su digitalización. |
+| **PERFIL DE MARKETING** | **Estrategias de marketing** | Marketing de contenidos enfocado en modernización, diferenciación por IoT y experiencia del huésped. Pilotos en LATAM. | Ventas corporativas B2B, branding global y posicionamiento como el estándar de la industria. | Marketing digital (SEO, SEM) enfocado en facilidad de uso y buen soporte. Altas calificaciones en sitios de reseñas. | Inexistente. Adopción por necesidad o falta de alternativas conocidas. |
+| **PERFIL DE PRODUCTO** | **Productos & Servicios** | PMS, Channel Manager, Motor de Reservas, App para huéspedes con control IoT (luces, temp), reportes analíticos. | Suite OPERA Cloud (PMS, Ventas y Catering, POS), reportes y analítica avanzada, integraciones. | Plataforma todo-en-uno: PMS, Channel Manager, Motor de Reservas, Pagos, Housekeeping. | Hojas de cálculo, libros de registro, calendarios de papel. |
+| **PERFIL DE PRODUCTO** | **Precios & Costos** | Modelo SaaS por suscripción mensual, probablemente escalado por número de habitaciones. Costo de hardware IoT inicial. | Licenciamiento enterprise. Costos de implementación y mantenimiento muy elevados. Solo por cotización. | Suscripción mensual transparente y pública, basada en el número de habitaciones. Muy accesible. | Gratuito o el costo de una licencia de Office. |
+| **PERFIL DE PRODUCTO** | **Canales de distribución**<br>(Web y/o Móvil) | Plataforma web (Cloud) y aplicación móvil para huéspedes y staff. | Aplicación web (Cloud) para el personal del hotel. | Plataforma web (Cloud). | Offline. |
+| **ANÁLISIS SWOT** | **Fortalezas** | Propuesta de valor única (IoT), enfoque en nicho desatendido (boutique LATAM), tecnología moderna. | Marca líder, producto robusto y escalable, gran base de clientes cautiva. | Fácil de usar, rápido de implementar, excelente soporte, precio transparente. | Costo cero, simplicidad absoluta, sin necesidad de capacitación. |
+| **ANÁLISIS SWOT** | **Debilidades** | Marca nueva sin reputación, requiere instalación de hardware, necesidad de educar al mercado sobre IoT. | Costo prohibitivo para pymes, implementación lenta y compleja, considerado poco innovador. | Funcionalidades limitadas para hoteles grandes o con operaciones complejas. | Ineficiente, propenso a errores, no escalable, sin conectividad online. |
+| **ANÁLISIS SWOT** | **Oportunidades** | Crecimiento del turismo en LATAM, demanda de experiencias personalizadas, adopción de "smart homes" extrapolable a hoteles. | Migración de sus clientes on-premise a la nube, venta cruzada de nuevos módulos. | Expandirse a mercados emergentes, añadir más integraciones de terceros. | Ninguna. Es el punto de partida para la digitalización. |
+| **ANÁLISIS SWOT** | **Amenazas** | Grandes jugadores añadiendo módulos IoT, competidores SaaS más ágiles, lenta adopción tecnológica en el sector. | Nuevos competidores SaaS ágiles y más económicos, ciberseguridad. | Competencia intensa en el segmento de pymes, que un PMS más grande ofrezca una versión "lite". | Cualquier software básico representa una amenaza existencial. |
 
 #### 2.1.2  Estrategias y Tácticas frente a Competidores.
 
@@ -1011,146 +914,27 @@ Administradores de Hoteles Boutique y Pequeños en Lima (User Persona: Administr
 
 Huéspedes de Hoteles Boutique (User Persona: Huésped)
 
-<table>
-  <tr>
-    <th rowspan="2">Tarea / Task</th>
-    <th colspan="2">Administradores</th>
-    <th colspan="2">Huéspedes</th>
-  </tr>
-  <tr>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
-  </tr>
-  <tr>
-    <td>Centralizar reservas en un único sistema</td>
-    <td>Alta</td>
-    <td>Alta</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Evitar sobreventa por falta de sincronización</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Gestionar check-in/check-out (automatizado o rápido)</td>
-    <td>Alta</td>
-    <td>Alta</td>
-    <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Monitorear ocupación, tarifas y disponibilidad</td>
-    <td>Alta</td>
-    <td>Alta</td>
-    <td>Media</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Generar reportes de operación y KPIs</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Gestionar pagos y facturación digital</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Coordinar housekeeping y mantenimiento</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Capacitar al equipo en nuevas herramientas</td>
-    <td>Baja</td>
-    <td>Media</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Controlar costos operativos y presupuesto TI</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Baja</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Integrar canales (OTAs, WhatsApp, Booking)</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Gestionar reseñas y reputación digital</td>
-    <td>Media</td>
-    <td>Alta</td>
-    <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Personalizar comunicación y upselling</td>
-    <td>Media</td>
-    <td>Media</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Realizar reservas y pagos desde el móvil</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Realizar check-in sin contacto</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Control de habitación vía app (WiFi/TV/servicios)</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Solicitar servicios internos por app/chat</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Consultar mapas, recomendaciones y beneficios</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Media</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-    <td>Evaluar y dejar reseñas post-estadía</td>
-    <td>—</td>
-    <td>—</td>
-    <td>Media</td>
-    <td>Alta</td>
-  </tr>
-</table>
-
+| Tarea / Task | **Administradores** | | **Huéspedes** | |
+|--------------|---------------------|-------------------|-------------|-------------------|
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Centralizar reservas en un único sistema | Alta | Alta | Media | Alta |
+| Evitar sobreventa por falta de sincronización | Media | Alta | Baja | Media |
+| Gestionar check-in/check-out (automatizado o rápido) | Alta | Alta | Alta | Alta |
+| Monitorear ocupación, tarifas y disponibilidad | Alta | Alta | Media | Media |
+| Generar reportes de operación y KPIs | Media | Alta | Baja | Media |
+| Gestionar pagos y facturación digital | Media | Alta | Media | Alta |
+| Coordinar housekeeping y mantenimiento | Media | Alta | Baja | Media |
+| Capacitar al equipo en nuevas herramientas | Baja | Media | Baja | Media |
+| Controlar costos operativos y presupuesto TI | Media | Alta | Baja | Media |
+| Integrar canales (OTAs, WhatsApp, Booking) | Media | Alta | Media | Alta |
+| Gestionar reseñas y reputación digital | Media | Alta | Alta | Alta |
+| Personalizar comunicación y upselling | Media | Media | Media | Alta |
+| Realizar reservas y pagos desde el móvil | — | — | Alta | Alta |
+| Realizar check-in sin contacto | — | — | Alta | Alta |
+| Control de habitación vía app (WiFi/TV/servicios) | — | — | Media | Alta |
+| Solicitar servicios internos por app/chat | — | — | Alta | Alta |
+| Consultar mapas, recomendaciones y beneficios | — | — | Media | Media |
+| Evaluar y dejar reseñas post-estadía | — | — | Media | Alta |
 **Análisis:**
 
 **Tareas de mayor frecuencia e importancia compartidas:**
@@ -1353,420 +1137,58 @@ El análisis conjunto de ambos segmentos brinda una visión integral para mejora
 
 ## 3.3. Product Backlog.
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>#</th>
-      <th>Order</th>
-      <th>User Story Id</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>1</td>
-      <td>US-24</td>
-      <td>Segmented landing page</td>
-      <td><strong>As</strong> a visitor, <strong>I want</strong> to find specific information according to my profile (hotel administrator or guest) <strong>to</strong> understand Smart Stay's value.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>2</td>
-      <td>US-25</td>
-      <td>ROI simulator for hotels</td>
-      <td><strong>As</strong> a visiting hotel administrator, <strong>I want</strong> to use a simulator to estimate the return on investment I would get with Smart Stay <strong>to</strong> make informed decisions.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>3</td>
-      <td>US-27</td>
-      <td>Demo request and commercial contact</td>
-      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to request a demonstration and contact the sales team easily and quickly <strong>to</strong> explore Smart Stay solutions.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>4</td>
-      <td>US-26</td>
-      <td>Success stories and testimonials</td>
-      <td><strong>As</strong> an interested visitor, <strong>I want</strong> to see real success stories from hotels using Smart Stay <strong>to</strong> validate solution effectiveness.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>5</td>
-      <td>US-28</td>
-      <td>Corporate information and values</td>
-      <td><strong>As</strong> a visitor, <strong>I want</strong> to know Smart Stay's mission, vision and values <strong>to</strong> understand the company's philosophy.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>6</td>
-      <td>US-05</td>
-      <td>Administrator dashboard</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel with key information <strong>to</strong> manage my hotel efficiently.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>7</td>
-      <td>US-07</td>
-      <td>Centralized reservation management</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all reservations in one place <strong>to</strong> avoid overbooking and optimize occupancy.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>8</td>
-      <td>US-08</td>
-      <td>Automated digital check-in</td>
-      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> check-in to be performed digitally in less than 3 minutes <strong>to</strong> improve experience.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>9</td>
-      <td>US-09</td>
-      <td>Digital check-out and billing</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to perform digital check-out and receive my invoice automatically <strong>to</strong> expedite my departure.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>10</td>
-      <td>US-06</td>
-      <td>Room and status management</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage all room statuses <strong>to</strong> optimize daily operations.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>11</td>
-      <td>US-20</td>
-      <td>OTA and booking channel integration</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate my inventory with Booking.com, Expedia and other OTAs <strong>to</strong> maximize occupancy and avoid overbooking.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>12</td>
-      <td>US-01</td>
-      <td>User registration with validation</td>
-      <td><strong>As</strong> a new user, <strong>I want</strong> to register in Smart Stay by validating my email <strong>to</strong> access functionalities according to my role.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>13</td>
-      <td>US-02</td>
-      <td>Secure login</td>
-      <td><strong>As</strong> a registered user, <strong>I want</strong> to login securely <strong>to</strong> access my personalized dashboard according to my role.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>14</td>
-      <td>US-11</td>
-      <td>IoT environmental control from mobile app</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to control temperature, lighting and other environmental aspects from my smartphone <strong>to</strong> personalize my experience.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>15</td>
-      <td>US-12</td>
-      <td>Service requests from app</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to request room service, additional cleaning and other services from my smartphone <strong>to</strong> access services conveniently.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>16</td>
-      <td>US-23</td>
-      <td>Digital payment processing</td>
-      <td><strong>As</strong> an administrator and guest, <strong>I want</strong> to process payments securely and efficiently through multiple payment methods <strong>to</strong> ensure smooth transactions.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>17</td>
-      <td>US-10</td>
-      <td>Staff task assignment and tracking</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to assign tasks to staff and track their progress <strong>to</strong> optimize operations.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>18</td>
-      <td>US-16</td>
-      <td>Analytics dashboard and operational KPIs</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to visualize key metrics and KPIs <strong>to</strong> make informed decisions about hotel operations.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>19</td>
-      <td>US-34</td>
-      <td>Mobile push notification system</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to receive push notifications on my smartphone about my request and service status <strong>to</strong> stay informed.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>20</td>
-      <td>US-35</td>
-      <td>Automatic staff notifications</td>
-      <td><strong>As</strong> hotel staff, <strong>I want</strong> to receive automatic notifications about assigned tasks and important operational changes <strong>to</strong> respond promptly.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>21</td>
-      <td>US-21</td>
-      <td>WhatsApp Business integration</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to use WhatsApp Business for direct guest communication and pre/post-stay query management <strong>to</strong> improve customer service.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>22</td>
-      <td>US-13</td>
-      <td>Digital guest-staff communication</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to communicate with hotel staff digitally <strong>to</strong> resolve questions and requests quickly.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>23</td>
-      <td>US-22</td>
-      <td>Digital reputation management</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage Google, TripAdvisor and OTA reviews from one place <strong>to</strong> maintain good online reputation.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>24</td>
-      <td>US-17</td>
-      <td>Financial and occupancy reports</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to generate financial and occupancy reports <strong>to</strong> support management analysis and decision making.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>25</td>
-      <td>US-19</td>
-      <td>IoT energy consumption monitoring</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to monitor energy consumption of rooms and common areas <strong>to</strong> optimize operational costs.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>26</td>
-      <td>US-14</td>
-      <td>Experience personalization based on preferences</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> the system to learn my preferences <strong>to</strong> offer personalized experiences and services.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>27</td>
-      <td>US-15</td>
-      <td>Post-stay evaluation and feedback</td>
-      <td><strong>As</strong> a guest, <strong>I want</strong> to evaluate my experience and leave feedback <strong>to</strong> help the hotel improve its services.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>28</td>
-      <td>28</td>
-      <td>US-18</td>
-      <td>Guest satisfaction analysis</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze guest satisfaction <strong>to</strong> identify improvement areas and maintain service quality.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>29</td>
-      <td>US-29</td>
-      <td>RESTful API for room management</td>
-      <td><strong>As</strong> a developer, <strong>I want</strong> to access RESTful endpoints <strong>to</strong> integrate Smart Stay with external hotel management systems.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>30</td>
-      <td>US-30</td>
-      <td>API for IoT device control</td>
-      <td><strong>As</strong> a developer, <strong>I want</strong> endpoints to control room IoT devices <strong>to</strong> enable integration with external applications.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>31</td>
-      <td>31</td>
-      <td>US-31</td>
-      <td>API authentication and authorization</td>
-      <td><strong>As</strong> a developer, <strong>I want</strong> a secure authentication system <strong>to</strong> access Smart Stay API endpoints safely.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>32</td>
-      <td>32</td>
-      <td>US-32</td>
-      <td>Interactive API documentation</td>
-      <td><strong>As</strong> a developer, <strong>I want</strong> to access complete and interactive documentation <strong>to</strong> easily integrate with Smart Stay API.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>33</td>
-      <td>33</td>
-      <td>US-33</td>
-      <td>Webhooks for real-time events</td>
-      <td><strong>As</strong> a developer, <strong>I want</strong> to configure webhooks <strong>to</strong> receive automatic notifications when important Smart Stay events occur.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>34</td>
-      <td>34</td>
-      <td>US-03</td>
-      <td>Profile and role management</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage users, assign roles and permissions <strong>to</strong> control access to different functionalities.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>35</td>
-      <td>US-04</td>
-      <td>Password recovery</td>
-      <td><strong>As</strong> a user, <strong>I want</strong> to recover my password via email <strong>to</strong> regain access to my account.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td>36</td>
-      <td>US-36</td>
-      <td>Automated email marketing</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to send automated personalized emails to guests at different stages <strong>to</strong> enhance customer experience.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>37</td>
-      <td>37</td>
-      <td>US-37</td>
-      <td>Intelligent alerts and escalation</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to receive intelligent alerts about operational problems with automatic escalation <strong>to</strong> ensure quick resolution.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>38</td>
-      <td>38</td>
-      <td>US-38</td>
-      <td>Unified communication panel</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> a centralized panel to manage all communications <strong>to</strong> streamline guest interaction management.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>39</td>
-      <td>US-39</td>
-      <td>Native mobile app for staff</td>
-      <td><strong>As</strong> hotel staff, <strong>I want</strong> a dedicated mobile app to manage my tasks and communication <strong>to</strong> work efficiently while on the move.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>40</td>
-      <td>US-42</td>
-      <td>Multi-hotel configuration for chains</td>
-      <td><strong>As</strong> a hotel chain administrator, <strong>I want</strong> to manage multiple properties from a master account <strong>to</strong> centralize operations with independent configurations.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>41</td>
-      <td>US-43</td>
-      <td>Integration with existing PMS systems</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with my current PMS system <strong>to</strong> migrate gradually without interrupting operations.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>42</td>
-      <td>US-44</td>
-      <td>Brand customization per hotel</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to customize interface and communications with my hotel's brand <strong>to</strong> maintain visual consistency.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>43</td>
-      <td>US-45</td>
-      <td>Integrated loyalty program</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage a loyalty program for recurring guests <strong>to</strong> provide automatic benefits and increase retention.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>44</td>
-      <td>US-46</td>
-      <td>Event and conference management</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to manage special events and conferences <strong>to</strong> provide specific group functionalities.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>45</td>
-      <td>US-47</td>
-      <td>IoT predictive maintenance</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> the IoT system to predict maintenance needs <strong>to</strong> optimize equipment performance and reduce downtime.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>46</td>
-      <td>46</td>
-      <td>US-48</td>
-      <td>Competition analysis and dynamic pricing</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to analyze competitor prices and adjust my rates automatically <strong>to</strong> optimize revenue.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>47</td>
-      <td>47</td>
-      <td>US-49</td>
-      <td>Automated compliance and auditing</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> the system to generate automatic compliance reports <strong>to</strong> facilitate regulatory audits.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>48</td>
-      <td>48</td>
-      <td>US-50</td>
-      <td>Security system integration</td>
-      <td><strong>As</strong> an administrator, <strong>I want</strong> to integrate Smart Stay with hotel security systems <strong>to</strong> provide automated access management.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td>49</td>
-      <td>US-40</td>
-      <td>Data backup and recovery</td>
-      <td><strong>As</strong> a technical administrator, <strong>I want</strong> the system to have automatic backup and disaster recovery <strong>to</strong> guarantee operational continuity.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>50</td>
-      <td>50</td>
-      <td>US-41</td>
-      <td>System monitoring and logs</td>
-      <td><strong>As</strong> a technical administrator, <strong>I want</strong> to monitor system performance and access detailed logs <strong>to</strong> support troubleshooting activities.</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
+| # | Order | User Story Id | Title | Description | Story Points (1/2/3/5/8) |
+|---|-------|---------------|-------|-------------|--------------------------|
+| 1 | 1 | US-24 | Segmented landing page | **As** a visitor, **I want** to find specific information according to my profile (hotel administrator or guest) **to** understand Smart Stay's value. | 5 |
+| 2 | 2 | US-25 | ROI simulator for hotels | **As** a visiting hotel administrator, **I want** to use a simulator to estimate the return on investment I would get with Smart Stay **to** make informed decisions. | 8 |
+| 3 | 3 | US-27 | Demo request and commercial contact | **As** an interested visitor, **I want** to request a demonstration and contact the sales team easily and quickly **to** explore Smart Stay solutions. | 3 |
+| 4 | 4 | US-26 | Success stories and testimonials | **As** an interested visitor, **I want** to see real success stories from hotels using Smart Stay **to** validate solution effectiveness. | 5 |
+| 5 | 5 | US-28 | Corporate information and values | **As** a visitor, **I want** to know Smart Stay's mission, vision and values **to** understand the company's philosophy. | 2 |
+| 6 | 6 | US-05 | Administrator dashboard | **As** an administrator, **I want** a centralized panel with key information **to** manage my hotel efficiently. | 8 |
+| 7 | 7 | US-07 | Centralized reservation management | **As** an administrator, **I want** to manage all reservations in one place **to** avoid overbooking and optimize occupancy. | 8 |
+| 8 | 8 | US-08 | Automated digital check-in | **As** an administrator and guest, **I want** check-in to be performed digitally in less than 3 minutes **to** improve experience. | 8 |
+| 9 | 9 | US-09 | Digital check-out and billing | **As** a guest, **I want** to perform digital check-out and receive my invoice automatically **to** expedite my departure. | 5 |
+| 10 | 10 | US-06 | Room and status management | **As** an administrator, **I want** to manage all room statuses **to** optimize daily operations. | 5 |
+| 11 | 11 | US-20 | OTA and booking channel integration | **As** an administrator, **I want** to integrate my inventory with Booking.com, Expedia and other OTAs **to** maximize occupancy and avoid overbooking. | 8 |
+| 12 | 12 | US-01 | User registration with validation | **As** a new user, **I want** to register in Smart Stay by validating my email **to** access functionalities according to my role. | 3 |
+| 13 | 13 | US-02 | Secure login | **As** a registered user, **I want** to login securely **to** access my personalized dashboard according to my role. | 3 |
+| 14 | 14 | US-11 | IoT environmental control from mobile app | **As** a guest, **I want** to control temperature, lighting and other environmental aspects from my smartphone **to** personalize my experience. | 8 |
+| 15 | 15 | US-12 | Service requests from app | **As** a guest, **I want** to request room service, additional cleaning and other services from my smartphone **to** access services conveniently. | 5 |
+| 16 | 16 | US-23 | Digital payment processing | **As** an administrator and guest, **I want** to process payments securely and efficiently through multiple payment methods **to** ensure smooth transactions. | 8 |
+| 17 | 17 | US-10 | Staff task assignment and tracking | **As** an administrator, **I want** to assign tasks to staff and track their progress **to** optimize operations. | 5 |
+| 18 | 18 | US-16 | Analytics dashboard and operational KPIs | **As** an administrator, **I want** to visualize key metrics and KPIs **to** make informed decisions about hotel operations. | 8 |
+| 19 | 19 | US-34 | Mobile push notification system | **As** a guest, **I want** to receive push notifications on my smartphone about my request and service status **to** stay informed. | 5 |
+| 20 | 20 | US-35 | Automatic staff notifications | **As** hotel staff, **I want** to receive automatic notifications about assigned tasks and important operational changes **to** respond promptly. | 3 |
+| 21 | 21 | US-21 | WhatsApp Business integration | **As** an administrator, **I want** to use WhatsApp Business for direct guest communication and pre/post-stay query management **to** improve customer service. | 5 |
+| 22 | 22 | US-13 | Digital guest-staff communication | **As** a guest, **I want** to communicate with hotel staff digitally **to** resolve questions and requests quickly. | 5 |
+| 23 | 23 | US-22 | Digital reputation management | **As** an administrator, **I want** to manage Google, TripAdvisor and OTA reviews from one place **to** maintain good online reputation. | 5 |
+| 24 | 24 | US-17 | Financial and occupancy reports | **As** an administrator, **I want** to generate financial and occupancy reports **to** support management analysis and decision making. | 5 |
+| 25 | 25 | US-19 | IoT energy consumption monitoring | **As** an administrator, **I want** to monitor energy consumption of rooms and common areas **to** optimize operational costs. | 8 |
+| 26 | 26 | US-14 | Experience personalization based on preferences | **As** a guest, **I want** the system to learn my preferences **to** offer personalized experiences and services. | 8 |
+| 27 | 27 | US-15 | Post-stay evaluation and feedback | **As** a guest, **I want** to evaluate my experience and leave feedback **to** help the hotel improve its services. | 3 |
+| 28 | 28 | US-18 | Guest satisfaction analysis | **As** an administrator, **I want** to analyze guest satisfaction **to** identify improvement areas and maintain service quality. | 5 |
+| 29 | 29 | US-29 | RESTful API for room management | **As** a developer, **I want** to access RESTful endpoints **to** integrate Smart Stay with external hotel management systems. | 8 |
+| 30 | 30 | US-30 | API for IoT device control | **As** a developer, **I want** endpoints to control room IoT devices **to** enable integration with external applications. | 8 |
+| 31 | 31 | US-31 | API authentication and authorization | **As** a developer, **I want** a secure authentication system **to** access Smart Stay API endpoints safely. | 5 |
+| 32 | 32 | US-32 | Interactive API documentation | **As** a developer, **I want** to access complete and interactive documentation **to** easily integrate with Smart Stay API. | 3 |
+| 33 | 33 | US-33 | Webhooks for real-time events | **As** a developer, **I want** to configure webhooks **to** receive automatic notifications when important Smart Stay events occur. | 5 |
+| 34 | 34 | US-03 | Profile and role management | **As** an administrator, **I want** to manage users, assign roles and permissions **to** control access to different functionalities. | 5 |
+| 35 | 35 | US-04 | Password recovery | **As** a user, **I want** to recover my password via email **to** regain access to my account. | 2 |
+| 36 | 36 | US-36 | Automated email marketing | **As** an administrator, **I want** to send automated personalized emails to guests at different stages **to** enhance customer experience. | 5 |
+| 37 | 37 | US-37 | Intelligent alerts and escalation | **As** an administrator, **I want** to receive intelligent alerts about operational problems with automatic escalation **to** ensure quick resolution. | 5 |
+| 38 | 38 | US-38 | Unified communication panel | **As** an administrator, **I want** a centralized panel to manage all communications **to** streamline guest interaction management. | 8 |
+| 39 | 39 | US-39 | Native mobile app for staff | **As** hotel staff, **I want** a dedicated mobile app to manage my tasks and communication **to** work efficiently while on the move. | 8 |
+| 40 | 40 | US-42 | Multi-hotel configuration for chains | **As** a hotel chain administrator, **I want** to manage multiple properties from a master account **to** centralize operations with independent configurations. | 8 |
+| 41 | 41 | US-43 | Integration with existing PMS systems | **As** an administrator, **I want** to integrate Smart Stay with my current PMS system **to** migrate gradually without interrupting operations. | 8 |
+| 42 | 42 | US-44 | Brand customization per hotel | **As** an administrator, **I want** to customize interface and communications with my hotel's brand **to** maintain visual consistency. | 5 |
+| 43 | 43 | US-45 | Integrated loyalty program | **As** an administrator, **I want** to manage a loyalty program for recurring guests **to** provide automatic benefits and increase retention. | 8 |
+| 44 | 44 | US-46 | Event and conference management | **As** an administrator, **I want** to manage special events and conferences **to** provide specific group functionalities. | 8 |
+| 45 | 45 | US-47 | IoT predictive maintenance | **As** an administrator, **I want** the IoT system to predict maintenance needs **to** optimize equipment performance and reduce downtime. | 8 |
+| 46 | 46 | US-48 | Competition analysis and dynamic pricing | **As** an administrator, **I want** to analyze competitor prices and adjust my rates automatically **to** optimize revenue. | 8 |
+| 47 | 47 | US-49 | Automated compliance and auditing | **As** an administrator, **I want** the system to generate automatic compliance reports **to** facilitate regulatory audits. | 5 |
+| 48 | 48 | US-50 | Security system integration | **As** an administrator, **I want** to integrate Smart Stay with hotel security systems **to** provide automated access management. | 8 |
+| 49 | 49 | US-40 | Data backup and recovery | **As** a technical administrator, **I want** the system to have automatic backup and disaster recovery **to** guarantee operational continuity. | 5 |
+| 50 | 50 | US-41 | System monitoring and logs | **As** a technical administrator, **I want** to monitor system performance and access detailed logs **to** support troubleshooting activities. | 3 |
 
 <div style="page-break-after: always;"></div>
 
@@ -4090,116 +3512,20 @@ Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y orde
 
 Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
 
-<table align="center"  border="1" width="90%" style="text-align:center;">
-    <tr align="left">
-        <td>
-            <b>Sprint 4</b>
-        </td>
-        <td>
-            <b>Sprint 4</b>           
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            01/12/25
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            9:00 PM         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Modalidad Remota por Discord  
-        </td>
-    </tr>
-     </tr>
-       <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            Seminario Castillo, Diego Vicente
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Attendess (to planning meeting)</b>
-        </td>
-        <td>
-            - Verona Flores, Italo Sebastián<br>
-            - Valverde Portuguez, Natalia Ximena <br>
-            - Seminario Castillo, Diego Vicente <br>
-            -  Jareth Beycker Vidal Malaga<br>
-            -  <br>
-            - <br>
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Goal & User Stories</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Goal</b>
-        </td>
-        <td>
-            Our focus is on offering more secure access to guests, providing an enhanced profile management process to users, and incrementing new feature possibilities to the development team members.  We believe it delivers easier authentication to visitors, more flexibility on profile updates to users, and opportunities for implementing more payment-related features in the hotel management ecosystem to development team. This will be confirmed when guests can register and log in securely in no more than three steps, users can update or delete their profiles without intervention of support staff, customers can complete online payments using input masks with accuracy and simplicity, and developers implement new features related to authentication, profiles, and payments using the implemented endpoints without intervention of backend development team.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Velocity</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
-</table>
+| **Sprint 4** | **Sprint 4** |
+|--------------|--------------|
+| **Sprint Planning Background** | |
+| **Date** | 01/12/25 |
+| **Time** | 9:00 PM |
+| **Location** | Modalidad Remota por Discord |
+| **Prepared By** | Seminario Castillo, Diego Vicente |
+| **Attendees (to planning meeting)** | - Verona Flores, Italo Sebastián<br>- Valverde Portuguez, Natalia Ximena<br>- Seminario Castillo, Diego Vicente<br>- Jareth Beycker Vidal Malaga |
+| **Sprint n - 4 Review Summary** | Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend. |
+| **Sprint n - 4 Retrospective Summary** | Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | Our focus is on offering more secure access to guests, providing an enhanced profile management process to users, and incrementing new feature possibilities to the development team members. We believe it delivers easier authentication to visitors, more flexibility on profile updates to users, and opportunities for implementing more payment-related features in the hotel management ecosystem to development team. This will be confirmed when guests can register and log in securely in no more than three steps, users can update or delete their profiles without intervention of support staff, customers can complete online payments using input masks with accuracy and simplicity, and developers implement new features related to authentication, profiles, and payments using the implemented endpoints without intervention of backend development team. |
+| **Sprint 4 Velocity** | 61 |
+| **Sum of Story Points** | 61 |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
