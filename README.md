@@ -4243,6 +4243,10 @@ Smart Stay está ahora posicionado como una solución completa y operativa que p
 
 ### About-The-Team
 
+Este video muestra de manera clara y dinámica los avances logrados por cada integrante del equipo, destacando las tareas que desarrollaron, los retos que enfrentaron y las soluciones que implementaron. Además, recoge sus impresiones personales sobre el curso, incluyendo qué les pareció la experiencia, las habilidades que adquirieron y el aprendizaje que obtuvieron a lo largo del proceso.
+
+**URL de Microsoft Stream:**
+
 **URL de Microsoft Stream:** https://n9.cl/f59e0
 **Youtube** : https://n9.cl/f59e0
 
@@ -4416,7 +4420,7 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 ### Anexo C - Videos de exposiciones
 
 - Video About the Product: https://shre.ink/q5p2
-- Video About the team: https://n9.cl/f59e0
+- Video About the team: https://shre.ink/q5f6
 - Video Exposición del Trabajo Final: https://n9.cl/nvn43m
 
 <div style="page-break-after: always;"></div>
