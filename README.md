@@ -3798,9 +3798,17 @@ Como parte del trabajo colaborativo, se elaboró la Matriz de Liderazgo y Colabo
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 El despliegue se realizó exitosamente y se puede visualizar su funcionamiento. Este se encuentra en el siguiente enlace: https://smart-backend-y5q6.onrender.com/swagger/index.html
+*"El estado actual del proyecto Smart Stay, como se evidencia en la documentación visual adjunta, demuestra una arquitectura Backend robusta desplegada en la nube (Render) y documentada (Swagger), lista para soportar transacciones complejas. A nivel de Frontend, se ha logrado implementar el flujo visual completo del huésped, desde la selección de hoteles hasta la interfaz de la pasarela de pagos.
+
+Las imágenes del tablero Kanban confirman que, habiendo superado los desafíos de infraestructura (configuración de Docker y conectividad de red), el foco estratégico del Sprint 4 es estrictamente la integración: conectar los formularios de UI de Pagos y Autenticación con los endpoints ya existentes en el Backend para cerrar el ciclo de negocio."*
 
 <img src="./assets/chapter05/smarstayapi.png" alt="Execution Backend 1">
 <img src="./assets/chapter05/smarstayapi2.png" alt="Execution Backend 2">
+<img src="./assets/chapter05/Deploy1.jpg" alt="Execution Backend 3">
+<img src="./assets/chapter05/Deploy2.jpg" alt="Execution Backend 4">
+<img src="./assets/chapter05/Deploy3.jpg" alt="Execution Backend 5">
+<img src="./assets/chapter05/Deploy4.jpg" alt="Execution Backend 6">
+<img src="./assets/chapter05/Deploy5.jpg" alt="Execution Backend 7">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -3810,8 +3818,6 @@ Para el uso de datos en el frontend se utiliza la API del backend desarrollado y
 
 <img src="./assets/chapter05/smartapi3.png" alt="Backend 2">
 
-
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 ## 5.2.4.7. Software Deployment Evidence for Sprint Review
 
